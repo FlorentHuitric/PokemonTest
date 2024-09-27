@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_ac16p"]
+[ext_resource type="Resource" path="res://data/abilities/Sniper.tres" id="2_uwiiw"]
+[ext_resource type="Resource" path="res://data/abilities/Damp.tres" id="3_v6b1i"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_vs5nn"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_qbsiu"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="6_uyohp"]
+
+[resource]
+script = ExtResource("4_vs5nn")
+pokemon_id = 230
+branch_code = ""
+names = {
+"en": "Kingdra"
+}
+generation = 2
+height = 1.8
+weight = 152.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_qbsiu"), ExtResource("6_uyohp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ac16p"), ExtResource("2_uwiiw"), ExtResource("3_v6b1i")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Dragon")
+catch_rate = 45
+base_experience = 270
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 95,
+"hp": 75,
+"special_attack": 95,
+"special_defense": 95,
+"speed": 85,
+"total": 540
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/230.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/230.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/230.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/230.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

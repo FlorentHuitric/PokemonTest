@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_ioktr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3q1wr"]
+
+[resource]
+script = ExtResource("2_3q1wr")
+move_id = 475
+move_name = {
+"en": "Autotomize",
+"fr": "Autotomize"
+}
+move_type = ExtResource("1_ioktr")
+category = "Status"
+contest = "Beautiful"
+power = 0
+accuracy = 0
+pp = 15
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

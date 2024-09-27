@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Water Absorb.tres" id="1_ktxui"]
+[ext_resource type="Resource" path="res://data/abilities/Damp.tres" id="2_yqyyo"]
+[ext_resource type="Resource" path="res://data/abilities/Drizzle.tres" id="3_a2bof"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_exqxf"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_jya4b"]
+
+[resource]
+script = ExtResource("4_exqxf")
+pokemon_id = 186
+branch_code = ""
+names = {
+"en": "Politoed"
+}
+generation = 2
+height = 1.1
+weight = 33.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jya4b")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ktxui"), ExtResource("2_yqyyo"), ExtResource("3_a2bof")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1")
+catch_rate = 45
+base_experience = 250
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 75,
+"hp": 90,
+"special_attack": 90,
+"special_defense": 100,
+"speed": 70,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/186.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/186.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/186.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/186.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/186.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/186.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/186.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/186.png"
+description = {
+"en": "",
+"fr": ""
+}

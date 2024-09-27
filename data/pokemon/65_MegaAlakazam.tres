@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Trace.tres" id="1_nj3td"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_gx76m"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_3ypy2"]
+
+[resource]
+script = ExtResource("2_gx76m")
+pokemon_id = 65
+branch_code = ""
+names = {
+"en": "Mega Alakazam"
+}
+generation = 1
+height = 1.2
+weight = 48.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_3ypy2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_nj3td")])
+color = "Brown"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 50
+base_experience = 270
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 65,
+"hp": 55,
+"special_attack": 175,
+"special_defense": 105,
+"speed": 150,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/65-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/65-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/65-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/65-mega.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/65-mega.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/65-mega.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/65-mega.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/65-mega.png"
+description = {
+"en": "",
+"fr": ""
+}

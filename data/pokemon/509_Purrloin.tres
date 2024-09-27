@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="1_5g3ef"]
+[ext_resource type="Resource" path="res://data/abilities/Unburden.tres" id="2_tcipt"]
+[ext_resource type="Resource" path="res://data/abilities/Prankster.tres" id="3_jp3no"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_dhtgp"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_5tabm"]
+
+[resource]
+script = ExtResource("4_dhtgp")
+pokemon_id = 509
+branch_code = ""
+names = {
+"en": "Purrloin"
+}
+generation = 5
+height = 0.4
+weight = 10.1
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_5tabm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5g3ef"), ExtResource("2_tcipt"), ExtResource("3_jp3no")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 56
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 37,
+"hp": 41,
+"special_attack": 50,
+"special_defense": 37,
+"speed": 66,
+"total": 281
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/509.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/509.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/509.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/509.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

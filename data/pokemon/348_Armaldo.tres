@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Battle Armor.tres" id="1_imjea"]
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="2_cq13i"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_yix2b"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_w5beo"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_18rvp"]
+
+[resource]
+script = ExtResource("3_yix2b")
+pokemon_id = 348
+branch_code = ""
+names = {
+"en": "Armaldo"
+}
+generation = 3
+height = 1.5
+weight = 68.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_w5beo"), ExtResource("5_18rvp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_imjea"), ExtResource("2_cq13i")])
+color = "Gray"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Water3")
+catch_rate = 45
+base_experience = 173
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 100,
+"hp": 75,
+"special_attack": 70,
+"special_defense": 80,
+"speed": 45,
+"total": 495
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/348.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/348.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/348.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/348.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

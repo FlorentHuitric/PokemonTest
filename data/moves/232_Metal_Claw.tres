@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_lgwtw"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_rshu6"]
+
+[resource]
+script = ExtResource("2_rshu6")
+move_id = 232
+move_name = {
+"en": "Metal Claw",
+"fr": "Metal Claw"
+}
+move_type = ExtResource("1_lgwtw")
+category = "Physical"
+contest = "Cool"
+power = 50
+accuracy = 95
+pp = 35
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

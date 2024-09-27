@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_mo510"]
+[ext_resource type="Resource" path="res://data/abilities/Unnerve.tres" id="2_3yrod"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_x6wl2"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_yc12t"]
+
+[resource]
+script = ExtResource("3_x6wl2")
+pokemon_id = 150
+branch_code = ""
+names = {
+"en": "Mewtwo"
+}
+generation = 1
+height = 2.0
+weight = 122.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_yc12t")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mo510"), ExtResource("2_3yrod")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 340
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 90,
+"hp": 106,
+"special_attack": 154,
+"special_defense": 90,
+"speed": 130,
+"total": 680
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/150.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/150.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/150.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/150.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

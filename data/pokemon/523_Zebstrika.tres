@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Lightning Rod.tres" id="1_knlhy"]
+[ext_resource type="Resource" path="res://data/abilities/Motor Drive.tres" id="2_wucvf"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="3_rn1ye"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_cfm2k"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_nyk10"]
+
+[resource]
+script = ExtResource("4_cfm2k")
+pokemon_id = 523
+branch_code = ""
+names = {
+"en": "Zebstrika"
+}
+generation = 5
+height = 1.6
+weight = 79.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_nyk10")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_knlhy"), ExtResource("2_wucvf"), ExtResource("3_rn1ye")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 174
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 63,
+"hp": 75,
+"special_attack": 80,
+"special_defense": 63,
+"speed": 116,
+"total": 497
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/523.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/523.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/523.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/523.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

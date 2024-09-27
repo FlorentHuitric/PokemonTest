@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Steadfast.tres" id="1_rb71o"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5r3gi"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_e0pdx"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_07ytk"]
+
+[resource]
+script = ExtResource("2_5r3gi")
+pokemon_id = 150
+branch_code = ""
+names = {
+"en": "Mega Mewtwo X"
+}
+generation = 1
+height = 2.3
+weight = 127.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_e0pdx"), ExtResource("4_07ytk")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_rb71o")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 351
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 190,
+"defense": 100,
+"hp": 106,
+"special_attack": 154,
+"special_defense": 100,
+"speed": 130,
+"total": 780
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/150-mega-x.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/150-mega-x.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/150-mega-x.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/150-mega-x.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

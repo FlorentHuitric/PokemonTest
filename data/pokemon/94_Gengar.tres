@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cursed Body.tres" id="1_mac2v"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_yci0o"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="3_acqa5"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="4_nq58r"]
+
+[resource]
+script = ExtResource("2_yci0o")
+pokemon_id = 94
+branch_code = ""
+names = {
+"en": "Gengar"
+}
+generation = 1
+height = 1.5
+weight = 40.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_acqa5"), ExtResource("4_nq58r")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mac2v")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 45
+base_experience = 250
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 60,
+"hp": 60,
+"special_attack": 130,
+"special_defense": 75,
+"speed": 110,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/94.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/94.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/94.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/94.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

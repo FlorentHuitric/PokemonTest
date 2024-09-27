@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_1sng2"]
+[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="2_m5v4m"]
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="3_803ox"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ptm0q"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_6d8gq"]
+
+[resource]
+script = ExtResource("4_ptm0q")
+pokemon_id = 664
+branch_code = ""
+names = {
+"en": "Scatterbug"
+}
+generation = 6
+height = 0.3
+weight = 2.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6d8gq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1sng2"), ExtResource("2_m5v4m"), ExtResource("3_803ox")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 255
+base_experience = 40
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 35,
+"defense": 40,
+"hp": 38,
+"special_attack": 27,
+"special_defense": 25,
+"speed": 35,
+"total": 200
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/664.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/664.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/664.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/664.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

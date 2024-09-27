@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Marvel Scale.tres" id="1_agnpw"]
+[ext_resource type="Resource" path="res://data/abilities/Competitive.tres" id="2_jk000"]
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="3_x4y8b"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_c0qbi"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_58ivc"]
+
+[resource]
+script = ExtResource("4_c0qbi")
+pokemon_id = 350
+branch_code = ""
+names = {
+"en": "Milotic"
+}
+generation = 3
+height = 6.2
+weight = 162.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_58ivc")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_agnpw"), ExtResource("2_jk000"), ExtResource("3_x4y8b")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Dragon")
+catch_rate = 60
+base_experience = 189
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 79,
+"hp": 95,
+"special_attack": 100,
+"special_defense": 125,
+"speed": 81,
+"total": 540
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/350.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/350.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/350.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/350.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/350.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/350.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/350.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/350.png"
+description = {
+"en": "",
+"fr": ""
+}

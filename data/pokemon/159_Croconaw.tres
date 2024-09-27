@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_mm1sg"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="2_n4d1m"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_mhhvv"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_8pg3a"]
+
+[resource]
+script = ExtResource("3_mhhvv")
+pokemon_id = 159
+branch_code = ""
+names = {
+"en": "Croconaw"
+}
+generation = 2
+height = 1.1
+weight = 25.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_8pg3a")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mm1sg"), ExtResource("2_n4d1m")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Water1")
+catch_rate = 45
+base_experience = 142
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 80,
+"hp": 65,
+"special_attack": 59,
+"special_defense": 63,
+"speed": 58,
+"total": 405
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/159.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/159.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/159.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/159.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

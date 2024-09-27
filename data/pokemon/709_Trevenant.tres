@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Natural Cure.tres" id="1_i0ebx"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_fl8yt"]
+[ext_resource type="Resource" path="res://data/abilities/Harvest.tres" id="3_nmtif"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_71gbr"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_1k55h"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="6_ykadl"]
+
+[resource]
+script = ExtResource("4_71gbr")
+pokemon_id = 709
+branch_code = ""
+names = {
+"en": "Trevenant"
+}
+generation = 6
+height = 1.5
+weight = 71.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1k55h"), ExtResource("6_ykadl")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_i0ebx"), ExtResource("2_fl8yt"), ExtResource("3_nmtif")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass", "Amorphous")
+catch_rate = 60
+base_experience = 166
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 76,
+"hp": 85,
+"special_attack": 65,
+"special_defense": 82,
+"speed": 56,
+"total": 474
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/709.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/709.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/709.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/709.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

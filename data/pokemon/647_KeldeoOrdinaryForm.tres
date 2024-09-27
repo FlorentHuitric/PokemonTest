@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Justified.tres" id="1_hwgxh"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_b0tfw"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_bspdm"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_saxkm"]
+
+[resource]
+script = ExtResource("2_b0tfw")
+pokemon_id = 647
+branch_code = ""
+names = {
+"en": "Keldeo Ordinary Form"
+}
+generation = 5
+height = 1.4
+weight = 48.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_bspdm"), ExtResource("4_saxkm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_hwgxh")])
+color = "Yellow"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 80
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 290
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 72,
+"defense": 90,
+"hp": 91,
+"special_attack": 129,
+"special_defense": 90,
+"speed": 108,
+"total": 580
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/647.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/647.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/647.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/647.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

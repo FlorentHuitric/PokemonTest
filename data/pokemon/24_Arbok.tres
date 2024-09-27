@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_a1n7y"]
+[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="2_ct2lw"]
+[ext_resource type="Resource" path="res://data/abilities/Unnerve.tres" id="3_bsjg7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_1i20p"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_igb5g"]
+
+[resource]
+script = ExtResource("4_1i20p")
+pokemon_id = 24
+branch_code = ""
+names = {
+"en": "Arbok"
+}
+generation = 1
+height = 3.5
+weight = 65.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_igb5g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a1n7y"), ExtResource("2_ct2lw"), ExtResource("3_bsjg7")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Dragon")
+catch_rate = 90
+base_experience = 157
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 69,
+"hp": 60,
+"special_attack": 65,
+"special_defense": 79,
+"speed": 80,
+"total": 448
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/24.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/24.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/24.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/24.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

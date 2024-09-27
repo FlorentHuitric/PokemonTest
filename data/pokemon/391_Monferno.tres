@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_hgq81"]
+[ext_resource type="Resource" path="res://data/abilities/Iron Fist.tres" id="2_d01o0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_tumom"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_uigbj"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_o3g7g"]
+
+[resource]
+script = ExtResource("3_tumom")
+pokemon_id = 391
+branch_code = ""
+names = {
+"en": "Monferno"
+}
+generation = 4
+height = 0.9
+weight = 22.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_uigbj"), ExtResource("5_o3g7g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_hgq81"), ExtResource("2_d01o0")])
+color = "Brown"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Human-Like")
+catch_rate = 45
+base_experience = 142
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 78,
+"defense": 52,
+"hp": 64,
+"special_attack": 78,
+"special_defense": 52,
+"speed": 81,
+"total": 405
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/391.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/391.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/391.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/391.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

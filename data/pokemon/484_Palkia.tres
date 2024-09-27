@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_v0egc"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_iqolu"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_t0wuj"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_jd3db"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="5_squog"]
+
+[resource]
+script = ExtResource("3_t0wuj")
+pokemon_id = 484
+branch_code = ""
+names = {
+"en": "Palkia"
+}
+generation = 4
+height = 4.2
+weight = 336.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_jd3db"), ExtResource("5_squog")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_v0egc"), ExtResource("2_iqolu")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 340
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 100,
+"hp": 90,
+"special_attack": 150,
+"special_defense": 120,
+"speed": 100,
+"total": 680
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/484.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/484.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/484.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/484.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Leaf Guard.tres" id="1_aq4mm"]
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="2_pscrs"]
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="3_7tp6l"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_c3b2i"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_rf6hg"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="6_rb4l3"]
+
+[resource]
+script = ExtResource("4_c3b2i")
+pokemon_id = 541
+branch_code = ""
+names = {
+"en": "Swadloon"
+}
+generation = 5
+height = 0.5
+weight = 7.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_rf6hg"), ExtResource("6_rb4l3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_aq4mm"), ExtResource("2_pscrs"), ExtResource("3_7tp6l")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 120
+base_experience = 133
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 63,
+"defense": 90,
+"hp": 55,
+"special_attack": 50,
+"special_defense": 80,
+"speed": 42,
+"total": 380
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/541.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/541.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/541.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/541.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

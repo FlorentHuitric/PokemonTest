@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="1_7sr2r"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_y3e3j"]
+
+[resource]
+script = ExtResource("2_y3e3j")
+move_id = 198
+move_name = {
+"en": "Bone Rush",
+"fr": "Bone Rush"
+}
+move_type = ExtResource("1_7sr2r")
+category = "Physical"
+contest = "Tough"
+power = 25
+accuracy = 0
+pp = 10
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

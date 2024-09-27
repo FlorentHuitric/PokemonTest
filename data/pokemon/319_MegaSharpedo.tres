@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Strong Jaw.tres" id="1_frdir"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_dmkyh"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_hke1p"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="4_jrij2"]
+
+[resource]
+script = ExtResource("2_dmkyh")
+pokemon_id = 319
+branch_code = ""
+names = {
+"en": "Mega Sharpedo"
+}
+generation = 3
+height = 2.5
+weight = 130.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_hke1p"), ExtResource("4_jrij2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_frdir")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 60
+base_experience = 196
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 140,
+"defense": 70,
+"hp": 70,
+"special_attack": 110,
+"special_defense": 65,
+"speed": 105,
+"total": 560
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/319-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/319-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/319-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/319-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_j5bkr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_w03hc"]
+
+[resource]
+script = ExtResource("2_w03hc")
+move_id = 372
+move_name = {
+"en": "Assurance",
+"fr": "Assurance"
+}
+move_type = ExtResource("1_j5bkr")
+category = "Physical"
+contest = "Clever"
+power = 60
+accuracy = 100
+pp = 10
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

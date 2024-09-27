@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Natural Cure.tres" id="1_7rdyk"]
+[ext_resource type="Resource" path="res://data/abilities/Poison Point.tres" id="2_nkujl"]
+[ext_resource type="Resource" path="res://data/abilities/Leaf Guard.tres" id="3_8q1va"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_c0tc4"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_dc8nn"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_hcj0l"]
+
+[resource]
+script = ExtResource("4_c0tc4")
+pokemon_id = 315
+branch_code = ""
+names = {
+"en": "Roselia"
+}
+generation = 3
+height = 0.3
+weight = 2.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_dc8nn"), ExtResource("6_hcj0l")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7rdyk"), ExtResource("2_nkujl"), ExtResource("3_8q1va")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy", "Grass")
+catch_rate = 150
+base_experience = 140
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 45,
+"hp": 50,
+"special_attack": 100,
+"special_defense": 80,
+"speed": 65,
+"total": 400
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/315.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/315.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/315.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/315.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/315.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/315.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/315.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/315.png"
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="1_om5ir"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_81wid"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_xficq"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="4_ku7y4"]
+
+[resource]
+script = ExtResource("2_81wid")
+pokemon_id = 15
+branch_code = ""
+names = {
+"en": "Mega Beedrill"
+}
+generation = 1
+height = 1.4
+weight = 40.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_xficq"), ExtResource("4_ku7y4")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_om5ir")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 223
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 150,
+"defense": 40,
+"hp": 65,
+"special_attack": 15,
+"special_defense": 80,
+"speed": 145,
+"total": 495
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/15-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/15-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/15-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/15-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

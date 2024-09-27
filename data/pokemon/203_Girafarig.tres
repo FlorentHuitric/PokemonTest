@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="1_bwmri"]
+[ext_resource type="Resource" path="res://data/abilities/Early Bird.tres" id="2_v0fw0"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="3_r8s80"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_0fsjm"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_oulbs"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_kdbua"]
+
+[resource]
+script = ExtResource("4_0fsjm")
+pokemon_id = 203
+branch_code = ""
+names = {
+"en": "Girafarig"
+}
+generation = 2
+height = 1.5
+weight = 41.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_oulbs"), ExtResource("6_kdbua")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bwmri"), ExtResource("2_v0fw0"), ExtResource("3_r8s80")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 60
+base_experience = 159
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 65,
+"hp": 70,
+"special_attack": 90,
+"special_defense": 65,
+"speed": 85,
+"total": 455
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/203.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/203.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/203.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/203.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/203.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/203.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/203.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/203.png"
+description = {
+"en": "",
+"fr": ""
+}

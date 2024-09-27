@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_dcdt1"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_yxx1t"]
+
+[resource]
+script = ExtResource("2_yxx1t")
+move_id = 518
+move_name = {
+"en": "Water Pledge",
+"fr": "Water Pledge"
+}
+move_type = ExtResource("1_dcdt1")
+category = "Special"
+contest = "Beautiful"
+power = 80
+accuracy = 100
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_vmef4"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_wa48i"]
+
+[resource]
+script = ExtResource("2_wa48i")
+move_id = 592
+move_name = {
+"en": "Steam Eruption",
+"fr": "Steam Eruption"
+}
+move_type = ExtResource("1_vmef4")
+category = "Special"
+contest = "Beautiful"
+power = 110
+accuracy = 95
+pp = 5
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

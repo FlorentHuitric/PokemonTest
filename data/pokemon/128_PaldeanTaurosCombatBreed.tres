@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_knlmc"]
+[ext_resource type="Resource" path="res://data/abilities/Anger Point.tres" id="2_cjurv"]
+[ext_resource type="Resource" path="res://data/abilities/Cud Chew.tres" id="3_gee87"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_oetg2"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_6vhvn"]
+
+[resource]
+script = ExtResource("4_oetg2")
+pokemon_id = 128
+branch_code = ""
+names = {
+"en": "Paldean Tauros Combat Breed"
+}
+generation = 1
+height = 1.4
+weight = 115.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6vhvn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_knlmc"), ExtResource("2_cjurv"), ExtResource("3_gee87")])
+color = "Brown"
+gender_ratio = {
+"female": 0.0,
+"male": 100.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 172
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 105,
+"hp": 75,
+"special_attack": 30,
+"special_defense": 70,
+"speed": 100,
+"total": 490
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/128.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/128.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/128.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/128.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

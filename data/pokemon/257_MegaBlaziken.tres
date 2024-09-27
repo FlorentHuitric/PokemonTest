@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Speed Boost.tres" id="1_sxa6q"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_sjip7"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="3_3a637"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_7n043"]
+
+[resource]
+script = ExtResource("2_sjip7")
+pokemon_id = 257
+branch_code = ""
+names = {
+"en": "Mega Blaziken"
+}
+generation = 3
+height = 1.9
+weight = 52.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_3a637"), ExtResource("4_7n043")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_sxa6q")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 284
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 160,
+"defense": 80,
+"hp": 80,
+"special_attack": 130,
+"special_defense": 80,
+"speed": 100,
+"total": 630
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/257-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/257-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/257-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/257-mega.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/257-mega.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/257-mega.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/257-mega.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/257-mega.png"
+description = {
+"en": "",
+"fr": ""
+}

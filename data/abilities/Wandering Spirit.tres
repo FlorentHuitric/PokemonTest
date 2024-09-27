@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_n51im"]
+
+[resource]
+script = ExtResource("1_n51im")
+ability_name = "Wandering Spirit"
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}

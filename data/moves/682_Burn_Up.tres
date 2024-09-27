@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_emsey"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_v71yb"]
+
+[resource]
+script = ExtResource("2_v71yb")
+move_id = 682
+move_name = {
+"en": "Burn Up",
+"fr": "Burn Up"
+}
+move_type = ExtResource("1_emsey")
+category = "Special"
+contest = "???"
+power = 130
+accuracy = 100
+pp = 5
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

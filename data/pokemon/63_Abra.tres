@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="1_fkn7c"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="2_xs08f"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Guard.tres" id="3_e026w"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_10xxb"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_7flst"]
+
+[resource]
+script = ExtResource("4_10xxb")
+pokemon_id = 63
+branch_code = ""
+names = {
+"en": "Abra"
+}
+generation = 1
+height = 0.9
+weight = 19.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_7flst")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fkn7c"), ExtResource("2_xs08f"), ExtResource("3_e026w")])
+color = "Brown"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 200
+base_experience = 62
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 20,
+"defense": 15,
+"hp": 25,
+"special_attack": 105,
+"special_defense": 55,
+"speed": 90,
+"total": 310
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/63.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/63.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/63.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/63.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

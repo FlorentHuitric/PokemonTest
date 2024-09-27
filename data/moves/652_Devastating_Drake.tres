@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="1_hkeyy"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_nsayo"]
+
+[resource]
+script = ExtResource("2_nsayo")
+move_id = 652
+move_name = {
+"en": "Devastating Drake",
+"fr": "Devastating Drake"
+}
+move_type = ExtResource("1_hkeyy")
+category = "Physical"
+contest = "???"
+power = 0
+accuracy = 0
+pp = 1
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

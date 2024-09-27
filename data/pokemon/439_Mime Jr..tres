@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Soundproof.tres" id="1_v7anj"]
+[ext_resource type="Resource" path="res://data/abilities/Filter.tres" id="2_sy7ju"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="3_0lypu"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_5j3b7"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_wgpja"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_v2rss"]
+
+[resource]
+script = ExtResource("4_5j3b7")
+pokemon_id = 439
+branch_code = "439_0"
+names = {
+"en": "Mime Jr.",
+"fr": "Mime Jr."
+}
+generation = 4
+height = 0.6
+weight = 13.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_wgpja"), ExtResource("6_v2rss")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_v7anj"), ExtResource("2_sy7ju"), ExtResource("3_0lypu")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = Array[String](["Undiscovered"])
+catch_rate = 145
+base_experience = 62
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 25,
+"defense": 45,
+"hp": 20,
+"special_attack": 70,
+"special_defense": 90,
+"speed": 60,
+"total": 310
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/439-439_0.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/439-439_0.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/439-439_0.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/439-439_0.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

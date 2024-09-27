@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Berserk.tres" id="1_fcjta"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="2_hnrui"]
+[ext_resource type="Resource" path="res://data/abilities/Cloud Nine.tres" id="3_up080"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_7gp7n"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_2p6np"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="6_4obqp"]
+
+[resource]
+script = ExtResource("4_7gp7n")
+pokemon_id = 780
+branch_code = ""
+names = {
+"en": "Drampa"
+}
+generation = 7
+height = 3.0
+weight = 185.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_2p6np"), ExtResource("6_4obqp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fcjta"), ExtResource("2_hnrui"), ExtResource("3_up080")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Dragon")
+catch_rate = 70
+base_experience = 170
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 85,
+"hp": 78,
+"special_attack": 135,
+"special_defense": 91,
+"speed": 36,
+"total": 485
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/780.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/780.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/780.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/780.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

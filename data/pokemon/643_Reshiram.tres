@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Turboblaze.tres" id="1_wppc0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_edx3w"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="3_0actv"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_ucs1v"]
+
+[resource]
+script = ExtResource("2_edx3w")
+pokemon_id = 643
+branch_code = ""
+names = {
+"en": "Reshiram"
+}
+generation = 5
+height = 3.2
+weight = 330.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_0actv"), ExtResource("4_ucs1v")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_wppc0")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 340
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 100,
+"hp": 100,
+"special_attack": 150,
+"special_defense": 120,
+"speed": 90,
+"total": 680
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/643.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/643.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/643.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/643.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

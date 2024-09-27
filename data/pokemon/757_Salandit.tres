@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Corrosion.tres" id="1_7fabd"]
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="2_sw5n1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_1tvaa"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="4_naqli"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="5_80qea"]
+
+[resource]
+script = ExtResource("3_1tvaa")
+pokemon_id = 757
+branch_code = ""
+names = {
+"en": "Salandit"
+}
+generation = 7
+height = 0.6
+weight = 4.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_naqli"), ExtResource("5_80qea")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7fabd"), ExtResource("2_sw5n1")])
+color = "Black"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Dragon")
+catch_rate = 120
+base_experience = 64
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 44,
+"defense": 40,
+"hp": 48,
+"special_attack": 71,
+"special_defense": 40,
+"speed": 77,
+"total": 320
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/757.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/757.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/757.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/757.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

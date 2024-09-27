@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Good as Gold.tres" id="1_bbbop"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_xax2j"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_br2f0"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_r2sjx"]
+
+[resource]
+script = ExtResource("2_xax2j")
+pokemon_id = 1000
+branch_code = ""
+names = {
+"en": "Gholdengo"
+}
+generation = 9
+height = 1.2
+weight = 30.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_br2f0"), ExtResource("4_r2sjx")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bbbop")])
+color = "Yellow"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 275
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 95,
+"hp": 87,
+"special_attack": 133,
+"special_defense": 91,
+"speed": 84,
+"total": 550
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/1000.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/1000.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/1000.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/1000.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

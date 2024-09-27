@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Magnet Pull.tres" id="1_c6aqx"]
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="2_0avsy"]
+[ext_resource type="Resource" path="res://data/abilities/Galvanize.tres" id="3_5atk0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_sw5mq"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_bk8wr"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="6_874rg"]
+
+[resource]
+script = ExtResource("4_sw5mq")
+pokemon_id = 74
+branch_code = ""
+names = {
+"en": "Alolan Geodude"
+}
+generation = 7
+height = 0.4
+weight = 20.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bk8wr"), ExtResource("6_874rg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_c6aqx"), ExtResource("2_0avsy"), ExtResource("3_5atk0")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 255
+base_experience = 60
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Alolan"
+base_stats = {
+"attack": 80,
+"defense": 100,
+"hp": 40,
+"special_attack": 30,
+"special_defense": 30,
+"speed": 20,
+"total": 300
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/74-alola.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/74-alola.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/74-alola.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/74-alola.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_iox61"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_txa8w"]
+
+[resource]
+script = ExtResource("2_txa8w")
+move_id = 29
+move_name = {
+"en": "Headbutt",
+"fr": "Headbutt"
+}
+move_type = ExtResource("1_iox61")
+category = "Physical"
+contest = "Tough"
+power = 70
+accuracy = 100
+pp = 15
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

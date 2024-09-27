@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_igwbs"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_6gaa7"]
+
+[resource]
+script = ExtResource("2_6gaa7")
+move_id = 265
+move_name = {
+"en": "Smelling Salts",
+"fr": "Smelling Salts"
+}
+move_type = ExtResource("1_igwbs")
+category = "Physical"
+contest = "Tough"
+power = 70
+accuracy = 100
+pp = 10
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Snow Warning.tres" id="1_kkyo4"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_mml5h"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="3_dmkof"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_jypw1"]
+
+[resource]
+script = ExtResource("2_mml5h")
+pokemon_id = 460
+branch_code = ""
+names = {
+"en": "Mega Abomasnow"
+}
+generation = 4
+height = 2.7
+weight = 185.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_dmkof"), ExtResource("4_jypw1")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kkyo4")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Grass")
+catch_rate = 60
+base_experience = 208
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 132,
+"defense": 105,
+"hp": 90,
+"special_attack": 132,
+"special_defense": 105,
+"speed": 30,
+"total": 594
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/460-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/460-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/460-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/460-mega.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/460-mega.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/460-mega.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/460-mega.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/460-mega.png"
+description = {
+"en": "",
+"fr": ""
+}

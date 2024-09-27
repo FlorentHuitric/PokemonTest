@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="1_q16vb"]
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="2_ecrks"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="3_05yrw"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ybauu"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_bygxn"]
+
+[resource]
+script = ExtResource("4_ybauu")
+pokemon_id = 583
+branch_code = ""
+names = {
+"en": "Vanillish"
+}
+generation = 5
+height = 1.1
+weight = 41.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bygxn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_q16vb"), ExtResource("2_ecrks"), ExtResource("3_05yrw")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 120
+base_experience = 138
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 65,
+"hp": 51,
+"special_attack": 80,
+"special_defense": 75,
+"speed": 59,
+"total": 395
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/583.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/583.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/583.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/583.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

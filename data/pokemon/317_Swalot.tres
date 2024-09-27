@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Liquid Ooze.tres" id="1_uloae"]
+[ext_resource type="Resource" path="res://data/abilities/Sticky Hold.tres" id="2_qukdl"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="3_ri040"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_pm78e"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_btyxp"]
+
+[resource]
+script = ExtResource("4_pm78e")
+pokemon_id = 317
+branch_code = ""
+names = {
+"en": "Swalot"
+}
+generation = 3
+height = 1.7
+weight = 80.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_btyxp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uloae"), ExtResource("2_qukdl"), ExtResource("3_ri040")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 75
+base_experience = 163
+experience_type = "1640000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 73,
+"defense": 83,
+"hp": 100,
+"special_attack": 73,
+"special_defense": 83,
+"speed": 55,
+"total": 467
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/317.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/317.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/317.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/317.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/317.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/317.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/317.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/317.png"
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Lightning Rod.tres" id="1_7ebi5"]
+[ext_resource type="Resource" path="res://data/abilities/Motor Drive.tres" id="2_lshti"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="3_p53t2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_aqy7m"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_rsa88"]
+
+[resource]
+script = ExtResource("4_aqy7m")
+pokemon_id = 522
+branch_code = ""
+names = {
+"en": "Blitzle"
+}
+generation = 5
+height = 0.8
+weight = 29.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_rsa88")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7ebi5"), ExtResource("2_lshti"), ExtResource("3_p53t2")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 59
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 32,
+"hp": 45,
+"special_attack": 50,
+"special_defense": 32,
+"speed": 76,
+"total": 295
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/522.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/522.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/522.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/522.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

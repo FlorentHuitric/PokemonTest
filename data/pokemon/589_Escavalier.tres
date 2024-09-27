@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_7p01w"]
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_gcbjw"]
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="3_r6bg8"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_frnvu"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_0jvf5"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_fqy6f"]
+
+[resource]
+script = ExtResource("4_frnvu")
+pokemon_id = 589
+branch_code = ""
+names = {
+"en": "Escavalier"
+}
+generation = 5
+height = 1.0
+weight = 33.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_0jvf5"), ExtResource("6_fqy6f")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7p01w"), ExtResource("2_gcbjw"), ExtResource("3_r6bg8")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 75
+base_experience = 173
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 135,
+"defense": 105,
+"hp": 70,
+"special_attack": 60,
+"special_defense": 105,
+"speed": 20,
+"total": 495
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/589.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/589.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/589.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/589.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

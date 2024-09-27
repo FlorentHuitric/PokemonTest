@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_bna0a"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_x31qa"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_k1yyn"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_ym5js"]
+
+[resource]
+script = ExtResource("3_k1yyn")
+pokemon_id = 355
+branch_code = ""
+names = {
+"en": "Duskull"
+}
+generation = 3
+height = 0.8
+weight = 15.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ym5js")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bna0a"), ExtResource("2_x31qa")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 190
+base_experience = 59
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 40,
+"defense": 90,
+"hp": 20,
+"special_attack": 30,
+"special_defense": 90,
+"speed": 25,
+"total": 295
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/355.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/355.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/355.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/355.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

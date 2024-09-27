@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sticky Hold.tres" id="1_8tsu3"]
+[ext_resource type="Resource" path="res://data/abilities/Storm Drain.tres" id="2_k1r0c"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Force.tres" id="3_esa8j"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_mpw7n"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_ms4yw"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_omfnh"]
+
+[resource]
+script = ExtResource("4_mpw7n")
+pokemon_id = 423
+branch_code = ""
+names = {
+"en": "Gastrodon West-Sea Form"
+}
+generation = 4
+height = 0.9
+weight = 29.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ms4yw"), ExtResource("6_omfnh")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8tsu3"), ExtResource("2_k1r0c"), ExtResource("3_esa8j")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Amorphous")
+catch_rate = 75
+base_experience = 166
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 83,
+"defense": 68,
+"hp": 111,
+"special_attack": 92,
+"special_defense": 82,
+"speed": 39,
+"total": 475
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/423.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/423.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/423.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/423.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

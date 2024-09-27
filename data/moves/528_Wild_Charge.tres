@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="1_d05bd"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_l3o8d"]
+
+[resource]
+script = ExtResource("2_l3o8d")
+move_id = 528
+move_name = {
+"en": "Wild Charge",
+"fr": "Wild Charge"
+}
+move_type = ExtResource("1_d05bd")
+category = "Physical"
+contest = "Tough"
+power = 90
+accuracy = 100
+pp = 15
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

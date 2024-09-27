@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="1_d580u"]
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="2_s5m2g"]
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="3_qpnbr"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_8gruu"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_xi5d3"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_y0k3y"]
+
+[resource]
+script = ExtResource("4_8gruu")
+pokemon_id = 220
+branch_code = ""
+names = {
+"en": "Swinub"
+}
+generation = 2
+height = 0.4
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_xi5d3"), ExtResource("6_y0k3y")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_d580u"), ExtResource("2_s5m2g"), ExtResource("3_qpnbr")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 225
+base_experience = 50
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 40,
+"hp": 50,
+"special_attack": 30,
+"special_defense": 30,
+"speed": 50,
+"total": 250
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/220.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/220.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/220.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/220.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

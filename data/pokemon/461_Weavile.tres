@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_7pdra"]
+[ext_resource type="Resource" path="res://data/abilities/Pickpocket.tres" id="2_n63gv"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_6nngi"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="4_e0kv2"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_4wkou"]
+
+[resource]
+script = ExtResource("3_6nngi")
+pokemon_id = 461
+branch_code = ""
+names = {
+"en": "Weavile"
+}
+generation = 4
+height = 1.1
+weight = 34.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_e0kv2"), ExtResource("5_4wkou")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7pdra"), ExtResource("2_n63gv")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 179
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 65,
+"hp": 70,
+"special_attack": 45,
+"special_defense": 85,
+"speed": 125,
+"total": 510
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/461.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/461.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/461.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/461.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/461.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/461.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/461.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/461.png"
+description = {
+"en": "",
+"fr": ""
+}

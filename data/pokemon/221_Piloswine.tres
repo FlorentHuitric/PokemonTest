@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="1_qify5"]
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="2_pl55l"]
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="3_gwy86"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_dd2v4"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_pfnla"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_yn8ki"]
+
+[resource]
+script = ExtResource("4_dd2v4")
+pokemon_id = 221
+branch_code = ""
+names = {
+"en": "Piloswine"
+}
+generation = 2
+height = 1.1
+weight = 55.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_pfnla"), ExtResource("6_yn8ki")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_qify5"), ExtResource("2_pl55l"), ExtResource("3_gwy86")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 158
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 80,
+"hp": 100,
+"special_attack": 60,
+"special_defense": 60,
+"speed": 50,
+"total": 450
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/221.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/221.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/221.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/221.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/221.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/221.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/221.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/221.png"
+description = {
+"en": "",
+"fr": ""
+}

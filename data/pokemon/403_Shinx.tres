@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="1_a2raw"]
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="2_pewct"]
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="3_xcptp"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4k8or"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_g3efe"]
+
+[resource]
+script = ExtResource("4_4k8or")
+pokemon_id = 403
+branch_code = ""
+names = {
+"en": "Shinx"
+}
+generation = 4
+height = 0.5
+weight = 9.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_g3efe")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a2raw"), ExtResource("2_pewct"), ExtResource("3_xcptp")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 235
+base_experience = 53
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 34,
+"hp": 45,
+"special_attack": 40,
+"special_defense": 34,
+"speed": 45,
+"total": 263
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/403.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/403.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/403.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/403.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/403.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/403.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/403.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/403.png"
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Dauntless Shield.tres" id="1_lqm5k"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_42nlb"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="3_fwjf6"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_w45c6"]
+
+[resource]
+script = ExtResource("2_42nlb")
+pokemon_id = 889
+branch_code = ""
+names = {
+"en": "Zamazenta Crowned Shield"
+}
+generation = 8
+height = 2.9
+weight = 785.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_fwjf6"), ExtResource("4_w45c6")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_lqm5k")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 10
+base_experience = 350
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 140,
+"hp": 92,
+"special_attack": 80,
+"special_defense": 140,
+"speed": 128,
+"total": 700
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/889.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/889.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/889.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/889.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

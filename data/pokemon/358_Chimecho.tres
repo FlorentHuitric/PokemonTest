@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_oqyrd"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_yq0ks"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_jp6ss"]
+
+[resource]
+script = ExtResource("2_yq0ks")
+pokemon_id = 358
+branch_code = ""
+names = {
+"en": "Chimecho"
+}
+generation = 3
+height = 0.6
+weight = 1.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_jp6ss")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_oqyrd")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 45
+base_experience = 159
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 80,
+"hp": 75,
+"special_attack": 95,
+"special_defense": 90,
+"speed": 65,
+"total": 455
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/358.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/358.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/358.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/358.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

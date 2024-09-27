@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_hxiew"]
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="2_ieuqx"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="3_2g67m"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_j2boa"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_a3o6w"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_b2cwm"]
+
+[resource]
+script = ExtResource("4_j2boa")
+pokemon_id = 227
+branch_code = ""
+names = {
+"en": "Skarmory"
+}
+generation = 2
+height = 1.7
+weight = 50.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_a3o6w"), ExtResource("6_b2cwm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_hxiew"), ExtResource("2_ieuqx"), ExtResource("3_2g67m")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Flying")
+catch_rate = 25
+base_experience = 163
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 140,
+"hp": 65,
+"special_attack": 40,
+"special_defense": 70,
+"speed": 70,
+"total": 465
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/227.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/227.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/227.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/227.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

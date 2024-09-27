@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="1_w5sns"]
+[ext_resource type="Resource" path="res://data/abilities/Klutz.tres" id="2_boop3"]
+[ext_resource type="Resource" path="res://data/abilities/Simple.tres" id="3_x00vj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_rg8i1"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_0jcep"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_y3wfi"]
+
+[resource]
+script = ExtResource("4_rg8i1")
+pokemon_id = 528
+branch_code = ""
+names = {
+"en": "Swoobat"
+}
+generation = 5
+height = 0.9
+weight = 10.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_0jcep"), ExtResource("6_y3wfi")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_w5sns"), ExtResource("2_boop3"), ExtResource("3_x00vj")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground", "Flying")
+catch_rate = 45
+base_experience = 149
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 57,
+"defense": 55,
+"hp": 67,
+"special_attack": 77,
+"special_defense": 55,
+"speed": 114,
+"total": 425
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/528.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/528.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/528.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/528.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

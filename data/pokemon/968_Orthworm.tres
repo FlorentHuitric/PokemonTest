@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Earth Eater.tres" id="1_ssgfu"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="2_246bm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_1eh3u"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_rc64o"]
+
+[resource]
+script = ExtResource("3_1eh3u")
+pokemon_id = 968
+branch_code = ""
+names = {
+"en": "Orthworm"
+}
+generation = 9
+height = 2.5
+weight = 310.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_rc64o")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ssgfu"), ExtResource("2_246bm")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Ground")
+catch_rate = 25
+base_experience = 240
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 145,
+"hp": 70,
+"special_attack": 60,
+"special_defense": 55,
+"speed": 65,
+"total": 480
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/968.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/968.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/968.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/968.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

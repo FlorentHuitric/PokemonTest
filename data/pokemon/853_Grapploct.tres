@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="1_m018l"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="2_vcrtm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_aeq6y"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_rrtcf"]
+
+[resource]
+script = ExtResource("3_aeq6y")
+pokemon_id = 853
+branch_code = ""
+names = {
+"en": "Grapploct"
+}
+generation = 8
+height = 1.6
+weight = 39.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_rrtcf")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_m018l"), ExtResource("2_vcrtm")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Water1", "Human-Like")
+catch_rate = 45
+base_experience = 168
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 118,
+"defense": 90,
+"hp": 80,
+"special_attack": 70,
+"special_defense": 80,
+"speed": 42,
+"total": 480
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/853.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/853.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/853.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/853.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

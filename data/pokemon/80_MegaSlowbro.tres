@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="1_b8wyd"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_hy01e"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_a2bgp"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_tvbvu"]
+
+[resource]
+script = ExtResource("2_hy01e")
+pokemon_id = 80
+branch_code = ""
+names = {
+"en": "Mega Slowbro"
+}
+generation = 1
+height = 2.0
+weight = 120.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_a2bgp"), ExtResource("4_tvbvu")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_b8wyd")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Water1")
+catch_rate = 75
+base_experience = 207
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 180,
+"hp": 95,
+"special_attack": 130,
+"special_defense": 80,
+"speed": 30,
+"total": 590
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/80-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/80-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/80-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/80-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

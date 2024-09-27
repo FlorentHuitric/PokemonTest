@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_aql3o"]
+[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="2_fglsj"]
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="3_74tlh"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_5epg2"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_8d5dj"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_gsnhn"]
+
+[resource]
+script = ExtResource("4_5epg2")
+pokemon_id = 666
+branch_code = ""
+names = {
+"en": "Vivillon"
+}
+generation = 6
+height = 1.2
+weight = 17.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8d5dj"), ExtResource("6_gsnhn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_aql3o"), ExtResource("2_fglsj"), ExtResource("3_74tlh")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 206
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 52,
+"defense": 50,
+"hp": 80,
+"special_attack": 90,
+"special_defense": 50,
+"speed": 89,
+"total": 411
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/666.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/666.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/666.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/666.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

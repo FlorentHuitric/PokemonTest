@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="1_ouhtx"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Bounce.tres" id="2_ed0jy"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_4tbi5"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_hcfcw"]
+
+[resource]
+script = ExtResource("3_4tbi5")
+pokemon_id = 196
+branch_code = ""
+names = {
+"en": "Espeon"
+}
+generation = 2
+height = 0.9
+weight = 26.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_hcfcw")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ouhtx"), ExtResource("2_ed0jy")])
+color = "Purple"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 184
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 60,
+"hp": 65,
+"special_attack": 130,
+"special_defense": 95,
+"speed": 110,
+"total": 525
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/196.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/196.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/196.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/196.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

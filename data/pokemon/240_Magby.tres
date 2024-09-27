@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flame Body.tres" id="1_jp7ho"]
+[ext_resource type="Resource" path="res://data/abilities/Vital Spirit.tres" id="2_h67sf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_0ipxo"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_npab7"]
+
+[resource]
+script = ExtResource("3_0ipxo")
+pokemon_id = 240
+branch_code = ""
+names = {
+"en": "Magby"
+}
+generation = 2
+height = 0.7
+weight = 21.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_npab7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_jp7ho"), ExtResource("2_h67sf")])
+color = "Red"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 73
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 37,
+"hp": 45,
+"special_attack": 70,
+"special_defense": 55,
+"speed": 83,
+"total": 365
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/240.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/240.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/240.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/240.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

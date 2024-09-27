@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="1_7h28a"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3wakg"]
+
+[resource]
+script = ExtResource("2_3wakg")
+move_id = 585
+move_name = {
+"en": "Moonblast",
+"fr": "Moonblast"
+}
+move_type = ExtResource("1_7h28a")
+category = "Special"
+contest = "Beautiful"
+power = 95
+accuracy = 100
+pp = 15
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Wandering Spirit.tres" id="1_2edcu"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5lpgr"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_00c7f"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_kimim"]
+
+[resource]
+script = ExtResource("2_5lpgr")
+pokemon_id = 867
+branch_code = ""
+names = {
+"en": "Runerigus"
+}
+generation = 8
+height = 1.6
+weight = 66.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_00c7f"), ExtResource("4_kimim")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2edcu")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Mineral", "Amorphous")
+catch_rate = 90
+base_experience = 169
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 145,
+"hp": 58,
+"special_attack": 50,
+"special_defense": 105,
+"speed": 30,
+"total": 483
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/867.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/867.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/867.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/867.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

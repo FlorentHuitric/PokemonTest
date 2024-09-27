@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="1_5tmmk"]
+[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="2_8rxx3"]
+[ext_resource type="Resource" path="res://data/abilities/Reckless.tres" id="3_od50p"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_x75fi"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_2fu4u"]
+
+[resource]
+script = ExtResource("4_x75fi")
+pokemon_id = 619
+branch_code = ""
+names = {
+"en": "Mienfoo"
+}
+generation = 5
+height = 0.9
+weight = 20.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_2fu4u")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5tmmk"), ExtResource("2_8rxx3"), ExtResource("3_od50p")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Ground", "Human-Like")
+catch_rate = 180
+base_experience = 70
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 50,
+"hp": 45,
+"special_attack": 55,
+"special_defense": 50,
+"speed": 65,
+"total": 350
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/619.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/619.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/619.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/619.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

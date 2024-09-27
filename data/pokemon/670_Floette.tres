@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flower Veil.tres" id="1_i0yhv"]
+[ext_resource type="Resource" path="res://data/abilities/Symbiosis.tres" id="2_oeouf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_i8yls"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_fgemq"]
+
+[resource]
+script = ExtResource("3_i8yls")
+pokemon_id = 670
+branch_code = ""
+names = {
+"en": "Floette"
+}
+generation = 6
+height = 0.2
+weight = 0.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_fgemq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_i0yhv"), ExtResource("2_oeouf")])
+color = "White"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 120
+base_experience = 130
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 47,
+"hp": 54,
+"special_attack": 75,
+"special_defense": 98,
+"speed": 52,
+"total": 371
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/670.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/670.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/670.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/670.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

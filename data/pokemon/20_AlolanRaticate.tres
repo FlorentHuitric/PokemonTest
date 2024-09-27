@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="1_k1b6w"]
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="2_4xfbg"]
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="3_sunqq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_a12dg"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_y1mba"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_l5om3"]
+
+[resource]
+script = ExtResource("4_a12dg")
+pokemon_id = 20
+branch_code = ""
+names = {
+"en": "Alolan Raticate"
+}
+generation = 7
+height = 0.7
+weight = 25.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_y1mba"), ExtResource("6_l5om3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_k1b6w"), ExtResource("2_4xfbg"), ExtResource("3_sunqq")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 127
+base_experience = 145
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Alolan"
+base_stats = {
+"attack": 71,
+"defense": 70,
+"hp": 75,
+"special_attack": 40,
+"special_defense": 80,
+"speed": 77,
+"total": 413
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/20-alola.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/20-alola.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/20-alola.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/20-alola.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/20-alola.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/20-alola.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/20-alola.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/20-alola.png"
+description = {
+"en": "",
+"fr": ""
+}

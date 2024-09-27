@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://vioksedn2icd"]
+
+[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_cvk5f"]
+
+[resource]
+script = ExtResource("1_cvk5f")
+type_name = "Grass"
+sprite_path = "res://assets/sprites/types/grass.png"

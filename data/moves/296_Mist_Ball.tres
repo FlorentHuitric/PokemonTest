@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_4vr4n"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ferch"]
+
+[resource]
+script = ExtResource("2_ferch")
+move_id = 296
+move_name = {
+"en": "Mist Ball",
+"fr": "Mist Ball"
+}
+move_type = ExtResource("1_4vr4n")
+category = "Special"
+contest = "Clever"
+power = 70
+accuracy = 100
+pp = 5
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_sn0je"]
+[ext_resource type="Resource" path="res://data/abilities/Super Luck.tres" id="2_g0puy"]
+[ext_resource type="Resource" path="res://data/abilities/Justified.tres" id="3_lrtnt"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ebleu"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_g5uij"]
+
+[resource]
+script = ExtResource("4_ebleu")
+pokemon_id = 359
+branch_code = ""
+names = {
+"en": "Absol"
+}
+generation = 3
+height = 1.2
+weight = 47.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_g5uij")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_sn0je"), ExtResource("2_g0puy"), ExtResource("3_lrtnt")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Ground")
+catch_rate = 30
+base_experience = 163
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 130,
+"defense": 60,
+"hp": 65,
+"special_attack": 75,
+"special_defense": 60,
+"speed": 75,
+"total": 465
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/359.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/359.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/359.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/359.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

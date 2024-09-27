@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_tamvp"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_k75ma"]
+
+[resource]
+script = ExtResource("2_k75ma")
+move_id = 338
+move_name = {
+"en": "Frenzy Plant",
+"fr": "Frenzy Plant"
+}
+move_type = ExtResource("1_tamvp")
+category = "Special"
+contest = "Cool"
+power = 150
+accuracy = 90
+pp = 5
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

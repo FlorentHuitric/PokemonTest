@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_xlngg"]
+[ext_resource type="Resource" path="res://data/abilities/Solar Power.tres" id="2_ve2tb"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_t8g8u"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_rm8xx"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_aqom4"]
+
+[resource]
+script = ExtResource("3_t8g8u")
+pokemon_id = 6
+branch_code = ""
+names = {
+"en": "Charizard"
+}
+generation = 1
+height = 1.7
+weight = 90.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_rm8xx"), ExtResource("5_aqom4")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xlngg"), ExtResource("2_ve2tb")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Dragon")
+catch_rate = 45
+base_experience = 267
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 84,
+"defense": 78,
+"hp": 78,
+"special_attack": 109,
+"special_defense": 85,
+"speed": 100,
+"total": 534
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/6.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/6.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/6.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/6.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

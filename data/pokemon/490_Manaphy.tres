@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="1_m2fyg"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_pw23w"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_tbehj"]
+
+[resource]
+script = ExtResource("2_pw23w")
+pokemon_id = 490
+branch_code = ""
+names = {
+"en": "Manaphy"
+}
+generation = 4
+height = 0.3
+weight = 1.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_tbehj")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_m2fyg")])
+color = "Blue"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Water1", "Fairy")
+catch_rate = 3
+base_experience = 270
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 100,
+"hp": 100,
+"special_attack": 100,
+"special_defense": 100,
+"speed": 100,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 3,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/490.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/490.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/490.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/490.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

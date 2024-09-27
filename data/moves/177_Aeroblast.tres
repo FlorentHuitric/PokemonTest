@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_v0efb"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_c7eur"]
+
+[resource]
+script = ExtResource("2_c7eur")
+move_id = 177
+move_name = {
+"en": "Aeroblast",
+"fr": "Aeroblast"
+}
+move_type = ExtResource("1_v0efb")
+category = "Special"
+contest = "Cool"
+power = 100
+accuracy = 95
+pp = 5
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

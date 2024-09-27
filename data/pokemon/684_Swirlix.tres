@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sweet Veil.tres" id="1_tlbv4"]
+[ext_resource type="Resource" path="res://data/abilities/Unburden.tres" id="2_2wyl2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_a2p7h"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_a2r38"]
+
+[resource]
+script = ExtResource("3_a2p7h")
+pokemon_id = 684
+branch_code = ""
+names = {
+"en": "Swirlix"
+}
+generation = 6
+height = 0.4
+weight = 3.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_a2r38")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tlbv4"), ExtResource("2_2wyl2")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 200
+base_experience = 68
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 66,
+"hp": 62,
+"special_attack": 59,
+"special_defense": 57,
+"speed": 49,
+"total": 341
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/684.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/684.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/684.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/684.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

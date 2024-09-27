@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Poison Point.tres" id="1_del4d"]
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="2_xokux"]
+[ext_resource type="Resource" path="res://data/abilities/Speed Boost.tres" id="3_upqos"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4lmd7"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_u7l1f"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_ditgl"]
+
+[resource]
+script = ExtResource("4_4lmd7")
+pokemon_id = 543
+branch_code = ""
+names = {
+"en": "Venipede"
+}
+generation = 5
+height = 0.4
+weight = 5.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_u7l1f"), ExtResource("6_ditgl")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_del4d"), ExtResource("2_xokux"), ExtResource("3_upqos")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 255
+base_experience = 52
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 59,
+"hp": 30,
+"special_attack": 30,
+"special_defense": 39,
+"speed": 57,
+"total": 260
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/543.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/543.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/543.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/543.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

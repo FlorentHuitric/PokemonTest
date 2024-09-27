@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_oof8g"]
+[ext_resource type="Resource" path="res://data/abilities/Water Veil.tres" id="2_h6cd2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_t53xj"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_6olt8"]
+
+[resource]
+script = ExtResource("3_t53xj")
+pokemon_id = 418
+branch_code = ""
+names = {
+"en": "Buizel"
+}
+generation = 4
+height = 0.7
+weight = 29.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6olt8")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_oof8g"), ExtResource("2_h6cd2")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 190
+base_experience = 66
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 35,
+"hp": 55,
+"special_attack": 60,
+"special_defense": 30,
+"speed": 85,
+"total": 330
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/418.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/418.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/418.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/418.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/418.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/418.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/418.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/418.png"
+description = {
+"en": "",
+"fr": ""
+}

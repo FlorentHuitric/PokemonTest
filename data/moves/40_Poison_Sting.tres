@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_ipshr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_peqem"]
+
+[resource]
+script = ExtResource("2_peqem")
+move_id = 40
+move_name = {
+"en": "Poison Sting",
+"fr": "Poison Sting"
+}
+move_type = ExtResource("1_ipshr")
+category = "Physical"
+contest = "Clever"
+power = 15
+accuracy = 100
+pp = 35
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

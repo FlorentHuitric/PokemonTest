@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_ipokv"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_k4ps0"]
+
+[resource]
+script = ExtResource("2_k4ps0")
+move_id = 196
+move_name = {
+"en": "Icy Wind",
+"fr": "Icy Wind"
+}
+move_type = ExtResource("1_ipokv")
+category = "Special"
+contest = "Beautiful"
+power = 55
+accuracy = 95
+pp = 15
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

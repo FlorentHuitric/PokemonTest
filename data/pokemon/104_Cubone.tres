@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Rock Head.tres" id="1_j8dhp"]
+[ext_resource type="Resource" path="res://data/abilities/Lightning Rod.tres" id="2_7u3kl"]
+[ext_resource type="Resource" path="res://data/abilities/Battle Armor.tres" id="3_d1yh8"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_qi7yk"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_atsxc"]
+
+[resource]
+script = ExtResource("4_qi7yk")
+pokemon_id = 104
+branch_code = ""
+names = {
+"en": "Cubone"
+}
+generation = 1
+height = 0.4
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_atsxc")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_j8dhp"), ExtResource("2_7u3kl"), ExtResource("3_d1yh8")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster")
+catch_rate = 190
+base_experience = 64
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 95,
+"hp": 50,
+"special_attack": 40,
+"special_defense": 50,
+"speed": 35,
+"total": 320
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/104.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/104.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/104.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/104.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

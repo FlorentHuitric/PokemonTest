@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="1_he5im"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="2_hgyp6"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Guard.tres" id="3_101kd"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4tqq5"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_38dgt"]
+
+[resource]
+script = ExtResource("4_4tqq5")
+pokemon_id = 65
+branch_code = ""
+names = {
+"en": "Alakazam"
+}
+generation = 1
+height = 1.5
+weight = 48.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_38dgt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_he5im"), ExtResource("2_hgyp6"), ExtResource("3_101kd")])
+color = "Brown"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 50
+base_experience = 250
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 45,
+"hp": 55,
+"special_attack": 135,
+"special_defense": 95,
+"speed": 120,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/65.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/65.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/65.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/65.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/65.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/65.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/65.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/65.png"
+description = {
+"en": "",
+"fr": ""
+}

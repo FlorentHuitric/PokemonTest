@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="1_tq1v7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_d3eli"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_xb14t"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_lbv7q"]
+
+[resource]
+script = ExtResource("2_d3eli")
+pokemon_id = 212
+branch_code = ""
+names = {
+"en": "Mega Scizor"
+}
+generation = 2
+height = 2.0
+weight = 125.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_xb14t"), ExtResource("4_lbv7q")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tq1v7")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Bug")
+catch_rate = 25
+base_experience = 210
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 150,
+"defense": 140,
+"hp": 70,
+"special_attack": 65,
+"special_defense": 100,
+"speed": 75,
+"total": 600
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/212-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/212-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/212-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/212-mega.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/212-mega.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/212-mega.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/212-mega.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/212-mega.png"
+description = {
+"en": "",
+"fr": ""
+}

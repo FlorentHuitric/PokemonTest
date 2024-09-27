@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Tough Claws.tres" id="1_b0l3q"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_dxi0m"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_4ykgt"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_qn8dj"]
+
+[resource]
+script = ExtResource("2_dxi0m")
+pokemon_id = 376
+branch_code = ""
+names = {
+"en": "Mega Metagross"
+}
+generation = 3
+height = 2.5
+weight = 942.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_4ykgt"), ExtResource("4_qn8dj")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_b0l3q")])
+color = "Blue"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 3
+base_experience = 315
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 145,
+"defense": 150,
+"hp": 80,
+"special_attack": 105,
+"special_defense": 110,
+"speed": 110,
+"total": 700
+}
+effort_points = {
+"attack": 0,
+"defense": 3,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/376-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/376-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/376-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/376-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

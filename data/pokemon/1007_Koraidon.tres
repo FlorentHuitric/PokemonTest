@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Orichalcum Pulse.tres" id="1_viw42"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_yaeom"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="3_lnscf"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_uh7fo"]
+
+[resource]
+script = ExtResource("2_yaeom")
+pokemon_id = 1007
+branch_code = ""
+names = {
+"en": "Koraidon"
+}
+generation = 9
+height = 2.5
+weight = 303.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_lnscf"), ExtResource("4_uh7fo")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_viw42")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 335
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 135,
+"defense": 115,
+"hp": 100,
+"special_attack": 85,
+"special_defense": 100,
+"speed": 135,
+"total": 670
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/1007.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/1007.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/1007.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/1007.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

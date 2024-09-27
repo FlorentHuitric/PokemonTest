@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_hjy87"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_f7tih"]
+
+[resource]
+script = ExtResource("2_f7tih")
+move_id = 575
+move_name = {
+"en": "Parting Shot",
+"fr": "Parting Shot"
+}
+move_type = ExtResource("1_hjy87")
+category = "Status"
+contest = "Cool"
+power = 0
+accuracy = 100
+pp = 20
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

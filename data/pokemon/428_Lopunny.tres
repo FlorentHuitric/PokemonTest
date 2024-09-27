@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="1_fu4pg"]
+[ext_resource type="Resource" path="res://data/abilities/Klutz.tres" id="2_8dlkk"]
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="3_elosn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_m0br8"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_gon5j"]
+
+[resource]
+script = ExtResource("4_m0br8")
+pokemon_id = 428
+branch_code = ""
+names = {
+"en": "Lopunny"
+}
+generation = 4
+height = 1.2
+weight = 33.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gon5j")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fu4pg"), ExtResource("2_8dlkk"), ExtResource("3_elosn")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Human-Like")
+catch_rate = 60
+base_experience = 168
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 76,
+"defense": 84,
+"hp": 65,
+"special_attack": 54,
+"special_defense": 96,
+"speed": 105,
+"total": 480
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/428.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/428.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/428.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/428.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_13dni"]
+[ext_resource type="Resource" path="res://data/abilities/Rain Dish.tres" id="2_trj6u"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_4r6av"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_ah1hb"]
+
+[resource]
+script = ExtResource("3_4r6av")
+pokemon_id = 7
+branch_code = ""
+names = {
+"en": "Squirtle"
+}
+generation = 1
+height = 0.5
+weight = 9.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ah1hb")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_13dni"), ExtResource("2_trj6u")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Water1")
+catch_rate = 45
+base_experience = 63
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 65,
+"hp": 44,
+"special_attack": 50,
+"special_defense": 64,
+"speed": 43,
+"total": 314
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/7.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/7.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/7.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/7.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

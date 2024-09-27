@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Protosynthesis.tres" id="1_yx7g2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5f1ix"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_gxlus"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_8n7id"]
+
+[resource]
+script = ExtResource("2_5f1ix")
+pokemon_id = 1009
+branch_code = ""
+names = {
+"en": "Walking Wake"
+}
+generation = 9
+height = 3.5
+weight = 280.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_gxlus"), ExtResource("4_8n7id")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_yx7g2")])
+color = "Blue"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 5
+base_experience = 295
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 83,
+"defense": 91,
+"hp": 99,
+"special_attack": 125,
+"special_defense": 83,
+"speed": 109,
+"total": 590
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/1009.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/1009.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/1009.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/1009.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

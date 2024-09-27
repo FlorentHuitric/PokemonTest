@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_jvik5"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_u16dy"]
+
+[resource]
+script = ExtResource("2_u16dy")
+move_id = 342
+move_name = {
+"en": "Poison Tail",
+"fr": "Poison Tail"
+}
+move_type = ExtResource("1_jvik5")
+category = "Physical"
+contest = "Clever"
+power = 50
+accuracy = 100
+pp = 25
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

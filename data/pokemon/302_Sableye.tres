@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_m36jr"]
+[ext_resource type="Resource" path="res://data/abilities/Stall.tres" id="2_0c4pv"]
+[ext_resource type="Resource" path="res://data/abilities/Prankster.tres" id="3_wluhq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_usudp"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_qbfbo"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_fffn0"]
+
+[resource]
+script = ExtResource("4_usudp")
+pokemon_id = 302
+branch_code = ""
+names = {
+"en": "Sableye"
+}
+generation = 3
+height = 0.5
+weight = 11.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_qbfbo"), ExtResource("6_fffn0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_m36jr"), ExtResource("2_0c4pv"), ExtResource("3_wluhq")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 45
+base_experience = 133
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 75,
+"hp": 50,
+"special_attack": 65,
+"special_defense": 65,
+"speed": 50,
+"total": 380
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/302.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/302.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/302.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/302.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

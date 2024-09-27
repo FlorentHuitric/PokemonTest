@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_5ikhc"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ip82a"]
+
+[resource]
+script = ExtResource("2_ip82a")
+move_id = 324
+move_name = {
+"en": "Signal Beam",
+"fr": "Signal Beam"
+}
+move_type = ExtResource("1_5ikhc")
+category = "Special"
+contest = "Beautiful"
+power = 75
+accuracy = 100
+pp = 15
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

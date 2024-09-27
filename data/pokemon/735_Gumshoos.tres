@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="1_bvg6v"]
+[ext_resource type="Resource" path="res://data/abilities/Strong Jaw.tres" id="2_181ni"]
+[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="3_bn0b5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_au37m"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_5llc2"]
+
+[resource]
+script = ExtResource("4_au37m")
+pokemon_id = 735
+branch_code = ""
+names = {
+"en": "Gumshoos"
+}
+generation = 7
+height = 0.7
+weight = 14.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_5llc2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bvg6v"), ExtResource("2_181ni"), ExtResource("3_bn0b5")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 127
+base_experience = 146
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 60,
+"hp": 88,
+"special_attack": 55,
+"special_defense": 60,
+"speed": 45,
+"total": 418
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/735.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/735.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/735.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/735.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

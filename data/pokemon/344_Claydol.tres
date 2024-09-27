@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_mmbmq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_tupdp"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_n5ax4"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_stbrp"]
+
+[resource]
+script = ExtResource("2_tupdp")
+pokemon_id = 344
+branch_code = ""
+names = {
+"en": "Claydol"
+}
+generation = 3
+height = 1.5
+weight = 108.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_n5ax4"), ExtResource("4_stbrp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mmbmq")])
+color = "Black"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 90
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 105,
+"hp": 60,
+"special_attack": 70,
+"special_defense": 120,
+"speed": 75,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/344.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/344.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/344.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/344.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

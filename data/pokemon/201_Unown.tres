@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_lw05j"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_6q1g3"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_x411s"]
+
+[resource]
+script = ExtResource("2_6q1g3")
+pokemon_id = 201
+branch_code = ""
+names = {
+"en": "Unown"
+}
+generation = 2
+height = 0.5
+weight = 5.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_x411s")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_lw05j")])
+color = "Black"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 225
+base_experience = 118
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 72,
+"defense": 48,
+"hp": 48,
+"special_attack": 72,
+"special_defense": 48,
+"speed": 48,
+"total": 336
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/201.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/201.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/201.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/201.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

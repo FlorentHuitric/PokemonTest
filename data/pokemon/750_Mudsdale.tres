@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="1_npotd"]
+[ext_resource type="Resource" path="res://data/abilities/Stamina.tres" id="2_k07pm"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="3_4031a"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ax4hn"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_1yv8l"]
+
+[resource]
+script = ExtResource("4_ax4hn")
+pokemon_id = 750
+branch_code = ""
+names = {
+"en": "Mudsdale"
+}
+generation = 7
+height = 2.5
+weight = 920.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1yv8l")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_npotd"), ExtResource("2_k07pm"), ExtResource("3_4031a")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 60
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 100,
+"hp": 100,
+"special_attack": 55,
+"special_defense": 85,
+"speed": 35,
+"total": 500
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/750.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/750.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/750.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/750.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

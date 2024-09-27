@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Overgrow.tres" id="1_4phli"]
+[ext_resource type="Resource" path="res://data/abilities/Protean.tres" id="2_desyg"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_45v84"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_6h2f4"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_2oc1q"]
+
+[resource]
+script = ExtResource("3_45v84")
+pokemon_id = 908
+branch_code = ""
+names = {
+"en": "Meowscarada"
+}
+generation = 9
+height = 1.5
+weight = 31.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6h2f4"), ExtResource("5_2oc1q")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4phli"), ExtResource("2_desyg")])
+color = "Green"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Grass")
+catch_rate = 45
+base_experience = 265
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 70,
+"hp": 76,
+"special_attack": 81,
+"special_defense": 70,
+"speed": 123,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/908.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/908.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/908.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/908.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

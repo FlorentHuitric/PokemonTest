@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Big Pecks.tres" id="1_kdhop"]
+[ext_resource type="Resource" path="res://data/abilities/Super Luck.tres" id="2_l1bxe"]
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="3_47tgp"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_1wjek"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_ttld2"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_n3ig0"]
+
+[resource]
+script = ExtResource("4_1wjek")
+pokemon_id = 520
+branch_code = ""
+names = {
+"en": "Tranquill"
+}
+generation = 5
+height = 0.6
+weight = 15.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ttld2"), ExtResource("6_n3ig0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kdhop"), ExtResource("2_l1bxe"), ExtResource("3_47tgp")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Flying")
+catch_rate = 120
+base_experience = 125
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 77,
+"defense": 62,
+"hp": 62,
+"special_attack": 50,
+"special_defense": 42,
+"speed": 65,
+"total": 358
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/520.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/520.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/520.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/520.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

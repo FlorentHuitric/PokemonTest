@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="1_6utuw"]
+[ext_resource type="Resource" path="res://data/abilities/Stamina.tres" id="2_6nkgj"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="3_i4ehe"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_on3dq"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_jfgds"]
+
+[resource]
+script = ExtResource("4_on3dq")
+pokemon_id = 749
+branch_code = ""
+names = {
+"en": "Mudbray"
+}
+generation = 7
+height = 1.0
+weight = 110.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jfgds")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6utuw"), ExtResource("2_6nkgj"), ExtResource("3_i4ehe")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 77
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 70,
+"hp": 70,
+"special_attack": 45,
+"special_defense": 55,
+"speed": 45,
+"total": 385
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/749.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/749.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/749.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/749.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="1_3bgdg"]
+[ext_resource type="Resource" path="res://data/abilities/Competitive.tres" id="2_1krn6"]
+[ext_resource type="Resource" path="res://data/abilities/Shadow Tag.tres" id="3_6wgwj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_iyn3t"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_1ju4s"]
+
+[resource]
+script = ExtResource("4_iyn3t")
+pokemon_id = 576
+branch_code = ""
+names = {
+"en": "Gothitelle"
+}
+generation = 5
+height = 1.5
+weight = 44.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1ju4s")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3bgdg"), ExtResource("2_1krn6"), ExtResource("3_6wgwj")])
+color = "Purple"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 50
+base_experience = 245
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 55,
+"defense": 95,
+"hp": 70,
+"special_attack": 95,
+"special_defense": 110,
+"speed": 65,
+"total": 490
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/576.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/576.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/576.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/576.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

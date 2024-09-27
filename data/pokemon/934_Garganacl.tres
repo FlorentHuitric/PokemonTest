@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Purifying Salt.tres" id="1_uec0b"]
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="2_pib0a"]
+[ext_resource type="Resource" path="res://data/abilities/Clear Body.tres" id="3_3m5dw"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_giwrw"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_q2raq"]
+
+[resource]
+script = ExtResource("4_giwrw")
+pokemon_id = 934
+branch_code = ""
+names = {
+"en": "Garganacl"
+}
+generation = 9
+height = 2.3
+weight = 240.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_q2raq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uec0b"), ExtResource("2_pib0a"), ExtResource("3_3m5dw")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 45
+base_experience = 250
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 130,
+"hp": 100,
+"special_attack": 45,
+"special_defense": 90,
+"speed": 35,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 3,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/934.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/934.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/934.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/934.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

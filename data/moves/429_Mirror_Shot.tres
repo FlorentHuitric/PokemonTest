@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_wvyr7"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ea380"]
+
+[resource]
+script = ExtResource("2_ea380")
+move_id = 429
+move_name = {
+"en": "Mirror Shot",
+"fr": "Mirror Shot"
+}
+move_type = ExtResource("1_wvyr7")
+category = "Special"
+contest = "Beautiful"
+power = 65
+accuracy = 85
+pp = 10
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

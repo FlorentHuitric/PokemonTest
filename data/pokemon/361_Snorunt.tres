@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="1_055pa"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="2_t5g11"]
+[ext_resource type="Resource" path="res://data/abilities/Moody.tres" id="3_84vik"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_x4orq"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_annsu"]
+
+[resource]
+script = ExtResource("4_x4orq")
+pokemon_id = 361
+branch_code = ""
+names = {
+"en": "Snorunt"
+}
+generation = 3
+height = 0.7
+weight = 16.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_annsu")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_055pa"), ExtResource("2_t5g11"), ExtResource("3_84vik")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy", "Mineral")
+catch_rate = 190
+base_experience = 60
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 50,
+"hp": 50,
+"special_attack": 50,
+"special_defense": 50,
+"speed": 50,
+"total": 300
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/361.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/361.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/361.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/361.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

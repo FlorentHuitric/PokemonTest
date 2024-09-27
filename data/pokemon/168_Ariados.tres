@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_vqilm"]
+[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="2_d2at7"]
+[ext_resource type="Resource" path="res://data/abilities/Sniper.tres" id="3_geuhe"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_w0w4h"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_b1dah"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_xp27l"]
+
+[resource]
+script = ExtResource("4_w0w4h")
+pokemon_id = 168
+branch_code = ""
+names = {
+"en": "Ariados"
+}
+generation = 2
+height = 1.1
+weight = 33.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_b1dah"), ExtResource("6_xp27l")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vqilm"), ExtResource("2_d2at7"), ExtResource("3_geuhe")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 90
+base_experience = 140
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 70,
+"hp": 70,
+"special_attack": 60,
+"special_defense": 70,
+"speed": 40,
+"total": 400
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/168.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/168.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/168.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/168.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

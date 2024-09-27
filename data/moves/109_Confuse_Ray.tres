@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="1_dewre"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_dc5yg"]
+
+[resource]
+script = ExtResource("2_dc5yg")
+move_id = 109
+move_name = {
+"en": "Confuse Ray",
+"fr": "Confuse Ray"
+}
+move_type = ExtResource("1_dewre")
+category = "Status"
+contest = "Clever"
+power = 0
+accuracy = 100
+pp = 10
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="1_uepch"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_jv1pd"]
+
+[resource]
+script = ExtResource("2_jv1pd")
+move_id = 460
+move_name = {
+"en": "Spacial Rend",
+"fr": "Spacial Rend"
+}
+move_type = ExtResource("1_uepch")
+category = "Special"
+contest = "Beautiful"
+power = 100
+accuracy = 95
+pp = 5
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

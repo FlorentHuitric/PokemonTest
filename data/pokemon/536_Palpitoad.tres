@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_y8aen"]
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="2_trutv"]
+[ext_resource type="Resource" path="res://data/abilities/Water Absorb.tres" id="3_ecpac"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_0y5np"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_cc2pj"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_37njt"]
+
+[resource]
+script = ExtResource("4_0y5np")
+pokemon_id = 536
+branch_code = ""
+names = {
+"en": "Palpitoad"
+}
+generation = 5
+height = 0.8
+weight = 17.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_cc2pj"), ExtResource("6_37njt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_y8aen"), ExtResource("2_trutv"), ExtResource("3_ecpac")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1")
+catch_rate = 120
+base_experience = 134
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 55,
+"hp": 75,
+"special_attack": 65,
+"special_defense": 55,
+"speed": 69,
+"total": 384
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/536.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/536.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/536.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/536.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

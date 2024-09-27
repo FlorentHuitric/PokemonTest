@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="1_f2min"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_tqiyr"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_fh6kh"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_np7km"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_15src"]
+
+[resource]
+script = ExtResource("3_fh6kh")
+pokemon_id = 954
+branch_code = ""
+names = {
+"en": "Rabsca"
+}
+generation = 9
+height = 0.3
+weight = 3.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_np7km"), ExtResource("5_15src")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_f2min"), ExtResource("2_tqiyr")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 165
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 85,
+"hp": 75,
+"special_attack": 115,
+"special_defense": 100,
+"speed": 45,
+"total": 470
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/954.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/954.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/954.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/954.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

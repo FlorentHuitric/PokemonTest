@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Volt Absorb.tres" id="1_ndsy5"]
+[ext_resource type="Resource" path="res://data/abilities/Illuminate.tres" id="2_6jhdf"]
+[ext_resource type="Resource" path="res://data/abilities/Water Absorb.tres" id="3_gle4h"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_yc84m"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_uqeaf"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="6_3dcly"]
+
+[resource]
+script = ExtResource("4_yc84m")
+pokemon_id = 171
+branch_code = ""
+names = {
+"en": "Lanturn"
+}
+generation = 2
+height = 1.2
+weight = 22.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_uqeaf"), ExtResource("6_3dcly")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ndsy5"), ExtResource("2_6jhdf"), ExtResource("3_gle4h")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 75
+base_experience = 161
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 58,
+"defense": 58,
+"hp": 125,
+"special_attack": 76,
+"special_defense": 76,
+"speed": 67,
+"total": 460
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/171.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/171.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/171.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/171.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="1_0q06f"]
+[ext_resource type="Resource" path="res://data/abilities/Magnet Pull.tres" id="2_ooktl"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Force.tres" id="3_kjxpf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_6ymxs"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_55bgk"]
+
+[resource]
+script = ExtResource("4_6ymxs")
+pokemon_id = 299
+branch_code = ""
+names = {
+"en": "Nosepass"
+}
+generation = 3
+height = 1.0
+weight = 97.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_55bgk")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0q06f"), ExtResource("2_ooktl"), ExtResource("3_kjxpf")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 255
+base_experience = 75
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 135,
+"hp": 30,
+"special_attack": 45,
+"special_defense": 90,
+"speed": 30,
+"total": 375
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/299.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/299.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/299.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/299.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Emergency Exit.tres" id="1_1otin"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_kpn20"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_28ky7"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_eeved"]
+
+[resource]
+script = ExtResource("2_kpn20")
+pokemon_id = 768
+branch_code = ""
+names = {
+"en": "Golisopod"
+}
+generation = 7
+height = 2.0
+weight = 108.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_28ky7"), ExtResource("4_eeved")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1otin")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug", "Water3")
+catch_rate = 45
+base_experience = 186
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 140,
+"hp": 75,
+"special_attack": 60,
+"special_defense": 90,
+"speed": 40,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/768.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/768.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/768.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/768.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

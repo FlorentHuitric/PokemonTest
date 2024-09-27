@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Beast Boost.tres" id="1_tb04s"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_6otto"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="3_xp2xd"]
+
+[resource]
+script = ExtResource("2_6otto")
+pokemon_id = 803
+branch_code = ""
+names = {
+"en": "Poipole"
+}
+generation = 7
+height = 0.6
+weight = 1.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_xp2xd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tb04s")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 210
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 73,
+"defense": 67,
+"hp": 67,
+"special_attack": 73,
+"special_defense": 67,
+"speed": 73,
+"total": 420
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/803.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/803.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/803.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/803.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

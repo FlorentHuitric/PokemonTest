@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_d40it"]
+[ext_resource type="Resource" path="res://data/abilities/Leaf Guard.tres" id="2_bkrht"]
+[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="3_0a6s3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_116xn"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_6l71u"]
+
+[resource]
+script = ExtResource("4_116xn")
+pokemon_id = 465
+branch_code = ""
+names = {
+"en": "Tangrowth"
+}
+generation = 4
+height = 2.0
+weight = 128.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6l71u")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_d40it"), ExtResource("2_bkrht"), ExtResource("3_0a6s3")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 30
+base_experience = 187
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 125,
+"hp": 100,
+"special_attack": 110,
+"special_defense": 50,
+"speed": 50,
+"total": 535
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/465.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/465.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/465.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/465.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/465.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/465.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/465.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/465.png"
+description = {
+"en": "",
+"fr": ""
+}

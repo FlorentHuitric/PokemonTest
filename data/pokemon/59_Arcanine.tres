@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_gyae5"]
+[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="2_va12i"]
+[ext_resource type="Resource" path="res://data/abilities/Justified.tres" id="3_86vf2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ewqrs"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="5_eb6qr"]
+
+[resource]
+script = ExtResource("4_ewqrs")
+pokemon_id = 59
+branch_code = ""
+names = {
+"en": "Arcanine"
+}
+generation = 1
+height = 1.9
+weight = 155.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_eb6qr")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_gyae5"), ExtResource("2_va12i"), ExtResource("3_86vf2")])
+color = "Brown"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 194
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 80,
+"hp": 90,
+"special_attack": 100,
+"special_defense": 80,
+"speed": 95,
+"total": 555
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/59.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/59.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/59.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/59.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

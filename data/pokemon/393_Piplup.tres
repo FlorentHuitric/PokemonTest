@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_kced3"]
+[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="2_tjsmu"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_klyuo"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_ydgvg"]
+
+[resource]
+script = ExtResource("3_klyuo")
+pokemon_id = 393
+branch_code = ""
+names = {
+"en": "Piplup"
+}
+generation = 4
+height = 0.4
+weight = 5.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ydgvg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kced3"), ExtResource("2_tjsmu")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 45
+base_experience = 63
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 51,
+"defense": 53,
+"hp": 53,
+"special_attack": 61,
+"special_defense": 56,
+"speed": 40,
+"total": 314
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/393.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/393.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/393.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/393.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_d1jh2"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_5p8lr"]
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="3_vblrl"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4xhrg"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_tkdgd"]
+
+[resource]
+script = ExtResource("4_4xhrg")
+pokemon_id = 677
+branch_code = ""
+names = {
+"en": "Espurr"
+}
+generation = 6
+height = 0.3
+weight = 3.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_tkdgd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_d1jh2"), ExtResource("2_5p8lr"), ExtResource("3_vblrl")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 71
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 54,
+"hp": 62,
+"special_attack": 63,
+"special_defense": 60,
+"speed": 68,
+"total": 355
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/677.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/677.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/677.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/677.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

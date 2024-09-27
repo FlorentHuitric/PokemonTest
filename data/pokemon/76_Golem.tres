@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Rock Head.tres" id="1_wx3l8"]
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="2_jwwwb"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="3_a06u1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_tg1gj"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_04u0i"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_ceseo"]
+
+[resource]
+script = ExtResource("4_tg1gj")
+pokemon_id = 76
+branch_code = ""
+names = {
+"en": "Golem"
+}
+generation = 1
+height = 1.4
+weight = 300.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_04u0i"), ExtResource("6_ceseo")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_wx3l8"), ExtResource("2_jwwwb"), ExtResource("3_a06u1")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 45
+base_experience = 223
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 130,
+"hp": 80,
+"special_attack": 55,
+"special_defense": 65,
+"speed": 45,
+"total": 495
+}
+effort_points = {
+"attack": 0,
+"defense": 3,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/76.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/76.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/76.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/76.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

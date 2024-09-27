@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dy2kw8ywes0lg"
+
+[deps]
+
+files=["res://assets/data/move-data.Name.translation", "res://assets/data/move-data.Type.translation", "res://assets/data/move-data.Category.translation", "res://assets/data/move-data.Contest.translation", "res://assets/data/move-data.PP.translation", "res://assets/data/move-data.Power.translation", "res://assets/data/move-data.Accuracy.translation", "res://assets/data/move-data.Generation.translation"]
+
+source_file="res://assets/data/move-data.csv"
+dest_files=["res://assets/data/move-data.Name.translation", "res://assets/data/move-data.Type.translation", "res://assets/data/move-data.Category.translation", "res://assets/data/move-data.Contest.translation", "res://assets/data/move-data.PP.translation", "res://assets/data/move-data.Power.translation", "res://assets/data/move-data.Accuracy.translation", "res://assets/data/move-data.Generation.translation"]
+
+[params]
+
+compress=true
+delimiter=0

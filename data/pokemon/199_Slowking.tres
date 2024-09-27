@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="1_v1mkt"]
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="2_w7ref"]
+[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="3_g10ch"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_7gaj0"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_0nx57"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_jrw3c"]
+
+[resource]
+script = ExtResource("4_7gaj0")
+pokemon_id = 199
+branch_code = ""
+names = {
+"en": "Slowking"
+}
+generation = 2
+height = 2.0
+weight = 79.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_0nx57"), ExtResource("6_jrw3c")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_v1mkt"), ExtResource("2_w7ref"), ExtResource("3_g10ch")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Water1")
+catch_rate = 70
+base_experience = 172
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 80,
+"hp": 95,
+"special_attack": 100,
+"special_defense": 110,
+"speed": 30,
+"total": 490
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/199.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/199.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/199.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/199.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

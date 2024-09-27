@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Steadfast.tres" id="1_ru3v1"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="2_i8t7x"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_xjko7"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_83hsj"]
+
+[resource]
+script = ExtResource("3_xjko7")
+pokemon_id = 83
+branch_code = ""
+names = {
+"en": "Galarian Farfetch'd"
+}
+generation = 8
+height = 0.8
+weight = 42.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_83hsj")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ru3v1"), ExtResource("2_i8t7x")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying", "Ground")
+catch_rate = 45
+base_experience = 132
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Galarian"
+base_stats = {
+"attack": 95,
+"defense": 55,
+"hp": 52,
+"special_attack": 58,
+"special_defense": 62,
+"speed": 55,
+"total": 377
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/83-galar.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/83-galar.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/83-galar.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/83-galar.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

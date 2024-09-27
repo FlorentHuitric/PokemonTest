@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Clear Body.tres" id="1_la668"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_lbmcm"]
+[ext_resource type="Resource" path="res://data/abilities/Cursed Body.tres" id="3_jksot"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_dfsu6"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="5_ga1n3"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_0ovhd"]
+
+[resource]
+script = ExtResource("4_dfsu6")
+pokemon_id = 887
+branch_code = ""
+names = {
+"en": "Dragapult"
+}
+generation = 8
+height = 3.0
+weight = 50.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ga1n3"), ExtResource("6_0ovhd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_la668"), ExtResource("2_lbmcm"), ExtResource("3_jksot")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Amorphous", "Dragon")
+catch_rate = 45
+base_experience = 300
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 75,
+"hp": 88,
+"special_attack": 100,
+"special_defense": 75,
+"speed": 142,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/887.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/887.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/887.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/887.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

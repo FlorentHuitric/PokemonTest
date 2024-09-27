@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_o2baj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_o80lw"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_52gsn"]
+
+[resource]
+script = ExtResource("2_o80lw")
+pokemon_id = 604
+branch_code = ""
+names = {
+"en": "Eelektross"
+}
+generation = 5
+height = 2.1
+weight = 80.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_52gsn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_o2baj")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 30
+base_experience = 258
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 115,
+"defense": 80,
+"hp": 85,
+"special_attack": 105,
+"special_defense": 80,
+"speed": 50,
+"total": 515
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/604.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/604.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/604.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/604.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

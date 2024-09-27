@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="1_1j21n"]
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="2_ieugc"]
+[ext_resource type="Resource" path="res://data/abilities/Pickpocket.tres" id="3_2qsku"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_r4e81"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_8n3lc"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_mg8bm"]
+
+[resource]
+script = ExtResource("4_r4e81")
+pokemon_id = 957
+branch_code = ""
+names = {
+"en": "Tinkatink"
+}
+generation = 9
+height = 0.4
+weight = 8.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8n3lc"), ExtResource("6_mg8bm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1j21n"), ExtResource("2_ieugc"), ExtResource("3_2qsku")])
+color = "Pink"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 190
+base_experience = 59
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 45,
+"hp": 50,
+"special_attack": 35,
+"special_defense": 64,
+"speed": 58,
+"total": 297
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/957.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/957.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/957.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/957.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

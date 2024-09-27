@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="1_iej57"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="2_jhtm0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_upmca"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="4_o4vut"]
+
+[resource]
+script = ExtResource("3_upmca")
+pokemon_id = 232
+branch_code = ""
+names = {
+"en": "Donphan"
+}
+generation = 2
+height = 1.1
+weight = 120.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_o4vut")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_iej57"), ExtResource("2_jhtm0")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 60
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 120,
+"hp": 90,
+"special_attack": 60,
+"special_defense": 60,
+"speed": 50,
+"total": 500
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/232.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/232.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/232.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/232.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/232.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/232.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/232.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/232.png"
+description = {
+"en": "",
+"fr": ""
+}

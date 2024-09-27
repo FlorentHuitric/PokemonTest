@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_o7hy1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_dwxoi"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="3_klcwe"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="4_1iqut"]
+
+[resource]
+script = ExtResource("2_dwxoi")
+pokemon_id = 92
+branch_code = ""
+names = {
+"en": "Gastly"
+}
+generation = 1
+height = 1.3
+weight = 0.1
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_klcwe"), ExtResource("4_1iqut")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_o7hy1")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 190
+base_experience = 62
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 35,
+"defense": 30,
+"hp": 30,
+"special_attack": 100,
+"special_defense": 35,
+"speed": 80,
+"total": 310
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/92.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/92.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/92.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/92.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

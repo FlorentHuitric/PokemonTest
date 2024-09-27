@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Honey Gather.tres" id="1_f3lq8"]
+[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="2_1kyj6"]
+[ext_resource type="Resource" path="res://data/abilities/Sweet Veil.tres" id="3_l1j5v"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_jhcvu"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_fetlr"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_11moq"]
+
+[resource]
+script = ExtResource("4_jhcvu")
+pokemon_id = 742
+branch_code = ""
+names = {
+"en": "Cutiefly"
+}
+generation = 7
+height = 0.1
+weight = 0.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_fetlr"), ExtResource("6_11moq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_f3lq8"), ExtResource("2_1kyj6"), ExtResource("3_l1j5v")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug", "Fairy")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 40,
+"hp": 40,
+"special_attack": 55,
+"special_defense": 40,
+"speed": 84,
+"total": 304
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/742.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/742.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/742.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/742.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

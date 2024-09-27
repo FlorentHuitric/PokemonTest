@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="1_rsx3f"]
+[ext_resource type="Resource" path="res://data/abilities/Rough Skin.tres" id="2_b40dy"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ugt6n"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_abftb"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_nobnm"]
+
+[resource]
+script = ExtResource("3_ugt6n")
+pokemon_id = 444
+branch_code = ""
+names = {
+"en": "Gabite"
+}
+generation = 4
+height = 1.4
+weight = 56.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_abftb"), ExtResource("5_nobnm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_rsx3f"), ExtResource("2_b40dy")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Monster", "Dragon")
+catch_rate = 45
+base_experience = 144
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 65,
+"hp": 68,
+"special_attack": 50,
+"special_defense": 55,
+"speed": 82,
+"total": 410
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/444.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/444.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/444.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/444.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/444.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/444.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/444.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/444.png"
+description = {
+"en": "",
+"fr": ""
+}

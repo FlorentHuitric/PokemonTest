@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="1_r2is4"]
+[ext_resource type="Resource" path="res://data/abilities/Unburden.tres" id="2_h47mt"]
+[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="3_e5wmi"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ltyyx"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_tleu7"]
+
+[resource]
+script = ExtResource("4_ltyyx")
+pokemon_id = 828
+branch_code = ""
+names = {
+"en": "Thievul"
+}
+generation = 8
+height = 1.2
+weight = 19.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_tleu7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_r2is4"), ExtResource("2_h47mt"), ExtResource("3_e5wmi")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 127
+base_experience = 159
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 58,
+"defense": 58,
+"hp": 70,
+"special_attack": 87,
+"special_defense": 92,
+"speed": 90,
+"total": 455
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/828.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/828.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/828.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/828.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

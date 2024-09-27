@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_f0f1p"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="2_hmboq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2omyw"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_p0t4x"]
+
+[resource]
+script = ExtResource("3_2omyw")
+pokemon_id = 402
+branch_code = ""
+names = {
+"en": "Kricketune"
+}
+generation = 4
+height = 1.0
+weight = 25.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_p0t4x")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_f0f1p"), ExtResource("2_hmboq")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 134
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 51,
+"hp": 77,
+"special_attack": 55,
+"special_defense": 51,
+"speed": 65,
+"total": 384
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/402.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/402.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/402.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/402.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/402.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/402.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/402.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/402.png"
+description = {
+"en": "",
+"fr": ""
+}

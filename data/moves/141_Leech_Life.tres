@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_t746a"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_cei7v"]
+
+[resource]
+script = ExtResource("2_cei7v")
+move_id = 141
+move_name = {
+"en": "Leech Life",
+"fr": "Leech Life"
+}
+move_type = ExtResource("1_t746a")
+category = "Physical"
+contest = "Clever"
+power = 80
+accuracy = 100
+pp = 10
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

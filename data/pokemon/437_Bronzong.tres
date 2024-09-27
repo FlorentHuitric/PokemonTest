@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_w01vg"]
+[ext_resource type="Resource" path="res://data/abilities/Heatproof.tres" id="2_3siaw"]
+[ext_resource type="Resource" path="res://data/abilities/Heavy Metal.tres" id="3_beieo"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_dpsos"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_eykug"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_a6clc"]
+
+[resource]
+script = ExtResource("4_dpsos")
+pokemon_id = 437
+branch_code = ""
+names = {
+"en": "Bronzong"
+}
+generation = 4
+height = 1.3
+weight = 187.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_eykug"), ExtResource("6_a6clc")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_w01vg"), ExtResource("2_3siaw"), ExtResource("3_beieo")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 90
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 89,
+"defense": 116,
+"hp": 67,
+"special_attack": 79,
+"special_defense": 116,
+"speed": 33,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/437.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/437.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/437.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/437.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

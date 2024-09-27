@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Bad Dreams.tres" id="1_n80d5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_14dxe"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_0jg15"]
+
+[resource]
+script = ExtResource("2_14dxe")
+pokemon_id = 491
+branch_code = ""
+names = {
+"en": "Darkrai"
+}
+generation = 4
+height = 1.5
+weight = 50.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_0jg15")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_n80d5")])
+color = "Black"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 270
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 90,
+"hp": 70,
+"special_attack": 135,
+"special_defense": 90,
+"speed": 125,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/491.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/491.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/491.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/491.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

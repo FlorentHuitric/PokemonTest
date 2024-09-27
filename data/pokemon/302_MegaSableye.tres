@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Magic Bounce.tres" id="1_y57gk"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_awbkl"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_2uj5q"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_r4jfk"]
+
+[resource]
+script = ExtResource("2_awbkl")
+pokemon_id = 302
+branch_code = ""
+names = {
+"en": "Mega Sableye"
+}
+generation = 3
+height = 0.5
+weight = 161.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_2uj5q"), ExtResource("4_r4jfk")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_y57gk")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 45
+base_experience = 168
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 125,
+"hp": 50,
+"special_attack": 85,
+"special_defense": 115,
+"speed": 20,
+"total": 480
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/302-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/302-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/302-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/302-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

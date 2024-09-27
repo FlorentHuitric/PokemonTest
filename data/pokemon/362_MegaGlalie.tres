@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Refrigerate.tres" id="1_ib2ff"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_bx04f"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="3_mapqw"]
+
+[resource]
+script = ExtResource("2_bx04f")
+pokemon_id = 362
+branch_code = ""
+names = {
+"en": "Mega Glalie"
+}
+generation = 3
+height = 2.1
+weight = 350.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_mapqw")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ib2ff")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy", "Mineral")
+catch_rate = 75
+base_experience = 203
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 80,
+"hp": 80,
+"special_attack": 120,
+"special_defense": 80,
+"speed": 100,
+"total": 580
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/362-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/362-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/362-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/362-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

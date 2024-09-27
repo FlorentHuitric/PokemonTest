@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="1_28jho"]
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="2_gkdhw"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_njawb"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_yo776"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_wkueq"]
+
+[resource]
+script = ExtResource("3_njawb")
+pokemon_id = 413
+branch_code = ""
+names = {
+"en": "Wormadam Trash Form"
+}
+generation = 4
+height = 0.5
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_yo776"), ExtResource("5_wkueq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_28jho"), ExtResource("2_gkdhw")])
+color = "Red"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 148
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 69,
+"defense": 95,
+"hp": 60,
+"special_attack": 69,
+"special_defense": 95,
+"speed": 36,
+"total": 424
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/413.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/413.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/413.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/413.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

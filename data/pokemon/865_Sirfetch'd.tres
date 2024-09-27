@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Steadfast.tres" id="1_jgief"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="2_7jbop"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2vtg4"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_1pf7s"]
+
+[resource]
+script = ExtResource("3_2vtg4")
+pokemon_id = 865
+branch_code = ""
+names = {
+"en": "Sirfetch'd"
+}
+generation = 8
+height = 0.8
+weight = 117.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_1pf7s")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_jgief"), ExtResource("2_7jbop")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying", "Ground")
+catch_rate = 45
+base_experience = 177
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 135,
+"defense": 95,
+"hp": 62,
+"special_attack": 68,
+"special_defense": 82,
+"speed": 65,
+"total": 507
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/865.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/865.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/865.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/865.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

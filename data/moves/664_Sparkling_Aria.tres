@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_lbjjd"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_epioy"]
+
+[resource]
+script = ExtResource("2_epioy")
+move_id = 664
+move_name = {
+"en": "Sparkling Aria",
+"fr": "Sparkling Aria"
+}
+move_type = ExtResource("1_lbjjd")
+category = "Special"
+contest = "???"
+power = 90
+accuracy = 100
+pp = 10
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

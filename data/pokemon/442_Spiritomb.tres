@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_rv8tt"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_6xoda"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_g5kk7"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_2dhml"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_oowny"]
+
+[resource]
+script = ExtResource("3_g5kk7")
+pokemon_id = 442
+branch_code = ""
+names = {
+"en": "Spiritomb"
+}
+generation = 4
+height = 1.0
+weight = 108.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_2dhml"), ExtResource("5_oowny")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_rv8tt"), ExtResource("2_6xoda")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 100
+base_experience = 170
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 92,
+"defense": 108,
+"hp": 50,
+"special_attack": 92,
+"special_defense": 108,
+"speed": 35,
+"total": 485
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/442.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/442.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/442.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/442.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

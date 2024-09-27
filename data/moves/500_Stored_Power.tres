@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_4yvky"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ecpqn"]
+
+[resource]
+script = ExtResource("2_ecpqn")
+move_id = 500
+move_name = {
+"en": "Stored Power",
+"fr": "Stored Power"
+}
+move_type = ExtResource("1_4yvky")
+category = "Special"
+contest = "Clever"
+power = 20
+accuracy = 100
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

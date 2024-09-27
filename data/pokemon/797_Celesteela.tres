@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Beast Boost.tres" id="1_okjnf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_heny7"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_jtr4l"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="4_gi6kt"]
+
+[resource]
+script = ExtResource("2_heny7")
+pokemon_id = 797
+branch_code = ""
+names = {
+"en": "Celesteela"
+}
+generation = 7
+height = 9.2
+weight = 999.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_jtr4l"), ExtResource("4_gi6kt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_okjnf")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 101,
+"defense": 103,
+"hp": 97,
+"special_attack": 107,
+"special_defense": 101,
+"speed": 61,
+"total": 570
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/797.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/797.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/797.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/797.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

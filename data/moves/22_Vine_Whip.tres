@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_o05iw"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_pu7qu"]
+
+[resource]
+script = ExtResource("2_pu7qu")
+move_id = 22
+move_name = {
+"en": "Vine Whip",
+"fr": "Vine Whip"
+}
+move_type = ExtResource("1_o05iw")
+category = "Physical"
+contest = "Cool"
+power = 45
+accuracy = 100
+pp = 25
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

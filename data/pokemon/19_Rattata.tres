@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="1_ank3o"]
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="2_04mgj"]
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="3_xt76g"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_6fvh0"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_6syjg"]
+
+[resource]
+script = ExtResource("4_6fvh0")
+pokemon_id = 19
+branch_code = ""
+names = {
+"en": "Rattata"
+}
+generation = 1
+height = 0.3
+weight = 3.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6syjg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ank3o"), ExtResource("2_04mgj"), ExtResource("3_xt76g")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 51
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 56,
+"defense": 35,
+"hp": 30,
+"special_attack": 25,
+"special_defense": 35,
+"speed": 72,
+"total": 253
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/19.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/19.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/19.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/19.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/19.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/19.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/19.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/19.png"
+description = {
+"en": "",
+"fr": ""
+}

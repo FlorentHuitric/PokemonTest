@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Trace.tres" id="1_kg6f7"]
+[ext_resource type="Resource" path="res://data/abilities/Download.tres" id="2_3h8ct"]
+[ext_resource type="Resource" path="res://data/abilities/Analytic.tres" id="3_fglq7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ijseg"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_b4h3k"]
+
+[resource]
+script = ExtResource("4_ijseg")
+pokemon_id = 137
+branch_code = ""
+names = {
+"en": "Porygon"
+}
+generation = 1
+height = 0.8
+weight = 36.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_b4h3k")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kg6f7"), ExtResource("2_3h8ct"), ExtResource("3_fglq7")])
+color = "Pink"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 45
+base_experience = 79
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 70,
+"hp": 65,
+"special_attack": 85,
+"special_defense": 75,
+"speed": 40,
+"total": 395
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/137.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/137.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/137.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/137.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

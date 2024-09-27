@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Tablets of Ruin.tres" id="1_ujor6"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ubcqm"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_b3iog"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_dth1e"]
+
+[resource]
+script = ExtResource("2_ubcqm")
+pokemon_id = 1001
+branch_code = ""
+names = {
+"en": "Wo-Chien"
+}
+generation = 9
+height = 1.5
+weight = 74.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_b3iog"), ExtResource("4_dth1e")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ujor6")])
+color = "Brown"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 6
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 100,
+"hp": 85,
+"special_attack": 95,
+"special_defense": 135,
+"speed": 70,
+"total": 570
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/1001.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/1001.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/1001.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/1001.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

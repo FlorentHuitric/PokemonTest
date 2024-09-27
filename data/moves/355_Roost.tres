@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_krwcg"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_embg4"]
+
+[resource]
+script = ExtResource("2_embg4")
+move_id = 355
+move_name = {
+"en": "Roost",
+"fr": "Roost"
+}
+move_type = ExtResource("1_krwcg")
+category = "Status"
+contest = "Clever"
+power = 0
+accuracy = 0
+pp = 10
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

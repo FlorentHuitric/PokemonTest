@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3 uid="uid://dso8anwjg712k"]
+
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="1_0wuvv"]
+
+[resource]
+script = ExtResource("1_0wuvv")
+move_id = 719
+move_name = {
+"en": "\"10",
+"fr": "\"10"
+}
+category = "000 Volt Thunderbolt\""
+contest = "Electric"
+power = 0
+accuracy = 1
+pp = 0
+generation = 195
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

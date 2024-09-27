@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hyper Cutter.tres" id="1_2l5cs"]
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_omd6u"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_xd68b"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_0lpym"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_5dnxg"]
+
+[resource]
+script = ExtResource("4_0lpym")
+pokemon_id = 98
+branch_code = ""
+names = {
+"en": "Krabby"
+}
+generation = 1
+height = 0.4
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_5dnxg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2l5cs"), ExtResource("2_omd6u"), ExtResource("3_xd68b")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water3")
+catch_rate = 225
+base_experience = 65
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 105,
+"defense": 90,
+"hp": 30,
+"special_attack": 25,
+"special_defense": 25,
+"speed": 50,
+"total": 325
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/98.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/98.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/98.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/98.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

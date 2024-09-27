@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/No Guard.tres" id="1_tc32t"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ea8nw"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_bmj48"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_5tvjr"]
+
+[resource]
+script = ExtResource("2_ea8nw")
+pokemon_id = 680
+branch_code = ""
+names = {
+"en": "Doublade"
+}
+generation = 6
+height = 0.8
+weight = 4.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_bmj48"), ExtResource("4_5tvjr")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tc32t")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 90
+base_experience = 157
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 150,
+"hp": 59,
+"special_attack": 45,
+"special_defense": 49,
+"speed": 35,
+"total": 448
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/680.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/680.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/680.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/680.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

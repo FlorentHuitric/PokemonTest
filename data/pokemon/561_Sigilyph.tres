@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Wonder Skin.tres" id="1_w8led"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Guard.tres" id="2_geec2"]
+[ext_resource type="Resource" path="res://data/abilities/Tinted Lens.tres" id="3_jwea5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_x8jnr"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_an868"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_akfop"]
+
+[resource]
+script = ExtResource("4_x8jnr")
+pokemon_id = 561
+branch_code = ""
+names = {
+"en": "Sigilyph"
+}
+generation = 5
+height = 1.4
+weight = 14.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_an868"), ExtResource("6_akfop")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_w8led"), ExtResource("2_geec2"), ExtResource("3_jwea5")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying")
+catch_rate = 45
+base_experience = 172
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 58,
+"defense": 80,
+"hp": 72,
+"special_attack": 103,
+"special_defense": 80,
+"speed": 97,
+"total": 490
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/561.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/561.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/561.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/561.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

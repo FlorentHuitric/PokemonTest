@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="1_q560b"]
+[ext_resource type="Resource" path="res://data/abilities/Normalize.tres" id="2_1bxqn"]
+[ext_resource type="Resource" path="res://data/abilities/Wonder Skin.tres" id="3_glxet"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_drnd2"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_sq5dg"]
+
+[resource]
+script = ExtResource("4_drnd2")
+pokemon_id = 300
+branch_code = ""
+names = {
+"en": "Skitty"
+}
+generation = 3
+height = 0.6
+weight = 11.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_sq5dg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_q560b"), ExtResource("2_1bxqn"), ExtResource("3_glxet")])
+color = "Pink"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 255
+base_experience = 52
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 45,
+"hp": 50,
+"special_attack": 35,
+"special_defense": 35,
+"speed": 50,
+"total": 260
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/300.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/300.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/300.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/300.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

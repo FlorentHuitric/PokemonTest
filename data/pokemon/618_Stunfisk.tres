@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Static.tres" id="1_gc24t"]
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="2_gotaa"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="3_f4djm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_5gdiv"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_vl1ei"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="6_2in2s"]
+
+[resource]
+script = ExtResource("4_5gdiv")
+pokemon_id = 618
+branch_code = ""
+names = {
+"en": "Stunfisk"
+}
+generation = 5
+height = 0.7
+weight = 11.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_vl1ei"), ExtResource("6_2in2s")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_gc24t"), ExtResource("2_gotaa"), ExtResource("3_f4djm")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Amorphous")
+catch_rate = 75
+base_experience = 165
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 66,
+"defense": 84,
+"hp": 109,
+"special_attack": 81,
+"special_defense": 99,
+"speed": 32,
+"total": 471
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/618.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/618.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/618.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/618.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

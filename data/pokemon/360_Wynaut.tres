@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shadow Tag.tres" id="1_mj5c3"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_fsr5f"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ler6e"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_hhoy5"]
+
+[resource]
+script = ExtResource("3_ler6e")
+pokemon_id = 360
+branch_code = ""
+names = {
+"en": "Wynaut"
+}
+generation = 3
+height = 0.6
+weight = 14.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_hhoy5")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mj5c3"), ExtResource("2_fsr5f")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 125
+base_experience = 52
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 23,
+"defense": 48,
+"hp": 95,
+"special_attack": 23,
+"special_defense": 48,
+"speed": 23,
+"total": 260
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/360.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/360.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/360.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/360.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

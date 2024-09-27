@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_7ni4e"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_25e2m"]
+
+[resource]
+script = ExtResource("2_25e2m")
+move_id = 24
+move_name = {
+"en": "Double Kick",
+"fr": "Double Kick"
+}
+move_type = ExtResource("1_7ni4e")
+category = "Physical"
+contest = "Cool"
+power = 30
+accuracy = 100
+pp = 30
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

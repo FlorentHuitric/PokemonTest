@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_k1d48"]
+[ext_resource type="Resource" path="res://data/abilities/Moxie.tres" id="2_2swxw"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_kx3f8"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_3vu83"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_s6bqe"]
+
+[resource]
+script = ExtResource("3_kx3f8")
+pokemon_id = 914
+branch_code = ""
+names = {
+"en": "Quaquaval"
+}
+generation = 9
+height = 1.8
+weight = 61.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_3vu83"), ExtResource("5_s6bqe")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_k1d48"), ExtResource("2_2swxw")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying", "Water1")
+catch_rate = 45
+base_experience = 265
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 80,
+"hp": 85,
+"special_attack": 85,
+"special_defense": 75,
+"speed": 85,
+"total": 530
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/914.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/914.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/914.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/914.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

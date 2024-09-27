@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_to5j0"]
+[ext_resource type="Resource" path="res://data/abilities/Neutralizing Gas.tres" id="2_n6gf8"]
+[ext_resource type="Resource" path="res://data/abilities/Misty Surge.tres" id="3_milya"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_f1rc2"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_aextg"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_2rhme"]
+
+[resource]
+script = ExtResource("4_f1rc2")
+pokemon_id = 110
+branch_code = ""
+names = {
+"en": "Galarian Weezing"
+}
+generation = 8
+height = 3.0
+weight = 16.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_aextg"), ExtResource("6_2rhme")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_to5j0"), ExtResource("2_n6gf8"), ExtResource("3_milya")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 60
+base_experience = 172
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Galarian"
+base_stats = {
+"attack": 90,
+"defense": 120,
+"hp": 65,
+"special_attack": 85,
+"special_defense": 70,
+"speed": 60,
+"total": 490
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/110-galar.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/110-galar.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/110-galar.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/110-galar.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

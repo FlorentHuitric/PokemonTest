@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="1_8lkfy"]
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="2_8cutc"]
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="3_3v4qv"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_udjjg"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_b3mt0"]
+
+[resource]
+script = ExtResource("4_udjjg")
+pokemon_id = 405
+branch_code = ""
+names = {
+"en": "Luxray"
+}
+generation = 4
+height = 1.4
+weight = 42.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_b3mt0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8lkfy"), ExtResource("2_8cutc"), ExtResource("3_3v4qv")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 262
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 79,
+"hp": 80,
+"special_attack": 95,
+"special_defense": 79,
+"speed": 70,
+"total": 523
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/405.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/405.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/405.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/405.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/405.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/405.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/405.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/405.png"
+description = {
+"en": "",
+"fr": ""
+}

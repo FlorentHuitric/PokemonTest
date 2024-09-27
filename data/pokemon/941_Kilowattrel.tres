@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Wind Power.tres" id="1_63152"]
+[ext_resource type="Resource" path="res://data/abilities/Volt Absorb.tres" id="2_mimdq"]
+[ext_resource type="Resource" path="res://data/abilities/Competitive.tres" id="3_xoopf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_g5rb4"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_p5h0w"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_88o8u"]
+
+[resource]
+script = ExtResource("4_g5rb4")
+pokemon_id = 941
+branch_code = ""
+names = {
+"en": "Kilowattrel"
+}
+generation = 9
+height = 1.4
+weight = 38.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_p5h0w"), ExtResource("6_88o8u")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_63152"), ExtResource("2_mimdq"), ExtResource("3_xoopf")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Flying")
+catch_rate = 90
+base_experience = 172
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 60,
+"hp": 70,
+"special_attack": 105,
+"special_defense": 60,
+"speed": 125,
+"total": 490
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/941.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/941.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/941.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/941.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

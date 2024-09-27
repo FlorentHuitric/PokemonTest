@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_v4w1e"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="2_rfnp4"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_wmoiy"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="4_vtdfj"]
+
+[resource]
+script = ExtResource("3_wmoiy")
+pokemon_id = 243
+branch_code = ""
+names = {
+"en": "Raikou"
+}
+generation = 2
+height = 1.9
+weight = 178.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_vtdfj")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_v4w1e"), ExtResource("2_rfnp4")])
+color = "Yellow"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 80
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 290
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 75,
+"hp": 90,
+"special_attack": 115,
+"special_defense": 100,
+"speed": 115,
+"total": 580
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/243.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/243.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/243.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/243.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

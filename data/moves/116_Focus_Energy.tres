@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_klnxc"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_rmuof"]
+
+[resource]
+script = ExtResource("2_rmuof")
+move_id = 116
+move_name = {
+"en": "Focus Energy",
+"fr": "Focus Energy"
+}
+move_type = ExtResource("1_klnxc")
+category = "Status"
+contest = "Cool"
+power = 0
+accuracy = 0
+pp = 30
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

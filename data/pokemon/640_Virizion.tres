@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Justified.tres" id="1_vfklo"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_i3fbi"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="3_ywwum"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_1paaa"]
+
+[resource]
+script = ExtResource("2_i3fbi")
+pokemon_id = 640
+branch_code = ""
+names = {
+"en": "Virizion"
+}
+generation = 5
+height = 2.0
+weight = 200.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_ywwum"), ExtResource("4_1paaa")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vfklo")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 80
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 290
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 72,
+"hp": 91,
+"special_attack": 90,
+"special_defense": 129,
+"speed": 108,
+"total": 580
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/640.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/640.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/640.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/640.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

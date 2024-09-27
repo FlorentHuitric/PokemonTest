@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_vrn25"]
+[ext_resource type="Resource" path="res://data/abilities/White Smoke.tres" id="2_32yiy"]
+[ext_resource type="Resource" path="res://data/abilities/Flame Body.tres" id="3_5u8e0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_0b83n"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="5_omj8l"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="6_xtv56"]
+
+[resource]
+script = ExtResource("4_0b83n")
+pokemon_id = 850
+branch_code = ""
+names = {
+"en": "Sizzlipede"
+}
+generation = 8
+height = 0.7
+weight = 1.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_omj8l"), ExtResource("6_xtv56")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vrn25"), ExtResource("2_32yiy"), ExtResource("3_5u8e0")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 45,
+"hp": 50,
+"special_attack": 50,
+"special_defense": 50,
+"speed": 45,
+"total": 305
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/850.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/850.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/850.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/850.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

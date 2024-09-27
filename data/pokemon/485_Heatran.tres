@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_rs5l0"]
+[ext_resource type="Resource" path="res://data/abilities/Flame Body.tres" id="2_co1ir"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_smfxl"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_ij7fu"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_fpep0"]
+
+[resource]
+script = ExtResource("3_smfxl")
+pokemon_id = 485
+branch_code = ""
+names = {
+"en": "Heatran"
+}
+generation = 4
+height = 1.7
+weight = 430.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ij7fu"), ExtResource("5_fpep0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_rs5l0"), ExtResource("2_co1ir")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 300
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 106,
+"hp": 91,
+"special_attack": 130,
+"special_defense": 106,
+"speed": 77,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/485.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/485.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/485.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/485.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

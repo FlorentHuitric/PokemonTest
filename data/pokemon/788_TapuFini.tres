@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Misty Surge.tres" id="1_v10a4"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_f1y53"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ut11d"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_abf1i"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_dwmt6"]
+
+[resource]
+script = ExtResource("3_ut11d")
+pokemon_id = 788
+branch_code = ""
+names = {
+"en": "Tapu Fini"
+}
+generation = 7
+height = 1.3
+weight = 21.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_abf1i"), ExtResource("5_dwmt6")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_v10a4"), ExtResource("2_f1y53")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 115,
+"hp": 70,
+"special_attack": 95,
+"special_defense": 130,
+"speed": 85,
+"total": 570
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/788.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/788.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/788.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/788.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

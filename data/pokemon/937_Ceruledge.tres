@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_mphxe"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="2_1kwui"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ut8vi"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_vwjyo"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_seasd"]
+
+[resource]
+script = ExtResource("3_ut8vi")
+pokemon_id = 937
+branch_code = ""
+names = {
+"en": "Ceruledge"
+}
+generation = 9
+height = 1.6
+weight = 62.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_vwjyo"), ExtResource("5_seasd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mphxe"), ExtResource("2_1kwui")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 25
+base_experience = 263
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 80,
+"hp": 75,
+"special_attack": 60,
+"special_defense": 100,
+"speed": 85,
+"total": 525
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/937.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/937.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/937.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/937.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

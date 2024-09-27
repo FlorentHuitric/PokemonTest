@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="1_b0sc6"]
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="2_2u1nu"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="3_yipbc"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_2bq8d"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_pmphl"]
+
+[resource]
+script = ExtResource("4_2bq8d")
+pokemon_id = 446
+branch_code = ""
+names = {
+"en": "Munchlax"
+}
+generation = 4
+height = 0.6
+weight = 105.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_pmphl")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_b0sc6"), ExtResource("2_2u1nu"), ExtResource("3_yipbc")])
+color = "Black"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 50
+base_experience = 78
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 40,
+"hp": 135,
+"special_attack": 40,
+"special_defense": 85,
+"speed": 5,
+"total": 390
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/446.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/446.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/446.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/446.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

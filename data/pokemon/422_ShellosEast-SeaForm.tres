@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sticky Hold.tres" id="1_xrxm3"]
+[ext_resource type="Resource" path="res://data/abilities/Storm Drain.tres" id="2_hai6i"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Force.tres" id="3_0yxe5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_uijiv"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_psf1f"]
+
+[resource]
+script = ExtResource("4_uijiv")
+pokemon_id = 422
+branch_code = ""
+names = {
+"en": "Shellos East-Sea Form"
+}
+generation = 4
+height = 0.3
+weight = 6.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_psf1f")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xrxm3"), ExtResource("2_hai6i"), ExtResource("3_0yxe5")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Amorphous")
+catch_rate = 190
+base_experience = 65
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 48,
+"hp": 76,
+"special_attack": 57,
+"special_defense": 62,
+"speed": 34,
+"total": 325
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/422.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/422.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/422.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/422.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

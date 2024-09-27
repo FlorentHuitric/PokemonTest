@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Speed Boost.tres" id="1_yqxnw"]
+[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="2_l4tms"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="3_hm64b"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_t7m7e"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_gg6xj"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_2grgv"]
+
+[resource]
+script = ExtResource("4_t7m7e")
+pokemon_id = 193
+branch_code = ""
+names = {
+"en": "Yanma"
+}
+generation = 2
+height = 1.2
+weight = 38.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gg6xj"), ExtResource("6_2grgv")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_yqxnw"), ExtResource("2_l4tms"), ExtResource("3_hm64b")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 75
+base_experience = 78
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 45,
+"hp": 65,
+"special_attack": 75,
+"special_defense": 45,
+"speed": 95,
+"total": 390
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/193.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/193.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/193.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/193.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

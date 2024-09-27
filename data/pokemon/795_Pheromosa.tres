@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Beast Boost.tres" id="1_xilnp"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_a6frl"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_dkcc5"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_o4ra3"]
+
+[resource]
+script = ExtResource("2_a6frl")
+pokemon_id = 795
+branch_code = ""
+names = {
+"en": "Pheromosa"
+}
+generation = 7
+height = 1.8
+weight = 25.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_dkcc5"), ExtResource("4_o4ra3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xilnp")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 137,
+"defense": 37,
+"hp": 71,
+"special_attack": 137,
+"special_defense": 37,
+"speed": 151,
+"total": 570
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/795.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/795.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/795.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/795.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

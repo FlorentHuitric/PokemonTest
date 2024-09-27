@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_jffui"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_8hs7f"]
+
+[resource]
+script = ExtResource("2_8hs7f")
+move_id = 56
+move_name = {
+"en": "Hydro Pump",
+"fr": "Hydro Pump"
+}
+move_type = ExtResource("1_jffui")
+category = "Special"
+contest = "Beautiful"
+power = 110
+accuracy = 80
+pp = 5
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

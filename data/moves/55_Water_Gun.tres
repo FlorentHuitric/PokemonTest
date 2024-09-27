@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_wco1b"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_wadg7"]
+
+[resource]
+script = ExtResource("2_wadg7")
+move_id = 55
+move_name = {
+"en": "Water Gun",
+"fr": "Water Gun"
+}
+move_type = ExtResource("1_wco1b")
+category = "Special"
+contest = "Cute"
+power = 40
+accuracy = 100
+pp = 25
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

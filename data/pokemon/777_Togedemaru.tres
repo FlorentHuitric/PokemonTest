@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Iron Barbs.tres" id="1_18x8a"]
+[ext_resource type="Resource" path="res://data/abilities/Lightning Rod.tres" id="2_fqxvt"]
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="3_tpp0b"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_hmrow"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_s6uw5"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_aa346"]
+
+[resource]
+script = ExtResource("4_hmrow")
+pokemon_id = 777
+branch_code = ""
+names = {
+"en": "Togedemaru"
+}
+generation = 7
+height = 0.3
+weight = 3.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_s6uw5"), ExtResource("6_aa346")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_18x8a"), ExtResource("2_fqxvt"), ExtResource("3_tpp0b")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 180
+base_experience = 152
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 98,
+"defense": 63,
+"hp": 65,
+"special_attack": 40,
+"special_defense": 73,
+"speed": 96,
+"total": 435
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/777.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/777.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/777.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/777.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

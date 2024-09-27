@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="1_a8n07"]
+[ext_resource type="Resource" path="res://data/abilities/Soundproof.tres" id="2_f0k6d"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_yj4dd"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_3cihx"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_ox8el"]
+
+[resource]
+script = ExtResource("3_yj4dd")
+pokemon_id = 410
+branch_code = ""
+names = {
+"en": "Shieldon"
+}
+generation = 4
+height = 0.5
+weight = 57.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_3cihx"), ExtResource("5_ox8el")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a8n07"), ExtResource("2_f0k6d")])
+color = "Gray"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Monster")
+catch_rate = 45
+base_experience = 70
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 42,
+"defense": 118,
+"hp": 30,
+"special_attack": 42,
+"special_defense": 88,
+"speed": 30,
+"total": 350
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/410.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/410.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/410.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/410.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

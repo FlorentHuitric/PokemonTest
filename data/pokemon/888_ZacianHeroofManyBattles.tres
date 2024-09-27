@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intrepid Sword.tres" id="1_sp1fc"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_n0vdn"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="3_08plm"]
+
+[resource]
+script = ExtResource("2_n0vdn")
+pokemon_id = 888
+branch_code = ""
+names = {
+"en": "Zacian Hero of Many Battles"
+}
+generation = 8
+height = 2.8
+weight = 110.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_08plm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_sp1fc")])
+color = "Blue"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 10
+base_experience = 330
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 115,
+"hp": 92,
+"special_attack": 80,
+"special_defense": 115,
+"speed": 138,
+"total": 660
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/888.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/888.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/888.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/888.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

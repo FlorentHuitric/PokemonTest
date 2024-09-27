@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="1_qjx3w"]
+[ext_resource type="Resource" path="res://data/abilities/Early Bird.tres" id="2_atf1a"]
+[ext_resource type="Resource" path="res://data/abilities/Tangled Feet.tres" id="3_cguts"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_csytx"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_bll5o"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_fc17f"]
+
+[resource]
+script = ExtResource("4_csytx")
+pokemon_id = 84
+branch_code = ""
+names = {
+"en": "Doduo"
+}
+generation = 1
+height = 1.4
+weight = 39.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bll5o"), ExtResource("6_fc17f")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_qjx3w"), ExtResource("2_atf1a"), ExtResource("3_cguts")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying")
+catch_rate = 190
+base_experience = 62
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 45,
+"hp": 35,
+"special_attack": 35,
+"special_defense": 35,
+"speed": 75,
+"total": 310
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/84.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/84.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/84.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/84.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/84.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/84.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/84.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/84.png"
+description = {
+"en": "",
+"fr": ""
+}

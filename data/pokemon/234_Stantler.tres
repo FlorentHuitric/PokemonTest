@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_a8wsb"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_df8t2"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="3_108e7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_62e6m"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_t6s3v"]
+
+[resource]
+script = ExtResource("4_62e6m")
+pokemon_id = 234
+branch_code = ""
+names = {
+"en": "Stantler"
+}
+generation = 2
+height = 1.4
+weight = 71.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_t6s3v")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a8wsb"), ExtResource("2_df8t2"), ExtResource("3_108e7")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 163
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 62,
+"hp": 73,
+"special_attack": 85,
+"special_defense": 65,
+"speed": 85,
+"total": 465
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/234.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/234.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/234.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/234.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

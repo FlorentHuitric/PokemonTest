@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Punk Rock.tres" id="1_3xv60"]
+[ext_resource type="Resource" path="res://data/abilities/Minus.tres" id="2_jp3oh"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="3_it78a"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_8ww24"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_8tjx2"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_djphn"]
+
+[resource]
+script = ExtResource("4_8ww24")
+pokemon_id = 849
+branch_code = ""
+names = {
+"en": "Toxtricity Low-Key Form"
+}
+generation = 8
+height = 1.6
+weight = 40.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8tjx2"), ExtResource("6_djphn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3xv60"), ExtResource("2_jp3oh"), ExtResource("3_it78a")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 45
+base_experience = 176
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 98,
+"defense": 70,
+"hp": 75,
+"special_attack": 114,
+"special_defense": 70,
+"speed": 75,
+"total": 502
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/849.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/849.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/849.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/849.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

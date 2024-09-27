@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_agkf0"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="2_3o4am"]
+[ext_resource type="Resource" path="res://data/abilities/Serene Grace.tres" id="3_1ffjq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_lhg6k"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_28n4j"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="6_2qyou"]
+
+[resource]
+script = ExtResource("4_lhg6k")
+pokemon_id = 585
+branch_code = "585_3"
+names = {
+"en": "Deerling",
+"fr": "Deerling Winter Form"
+}
+generation = 5
+height = 0.6
+weight = 19.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_28n4j"), ExtResource("6_2qyou")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_agkf0"), ExtResource("2_3o4am"), ExtResource("3_1ffjq")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = Array[String](["Ground"])
+catch_rate = 190
+base_experience = 67
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 50,
+"hp": 60,
+"special_attack": 40,
+"special_defense": 50,
+"speed": 75,
+"total": 335
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/585-585_3.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/585-585_3.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/585-585_3.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/585-585_3.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

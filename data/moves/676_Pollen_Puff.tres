@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_0qg73"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_5vllw"]
+
+[resource]
+script = ExtResource("2_5vllw")
+move_id = 676
+move_name = {
+"en": "Pollen Puff",
+"fr": "Pollen Puff"
+}
+move_type = ExtResource("1_0qg73")
+category = "Special"
+contest = "???"
+power = 90
+accuracy = 100
+pp = 15
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

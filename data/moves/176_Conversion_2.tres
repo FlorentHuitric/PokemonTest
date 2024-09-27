@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_xdot1"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_4e3on"]
+
+[resource]
+script = ExtResource("2_4e3on")
+move_id = 176
+move_name = {
+"en": "Conversion 2",
+"fr": "Conversion 2"
+}
+move_type = ExtResource("1_xdot1")
+category = "Status"
+contest = "Beautiful"
+power = 0
+accuracy = 0
+pp = 30
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

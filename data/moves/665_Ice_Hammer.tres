@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_2pn5a"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3y8rb"]
+
+[resource]
+script = ExtResource("2_3y8rb")
+move_id = 665
+move_name = {
+"en": "Ice Hammer",
+"fr": "Ice Hammer"
+}
+move_type = ExtResource("1_2pn5a")
+category = "Physical"
+contest = "???"
+power = 100
+accuracy = 90
+pp = 10
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

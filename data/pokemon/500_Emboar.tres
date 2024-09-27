@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_n6e41"]
+[ext_resource type="Resource" path="res://data/abilities/Reckless.tres" id="2_wpem3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_f5iey"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_8ksu0"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_r7lb1"]
+
+[resource]
+script = ExtResource("3_f5iey")
+pokemon_id = 500
+branch_code = ""
+names = {
+"en": "Emboar"
+}
+generation = 5
+height = 1.6
+weight = 150.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_8ksu0"), ExtResource("5_r7lb1")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_n6e41"), ExtResource("2_wpem3")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 238
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 123,
+"defense": 65,
+"hp": 110,
+"special_attack": 100,
+"special_defense": 65,
+"speed": 65,
+"total": 528
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/500.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/500.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/500.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/500.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

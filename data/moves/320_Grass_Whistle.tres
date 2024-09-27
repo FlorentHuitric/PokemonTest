@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_tae0w"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_6c44g"]
+
+[resource]
+script = ExtResource("2_6c44g")
+move_id = 320
+move_name = {
+"en": "Grass Whistle",
+"fr": "Grass Whistle"
+}
+move_type = ExtResource("1_tae0w")
+category = "Status"
+contest = "Clever"
+power = 0
+accuracy = 55
+pp = 15
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

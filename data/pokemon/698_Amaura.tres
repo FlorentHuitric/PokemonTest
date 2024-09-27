@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Refrigerate.tres" id="1_nwwcm"]
+[ext_resource type="Resource" path="res://data/abilities/Snow Warning.tres" id="2_8b124"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ldiv5"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_d4wcc"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_qp42c"]
+
+[resource]
+script = ExtResource("3_ldiv5")
+pokemon_id = 698
+branch_code = ""
+names = {
+"en": "Amaura"
+}
+generation = 6
+height = 1.3
+weight = 25.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_d4wcc"), ExtResource("5_qp42c")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_nwwcm"), ExtResource("2_8b124")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Monster")
+catch_rate = 45
+base_experience = 72
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 59,
+"defense": 50,
+"hp": 77,
+"special_attack": 67,
+"special_defense": 63,
+"speed": 46,
+"total": 362
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/698.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/698.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/698.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/698.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

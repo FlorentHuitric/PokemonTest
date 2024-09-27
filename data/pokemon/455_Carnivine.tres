@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_mpm42"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_8b31m"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="3_3nduv"]
+
+[resource]
+script = ExtResource("2_8b31m")
+pokemon_id = 455
+branch_code = ""
+names = {
+"en": "Carnivine"
+}
+generation = 4
+height = 1.4
+weight = 27.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_3nduv")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mpm42")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Grass")
+catch_rate = 200
+base_experience = 159
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 72,
+"hp": 74,
+"special_attack": 90,
+"special_defense": 72,
+"speed": 46,
+"total": 454
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/455.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/455.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/455.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/455.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

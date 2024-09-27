@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_3vewb"]
+[ext_resource type="Resource" path="res://data/abilities/Iron Fist.tres" id="2_wxxf5"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="3_va0l6"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_40s3a"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_keolm"]
+
+[resource]
+script = ExtResource("4_40s3a")
+pokemon_id = 107
+branch_code = ""
+names = {
+"en": "Hitmonchan"
+}
+generation = 1
+height = 1.4
+weight = 50.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_keolm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3vewb"), ExtResource("2_wxxf5"), ExtResource("3_va0l6")])
+color = "Brown"
+gender_ratio = {
+"female": 0.0,
+"male": 100.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 45
+base_experience = 159
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 105,
+"defense": 79,
+"hp": 50,
+"special_attack": 35,
+"special_defense": 110,
+"speed": 76,
+"total": 455
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/107.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/107.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/107.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/107.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

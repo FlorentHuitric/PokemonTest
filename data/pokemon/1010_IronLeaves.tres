@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Quark Drive.tres" id="1_5puuy"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_gcnrj"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="3_32qdl"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_k2131"]
+
+[resource]
+script = ExtResource("2_gcnrj")
+pokemon_id = 1010
+branch_code = ""
+names = {
+"en": "Iron Leaves"
+}
+generation = 9
+height = 1.5
+weight = 125.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_32qdl"), ExtResource("4_k2131")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5puuy")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 5
+base_experience = 295
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 130,
+"defense": 88,
+"hp": 90,
+"special_attack": 70,
+"special_defense": 108,
+"speed": 104,
+"total": 590
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/1010.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/1010.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/1010.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/1010.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

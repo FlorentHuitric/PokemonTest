@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="1_amoch"]
+[ext_resource type="Resource" path="res://data/abilities/Unburden.tres" id="2_c13vc"]
+[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="3_28ko6"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_vulgg"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_glten"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_u04aq"]
+
+[resource]
+script = ExtResource("4_vulgg")
+pokemon_id = 701
+branch_code = ""
+names = {
+"en": "Hawlucha"
+}
+generation = 6
+height = 0.8
+weight = 21.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_glten"), ExtResource("6_u04aq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_amoch"), ExtResource("2_c13vc"), ExtResource("3_28ko6")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying", "Human-Like")
+catch_rate = 100
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 92,
+"defense": 75,
+"hp": 78,
+"special_attack": 74,
+"special_defense": 63,
+"speed": 118,
+"total": 500
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/701.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/701.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/701.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/701.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

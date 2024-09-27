@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="1_ifu3v"]
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="2_hth32"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_g7iv7"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_mt1tj"]
+
+[resource]
+script = ExtResource("3_g7iv7")
+pokemon_id = 412
+branch_code = "412_2"
+names = {
+"en": "Burmy",
+"fr": "Burmy Trash Form"
+}
+generation = 4
+height = 0.2
+weight = 3.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_mt1tj")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ifu3v"), ExtResource("2_hth32")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = Array[String](["Bug"])
+catch_rate = 120
+base_experience = 45
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 29,
+"defense": 45,
+"hp": 40,
+"special_attack": 29,
+"special_defense": 45,
+"speed": 36,
+"total": 224
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/412-412_2.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/412-412_2.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/412-412_2.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/412-412_2.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

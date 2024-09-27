@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="1_edpes"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Guard.tres" id="2_yrxji"]
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="3_bhfqm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_lqgsl"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_yuarp"]
+
+[resource]
+script = ExtResource("4_lqgsl")
+pokemon_id = 35
+branch_code = ""
+names = {
+"en": "Clefairy"
+}
+generation = 1
+height = 0.6
+weight = 7.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_yuarp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_edpes"), ExtResource("2_yrxji"), ExtResource("3_bhfqm")])
+color = "Pink"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 150
+base_experience = 113
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 48,
+"hp": 70,
+"special_attack": 60,
+"special_defense": 65,
+"speed": 35,
+"total": 323
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/35.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/35.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/35.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/35.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

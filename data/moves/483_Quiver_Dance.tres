@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_0mcy3"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_vec07"]
+
+[resource]
+script = ExtResource("2_vec07")
+move_id = 483
+move_name = {
+"en": "Quiver Dance",
+"fr": "Quiver Dance"
+}
+move_type = ExtResource("1_0mcy3")
+category = "Status"
+contest = "Beautiful"
+power = 0
+accuracy = 0
+pp = 20
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

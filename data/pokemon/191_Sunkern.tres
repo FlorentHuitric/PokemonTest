@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_6fv0b"]
+[ext_resource type="Resource" path="res://data/abilities/Solar Power.tres" id="2_1v6ww"]
+[ext_resource type="Resource" path="res://data/abilities/Early Bird.tres" id="3_ruvh1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_kn0ul"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_v3rmt"]
+
+[resource]
+script = ExtResource("4_kn0ul")
+pokemon_id = 191
+branch_code = ""
+names = {
+"en": "Sunkern"
+}
+generation = 2
+height = 0.3
+weight = 1.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_v3rmt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6fv0b"), ExtResource("2_1v6ww"), ExtResource("3_ruvh1")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 235
+base_experience = 36
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 30,
+"defense": 30,
+"hp": 30,
+"special_attack": 30,
+"special_defense": 30,
+"speed": 30,
+"total": 180
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/191.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/191.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/191.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/191.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

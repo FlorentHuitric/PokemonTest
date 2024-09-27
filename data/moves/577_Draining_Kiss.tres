@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="1_xxqne"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_1axjv"]
+
+[resource]
+script = ExtResource("2_1axjv")
+move_id = 577
+move_name = {
+"en": "Draining Kiss",
+"fr": "Draining Kiss"
+}
+move_type = ExtResource("1_xxqne")
+category = "Special"
+contest = "Cute"
+power = 50
+accuracy = 100
+pp = 10
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

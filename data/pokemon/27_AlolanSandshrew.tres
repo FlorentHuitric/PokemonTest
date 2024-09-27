@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="1_iwlt7"]
+[ext_resource type="Resource" path="res://data/abilities/Slush Rush.tres" id="2_ud4j0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_f6ve5"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_h6frv"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_8wwpa"]
+
+[resource]
+script = ExtResource("3_f6ve5")
+pokemon_id = 27
+branch_code = ""
+names = {
+"en": "Alolan Sandshrew"
+}
+generation = 7
+height = 0.7
+weight = 40.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_h6frv"), ExtResource("5_8wwpa")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_iwlt7"), ExtResource("2_ud4j0")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 60
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Alolan"
+base_stats = {
+"attack": 75,
+"defense": 90,
+"hp": 50,
+"special_attack": 10,
+"special_defense": 35,
+"speed": 40,
+"total": 300
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/27-alola.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/27-alola.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/27-alola.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/27-alola.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

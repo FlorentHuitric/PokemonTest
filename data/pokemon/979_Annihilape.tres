@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Vital Spirit.tres" id="1_dlp2k"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="2_4y4mm"]
+[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="3_20snt"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_1qx5e"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_k8q5y"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_68bb7"]
+
+[resource]
+script = ExtResource("4_1qx5e")
+pokemon_id = 979
+branch_code = ""
+names = {
+"en": "Annihilape"
+}
+generation = 9
+height = 1.2
+weight = 56.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_k8q5y"), ExtResource("6_68bb7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dlp2k"), ExtResource("2_4y4mm"), ExtResource("3_20snt")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 268
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 115,
+"defense": 80,
+"hp": 110,
+"special_attack": 50,
+"special_defense": 90,
+"speed": 90,
+"total": 535
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/979.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/979.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/979.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/979.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

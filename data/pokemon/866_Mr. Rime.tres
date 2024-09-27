@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Tangled Feet.tres" id="1_inver"]
+[ext_resource type="Resource" path="res://data/abilities/Screen Cleaner.tres" id="2_svw17"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="3_68ckh"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_td6vo"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_vqjsx"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_i31an"]
+
+[resource]
+script = ExtResource("4_td6vo")
+pokemon_id = 866
+branch_code = "866_0"
+names = {
+"en": "Mr. Rime",
+"fr": "Mr. Rime"
+}
+generation = 8
+height = 1.5
+weight = 58.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_vqjsx"), ExtResource("6_i31an")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_inver"), ExtResource("2_svw17"), ExtResource("3_68ckh")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = Array[String](["Human-Like"])
+catch_rate = 45
+base_experience = 182
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 75,
+"hp": 80,
+"special_attack": 110,
+"special_defense": 100,
+"speed": 70,
+"total": 520
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/866-866_0.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/866-866_0.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/866-866_0.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/866-866_0.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

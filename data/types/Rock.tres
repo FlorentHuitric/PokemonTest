@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_l66gg"]
+
+[resource]
+script = ExtResource("1_l66gg")
+type_name = "Rock"
+sprite_path = "res://assets/sprites/types/rock.png"

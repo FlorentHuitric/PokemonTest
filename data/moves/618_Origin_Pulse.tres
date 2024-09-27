@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_fxx71"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_8qvom"]
+
+[resource]
+script = ExtResource("2_8qvom")
+move_id = 618
+move_name = {
+"en": "Origin Pulse",
+"fr": "Origin Pulse"
+}
+move_type = ExtResource("1_fxx71")
+category = "Special"
+contest = "Beautiful"
+power = 110
+accuracy = 85
+pp = 10
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

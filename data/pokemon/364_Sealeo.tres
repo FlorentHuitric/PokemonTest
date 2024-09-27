@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_6f038"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="2_iaiwp"]
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="3_1f5nl"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_p6who"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_vkxsm"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="6_qem5a"]
+
+[resource]
+script = ExtResource("4_p6who")
+pokemon_id = 364
+branch_code = ""
+names = {
+"en": "Sealeo"
+}
+generation = 3
+height = 1.1
+weight = 87.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_vkxsm"), ExtResource("6_qem5a")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6f038"), ExtResource("2_iaiwp"), ExtResource("3_1f5nl")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 120
+base_experience = 144
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 70,
+"hp": 90,
+"special_attack": 75,
+"special_defense": 70,
+"speed": 45,
+"total": 410
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/364.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/364.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/364.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/364.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cotton Down.tres" id="1_5m77y"]
+[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="2_7sskv"]
+[ext_resource type="Resource" path="res://data/abilities/Effect Spore.tres" id="3_5vwkn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_fm2g2"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_tawgd"]
+
+[resource]
+script = ExtResource("4_fm2g2")
+pokemon_id = 830
+branch_code = ""
+names = {
+"en": "Eldegoss"
+}
+generation = 8
+height = 0.5
+weight = 2.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_tawgd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5m77y"), ExtResource("2_7sskv"), ExtResource("3_5vwkn")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 75
+base_experience = 161
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 90,
+"hp": 60,
+"special_attack": 80,
+"special_defense": 120,
+"speed": 60,
+"total": 460
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/830.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/830.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/830.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/830.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

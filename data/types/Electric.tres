@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_8kifi"]
+
+[resource]
+script = ExtResource("1_8kifi")
+type_name = "Electric"
+sprite_path = "res://assets/sprites/types/electric.png"

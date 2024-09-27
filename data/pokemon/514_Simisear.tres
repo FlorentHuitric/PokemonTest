@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="1_t427f"]
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="2_tk0q4"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ll0r8"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_ls20x"]
+
+[resource]
+script = ExtResource("3_ll0r8")
+pokemon_id = 514
+branch_code = ""
+names = {
+"en": "Simisear"
+}
+generation = 5
+height = 1.0
+weight = 28.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ls20x")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_t427f"), ExtResource("2_tk0q4")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 174
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 98,
+"defense": 63,
+"hp": 75,
+"special_attack": 98,
+"special_defense": 63,
+"speed": 101,
+"total": 498
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/514.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/514.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/514.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/514.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

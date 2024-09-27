@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_hdbrn"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_gl8tm"]
+
+[resource]
+script = ExtResource("2_gl8tm")
+move_id = 503
+move_name = {
+"en": "Scald",
+"fr": "Scald"
+}
+move_type = ExtResource("1_hdbrn")
+category = "Special"
+contest = "Tough"
+power = 80
+accuracy = 100
+pp = 15
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

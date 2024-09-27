@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Overgrow.tres" id="1_0e83m"]
+[ext_resource type="Resource" path="res://data/abilities/Protean.tres" id="2_hjvu1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_6yi1j"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_x8txx"]
+
+[resource]
+script = ExtResource("3_6yi1j")
+pokemon_id = 906
+branch_code = ""
+names = {
+"en": "Sprigatito"
+}
+generation = 9
+height = 0.4
+weight = 4.1
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_x8txx")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0e83m"), ExtResource("2_hjvu1")])
+color = "Green"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Grass")
+catch_rate = 45
+base_experience = 62
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 61,
+"defense": 54,
+"hp": 40,
+"special_attack": 45,
+"special_defense": 45,
+"speed": 65,
+"total": 310
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/906.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/906.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/906.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/906.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

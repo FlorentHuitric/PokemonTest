@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_bvo1y"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_qncuc"]
+
+[resource]
+script = ExtResource("2_qncuc")
+move_id = 561
+move_name = {
+"en": "Mat Block",
+"fr": "Mat Block"
+}
+move_type = ExtResource("1_bvo1y")
+category = "Status"
+contest = "Cool"
+power = 0
+accuracy = 0
+pp = 10
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

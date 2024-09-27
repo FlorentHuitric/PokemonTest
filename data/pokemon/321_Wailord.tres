@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Water Veil.tres" id="1_khdgh"]
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="2_20m4c"]
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="3_1x0jt"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ap2b5"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_6agkn"]
+
+[resource]
+script = ExtResource("4_ap2b5")
+pokemon_id = 321
+branch_code = ""
+names = {
+"en": "Wailord"
+}
+generation = 3
+height = 14.5
+weight = 398.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6agkn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_khdgh"), ExtResource("2_20m4c"), ExtResource("3_1x0jt")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Ground", "Water2")
+catch_rate = 60
+base_experience = 175
+experience_type = "1640000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 45,
+"hp": 170,
+"special_attack": 90,
+"special_defense": 45,
+"speed": 60,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/321.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/321.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/321.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/321.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

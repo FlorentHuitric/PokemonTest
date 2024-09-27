@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Iron Fist.tres" id="1_dhh38"]
+[ext_resource type="Resource" path="res://data/abilities/Klutz.tres" id="2_fr043"]
+[ext_resource type="Resource" path="res://data/abilities/No Guard.tres" id="3_b8svt"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_gcbeq"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_81g18"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_xlxat"]
+
+[resource]
+script = ExtResource("4_gcbeq")
+pokemon_id = 622
+branch_code = ""
+names = {
+"en": "Golett"
+}
+generation = 5
+height = 1.0
+weight = 92.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_81g18"), ExtResource("6_xlxat")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dhh38"), ExtResource("2_fr043"), ExtResource("3_b8svt")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 74,
+"defense": 50,
+"hp": 59,
+"special_attack": 35,
+"special_defense": 50,
+"speed": 35,
+"total": 303
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/622.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/622.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/622.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/622.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Defeatist.tres" id="1_4xux4"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_6faq4"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="3_06wo7"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="4_s7mim"]
+
+[resource]
+script = ExtResource("2_6faq4")
+pokemon_id = 566
+branch_code = ""
+names = {
+"en": "Archen"
+}
+generation = 5
+height = 0.5
+weight = 9.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_06wo7"), ExtResource("4_s7mim")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4xux4")])
+color = "Yellow"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Flying", "Water3")
+catch_rate = 45
+base_experience = 71
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 112,
+"defense": 45,
+"hp": 55,
+"special_attack": 74,
+"special_defense": 45,
+"speed": 70,
+"total": 401
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/566.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/566.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/566.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/566.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

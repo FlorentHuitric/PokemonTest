@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_j0yer"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_rrlkb"]
+
+[resource]
+script = ExtResource("2_rrlkb")
+move_id = 555
+move_name = {
+"en": "Snarl",
+"fr": "Snarl"
+}
+move_type = ExtResource("1_j0yer")
+category = "Special"
+contest = "Tough"
+power = 55
+accuracy = 95
+pp = 15
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

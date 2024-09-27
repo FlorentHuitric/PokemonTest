@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_4613h"]
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="2_igp38"]
+[ext_resource type="Resource" path="res://data/abilities/Truant.tres" id="3_bmyn6"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_cwpeh"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_1q8cv"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_4pbju"]
+
+[resource]
+script = ExtResource("4_cwpeh")
+pokemon_id = 632
+branch_code = ""
+names = {
+"en": "Durant"
+}
+generation = 5
+height = 0.3
+weight = 33.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1q8cv"), ExtResource("6_4pbju")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4613h"), ExtResource("2_igp38"), ExtResource("3_bmyn6")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 90
+base_experience = 169
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 109,
+"defense": 112,
+"hp": 58,
+"special_attack": 48,
+"special_defense": 48,
+"speed": 109,
+"total": 484
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/632.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/632.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/632.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/632.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

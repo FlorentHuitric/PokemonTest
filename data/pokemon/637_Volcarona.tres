@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flame Body.tres" id="1_to7jq"]
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="2_vfpnn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_yl1ld"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_tu1tm"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="5_ul4tm"]
+
+[resource]
+script = ExtResource("3_yl1ld")
+pokemon_id = 637
+branch_code = ""
+names = {
+"en": "Volcarona"
+}
+generation = 5
+height = 1.6
+weight = 46.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_tu1tm"), ExtResource("5_ul4tm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_to7jq"), ExtResource("2_vfpnn")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Bug")
+catch_rate = 15
+base_experience = 275
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 65,
+"hp": 85,
+"special_attack": 135,
+"special_defense": 105,
+"speed": 100,
+"total": 550
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/637.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/637.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/637.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/637.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

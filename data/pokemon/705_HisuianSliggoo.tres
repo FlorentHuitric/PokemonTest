@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="1_vxyel"]
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_8avqj"]
+[ext_resource type="Resource" path="res://data/abilities/Gooey.tres" id="3_a4oes"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_hv5f3"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_ntlls"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="6_putmq"]
+
+[resource]
+script = ExtResource("4_hv5f3")
+pokemon_id = 705
+branch_code = ""
+names = {
+"en": "Hisuian Sliggoo"
+}
+generation = 8
+height = 0.7
+weight = 68.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ntlls"), ExtResource("6_putmq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vxyel"), ExtResource("2_8avqj"), ExtResource("3_a4oes")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Dragon")
+catch_rate = 45
+base_experience = 158
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Hisuian"
+base_stats = {
+"attack": 75,
+"defense": 83,
+"hp": 58,
+"special_attack": 83,
+"special_defense": 113,
+"speed": 40,
+"total": 452
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/705-hisui.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/705-hisui.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/705-hisui.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/705-hisui.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

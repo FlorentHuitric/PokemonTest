@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_7nq1g"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_ediu5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_10pqd"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_hxq0r"]
+
+[resource]
+script = ExtResource("3_10pqd")
+pokemon_id = 477
+branch_code = ""
+names = {
+"en": "Dusknoir"
+}
+generation = 4
+height = 2.2
+weight = 106.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_hxq0r")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7nq1g"), ExtResource("2_ediu5")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 45
+base_experience = 263
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 135,
+"hp": 45,
+"special_attack": 65,
+"special_defense": 135,
+"speed": 45,
+"total": 525
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/477.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/477.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/477.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/477.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

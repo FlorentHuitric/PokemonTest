@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="1_6cogo"]
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="2_rdx3x"]
+[ext_resource type="Resource" path="res://data/abilities/Psychic Surge.tres" id="3_gw6ch"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_jcyf3"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_qlgg6"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_apj5l"]
+
+[resource]
+script = ExtResource("4_jcyf3")
+pokemon_id = 876
+branch_code = "876_1"
+names = {
+"en": "Indeedee",
+"fr": "Indeedee Female"
+}
+generation = 8
+height = 0.9
+weight = 28.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_qlgg6"), ExtResource("6_apj5l")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6cogo"), ExtResource("2_rdx3x"), ExtResource("3_gw6ch")])
+color = "Purple"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = Array[String](["Fairy"])
+catch_rate = 30
+base_experience = 166
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 55,
+"defense": 65,
+"hp": 70,
+"special_attack": 95,
+"special_defense": 105,
+"speed": 85,
+"total": 475
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/876-876_1.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/876-876_1.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/876-876_1.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/876-876_1.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/876-876_1.png"
+sprite_female_back = "res://assets/sprites/pokemon/back/female/876-876_1.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/876-876_1.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/back/shiny/female/876-876_1.png"
+description = {
+"en": "",
+"fr": ""
+}

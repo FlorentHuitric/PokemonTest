@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="1_5f60m"]
+[ext_resource type="Resource" path="res://data/abilities/Imposter.tres" id="2_edbx7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_asjni"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="4_jv2n1"]
+
+[resource]
+script = ExtResource("3_asjni")
+pokemon_id = 132
+branch_code = ""
+names = {
+"en": "Ditto"
+}
+generation = 1
+height = 0.3
+weight = 4.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_jv2n1")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5f60m"), ExtResource("2_edbx7")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ditto")
+catch_rate = 35
+base_experience = 101
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 48,
+"hp": 48,
+"special_attack": 48,
+"special_defense": 48,
+"speed": 48,
+"total": 288
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/132.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/132.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/132.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/132.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

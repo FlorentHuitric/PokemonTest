@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Soundproof.tres" id="1_mokc5"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="2_ol76s"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_r36xd"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="4_w16ly"]
+
+[resource]
+script = ExtResource("3_r36xd")
+pokemon_id = 294
+branch_code = ""
+names = {
+"en": "Loudred"
+}
+generation = 3
+height = 1.0
+weight = 40.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_w16ly")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mokc5"), ExtResource("2_ol76s")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Ground")
+catch_rate = 120
+base_experience = 126
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 71,
+"defense": 43,
+"hp": 84,
+"special_attack": 71,
+"special_defense": 43,
+"speed": 48,
+"total": 360
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/294.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/294.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/294.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/294.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

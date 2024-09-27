@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_kdpj3"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="2_qvpec"]
+[ext_resource type="Resource" path="res://data/abilities/Tinted Lens.tres" id="3_dqtm8"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_e6hdv"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_5pyis"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_dyt7x"]
+
+[resource]
+script = ExtResource("4_e6hdv")
+pokemon_id = 628
+branch_code = ""
+names = {
+"en": "Hisuian Braviary"
+}
+generation = 8
+height = 1.7
+weight = 43.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_5pyis"), ExtResource("6_dyt7x")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kdpj3"), ExtResource("2_qvpec"), ExtResource("3_dqtm8")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 100.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying")
+catch_rate = 60
+base_experience = 179
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Hisuian"
+base_stats = {
+"attack": 83,
+"defense": 70,
+"hp": 110,
+"special_attack": 112,
+"special_defense": 70,
+"speed": 65,
+"total": 510
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/628-hisui.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/628-hisui.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/628-hisui.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/628-hisui.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

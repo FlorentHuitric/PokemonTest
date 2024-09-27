@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Aftermath.tres" id="1_cvcgy"]
+[ext_resource type="Resource" path="res://data/abilities/Unburden.tres" id="2_xahy4"]
+[ext_resource type="Resource" path="res://data/abilities/Flare Boost.tres" id="3_agg68"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_tp7c0"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_shxw1"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_de2og"]
+
+[resource]
+script = ExtResource("4_tp7c0")
+pokemon_id = 426
+branch_code = ""
+names = {
+"en": "Drifblim"
+}
+generation = 4
+height = 1.2
+weight = 15.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_shxw1"), ExtResource("6_de2og")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_cvcgy"), ExtResource("2_xahy4"), ExtResource("3_agg68")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 60
+base_experience = 174
+experience_type = "1640000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 44,
+"hp": 150,
+"special_attack": 90,
+"special_defense": 54,
+"speed": 80,
+"total": 498
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/426.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/426.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/426.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/426.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Illuminate.tres" id="1_8d0g8"]
+[ext_resource type="Resource" path="res://data/abilities/Natural Cure.tres" id="2_blodu"]
+[ext_resource type="Resource" path="res://data/abilities/Analytic.tres" id="3_ssd8n"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_aagxt"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_cc61b"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_c00w2"]
+
+[resource]
+script = ExtResource("4_aagxt")
+pokemon_id = 121
+branch_code = ""
+names = {
+"en": "Starmie"
+}
+generation = 1
+height = 1.1
+weight = 80.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_cc61b"), ExtResource("6_c00w2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8d0g8"), ExtResource("2_blodu"), ExtResource("3_ssd8n")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water3")
+catch_rate = 60
+base_experience = 182
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 85,
+"hp": 60,
+"special_attack": 100,
+"special_defense": 85,
+"speed": 115,
+"total": 520
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/121.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/121.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/121.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/121.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

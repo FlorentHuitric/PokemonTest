@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_0xl0c"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_n6vdb"]
+
+[resource]
+script = ExtResource("2_n6vdb")
+move_id = 332
+move_name = {
+"en": "Aerial Ace",
+"fr": "Aerial Ace"
+}
+move_type = ExtResource("1_0xl0c")
+category = "Physical"
+contest = "Cool"
+power = 60
+accuracy = 0
+pp = 20
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

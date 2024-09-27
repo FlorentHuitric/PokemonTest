@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_2uyoe"]
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="2_68tdw"]
+[ext_resource type="Resource" path="res://data/abilities/Rain Dish.tres" id="3_aaeue"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_bwged"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_hoqpt"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_y6j3m"]
+
+[resource]
+script = ExtResource("4_bwged")
+pokemon_id = 278
+branch_code = ""
+names = {
+"en": "Wingull"
+}
+generation = 3
+height = 0.6
+weight = 9.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_hoqpt"), ExtResource("6_y6j3m")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2uyoe"), ExtResource("2_68tdw"), ExtResource("3_aaeue")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Flying")
+catch_rate = 190
+base_experience = 54
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 30,
+"defense": 30,
+"hp": 40,
+"special_attack": 55,
+"special_defense": 30,
+"speed": 85,
+"total": 270
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/278.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/278.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/278.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/278.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

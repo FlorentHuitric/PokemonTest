@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Mycelium Might.tres" id="1_qv7yj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ks22u"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_xgkkk"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_jkha8"]
+
+[resource]
+script = ExtResource("2_ks22u")
+pokemon_id = 948
+branch_code = ""
+names = {
+"en": "Toedscool"
+}
+generation = 9
+height = 0.9
+weight = 33.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_xgkkk"), ExtResource("4_jkha8")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_qv7yj")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 190
+base_experience = 67
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 40,
+"defense": 35,
+"hp": 40,
+"special_attack": 50,
+"special_defense": 100,
+"speed": 70,
+"total": 335
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/948.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/948.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/948.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/948.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

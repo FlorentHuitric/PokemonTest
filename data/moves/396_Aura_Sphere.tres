@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_od3y0"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_j8hus"]
+
+[resource]
+script = ExtResource("2_j8hus")
+move_id = 396
+move_name = {
+"en": "Aura Sphere",
+"fr": "Aura Sphere"
+}
+move_type = ExtResource("1_od3y0")
+category = "Special"
+contest = "Beautiful"
+power = 80
+accuracy = 0
+pp = 20
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

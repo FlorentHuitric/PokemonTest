@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_eoqy7"]
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="2_r02tn"]
+[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="3_gu4ub"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_b0esu"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_80226"]
+
+[resource]
+script = ExtResource("4_b0esu")
+pokemon_id = 942
+branch_code = ""
+names = {
+"en": "Maschiff"
+}
+generation = 9
+height = 0.5
+weight = 16.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_80226")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_eoqy7"), ExtResource("2_r02tn"), ExtResource("3_gu4ub")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 150
+base_experience = 68
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 78,
+"defense": 60,
+"hp": 60,
+"special_attack": 40,
+"special_defense": 51,
+"speed": 51,
+"total": 340
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/942.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/942.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/942.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/942.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_8vpnr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_rg27j"]
+
+[resource]
+script = ExtResource("2_rg27j")
+move_id = 256
+move_name = {
+"en": "Swallow",
+"fr": "Swallow"
+}
+move_type = ExtResource("1_8vpnr")
+category = "Status"
+contest = "Tough"
+power = 0
+accuracy = 0
+pp = 10
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

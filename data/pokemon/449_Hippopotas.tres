@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sand Stream.tres" id="1_2dij4"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Force.tres" id="2_6a3hq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ba3rr"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="4_wt4bu"]
+
+[resource]
+script = ExtResource("3_ba3rr")
+pokemon_id = 449
+branch_code = ""
+names = {
+"en": "Hippopotas"
+}
+generation = 4
+height = 0.8
+weight = 49.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_wt4bu")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2dij4"), ExtResource("2_6a3hq")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Ground")
+catch_rate = 140
+base_experience = 66
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 72,
+"defense": 78,
+"hp": 68,
+"special_attack": 38,
+"special_defense": 42,
+"speed": 32,
+"total": 330
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/449.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/449.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/449.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/449.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/449.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/449.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/449.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/449.png"
+description = {
+"en": "",
+"fr": ""
+}

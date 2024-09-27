@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_m7cdw"]
+[ext_resource type="Resource" path="res://data/abilities/Stench.tres" id="2_bh6up"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_3ye7i"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_5imuc"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_idv15"]
+
+[resource]
+script = ExtResource("3_3ye7i")
+pokemon_id = 44
+branch_code = ""
+names = {
+"en": "Gloom"
+}
+generation = 1
+height = 0.8
+weight = 8.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_5imuc"), ExtResource("5_idv15")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_m7cdw"), ExtResource("2_bh6up")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 120
+base_experience = 138
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 70,
+"hp": 60,
+"special_attack": 85,
+"special_defense": 75,
+"speed": 40,
+"total": 395
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/44.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/44.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/44.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/44.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/44.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/44.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/44.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/44.png"
+description = {
+"en": "",
+"fr": ""
+}

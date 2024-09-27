@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_ux06e"]
+[ext_resource type="Resource" path="res://data/abilities/Liquid Voice.tres" id="2_netq7"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_05h42"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_pi2ad"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_3w80m"]
+
+[resource]
+script = ExtResource("3_05h42")
+pokemon_id = 730
+branch_code = ""
+names = {
+"en": "Primarina"
+}
+generation = 7
+height = 1.8
+weight = 44.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_pi2ad"), ExtResource("5_3w80m")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ux06e"), ExtResource("2_netq7")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 45
+base_experience = 265
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 74,
+"defense": 74,
+"hp": 80,
+"special_attack": 126,
+"special_defense": 116,
+"speed": 60,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/730.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/730.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/730.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/730.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

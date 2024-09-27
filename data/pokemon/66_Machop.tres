@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="1_xyknc"]
+[ext_resource type="Resource" path="res://data/abilities/No Guard.tres" id="2_ke5iw"]
+[ext_resource type="Resource" path="res://data/abilities/Steadfast.tres" id="3_4u603"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_y03il"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_3i8ev"]
+
+[resource]
+script = ExtResource("4_y03il")
+pokemon_id = 66
+branch_code = ""
+names = {
+"en": "Machop"
+}
+generation = 1
+height = 0.8
+weight = 19.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_3i8ev")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xyknc"), ExtResource("2_ke5iw"), ExtResource("3_4u603")])
+color = "Gray"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 180
+base_experience = 61
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 50,
+"hp": 70,
+"special_attack": 35,
+"special_defense": 35,
+"speed": 35,
+"total": 305
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/66.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/66.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/66.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/66.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

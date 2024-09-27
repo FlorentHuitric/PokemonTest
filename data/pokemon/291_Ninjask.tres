@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Speed Boost.tres" id="1_1lvjh"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_7wcdb"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_11tgg"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_6tj46"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_8dcfy"]
+
+[resource]
+script = ExtResource("3_11tgg")
+pokemon_id = 291
+branch_code = ""
+names = {
+"en": "Ninjask"
+}
+generation = 3
+height = 0.8
+weight = 12.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6tj46"), ExtResource("5_8dcfy")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1lvjh"), ExtResource("2_7wcdb")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 120
+base_experience = 160
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 45,
+"hp": 61,
+"special_attack": 50,
+"special_defense": 50,
+"speed": 160,
+"total": 456
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/291.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/291.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/291.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/291.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

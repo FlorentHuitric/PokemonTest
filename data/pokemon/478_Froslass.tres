@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="1_2gv4x"]
+[ext_resource type="Resource" path="res://data/abilities/Cursed Body.tres" id="2_ml7wl"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_3tsgd"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_jln5b"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_3fu4a"]
+
+[resource]
+script = ExtResource("3_3tsgd")
+pokemon_id = 478
+branch_code = ""
+names = {
+"en": "Froslass"
+}
+generation = 4
+height = 1.3
+weight = 26.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_jln5b"), ExtResource("5_3fu4a")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2gv4x"), ExtResource("2_ml7wl")])
+color = "White"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy", "Mineral")
+catch_rate = 75
+base_experience = 168
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 70,
+"hp": 70,
+"special_attack": 80,
+"special_defense": 70,
+"speed": 110,
+"total": 480
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/478.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/478.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/478.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/478.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

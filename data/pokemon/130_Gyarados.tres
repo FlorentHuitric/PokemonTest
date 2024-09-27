@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_7nbeb"]
+[ext_resource type="Resource" path="res://data/abilities/Moxie.tres" id="2_ndwty"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_3qp7j"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_dqa7u"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_0jwqf"]
+
+[resource]
+script = ExtResource("3_3qp7j")
+pokemon_id = 130
+branch_code = ""
+names = {
+"en": "Gyarados"
+}
+generation = 1
+height = 6.5
+weight = 235.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_dqa7u"), ExtResource("5_0jwqf")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7nbeb"), ExtResource("2_ndwty")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 5
+egg_groups = PackedStringArray("Water2", "Dragon")
+catch_rate = 45
+base_experience = 189
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 79,
+"hp": 95,
+"special_attack": 60,
+"special_defense": 100,
+"speed": 81,
+"total": 540
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/130.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/130.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/130.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/130.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/130.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/130.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/130.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/130.png"
+description = {
+"en": "",
+"fr": ""
+}

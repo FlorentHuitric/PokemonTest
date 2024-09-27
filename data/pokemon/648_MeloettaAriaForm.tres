@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Serene Grace.tres" id="1_0ows1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_xc7sv"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="3_52y4r"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_t3k46"]
+
+[resource]
+script = ExtResource("2_xc7sv")
+pokemon_id = 648
+branch_code = ""
+names = {
+"en": "Meloetta Aria Form"
+}
+generation = 5
+height = 0.6
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_52y4r"), ExtResource("4_t3k46")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0ows1")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 300
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 77,
+"defense": 77,
+"hp": 100,
+"special_attack": 128,
+"special_defense": 128,
+"speed": 90,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 1,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/648.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/648.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/648.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/648.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

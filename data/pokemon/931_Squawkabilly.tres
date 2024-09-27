@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_jtseo"]
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="2_3vbdm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_cq72y"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_jxaio"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="4_b6wij"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_a16pm"]
+
+[resource]
+script = ExtResource("3_cq72y")
+pokemon_id = 931
+branch_code = "931_3"
+names = {
+"en": "Squawkabilly",
+"fr": "Squawkabilly White Plumage"
+}
+generation = 9
+height = 0.6
+weight = 2.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_b6wij"), ExtResource("5_a16pm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_jtseo"), ExtResource("2_3vbdm"), ExtResource("3_jxaio")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = Array[String](["Flying"])
+catch_rate = 190
+base_experience = 146
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 96,
+"defense": 51,
+"hp": 82,
+"special_attack": 45,
+"special_defense": 51,
+"speed": 92,
+"total": 417
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/931-931_3.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/931-931_3.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/931-931_3.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/931-931_3.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

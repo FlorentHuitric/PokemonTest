@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Merciless.tres" id="1_slth0"]
+[ext_resource type="Resource" path="res://data/abilities/Limber.tres" id="2_dpqdp"]
+[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="3_231yn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_3giqr"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_6uquv"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="6_o6mns"]
+
+[resource]
+script = ExtResource("4_3giqr")
+pokemon_id = 747
+branch_code = ""
+names = {
+"en": "Mareanie"
+}
+generation = 7
+height = 0.4
+weight = 8.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6uquv"), ExtResource("6_o6mns")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_slth0"), ExtResource("2_dpqdp"), ExtResource("3_231yn")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 53,
+"defense": 62,
+"hp": 50,
+"special_attack": 43,
+"special_defense": 52,
+"speed": 45,
+"total": 305
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/747.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/747.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/747.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/747.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

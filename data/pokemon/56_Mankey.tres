@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Vital Spirit.tres" id="1_pg2yc"]
+[ext_resource type="Resource" path="res://data/abilities/Anger Point.tres" id="2_cmn4b"]
+[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="3_jt77r"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_jlwr3"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_kgy65"]
+
+[resource]
+script = ExtResource("4_jlwr3")
+pokemon_id = 56
+branch_code = ""
+names = {
+"en": "Mankey"
+}
+generation = 1
+height = 0.5
+weight = 28.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_kgy65")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_pg2yc"), ExtResource("2_cmn4b"), ExtResource("3_jt77r")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 35,
+"hp": 40,
+"special_attack": 35,
+"special_defense": 45,
+"speed": 70,
+"total": 305
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/56.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/56.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/56.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/56.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

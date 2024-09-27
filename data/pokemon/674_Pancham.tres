@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Iron Fist.tres" id="1_dxlc0"]
+[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="2_nqocu"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="3_pok64"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_75028"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_yggs7"]
+
+[resource]
+script = ExtResource("4_75028")
+pokemon_id = 674
+branch_code = ""
+names = {
+"en": "Pancham"
+}
+generation = 6
+height = 0.6
+weight = 8.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_yggs7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dxlc0"), ExtResource("2_nqocu"), ExtResource("3_pok64")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Ground", "Human-Like")
+catch_rate = 220
+base_experience = 70
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 82,
+"defense": 62,
+"hp": 67,
+"special_attack": 46,
+"special_defense": 48,
+"speed": 43,
+"total": 348
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/674.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/674.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/674.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/674.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

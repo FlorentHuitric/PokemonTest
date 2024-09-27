@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="1_7fbnt"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_85hey"]
+[ext_resource type="Resource" path="res://data/abilities/Competitive.tres" id="3_semqj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_u6cv8"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_67isx"]
+
+[resource]
+script = ExtResource("4_u6cv8")
+pokemon_id = 678
+branch_code = ""
+names = {
+"en": "Meowstic Female"
+}
+generation = 6
+height = 0.6
+weight = 8.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_67isx")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7fbnt"), ExtResource("2_85hey"), ExtResource("3_semqj")])
+color = "White"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 163
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 76,
+"hp": 74,
+"special_attack": 83,
+"special_defense": 81,
+"speed": 104,
+"total": 466
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/678.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/678.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/678.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/678.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/678.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/678.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/678.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/678.png"
+description = {
+"en": "",
+"fr": ""
+}

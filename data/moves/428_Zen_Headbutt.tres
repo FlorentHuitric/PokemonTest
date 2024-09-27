@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_u8vo6"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_vi4on"]
+
+[resource]
+script = ExtResource("2_vi4on")
+move_id = 428
+move_name = {
+"en": "Zen Headbutt",
+"fr": "Zen Headbutt"
+}
+move_type = ExtResource("1_u8vo6")
+category = "Physical"
+contest = "Clever"
+power = 80
+accuracy = 90
+pp = 15
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

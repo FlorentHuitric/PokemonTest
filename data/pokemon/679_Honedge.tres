@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/No Guard.tres" id="1_83vtp"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_y5r37"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_k78td"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_s7sy3"]
+
+[resource]
+script = ExtResource("2_y5r37")
+pokemon_id = 679
+branch_code = ""
+names = {
+"en": "Honedge"
+}
+generation = 6
+height = 0.8
+weight = 2.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_k78td"), ExtResource("4_s7sy3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_83vtp")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 180
+base_experience = 65
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 100,
+"hp": 45,
+"special_attack": 35,
+"special_defense": 37,
+"speed": 28,
+"total": 325
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/679.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/679.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/679.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/679.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

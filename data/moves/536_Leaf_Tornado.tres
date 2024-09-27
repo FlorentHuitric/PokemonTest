@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_tsucl"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_kyyxo"]
+
+[resource]
+script = ExtResource("2_kyyxo")
+move_id = 536
+move_name = {
+"en": "Leaf Tornado",
+"fr": "Leaf Tornado"
+}
+move_type = ExtResource("1_tsucl")
+category = "Special"
+contest = "Cool"
+power = 65
+accuracy = 90
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

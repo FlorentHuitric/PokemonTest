@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Poison Point.tres" id="1_d13t8"]
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="2_q3lfv"]
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="3_wr6kw"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_eygc8"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_7cu6m"]
+
+[resource]
+script = ExtResource("4_eygc8")
+pokemon_id = 32
+branch_code = "32_0"
+names = {
+"en": "Nidoran M",
+"fr": "Nidoran M"
+}
+generation = 1
+height = 0.5
+weight = 9.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_7cu6m")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_d13t8"), ExtResource("2_q3lfv"), ExtResource("3_wr6kw")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 100.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = Array[String](["Monster", "Ground"])
+catch_rate = 235
+base_experience = 55
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 57,
+"defense": 40,
+"hp": 46,
+"special_attack": 40,
+"special_defense": 40,
+"speed": 50,
+"total": 273
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/32-32_0.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/32-32_0.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/32-32_0.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/32-32_0.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

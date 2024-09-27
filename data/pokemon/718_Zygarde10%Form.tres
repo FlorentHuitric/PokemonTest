@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Aura Break.tres" id="1_cg6dd"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ct2im"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="3_u601b"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="4_ooate"]
+
+[resource]
+script = ExtResource("2_ct2im")
+pokemon_id = 718
+branch_code = ""
+names = {
+"en": "Zygarde 10% Form"
+}
+generation = 6
+height = 1.2
+weight = 33.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_u601b"), ExtResource("4_ooate")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_cg6dd")])
+color = "Black"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 243
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 71,
+"hp": 54,
+"special_attack": 61,
+"special_defense": 85,
+"speed": 115,
+"total": 486
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 3,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/718.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/718.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/718.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/718.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

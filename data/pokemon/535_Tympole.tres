@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_bvjkf"]
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="2_silv5"]
+[ext_resource type="Resource" path="res://data/abilities/Water Absorb.tres" id="3_yab5t"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_04wjc"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_cnfkb"]
+
+[resource]
+script = ExtResource("4_04wjc")
+pokemon_id = 535
+branch_code = ""
+names = {
+"en": "Tympole"
+}
+generation = 5
+height = 0.5
+weight = 4.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_cnfkb")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bvjkf"), ExtResource("2_silv5"), ExtResource("3_yab5t")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1")
+catch_rate = 255
+base_experience = 59
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 40,
+"hp": 50,
+"special_attack": 50,
+"special_defense": 40,
+"speed": 64,
+"total": 294
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/535.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/535.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/535.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/535.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

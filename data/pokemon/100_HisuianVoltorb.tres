@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Soundproof.tres" id="1_vt26x"]
+[ext_resource type="Resource" path="res://data/abilities/Static.tres" id="2_atuqo"]
+[ext_resource type="Resource" path="res://data/abilities/Aftermath.tres" id="3_vnk5r"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_jb7pw"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_olmwl"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="6_pewji"]
+
+[resource]
+script = ExtResource("4_jb7pw")
+pokemon_id = 100
+branch_code = ""
+names = {
+"en": "Hisuian Voltorb"
+}
+generation = 8
+height = 0.5
+weight = 13.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_olmwl"), ExtResource("6_pewji")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vt26x"), ExtResource("2_atuqo"), ExtResource("3_vnk5r")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 190
+base_experience = 66
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Hisuian"
+base_stats = {
+"attack": 30,
+"defense": 50,
+"hp": 40,
+"special_attack": 55,
+"special_defense": 55,
+"speed": 100,
+"total": 330
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/100-hisui.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/100-hisui.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/100-hisui.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/100-hisui.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

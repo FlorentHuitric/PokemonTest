@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_uidhs"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Scales.tres" id="2_5lijg"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_gvog3"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_6itw8"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_xsisy"]
+
+[resource]
+script = ExtResource("3_gvog3")
+pokemon_id = 872
+branch_code = ""
+names = {
+"en": "Snom"
+}
+generation = 8
+height = 0.3
+weight = 3.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6itw8"), ExtResource("5_xsisy")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uidhs"), ExtResource("2_5lijg")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 190
+base_experience = 37
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 25,
+"defense": 35,
+"hp": 30,
+"special_attack": 45,
+"special_defense": 30,
+"speed": 20,
+"total": 185
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/872.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/872.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/872.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/872.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

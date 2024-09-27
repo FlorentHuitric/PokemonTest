@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_r6qto"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_8h5wx"]
+
+[resource]
+script = ExtResource("2_8h5wx")
+move_id = 482
+move_name = {
+"en": "Sludge Wave",
+"fr": "Sludge Wave"
+}
+move_type = ExtResource("1_r6qto")
+category = "Special"
+contest = "Tough"
+power = 95
+accuracy = 100
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="1_3w3pg"]
+[ext_resource type="Resource" path="res://data/abilities/Serene Grace.tres" id="2_1t2dg"]
+[ext_resource type="Resource" path="res://data/abilities/Super Luck.tres" id="3_pniaq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_oe2f7"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_6xdji"]
+
+[resource]
+script = ExtResource("4_oe2f7")
+pokemon_id = 175
+branch_code = ""
+names = {
+"en": "Togepi"
+}
+generation = 2
+height = 0.3
+weight = 1.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6xdji")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3w3pg"), ExtResource("2_1t2dg"), ExtResource("3_pniaq")])
+color = "White"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 190
+base_experience = 49
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 20,
+"defense": 65,
+"hp": 35,
+"special_attack": 40,
+"special_defense": 65,
+"speed": 20,
+"total": 245
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/175.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/175.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/175.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/175.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

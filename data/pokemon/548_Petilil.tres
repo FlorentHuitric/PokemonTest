@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_ovrps"]
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="2_5mrpl"]
+[ext_resource type="Resource" path="res://data/abilities/Leaf Guard.tres" id="3_35iv3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_aapfl"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_gm0d2"]
+
+[resource]
+script = ExtResource("4_aapfl")
+pokemon_id = 548
+branch_code = ""
+names = {
+"en": "Petilil"
+}
+generation = 5
+height = 0.5
+weight = 6.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gm0d2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ovrps"), ExtResource("2_5mrpl"), ExtResource("3_35iv3")])
+color = "Green"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass")
+catch_rate = 190
+base_experience = 56
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 35,
+"defense": 50,
+"hp": 45,
+"special_attack": 70,
+"special_defense": 50,
+"speed": 30,
+"total": 280
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/548.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/548.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/548.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/548.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

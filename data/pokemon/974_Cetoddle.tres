@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_por0f"]
+[ext_resource type="Resource" path="res://data/abilities/Snow Cloak.tres" id="2_ulygn"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_qxstr"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_8nivx"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_pqype"]
+
+[resource]
+script = ExtResource("4_8nivx")
+pokemon_id = 974
+branch_code = ""
+names = {
+"en": "Cetoddle"
+}
+generation = 9
+height = 1.2
+weight = 45.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_pqype")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_por0f"), ExtResource("2_ulygn"), ExtResource("3_qxstr")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Ground")
+catch_rate = 150
+base_experience = 67
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 68,
+"defense": 45,
+"hp": 108,
+"special_attack": 30,
+"special_defense": 40,
+"speed": 43,
+"total": 334
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/974.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/974.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/974.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/974.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

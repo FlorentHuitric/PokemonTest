@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_tmvvr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3hcue"]
+
+[resource]
+script = ExtResource("2_3hcue")
+move_id = 353
+move_name = {
+"en": "Doom Desire",
+"fr": "Doom Desire"
+}
+move_type = ExtResource("1_tmvvr")
+category = "Special"
+contest = "Beautiful"
+power = 140
+accuracy = 0
+pp = 5
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

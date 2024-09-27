@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Overgrow.tres" id="1_g1702"]
+[ext_resource type="Resource" path="res://data/abilities/Contrary.tres" id="2_db3xn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_d1g5c"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_fvy35"]
+
+[resource]
+script = ExtResource("3_d1g5c")
+pokemon_id = 497
+branch_code = ""
+names = {
+"en": "Serperior"
+}
+generation = 5
+height = 3.3
+weight = 63.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_fvy35")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_g1702"), ExtResource("2_db3xn")])
+color = "Green"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Grass")
+catch_rate = 45
+base_experience = 238
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 95,
+"hp": 75,
+"special_attack": 75,
+"special_defense": 95,
+"speed": 113,
+"total": 528
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/497.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/497.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/497.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/497.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_g5bna"]
+[ext_resource type="Resource" path="res://data/abilities/Slush Rush.tres" id="2_yccrw"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_343sr"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_scg8b"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_gud5p"]
+
+[resource]
+script = ExtResource("4_scg8b")
+pokemon_id = 975
+branch_code = ""
+names = {
+"en": "Cetitan"
+}
+generation = 9
+height = 4.5
+weight = 700.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gud5p")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_g5bna"), ExtResource("2_yccrw"), ExtResource("3_343sr")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Ground")
+catch_rate = 50
+base_experience = 182
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 113,
+"defense": 65,
+"hp": 170,
+"special_attack": 45,
+"special_defense": 55,
+"speed": 73,
+"total": 521
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/975.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/975.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/975.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/975.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

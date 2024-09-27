@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="1_cwms2"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_d75nl"]
+
+[resource]
+script = ExtResource("2_d75nl")
+move_id = 209
+move_name = {
+"en": "Spark",
+"fr": "Spark"
+}
+move_type = ExtResource("1_cwms2")
+category = "Physical"
+contest = "Cool"
+power = 65
+accuracy = 100
+pp = 20
+generation = 2
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

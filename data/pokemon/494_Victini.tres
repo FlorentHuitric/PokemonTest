@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Victory Star.tres" id="1_876fj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_k1dki"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_2q7fs"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_6aibr"]
+
+[resource]
+script = ExtResource("2_k1dki")
+pokemon_id = 494
+branch_code = ""
+names = {
+"en": "Victini"
+}
+generation = 5
+height = 0.4
+weight = 4.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_2q7fs"), ExtResource("4_6aibr")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_876fj")])
+color = "Yellow"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 300
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 100,
+"hp": 100,
+"special_attack": 100,
+"special_defense": 100,
+"speed": 100,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 3,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/494.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/494.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/494.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/494.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_vrnmc"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_4bhno"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="3_6u855"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_8ltu8"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_6re2g"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_m5xev"]
+
+[resource]
+script = ExtResource("4_8ltu8")
+pokemon_id = 826
+branch_code = ""
+names = {
+"en": "Orbeetle"
+}
+generation = 8
+height = 0.4
+weight = 40.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6re2g"), ExtResource("6_m5xev")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vrnmc"), ExtResource("2_4bhno"), ExtResource("3_6u855")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 253
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 110,
+"hp": 60,
+"special_attack": 80,
+"special_defense": 120,
+"speed": 90,
+"total": 505
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 3,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/826.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/826.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/826.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/826.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

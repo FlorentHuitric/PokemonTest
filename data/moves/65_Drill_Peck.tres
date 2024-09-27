@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_562uk"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_bvw7f"]
+
+[resource]
+script = ExtResource("2_bvw7f")
+move_id = 65
+move_name = {
+"en": "Drill Peck",
+"fr": "Drill Peck"
+}
+move_type = ExtResource("1_562uk")
+category = "Physical"
+contest = "Cool"
+power = 80
+accuracy = 100
+pp = 20
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

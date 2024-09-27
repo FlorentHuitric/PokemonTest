@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3 uid="uid://b0etu047at47s"]
+
+[ext_resource type="Resource" uid="uid://dm7im3llsvahe" path="res://data/abilities/Thick Fat.tres" id="1_b8r61"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_0ve6d"]
+[ext_resource type="Resource" uid="uid://vioksedn2icd" path="res://data/types/Grass.tres" id="3_nhqdn"]
+[ext_resource type="Resource" uid="uid://bc418ad6xw6cw" path="res://data/types/Poison.tres" id="4_msl1g"]
+
+[resource]
+script = ExtResource("2_0ve6d")
+pokemon_id = 3
+branch_code = ""
+names = {
+"en": "Mega Venusaur"
+}
+generation = 1
+height = 2.4
+weight = 155.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_nhqdn"), ExtResource("4_msl1g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_b8r61")])
+color = "Green"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Monster", "Grass")
+catch_rate = 45
+base_experience = 281
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 123,
+"hp": 80,
+"special_attack": 122,
+"special_defense": 120,
+"speed": 80,
+"total": 625
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/3-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/3-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/3-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/3-mega.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/3-mega.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/3-mega.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/3-mega.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/3-mega.png"
+description = {
+"en": "",
+"fr": ""
+}

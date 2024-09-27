@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Toxic Debris.tres" id="1_4iqf4"]
+[ext_resource type="Resource" path="res://data/abilities/Corrosion.tres" id="2_ukk5g"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_apk6y"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_5t55k"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_jncx7"]
+
+[resource]
+script = ExtResource("3_apk6y")
+pokemon_id = 969
+branch_code = ""
+names = {
+"en": "Glimmet"
+}
+generation = 9
+height = 0.7
+weight = 8.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_5t55k"), ExtResource("5_jncx7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4iqf4"), ExtResource("2_ukk5g")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 70
+base_experience = 70
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 35,
+"defense": 42,
+"hp": 48,
+"special_attack": 105,
+"special_defense": 60,
+"speed": 60,
+"total": 350
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/969.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/969.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/969.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/969.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

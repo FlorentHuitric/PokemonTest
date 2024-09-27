@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_4jpyx"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_foel3"]
+
+[resource]
+script = ExtResource("2_foel3")
+move_id = 554
+move_name = {
+"en": "Ice Burn",
+"fr": "Ice Burn"
+}
+move_type = ExtResource("1_4jpyx")
+category = "Special"
+contest = "Beautiful"
+power = 140
+accuracy = 90
+pp = 5
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

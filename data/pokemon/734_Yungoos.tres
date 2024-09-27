@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="1_q38jh"]
+[ext_resource type="Resource" path="res://data/abilities/Strong Jaw.tres" id="2_ncd5i"]
+[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="3_spxjq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ni7mv"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_8bjdi"]
+
+[resource]
+script = ExtResource("4_ni7mv")
+pokemon_id = 734
+branch_code = ""
+names = {
+"en": "Yungoos"
+}
+generation = 7
+height = 0.4
+weight = 6.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8bjdi")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_q38jh"), ExtResource("2_ncd5i"), ExtResource("3_spxjq")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 51
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 30,
+"hp": 48,
+"special_attack": 30,
+"special_defense": 30,
+"speed": 45,
+"total": 253
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/734.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/734.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/734.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/734.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

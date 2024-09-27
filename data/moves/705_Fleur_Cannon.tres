@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="1_k3qwg"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_styis"]
+
+[resource]
+script = ExtResource("2_styis")
+move_id = 705
+move_name = {
+"en": "Fleur Cannon",
+"fr": "Fleur Cannon"
+}
+move_type = ExtResource("1_k3qwg")
+category = "Special"
+contest = "???"
+power = 130
+accuracy = 90
+pp = 5
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

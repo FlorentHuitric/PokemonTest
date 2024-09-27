@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="1_uhklo"]
+[ext_resource type="Resource" path="res://data/abilities/Cheek Pouch.tres" id="2_is306"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="3_kw68v"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_05dud"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_jk2np"]
+
+[resource]
+script = ExtResource("4_05dud")
+pokemon_id = 925
+branch_code = ""
+names = {
+"en": "Maushold Family of Three"
+}
+generation = 9
+height = 0.3
+weight = 2.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jk2np")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uhklo"), ExtResource("2_is306"), ExtResource("3_kw68v")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 75
+base_experience = 165
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 70,
+"hp": 74,
+"special_attack": 65,
+"special_defense": 75,
+"speed": 111,
+"total": 470
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/925.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/925.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/925.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/925.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Power Spot.tres" id="1_7kdlv"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_da450"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="3_enetr"]
+
+[resource]
+script = ExtResource("2_da450")
+pokemon_id = 874
+branch_code = ""
+names = {
+"en": "Stonjourner"
+}
+generation = 8
+height = 2.5
+weight = 520.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_enetr")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7kdlv")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 60
+base_experience = 165
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 125,
+"defense": 135,
+"hp": 100,
+"special_attack": 20,
+"special_defense": 20,
+"speed": 70,
+"total": 470
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/874.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/874.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/874.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/874.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

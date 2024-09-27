@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_tea18"]
+[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="2_pxapy"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_1g8bg"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_4qmc8"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_813xg"]
+
+[resource]
+script = ExtResource("3_1g8bg")
+pokemon_id = 395
+branch_code = ""
+names = {
+"en": "Empoleon"
+}
+generation = 4
+height = 1.7
+weight = 84.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_4qmc8"), ExtResource("5_813xg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tea18"), ExtResource("2_pxapy")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 45
+base_experience = 239
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 86,
+"defense": 88,
+"hp": 84,
+"special_attack": 111,
+"special_defense": 101,
+"speed": 60,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/395.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/395.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/395.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/395.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="1_dd62p"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5sj1h"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_1ksco"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_5pl1u"]
+
+[resource]
+script = ExtResource("2_5sj1h")
+pokemon_id = 634
+branch_code = ""
+names = {
+"en": "Zweilous"
+}
+generation = 5
+height = 1.4
+weight = 50.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_1ksco"), ExtResource("4_5pl1u")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dd62p")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Dragon")
+catch_rate = 45
+base_experience = 147
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 70,
+"hp": 72,
+"special_attack": 65,
+"special_defense": 70,
+"speed": 58,
+"total": 420
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/634.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/634.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/634.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/634.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

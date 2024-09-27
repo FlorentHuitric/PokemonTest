@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="1_lk7d0"]
+[ext_resource type="Resource" path="res://data/abilities/Tinted Lens.tres" id="2_wx310"]
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="3_jkxbn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_rdhka"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_7y3vj"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_cyj28"]
+
+[resource]
+script = ExtResource("4_rdhka")
+pokemon_id = 48
+branch_code = ""
+names = {
+"en": "Venonat"
+}
+generation = 1
+height = 1.0
+weight = 30.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_7y3vj"), ExtResource("6_cyj28")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_lk7d0"), ExtResource("2_wx310"), ExtResource("3_jkxbn")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Bug")
+catch_rate = 190
+base_experience = 61
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 55,
+"defense": 50,
+"hp": 60,
+"special_attack": 40,
+"special_defense": 55,
+"speed": 45,
+"total": 305
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/48.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/48.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/48.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/48.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

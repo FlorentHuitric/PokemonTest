@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="1_lylps"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Rush.tres" id="2_avjbe"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2j82d"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="4_6agq3"]
+
+[resource]
+script = ExtResource("3_2j82d")
+pokemon_id = 27
+branch_code = ""
+names = {
+"en": "Sandshrew"
+}
+generation = 1
+height = 0.6
+weight = 12.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6agq3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_lylps"), ExtResource("2_avjbe")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 60
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 85,
+"hp": 50,
+"special_attack": 20,
+"special_defense": 30,
+"speed": 40,
+"total": 300
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/27.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/27.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/27.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/27.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

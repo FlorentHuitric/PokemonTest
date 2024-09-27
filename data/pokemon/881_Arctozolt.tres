@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Volt Absorb.tres" id="1_0vuh6"]
+[ext_resource type="Resource" path="res://data/abilities/Static.tres" id="2_d7fbl"]
+[ext_resource type="Resource" path="res://data/abilities/Slush Rush.tres" id="3_hju32"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_qro83"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_jq600"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="6_y1y2c"]
+
+[resource]
+script = ExtResource("4_qro83")
+pokemon_id = 881
+branch_code = ""
+names = {
+"en": "Arctozolt"
+}
+generation = 8
+height = 2.3
+weight = 150.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jq600"), ExtResource("6_y1y2c")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0vuh6"), ExtResource("2_d7fbl"), ExtResource("3_hju32")])
+color = "Blue"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 177
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 90,
+"hp": 90,
+"special_attack": 90,
+"special_defense": 80,
+"speed": 55,
+"total": 505
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/881.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/881.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/881.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/881.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_fc7cd"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_or0m1"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_6k7em"]
+
+[resource]
+script = ExtResource("2_or0m1")
+pokemon_id = 386
+branch_code = ""
+names = {
+"en": "Deoxys Defense Form"
+}
+generation = 3
+height = 1.7
+weight = 60.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_6k7em")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fc7cd")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 300
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 160,
+"hp": 50,
+"special_attack": 70,
+"special_defense": 160,
+"speed": 90,
+"total": 600
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/386.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/386.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/386.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/386.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

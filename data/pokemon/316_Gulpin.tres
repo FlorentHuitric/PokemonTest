@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Liquid Ooze.tres" id="1_ro1uf"]
+[ext_resource type="Resource" path="res://data/abilities/Sticky Hold.tres" id="2_iuupk"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="3_mi31p"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_fa3s8"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_fgoan"]
+
+[resource]
+script = ExtResource("4_fa3s8")
+pokemon_id = 316
+branch_code = ""
+names = {
+"en": "Gulpin"
+}
+generation = 3
+height = 0.4
+weight = 10.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_fgoan")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ro1uf"), ExtResource("2_iuupk"), ExtResource("3_mi31p")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 225
+base_experience = 60
+experience_type = "1640000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 43,
+"defense": 53,
+"hp": 70,
+"special_attack": 43,
+"special_defense": 53,
+"speed": 40,
+"total": 302
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/316.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/316.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/316.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/316.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/316.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/316.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/316.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/316.png"
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_nhl71"]
+[ext_resource type="Resource" path="res://data/abilities/Magician.tres" id="2_prig6"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_rje6v"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_4d31b"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_by7x0"]
+
+[resource]
+script = ExtResource("3_rje6v")
+pokemon_id = 655
+branch_code = ""
+names = {
+"en": "Delphox"
+}
+generation = 6
+height = 1.5
+weight = 39.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_4d31b"), ExtResource("5_by7x0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_nhl71"), ExtResource("2_prig6")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 267
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 69,
+"defense": 72,
+"hp": 75,
+"special_attack": 114,
+"special_defense": 100,
+"speed": 104,
+"total": 534
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/655.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/655.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/655.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/655.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

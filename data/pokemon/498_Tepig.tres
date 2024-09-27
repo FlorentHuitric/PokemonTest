@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_be8ml"]
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="2_prjti"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_0kcps"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_flgdc"]
+
+[resource]
+script = ExtResource("3_0kcps")
+pokemon_id = 498
+branch_code = ""
+names = {
+"en": "Tepig"
+}
+generation = 5
+height = 0.5
+weight = 9.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_flgdc")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_be8ml"), ExtResource("2_prjti")])
+color = "Red"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 62
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 63,
+"defense": 45,
+"hp": 65,
+"special_attack": 45,
+"special_defense": 45,
+"speed": 45,
+"total": 308
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/498.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/498.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/498.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/498.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

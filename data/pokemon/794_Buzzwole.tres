@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Beast Boost.tres" id="1_mk7g8"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ygntf"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_74kx4"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="4_nsede"]
+
+[resource]
+script = ExtResource("2_ygntf")
+pokemon_id = 794
+branch_code = ""
+names = {
+"en": "Buzzwole"
+}
+generation = 7
+height = 2.4
+weight = 333.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_74kx4"), ExtResource("4_nsede")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mk7g8")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 45
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 139,
+"defense": 139,
+"hp": 107,
+"special_attack": 53,
+"special_defense": 53,
+"speed": 79,
+"total": 570
+}
+effort_points = {
+"attack": 1,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/794.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/794.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/794.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/794.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

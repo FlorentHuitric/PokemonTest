@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Healer.tres" id="1_ajlqx"]
+[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="2_m11y2"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Bounce.tres" id="3_xr8bg"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_1n5cg"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_etun2"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_5o5dx"]
+
+[resource]
+script = ExtResource("4_1n5cg")
+pokemon_id = 858
+branch_code = ""
+names = {
+"en": "Hatterene"
+}
+generation = 8
+height = 2.1
+weight = 5.1
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_etun2"), ExtResource("6_5o5dx")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ajlqx"), ExtResource("2_m11y2"), ExtResource("3_xr8bg")])
+color = "Pink"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 45
+base_experience = 255
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 90,
+"defense": 95,
+"hp": 57,
+"special_attack": 136,
+"special_defense": 103,
+"speed": 29,
+"total": 510
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/858.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/858.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/858.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/858.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

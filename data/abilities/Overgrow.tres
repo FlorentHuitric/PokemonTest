@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://bhjivp5ck8ovr"]
+
+[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_4lflj"]
+
+[resource]
+script = ExtResource("1_4lflj")
+ability_name = "Overgrow"
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}

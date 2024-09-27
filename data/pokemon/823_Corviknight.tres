@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_c73ju"]
+[ext_resource type="Resource" path="res://data/abilities/Unnerve.tres" id="2_g8wbu"]
+[ext_resource type="Resource" path="res://data/abilities/Mirror Armor.tres" id="3_74y4t"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_lkxde"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_6vdwr"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_2irvw"]
+
+[resource]
+script = ExtResource("4_lkxde")
+pokemon_id = 823
+branch_code = ""
+names = {
+"en": "Corviknight"
+}
+generation = 8
+height = 2.2
+weight = 75.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6vdwr"), ExtResource("6_2irvw")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_c73ju"), ExtResource("2_g8wbu"), ExtResource("3_74y4t")])
+color = "Purple"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Flying")
+catch_rate = 45
+base_experience = 248
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 87,
+"defense": 105,
+"hp": 98,
+"special_attack": 53,
+"special_defense": 85,
+"speed": 67,
+"total": 495
+}
+effort_points = {
+"attack": 0,
+"defense": 3,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/823.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/823.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/823.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/823.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

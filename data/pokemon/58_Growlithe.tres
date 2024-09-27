@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_0r61v"]
+[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="2_36bwe"]
+[ext_resource type="Resource" path="res://data/abilities/Justified.tres" id="3_dok5j"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_rdfvh"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="5_p4kmo"]
+
+[resource]
+script = ExtResource("4_rdfvh")
+pokemon_id = 58
+branch_code = ""
+names = {
+"en": "Growlithe"
+}
+generation = 1
+height = 0.7
+weight = 19.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_p4kmo")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0r61v"), ExtResource("2_36bwe"), ExtResource("3_dok5j")])
+color = "Brown"
+gender_ratio = {
+"female": 25.0,
+"male": 75.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 70
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 45,
+"hp": 55,
+"special_attack": 70,
+"special_defense": 50,
+"speed": 60,
+"total": 350
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/58.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/58.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/58.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/58.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="1_u54kq"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_kqihd"]
+
+[resource]
+script = ExtResource("2_kqihd")
+move_id = 523
+move_name = {
+"en": "Bulldoze",
+"fr": "Bulldoze"
+}
+move_type = ExtResource("1_u54kq")
+category = "Physical"
+contest = "Tough"
+power = 60
+accuracy = 100
+pp = 20
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

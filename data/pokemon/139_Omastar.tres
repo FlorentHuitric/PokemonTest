@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_8bf4s"]
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_8j2a2"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="3_2qhfc"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_xgod5"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_p884f"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="6_8duyn"]
+
+[resource]
+script = ExtResource("4_xgod5")
+pokemon_id = 139
+branch_code = ""
+names = {
+"en": "Omastar"
+}
+generation = 1
+height = 1.0
+weight = 35.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_p884f"), ExtResource("6_8duyn")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8bf4s"), ExtResource("2_8j2a2"), ExtResource("3_2qhfc")])
+color = "Blue"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Water1", "Water3")
+catch_rate = 45
+base_experience = 173
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 125,
+"hp": 70,
+"special_attack": 115,
+"special_defense": 70,
+"speed": 55,
+"total": 495
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/139.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/139.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/139.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/139.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_ytxnk"]
+[ext_resource type="Resource" path="res://data/abilities/Battle Armor.tres" id="2_yeplx"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="3_h8k14"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_w4pi8"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_f1lnr"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="6_ryyg0"]
+
+[resource]
+script = ExtResource("4_w4pi8")
+pokemon_id = 140
+branch_code = ""
+names = {
+"en": "Kabuto"
+}
+generation = 1
+height = 0.5
+weight = 11.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_f1lnr"), ExtResource("6_ryyg0")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ytxnk"), ExtResource("2_yeplx"), ExtResource("3_h8k14")])
+color = "Brown"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 30
+egg_groups = PackedStringArray("Water1", "Water3")
+catch_rate = 45
+base_experience = 71
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 90,
+"hp": 30,
+"special_attack": 55,
+"special_defense": 45,
+"speed": 55,
+"total": 355
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/140.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/140.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/140.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/140.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

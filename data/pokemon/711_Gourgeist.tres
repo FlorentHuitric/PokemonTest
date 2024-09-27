@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="1_b5j3v"]
+[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_ntif6"]
+[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="3_gvtl3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_h536k"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_bchu5"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="6_0btk3"]
+
+[resource]
+script = ExtResource("4_h536k")
+pokemon_id = 711
+branch_code = "711_3"
+names = {
+"en": "Gourgeist",
+"fr": "Gourgeist Super"
+}
+generation = 6
+height = 1.7
+weight = 39.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bchu5"), ExtResource("6_0btk3")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_b5j3v"), ExtResource("2_ntif6"), ExtResource("3_gvtl3")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = Array[String](["Amorphous"])
+catch_rate = 60
+base_experience = 173
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 122,
+"hp": 85,
+"special_attack": 58,
+"special_defense": 75,
+"speed": 54,
+"total": 494
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/711-711_3.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/711-711_3.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/711-711_3.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/711-711_3.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

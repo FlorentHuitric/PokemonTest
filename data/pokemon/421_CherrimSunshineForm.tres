@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Flower Gift.tres" id="1_3px2q"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_dhbv0"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="3_0x15c"]
+
+[resource]
+script = ExtResource("2_dhbv0")
+pokemon_id = 421
+branch_code = ""
+names = {
+"en": "Cherrim Sunshine Form"
+}
+generation = 4
+height = 0.5
+weight = 9.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_0x15c")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3px2q")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy", "Grass")
+catch_rate = 75
+base_experience = 158
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 70,
+"hp": 70,
+"special_attack": 87,
+"special_defense": 78,
+"speed": 85,
+"total": 450
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/421.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/421.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/421.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/421.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

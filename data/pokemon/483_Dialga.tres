@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pressure.tres" id="1_vqicu"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_yd8d5"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_kub12"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_gw2ju"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="5_r1oql"]
+
+[resource]
+script = ExtResource("3_kub12")
+pokemon_id = 483
+branch_code = ""
+names = {
+"en": "Dialga"
+}
+generation = 4
+height = 5.4
+weight = 683.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_gw2ju"), ExtResource("5_r1oql")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_vqicu"), ExtResource("2_yd8d5")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 340
+experience_type = "1250000"
+category = "Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 120,
+"hp": 100,
+"special_attack": 150,
+"special_defense": 100,
+"speed": 90,
+"total": 680
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/483.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/483.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/483.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/483.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

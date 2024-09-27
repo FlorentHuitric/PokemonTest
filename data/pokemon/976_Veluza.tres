@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="1_2jbwt"]
+[ext_resource type="Resource" path="res://data/abilities/Sharpness.tres" id="2_x1dic"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_pt4a8"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_jagrv"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_8tugu"]
+
+[resource]
+script = ExtResource("3_pt4a8")
+pokemon_id = 976
+branch_code = ""
+names = {
+"en": "Veluza"
+}
+generation = 9
+height = 2.5
+weight = 90.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_jagrv"), ExtResource("5_8tugu")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2jbwt"), ExtResource("2_x1dic")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 100
+base_experience = 167
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 102,
+"defense": 73,
+"hp": 90,
+"special_attack": 78,
+"special_defense": 65,
+"speed": 70,
+"total": 478
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/976.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/976.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/976.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/976.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

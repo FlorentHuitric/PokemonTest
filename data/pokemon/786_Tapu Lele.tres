@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Psychic Surge.tres" id="1_jrk8h"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_ghydr"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_p5pg4"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_1hdlr"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_7xjyk"]
+
+[resource]
+script = ExtResource("3_p5pg4")
+pokemon_id = 786
+branch_code = "786_0"
+names = {
+"en": "Tapu Lele",
+"fr": "Tapu Lele"
+}
+generation = 7
+height = 1.2
+weight = 18.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_1hdlr"), ExtResource("5_7xjyk")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_jrk8h"), ExtResource("2_ghydr")])
+color = "Pink"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 15
+egg_groups = Array[String](["Undiscovered"])
+catch_rate = 3
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 75,
+"hp": 70,
+"special_attack": 130,
+"special_defense": 115,
+"speed": 95,
+"total": 570
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/786-786_0.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/786-786_0.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/786-786_0.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/786-786_0.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

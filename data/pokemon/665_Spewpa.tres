@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="1_mly1w"]
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="2_3d2p1"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_furk3"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_6pjfl"]
+
+[resource]
+script = ExtResource("3_furk3")
+pokemon_id = 665
+branch_code = ""
+names = {
+"en": "Spewpa"
+}
+generation = 6
+height = 0.3
+weight = 8.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6pjfl")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mly1w"), ExtResource("2_3d2p1")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 120
+base_experience = 75
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 22,
+"defense": 60,
+"hp": 45,
+"special_attack": 27,
+"special_defense": 30,
+"speed": 29,
+"total": 213
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/665.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/665.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/665.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/665.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

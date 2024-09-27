@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hyper Cutter.tres" id="1_f3wc7"]
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="2_2clwp"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_fbynx"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_m1spi"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="5_cap0f"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_rw02r"]
+
+[resource]
+script = ExtResource("4_m1spi")
+pokemon_id = 303
+branch_code = ""
+names = {
+"en": "Mawile"
+}
+generation = 3
+height = 0.6
+weight = 11.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_cap0f"), ExtResource("6_rw02r")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_f3wc7"), ExtResource("2_2clwp"), ExtResource("3_fbynx")])
+color = "Black"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 45
+base_experience = 133
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 85,
+"hp": 50,
+"special_attack": 55,
+"special_defense": 55,
+"speed": 50,
+"total": 380
+}
+effort_points = {
+"attack": 1,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/303.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/303.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/303.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/303.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

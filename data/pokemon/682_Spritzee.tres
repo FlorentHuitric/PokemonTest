@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Healer.tres" id="1_4tus2"]
+[ext_resource type="Resource" path="res://data/abilities/Aroma Veil.tres" id="2_bgqgj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_j073f"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_b8k6g"]
+
+[resource]
+script = ExtResource("3_j073f")
+pokemon_id = 682
+branch_code = ""
+names = {
+"en": "Spritzee"
+}
+generation = 6
+height = 0.2
+weight = 0.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_b8k6g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4tus2"), ExtResource("2_bgqgj")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Fairy")
+catch_rate = 200
+base_experience = 68
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 52,
+"defense": 60,
+"hp": 78,
+"special_attack": 63,
+"special_defense": 65,
+"speed": 23,
+"total": 341
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/682.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/682.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/682.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/682.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

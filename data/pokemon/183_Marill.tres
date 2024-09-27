@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_3o3yb"]
+[ext_resource type="Resource" path="res://data/abilities/Huge Power.tres" id="2_xst81"]
+[ext_resource type="Resource" path="res://data/abilities/Sap Sipper.tres" id="3_f2l55"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_7mo5p"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_jovka"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_ibs52"]
+
+[resource]
+script = ExtResource("4_7mo5p")
+pokemon_id = 183
+branch_code = ""
+names = {
+"en": "Marill"
+}
+generation = 2
+height = 0.4
+weight = 8.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jovka"), ExtResource("6_ibs52")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3o3yb"), ExtResource("2_xst81"), ExtResource("3_f2l55")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Water1", "Fairy")
+catch_rate = 190
+base_experience = 88
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 20,
+"defense": 50,
+"hp": 70,
+"special_attack": 20,
+"special_defense": 50,
+"speed": 40,
+"total": 250
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/183.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/183.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/183.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/183.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_wco1j"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_7uu3x"]
+
+[resource]
+script = ExtResource("2_7uu3x")
+move_id = 306
+move_name = {
+"en": "Crush Claw",
+"fr": "Crush Claw"
+}
+move_type = ExtResource("1_wco1j")
+category = "Physical"
+contest = "Cool"
+power = 75
+accuracy = 95
+pp = 10
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

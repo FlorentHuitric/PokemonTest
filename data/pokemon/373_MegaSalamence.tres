@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Aerilate.tres" id="1_2dmx3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_34hby"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="3_8077n"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="4_hi3ah"]
+
+[resource]
+script = ExtResource("2_34hby")
+pokemon_id = 373
+branch_code = ""
+names = {
+"en": "Mega Salamence"
+}
+generation = 3
+height = 1.8
+weight = 112.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_8077n"), ExtResource("4_hi3ah")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2dmx3")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Dragon")
+catch_rate = 45
+base_experience = 315
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = true
+region_form = ""
+base_stats = {
+"attack": 145,
+"defense": 130,
+"hp": 95,
+"special_attack": 120,
+"special_defense": 90,
+"speed": 120,
+"total": 700
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/373-mega.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/373-mega.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/373-mega.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/373-mega.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

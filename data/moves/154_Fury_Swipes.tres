@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_hp28j"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_jammv"]
+
+[resource]
+script = ExtResource("2_jammv")
+move_id = 154
+move_name = {
+"en": "Fury Swipes",
+"fr": "Fury Swipes"
+}
+move_type = ExtResource("1_hp28j")
+category = "Physical"
+contest = "Tough"
+power = 18
+accuracy = 80
+pp = 15
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

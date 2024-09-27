@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Contrary.tres" id="1_7vydl"]
+[ext_resource type="Resource" path="res://data/abilities/Suction Cups.tres" id="2_q8xrw"]
+[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="3_oee7u"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_fmfai"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_gvf7v"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="6_wli5j"]
+
+[resource]
+script = ExtResource("4_fmfai")
+pokemon_id = 687
+branch_code = ""
+names = {
+"en": "Malamar"
+}
+generation = 6
+height = 1.5
+weight = 47.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gvf7v"), ExtResource("6_wli5j")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7vydl"), ExtResource("2_q8xrw"), ExtResource("3_oee7u")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Water2")
+catch_rate = 80
+base_experience = 169
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 92,
+"defense": 88,
+"hp": 86,
+"special_attack": 68,
+"special_defense": 75,
+"speed": 73,
+"total": 482
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/687.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/687.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/687.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/687.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

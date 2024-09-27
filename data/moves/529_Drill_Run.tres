@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="1_s1ifs"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_g5hlb"]
+
+[resource]
+script = ExtResource("2_g5hlb")
+move_id = 529
+move_name = {
+"en": "Drill Run",
+"fr": "Drill Run"
+}
+move_type = ExtResource("1_s1ifs")
+category = "Physical"
+contest = "Tough"
+power = 80
+accuracy = 95
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

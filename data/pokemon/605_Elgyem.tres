@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="1_mtbwe"]
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="2_nsnor"]
+[ext_resource type="Resource" path="res://data/abilities/Analytic.tres" id="3_oqyfv"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_s4rfm"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_334bt"]
+
+[resource]
+script = ExtResource("4_s4rfm")
+pokemon_id = 605
+branch_code = ""
+names = {
+"en": "Elgyem"
+}
+generation = 5
+height = 0.5
+weight = 9.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_334bt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mtbwe"), ExtResource("2_nsnor"), ExtResource("3_oqyfv")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 255
+base_experience = 67
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 55,
+"defense": 55,
+"hp": 55,
+"special_attack": 85,
+"special_defense": 55,
+"speed": 30,
+"total": 335
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/605.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/605.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/605.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/605.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

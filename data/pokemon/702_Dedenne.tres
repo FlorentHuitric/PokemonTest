@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cheek Pouch.tres" id="1_wa3xe"]
+[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="2_ajbft"]
+[ext_resource type="Resource" path="res://data/abilities/Plus.tres" id="3_eumkb"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_5fky3"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_3tvdg"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="6_ww0ux"]
+
+[resource]
+script = ExtResource("4_5fky3")
+pokemon_id = 702
+branch_code = ""
+names = {
+"en": "Dedenne"
+}
+generation = 6
+height = 0.2
+weight = 2.2
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_3tvdg"), ExtResource("6_ww0ux")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_wa3xe"), ExtResource("2_ajbft"), ExtResource("3_eumkb")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 180
+base_experience = 151
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 58,
+"defense": 57,
+"hp": 67,
+"special_attack": 81,
+"special_defense": 67,
+"speed": 101,
+"total": 431
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/702.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/702.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/702.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/702.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

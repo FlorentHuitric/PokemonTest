@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Stench.tres" id="1_ky4ak"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="2_f4o1b"]
+[ext_resource type="Resource" path="res://data/abilities/Aftermath.tres" id="3_47urn"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_oktl2"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_ykdqe"]
+
+[resource]
+script = ExtResource("4_oktl2")
+pokemon_id = 569
+branch_code = ""
+names = {
+"en": "Garbodor"
+}
+generation = 5
+height = 1.9
+weight = 107.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ykdqe")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ky4ak"), ExtResource("2_f4o1b"), ExtResource("3_47urn")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 60
+base_experience = 166
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 82,
+"hp": 80,
+"special_attack": 60,
+"special_defense": 82,
+"speed": 75,
+"total": 474
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/569.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/569.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/569.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/569.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

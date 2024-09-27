@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Shields Down.tres" id="1_sk7nf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_54fn4"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="3_oy1ar"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="4_01wso"]
+
+[resource]
+script = ExtResource("2_54fn4")
+pokemon_id = 774
+branch_code = ""
+names = {
+"en": "Minior Orange Core"
+}
+generation = 7
+height = 0.3
+weight = 0.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_oy1ar"), ExtResource("4_01wso")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_sk7nf")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 255
+base_experience = 175
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 60,
+"hp": 60,
+"special_attack": 100,
+"special_defense": 60,
+"speed": 120,
+"total": 500
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/774.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/774.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/774.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/774.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

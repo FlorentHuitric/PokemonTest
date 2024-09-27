@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Suction Cups.tres" id="1_2rgq7"]
+[ext_resource type="Resource" path="res://data/abilities/Sniper.tres" id="2_xo4o1"]
+[ext_resource type="Resource" path="res://data/abilities/Moody.tres" id="3_572xj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_g6jnu"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_t8bfy"]
+
+[resource]
+script = ExtResource("4_g6jnu")
+pokemon_id = 224
+branch_code = ""
+names = {
+"en": "Octillery"
+}
+generation = 2
+height = 0.9
+weight = 28.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_t8bfy")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2rgq7"), ExtResource("2_xo4o1"), ExtResource("3_572xj")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Water2")
+catch_rate = 75
+base_experience = 168
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 105,
+"defense": 75,
+"hp": 75,
+"special_attack": 105,
+"special_defense": 75,
+"speed": 45,
+"total": 480
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/224.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/224.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/224.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/224.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/224.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/224.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/224.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/224.png"
+description = {
+"en": "",
+"fr": ""
+}

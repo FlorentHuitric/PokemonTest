@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_w1c45"]
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="2_31aut"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_rienb"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_r10a7"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_hr56g"]
+
+[resource]
+script = ExtResource("3_rienb")
+pokemon_id = 267
+branch_code = ""
+names = {
+"en": "Beautifly"
+}
+generation = 3
+height = 1.0
+weight = 28.4
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_r10a7"), ExtResource("5_hr56g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_w1c45"), ExtResource("2_31aut")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 45
+base_experience = 178
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 50,
+"hp": 60,
+"special_attack": 100,
+"special_defense": 50,
+"speed": 65,
+"total": 395
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/267.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/267.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/267.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/267.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/267.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/267.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/267.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/267.png"
+description = {
+"en": "",
+"fr": ""
+}

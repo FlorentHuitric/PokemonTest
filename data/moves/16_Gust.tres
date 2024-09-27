@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_p2hec"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_4kqlf"]
+
+[resource]
+script = ExtResource("2_4kqlf")
+move_id = 16
+move_name = {
+"en": "Gust",
+"fr": "Gust"
+}
+move_type = ExtResource("1_p2hec")
+category = "Special"
+contest = "Clever"
+power = 40
+accuracy = 100
+pp = 35
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

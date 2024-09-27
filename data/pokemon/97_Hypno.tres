@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="1_o6oun"]
+[ext_resource type="Resource" path="res://data/abilities/Forewarn.tres" id="2_scxay"]
+[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="3_1t712"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_xnstm"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_j86w2"]
+
+[resource]
+script = ExtResource("4_xnstm")
+pokemon_id = 97
+branch_code = ""
+names = {
+"en": "Hypno"
+}
+generation = 1
+height = 1.6
+weight = 75.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_j86w2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_o6oun"), ExtResource("2_scxay"), ExtResource("3_1t712")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Human-Like")
+catch_rate = 75
+base_experience = 169
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 73,
+"defense": 70,
+"hp": 85,
+"special_attack": 73,
+"special_defense": 115,
+"speed": 67,
+"total": 483
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 2,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/97.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/97.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/97.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/97.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/97.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/97.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/97.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/97.png"
+description = {
+"en": "",
+"fr": ""
+}

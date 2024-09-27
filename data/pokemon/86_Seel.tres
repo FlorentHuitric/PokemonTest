@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_fiefs"]
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="2_utns0"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="3_3wnfu"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ul005"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_bn007"]
+
+[resource]
+script = ExtResource("4_ul005")
+pokemon_id = 86
+branch_code = ""
+names = {
+"en": "Seel"
+}
+generation = 1
+height = 1.1
+weight = 90.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bn007")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fiefs"), ExtResource("2_utns0"), ExtResource("3_3wnfu")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 190
+base_experience = 65
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 55,
+"hp": 65,
+"special_attack": 45,
+"special_defense": 70,
+"speed": 45,
+"total": 325
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/86.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/86.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/86.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/86.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

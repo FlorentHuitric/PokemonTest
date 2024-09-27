@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Commander.tres" id="1_mlwo6"]
+[ext_resource type="Resource" path="res://data/abilities/Storm Drain.tres" id="2_qecjg"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_whkho"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_35in2"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_4qeg2"]
+
+[resource]
+script = ExtResource("3_whkho")
+pokemon_id = 978
+branch_code = "978_2"
+names = {
+"en": "Tatsugiri",
+"fr": "Tatsugiri Stretchy Form"
+}
+generation = 9
+height = 0.3
+weight = 8.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_35in2"), ExtResource("5_4qeg2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mlwo6"), ExtResource("2_qecjg")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = Array[String](["Water2"])
+catch_rate = 100
+base_experience = 166
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 60,
+"hp": 68,
+"special_attack": 120,
+"special_defense": 95,
+"speed": 82,
+"total": 475
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/978-978_2.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/978-978_2.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/978-978_2.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/978-978_2.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

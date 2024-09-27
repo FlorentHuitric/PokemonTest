@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="1_rjt5j"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_p7sp5"]
+
+[resource]
+script = ExtResource("2_p7sp5")
+move_id = 525
+move_name = {
+"en": "Dragon Tail",
+"fr": "Dragon Tail"
+}
+move_type = ExtResource("1_rjt5j")
+category = "Physical"
+contest = "Tough"
+power = 60
+accuracy = 90
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

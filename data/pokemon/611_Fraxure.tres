@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Rivalry.tres" id="1_apkaw"]
+[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="2_a7amu"]
+[ext_resource type="Resource" path="res://data/abilities/Unnerve.tres" id="3_32e5c"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_kg3f5"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="5_j417m"]
+
+[resource]
+script = ExtResource("4_kg3f5")
+pokemon_id = 611
+branch_code = ""
+names = {
+"en": "Fraxure"
+}
+generation = 5
+height = 1.0
+weight = 36.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_j417m")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_apkaw"), ExtResource("2_a7amu"), ExtResource("3_32e5c")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Monster", "Dragon")
+catch_rate = 60
+base_experience = 144
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 117,
+"defense": 70,
+"hp": 66,
+"special_attack": 40,
+"special_defense": 50,
+"speed": 67,
+"total": 410
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/611.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/611.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/611.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/611.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

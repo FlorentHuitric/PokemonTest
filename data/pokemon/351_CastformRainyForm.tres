@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Forecast.tres" id="1_of4jq"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5n8sk"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="3_k4q4j"]
+
+[resource]
+script = ExtResource("2_5n8sk")
+pokemon_id = 351
+branch_code = ""
+names = {
+"en": "Castform Rainy Form"
+}
+generation = 3
+height = 0.3
+weight = 0.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_k4q4j")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_of4jq")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = PackedStringArray("Fairy", "Amorphous")
+catch_rate = 45
+base_experience = 147
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 70,
+"hp": 70,
+"special_attack": 70,
+"special_defense": 70,
+"speed": 70,
+"total": 420
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/351.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/351.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/351.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/351.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="1_j40o2"]
+[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="2_j25np"]
+[ext_resource type="Resource" path="res://data/abilities/Hydration.tres" id="3_djuy2"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_kvlkr"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_7spvt"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_411ab"]
+
+[resource]
+script = ExtResource("4_kvlkr")
+pokemon_id = 339
+branch_code = ""
+names = {
+"en": "Barboach"
+}
+generation = 3
+height = 0.4
+weight = 1.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_7spvt"), ExtResource("6_411ab")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_j40o2"), ExtResource("2_j25np"), ExtResource("3_djuy2")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 190
+base_experience = 58
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 48,
+"defense": 43,
+"hp": 50,
+"special_attack": 46,
+"special_defense": 41,
+"speed": 60,
+"total": 288
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/339.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/339.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/339.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/339.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

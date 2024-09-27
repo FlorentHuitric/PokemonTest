@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="1_2mrph"]
+[ext_resource type="Resource" path="res://data/abilities/Sniper.tres" id="2_d2yfe"]
+[ext_resource type="Resource" path="res://data/abilities/Moody.tres" id="3_xw70h"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_syoho"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_t3e3g"]
+
+[resource]
+script = ExtResource("4_syoho")
+pokemon_id = 223
+branch_code = ""
+names = {
+"en": "Remoraid"
+}
+generation = 2
+height = 0.6
+weight = 12.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_t3e3g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2mrph"), ExtResource("2_d2yfe"), ExtResource("3_xw70h")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Water2")
+catch_rate = 190
+base_experience = 60
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 35,
+"hp": 35,
+"special_attack": 65,
+"special_defense": 35,
+"speed": 65,
+"total": 300
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/223.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/223.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/223.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/223.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

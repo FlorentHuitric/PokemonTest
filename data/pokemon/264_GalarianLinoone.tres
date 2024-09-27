@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="1_xkx57"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="2_4c7ef"]
+[ext_resource type="Resource" path="res://data/abilities/Quick Feet.tres" id="3_kpekf"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_n4d70"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_jiv3o"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_v2fwv"]
+
+[resource]
+script = ExtResource("4_n4d70")
+pokemon_id = 264
+branch_code = ""
+names = {
+"en": "Galarian Linoone"
+}
+generation = 8
+height = 0.5
+weight = 32.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jiv3o"), ExtResource("6_v2fwv")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xkx57"), ExtResource("2_4c7ef"), ExtResource("3_kpekf")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 90
+base_experience = 147
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Galarian"
+base_stats = {
+"attack": 70,
+"defense": 61,
+"hp": 78,
+"special_attack": 50,
+"special_defense": 61,
+"speed": 100,
+"total": 420
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/264-galar.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/264-galar.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/264-galar.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/264-galar.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

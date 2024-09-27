@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Surge Surfer.tres" id="1_18oxo"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_w43s3"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_pcfvd"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_4relh"]
+
+[resource]
+script = ExtResource("2_w43s3")
+pokemon_id = 26
+branch_code = ""
+names = {
+"en": "Alolan Raichu"
+}
+generation = 7
+height = 0.7
+weight = 21.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_pcfvd"), ExtResource("4_4relh")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_18oxo")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 75
+base_experience = 243
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Alolan"
+base_stats = {
+"attack": 85,
+"defense": 50,
+"hp": 60,
+"special_attack": 95,
+"special_defense": 85,
+"speed": 110,
+"total": 485
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 3
+}
+sprite_normal_front = "res://assets/sprites/pokemon/26-alola.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/26-alola.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/26-alola.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/26-alola.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/26-alola.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/26-alola.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/26-alola.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/26-alola.png"
+description = {
+"en": "",
+"fr": ""
+}

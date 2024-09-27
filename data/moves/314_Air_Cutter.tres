@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_hdhq8"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_865j4"]
+
+[resource]
+script = ExtResource("2_865j4")
+move_id = 314
+move_name = {
+"en": "Air Cutter",
+"fr": "Air Cutter"
+}
+move_type = ExtResource("1_hdhq8")
+category = "Special"
+contest = "Cool"
+power = 60
+accuracy = 95
+pp = 25
+generation = 3
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

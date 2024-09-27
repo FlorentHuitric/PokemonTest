@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="1_brw6f"]
+[ext_resource type="Resource" path="res://data/abilities/Filter.tres" id="2_qjhid"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2wex7"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_kqyqh"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_41jcp"]
+
+[resource]
+script = ExtResource("3_2wex7")
+pokemon_id = 966
+branch_code = ""
+names = {
+"en": "Revavroom"
+}
+generation = 9
+height = 1.8
+weight = 120.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_kqyqh"), ExtResource("5_41jcp")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_brw6f"), ExtResource("2_qjhid")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 75
+base_experience = 175
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 119,
+"defense": 90,
+"hp": 80,
+"special_attack": 54,
+"special_defense": 67,
+"speed": 90,
+"total": 500
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/966.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/966.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/966.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/966.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

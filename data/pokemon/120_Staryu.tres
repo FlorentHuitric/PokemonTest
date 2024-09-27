@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Illuminate.tres" id="1_kl322"]
+[ext_resource type="Resource" path="res://data/abilities/Natural Cure.tres" id="2_hfskc"]
+[ext_resource type="Resource" path="res://data/abilities/Analytic.tres" id="3_ep1h8"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_dbmfc"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_uh8cm"]
+
+[resource]
+script = ExtResource("4_dbmfc")
+pokemon_id = 120
+branch_code = ""
+names = {
+"en": "Staryu"
+}
+generation = 1
+height = 0.8
+weight = 34.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_uh8cm")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kl322"), ExtResource("2_hfskc"), ExtResource("3_ep1h8")])
+color = "Brown"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water3")
+catch_rate = 225
+base_experience = 68
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 45,
+"defense": 55,
+"hp": 30,
+"special_attack": 70,
+"special_defense": 55,
+"speed": 85,
+"total": 340
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/120.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/120.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/120.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/120.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

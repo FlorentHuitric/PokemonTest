@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="1_6iwbe"]
+[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="2_polu5"]
+[ext_resource type="Resource" path="res://data/abilities/Skill Link.tres" id="3_poelm"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_a0qlm"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_vx1wy"]
+
+[resource]
+script = ExtResource("4_a0qlm")
+pokemon_id = 573
+branch_code = ""
+names = {
+"en": "Cinccino"
+}
+generation = 5
+height = 0.5
+weight = 7.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_vx1wy")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6iwbe"), ExtResource("2_polu5"), ExtResource("3_poelm")])
+color = "Gray"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 60
+base_experience = 165
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 95,
+"defense": 60,
+"hp": 75,
+"special_attack": 65,
+"special_defense": 60,
+"speed": 115,
+"total": 470
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/573.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/573.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/573.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/573.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Ripen.tres" id="1_cxdb5"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="2_ujiug"]
+[ext_resource type="Resource" path="res://data/abilities/Bulletproof.tres" id="3_24o1y"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_n7j5t"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_6mf81"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="6_p33ws"]
+
+[resource]
+script = ExtResource("4_n7j5t")
+pokemon_id = 840
+branch_code = ""
+names = {
+"en": "Applin"
+}
+generation = 8
+height = 0.2
+weight = 0.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6mf81"), ExtResource("6_p33ws")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_cxdb5"), ExtResource("2_ujiug"), ExtResource("3_24o1y")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Grass", "Dragon")
+catch_rate = 255
+base_experience = 52
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 40,
+"defense": 80,
+"hp": 40,
+"special_attack": 40,
+"special_defense": 40,
+"speed": 20,
+"total": 260
+}
+effort_points = {
+"attack": 0,
+"defense": 1,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/840.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/840.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/840.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/840.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

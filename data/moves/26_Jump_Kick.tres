@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_m3r08"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_5ouit"]
+
+[resource]
+script = ExtResource("2_5ouit")
+move_id = 26
+move_name = {
+"en": "Jump Kick",
+"fr": "Jump Kick"
+}
+move_type = ExtResource("1_m3r08")
+category = "Physical"
+contest = "Cool"
+power = 100
+accuracy = 95
+pp = 10
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

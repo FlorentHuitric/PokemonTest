@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="1_bfath"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3o62x"]
+
+[resource]
+script = ExtResource("2_3o62x")
+move_id = 691
+move_name = {
+"en": "Clanging Scales",
+"fr": "Clanging Scales"
+}
+move_type = ExtResource("1_bfath")
+category = "Special"
+contest = "???"
+power = 110
+accuracy = 100
+pp = 5
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

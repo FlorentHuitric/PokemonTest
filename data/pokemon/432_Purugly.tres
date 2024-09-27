@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_n7i08"]
+[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="2_mmqeu"]
+[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="3_qn73b"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_oibti"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_5bgpc"]
+
+[resource]
+script = ExtResource("4_oibti")
+pokemon_id = 432
+branch_code = ""
+names = {
+"en": "Purugly"
+}
+generation = 4
+height = 1.0
+weight = 43.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_5bgpc")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_n7i08"), ExtResource("2_mmqeu"), ExtResource("3_qn73b")])
+color = "Gray"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 75
+base_experience = 158
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 82,
+"defense": 64,
+"hp": 71,
+"special_attack": 64,
+"special_defense": 59,
+"speed": 112,
+"total": 452
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/432.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/432.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/432.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/432.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

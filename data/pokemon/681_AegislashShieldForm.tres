@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Stance Change.tres" id="1_6kw5c"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_i516w"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="3_w0ysx"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_ldbf5"]
+
+[resource]
+script = ExtResource("2_i516w")
+pokemon_id = 681
+branch_code = ""
+names = {
+"en": "Aegislash Shield Form"
+}
+generation = 6
+height = 1.7
+weight = 53.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_w0ysx"), ExtResource("4_ldbf5")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6kw5c")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 45
+base_experience = 250
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 140,
+"hp": 60,
+"special_attack": 50,
+"special_defense": 140,
+"speed": 60,
+"total": 500
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/681.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/681.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/681.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/681.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

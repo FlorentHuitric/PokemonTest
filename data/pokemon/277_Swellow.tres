@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="1_yhaob"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="2_lvb6r"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_as051"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="4_31pgs"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_70l41"]
+
+[resource]
+script = ExtResource("3_as051")
+pokemon_id = 277
+branch_code = ""
+names = {
+"en": "Swellow"
+}
+generation = 3
+height = 0.7
+weight = 19.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_31pgs"), ExtResource("5_70l41")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_yhaob"), ExtResource("2_lvb6r")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Flying")
+catch_rate = 45
+base_experience = 159
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 85,
+"defense": 60,
+"hp": 60,
+"special_attack": 75,
+"special_defense": 50,
+"speed": 125,
+"total": 455
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/277.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/277.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/277.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/277.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

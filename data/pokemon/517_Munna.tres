@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Forewarn.tres" id="1_ev163"]
+[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="2_rjblp"]
+[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="3_8lll0"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_p3imw"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_iq41r"]
+
+[resource]
+script = ExtResource("4_p3imw")
+pokemon_id = 517
+branch_code = ""
+names = {
+"en": "Munna"
+}
+generation = 5
+height = 0.6
+weight = 23.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_iq41r")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ev163"), ExtResource("2_rjblp"), ExtResource("3_8lll0")])
+color = "Pink"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Ground")
+catch_rate = 190
+base_experience = 58
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 25,
+"defense": 45,
+"hp": 76,
+"special_attack": 67,
+"special_defense": 55,
+"speed": 24,
+"total": 292
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 1,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/517.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/517.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/517.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/517.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

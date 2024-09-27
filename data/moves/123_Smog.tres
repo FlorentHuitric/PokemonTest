@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_4itlm"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_7arlp"]
+
+[resource]
+script = ExtResource("2_7arlp")
+move_id = 123
+move_name = {
+"en": "Smog",
+"fr": "Smog"
+}
+move_type = ExtResource("1_4itlm")
+category = "Special"
+contest = "Tough"
+power = 30
+accuracy = 70
+pp = 20
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Cute Charm.tres" id="1_a1eus"]
+[ext_resource type="Resource" path="res://data/abilities/Magic Guard.tres" id="2_mewg4"]
+[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="3_pvwev"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_uh6vd"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_bp8d2"]
+
+[resource]
+script = ExtResource("4_uh6vd")
+pokemon_id = 173
+branch_code = ""
+names = {
+"en": "Cleffa"
+}
+generation = 2
+height = 0.3
+weight = 3.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_bp8d2")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a1eus"), ExtResource("2_mewg4"), ExtResource("3_pvwev")])
+color = "Pink"
+gender_ratio = {
+"female": 75.0,
+"male": 25.0,
+"unknown": 0.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 150
+base_experience = 44
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 25,
+"defense": 28,
+"hp": 50,
+"special_attack": 45,
+"special_defense": 55,
+"speed": 15,
+"total": 218
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/173.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/173.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/173.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/173.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

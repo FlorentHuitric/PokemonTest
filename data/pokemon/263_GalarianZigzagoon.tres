@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="1_mo1wb"]
+[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="2_qg5qm"]
+[ext_resource type="Resource" path="res://data/abilities/Quick Feet.tres" id="3_i81op"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_t22rs"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_vnvu6"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_e4hs1"]
+
+[resource]
+script = ExtResource("4_t22rs")
+pokemon_id = 263
+branch_code = ""
+names = {
+"en": "Galarian Zigzagoon"
+}
+generation = 8
+height = 0.4
+weight = 17.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_vnvu6"), ExtResource("6_e4hs1")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mo1wb"), ExtResource("2_qg5qm"), ExtResource("3_i81op")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 255
+base_experience = 56
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Galarian"
+base_stats = {
+"attack": 30,
+"defense": 41,
+"hp": 38,
+"special_attack": 30,
+"special_defense": 41,
+"speed": 60,
+"total": 240
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/263-galar.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/263-galar.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/263-galar.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/263-galar.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

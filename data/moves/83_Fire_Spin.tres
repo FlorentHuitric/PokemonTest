@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_g7t8b"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_565mg"]
+
+[resource]
+script = ExtResource("2_565mg")
+move_id = 83
+move_name = {
+"en": "Fire Spin",
+"fr": "Fire Spin"
+}
+move_type = ExtResource("1_g7t8b")
+category = "Special"
+contest = "Beautiful"
+power = 35
+accuracy = 0
+pp = 15
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

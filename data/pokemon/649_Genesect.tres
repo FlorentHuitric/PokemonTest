@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Download.tres" id="1_2hjit"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_5n34o"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_arpf2"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_v25bt"]
+
+[resource]
+script = ExtResource("2_5n34o")
+pokemon_id = 649
+branch_code = ""
+names = {
+"en": "Genesect"
+}
+generation = 5
+height = 1.5
+weight = 82.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_arpf2"), ExtResource("4_v25bt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2hjit")])
+color = "Purple"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 120
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 300
+experience_type = "1250000"
+category = "Mythical"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 120,
+"defense": 95,
+"hp": 71,
+"special_attack": 120,
+"special_defense": 95,
+"speed": 99,
+"total": 600
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/649.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/649.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/649.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/649.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="1_qf14u"]
+[ext_resource type="Resource" path="res://data/abilities/Rock Head.tres" id="2_qiwqw"]
+[ext_resource type="Resource" path="res://data/abilities/Rattled.tres" id="3_105as"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_lk8kr"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_meg3q"]
+
+[resource]
+script = ExtResource("4_lk8kr")
+pokemon_id = 185
+branch_code = ""
+names = {
+"en": "Sudowoodo"
+}
+generation = 2
+height = 1.2
+weight = 38.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_meg3q")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_qf14u"), ExtResource("2_qiwqw"), ExtResource("3_105as")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Mineral")
+catch_rate = 65
+base_experience = 144
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 115,
+"hp": 70,
+"special_attack": 30,
+"special_defense": 65,
+"speed": 30,
+"total": 410
+}
+effort_points = {
+"attack": 0,
+"defense": 2,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/185.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/185.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/185.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/185.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/185.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/185.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/185.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/185.png"
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_083ro"]
+[ext_resource type="Resource" path="res://data/abilities/Storm Drain.tres" id="2_e0bbx"]
+[ext_resource type="Resource" path="res://data/abilities/Water Veil.tres" id="3_6a65x"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_on173"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_lbv1g"]
+
+[resource]
+script = ExtResource("4_on173")
+pokemon_id = 456
+branch_code = ""
+names = {
+"en": "Finneon"
+}
+generation = 4
+height = 0.4
+weight = 7.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_lbv1g")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_083ro"), ExtResource("2_e0bbx"), ExtResource("3_6a65x")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 190
+base_experience = 66
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 49,
+"defense": 56,
+"hp": 49,
+"special_attack": 49,
+"special_defense": 61,
+"speed": 66,
+"total": 330
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/456.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/456.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/456.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/456.png"
+sprite_female_front = "res://assets/sprites/pokemon/female/456.png"
+sprite_female_back = "res://assets/sprites/pokemon/female/back/456.png"
+sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/456.png"
+sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/456.png"
+description = {
+"en": "",
+"fr": ""
+}

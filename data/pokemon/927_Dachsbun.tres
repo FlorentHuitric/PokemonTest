@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Well-Baked Body.tres" id="1_tpvs2"]
+[ext_resource type="Resource" path="res://data/abilities/Aroma Veil.tres" id="2_4y15m"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_g2n78"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_12pr7"]
+
+[resource]
+script = ExtResource("3_g2n78")
+pokemon_id = 927
+branch_code = ""
+names = {
+"en": "Dachsbun"
+}
+generation = 9
+height = 0.5
+weight = 14.9
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_12pr7")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tpvs2"), ExtResource("2_4y15m")])
+color = "Brown"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground", "Mineral")
+catch_rate = 90
+base_experience = 167
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 115,
+"hp": 57,
+"special_attack": 50,
+"special_defense": 80,
+"speed": 95,
+"total": 477
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/927.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/927.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/927.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/927.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Hyper Cutter.tres" id="1_0sqod"]
+[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_6b5v2"]
+[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_v5uli"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_efx6i"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_mtvvq"]
+
+[resource]
+script = ExtResource("4_efx6i")
+pokemon_id = 99
+branch_code = ""
+names = {
+"en": "Kingler"
+}
+generation = 1
+height = 1.3
+weight = 60.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_mtvvq")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0sqod"), ExtResource("2_6b5v2"), ExtResource("3_v5uli")])
+color = "Red"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water3")
+catch_rate = 60
+base_experience = 166
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 130,
+"defense": 115,
+"hp": 55,
+"special_attack": 50,
+"special_defense": 50,
+"speed": 75,
+"total": 475
+}
+effort_points = {
+"attack": 2,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/99.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/99.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/99.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/99.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

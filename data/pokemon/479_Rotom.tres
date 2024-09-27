@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Levitate.tres" id="1_tku4v"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_jktnv"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_x0qwq"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_otqkg"]
+
+[resource]
+script = ExtResource("2_jktnv")
+pokemon_id = 479
+branch_code = ""
+names = {
+"en": "Rotom"
+}
+generation = 4
+height = 0.3
+weight = 0.3
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_x0qwq"), ExtResource("4_otqkg")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tku4v")])
+color = "Red"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Amorphous")
+catch_rate = 45
+base_experience = 154
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 77,
+"hp": 50,
+"special_attack": 95,
+"special_defense": 77,
+"speed": 91,
+"total": 440
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 1,
+"special_defense": 0,
+"speed": 1
+}
+sprite_normal_front = "res://assets/sprites/pokemon/479.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/479.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/479.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/479.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Big Pecks.tres" id="1_a6t1v"]
+[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="2_23lnk"]
+[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="3_k1u87"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4r70a"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_gcd44"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_2vr08"]
+
+[resource]
+script = ExtResource("4_4r70a")
+pokemon_id = 630
+branch_code = ""
+names = {
+"en": "Mandibuzz"
+}
+generation = 5
+height = 1.2
+weight = 39.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gcd44"), ExtResource("6_2vr08")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_a6t1v"), ExtResource("2_23lnk"), ExtResource("3_k1u87")])
+color = "Brown"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Flying")
+catch_rate = 60
+base_experience = 179
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 65,
+"defense": 105,
+"hp": 110,
+"special_attack": 55,
+"special_defense": 95,
+"speed": 80,
+"total": 510
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/630.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/630.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/630.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/630.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

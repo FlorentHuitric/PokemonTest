@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_w0ffl"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_xhchp"]
+
+[resource]
+script = ExtResource("2_xhchp")
+move_id = 474
+move_name = {
+"en": "Venoshock",
+"fr": "Venoshock"
+}
+move_type = ExtResource("1_w0ffl")
+category = "Special"
+contest = "Beautiful"
+power = 65
+accuracy = 100
+pp = 10
+generation = 5
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

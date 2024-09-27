@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="1_8trdp"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="2_q58pt"]
+[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="3_egura"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_our2t"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_dhpjb"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="6_k8lbx"]
+
+[resource]
+script = ExtResource("4_our2t")
+pokemon_id = 365
+branch_code = ""
+names = {
+"en": "Walrein"
+}
+generation = 3
+height = 1.4
+weight = 150.6
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_dhpjb"), ExtResource("6_k8lbx")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8trdp"), ExtResource("2_q58pt"), ExtResource("3_egura")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water1", "Ground")
+catch_rate = 45
+base_experience = 265
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 80,
+"defense": 90,
+"hp": 110,
+"special_attack": 95,
+"special_defense": 90,
+"speed": 65,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 3,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/365.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/365.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/365.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/365.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

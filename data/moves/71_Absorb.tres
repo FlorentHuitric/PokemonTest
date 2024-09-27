@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_5o8tr"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_vyfbp"]
+
+[resource]
+script = ExtResource("2_vyfbp")
+move_id = 71
+move_name = {
+"en": "Absorb",
+"fr": "Absorb"
+}
+move_type = ExtResource("1_5o8tr")
+category = "Special"
+contest = "Clever"
+power = 20
+accuracy = 100
+pp = 25
+generation = 1
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

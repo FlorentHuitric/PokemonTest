@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Vital Spirit.tres" id="1_efv43"]
+[ext_resource type="Resource" path="res://data/abilities/Screen Cleaner.tres" id="2_2l3jc"]
+[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="3_85eyj"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_svmkk"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_ljkwr"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_vd1ve"]
+
+[resource]
+script = ExtResource("4_svmkk")
+pokemon_id = 122
+branch_code = "122_1"
+names = {
+"en": "Mr. Mime",
+"fr": "Galarian Mr. Mime"
+}
+generation = 8
+height = 1.4
+weight = 56.8
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ljkwr"), ExtResource("5_vd1ve")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_efv43"), ExtResource("2_2l3jc"), ExtResource("3_85eyj")])
+color = "White"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 25
+egg_groups = Array[String](["Human-Like"])
+catch_rate = 45
+base_experience = 161
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = "Galarian"
+base_stats = {
+"attack": 65,
+"defense": 65,
+"hp": 50,
+"special_attack": 90,
+"special_defense": 90,
+"speed": 100,
+"total": 460
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/122-galarian.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/122-galarian.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/122-galarian.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/back/shiny/122-galarian.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

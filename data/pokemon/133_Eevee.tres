@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="1_33a08"]
+[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="2_gw8rs"]
+[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="3_0aip3"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_t2jev"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_c3xi6"]
+
+[resource]
+script = ExtResource("4_t2jev")
+pokemon_id = 133
+branch_code = ""
+names = {
+"en": "Eevee"
+}
+generation = 1
+height = 0.3
+weight = 6.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_c3xi6")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_33a08"), ExtResource("2_gw8rs"), ExtResource("3_0aip3")])
+color = "Brown"
+gender_ratio = {
+"female": 12.5,
+"male": 87.5,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 65
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 55,
+"defense": 50,
+"hp": 55,
+"special_attack": 45,
+"special_defense": 65,
+"speed": 55,
+"total": 325
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 1,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/133.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/133.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/133.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/133.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

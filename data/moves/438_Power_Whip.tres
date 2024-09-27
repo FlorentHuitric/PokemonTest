@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_gvk8v"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_i7ggs"]
+
+[resource]
+script = ExtResource("2_i7ggs")
+move_id = 438
+move_name = {
+"en": "Power Whip",
+"fr": "Power Whip"
+}
+move_type = ExtResource("1_gvk8v")
+category = "Physical"
+contest = "Tough"
+power = 120
+accuracy = 85
+pp = 10
+generation = 4
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""

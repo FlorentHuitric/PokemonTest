@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_k8f8m"]
+[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="2_6bdev"]
+[ext_resource type="Resource" path="res://data/abilities/Sniper.tres" id="3_6vyod"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_78cr2"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_swxen"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_1nukt"]
+
+[resource]
+script = ExtResource("4_78cr2")
+pokemon_id = 167
+branch_code = ""
+names = {
+"en": "Spinarak"
+}
+generation = 2
+height = 0.5
+weight = 8.5
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_swxen"), ExtResource("6_1nukt")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_k8f8m"), ExtResource("2_6bdev"), ExtResource("3_6vyod")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Bug")
+catch_rate = 255
+base_experience = 50
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 60,
+"defense": 40,
+"hp": 40,
+"special_attack": 40,
+"special_defense": 40,
+"speed": 30,
+"total": 250
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/167.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/167.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/167.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/167.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

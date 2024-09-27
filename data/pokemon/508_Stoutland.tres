@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+
+[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_ubl5c"]
+[ext_resource type="Resource" path="res://data/abilities/Sand Rush.tres" id="2_owod3"]
+[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="3_wjv2w"]
+[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_13335"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_q4ihd"]
+
+[resource]
+script = ExtResource("4_13335")
+pokemon_id = 508
+branch_code = ""
+names = {
+"en": "Stoutland"
+}
+generation = 5
+height = 1.2
+weight = 61.0
+types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_q4ihd")])
+abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ubl5c"), ExtResource("2_owod3"), ExtResource("3_wjv2w")])
+color = "Gray"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 250
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 110,
+"defense": 90,
+"hp": 85,
+"special_attack": 45,
+"special_defense": 90,
+"speed": 80,
+"total": 500
+}
+effort_points = {
+"attack": 3,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/508.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/508.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/508.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/508.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

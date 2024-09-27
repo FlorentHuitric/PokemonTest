@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_n8h4q"]
+[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_875e1"]
+
+[resource]
+script = ExtResource("2_875e1")
+move_id = 576
+move_name = {
+"en": "Topsy-Turvy",
+"fr": "Topsy-Turvy"
+}
+move_type = ExtResource("1_n8h4q")
+category = "Status"
+contest = "Clever"
+power = 0
+accuracy = 0
+pp = 20
+generation = 6
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""
