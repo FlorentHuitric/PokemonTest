@@ -13,7 +13,8 @@ names = {
 cost = 0
 category_id = 18
 category_name = {
-"en": "Species-specific"
+"en": "Species-specific",
+"fr": "Spécifique à l'espèce"
 }
 pocket_id = 1
 pocket_name = {

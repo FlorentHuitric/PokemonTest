@@ -13,7 +13,8 @@ names = {
 cost = 200
 category_id = 32
 category_name = {
-"en": "Mulch"
+"en": "Mulch",
+"fr": "Engrais"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Growing time of berries is reduced"
+"en": "\"Growing time of berries is reduced",
+"fr": "\"Le temps de croissance des baies est réduit"
 }
 effect = {
-"en": " but the soil dries out faster.\""
+"en": " but the soil dries out faster.\"",
+"fr": " mais le sol s'assèche plus rapidement.\""
 }
 flavor_text = {
 "en": "\"A fertilizer for growing Berries. However",

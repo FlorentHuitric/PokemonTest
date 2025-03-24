@@ -13,7 +13,8 @@ names = {
 cost = 3000
 category_id = 10
 category_name = {
-"en": "Evolution"
+"en": "Evolution",
+"fr": "Évolution"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Evolves an Exeggcute into Exeggutor"
+"en": "\"Evolves an Exeggcute into Exeggutor",
+"fr": "\"Fait évoluer un Noeunoeuf en Noadkoko"
 }
 effect = {
-"en": " a Gloom into Vileplume"
+"en": " a Gloom into Vileplume",
+"fr": " un Ortide en Rafflesia"
 }
 flavor_text = {
 "en": "\"A peculiar stone that can make certain species of",

@@ -13,7 +13,8 @@ names = {
 cost = 600
 category_id = 24
 category_name = {
-"en": "Loot"
+"en": "Loot",
+"fr": "Butin"
 }
 pocket_id = 1
 pocket_name = {

@@ -13,7 +13,8 @@ names = {
 cost = 1000
 category_id = 9
 category_name = {
-"en": "Collectibles"
+"en": "Collectibles",
+"fr": "Objets de collection"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "No effect. Can be traded for items or moves."
+"en": "No effect. Can be traded for items or moves.",
+"fr": "Sans effet. Peut être échangé contre des objets ou des capacités."
 }
 effect = {
-"en": "\"No effect."
+"en": "\"No effect.",
+"fr": "\"Sans effet."
 }
 flavor_text = {
 "en": "\"A small green shard. It appears to be a fragment of",

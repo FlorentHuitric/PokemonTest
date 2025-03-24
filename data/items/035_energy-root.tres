@@ -13,7 +13,8 @@ names = {
 cost = 1200
 category_id = 27
 category_name = {
-"en": "Healing"
+"en": "Healing",
+"fr": "Soin"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Restores 200 HP"
+"en": "\"Restores 200 HP",
+"fr": "\"Restaure 200 PV"
 }
 effect = {
-"en": " but lowers happiness.\""
+"en": " but lowers happiness.\"",
+"fr": " mais diminue le bonheur.\""
 }
 flavor_text = {
 "en": "\"An extremely bitter medicinal root. It can be used to",

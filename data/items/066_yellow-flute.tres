@@ -13,7 +13,8 @@ names = {
 cost = 20
 category_id = 38
 category_name = {
-"en": "Flutes"
+"en": "Flutes",
+"fr": "Flûtes"
 }
 pocket_id = 7
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Cures confusion."
+"en": "Cures confusion.",
+"fr": "Soigne la confusion."
 }
 effect = {
-"en": "\"Used on a party Pokémon in battle"
+"en": "\"Used on a party Pokémon in battle",
+"fr": "\"Utilisé sur un Pokémon de l'équipe en combat"
 }
 flavor_text = {
 "en": "\"A flute made from yellow glass. It snaps Pokémon",

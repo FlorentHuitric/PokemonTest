@@ -13,7 +13,8 @@ names = {
 cost = 3000
 category_id = 10
 category_name = {
-"en": "Evolution"
+"en": "Evolution",
+"fr": "Évolution"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 80
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Evolves a Minccino into Cinccino"
+"en": "\"Evolves a Minccino into Cinccino",
+"fr": "\"Fait évoluer un Chinchidou en Pashmilla"
 }
 effect = {
-"en": " a Roselia into Roserade"
+"en": " a Roselia into Roserade",
+"fr": " un Rosélia en Roserade"
 }
 flavor_text = {
 "en": "\"A peculiar stone that can make certain species of",

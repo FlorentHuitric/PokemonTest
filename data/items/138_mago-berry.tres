@@ -14,7 +14,7 @@ cost = 80
 category_id = 6
 category_name = {
 "en": "Picky healing",
-"fr": "Soin difficile"
+"fr": "Soin spécifique"
 }
 pocket_id = 5
 pocket_name = {

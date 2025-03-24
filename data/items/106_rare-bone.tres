@@ -13,7 +13,8 @@ names = {
 cost = 5000
 category_id = 24
 category_name = {
-"en": "Loot"
+"en": "Loot",
+"fr": "Butin"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 100
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Sell for 5000 Pokédollars"
+"en": "\"Sell for 5000 Pokédollars",
+"fr": "\"Vendre pour 5000 Pokédollars"
 }
 effect = {
-"en": " or to Bone Man for 10000 Pokédollars.\""
+"en": " or to Bone Man for 10000 Pokédollars.\"",
+"fr": " ou à l'Homme des Os pour 10000 Pokédollars.\""
 }
 flavor_text = {
 "en": "\"A rare bone that is extremely valuable for the",

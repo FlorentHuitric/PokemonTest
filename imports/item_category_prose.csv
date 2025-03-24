@@ -1,49 +1,87 @@
 item_category_id,local_language_id,name
 1,9,Stat boosts
+1,5,Boosts de statistiques
 2,9,Effort drop
+2,5,Réduction d'EV
 3,9,Medicine
+3,5,Médicament
 4,9,Other
+4,5,Autre
 5,9,In a pinch
+5,5,En cas de besoin
 6,9,Picky healing
+6,5,Soin spécifique
 7,9,Type protection
+7,5,Protection de type
 8,9,Baking only
+8,5,Cuisson uniquement
 9,9,Collectibles
+9,5,Objets de collection
 10,9,Evolution
+10,5,Évolution
 11,9,Spelunking
+11,5,Spéléologie
 12,9,Held items
+12,5,Objets à tenir
 13,9,Choice
+13,5,Objets de choix
 14,9,Effort training
+14,5,Entraînement d'EV
 15,9,Bad held items
+15,5,Objets néfastes
 16,9,Training
+16,5,Entraînement
 17,9,Plates
+17,5,Plaques
 18,9,Species-specific
+18,5,Spécifique à l'espèce
 19,9,Type enhancement
+19,5,Amélioration de type
 20,9,Event items
+20,5,Objets d'événement
 21,9,Gameplay
+21,5,Objets de jeu
 22,9,Plot advancement
+22,5,Progression de l'intrigue
 23,9,Unused
+23,5,Non utilisé
 24,9,Loot
+24,5,Butin
 25,9,All mail
 26,9,Vitamins
+26,5,Vitamines
 27,9,Healing
+27,5,Soin
 28,9,PP recovery
+28,5,Récupération PP
 29,9,Revival
+29,5,Réanimation
 30,9,Status cures
+30,5,Guérison de statut
 32,9,Mulch
+32,5,Engrais
 33,9,Special balls
+33,5,Balls spéciales
 34,9,Standard balls
 35,9,Dex completion
+35,5,Complétion du Pokédex
 36,9,Scarves
+36,5,Écharpes
 37,9,All machines
 38,9,Flutes
+38,5,Flûtes
 39,9,Apricorn balls
 40,9,Apricorn Box
 41,9,Data Cards
+41,5,Cartes données
 42,9,Jewels
+42,5,Joyaux
 43,9,Miracle Shooter
+43,5,Lanceur Miracle
 44,9,Mega Stones
 45,9,Memories
 46,9,Z-Crystals
+46,5,Cristaux Z
 47,9,Species candies
 48,9,Catching bonus
 49,9,Dynamax crystals

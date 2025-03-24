@@ -13,7 +13,8 @@ names = {
 cost = 0
 category_id = 18
 category_name = {
-"en": "Species-specific"
+"en": "Species-specific",
+"fr": "Spécifique à l'espèce"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 60
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Boosts the damage from Dialga's Dragon-type and Steel-type moves by 20%."
+"en": "Boosts the damage from Dialga's Dragon-type and Steel-type moves by 20%.",
+"fr": "Augmente les dégâts des capacités de type Dragon et Acier de Dialga de 20%."
 }
 effect = {
-"en": "\"Held by []{pokemon:dialga}"
+"en": "\"Held by []{pokemon:dialga}",
+"fr": "\"Tenu par []{pokemon:dialga}"
 }
 flavor_text = {
 "en": "\"A brightly gleaming orb to be held by Dialga.",

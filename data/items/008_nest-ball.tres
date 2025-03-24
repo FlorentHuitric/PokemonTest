@@ -13,7 +13,8 @@ names = {
 cost = 1000
 category_id = 33
 category_name = {
-"en": "Special balls"
+"en": "Special balls",
+"fr": "Balls spéciales"
 }
 pocket_id = 3
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Tries to catch a wild Pokémon.  Success rate is 3.9× for level 1 Pokémon"
+"en": "\"Tries to catch a wild Pokémon.  Success rate is 3.9× for level 1 Pokémon",
+"fr": "\"Tente de capturer un Pokémon sauvage. Taux de réussite de 3.9× pour les Pokémon de niveau 1"
 }
 effect = {
-"en": " and drops steadily to 1× at level 30.\""
+"en": " and drops steadily to 1× at level 30.\"",
+"fr": " diminuant progressivement jusqu'à 1× au niveau 30.\""
 }
 flavor_text = {
 "en": "\"A somewhat different Poké Ball that becomes more",

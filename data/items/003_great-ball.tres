@@ -24,10 +24,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Tries to catch a wild Pokémon.  Success rate is 1.5×."
+"en": "Tries to catch a wild Pokémon.  Success rate is 1.5×.",
+"fr": "Tente de capturer un Pokémon sauvage. Taux de réussite de 1.5×."
 }
 effect = {
-"en": "\"Used in battle"
+"en": "\"Used in battle",
+"fr": "\"Utilisée en combat"
 }
 flavor_text = {
 "en": "\"A good",

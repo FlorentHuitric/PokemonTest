@@ -13,7 +13,8 @@ names = {
 cost = 7000
 category_id = 35
 category_name = {
-"en": "Dex completion"
+"en": "Dex completion",
+"fr": "Complétion du Pokédex"
 }
 pocket_id = 1
 pocket_name = {

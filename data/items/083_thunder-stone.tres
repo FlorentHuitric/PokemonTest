@@ -13,7 +13,8 @@ names = {
 cost = 3000
 category_id = 10
 category_name = {
-"en": "Evolution"
+"en": "Evolution",
+"fr": "Évolution"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Evolves an Eelektrik into Eelektross"
+"en": "\"Evolves an Eelektrik into Eelektross",
+"fr": "\"Fait évoluer un Lampéroie en Ohmassacre"
 }
 effect = {
-"en": " an Eevee into Jolteon"
+"en": " an Eevee into Jolteon",
+"fr": " un Évoli en Voltali"
 }
 flavor_text = {
 "en": "\"A peculiar stone that can make certain species of",

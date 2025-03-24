@@ -13,7 +13,8 @@ names = {
 cost = 2100
 category_id = 35
 category_name = {
-"en": "Dex completion"
+"en": "Dex completion",
+"fr": "Complétion du Pokédex"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 80
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Use on the tower on Route 209 to encounter Spiritomb if you have at least 32 Underground greetings."
+"en": "Use on the tower on Route 209 to encounter Spiritomb if you have at least 32 Underground greetings.",
+"fr": "Utilisez sur la tour de la Route 209 pour rencontrer Spiritomb si vous avez au moins 32 salutations Souterraines."
 }
 effect = {
-"en": "\"Place in the tower on []{location:sinnoh-route-209}.  Check the stone to encounter a []{pokemon:spiritomb}"
+"en": "\"Place in the tower on []{location:sinnoh-route-209}.  Check the stone to encounter a []{pokemon:spiritomb}",
+"fr": "\"Placez dans la tour sur la []{location:sinnoh-route-209}. Vérifiez la pierre pour rencontrer un []{pokemon:spiritomb}"
 }
 flavor_text = {
 "en": "\"A vital item that is needed to keep a stone tower",

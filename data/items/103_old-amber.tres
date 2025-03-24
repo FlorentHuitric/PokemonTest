@@ -13,7 +13,8 @@ names = {
 cost = 10000
 category_id = 35
 category_name = {
-"en": "Dex completion"
+"en": "Dex completion",
+"fr": "Complétion du Pokédex"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 100
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Can be revived into an Aerodactyl."
+"en": "Can be revived into an Aerodactyl.",
+"fr": "Peut être ressuscité en Ptéra."
 }
 effect = {
-"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:aerodactyl}."
+"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:aerodactyl}.",
+"fr": "Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:aerodactyl}."
 }
 flavor_text = {
 "en": "\"A piece of amber that still contains the genetic",

@@ -13,7 +13,8 @@ names = {
 cost = 350
 category_id = 30
 category_name = {
-"en": "Status cures"
+"en": "Status cures",
+"fr": "Guérison de statut"
 }
 pocket_id = 2
 pocket_name = {

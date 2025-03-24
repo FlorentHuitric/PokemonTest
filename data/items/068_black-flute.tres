@@ -13,7 +13,8 @@ names = {
 cost = 20
 category_id = 11
 category_name = {
-"en": "Spelunking"
+"en": "Spelunking",
+"fr": "Spéléologie"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Halves the wild Pokémon encounter rate."
+"en": "Halves the wild Pokémon encounter rate.",
+"fr": "Réduit de moitié les rencontres avec les Pokémon sauvages."
 }
 effect = {
-"en": "\"Used outside of battle"
+"en": "\"Used outside of battle",
+"fr": "\"Utilisé en dehors du combat"
 }
 flavor_text = {
 "en": "\"A flute made from black glass. It makes it easier to",

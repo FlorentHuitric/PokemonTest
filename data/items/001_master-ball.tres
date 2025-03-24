@@ -24,10 +24,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Catches a wild Pokémon every time."
+"en": "Catches a wild Pokémon every time.",
+"fr": "Capture un Pokémon sauvage à chaque fois."
 }
 effect = {
-"en": "\"Used in battle"
+"en": "\"Used in battle",
+"fr": "\"Utilisée en combat"
 }
 flavor_text = {
 "en": "\"The best Poké Ball with the ultimate level of",

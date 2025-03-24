@@ -14,7 +14,7 @@ cost = 1500
 category_id = 1
 category_name = {
 "en": "Stat boosts",
-"fr": "Boost de stats"
+"fr": "Boosts de statistiques"
 }
 pocket_id = 7
 pocket_name = {
@@ -25,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Prevents stat changes in battle for five turns in battle.  Raises happiness."
+"en": "Prevents stat changes in battle for five turns in battle.  Raises happiness.",
+"fr": "Empêche les changements de statistiques pendant cinq tours en combat. Augmente le bonheur."
 }
 effect = {
-"en": "\"Used on a party Pokémon in battle"
+"en": "\"Used on a party Pokémon in battle",
+"fr": "\"Utilisé sur un Pokémon de l'équipe en combat"
 }
 flavor_text = {
 "en": "\"An item that prevents stat reduction among the",

@@ -28,10 +28,12 @@ fling_effect = {
 "fr": "Active immédiatement l'effet de la baie sur la cible."
 }
 short_effect = {
-"en": "Held: Consumed when paralyzed to cure paralysis."
+"en": "Held: Consumed when paralyzed to cure paralysis.",
+"fr": "Tenu: Consommé lorsque paralysé pour soigner la paralysie."
 }
 effect = {
-"en": "\"Held in battle"
+"en": "\"Held in battle",
+"fr": "\"Tenu en combat"
 }
 flavor_text = {
 "en": "\"A Berry to be consumed by Pokémon. If a Pokémon",

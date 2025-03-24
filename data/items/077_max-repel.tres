@@ -13,7 +13,8 @@ names = {
 cost = 900
 category_id = 11
 category_name = {
-"en": "Spelunking"
+"en": "Spelunking",
+"fr": "Spéléologie"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"For 250 steps"
+"en": "\"For 250 steps",
+"fr": "\"Pendant 250 pas"
 }
 effect = {
-"en": " prevents wild encounters of level lower than your party's lead Pokémon.\""
+"en": " prevents wild encounters of level lower than your party's lead Pokémon.\"",
+"fr": " empêche les rencontres sauvages de niveau inférieur à celui du premier Pokémon de l'équipe.\""
 }
 flavor_text = {
 "en": "\"An item that prevents any low-level wild Pokémon",

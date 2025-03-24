@@ -3,174 +3,346 @@ item_id,local_language_id,short_effect,effect
 :   [Catches]{mechanic:catch} a wild Pokémon without fail.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+1,5,Capture un Pokémon sauvage à chaque fois.,"Utilisée en combat
+:   [Capture]{mechanic:catch} un Pokémon sauvage sans échec.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 2,9,Tries to catch a wild Pokémon.  Success rate is 2×.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 2×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+2,5,Tente de capturer un Pokémon sauvage. Taux de réussite de 2×.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 2×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 3,9,Tries to catch a wild Pokémon.  Success rate is 1.5×.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+3,5,Tente de capturer un Pokémon sauvage. Taux de réussite de 1.5×.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1.5×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 4,9,Tries to catch a wild Pokémon.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+4,5,Tente de capturer un Pokémon sauvage.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 5,9,Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.
 
 This item can only be used in the []{location:great-marsh} or []{location:kanto-safari-zone}."
+5,5,Tente de capturer un Pokémon sauvage dans le Grand Marais ou la Zone Safari. Taux de réussite de 1.5×.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1.5×.
+
+Cette ball ne peut être utilisée que dans le []{location:great-marsh} ou la []{location:kanto-safari-zone}."
 6,9,Tries to catch a wild Pokémon.  Success rate is 3× for water and bug Pokémon.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If the wild Pokémon is []{type:water}- or []{type:bug}-type, this ball has a catch rate of 3×.  Otherwise, it has a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+6,5,Tente de capturer un Pokémon sauvage. Taux de réussite de 3× pour les Pokémon de type Eau et Insecte.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. Si le Pokémon sauvage est de type []{type:water} ou []{type:bug}, cette ball a un taux de capture de 3×. Sinon, elle a un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 7,9,"Tries to catch a wild Pokémon. Success rate is 3.5× when underwater, fishing, or surfing.","Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If the wild Pokémon was encountered by surfing or fishing, this ball has a catch rate of 3.5×.  Otherwise, it has a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+7,5,"Tente de capturer un Pokémon sauvage. Taux de réussite de 3.5× sous l'eau, en pêchant ou en surfant.","Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. Si le Pokémon sauvage a été rencontré en surfant ou en pêchant, cette ball a un taux de capture de 3.5×. Sinon, elle a un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 8,9,"Tries to catch a wild Pokémon.  Success rate is 3.9× for level 1 Pokémon, and drops steadily to 1× at level 30.","Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  Has a catch rate of given by `(40 - level) / 10`, where `level` is the wild Pokémon's level, to a maximum of 3.9× for level 1 Pokémon.  If the wild Pokémon's level is higher than 30, this ball has a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+8,5,"Tente de capturer un Pokémon sauvage. Taux de réussite de 3.9× pour les Pokémon de niveau 1, diminuant progressivement jusqu'à 1× au niveau 30.","Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. A un taux de capture donné par `(40 - niveau) / 10`, où `niveau` est le niveau du Pokémon sauvage, jusqu'à un maximum de 3.9× pour les Pokémon de niveau 1. Si le niveau du Pokémon sauvage est supérieur à 30, cette ball a un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 9,9,Tries to catch a wild Pokémon.  Success rate is 3× for previously-caught Pokémon.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If the wild Pokémon's species is marked as caught in the trainer's Pokédex, this ball has a catch rate of 3×.  Otherwise, it has a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+9,5,Tente de capturer un Pokémon sauvage. Taux de réussite de 3× pour les Pokémon déjà capturés.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. Si l'espèce du Pokémon sauvage est marquée comme capturée dans le Pokédex du dresseur, cette ball a un taux de capture de 3×. Sinon, elle a un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 10,9,"Tries to catch a wild Pokémon. Success rate increases by 0.1× (Gen V: 0.3×) every turn, to a max of 4×.","Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  Has a catch rate of 1.1× on the first turn of the battle and increases by 0.1× every turn, to a maximum of 4× on turn 30.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+10,5,"Tente de capturer un Pokémon sauvage. Le taux de réussite augmente de 0.1× (Gen V: 0.3×) à chaque tour, jusqu'à un maximum de 4×.","Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. A un taux de capture de 1.1× au premier tour du combat et augmente de 0.1× à chaque tour, jusqu'à un maximum de 4× au tour 30.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 11,9,Tries to catch a wild Pokémon.  Caught Pokémon start with 200 happiness.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.  Whenever the caught Pokémon's [happiness]{mechanic:happiness} increases, it increases by one extra point.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+11,5,Tente de capturer un Pokémon sauvage. Les Pokémon capturés commencent avec 200 points de bonheur.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1×. Chaque fois que le [bonheur]{mechanic:happiness} du Pokémon capturé augmente, il augmente d'un point supplémentaire.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 12,9,Tries to catch a wild Pokémon.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+12,5,Tente de capturer un Pokémon sauvage.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 13,9,Tries to catch a wild Pokémon.  Success rate is 3.5× at night and in caves.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If it's currently nighttime or the wild Pokémon was encountered while walking in a cave, this ball has a catch rate of 3.5×.  Otherwise, it has a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+13,5,Tente de capturer un Pokémon sauvage. Taux de réussite de 3.5× la nuit et dans les grottes.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage. Si c'est actuellement la nuit ou si le Pokémon sauvage a été rencontré en marchant dans une grotte, cette ball a un taux de capture de 3.5×. Sinon, elle a un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 14,9,Tries to catch a wild Pokémon.  Caught Pokémon are immediately healed.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.  The caught Pokémon's [HP]{mechanic:hp} is immediately restored, [PP]{mechanic:pp} for all its moves is restored, and any [status ailment]{mechanic:status-ailment} is cured.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+14,5,Tente de capturer un Pokémon sauvage. Les Pokémon capturés sont immédiatement soignés.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1×. Le [HP]{mechanic:hp} du Pokémon capturé est immédiatement restauré, le [PP]{mechanic:pp} de toutes ses attaques est restauré, et toute [altération de statut]{mechanic:status-ailment} est guérie.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 15,9,"Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×), but only on the first turn.","Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 4× on the first turn of a battle, but 1× any other time.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+15,5,"Tente de capturer un Pokémon sauvage. Taux de réussite de 4× (Gen V: 5×), mais uniquement au premier tour.","Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 4× lors du premier tour d'un combat, mais de 1× tout autre moment.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 16,9,Tries to catch a wild Pokémon.,"Used in battle
 :   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.
 
     If used in a trainer battle, nothing happens and the ball is lost."
+16,5,Tente de capturer un Pokémon sauvage.,"Utilisée en combat
+:   Tente de [capturer]{mechanic:catch} un Pokémon sauvage, avec un taux de capture de 1×.
+
+    Si utilisée dans un combat contre un dresseur, rien ne se passe et la ball est perdue."
 17,9,Restores 20 HP.,"Used on a friendly Pokémon
 :   Restores 20 [HP]{mechanic:hp}."
+17,5,Restaure 20 HP.,"Utilisé sur un Pokémon allié
+:   Restaure 20 [HP]{mechanic:hp}."
 18,9,Cures poison.,"Used on a party Pokémon
 :   Cures [poison]{mechanic:poison}."
+18,5,Soigne l'empoisonnement.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne l'[empoisonnement]{mechanic:poison}."
 19,9,Cures a burn.,"Used on a party Pokémon
 :   Cures a [burn]{mechanic:burn}."
+19,5,Soigne une brûlure.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne une [brûlure]{mechanic:burn}."
 20,9,Cures freezing.,"Used on a party Pokémon
 :   Cures [freezing]{mechanic:freezing}."
+20,5,Soigne le gel.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne le [gel]{mechanic:freezing}."
 21,9,Cures sleep.,"Used on a party Pokémon
 :   Cures [sleep]{mechanic:sleep}."
+21,5,Soigne le sommeil.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne le [sommeil]{mechanic:sleep}."
 22,9,Cures paralysis.,"Used on a party Pokémon
 :   Cures [paralysis]{mechanic:paralysis}."
+22,5,Soigne la paralysie.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne la [paralysie]{mechanic:paralysis}."
 23,9,Restores HP to full and cures any status ailment and confusion.,"Used on a party Pokémon
 :   Restores [HP]{mechanic:hp} to full and cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}."
+23,5,Restaure tous les PV et soigne tout problème de statut et la confusion.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure tous les [PV]{mechanic:hp} et soigne tout [problème de statut]{mechanic:status-ailment} et la [confusion]{mechanic:confusion}."
 24,9,Restores HP to full.,"Used on a party Pokémon
 :   Restores [HP]{mechanic:hp} to full."
+24,5,Restaure tous les PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure tous les [PV]{mechanic:hp}."
 25,9,Restores 200 HP.,"Used on a party Pokémon
 :   Restores 200 [HP]{mechanic:hp}."
+25,5,Restaure 200 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 200 [PV]{mechanic:hp}."
 26,9,Restores 50 HP.,"Used on a party Pokémon
 :   Restores 50 [HP]{mechanic:hp}."
+26,5,Restaure 50 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 50 [PV]{mechanic:hp}."
 27,9,Cures any status ailment and confusion.,"Used on a party Pokémon
 :   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}."
+27,5,Soigne tout problème de statut et la confusion.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne tout [problème de statut]{mechanic:status-ailment} et la [confusion]{mechanic:confusion}."
 28,9,Revives with half HP.,"Used on a party Pokémon
 :   Revives the Pokémon and restores half its [HP]{mechanic:hp}."
+28,5,Réanime avec la moitié des PV.,"Utilisé sur un Pokémon de l'équipe
+:   Réanime le Pokémon et restaure la moitié de ses [PV]{mechanic:hp}."
 29,9,Revives with full HP.,"Used on a party Pokémon
 :   Revives the Pokémon and restores its [HP]{mechanic:hp} to full."
+29,5,Réanime avec tous les PV.,"Utilisé sur un Pokémon de l'équipe
+:   Réanime le Pokémon et restaure tous ses [PV]{mechanic:hp}."
 30,9,Restores 50 HP.,"Used on a party Pokémon
 :   Restores 50 [HP]{mechanic:hp}."
+30,5,Restaure 50 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 50 [PV]{mechanic:hp}."
 31,9,Restores 60 HP.,"Used on a party Pokémon
 :   Restores 60 [HP]{mechanic:hp}."
+31,5,Restaure 60 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 60 [PV]{mechanic:hp}."
 32,9,Restores 80 HP.,"Used on a party Pokémon
 :   Restores 80 [HP]{mechanic:hp}."
+32,5,Restaure 80 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 80 [PV]{mechanic:hp}."
 33,9,Restores 100 HP.,"Used on a party Pokémon
 :   Restores 100 [HP]{mechanic:hp}."
+33,5,Restaure 100 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 100 [PV]{mechanic:hp}."
 34,9,"Restores 50 HP, but lowers happiness.","Used on a party Pokémon
 :   Restores 50 [HP]{mechanic:hp}.  Decreases [happiness]{mechanic:happiness} by 5/5/10."
+34,5,"Restaure 50 PV, mais diminue le bonheur.","Utilisé sur un Pokémon de l'équipe
+:   Restaure 50 [PV]{mechanic:hp}. Diminue le [bonheur]{mechanic:happiness} de 5/5/10."
 35,9,"Restores 200 HP, but lowers happiness.","Used on a party Pokémon
 :   Restores 200 [HP]{mechanic:hp}.  Decreases [happiness]{mechanic:happiness} by 10/10/15."
+35,5,"Restaure 200 PV, mais diminue le bonheur.","Utilisé sur un Pokémon de l'équipe
+:   Restaure 200 [PV]{mechanic:hp}. Diminue le [bonheur]{mechanic:happiness} de 10/10/15."
 36,9,"Cures any status ailment, but lowers happiness.","Used on a party Pokémon
 :   Cures any [status ailment]{mechanic:status-ailment}.  Decreases [happiness]{mechanic:happiness} by 5/5/10."
+36,5,"Soigne tout problème de statut, mais diminue le bonheur.","Utilisé sur un Pokémon de l'équipe
+:   Soigne tout [problème de statut]{mechanic:status-ailment}. Diminue le [bonheur]{mechanic:happiness} de 5/5/10."
 37,9,"Revives with full HP, but lowers happiness.","Used on a party Pokémon
 :   Revives a [fainted]{mechanic:faint} Pokémon and restores its [HP]{mechanic:hp} to full.  Decreases [happiness]{mechanic:happiness} by 10/10/15."
+37,5,"Réanime avec tous les PV, mais diminue le bonheur.","Utilisé sur un Pokémon de l'équipe
+:   Réanime un Pokémon [évanoui]{mechanic:faint} et restaure tous ses [PV]{mechanic:hp}. Diminue le [bonheur]{mechanic:happiness} de 10/10/15."
 38,9,Restores 10 PP for one move.,"Used on a party Pokémon
 :   Restores 10 [PP]{mechanic:pp} for a selected move."
+38,5,Restaure 10 PP pour une capacité.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 10 [PP]{mechanic:pp} pour une capacité sélectionnée."
 39,9,Restores PP to full for one move.,"Used on a party Pokémon
 :   Restores [PP]{mechanic:pp} to full for a selected move."
+39,5,Restaure tous les PP pour une capacité.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure tous les [PP]{mechanic:pp} pour une capacité sélectionnée."
 40,9,Restores 10 PP for each move.,"Used on a party Pokémon
 :   Restores 10 [PP]{mechanic:pp} for each move."
+40,5,Restaure 10 PP pour chaque capacité.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 10 [PP]{mechanic:pp} pour chaque capacité."
 41,9,Restores PP to full for each move.,"Used on a party Pokémon
 :   Restores [PP]{mechanic:pp} to full for each move."
+41,5,Restaure tous les PP pour chaque capacité.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure tous les [PP]{mechanic:pp} pour chaque capacité."
 42,9,Cures any status ailment and confusion.,"Used on a party Pokémon
 :   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}."
+42,5,Soigne tout problème de statut et la confusion.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne tout [problème de statut]{mechanic:status-ailment} et la [confusion]{mechanic:confusion}."
 43,9,Restores 20 HP.,"Used on a party Pokémon
 :   Restores 20 [HP]{mechanic:hp}."
+43,5,Restaure 20 PV.,"Utilisé sur un Pokémon de l'équipe
+:   Restaure 20 [PV]{mechanic:hp}."
 44,9,Revives all fainted Pokémon with full HP.,"Used
 :   Revives all [fainted]{mechanic:faint} Pokémon in the party and restores their [HP]{mechanic:hp} to full."
+44,5,Réanime tous les Pokémon évanouis avec tous leurs PV.,"Utilisé
+:   Réanime tous les Pokémon [évanouis]{mechanic:faint} de l'équipe et restaure tous leurs [PV]{mechanic:hp}."
 45,9,Raises HP effort and happiness.,"Used on a party Pokémon
 :   Increases [HP]{mechanic:hp} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+45,5,Augmente les EVs de PV et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente les [PV]{mechanic:hp} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 46,9,Raises Attack effort and happiness.,"Used on a party Pokémon
 :   Increases [Attack]{mechanic:attack} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+46,5,Augmente les EVs d'Attaque et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente l'[Attaque]{mechanic:attack} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 47,9,Raises Defense effort and happiness.,"Used on a party Pokémon
 :   Increases [Defense]{mechanic:defense} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+47,5,Augmente les EVs de Défense et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente la [Défense]{mechanic:defense} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 48,9,Raises Speed effort and happiness.,"Used on a party Pokémon
 :   Increases [Speed]{mechanic:speed} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+48,5,Augmente les EVs de Vitesse et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente la [Vitesse]{mechanic:speed} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 49,9,Raises Special Attack effort and happiness.,"Used on a party Pokémon
 :   Increases [Special Attack]{mechanic:special-attack} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+49,5,Augmente les EVs d'Attaque Spéciale et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente l'[Attaque Spéciale]{mechanic:special-attack} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 50,9,Causes a level-up and raises happiness.,"Used on a party Pokémon
 :   Increases level by 1.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+50,5,Fait gagner un niveau et augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente le niveau de 1. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 51,9,Raises a move's max PP by 20%.,"Used on a party Pokémon
 :   Increases a selected move's max [PP]{mechanic:pp} by 20% its original max PP, to a maximum of 1.6×.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+51,5,Augmente le PP max d'une capacité de 20%.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente le PP max d'une capacité sélectionnée de 20% par rapport à son PP max d'origine, jusqu'à un maximum de 1,6×. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 52,9,Raises Special Defense and happiness.,"Used on a party Pokémon
 :   Increases [Special Defense]{mechanic:special-defense} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+52,5,Augmente la Défense Spéciale et le bonheur.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente la [Défense Spéciale]{mechanic:special-defense} [d'effort]{mechanic:effort} de 10, mais n'augmentera pas au-delà de 100. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 53,9,Raises a move's max PP by 60%.,"Used on a party Pokémon
 :   Increases a selected move's max [PP]{mechanic:pp} to 1.6× its original max PP.  Increases [happiness]{mechanic:happiness} by 5/3/2."
+53,5,Augmente le PP max d'une capacité de 60%.,"Utilisé sur un Pokémon de l'équipe
+:   Augmente le PP max d'une capacité sélectionnée à 1,6× son PP max d'origine. Augmente le [bonheur]{mechanic:happiness} de 5/3/2."
 54,9,Cures any status ailment and confusion.,"Used on a party Pokémon
 :   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}."
+54,5,Soigne tout problème de statut et la confusion.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne tout [problème de statut]{mechanic:status-ailment} et la [confusion]{mechanic:confusion}."
 55,9,Prevents stat changes in battle for five turns in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   Protects the target's stats from being [lowered]{mechanic:lower} for the next five turns.  Increases happiness by 1/1/0."
+55,5,Empêche les changements de statistiques pendant cinq tours en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   Protège les statistiques de la cible contre les [baisses]{mechanic:lower} pendant les cinq prochains tours. Augmente le bonheur de 1/1/0."
 56,9,Increases the chance of a critical hit in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   Increases the target's [critical hit chance]{mechanic:critical-hit-chance} by one stage until it leaves the field.  Increases happiness by 1/1/0."
+56,5,Augmente les chances de coup critique en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   Augmente les [chances de coup critique]{mechanic:critical-hit-chance} de la cible d'un niveau jusqu'à ce qu'elle quitte le terrain. Augmente le bonheur de 1/1/0."
 57,9,Raises Attack by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [Attack]{mechanic:attack} by one stage.  Increases happiness by 1/1/0."
+57,5,Augmente l'Attaque d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} l'[Attaque]{mechanic:attack} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 58,9,Raises Defense by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [Defense]{mechanic:defense} by one stage.  Increases happiness by 1/1/0."
+58,5,Augmente la Défense d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} la [Défense]{mechanic:defense} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 59,9,Raises Speed by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [Speed]{mechanic:speed} by one stage.  Increases happiness by 1/1/0."
+59,5,Augmente la Vitesse d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} la [Vitesse]{mechanic:speed} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 60,9,Raises accuracy by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [accuracy]{mechanic:accuracy} by one stage.  Increases happiness by 1/1/0."
+60,5,Augmente la précision d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} la [précision]{mechanic:accuracy} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 61,9,Raises Special Attack by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [Special Attack]{mechanic:special-attack} by one stage.  Increases happiness by 1/1/0."
+61,5,Augmente l'Attaque Spéciale d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} l'[Attaque Spéciale]{mechanic:special-attack} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 62,9,Raises Special Defense by one stage in battle.  Raises happiness.,"Used on a party Pokémon in battle
 :   [Raises]{mechanic:raise} the target's [Special Defense]{mechanic:special-defense} by one stage.  Increases happiness by 1/1/0."
+62,5,Augmente la Défense Spéciale d'un niveau en combat. Augmente le bonheur.,"Utilisé sur un Pokémon de l'équipe en combat
+:   [Augmente]{mechanic:raise} la [Défense Spéciale]{mechanic:special-defense} de la cible d'un niveau. Augmente le bonheur de 1/1/0."
 63,9,Ends a wild battle.,"Used in battle
 :   Ends a wild battle.  Cannot be used in trainer battles."
+63,5,Met fin à un combat sauvage.,"Utilisé en combat
+:   Met fin à un combat sauvage. Ne peut pas être utilisé dans les combats contre des dresseurs."
 64,9,Ends a wild battle.,"Used in battle
 :   Ends a wild battle.  Cannot be used in trainer battles."
+64,5,Met fin à un combat sauvage.,"Utilisé en combat
+:   Met fin à un combat sauvage. Ne peut pas être utilisé dans les combats contre des dresseurs."
 65,9,Cures sleep.,"Used on a party Pokémon
 :   Cures [sleep]{mechanic:sleep}."
+65,5,Soigne le sommeil.,"Utilisé sur un Pokémon de l'équipe
+:   Soigne le [sommeil]{mechanic:sleep}."
 66,9,Cures confusion.,"Used on a party Pokémon in battle
 :   Cures [confusion]{mechanic:confusion}."
+66,5,Soigne la confusion.,"Utilisé sur un Pokémon de l'équipe en combat
+:   Soigne la [confusion]{mechanic:confusion}."
 67,9,Cures attraction.,"Used on a party Pokémon in battle
 :   Cures [attraction]{mechanic:attraction}."
+67,5,Soigne l'attirance.,"Utilisé sur un Pokémon de l'équipe en combat
+:   Soigne l'[attirance]{mechanic:attraction}."
 68,9,Halves the wild Pokémon encounter rate.,"Used outside of battle
 :   Decreases the wild Pokémon encounter rate by 50%."
+68,5,Réduit de moitié les rencontres avec les Pokémon sauvages.,"Utilisé en dehors du combat
+:   Diminue le taux de rencontre des Pokémon sauvages de 50%."
 69,9,Doubles the wild Pokémon encounter rate.,"Used outside of battle
 :   Doubles the wild Pokémon encounter rate."
+69,5,Double le taux de rencontre des Pokémon sauvages.,"Utilisé en dehors du combat
+:   Double le taux de rencontre des Pokémon sauvages."
 70,9,No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.,No effect.
+70,5,Sans effet. Gen III: Échangez quatre et quatre Coquilles Tréfonds pour une Grelot Coque.,Sans effet.
 71,9,No effect. Gen III: Trade four and four Shoal Salts for a Shell Bell.,No effect.
+71,5,Sans effet. Gen III: Échangez quatre et quatre Sels Tréfonds pour une Grelot Coque.,Sans effet.
 72,9,No effect. Can be traded for items or moves.,"No effect.
 
 In Diamond and Pearl, trade ten for a []{move:sunny-day} [TM]{item:tm11} in the house midway along the southern section of []{location:sinnoh-route-212}.
@@ -180,6 +352,15 @@ In Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-r
 In HeartGold and SoulSilver, trade one for a []{item:cheri-berry}, a []{item:leppa-berry}, and a []{item:pecha-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.
 
 In HeartGold and SoulSilver, trade one for a []{item:persim-berry}, a []{item:pomeg-berry}, and a []{item:razz-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}."
+72,5,Sans effet. Peut être échangé contre des objets ou des capacités.,"Sans effet.
+
+Dans Diamant et Perle, échangez-en dix contre une [CT]{item:tm11} de []{move:sunny-day} dans la maison située à mi-chemin le long de la section sud de la []{location:sinnoh-route-212}.
+
+Dans Platine, échangez avec les [maîtres des capacités]{mechanic:move-tutor} sur la []{location:sinnoh-route-212}, dans []{location:snowpoint-city}, et dans la []{location:survival-area}. Huit éclats au total sont nécessaires par apprentissage, mais la combinaison particulière de couleurs varie selon la capacité.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:cheri-berry}, une []{item:leppa-berry} et une []{item:pecha-berry} avec le Jongleur près du Centre Pokémon à []{location:violet-city}.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:persim-berry}, une []{item:pomeg-berry} et une []{item:razz-berry} avec le Jongleur près de l'entrée du []{location:pal-park} à []{location:fuchsia-city}."
 73,9,No effect. Can be traded for items or moves.,"No effect.
 
 In Diamond and Pearl, trade ten for a []{move:rain-dance} [TM]{item:tm18} in the house midway along the southern section of []{location:sinnoh-route-212}.
@@ -189,6 +370,15 @@ In Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-r
 In HeartGold and SoulSilver, trade one for a []{item:chesto-berry}, an []{item:oran-berry}, and a []{item:wiki-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.
 
 In HeartGold and SoulSilver, trade one for a []{item:bluk-berry}, a []{item:cornn-berry}, and a []{item:kelpsy-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}."
+73,5,Sans effet. Peut être échangé contre des objets ou des capacités.,"Sans effet.
+
+Dans Diamant et Perle, échangez-en dix contre une [CT]{item:tm18} de []{move:rain-dance} dans la maison située à mi-chemin le long de la section sud de la []{location:sinnoh-route-212}.
+
+Dans Platine, échangez avec les [maîtres des capacités]{mechanic:move-tutor} sur la []{location:sinnoh-route-212}, dans []{location:snowpoint-city}, et dans la []{location:survival-area}. Huit éclats au total sont nécessaires par apprentissage, mais la combinaison particulière de couleurs varie selon la capacité.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:chesto-berry}, une []{item:oran-berry} et une []{item:wiki-berry} avec le Jongleur près du Centre Pokémon à []{location:violet-city}.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:bluk-berry}, une []{item:cornn-berry} et une []{item:kelpsy-berry} avec le Jongleur près de l'entrée du []{location:pal-park} à []{location:fuchsia-city}."
 74,9,No effect. Can be traded for items or moves.,"No effect.
 
 In Diamond and Pearl, trade ten for a []{move:sandstorm} [TM]{item:tm37} in the house midway along the southern section of []{location:sinnoh-route-212}.
@@ -198,6 +388,15 @@ In Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-r
 In HeartGold and SoulSilver, trade one for an []{item:aspear-berry}, a []{item:iapapa-berry}, and a []{item:sitrus-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.
 
 In HeartGold and SoulSilver, trade one for a []{item:grepa-berry}, a []{item:nomel-berry}, and a []{item:pinap-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}."
+74,5,Sans effet. Peut être échangé contre des objets ou des capacités.,"Sans effet.
+
+Dans Diamant et Perle, échangez-en dix contre une [CT]{item:tm37} de []{move:sandstorm} dans la maison située à mi-chemin le long de la section sud de la []{location:sinnoh-route-212}.
+
+Dans Platine, échangez avec les [maîtres des capacités]{mechanic:move-tutor} sur la []{location:sinnoh-route-212}, dans []{location:snowpoint-city}, et dans la []{location:survival-area}. Huit éclats au total sont nécessaires par apprentissage, mais la combinaison particulière de couleurs varie selon la capacité.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:aspear-berry}, une []{item:iapapa-berry} et une []{item:sitrus-berry} avec le Jongleur près du Centre Pokémon à []{location:violet-city}.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:grepa-berry}, une []{item:nomel-berry} et une []{item:pinap-berry} avec le Jongleur près de l'entrée du []{location:pal-park} à []{location:fuchsia-city}."
 75,9,No effect. Can be traded for items or moves.,"No effect.
 
 In Diamond and Pearl, trade ten for a []{move:hail} [TM]{item:tm07} in the house midway along the southern section of []{location:sinnoh-route-212}.
@@ -207,120 +406,243 @@ In Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-r
 In HeartGold and SoulSilver, trade one for an []{item:aguav-berry}, a []{item:lum-berry}, and a []{item:rawst-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.
 
 In HeartGold and SoulSilver, trade one for a []{item:durin-berry}, a []{item:hondew-berry}, and a []{item:wepear-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}."
+75,5,Sans effet. Peut être échangé contre des objets ou des capacités.,"Sans effet.
+
+Dans Diamant et Perle, échangez-en dix contre une [CT]{item:tm07} de []{move:hail} dans la maison située à mi-chemin le long de la section sud de la []{location:sinnoh-route-212}.
+
+Dans Platine, échangez avec les [maîtres des capacités]{mechanic:move-tutor} sur la []{location:sinnoh-route-212}, dans []{location:snowpoint-city}, et dans la []{location:survival-area}. Huit éclats au total sont nécessaires par apprentissage, mais la combinaison particulière de couleurs varie selon la capacité.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:aguav-berry}, une []{item:lum-berry} et une []{item:rawst-berry} avec le Jongleur près du Centre Pokémon à []{location:violet-city}.
+
+Dans HeartGold et SoulSilver, échangez-en un contre une []{item:durin-berry}, une []{item:hondew-berry} et une []{item:wepear-berry} avec le Jongleur près de l'entrée du []{location:pal-park} à []{location:fuchsia-city}."
 76,9,"For 200 steps, prevents wild encounters of level lower than your party's lead Pokémon.","Used outside of battle
 :   Trainer will skip encounters with wild Pokémon of a lower level than the lead party Pokémon.  This effect wears off after the trainer takes 200 steps."
+76,5,"Pendant 200 pas, empêche les rencontres sauvages de niveau inférieur à celui du premier Pokémon de l'équipe.","Utilisé en dehors du combat
+:   Le dresseur évite les rencontres avec des Pokémon sauvages d'un niveau inférieur à celui du premier Pokémon de l'équipe. Cet effet s'estompe après 200 pas."
 77,9,"For 250 steps, prevents wild encounters of level lower than your party's lead Pokémon.","Used outside of battle
 :   Trainer will skip encounters with wild Pokémon of a lower level than the lead party Pokémon.  This effect wears off after the trainer takes 250 steps."
+77,5,"Pendant 250 pas, empêche les rencontres sauvages de niveau inférieur à celui du premier Pokémon de l'équipe.","Utilisé en dehors du combat
+:   Le dresseur évite les rencontres avec des Pokémon sauvages d'un niveau inférieur à celui du premier Pokémon de l'équipe. Cet effet s'estompe après 250 pas."
 78,9,Transports user to the outside entrance of a cave.,"Used outside of battle
 :   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in []{location:distortion-world}, []{location:sinnoh-hall-of-origin-1}, []{location:spear-pillar}, or []{location:turnback-cave}."
+78,5,Transporte l'utilisateur à l'entrée extérieure d'une grotte.,"Utilisé en dehors du combat
+:   Transporte le dresseur à la dernière entrée de donjon visitée. Ne peut pas être utilisé à l'extérieur, dans les bâtiments, ou dans le []{location:distortion-world}, []{location:sinnoh-hall-of-origin-1}, []{location:spear-pillar}, ou []{location:turnback-cave}."
 79,9,"For 100 steps, prevents wild encounters of level lower than your party's lead Pokémon.","Used outside of battle
 :   Trainer will skip encounters with wild Pokémon of a lower level than the lead party Pokémon.  This effect wears off after the trainer takes 100 steps."
+79,5,"Pendant 100 pas, empêche les rencontres sauvages de niveau inférieur à celui du premier Pokémon de l'équipe.","Utilisé en dehors du combat
+:   Le dresseur évite les rencontres avec des Pokémon sauvages d'un niveau inférieur à celui du premier Pokémon de l'équipe. Cet effet s'estompe après 100 pas."
 80,9,"Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora.","Used on a party Pokémon
 :   Evolves a []{pokemon:cottonee} into []{pokemon:whimsicott}, a []{pokemon:gloom} into []{pokemon:bellossom}, a []{pokemon:petilil} into []{pokemon:lilligant}, or a []{pokemon:sunkern} into []{pokemon:sunflora}."
+80,5,"Fait évoluer un Chlorobule en Chlorobuste, un Ortide en Rafflesia, un Chlorisse en Fragilady, ou un Tournegrin en Héliatronc.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:cottonee} en []{pokemon:whimsicott}, un []{pokemon:gloom} en []{pokemon:bellossom}, un []{pokemon:petilil} en []{pokemon:lilligant}, ou un []{pokemon:sunkern} en []{pokemon:sunflora}."
 81,9,"Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty.","Used on a party Pokémon
 :   Evolves a []{pokemon:clefairy} into []{pokemon:clefable}, a []{pokemon:jigglypuff} into []{pokemon:wigglytuff}, a []{pokemon:munna} into []{pokemon:musharna}, a []{pokemon:nidorina} into []{pokemon:nidoqueen}, a []{pokemon:nidorino} into []{pokemon:nidoking}, or a []{pokemon:skitty} into []{pokemon:delcatty}."
+81,5,"Fait évoluer un Mélofée en Mélodelfe, un Rondoudou en Grodoudou, un Munna en Mushana, une Nidorina en Nidoqueen, un Nidorino en Nidoking, ou un Skitty en Delcatty.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:clefairy} en []{pokemon:clefable}, un []{pokemon:jigglypuff} en []{pokemon:wigglytuff}, un []{pokemon:munna} en []{pokemon:musharna}, une []{pokemon:nidorina} en []{pokemon:nidoqueen}, un []{pokemon:nidorino} en []{pokemon:nidoking}, ou un []{pokemon:skitty} en []{pokemon:delcatty}."
 82,9,"Evolves an Eevee into Flareon, a Growlithe into Arcanine, a Pansear into Simisear, or a Vulpix into Ninetales.","Used on a party Pokémon
 :   Evolves an []{pokemon:eevee} into []{pokemon:flareon}, a []{pokemon:growlithe} into []{pokemon:arcanine}, a []{pokemon:pansear} into []{pokemon:simisear}, or a []{pokemon:vulpix} into []{pokemon:ninetales}."
+82,5,"Fait évoluer un Évoli en Pyroli, un Caninos en Arcanin, un Flamajou en Flamoutan, ou un Goupix en Feunard.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:eevee} en []{pokemon:flareon}, un []{pokemon:growlithe} en []{pokemon:arcanine}, un []{pokemon:pansear} en []{pokemon:simisear}, ou un []{pokemon:vulpix} en []{pokemon:ninetales}."
 83,9,"Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.","Used on a party Pokémon
 :   Evolves an []{pokemon:eelektrik} into []{pokemon:eelektross}, an []{pokemon:eevee} into []{pokemon:jolteon}, or a []{pokemon:pikachu} into []{pokemon:raichu}."
+83,5,"Fait évoluer un Lampéroie en Ohmassacre, un Évoli en Voltali, ou un Pikachu en Raichu.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:eelektrik} en []{pokemon:eelektross}, un []{pokemon:eevee} en []{pokemon:jolteon}, ou un []{pokemon:pikachu} en []{pokemon:raichu}."
 84,9,"Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.","Used on a party Pokémon
 :   Evolves an []{pokemon:eevee} into []{pokemon:vaporeon}, a []{pokemon:lombre} into []{pokemon:ludicolo}, a []{pokemon:panpour} into []{pokemon:simipour}, a []{pokemon:poliwhirl} into []{pokemon:poliwrath}, a []{pokemon:shellder} into []{pokemon:cloyster}, or a []{pokemon:staryu} into []{pokemon:starmie}."
+84,5,"Fait évoluer un Évoli en Aquali, un Nénupiot en Ludicolo, un Flotajou en Flotoutan, un Têtarte en Tartard, un Kokiyas en Crustabri, ou une Stari en Staross.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:eevee} en []{pokemon:vaporeon}, un []{pokemon:lombre} en []{pokemon:ludicolo}, un []{pokemon:panpour} en []{pokemon:simipour}, un []{pokemon:poliwhirl} en []{pokemon:poliwrath}, un []{pokemon:shellder} en []{pokemon:cloyster}, ou une []{pokemon:staryu} en []{pokemon:starmie}."
 85,9,"Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.","Used on a party Pokémon
 :   Evolves an []{pokemon:exeggcute} into []{pokemon:exeggutor}, a []{pokemon:gloom} into []{pokemon:vileplume}, a []{pokemon:nuzleaf} into []{pokemon:shiftry}, a []{pokemon:pansage} into []{pokemon:simisage}, or a []{pokemon:weepinbell} into []{pokemon:victreebel}."
+85,5,"Fait évoluer un Noeunoeuf en Noadkoko, un Ortide en Rafflesia, un Pifeuil en Tengalice, un Feuillajou en Feuiloutan, ou un Boustiflor en Empiflor.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:exeggcute} en []{pokemon:exeggutor}, un []{pokemon:gloom} en []{pokemon:vileplume}, un []{pokemon:nuzleaf} en []{pokemon:shiftry}, un []{pokemon:pansage} en []{pokemon:simisage}, ou un []{pokemon:weepinbell} en []{pokemon:victreebel}."
 86,9,"Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pokédollars, or to Hungry Maid for 500 Pokédollars.",Vendor trash.
+86,5,"Rouge Feu et Vert Feuille: Échangez-en deux contre des capacités apprises par montée de niveau. Vendre pour 250 Pokédollars, ou à la Servante Affamée pour 500 Pokédollars.",Objet à vendre.
 87,9,"Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.",Vendor trash.
+87,5,"Rouge Feu et Vert Feuille: Échangez contre des capacités apprises par montée de niveau. Vendre pour 2500 Pokédollars, ou à la Servante Affamée pour 5000 Pokédollars.",Objet à vendre.
 88,9,"Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.",Vendor trash.
+88,5,"Vendre pour 700 Pokédollars, ou au Collectionneur de Minerais pour 1400 Pokédollars.",Objet à vendre.
 89,9,"Sell for 3750 Pokédollars, or to Ore Collector for 7500 Pokédollars.",Vendor trash.
+89,5,"Vendre pour 3750 Pokédollars, ou au Collectionneur de Minerais pour 7500 Pokédollars.",Objet à vendre.
 90,9,"Sell for 1000 Pokédollars, or to Ore Collector for 2000 Pokédollars.",Vendor trash.
+90,5,"Vendre pour 1000 Pokédollars, ou au Collectionneur de Minerais pour 2000 Pokédollars.",Objet à vendre.
 91,9,"Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars, or to Ore Collector for 9800 Pokédollars.",Vendor trash.
+91,5,"Platine: Échanger contre un de chaque Éclat coloré. Noir et Blanc: Échanger contre un PP Plus. Vendre pour 4900 Pokédollars, ou au Collectionneur de Minerais pour 9800 Pokédollars.",Objet à vendre.
 92,9,"Sell for 5000 Pokédollars, or to Ore Collector for 10000 Pokédollars.",Vendor trash.
+92,5,"Vendre pour 5000 Pokédollars, ou au Collectionneur de Minerais pour 10000 Pokédollars.",Objet à vendre.
 93,9,No effect. Can be traded for prior Level-up moves.,Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move.
+93,5,Sans effet. Peut être échangé contre des capacités apprises par montée de niveau.,Échangez-en un avec le Maître des Capacités près de la rive à []{location:pastoria-city} ou avec l'Effaceur de Capacités à []{location:blackthorn-city} pour enseigner à un Pokémon de l'équipe une capacité qu'il a apprise précédemment en montant de niveau.
 94,9,,"Used outside of battle
 :   Immediately triggers a wild Pokémon battle, as long as the trainer is somewhere with wild Pokémon—i.e., in tall grass, in a cave, or surfing.
 
 Can be smeared on sweet-smelling trees to attract tree-dwelling Pokémon after six hours."
+94,5,,"Utilisé en dehors du combat
+:   Déclenche immédiatement un combat contre un Pokémon sauvage, tant que le dresseur se trouve quelque part avec des Pokémon sauvages — c'est-à-dire dans les hautes herbes, dans une grotte, ou en surfant.
+
+Peut être appliqué sur des arbres à odeur sucrée pour attirer des Pokémon arboricoles après six heures."
 95,9,"Growing time of berries is reduced, but the soil dries out faster.","Used on a patch of soil
 :   Plant's growth stages will each last 25% less time.  Dries soil out more quickly."
+95,5,"Le temps de croissance des baies est réduit, mais le sol s'assèche plus rapidement.","Utilisé sur une parcelle de terre
+:   Les étapes de croissance de la plante dureront chacune 25% moins longtemps. Assèche le sol plus rapidement."
 96,9,"Growing time of berries is increased, but the soil dries out slower.","Used on a patch of soil
 :   Plant's growth stages will each last 25% more time.  Dries soil out more slowly."
+96,5,"Le temps de croissance des baies est augmenté, mais le sol s'assèche moins rapidement.","Utilisé sur une parcelle de terre
+:   Les étapes de croissance de la plante dureront chacune 25% plus longtemps. Assèche le sol plus lentement."
 97,9,Berries stay on the plant for longer than their usual time.,"Used on a patch of soil
 :   Fully-grown plant will last 25% longer before dying and possibly regrowing."
+97,5,Les baies restent sur la plante plus longtemps que leur durée habituelle.,"Utilisé sur une parcelle de terre
+:   La plante à maturité durera 25% plus longtemps avant de mourir et éventuellement repousser."
 98,9,Berries regrow from dead plants an increased number of times.,"Used on a path of soil
 :   Plant will regrow after dying 25% more times."
+98,5,Les baies repoussent à partir de plantes mortes un nombre accru de fois.,"Utilisé sur une parcelle de terre
+:   La plante repoussera après sa mort 25% plus de fois."
 99,9,Can be revived into a Lileep.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:lileep}.
+99,5,Peut être ressuscitée en Lilia.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:lileep}.
 100,9,Can be revived into an Anorith.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:anorith}.
+100,5,Peut être ressuscitée en Anorith.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:anorith}.
 101,9,Can be revived into an Omanyte.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:omanyte}.
+101,5,Peut être ressuscité en Nautile.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:omanyte}.
 102,9,Can be revived into a Kabuto.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:kabuto}.
+102,5,Peut être ressuscité en Kabuto.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:kabuto}.
 103,9,Can be revived into an Aerodactyl.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:aerodactyl}.
+103,5,Peut être ressuscité en Ptéra.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:aerodactyl}.
 104,9,Can be revived into a Shieldon.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:shieldon}.
+104,5,Peut être ressuscité en Dinoclier.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:shieldon}.
 105,9,Can be revived into a Cranidos.,Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:cranidos}.
+105,5,Peut être ressuscité en Kranidos.,Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:cranidos}.
 106,9,"Sell for 5000 Pokédollars, or to Bone Man for 10000 Pokédollars.",Vendor trash.
+106,5,"Vendre pour 5000 Pokédollars, ou à l'Homme des Os pour 10000 Pokédollars.",Objet à vendre.
 107,9,"Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss.","Used on a party Pokémon
 :   Evolves a []{pokemon:minccino} into []{pokemon:cinccino}, a []{pokemon:roselia} into []{pokemon:roserade}, or a []{pokemon:togetic} into []{pokemon:togekiss}."
+107,5,"Fait évoluer un Chinchidou en Pashmilla, un Rosélia en Roserade, ou un Togetic en Togekiss.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:minccino} en []{pokemon:cinccino}, un []{pokemon:roselia} en []{pokemon:roserade}, ou un []{pokemon:togetic} en []{pokemon:togekiss}."
 108,9,"Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.","Used on a party Pokémon
 :   Evolves a []{pokemon:lampent} into []{pokemon:chandelure}, a []{pokemon:misdreavus} into []{pokemon:mismagius}, or a []{pokemon:murkrow} into []{pokemon:honchkrow}."
+108,5,"Fait évoluer un Lamproie en Lugulabre, un Feuforêve en Magirêve, ou un Cornèbre en Corboss.","Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:lampent} en []{pokemon:chandelure}, un []{pokemon:misdreavus} en []{pokemon:mismagius}, ou un []{pokemon:murkrow} en []{pokemon:honchkrow}."
 109,9,Evolves a male Kirlia into Gallade or a female Snorunt into Froslass.,"Used on a party Pokémon
 :   Evolves a male []{pokemon:kirlia} into []{pokemon:gallade} or a female []{pokemon:snorunt} into []{pokemon:froslass}."
+109,5,Fait évoluer un Kirlia mâle en Gallame ou un Stalgamin femelle en Momartik.,"Utilisé sur un Pokémon de l'équipe
+:   Fait évoluer un []{pokemon:kirlia} mâle en []{pokemon:gallade} ou un []{pokemon:snorunt} femelle en []{pokemon:froslass}."
 110,9,Level-up during Day on a Happiny: Holder evolves into Chansey.,"Held by []{pokemon:happiny}
 :   Holder evolves into []{pokemon:chansey} when it levels up during the daytime."
+110,5,Montée de niveau de jour pour un Ptiravi: Le porteur évolue en Leveinard.,"Tenu par []{pokemon:happiny}
+:   Le porteur évolue en []{pokemon:chansey} quand il monte de niveau pendant la journée."
 111,9,Use on the tower on Route 209 to encounter Spiritomb if you have at least 32 Underground greetings.,"Place in the tower on []{location:sinnoh-route-209}.  Check the stone to encounter a []{pokemon:spiritomb}, as long as the trainer's Underground status card counts at least 32 greetings."
+111,5,Utilisez sur la tour de la Route 209 pour rencontrer Spiritomb si vous avez au moins 32 salutations Souterraines.,"Placez dans la tour sur la []{location:sinnoh-route-209}. Vérifiez la pierre pour rencontrer un []{pokemon:spiritomb}, à condition que la carte de statut Souterrain du dresseur compte au moins 32 salutations."
 112,9,Boosts the damage from Dialga's Dragon-type and Steel-type moves by 20%.,"Held by []{pokemon:dialga}
 :   Holder's []{type:dragon}- and []{type:steel}-type moves have 1.2× their usual power."
+112,5,Augmente les dégâts des capacités de type Dragon et Acier de Dialga de 20%.,"Tenu par []{pokemon:dialga}
+:   Les capacités de type []{type:dragon} et []{type:steel} du porteur ont 1,2× leur puissance habituelle."
 113,9,Boosts the damage from Palkia's Dragon-type and Water-type moves by 20%.,"Held by []{pokemon:palkia}
 :   Holder's []{type:dragon}- and []{type:water}-type moves have 1.2× their usual power."
+113,5,Augmente les dégâts des capacités de type Dragon et Eau de Palkia de 20%.,"Tenu par []{pokemon:palkia}
+:   Les capacités de type []{type:dragon} et []{type:water} du porteur ont 1,2× leur puissance habituelle."
 114,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+114,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 115,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+115,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 116,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+116,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 117,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+117,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 118,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+118,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 119,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+119,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 120,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+120,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 121,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+121,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 122,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+122,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 123,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+123,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 124,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+124,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 125,9,Lets a Trainer write a message and send it via Pokémon trade.,"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.
 
 Held
 :   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail."
+125,5,Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon.,"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu, un message peut être effacé et cet objet peut être réutilisé, ou le message peut être stocké dans le PC du dresseur.
+
+Tenu
+:   Le porteur ne peut pas être placé dans le PC. Toute capacité tentant de retirer cet objet du porteur échouera."
 126,9,Held: Consumed when paralyzed to cure paralysis.,"Held in battle
 :   When the holder is [paralyzed]{mechanic:paralysis}, it consumes this item to cure the paralysis.
 
 Used on a party Pokémon
 :   Cures [paralysis]{mechanic:paralysis}."
+126,5,Tenu: Consommé lorsque paralysé pour soigner la paralysie.,"Tenu en combat
+:   Lorsque le porteur est [paralysé]{mechanic:paralysis}, il consomme cet objet pour soigner la paralysie.
+
+Utilisé sur un Pokémon de l'équipe
+:   Soigne la [paralysie]{mechanic:paralysis}."
 127,9,Held: Consumed when asleep to cure sleep.,"Held in battle
 :   When the holder is [asleep]{mechanic:sleep}, it consumes this item to wake up.
 

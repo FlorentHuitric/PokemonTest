@@ -13,7 +13,8 @@ names = {
 cost = 7000
 category_id = 35
 category_name = {
-"en": "Dex completion"
+"en": "Dex completion",
+"fr": "Complétion du Pokédex"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 100
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Can be revived into a Shieldon."
+"en": "Can be revived into a Shieldon.",
+"fr": "Peut être ressuscité en Dinoclier."
 }
 effect = {
-"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:shieldon}."
+"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:shieldon}.",
+"fr": "Donnez-le à un scientifique du []{location:mining-museum} à []{location:oreburgh-city} ou du Musée des Sciences à []{location:pewter-city} pour recevoir un []{pokemon:shieldon}."
 }
 flavor_text = {
 "en": "\"A fossil from a prehistoric Pokémon that once lived",

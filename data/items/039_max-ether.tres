@@ -13,7 +13,8 @@ names = {
 cost = 2000
 category_id = 28
 category_name = {
-"en": "PP recovery"
+"en": "PP recovery",
+"fr": "Récupération PP"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Restores PP to full for one move."
+"en": "Restores PP to full for one move.",
+"fr": "Restaure tous les PP pour une capacité."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"This medicine can be used to fully restore the PP of",

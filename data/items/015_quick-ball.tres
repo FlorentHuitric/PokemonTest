@@ -13,7 +13,8 @@ names = {
 cost = 1000
 category_id = 33
 category_name = {
-"en": "Special balls"
+"en": "Special balls",
+"fr": "Balls spéciales"
 }
 pocket_id = 3
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×)"
+"en": "\"Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×)",
+"fr": "\"Tente de capturer un Pokémon sauvage. Taux de réussite de 4× (Gen V: 5×)"
 }
 effect = {
-"en": " but only on the first turn.\""
+"en": " but only on the first turn.\"",
+"fr": " mais uniquement au premier tour.\""
 }
 flavor_text = {
 "en": "\"A somewhat different Poké Ball that has a more",

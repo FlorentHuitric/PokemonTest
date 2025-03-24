@@ -13,7 +13,8 @@ names = {
 cost = 200
 category_id = 32
 category_name = {
-"en": "Mulch"
+"en": "Mulch",
+"fr": "Engrais"
 }
 pocket_id = 1
 pocket_name = {

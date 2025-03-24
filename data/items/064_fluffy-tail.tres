@@ -13,7 +13,8 @@ names = {
 cost = 100
 category_id = 11
 category_name = {
-"en": "Spelunking"
+"en": "Spelunking",
+"fr": "Spéléologie"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Ends a wild battle."
+"en": "Ends a wild battle.",
+"fr": "Met fin à un combat sauvage."
 }
 effect = {
-"en": "\"Used in battle"
+"en": "\"Used in battle",
+"fr": "\"Utilisé en combat"
 }
 flavor_text = {
 "en": "\"A toy that attracts the attention of a Pokémon.",

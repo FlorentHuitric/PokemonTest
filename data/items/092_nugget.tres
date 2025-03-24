@@ -13,7 +13,8 @@ names = {
 cost = 10000
 category_id = 24
 category_name = {
-"en": "Loot"
+"en": "Loot",
+"fr": "Butin"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Sell for 5000 Pokédollars"
+"en": "\"Sell for 5000 Pokédollars",
+"fr": "\"Vendre pour 5000 Pokédollars"
 }
 effect = {
-"en": " or to Ore Collector for 10000 Pokédollars.\""
+"en": " or to Ore Collector for 10000 Pokédollars.\"",
+"fr": " ou au Collectionneur de Minerais pour 10000 Pokédollars.\""
 }
 flavor_text = {
 "en": "\"A nugget of the purest gold that gives off a lustrous",

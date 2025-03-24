@@ -13,7 +13,8 @@ names = {
 cost = 0
 category_id = 43
 category_name = {
-"en": "Miracle Shooter"
+"en": "Miracle Shooter",
+"fr": "Lanceur Miracle"
 }
 pocket_id = 7
 pocket_name = {

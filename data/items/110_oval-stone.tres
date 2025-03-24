@@ -13,7 +13,8 @@ names = {
 cost = 2000
 category_id = 10
 category_name = {
-"en": "Evolution"
+"en": "Evolution",
+"fr": "Évolution"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 80
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Level-up during Day on a Happiny: Holder evolves into Chansey."
+"en": "Level-up during Day on a Happiny: Holder evolves into Chansey.",
+"fr": "Montée de niveau de jour pour un Ptiravi: Le porteur évolue en Leveinard."
 }
 effect = {
-"en": "\"Held by []{pokemon:happiny}"
+"en": "\"Held by []{pokemon:happiny}",
+"fr": "\"Tenu par []{pokemon:happiny}"
 }
 flavor_text = {
 "en": "\"A peculiar stone that can make certain species of",

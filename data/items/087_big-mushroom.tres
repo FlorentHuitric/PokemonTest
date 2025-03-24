@@ -13,7 +13,8 @@ names = {
 cost = 5000
 category_id = 24
 category_name = {
-"en": "Loot"
+"en": "Loot",
+"fr": "Butin"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars"
+"en": "\"Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars",
+"fr": "\"Rouge Feu et Vert Feuille: Échangez contre des capacités apprises par montée de niveau. Vendre pour 2500 Pokédollars"
 }
 effect = {
-"en": " or to Hungry Maid for 5000 Pokédollars.\""
+"en": " or to Hungry Maid for 5000 Pokédollars.\"",
+"fr": " ou à la Servante Affamée pour 5000 Pokédollars.\""
 }
 flavor_text = {
 "en": "\"A very large and rare mushroom. It’s popular with",

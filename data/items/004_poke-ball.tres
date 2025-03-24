@@ -24,10 +24,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Tries to catch a wild Pokémon."
+"en": "Tries to catch a wild Pokémon.",
+"fr": "Tente de capturer un Pokémon sauvage."
 }
 effect = {
-"en": "\"Used in battle"
+"en": "\"Used in battle",
+"fr": "\"Utilisée en combat"
 }
 flavor_text = {
 "en": "\"A device for catching wild Pokémon. It’s thrown like",

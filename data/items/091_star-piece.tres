@@ -13,7 +13,8 @@ names = {
 cost = 12000
 category_id = 24
 category_name = {
-"en": "Loot"
+"en": "Loot",
+"fr": "Butin"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars"
+"en": "\"Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars",
+"fr": "\"Platine: Échanger contre un de chaque Éclat coloré. Noir et Blanc: Échanger contre un PP Plus. Vendre pour 4900 Pokédollars"
 }
 effect = {
-"en": " or to Ore Collector for 9800 Pokédollars.\""
+"en": " or to Ore Collector for 9800 Pokédollars.\"",
+"fr": " ou au Collectionneur de Minerais pour 9800 Pokédollars.\""
 }
 flavor_text = {
 "en": "\"A small shard of a beautiful gem that gives off",

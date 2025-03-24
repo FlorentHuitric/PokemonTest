@@ -13,7 +13,8 @@ names = {
 cost = 3000
 category_id = 14
 category_name = {
-"en": "Effort training"
+"en": "Effort training",
+"fr": "Entraînement d'EV"
 }
 pocket_id = 1
 pocket_name = {

@@ -13,7 +13,8 @@ names = {
 cost = 10000
 category_id = 26
 category_name = {
-"en": "Vitamins"
+"en": "Vitamins",
+"fr": "Vitamines"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Raises a move's max PP by 60%."
+"en": "Raises a move's max PP by 60%.",
+"fr": "Augmente le PP max d'une capacité de 60%."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"A medicine that optimally raises the max PP of a single",

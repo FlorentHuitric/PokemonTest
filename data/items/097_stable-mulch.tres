@@ -13,7 +13,8 @@ names = {
 cost = 200
 category_id = 32
 category_name = {
-"en": "Mulch"
+"en": "Mulch",
+"fr": "Engrais"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Berries stay on the plant for longer than their usual time."
+"en": "Berries stay on the plant for longer than their usual time.",
+"fr": "Les baies restent sur la plante plus longtemps que leur durée habituelle."
 }
 effect = {
-"en": "\"Used on a patch of soil"
+"en": "\"Used on a patch of soil",
+"fr": "\"Utilisé sur une parcelle de terre"
 }
 flavor_text = {
 "en": "\"A fertilizer for growing Berries. However",

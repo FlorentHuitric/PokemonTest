@@ -13,7 +13,8 @@ names = {
 cost = 200
 category_id = 30
 category_name = {
-"en": "Status cures"
+"en": "Status cures",
+"fr": "Guérison de statut"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Cures poison."
+"en": "Cures poison.",
+"fr": "Soigne l'empoisonnement."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"A spray-type medicine for treating poisoning. It can be",

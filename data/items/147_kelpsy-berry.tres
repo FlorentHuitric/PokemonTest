@@ -14,7 +14,7 @@ cost = 80
 category_id = 2
 category_name = {
 "en": "Effort drop",
-"fr": "Réducteur d'EV"
+"fr": "Réduction d'EV"
 }
 pocket_id = 5
 pocket_name = {

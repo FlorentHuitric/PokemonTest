@@ -13,7 +13,8 @@ names = {
 cost = 20
 category_id = 8
 category_name = {
-"en": "Baking only"
+"en": "Baking only",
+"fr": "Cuisson uniquement"
 }
 pocket_id = 5
 pocket_name = {

@@ -13,7 +13,8 @@ names = {
 cost = 200
 category_id = 27
 category_name = {
-"en": "Healing"
+"en": "Healing",
+"fr": "Soin"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Restores 20 HP."
+"en": "Restores 20 HP.",
+"fr": "Restaure 20 HP."
 }
 effect = {
-"en": "\"Used on a friendly Pokémon"
+"en": "\"Used on a friendly Pokémon",
+"fr": "\"Utilisé sur un Pokémon allié"
 }
 flavor_text = {
 "en": "\"A spray-type medicine for treating wounds. It can",

@@ -13,7 +13,8 @@ names = {
 cost = 10000
 category_id = 26
 category_name = {
-"en": "Vitamins"
+"en": "Vitamins",
+"fr": "Vitamines"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Causes a level-up and raises happiness."
+"en": "Causes a level-up and raises happiness.",
+"fr": "Fait gagner un niveau et augmente le bonheur."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"A candy that is packed with energy. When consumed",

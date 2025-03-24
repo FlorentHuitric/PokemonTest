@@ -13,7 +13,8 @@ names = {
 cost = 350
 category_id = 30
 category_name = {
-"en": "Status cures"
+"en": "Status cures",
+"fr": "Guérison de statut"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Cures any status ailment and confusion."
+"en": "Cures any status ailment and confusion.",
+"fr": "Soigne tout problème de statut et la confusion."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"Lavaridge Town’s local specialty. It can be used",

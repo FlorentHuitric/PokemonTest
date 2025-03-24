@@ -13,7 +13,8 @@ names = {
 cost = 2800
 category_id = 29
 category_name = {
-"en": "Revival"
+"en": "Revival",
+"fr": "Réanimation"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "\"Revives with full HP"
+"en": "\"Revives with full HP",
+"fr": "\"Réanime avec tous les PV"
 }
 effect = {
-"en": " but lowers happiness.\""
+"en": " but lowers happiness.\"",
+"fr": " mais diminue le bonheur.\""
 }
 flavor_text = {
 "en": "\"A terribly bitter medicinal herb. It revives a fainted",

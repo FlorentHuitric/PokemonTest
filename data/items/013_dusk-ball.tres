@@ -13,7 +13,8 @@ names = {
 cost = 1000
 category_id = 33
 category_name = {
-"en": "Special balls"
+"en": "Special balls",
+"fr": "Balls spéciales"
 }
 pocket_id = 3
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Tries to catch a wild Pokémon.  Success rate is 3.5× at night and in caves."
+"en": "Tries to catch a wild Pokémon.  Success rate is 3.5× at night and in caves.",
+"fr": "Tente de capturer un Pokémon sauvage. Taux de réussite de 3.5× la nuit et dans les grottes."
 }
 effect = {
-"en": "\"Used in battle"
+"en": "\"Used in battle",
+"fr": "\"Utilisée en combat"
 }
 flavor_text = {
 "en": "\"A somewhat different Poké Ball that makes it",

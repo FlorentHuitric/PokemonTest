@@ -13,7 +13,8 @@ names = {
 cost = 3000
 category_id = 27
 category_name = {
-"en": "Healing"
+"en": "Healing",
+"fr": "Soin"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Restores HP to full and cures any status ailment and confusion."
+"en": "Restores HP to full and cures any status ailment and confusion.",
+"fr": "Restaure tous les PV et soigne tout problème de statut et la confusion."
 }
 effect = {
-"en": "\"Used on a party Pokémon"
+"en": "\"Used on a party Pokémon",
+"fr": "\"Utilisé sur un Pokémon de l'équipe"
 }
 flavor_text = {
 "en": "\"A medicine that can be used to fully restore the HP of",

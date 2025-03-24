@@ -24,10 +24,12 @@ fling_power = 0
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Lets a Trainer write a message and send it via Pokémon trade."
+"en": "Lets a Trainer write a message and send it via Pokémon trade.",
+"fr": "Permet à un Dresseur d'écrire un message et de l'envoyer via échange de Pokémon."
 }
 effect = {
-"en": "\"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read"
+"en": "\"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read",
+"fr": "\"Utilisé pour envoyer des messages courts à d'autres joueurs via l'échange de Pokémon. Le dresseur peut composer un message à partir d'une liste finie de mots lorsqu'il donne cet objet à un Pokémon. Une fois pris et lu"
 }
 flavor_text = {
 "en": "\"Stationery featuring a print depicting"

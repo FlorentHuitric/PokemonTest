@@ -13,7 +13,8 @@ names = {
 cost = 50000
 category_id = 29
 category_name = {
-"en": "Revival"
+"en": "Revival",
+"fr": "Réanimation"
 }
 pocket_id = 2
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Revives all fainted Pokémon with full HP."
+"en": "Revives all fainted Pokémon with full HP.",
+"fr": "Réanime tous les Pokémon évanouis avec tous leurs PV."
 }
 effect = {
-"en": "\"Used"
+"en": "\"Used",
+"fr": "\"Utilisé"
 }
 flavor_text = {
 "en": "\"This rare ash can revive all fainted Pokémon in a",

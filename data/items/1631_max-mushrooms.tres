@@ -14,7 +14,7 @@ cost = 6000
 category_id = 1
 category_name = {
 "en": "Stat boosts",
-"fr": "Boost de stats"
+"fr": "Boosts de statistiques"
 }
 pocket_id = 7
 pocket_name = {

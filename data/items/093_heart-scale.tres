@@ -13,7 +13,8 @@ names = {
 cost = 100
 category_id = 9
 category_name = {
-"en": "Collectibles"
+"en": "Collectibles",
+"fr": "Objets de collection"
 }
 pocket_id = 1
 pocket_name = {
@@ -24,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "No effect. Can be traded for prior Level-up moves."
+"en": "No effect. Can be traded for prior Level-up moves.",
+"fr": "Sans effet. Peut être échangé contre des capacités apprises par montée de niveau."
 }
 effect = {
-"en": "Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move."
+"en": "Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move.",
+"fr": "Échangez-en un avec le Maître des Capacités près de la rive à []{location:pastoria-city} ou avec l'Effaceur de Capacités à []{location:blackthorn-city} pour enseigner à un Pokémon de l'équipe une capacité qu'il a apprise précédemment en montant de niveau."
 }
 flavor_text = {
 "en": "\"A pretty",

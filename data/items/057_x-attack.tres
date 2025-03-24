@@ -14,7 +14,7 @@ cost = 1000
 category_id = 1
 category_name = {
 "en": "Stat boosts",
-"fr": "Boost de stats"
+"fr": "Boosts de statistiques"
 }
 pocket_id = 7
 pocket_name = {
@@ -25,10 +25,12 @@ fling_power = 30
 fling_effect_id = 0
 fling_effect = {}
 short_effect = {
-"en": "Raises Attack by one stage in battle.  Raises happiness."
+"en": "Raises Attack by one stage in battle.  Raises happiness.",
+"fr": "Augmente l'Attaque d'un niveau en combat. Augmente le bonheur."
 }
 effect = {
-"en": "\"Used on a party Pokémon in battle"
+"en": "\"Used on a party Pokémon in battle",
+"fr": "\"Utilisé sur un Pokémon de l'équipe en combat"
 }
 flavor_text = {
 "en": "\"An item that sharply boosts the Attack stat of a",
