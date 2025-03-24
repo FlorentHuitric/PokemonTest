@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://f87vlwsfcxra"]
 
-[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="1_2jbwt"]
-[ext_resource type="Resource" path="res://data/abilities/Sharpness.tres" id="2_x1dic"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_pt4a8"]
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_jagrv"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_8tugu"]
+[ext_resource type="Resource" uid="uid://ba3nuhyrog6or" path="res://data/abilities/Mold_Breaker.tres" id="1_756af"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_lqrdi"]
+[ext_resource type="Resource" uid="uid://byj4s8xo5wreg" path="res://data/abilities/Sharpness.tres" id="2_u35yh"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_kco54"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_bncke"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_ieg78"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_sjnvj"]
 
 [resource]
-script = ExtResource("3_pt4a8")
+script = ExtResource("3_kco54")
 pokemon_id = 976
 branch_code = ""
 names = {
-"en": "Veluza"
+"en": "Veluza",
+"fr": "Veluza"
 }
 generation = 9
 height = 2.5
 weight = 90.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_jagrv"), ExtResource("5_8tugu")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2jbwt"), ExtResource("2_x1dic")])
+types = Array[ExtResource("5_sjnvj")]([ExtResource("4_bncke"), ExtResource("5_ieg78")])
+abilities = Array[ExtResource("1_lqrdi")]([ExtResource("1_756af"), ExtResource("2_u35yh")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

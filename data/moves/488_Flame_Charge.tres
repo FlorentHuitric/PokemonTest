@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cd7afbuo1mhyb"]
 
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_v0yq4"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_xg7ih"]
+[ext_resource type="Resource" uid="uid://cok4nx56x62l" path="res://data/types/Fire.tres" id="1_togbx"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_1xe3c"]
 
 [resource]
-script = ExtResource("2_xg7ih")
+script = ExtResource("2_1xe3c")
 move_id = 488
 move_name = {
 "en": "Flame Charge",
-"fr": "Flame Charge"
+"fr": "Nitrocharge"
 }
-move_type = ExtResource("1_v0yq4")
+move_type = ExtResource("1_togbx")
 category = "Physical"
 contest = "Cool"
 power = 50
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 7
+meta_category_desc = {
+"en": "Inflicts damage; raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 100

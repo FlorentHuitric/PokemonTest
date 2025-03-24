@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://db7tm0ug3kuox"]
 
-[ext_resource type="Resource" path="res://data/abilities/Synchronize.tres" id="1_f2min"]
-[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_tqiyr"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_fh6kh"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_np7km"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_15src"]
+[ext_resource type="Resource" uid="uid://tl24nnoecru2" path="res://data/abilities/Synchronize.tres" id="1_bbjrd"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_laoap"]
+[ext_resource type="Resource" uid="uid://dcuv3tce470tl" path="res://data/abilities/Telepathy.tres" id="2_it5ru"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_vfp7x"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_0yvgh"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_vj1jk"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_w0jgl"]
 
 [resource]
-script = ExtResource("3_fh6kh")
+script = ExtResource("3_vfp7x")
 pokemon_id = 954
 branch_code = ""
 names = {
-"en": "Rabsca"
+"en": "Rabsca",
+"fr": "Rabsca"
 }
 generation = 9
 height = 0.3
 weight = 3.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_np7km"), ExtResource("5_15src")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_f2min"), ExtResource("2_tqiyr")])
+types = Array[ExtResource("5_w0jgl")]([ExtResource("4_0yvgh"), ExtResource("5_vj1jk")])
+abilities = Array[ExtResource("1_laoap")]([ExtResource("1_bbjrd"), ExtResource("2_it5ru")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dprgjbwjxxuhv"]
 
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_86h8t"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_a8p4e"]
+[ext_resource type="Resource" uid="uid://dkiseqq87m31f" path="res://data/types/Steel.tres" id="1_hq2ee"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_xhaew"]
 
 [resource]
-script = ExtResource("2_a8p4e")
+script = ExtResource("2_xhaew")
 move_id = 319
 move_name = {
 "en": "Metal Sound",
-"fr": "Metal Sound"
+"fr": "Strido-Son"
 }
-move_type = ExtResource("1_86h8t")
+move_type = ExtResource("1_hq2ee")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 2
+meta_category_desc = {
+"en": "No damage; lowers target's stats or raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

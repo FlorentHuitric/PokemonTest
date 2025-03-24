@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://byo5e1qykvwix"]
 
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_emdyo"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_dawon"]
+[ext_resource type="Resource" uid="uid://dbeo867ql5r86" path="res://data/types/Ice.tres" id="1_srvvq"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_klxyc"]
 
 [resource]
-script = ExtResource("2_dawon")
+script = ExtResource("2_klxyc")
 move_id = 556
 move_name = {
 "en": "Icicle Crash",
-"fr": "Icicle Crash"
+"fr": "Chute Glace"
 }
-move_type = ExtResource("1_emdyo")
+move_type = ExtResource("1_srvvq")
 category = "Physical"
 contest = "Beautiful"
 power = 85
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 30
+stat_chance = 0

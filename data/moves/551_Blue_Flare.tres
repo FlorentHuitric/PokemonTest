@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://blksqrfqdnkgv"]
 
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_hih5s"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_lvraf"]
+[ext_resource type="Resource" uid="uid://cok4nx56x62l" path="res://data/types/Fire.tres" id="1_o6vxb"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_5ricq"]
 
 [resource]
-script = ExtResource("2_lvraf")
+script = ExtResource("2_5ricq")
 move_id = 551
 move_name = {
 "en": "Blue Flare",
-"fr": "Blue Flare"
+"fr": "Flamme Bleue"
 }
-move_type = ExtResource("1_hih5s")
+move_type = ExtResource("1_o6vxb")
 category = "Special"
 contest = "Beautiful"
 power = 130
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 4
+meta_ailment_name = {
+"en": "Burn",
+"fr": "Brûlure"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 20
+flinch_chance = 0
+stat_chance = 0

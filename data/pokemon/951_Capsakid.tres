@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cbw40vwebgtpy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_r7dvw"]
-[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="2_8wvoi"]
-[ext_resource type="Resource" path="res://data/abilities/Klutz.tres" id="3_adi00"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_yyt1x"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_ec4e3"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_riqnw"]
+[ext_resource type="Resource" uid="uid://dvhsyaol8uc1n" path="res://data/abilities/Chlorophyll.tres" id="1_yaow6"]
+[ext_resource type="Resource" uid="uid://c423m16xjjbj4" path="res://data/abilities/Insomnia.tres" id="2_ewj81"]
+[ext_resource type="Resource" uid="uid://bratccq7iydwc" path="res://data/abilities/Klutz.tres" id="3_rvd4a"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_xsugr"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_v570t"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_qyrn0"]
 
 [resource]
-script = ExtResource("4_yyt1x")
+script = ExtResource("4_xsugr")
 pokemon_id = 951
 branch_code = ""
 names = {
-"en": "Capsakid"
+"en": "Capsakid",
+"fr": "Capsakid"
 }
 generation = 9
 height = 0.3
 weight = 3.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ec4e3")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_r7dvw"), ExtResource("2_8wvoi"), ExtResource("3_adi00")])
+types = Array[ExtResource("6_qyrn0")]([ExtResource("5_v570t")])
+abilities = Array[ExtResource("1_riqnw")]([ExtResource("1_yaow6"), ExtResource("2_ewj81"), ExtResource("3_rvd4a")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

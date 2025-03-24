@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://d3vndrr7rig0l"]
 
-[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_mphxe"]
-[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="2_1kwui"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ut8vi"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_vwjyo"]
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_seasd"]
+[ext_resource type="Resource" uid="uid://01eufdv5xjx" path="res://data/abilities/Flash_Fire.tres" id="1_3ur1e"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_44hx7"]
+[ext_resource type="Resource" uid="uid://cww58i1lqqxsb" path="res://data/abilities/Weak_Armor.tres" id="2_u730i"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_k7fvo"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_f82eg"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_vkg0k"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_xy32v"]
 
 [resource]
-script = ExtResource("3_ut8vi")
+script = ExtResource("3_k7fvo")
 pokemon_id = 937
 branch_code = ""
 names = {
-"en": "Ceruledge"
+"en": "Ceruledge",
+"fr": "Ceruledge"
 }
 generation = 9
 height = 1.6
 weight = 62.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_vwjyo"), ExtResource("5_seasd")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mphxe"), ExtResource("2_1kwui")])
+types = Array[ExtResource("5_xy32v")]([ExtResource("4_f82eg"), ExtResource("5_vkg0k")])
+abilities = Array[ExtResource("1_44hx7")]([ExtResource("1_3ur1e"), ExtResource("2_u730i")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,

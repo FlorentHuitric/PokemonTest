@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://b4d2gwo3bajxj"]
 
-[ext_resource type="Resource" path="res://data/abilities/Beads of Ruin.tres" id="1_2p8gy"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_xs0vo"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_6ajhw"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_24i8e"]
+[ext_resource type="Resource" uid="uid://btkqrfkuy2wfl" path="res://data/abilities/Beads_of_Ruin.tres" id="1_e8l05"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_e174v"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_x2rus"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_tic6m"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_55yjx"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_wxh85"]
 
 [resource]
-script = ExtResource("2_xs0vo")
+script = ExtResource("2_x2rus")
 pokemon_id = 1004
 branch_code = ""
 names = {
-"en": "Chi-Yu"
+"en": "Chi-Yu",
+"fr": "Chi-Yu"
 }
 generation = 9
 height = 0.4
 weight = 4.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_6ajhw"), ExtResource("4_24i8e")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2p8gy")])
+types = Array[ExtResource("4_55yjx")]([ExtResource("3_tic6m"), ExtResource("4_wxh85")])
+abilities = Array[ExtResource("1_e174v")]([ExtResource("1_e8l05")])
 color = "Red"
 gender_ratio = {
 "female": 0.0,

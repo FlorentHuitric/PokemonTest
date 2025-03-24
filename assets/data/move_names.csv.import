@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ml4pk0sruc4"
+
+[deps]
+
+files=["res://assets/data/move_names.local.translation", "res://assets/data/move_names.name.translation"]
+
+source_file="res://assets/data/move_names.csv"
+dest_files=["res://assets/data/move_names.local.translation", "res://assets/data/move_names.name.translation"]
+
+[params]
+
+compress=true
+delimiter=0

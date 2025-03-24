@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cmfjeq1uclq8t"]
 
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="1_yj52y"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_8g7ui"]
+[ext_resource type="Resource" uid="uid://cge2pri12f8y2" path="res://data/types/Ghost.tres" id="1_lj1ki"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_5jyav"]
 
 [resource]
-script = ExtResource("2_8g7ui")
+script = ExtResource("2_5jyav")
 move_id = 506
 move_name = {
 "en": "Hex",
-"fr": "Hex"
+"fr": "Châtiment"
 }
-move_type = ExtResource("1_yj52y")
+move_type = ExtResource("1_lj1ki")
 category = "Special"
 contest = "Clever"
 power = 65
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

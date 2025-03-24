@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://du4ca6cbceqot"]
 
-[ext_resource type="Resource" path="res://data/abilities/Purifying Salt.tres" id="1_uec0b"]
-[ext_resource type="Resource" path="res://data/abilities/Sturdy.tres" id="2_pib0a"]
-[ext_resource type="Resource" path="res://data/abilities/Clear Body.tres" id="3_3m5dw"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_giwrw"]
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_q2raq"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_18syu"]
+[ext_resource type="Resource" uid="uid://myfsftqtkcw6" path="res://data/abilities/Purifying_Salt.tres" id="1_hubki"]
+[ext_resource type="Resource" uid="uid://d207crthxoxco" path="res://data/abilities/Sturdy.tres" id="2_ujns1"]
+[ext_resource type="Resource" uid="uid://b1ev3v0qnvbsq" path="res://data/abilities/Clear_Body.tres" id="3_hw2bp"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_h6g12"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_qju7o"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_2jjd0"]
 
 [resource]
-script = ExtResource("4_giwrw")
+script = ExtResource("4_h6g12")
 pokemon_id = 934
 branch_code = ""
 names = {
-"en": "Garganacl"
+"en": "Garganacl",
+"fr": "Garganacl"
 }
 generation = 9
 height = 2.3
 weight = 240.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_q2raq")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uec0b"), ExtResource("2_pib0a"), ExtResource("3_3m5dw")])
+types = Array[ExtResource("6_2jjd0")]([ExtResource("5_qju7o")])
+abilities = Array[ExtResource("1_18syu")]([ExtResource("1_hubki"), ExtResource("2_ujns1"), ExtResource("3_hw2bp")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

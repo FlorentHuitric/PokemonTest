@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b6ejns5c6siy7"]
 
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_s2ogv"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3m71f"]
+[ext_resource type="Resource" uid="uid://bc1ql3ehfu005" path="res://data/types/Fighting.tres" id="1_qd4f0"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_atxet"]
 
 [resource]
-script = ExtResource("2_3m71f")
+script = ExtResource("2_atxet")
 move_id = 411
 move_name = {
 "en": "Focus Blast",
-"fr": "Focus Blast"
+"fr": "Exploforce"
 }
-move_type = ExtResource("1_s2ogv")
+move_type = ExtResource("1_qd4f0")
 category = "Special"
 contest = "Cool"
 power = 120
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 6
+meta_category_desc = {
+"en": "Inflicts damage; lowers target's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 10

@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://dxyfdugvkxn1o"]
 
-[ext_resource type="Resource" path="res://data/abilities/Overgrow.tres" id="1_0e83m"]
-[ext_resource type="Resource" path="res://data/abilities/Protean.tres" id="2_hjvu1"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_6yi1j"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_x8txx"]
+[ext_resource type="Resource" uid="uid://ck3xl48v87xco" path="res://data/abilities/Overgrow.tres" id="1_7ktqm"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_rrc5v"]
+[ext_resource type="Resource" uid="uid://bodyl47jbxw5u" path="res://data/abilities/Protean.tres" id="2_oxc0p"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_5q1du"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_6gmq8"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_jos4v"]
 
 [resource]
-script = ExtResource("3_6yi1j")
+script = ExtResource("3_5q1du")
 pokemon_id = 906
 branch_code = ""
 names = {
-"en": "Sprigatito"
+"en": "Sprigatito",
+"fr": "Sprigatito"
 }
 generation = 9
 height = 0.4
 weight = 4.1
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_x8txx")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0e83m"), ExtResource("2_hjvu1")])
+types = Array[ExtResource("5_jos4v")]([ExtResource("4_6gmq8")])
+abilities = Array[ExtResource("1_rrc5v")]([ExtResource("1_7ktqm"), ExtResource("2_oxc0p")])
 color = "Green"
 gender_ratio = {
 "female": 12.5,

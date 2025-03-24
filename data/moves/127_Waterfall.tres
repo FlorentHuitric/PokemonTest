@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cywgaa7v2l3sf"]
 
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_auf6n"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_y163n"]
+[ext_resource type="Resource" uid="uid://jfhepwbcm8s8" path="res://data/types/Water.tres" id="1_jyhvf"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_4m7my"]
 
 [resource]
-script = ExtResource("2_y163n")
+script = ExtResource("2_4m7my")
 move_id = 127
 move_name = {
 "en": "Waterfall",
-"fr": "Waterfall"
+"fr": "Cascade"
 }
-move_type = ExtResource("1_auf6n")
+move_type = ExtResource("1_jyhvf")
 category = "Physical"
 contest = "Tough"
 power = 80
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 20
+stat_chance = 0

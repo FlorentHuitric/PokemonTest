@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://blot2645hqk55"]
 
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_bx54p"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_kprly"]
+[ext_resource type="Resource" uid="uid://dbeo867ql5r86" path="res://data/types/Ice.tres" id="1_x5gt5"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_mwpok"]
 
 [resource]
-script = ExtResource("2_kprly")
+script = ExtResource("2_mwpok")
 move_id = 114
 move_name = {
 "en": "Haze",
-"fr": "Haze"
+"fr": "Buée Noire"
 }
-move_type = ExtResource("1_bx54p")
+move_type = ExtResource("1_x5gt5")
 category = "Status"
 contest = "Beautiful"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 10
+meta_category_desc = {
+"en": "Effect on the whole field"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

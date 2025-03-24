@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cww8qu8dpxotm"]
 
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_5btxh"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ut05j"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="1_aggyw"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_nwfmw"]
 
 [resource]
-script = ExtResource("2_ut05j")
+script = ExtResource("2_nwfmw")
 move_id = 540
 move_name = {
 "en": "Psystrike",
-"fr": "Psystrike"
+"fr": "Frappe Psy"
 }
-move_type = ExtResource("1_5btxh")
+move_type = ExtResource("1_aggyw")
 category = "Special"
 contest = "Cool"
 power = 100
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

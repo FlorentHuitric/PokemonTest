@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cp6xex8dwj7ct"]
 
-[ext_resource type="Resource" path="res://data/abilities/Electromorphosis.tres" id="1_sjkxk"]
-[ext_resource type="Resource" path="res://data/abilities/Static.tres" id="2_qlhjr"]
-[ext_resource type="Resource" path="res://data/abilities/Damp.tres" id="3_g77p7"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_kscb4"]
-[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_1mtes"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_0tml2"]
+[ext_resource type="Resource" uid="uid://dmp5nnd682lt0" path="res://data/abilities/Electromorphosis.tres" id="1_dwtxe"]
+[ext_resource type="Resource" uid="uid://bd4pnsif2xgnu" path="res://data/abilities/Static.tres" id="2_7pvbl"]
+[ext_resource type="Resource" uid="uid://dx2qmp85efuho" path="res://data/abilities/Damp.tres" id="3_pcru3"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_n8bgt"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_etaet"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_aaeow"]
 
 [resource]
-script = ExtResource("4_kscb4")
+script = ExtResource("4_n8bgt")
 pokemon_id = 939
 branch_code = ""
 names = {
-"en": "Bellibolt"
+"en": "Bellibolt",
+"fr": "Bellibolt"
 }
 generation = 9
 height = 1.2
 weight = 113.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1mtes")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_sjkxk"), ExtResource("2_qlhjr"), ExtResource("3_g77p7")])
+types = Array[ExtResource("6_aaeow")]([ExtResource("5_etaet")])
+abilities = Array[ExtResource("1_0tml2")]([ExtResource("1_dwtxe"), ExtResource("2_7pvbl"), ExtResource("3_pcru3")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

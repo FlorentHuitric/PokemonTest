@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bxrxmk8ug3j0m"]
 
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_d4y0t"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_c18fj"]
+[ext_resource type="Resource" uid="uid://bumob24yo2eru" path="res://data/types/Dark.tres" id="1_ue88n"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_lvk8s"]
 
 [resource]
-script = ExtResource("2_c18fj")
+script = ExtResource("2_lvk8s")
 move_id = 373
 move_name = {
 "en": "Embargo",
 "fr": "Embargo"
 }
-move_type = ExtResource("1_d4y0t")
+move_type = ExtResource("1_ue88n")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 19
+meta_ailment_name = {
+"en": "Embargo",
+"fr": "Embargo"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 5
+max_turns = 5
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://do4wyyqcudwun"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shadow Tag.tres" id="1_mj5c3"]
-[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="2_fsr5f"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_ler6e"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="4_hhoy5"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_0jt04"]
+[ext_resource type="Resource" uid="uid://7cm467a0i031" path="res://data/abilities/Shadow_Tag.tres" id="1_cf17k"]
+[ext_resource type="Resource" uid="uid://dcuv3tce470tl" path="res://data/abilities/Telepathy.tres" id="2_alvmg"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_wlpfp"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="4_tma5k"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_7lrck"]
 
 [resource]
-script = ExtResource("3_ler6e")
+script = ExtResource("3_wlpfp")
 pokemon_id = 360
 branch_code = ""
 names = {
-"en": "Wynaut"
+"en": "Wynaut",
+"fr": "Wynaut"
 }
 generation = 3
 height = 0.6
 weight = 14.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_hhoy5")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mj5c3"), ExtResource("2_fsr5f")])
+types = Array[ExtResource("5_7lrck")]([ExtResource("4_tma5k")])
+abilities = Array[ExtResource("1_0jt04")]([ExtResource("1_cf17k"), ExtResource("2_alvmg")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,
@@ -60,3 +63,126 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 68,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 150,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 194,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 204,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 219,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 227,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 243,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 219,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 68,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 133,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 133,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 194,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 204,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 219,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 227,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 243,
+"tm_id": ""
+}]

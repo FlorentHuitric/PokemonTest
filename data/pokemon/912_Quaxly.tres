@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://do77wdice2vc4"]
 
-[ext_resource type="Resource" path="res://data/abilities/Torrent.tres" id="1_3a73s"]
-[ext_resource type="Resource" path="res://data/abilities/Moxie.tres" id="2_s6jm0"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_faclw"]
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_r3uxm"]
+[ext_resource type="Resource" uid="uid://inpyllif730w" path="res://data/abilities/Torrent.tres" id="1_pr33w"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_sl33x"]
+[ext_resource type="Resource" uid="uid://2niuc5gcyh5x" path="res://data/abilities/Moxie.tres" id="2_ir4hr"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_43aou"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="4_nmuru"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_uovpf"]
 
 [resource]
-script = ExtResource("3_faclw")
+script = ExtResource("3_43aou")
 pokemon_id = 912
 branch_code = ""
 names = {
-"en": "Quaxly"
+"en": "Quaxly",
+"fr": "Quaxly"
 }
 generation = 9
 height = 0.5
 weight = 6.1
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_r3uxm")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3a73s"), ExtResource("2_s6jm0")])
+types = Array[ExtResource("5_uovpf")]([ExtResource("4_nmuru")])
+abilities = Array[ExtResource("1_sl33x")]([ExtResource("1_pr33w"), ExtResource("2_ir4hr")])
 color = "Blue"
 gender_ratio = {
 "female": 12.5,

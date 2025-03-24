@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://co7f7apeoib3p"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_yq20m"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_7tsai"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_8ohxg"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_wust2"]
 
 [resource]
-script = ExtResource("2_7tsai")
+script = ExtResource("2_wust2")
 move_id = 173
 move_name = {
 "en": "Snore",
-"fr": "Snore"
+"fr": "Ronflement"
 }
-move_type = ExtResource("1_yq20m")
+move_type = ExtResource("1_8ohxg")
 category = "Special"
 contest = "Cute"
 power = 50
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 30
+stat_chance = 0

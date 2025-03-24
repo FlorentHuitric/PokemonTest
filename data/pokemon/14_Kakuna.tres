@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://cq2aqwnib5tln"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="1_r1ptk"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_xh8fb"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_6tbnp"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="4_j2cp4"]
+[ext_resource type="Resource" uid="uid://csl8rr5pki072" path="res://data/abilities/Shed_Skin.tres" id="1_cblra"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_mbokf"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_1uxi8"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="3_k3mkc"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_22elr"]
+[ext_resource type="Resource" uid="uid://5n6r5mn3o2ge" path="res://data/types/Poison.tres" id="4_kotq5"]
 
 [resource]
-script = ExtResource("2_xh8fb")
+script = ExtResource("2_1uxi8")
 pokemon_id = 14
 branch_code = ""
 names = {
-"en": "Kakuna"
+"en": "Kakuna",
+"fr": "Kakuna"
 }
 generation = 1
 height = 0.6
 weight = 10.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_6tbnp"), ExtResource("4_j2cp4")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_r1ptk")])
+types = Array[ExtResource("4_22elr")]([ExtResource("3_k3mkc"), ExtResource("4_kotq5")])
+abilities = Array[ExtResource("1_mbokf")]([ExtResource("1_cblra")])
 color = "Yellow"
 gender_ratio = {
 "female": 50.0,
@@ -60,3 +63,72 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}, {
+"generation": 7,
+"level": 7,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 334,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 527,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}]

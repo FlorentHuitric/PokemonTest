@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dx4dsbk81ly30"]
 
-[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_583nd"]
-[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="2_4t2h0"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2fcr6"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_mgvde"]
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_0602r"]
+[ext_resource type="Resource" uid="uid://b1kh5d4xpm84n" path="res://data/abilities/Blaze.tres" id="1_h3ybp"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_wptwu"]
+[ext_resource type="Resource" uid="uid://b1vr8s8h6ualj" path="res://data/abilities/Unaware.tres" id="2_1wmya"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_klvrt"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_qadjr"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_dyxqr"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_vndei"]
 
 [resource]
-script = ExtResource("3_2fcr6")
+script = ExtResource("3_klvrt")
 pokemon_id = 911
 branch_code = ""
 names = {
-"en": "Skeledirge"
+"en": "Skeledirge",
+"fr": "Skeledirge"
 }
 generation = 9
 height = 1.6
 weight = 326.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_mgvde"), ExtResource("5_0602r")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_583nd"), ExtResource("2_4t2h0")])
+types = Array[ExtResource("5_dyxqr")]([ExtResource("4_qadjr"), ExtResource("5_vndei")])
+abilities = Array[ExtResource("1_wptwu")]([ExtResource("1_h3ybp"), ExtResource("2_1wmya")])
 color = "Red"
 gender_ratio = {
 "female": 12.5,

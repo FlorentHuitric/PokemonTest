@@ -1,21 +1,24 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://bnjc0ss0iames"]
 
-[ext_resource type="Resource" path="res://data/abilities/Transistor.tres" id="1_tkwct"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_p52je"]
-[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_xkyjv"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_qi8px"]
+[ext_resource type="Resource" uid="uid://dr7arbf6qm7as" path="res://data/abilities/Transistor.tres" id="1_rydrt"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_i5qtn"]
+[ext_resource type="Resource" uid="uid://cjhxpx28x7q10" path="res://data/types/Electric.tres" id="3_58ktv"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_dptoa"]
 
 [resource]
-script = ExtResource("2_p52je")
+script = ExtResource("2_i5qtn")
 pokemon_id = 894
 branch_code = ""
 names = {
-"en": "Regieleki"
+"en": "Regieleki",
+"fr": "Regieleki"
 }
 generation = 8
 height = 1.2
 weight = 145.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_xkyjv")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_tkwct")])
+types = Array[ExtResource("4_dptoa")]([ExtResource("3_58ktv")])
+abilities = Array[ExtResource("1_qi8px")]([ExtResource("1_rydrt")])
 color = "Yellow"
 gender_ratio = {
 "female": 0.0,
@@ -59,3 +62,306 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 34,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 54,
+"method": 1,
+"move_id": 37,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 72,
+"method": 1,
+"move_id": 63,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 63,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 84,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 42,
+"method": 1,
+"move_id": 85,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 85,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 24,
+"method": 1,
+"move_id": 86,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 86,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 87,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 97,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 103,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 113,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 115,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 120,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 129,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 78,
+"method": 1,
+"move_id": 153,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 156,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 164,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 182,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 66,
+"method": 1,
+"move_id": 192,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 60,
+"method": 1,
+"move_id": 199,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 203,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 214,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 229,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 240,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 30,
+"method": 1,
+"move_id": 245,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 12,
+"method": 1,
+"move_id": 246,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 263,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 340,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 18,
+"method": 1,
+"move_id": 351,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 372,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 48,
+"method": 1,
+"move_id": 393,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 416,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 486,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 496,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 512,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 521,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 6,
+"method": 1,
+"move_id": 527,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 527,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 528,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 598,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 604,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 804,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 36,
+"method": 1,
+"move_id": 819,
+"tm_id": ""
+}]

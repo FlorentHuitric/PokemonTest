@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://doog7c1kg41gu"]
 
-[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="1_l5wfs"]
-[ext_resource type="Resource" path="res://data/abilities/Slow Start.tres" id="2_tx1xs"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_jd8h8"]
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_s26q7"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_emusj"]
+[ext_resource type="Resource" uid="uid://d0a7hbahe0v4e" path="res://data/abilities/Overcoat.tres" id="1_g3pyg"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_h534d"]
+[ext_resource type="Resource" uid="uid://davnrs71aldia" path="res://data/abilities/Slow_Start.tres" id="2_857bt"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_o5vt7"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_k22j3"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_rinej"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_vu8cs"]
 
 [resource]
-script = ExtResource("3_jd8h8")
+script = ExtResource("3_o5vt7")
 pokemon_id = 965
 branch_code = ""
 names = {
-"en": "Varoom"
+"en": "Varoom",
+"fr": "Varoom"
 }
 generation = 9
 height = 1.0
 weight = 35.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_s26q7"), ExtResource("5_emusj")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_l5wfs"), ExtResource("2_tx1xs")])
+types = Array[ExtResource("5_rinej")]([ExtResource("4_k22j3"), ExtResource("5_vu8cs")])
+abilities = Array[ExtResource("1_h534d")]([ExtResource("1_g3pyg"), ExtResource("2_857bt")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

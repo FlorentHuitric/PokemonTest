@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://c6418d4w4vkus"]
 
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_wvyr7"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ea380"]
+[ext_resource type="Resource" uid="uid://dkiseqq87m31f" path="res://data/types/Steel.tres" id="1_tiiap"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_k646w"]
 
 [resource]
-script = ExtResource("2_ea380")
+script = ExtResource("2_k646w")
 move_id = 429
 move_name = {
 "en": "Mirror Shot",
-"fr": "Mirror Shot"
+"fr": "Miroi-Tir"
 }
-move_type = ExtResource("1_wvyr7")
+move_type = ExtResource("1_tiiap")
 category = "Special"
 contest = "Beautiful"
 power = 65
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 6
+meta_category_desc = {
+"en": "Inflicts damage; lowers target's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 30

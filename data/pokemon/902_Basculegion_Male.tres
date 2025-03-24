@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://3hyuoa5vpy3"]
+
+[ext_resource type="Resource" uid="uid://cikp5dx0vknpn" path="res://data/abilities/Swift_Swim.tres" id="1_asxt5"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ctah8"]
+[ext_resource type="Resource" uid="uid://drlqpi2xh4gwt" path="res://data/abilities/Adaptability.tres" id="2_xs1rn"]
+[ext_resource type="Resource" uid="uid://ba3nuhyrog6or" path="res://data/abilities/Mold_Breaker.tres" id="3_hiyk8"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_lk004"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_5w1qm"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_8yqo2"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_ib4xc"]
+
+[resource]
+script = ExtResource("4_lk004")
+pokemon_id = 902
+branch_code = ""
+names = {
+"en": "Basculegion Male",
+"fr": "Basculegion Male"
+}
+generation = 8
+height = 3.0
+weight = 110.0
+types = Array[ExtResource("6_ib4xc")]([ExtResource("5_5w1qm"), ExtResource("6_8yqo2")])
+abilities = Array[ExtResource("1_ctah8")]([ExtResource("1_asxt5"), ExtResource("2_xs1rn"), ExtResource("3_hiyk8")])
+color = "Green"
+gender_ratio = {
+"female": 0.0,
+"male": 100.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Water2")
+catch_rate = 45
+base_experience = 265
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 112,
+"defense": 65,
+"hp": 120,
+"special_attack": 80,
+"special_defense": 75,
+"speed": 78,
+"total": 530
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 3,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/902.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/902.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/902.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/902.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

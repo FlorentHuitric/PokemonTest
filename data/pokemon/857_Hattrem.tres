@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://di86krhl5fwll"]
 
-[ext_resource type="Resource" path="res://data/abilities/Healer.tres" id="1_s7vy7"]
-[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="2_rqcrb"]
-[ext_resource type="Resource" path="res://data/abilities/Magic Bounce.tres" id="3_3o0lp"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_kvs6f"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_ps10j"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_3gkcw"]
+[ext_resource type="Resource" uid="uid://b61jj47x0o4i" path="res://data/abilities/Healer.tres" id="1_te6ws"]
+[ext_resource type="Resource" uid="uid://dttpci1pce6e2" path="res://data/abilities/Anticipation.tres" id="2_qxnlb"]
+[ext_resource type="Resource" uid="uid://lghmnxhgoo5c" path="res://data/abilities/Magic_Bounce.tres" id="3_m03fp"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_hr6m2"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="5_nd4t3"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_223qr"]
 
 [resource]
-script = ExtResource("4_kvs6f")
+script = ExtResource("4_hr6m2")
 pokemon_id = 857
 branch_code = ""
 names = {
-"en": "Hattrem"
+"en": "Hattrem",
+"fr": "Hattrem"
 }
 generation = 8
 height = 0.6
 weight = 4.8
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_ps10j")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_s7vy7"), ExtResource("2_rqcrb"), ExtResource("3_3o0lp")])
+types = Array[ExtResource("6_223qr")]([ExtResource("5_nd4t3")])
+abilities = Array[ExtResource("1_3gkcw")]([ExtResource("1_te6ws"), ExtResource("2_qxnlb"), ExtResource("3_m03fp")])
 color = "Pink"
 gender_ratio = {
 "female": 100.0,
@@ -61,3 +64,288 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 20,
+"method": 1,
+"move_id": 60,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 86,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 93,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 44,
+"method": 1,
+"move_id": 94,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 94,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 113,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 156,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 164,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 182,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 202,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 203,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 204,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 213,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 214,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 219,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 226,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 263,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 270,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 285,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 286,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 312,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 345,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 37,
+"method": 1,
+"move_id": 347,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 347,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 51,
+"method": 1,
+"move_id": 361,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 399,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 473,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 496,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 500,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 25,
+"method": 1,
+"move_id": 505,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 574,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 577,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 583,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 589,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 595,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 30,
+"method": 1,
+"move_id": 605,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 605,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 1,
+"move_id": 693,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 693,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 693,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 791,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 797,
+"tm_id": ""
+}]

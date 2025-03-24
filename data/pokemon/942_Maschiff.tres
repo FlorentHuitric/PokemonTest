@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://7l687ggtjuwn"]
 
-[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_eoqy7"]
-[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="2_r02tn"]
-[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="3_gu4ub"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_b0esu"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_80226"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_pkmwu"]
+[ext_resource type="Resource" uid="uid://7lrx07qa4axc" path="res://data/abilities/Intimidate.tres" id="1_x1odv"]
+[ext_resource type="Resource" uid="uid://2l645fu4gg4a" path="res://data/abilities/Run_Away.tres" id="2_48f1m"]
+[ext_resource type="Resource" uid="uid://drm5ntsg85mxy" path="res://data/abilities/Stakeout.tres" id="3_qgt8d"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_vgg0v"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_cycxb"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_28qlq"]
 
 [resource]
-script = ExtResource("4_b0esu")
+script = ExtResource("4_vgg0v")
 pokemon_id = 942
 branch_code = ""
 names = {
-"en": "Maschiff"
+"en": "Maschiff",
+"fr": "Maschiff"
 }
 generation = 9
 height = 0.5
 weight = 16.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_80226")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_eoqy7"), ExtResource("2_r02tn"), ExtResource("3_gu4ub")])
+types = Array[ExtResource("6_28qlq")]([ExtResource("5_cycxb")])
+abilities = Array[ExtResource("1_pkmwu")]([ExtResource("1_x1odv"), ExtResource("2_48f1m"), ExtResource("3_qgt8d")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

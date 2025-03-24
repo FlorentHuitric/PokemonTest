@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://hmi1knlyiqnk"]
 
-[ext_resource type="Resource" path="res://data/abilities/Aroma Veil.tres" id="1_ev05r"]
-[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="2_cgcix"]
-[ext_resource type="Resource" path="res://data/abilities/Thick Fat.tres" id="3_dj783"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_prjsd"]
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_1utex"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_h00gs"]
+[ext_resource type="Resource" uid="uid://c12s6h54mm1j" path="res://data/abilities/Aroma_Veil.tres" id="1_uu3m6"]
+[ext_resource type="Resource" uid="uid://dmwdi0mgnjqn5" path="res://data/abilities/Gluttony.tres" id="2_pm1f7"]
+[ext_resource type="Resource" uid="uid://dlu1v5lilja7c" path="res://data/abilities/Thick_Fat.tres" id="3_umpll"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_1dhoq"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_r34x5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_xl6vy"]
 
 [resource]
-script = ExtResource("4_prjsd")
+script = ExtResource("4_1dhoq")
 pokemon_id = 915
 branch_code = ""
 names = {
-"en": "Lechonk"
+"en": "Lechonk",
+"fr": "Lechonk"
 }
 generation = 9
 height = 0.5
 weight = 10.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1utex")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ev05r"), ExtResource("2_cgcix"), ExtResource("3_dj783")])
+types = Array[ExtResource("6_xl6vy")]([ExtResource("5_r34x5")])
+abilities = Array[ExtResource("1_h00gs")]([ExtResource("1_uu3m6"), ExtResource("2_pm1f7"), ExtResource("3_umpll")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

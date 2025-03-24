@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dga6pdt4v8ytl"]
 
-[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="1_y1ttw"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_n4hcp"]
+[ext_resource type="Resource" uid="uid://yd6t4xjy7fmy" path="res://data/types/Fairy.tres" id="1_p5rur"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_jopk5"]
 
 [resource]
-script = ExtResource("2_n4hcp")
+script = ExtResource("2_jopk5")
 move_id = 717
 move_name = {
 "en": "Nature's Madness",
-"fr": "Nature's Madness"
+"fr": "Ire de la Nature"
 }
-move_type = ExtResource("1_y1ttw")
+move_type = ExtResource("1_p5rur")
 category = "Special"
 contest = "???"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

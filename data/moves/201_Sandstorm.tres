@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://c42lu527p1iob"]
 
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="1_rc0tx"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_e2f28"]
+[ext_resource type="Resource" uid="uid://dnkomwlph21uu" path="res://data/types/Rock.tres" id="1_43i1q"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_fxwye"]
 
 [resource]
-script = ExtResource("2_e2f28")
+script = ExtResource("2_fxwye")
 move_id = 201
 move_name = {
 "en": "Sandstorm",
-"fr": "Sandstorm"
+"fr": "Tempête de Sable"
 }
-move_type = ExtResource("1_rc0tx")
+move_type = ExtResource("1_43i1q")
 category = "Status"
 contest = "Tough"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 10
+meta_category_desc = {
+"en": "Effect on the whole field"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

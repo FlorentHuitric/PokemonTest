@@ -1,8 +1,10 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://dpe0arxc3dojy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Zero to Hero.tres" id="1_dgur6"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_qv0b2"]
+[ext_resource type="Resource" uid="uid://c3o5vm0ynjs2d" path="res://data/abilities/Zero to Hero.tres" id="1_dgur6"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_s7tst"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_qv0b2"]
 [ext_resource type="Resource" path="res://data/types/Water.tres" id="3_dm3ha"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_odn87"]
 
 [resource]
 script = ExtResource("2_qv0b2")
@@ -14,8 +16,8 @@ names = {
 generation = 9
 height = 1.8
 weight = 97.4
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_dm3ha")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dgur6")])
+types = Array[ExtResource("4_odn87")]([ExtResource("3_dm3ha")])
+abilities = Array[ExtResource("1_s7tst")]([ExtResource("1_dgur6")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,

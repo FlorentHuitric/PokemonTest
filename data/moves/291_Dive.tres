@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://c1m3wrk0iaagn"]
 
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_kjj8t"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_pp0ic"]
+[ext_resource type="Resource" uid="uid://jfhepwbcm8s8" path="res://data/types/Water.tres" id="1_6lo1f"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_wbglq"]
 
 [resource]
-script = ExtResource("2_pp0ic")
+script = ExtResource("2_wbglq")
 move_id = 291
 move_name = {
 "en": "Dive",
-"fr": "Dive"
+"fr": "Plongée"
 }
-move_type = ExtResource("1_kjj8t")
+move_type = ExtResource("1_6lo1f")
 category = "Physical"
 contest = "Beautiful"
 power = 80
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

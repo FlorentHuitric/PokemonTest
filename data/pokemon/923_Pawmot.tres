@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://bldw2oxj47w3e"]
 
-[ext_resource type="Resource" path="res://data/abilities/Volt Absorb.tres" id="1_ronjd"]
-[ext_resource type="Resource" path="res://data/abilities/Natural Cure.tres" id="2_0cohf"]
-[ext_resource type="Resource" path="res://data/abilities/Iron Fist.tres" id="3_4ncv3"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_4e1ns"]
-[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_wucnb"]
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="6_k6hjf"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_6a2t0"]
+[ext_resource type="Resource" uid="uid://bw873kouonvhs" path="res://data/abilities/Volt_Absorb.tres" id="1_eahr8"]
+[ext_resource type="Resource" uid="uid://b73rynditwape" path="res://data/abilities/Natural_Cure.tres" id="2_njkkm"]
+[ext_resource type="Resource" uid="uid://chicqufxjgl8s" path="res://data/abilities/Iron_Fist.tres" id="3_axjmr"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_wwu23"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_cdws5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_icbgh"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="6_l3rqj"]
 
 [resource]
-script = ExtResource("4_4e1ns")
+script = ExtResource("4_wwu23")
 pokemon_id = 923
 branch_code = ""
 names = {
-"en": "Pawmot"
+"en": "Pawmot",
+"fr": "Pawmot"
 }
 generation = 9
 height = 0.9
 weight = 41.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_wucnb"), ExtResource("6_k6hjf")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ronjd"), ExtResource("2_0cohf"), ExtResource("3_4ncv3")])
+types = Array[ExtResource("6_icbgh")]([ExtResource("5_cdws5"), ExtResource("6_l3rqj")])
+abilities = Array[ExtResource("1_6a2t0")]([ExtResource("1_eahr8"), ExtResource("2_njkkm"), ExtResource("3_axjmr")])
 color = "Yellow"
 gender_ratio = {
 "female": 50.0,

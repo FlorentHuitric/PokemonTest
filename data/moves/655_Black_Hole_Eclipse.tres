@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://0btvc2w375uo"]
 
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_0bcas"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_pct6a"]
+[ext_resource type="Resource" uid="uid://bumob24yo2eru" path="res://data/types/Dark.tres" id="1_iy82g"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_7bee2"]
 
 [resource]
-script = ExtResource("2_pct6a")
+script = ExtResource("2_7bee2")
 move_id = 655
 move_name = {
 "en": "Black Hole Eclipse",
-"fr": "Black Hole Eclipse"
+"fr": "Trou Noir des Ombres"
 }
-move_type = ExtResource("1_0bcas")
+move_type = ExtResource("1_iy82g")
 category = "Special"
 contest = "???"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

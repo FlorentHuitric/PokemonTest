@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://d4jt3jjqk72wx"]
 
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_t5vj2"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3by3q"]
+[ext_resource type="Resource" uid="uid://b3nhx0mepki2w" path="res://data/types/Grass.tres" id="1_masv5"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_m6k2r"]
 
 [resource]
-script = ExtResource("2_3by3q")
+script = ExtResource("2_m6k2r")
 move_id = 178
 move_name = {
 "en": "Cotton Spore",
-"fr": "Cotton Spore"
+"fr": "Spore Coton"
 }
-move_type = ExtResource("1_t5vj2")
+move_type = ExtResource("1_masv5")
 category = "Status"
 contest = "Beautiful"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 2
+meta_category_desc = {
+"en": "No damage; lowers target's stats or raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

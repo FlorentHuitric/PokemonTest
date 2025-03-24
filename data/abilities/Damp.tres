@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://dx2qmp85efuho"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_hgypu"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_at48c"]
 
 [resource]
-script = ExtResource("1_hgypu")
+script = ExtResource("1_at48c")
 ability_name = "Damp"
 descriptions = {
 "en": "Description not available yet.",

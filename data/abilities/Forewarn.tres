@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://cxbdpxppo42mu"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_74k1g"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_86tpd"]
 
 [resource]
-script = ExtResource("1_74k1g")
+script = ExtResource("1_86tpd")
 ability_name = "Forewarn"
 descriptions = {
 "en": "Description not available yet.",

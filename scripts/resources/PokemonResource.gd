@@ -56,3 +56,42 @@ class_name PokemonResource
 
 # Description du Pokémon
 @export var description: Dictionary = {"en": "", "fr": ""}
+
+# Nouvelles propriétés
+# Valeurs individuelles (IVs)
+@export var iv_ranges: Dictionary = {
+	"hp": {"min": 0, "max": 31},
+	"attack": {"min": 0, "max": 31},
+	"defense": {"min": 0, "max": 31},
+	"special_attack": {"min": 0, "max": 31},
+	"special_defense": {"min": 0, "max": 31},
+	"speed": {"min": 0, "max": 31}
+}
+
+# Moves que le Pokémon peut apprendre
+@export var learnable_moves: Array[Dictionary] = []
+# Structure d'un move apprenable:
+# {
+#    "move_id": 0,         # ID du move
+#    "method": 1,          # Méthode d'apprentissage (1=level-up, 2=egg, 3=tutor, 4=tm/hm)
+#    "level": 0,           # Niveau requis si méthode = level-up
+#    "tm_id": "",          # ID de la TM/HM si applicable
+#    "generation": 1       # Génération où ce move est appris
+# }
+
+# Fonction pour ajouter un move apprenable
+func add_learnable_move(move_id: int, method: int, level: int = 0, tm_id: String = "", generation: int = 1) -> void:
+	learnable_moves.append({
+		"move_id": move_id,
+		"method": method,
+		"level": level,
+		"tm_id": tm_id,
+		"generation": generation
+	})
+
+# Fonction pour vérifier si le Pokémon peut apprendre un move spécifique
+func can_learn_move(move_id: int) -> bool:
+	for move in learnable_moves:
+		if move.move_id == move_id:
+			return true
+	return false

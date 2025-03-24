@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://c423m16xjjbj4"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_v1gui"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_g6y2j"]
 
 [resource]
-script = ExtResource("1_v1gui")
+script = ExtResource("1_g6y2j")
 ability_name = "Insomnia"
 descriptions = {
 "en": "Description not available yet.",

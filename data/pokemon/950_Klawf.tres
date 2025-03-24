@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://do7qkrqf4uj6b"]
 
-[ext_resource type="Resource" path="res://data/abilities/Anger Shell.tres" id="1_flp1j"]
-[ext_resource type="Resource" path="res://data/abilities/Shell Armor.tres" id="2_l0k1r"]
-[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="3_maohg"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_rktxc"]
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_xiwst"]
+[ext_resource type="Resource" uid="uid://c727t8b0f8lug" path="res://data/abilities/Anger_Shell.tres" id="1_na51r"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_rqyst"]
+[ext_resource type="Resource" uid="uid://iu8aeko5xeaw" path="res://data/abilities/Shell_Armor.tres" id="2_klw74"]
+[ext_resource type="Resource" uid="uid://26oplol2sba0" path="res://data/abilities/Regenerator.tres" id="3_fj4vq"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_fdux8"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="5_pc8s7"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_4lubo"]
 
 [resource]
-script = ExtResource("4_rktxc")
+script = ExtResource("4_fdux8")
 pokemon_id = 950
 branch_code = ""
 names = {
-"en": "Klawf"
+"en": "Klawf",
+"fr": "Klawf"
 }
 generation = 9
 height = 1.3
 weight = 79.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_xiwst")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_flp1j"), ExtResource("2_l0k1r"), ExtResource("3_maohg")])
+types = Array[ExtResource("6_4lubo")]([ExtResource("5_pc8s7")])
+abilities = Array[ExtResource("1_rqyst")]([ExtResource("1_na51r"), ExtResource("2_klw74"), ExtResource("3_fj4vq")])
 color = "Red"
 gender_ratio = {
 "female": 50.0,

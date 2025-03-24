@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ctrahq88cwm64"
+
+[deps]
+
+files=["res://imports/pokemon_move_method_prose.local.translation", "res://imports/pokemon_move_method_prose.name.translation", "res://imports/pokemon_move_method_prose.description.translation"]
+
+source_file="res://imports/pokemon_move_method_prose.csv"
+dest_files=["res://imports/pokemon_move_method_prose.local.translation", "res://imports/pokemon_move_method_prose.name.translation", "res://imports/pokemon_move_method_prose.description.translation"]
+
+[params]
+
+compress=true
+delimiter=0

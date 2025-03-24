@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b8xaxwjvp6vcy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Honey Gather.tres" id="1_xw0cq"]
-[ext_resource type="Resource" path="res://data/abilities/Hustle.tres" id="2_pixis"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_scl8g"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_xk4sw"]
-[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_s1wti"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_86uge"]
+[ext_resource type="Resource" uid="uid://b84461qmieujf" path="res://data/abilities/Honey_Gather.tres" id="1_c0fnk"]
+[ext_resource type="Resource" uid="uid://bw6hs3np77tja" path="res://data/abilities/Hustle.tres" id="2_lkepa"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_wuwhs"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="4_6b2f7"]
+[ext_resource type="Resource" uid="uid://c5mj1nxxidngk" path="res://data/types/Flying.tres" id="5_60p2f"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_vsohn"]
 
 [resource]
-script = ExtResource("3_scl8g")
+script = ExtResource("3_wuwhs")
 pokemon_id = 415
 branch_code = ""
 names = {
-"en": "Combee"
+"en": "Combee",
+"fr": "Combee"
 }
 generation = 4
 height = 0.3
 weight = 5.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_xk4sw"), ExtResource("5_s1wti")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xw0cq"), ExtResource("2_pixis")])
+types = Array[ExtResource("5_vsohn")]([ExtResource("4_6b2f7"), ExtResource("5_60p2f")])
+abilities = Array[ExtResource("1_86uge")]([ExtResource("1_c0fnk"), ExtResource("2_lkepa")])
 color = "Yellow"
 gender_ratio = {
 "female": 12.5,
@@ -61,3 +64,138 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 16,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 230,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 129,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 189,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 283,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 314,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 13,
+"method": 1,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 466,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 366,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 29,
+"method": 1,
+"move_id": 405,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 405,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 522,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 814,
+"tm_id": ""
+}]

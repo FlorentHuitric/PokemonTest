@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://cunfv5a60p1jd"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_36wrp"]
-[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="2_y3ulx"]
-[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="3_mjpab"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_apnb5"]
+[ext_resource type="Resource" uid="uid://b0git1dhy70co" path="res://data/abilities/Swift Swim.tres" id="1_36wrp"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ay12m"]
+[ext_resource type="Resource" uid="uid://drlqpi2xh4gwt" path="res://data/abilities/Adaptability.tres" id="2_y3ulx"]
+[ext_resource type="Resource" uid="uid://cyvd7doegotuu" path="res://data/abilities/Mold Breaker.tres" id="3_mjpab"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_apnb5"]
 [ext_resource type="Resource" path="res://data/types/Water.tres" id="5_um22e"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_2v36u"]
 [ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_cv7ac"]
 
 [resource]
@@ -17,8 +19,8 @@ names = {
 generation = 8
 height = 3.0
 weight = 110.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_um22e"), ExtResource("6_cv7ac")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_36wrp"), ExtResource("2_y3ulx"), ExtResource("3_mjpab")])
+types = Array[ExtResource("6_2v36u")]([ExtResource("5_um22e"), ExtResource("6_cv7ac")])
+abilities = Array[ExtResource("1_ay12m")]([ExtResource("1_36wrp"), ExtResource("2_y3ulx"), ExtResource("3_mjpab")])
 color = "Green"
 gender_ratio = {
 "female": 100.0,

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://crkc8a5tkjirc"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_ixvme"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_4qhw2"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_jcmlk"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_gm02f"]
 
 [resource]
-script = ExtResource("2_4qhw2")
+script = ExtResource("2_gm02f")
 move_id = 493
 move_name = {
 "en": "Simple Beam",
-"fr": "Simple Beam"
+"fr": "Rayon Simple"
 }
-move_type = ExtResource("1_ixvme")
+move_type = ExtResource("1_jcmlk")
 category = "Status"
 contest = "Cute"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 13
+meta_category_desc = {
+"en": "Unique effect"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

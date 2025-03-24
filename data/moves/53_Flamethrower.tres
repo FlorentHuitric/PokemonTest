@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dyamcg3gocvm6"]
 
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_8gm15"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_omj4n"]
+[ext_resource type="Resource" uid="uid://cok4nx56x62l" path="res://data/types/Fire.tres" id="1_fq24a"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_2ii0s"]
 
 [resource]
-script = ExtResource("2_omj4n")
+script = ExtResource("2_2ii0s")
 move_id = 53
 move_name = {
 "en": "Flamethrower",
-"fr": "Flamethrower"
+"fr": "Lance-Flammes"
 }
-move_type = ExtResource("1_8gm15")
+move_type = ExtResource("1_fq24a")
 category = "Special"
 contest = "Beautiful"
 power = 90
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 4
+meta_ailment_name = {
+"en": "Burn",
+"fr": "Brûlure"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 10
+flinch_chance = 0
+stat_chance = 0

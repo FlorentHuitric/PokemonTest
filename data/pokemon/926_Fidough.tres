@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://jaqer1xc7fin"]
 
-[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="1_kxv5y"]
-[ext_resource type="Resource" path="res://data/abilities/Klutz.tres" id="2_i6wql"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_nxi12"]
-[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_25q7u"]
+[ext_resource type="Resource" uid="uid://ubaf1ntf8o73" path="res://data/abilities/Own_Tempo.tres" id="1_0sxaf"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_3js2s"]
+[ext_resource type="Resource" uid="uid://bratccq7iydwc" path="res://data/abilities/Klutz.tres" id="2_12y52"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_hq71t"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_byy4e"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_vqaxx"]
 
 [resource]
-script = ExtResource("3_nxi12")
+script = ExtResource("3_hq71t")
 pokemon_id = 926
 branch_code = ""
 names = {
-"en": "Fidough"
+"en": "Fidough",
+"fr": "Fidough"
 }
 generation = 9
 height = 0.3
 weight = 10.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_25q7u")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_kxv5y"), ExtResource("2_i6wql")])
+types = Array[ExtResource("5_vqaxx")]([ExtResource("4_byy4e")])
+abilities = Array[ExtResource("1_3js2s")]([ExtResource("1_0sxaf"), ExtResource("2_12y52")])
 color = "Yellow"
 gender_ratio = {
 "female": 50.0,

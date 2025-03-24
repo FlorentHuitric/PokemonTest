@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b362m625awcre"]
 
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_4aygp"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_xpn3c"]
+[ext_resource type="Resource" uid="uid://bumob24yo2eru" path="res://data/types/Dark.tres" id="1_8a5sg"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_uvmso"]
 
 [resource]
-script = ExtResource("2_xpn3c")
+script = ExtResource("2_uvmso")
 move_id = 371
 move_name = {
 "en": "Payback",
-"fr": "Payback"
+"fr": "Représailles"
 }
-move_type = ExtResource("1_4aygp")
+move_type = ExtResource("1_8a5sg")
 category = "Physical"
 contest = "Tough"
 power = 50
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

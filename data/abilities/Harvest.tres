@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://rxr08pu2nv63"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_j6svp"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_pnevt"]
 
 [resource]
-script = ExtResource("1_j6svp")
+script = ExtResource("1_pnevt")
 ability_name = "Harvest"
 descriptions = {
 "en": "Description not available yet.",

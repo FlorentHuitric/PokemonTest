@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://b573cr8gd5v7v"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_buwgm"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_x6765"]
 
 [resource]
-script = ExtResource("1_buwgm")
+script = ExtResource("1_x6765")
 ability_name = "Infiltrator"
 descriptions = {
 "en": "Description not available yet.",

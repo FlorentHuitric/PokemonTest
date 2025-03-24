@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://cbu3otkcbdec1"]
 
-[ext_resource type="Resource" path="res://data/abilities/Quark Drive.tres" id="1_ltydl"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_m6ota"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_gtuek"]
+[ext_resource type="Resource" uid="uid://dxv4aiwp0r3bg" path="res://data/abilities/Quark Drive.tres" id="1_ltydl"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_m6ota"]
 [ext_resource type="Resource" path="res://data/types/Rock.tres" id="3_421v4"]
 [ext_resource type="Resource" path="res://data/types/Electric.tres" id="4_es835"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_n6h87"]
 
 [resource]
 script = ExtResource("2_m6ota")
@@ -15,8 +17,8 @@ names = {
 generation = 9
 height = 1.6
 weight = 303.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_421v4"), ExtResource("4_es835")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ltydl")])
+types = Array[ExtResource("4_n6h87")]([ExtResource("3_421v4"), ExtResource("4_es835")])
+abilities = Array[ExtResource("1_gtuek")]([ExtResource("1_ltydl")])
 color = "Green"
 gender_ratio = {
 "female": 0.0,

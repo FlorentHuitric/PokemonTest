@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b7bri5pxmb1fl"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_pr25e"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_krlor"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_qu75i"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_sgdik"]
 
 [resource]
-script = ExtResource("2_krlor")
+script = ExtResource("2_sgdik")
 move_id = 137
 move_name = {
 "en": "Glare",
-"fr": "Glare"
+"fr": "Regard Médusant"
 }
-move_type = ExtResource("1_pr25e")
+move_type = ExtResource("1_qu75i")
 category = "Status"
 contest = "Tough"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 1
+meta_ailment_name = {
+"en": "Paralysis",
+"fr": "Paralysie"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

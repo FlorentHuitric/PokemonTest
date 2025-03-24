@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cfoanjyawucfb"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_5iae8"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_jn8ss"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_uxc15"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_sqjyo"]
 
 [resource]
-script = ExtResource("2_jn8ss")
+script = ExtResource("2_sqjyo")
 move_id = 213
 move_name = {
 "en": "Attract",
-"fr": "Attract"
+"fr": "Attraction"
 }
-move_type = ExtResource("1_5iae8")
+move_type = ExtResource("1_uxc15")
 category = "Status"
 contest = "Cute"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 7
+meta_ailment_name = {
+"en": "Infatuation",
+"fr": "Attraction"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://drwnnbqoxfs8"]
 
-[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_6gm6b"]
-[ext_resource type="Resource" path="res://data/abilities/Flame Body.tres" id="2_mdqd7"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_deqs2"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_pwo3i"]
+[ext_resource type="Resource" uid="uid://01eufdv5xjx" path="res://data/abilities/Flash_Fire.tres" id="1_1e1ij"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ylt2s"]
+[ext_resource type="Resource" uid="uid://d2q4lh4ave447" path="res://data/abilities/Flame_Body.tres" id="2_yucb8"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_neosl"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_5xb0v"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_7nf6f"]
 
 [resource]
-script = ExtResource("3_deqs2")
+script = ExtResource("3_neosl")
 pokemon_id = 935
 branch_code = ""
 names = {
-"en": "Charcadet"
+"en": "Charcadet",
+"fr": "Charcadet"
 }
 generation = 9
 height = 0.6
 weight = 10.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_pwo3i")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6gm6b"), ExtResource("2_mdqd7")])
+types = Array[ExtResource("5_7nf6f")]([ExtResource("4_5xb0v")])
+abilities = Array[ExtResource("1_ylt2s")]([ExtResource("1_1e1ij"), ExtResource("2_yucb8")])
 color = "Red"
 gender_ratio = {
 "female": 50.0,

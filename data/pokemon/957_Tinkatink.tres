@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://cnlvmlg0dyiqy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="1_1j21n"]
-[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="2_ieugc"]
-[ext_resource type="Resource" path="res://data/abilities/Pickpocket.tres" id="3_2qsku"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_r4e81"]
-[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_8n3lc"]
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_mg8bm"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_df2c4"]
+[ext_resource type="Resource" uid="uid://ba3nuhyrog6or" path="res://data/abilities/Mold_Breaker.tres" id="1_yeqas"]
+[ext_resource type="Resource" uid="uid://ubaf1ntf8o73" path="res://data/abilities/Own_Tempo.tres" id="2_gq51t"]
+[ext_resource type="Resource" uid="uid://dsxe00pxyru71" path="res://data/abilities/Pickpocket.tres" id="3_o0uw2"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_3uyxb"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="5_nbiuw"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_a0txs"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="6_bfnrs"]
 
 [resource]
-script = ExtResource("4_r4e81")
+script = ExtResource("4_3uyxb")
 pokemon_id = 957
 branch_code = ""
 names = {
-"en": "Tinkatink"
+"en": "Tinkatink",
+"fr": "Tinkatink"
 }
 generation = 9
 height = 0.4
 weight = 8.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8n3lc"), ExtResource("6_mg8bm")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1j21n"), ExtResource("2_ieugc"), ExtResource("3_2qsku")])
+types = Array[ExtResource("6_a0txs")]([ExtResource("5_nbiuw"), ExtResource("6_bfnrs")])
+abilities = Array[ExtResource("1_df2c4")]([ExtResource("1_yeqas"), ExtResource("2_gq51t"), ExtResource("3_o0uw2")])
 color = "Pink"
 gender_ratio = {
 "female": 100.0,

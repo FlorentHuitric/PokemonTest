@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b08ucm3sniwgg"]
+
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_nb16d"]
+[ext_resource type="Resource" uid="uid://cweokd8u2el2q" path="res://data/abilities/Friend_Guard.tres" id="1_r68is"]
+[ext_resource type="Resource" uid="uid://wub3aidn7nyw" path="res://data/abilities/Cheek_Pouch.tres" id="2_mrb6e"]
+[ext_resource type="Resource" uid="uid://tv1i2p43dxi0" path="res://data/abilities/Technician.tres" id="3_wn066"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_r16at"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_omev3"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_cxtk7"]
+
+[resource]
+script = ExtResource("4_r16at")
+pokemon_id = 925
+branch_code = ""
+names = {
+"en": "Maushold Family of Three",
+"fr": "Maushold Family of Three"
+}
+generation = 9
+height = 0.3
+weight = 2.3
+types = Array[ExtResource("6_cxtk7")]([ExtResource("5_omev3")])
+abilities = Array[ExtResource("1_nb16d")]([ExtResource("1_r68is"), ExtResource("2_mrb6e"), ExtResource("3_wn066")])
+color = "White"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 10
+egg_groups = PackedStringArray("Ground", "Fairy")
+catch_rate = 75
+base_experience = 165
+experience_type = "800000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 75,
+"defense": 70,
+"hp": 74,
+"special_attack": 65,
+"special_defense": 75,
+"speed": 111,
+"total": 470
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 2
+}
+sprite_normal_front = "res://assets/sprites/pokemon/925.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/925.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/925.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/925.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

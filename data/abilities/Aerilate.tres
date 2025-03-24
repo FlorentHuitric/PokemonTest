@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://cxyddomfvmstc"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_ev58p"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_1ch1o"]
 
 [resource]
-script = ExtResource("1_ev58p")
+script = ExtResource("1_1ch1o")
 ability_name = "Aerilate"
 descriptions = {
 "en": "Description not available yet.",

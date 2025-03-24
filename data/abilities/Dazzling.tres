@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://86m7tpxs1ox0"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_448nl"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_abnia"]
 
 [resource]
-script = ExtResource("1_448nl")
+script = ExtResource("1_abnia")
 ability_name = "Dazzling"
 descriptions = {
 "en": "Description not available yet.",

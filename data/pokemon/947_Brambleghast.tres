@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dgn05070stie7"]
 
-[ext_resource type="Resource" path="res://data/abilities/Wind Rider.tres" id="1_wd561"]
-[ext_resource type="Resource" path="res://data/abilities/Infiltrator.tres" id="2_jfd17"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_g2yhd"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_a2bxw"]
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_20yjd"]
+[ext_resource type="Resource" uid="uid://bnedoj7gt71lp" path="res://data/abilities/Wind_Rider.tres" id="1_6waf2"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_uoqtj"]
+[ext_resource type="Resource" uid="uid://b573cr8gd5v7v" path="res://data/abilities/Infiltrator.tres" id="2_0sa16"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_6b43m"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_xuud6"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_dsqb3"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="5_uudwk"]
 
 [resource]
-script = ExtResource("3_g2yhd")
+script = ExtResource("3_6b43m")
 pokemon_id = 947
 branch_code = ""
 names = {
-"en": "Brambleghast"
+"en": "Brambleghast",
+"fr": "Brambleghast"
 }
 generation = 9
 height = 1.2
 weight = 6.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_a2bxw"), ExtResource("5_20yjd")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_wd561"), ExtResource("2_jfd17")])
+types = Array[ExtResource("5_dsqb3")]([ExtResource("4_xuud6"), ExtResource("5_uudwk")])
+abilities = Array[ExtResource("1_uoqtj")]([ExtResource("1_6waf2"), ExtResource("2_0sa16")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

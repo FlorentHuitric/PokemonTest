@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b6opfvnp7w33u"
+
+[deps]
+
+files=["res://imports/move_meta.meta.translation", "res://imports/move_meta.meta.translation", "res://imports/move_meta.min.translation", "res://imports/move_meta.max.translation", "res://imports/move_meta.min.translation", "res://imports/move_meta.max.translation", "res://imports/move_meta.drain.translation", "res://imports/move_meta.healing.translation", "res://imports/move_meta.crit.translation", "res://imports/move_meta.ailment.translation", "res://imports/move_meta.flinch.translation", "res://imports/move_meta.stat.translation"]
+
+source_file="res://imports/move_meta.csv"
+dest_files=["res://imports/move_meta.meta.translation", "res://imports/move_meta.meta.translation", "res://imports/move_meta.min.translation", "res://imports/move_meta.max.translation", "res://imports/move_meta.min.translation", "res://imports/move_meta.max.translation", "res://imports/move_meta.drain.translation", "res://imports/move_meta.healing.translation", "res://imports/move_meta.crit.translation", "res://imports/move_meta.ailment.translation", "res://imports/move_meta.flinch.translation", "res://imports/move_meta.stat.translation"]
+
+[params]
+
+compress=true
+delimiter=0

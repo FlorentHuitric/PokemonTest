@@ -1,21 +1,24 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://cj6bvghq7txwn"]
 
-[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="1_mqy02"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_8c1hh"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="3_fxaae"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_i6hxf"]
+[ext_resource type="Resource" uid="uid://b1vr8s8h6ualj" path="res://data/abilities/Unaware.tres" id="1_r1w0f"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_q1wmc"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="3_dknu5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_b11cq"]
 
 [resource]
-script = ExtResource("2_8c1hh")
+script = ExtResource("2_q1wmc")
 pokemon_id = 789
 branch_code = ""
 names = {
-"en": "Cosmog"
+"en": "Cosmog",
+"fr": "Cosmog"
 }
 generation = 7
 height = 0.2
 weight = 0.1
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_fxaae")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mqy02")])
+types = Array[ExtResource("4_b11cq")]([ExtResource("3_dknu5")])
+abilities = Array[ExtResource("1_i6hxf")]([ExtResource("1_r1w0f")])
 color = "Blue"
 gender_ratio = {
 "female": 0.0,
@@ -59,3 +62,48 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 23,
+"method": 1,
+"move_id": 100,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 150,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 100,
+"tm_id": ""
+}]

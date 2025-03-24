@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b787jgejxkd2v"]
+
+[ext_resource type="Resource" uid="uid://cjhxpx28x7q10" path="res://data/types/Electric.tres" id="1_wv4gi"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_34pll"]
+
+[resource]
+script = ExtResource("2_34pll")
+move_id = 719
+move_name = {
+"en": "10,000,000 Volt Thunderbolt",
+"fr": "Giga-Tonnerre"
+}
+move_type = ExtResource("1_wv4gi")
+category = "Special"
+contest = "???"
+power = 195
+accuracy = 0
+pp = 1
+generation = 7
+descriptions = {
+"en": "Description not available yet.",
+"fr": "Description non disponible pour le moment."
+}
+tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 2
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

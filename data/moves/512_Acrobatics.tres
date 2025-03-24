@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://nug8hotp14ot"]
 
-[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_pim2y"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_iillx"]
+[ext_resource type="Resource" uid="uid://c5mj1nxxidngk" path="res://data/types/Flying.tres" id="1_os4w5"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_4vbx0"]
 
 [resource]
-script = ExtResource("2_iillx")
+script = ExtResource("2_4vbx0")
 move_id = 512
 move_name = {
 "en": "Acrobatics",
-"fr": "Acrobatics"
+"fr": "Acrobatie"
 }
-move_type = ExtResource("1_pim2y")
+move_type = ExtResource("1_os4w5")
 category = "Physical"
 contest = "Cool"
 power = 55
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

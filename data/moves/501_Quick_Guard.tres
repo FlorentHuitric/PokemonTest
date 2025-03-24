@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bainvc2hirxou"]
 
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_gxoq5"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_jv5dw"]
+[ext_resource type="Resource" uid="uid://bc1ql3ehfu005" path="res://data/types/Fighting.tres" id="1_v4dhq"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_bbp7h"]
 
 [resource]
-script = ExtResource("2_jv5dw")
+script = ExtResource("2_bbp7h")
 move_id = 501
 move_name = {
 "en": "Quick Guard",
-"fr": "Quick Guard"
+"fr": "Prévention"
 }
-move_type = ExtResource("1_gxoq5")
+move_type = ExtResource("1_v4dhq")
 category = "Status"
 contest = "Cool"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 11
+meta_category_desc = {
+"en": "Effect on one side of the field"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

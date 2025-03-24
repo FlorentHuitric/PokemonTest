@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://beiribd8rx44r"]
 
-[ext_resource type="Resource" path="res://data/abilities/Sword of Ruin.tres" id="1_uclya"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_bjyrc"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_tgqtw"]
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_brmms"]
+[ext_resource type="Resource" uid="uid://erm1yhq5af6g" path="res://data/abilities/Sword_of_Ruin.tres" id="1_je725"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_tckru"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_xt20v"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_1pwgx"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_gpchv"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_nhhov"]
 
 [resource]
-script = ExtResource("2_bjyrc")
+script = ExtResource("2_xt20v")
 pokemon_id = 1002
 branch_code = ""
 names = {
-"en": "Chien-Pao"
+"en": "Chien-Pao",
+"fr": "Chien-Pao"
 }
 generation = 9
 height = 1.9
 weight = 152.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_tgqtw"), ExtResource("4_brmms")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uclya")])
+types = Array[ExtResource("4_nhhov")]([ExtResource("3_1pwgx"), ExtResource("4_gpchv")])
+abilities = Array[ExtResource("1_tckru")]([ExtResource("1_je725")])
 color = "White"
 gender_ratio = {
 "female": 0.0,

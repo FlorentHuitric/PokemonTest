@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bbvcq5nuc6n08"]
 
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="1_prmkk"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_61o7u"]
+[ext_resource type="Resource" uid="uid://dbeo867ql5r86" path="res://data/types/Ice.tres" id="1_bfeom"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_m5vgv"]
 
 [resource]
-script = ExtResource("2_61o7u")
+script = ExtResource("2_m5vgv")
 move_id = 553
 move_name = {
 "en": "Freeze Shock",
-"fr": "Freeze Shock"
+"fr": "Éclair Gelé"
 }
-move_type = ExtResource("1_prmkk")
+move_type = ExtResource("1_bfeom")
 category = "Physical"
 contest = "Beautiful"
 power = 140
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 1
+meta_ailment_name = {
+"en": "Paralysis",
+"fr": "Paralysie"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 30
+flinch_chance = 0
+stat_chance = 0

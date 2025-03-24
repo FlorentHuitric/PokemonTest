@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b36xge4ao8r1k"]
+
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_1msg7"]
+[ext_resource type="Resource" uid="uid://7lrx07qa4axc" path="res://data/abilities/Intimidate.tres" id="1_5uek7"]
+[ext_resource type="Resource" uid="uid://dfe4q8tj10r3d" path="res://data/abilities/Guts.tres" id="2_n16hd"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_dfsi3"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="4_eo7f5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_8yri5"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_hhyo4"]
+
+[resource]
+script = ExtResource("3_dfsi3")
+pokemon_id = 931
+branch_code = ""
+names = {
+"en": "Squawkabilly Green Plumage",
+"fr": "Squawkabilly Green Plumage"
+}
+generation = 9
+height = 0.6
+weight = 2.4
+types = Array[ExtResource("5_8yri5")]([ExtResource("4_eo7f5"), ExtResource("5_hhyo4")])
+abilities = Array[ExtResource("1_1msg7")]([ExtResource("1_5uek7"), ExtResource("2_n16hd"), ExtResource("2_n16hd")])
+color = "Green"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 15
+egg_groups = PackedStringArray("Flying")
+catch_rate = 190
+base_experience = 146
+experience_type = "600000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 96,
+"defense": 51,
+"hp": 82,
+"special_attack": 45,
+"special_defense": 51,
+"speed": 92,
+"total": 417
+}
+effort_points = {
+"attack": 1,
+"defense": 0,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/931.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/931.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/931.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/931.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

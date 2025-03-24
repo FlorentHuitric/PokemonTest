@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cy35o2nio8ggs"]
 
-[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="1_42pr1"]
-[ext_resource type="Resource" path="res://data/abilities/Pickup.tres" id="2_mxgi4"]
-[ext_resource type="Resource" path="res://data/abilities/Own Tempo.tres" id="3_nfywk"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_0dv36"]
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_yqjji"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_gpesb"]
+[ext_resource type="Resource" uid="uid://2l645fu4gg4a" path="res://data/abilities/Run_Away.tres" id="1_y6fhr"]
+[ext_resource type="Resource" uid="uid://bvngmfnpqpql1" path="res://data/abilities/Pickup.tres" id="2_ks7bg"]
+[ext_resource type="Resource" uid="uid://ubaf1ntf8o73" path="res://data/abilities/Own_Tempo.tres" id="3_o33fm"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_bkc6m"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_2heqp"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_bvbde"]
 
 [resource]
-script = ExtResource("4_0dv36")
+script = ExtResource("4_bkc6m")
 pokemon_id = 924
 branch_code = ""
 names = {
-"en": "Tandemaus"
+"en": "Tandemaus",
+"fr": "Tandemaus"
 }
 generation = 9
 height = 0.3
 weight = 1.8
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_yqjji")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_42pr1"), ExtResource("2_mxgi4"), ExtResource("3_nfywk")])
+types = Array[ExtResource("6_bvbde")]([ExtResource("5_2heqp")])
+abilities = Array[ExtResource("1_gpesb")]([ExtResource("1_y6fhr"), ExtResource("2_ks7bg"), ExtResource("3_o33fm")])
 color = "White"
 gender_ratio = {
 "female": 0.0,

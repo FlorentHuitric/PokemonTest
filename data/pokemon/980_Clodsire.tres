@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://db0aiwv6pumpt"]
 
-[ext_resource type="Resource" path="res://data/abilities/Poison Point.tres" id="1_8h6o2"]
-[ext_resource type="Resource" path="res://data/abilities/Water Absorb.tres" id="2_st1q5"]
-[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="3_w6huj"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_th3vc"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_wpohu"]
-[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_ecrf6"]
+[ext_resource type="Resource" uid="uid://dfkb8dcmwmb7v" path="res://data/abilities/Poison_Point.tres" id="1_kn3c7"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_stu7i"]
+[ext_resource type="Resource" uid="uid://db2w0ropfqr4a" path="res://data/abilities/Water_Absorb.tres" id="2_gbnql"]
+[ext_resource type="Resource" uid="uid://b1vr8s8h6ualj" path="res://data/abilities/Unaware.tres" id="3_54wog"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_u53g1"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_6bluk"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_hdhck"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="6_uqyb8"]
 
 [resource]
-script = ExtResource("4_th3vc")
+script = ExtResource("4_u53g1")
 pokemon_id = 980
 branch_code = ""
 names = {
-"en": "Clodsire"
+"en": "Clodsire",
+"fr": "Clodsire"
 }
 generation = 9
 height = 1.8
 weight = 223.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_wpohu"), ExtResource("6_ecrf6")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8h6o2"), ExtResource("2_st1q5"), ExtResource("3_w6huj")])
+types = Array[ExtResource("6_hdhck")]([ExtResource("5_6bluk"), ExtResource("6_uqyb8")])
+abilities = Array[ExtResource("1_stu7i")]([ExtResource("1_kn3c7"), ExtResource("2_gbnql"), ExtResource("3_54wog")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

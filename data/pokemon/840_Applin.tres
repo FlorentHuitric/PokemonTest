@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://ch3qrtc7q03y3"]
 
-[ext_resource type="Resource" path="res://data/abilities/Ripen.tres" id="1_cxdb5"]
-[ext_resource type="Resource" path="res://data/abilities/Gluttony.tres" id="2_ujiug"]
-[ext_resource type="Resource" path="res://data/abilities/Bulletproof.tres" id="3_24o1y"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_n7j5t"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_6mf81"]
-[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="6_p33ws"]
+[ext_resource type="Resource" uid="uid://frl4gnvh3h26" path="res://data/abilities/Ripen.tres" id="1_2kt00"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_cx036"]
+[ext_resource type="Resource" uid="uid://dmwdi0mgnjqn5" path="res://data/abilities/Gluttony.tres" id="2_avc47"]
+[ext_resource type="Resource" uid="uid://ckjklo858xpx5" path="res://data/abilities/Bulletproof.tres" id="3_p6q6r"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_4pxda"]
+[ext_resource type="Resource" uid="uid://b3nhx0mepki2w" path="res://data/types/Grass.tres" id="5_nqfcl"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_883x7"]
+[ext_resource type="Resource" uid="uid://clnwl63eo0rdw" path="res://data/types/Dragon.tres" id="6_f4nfc"]
 
 [resource]
-script = ExtResource("4_n7j5t")
+script = ExtResource("4_4pxda")
 pokemon_id = 840
 branch_code = ""
 names = {
-"en": "Applin"
+"en": "Applin",
+"fr": "Applin"
 }
 generation = 8
 height = 0.2
 weight = 0.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6mf81"), ExtResource("6_p33ws")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_cxdb5"), ExtResource("2_ujiug"), ExtResource("3_24o1y")])
+types = Array[ExtResource("6_883x7")]([ExtResource("5_nqfcl"), ExtResource("6_f4nfc")])
+abilities = Array[ExtResource("1_cx036")]([ExtResource("1_2kt00"), ExtResource("2_avc47"), ExtResource("3_p6q6r")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,
@@ -62,3 +65,84 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 110,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 111,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 205,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 213,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 278,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 310,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 389,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 434,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 803,
+"tm_id": ""
+}]

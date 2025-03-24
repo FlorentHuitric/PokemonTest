@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://d4nodhv6rxxco"]
 
-[ext_resource type="Resource" path="res://data/abilities/Volt Absorb.tres" id="1_0vuh6"]
-[ext_resource type="Resource" path="res://data/abilities/Static.tres" id="2_d7fbl"]
-[ext_resource type="Resource" path="res://data/abilities/Slush Rush.tres" id="3_hju32"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_qro83"]
-[ext_resource type="Resource" path="res://data/types/Electric.tres" id="5_jq600"]
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="6_y1y2c"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_5po6r"]
+[ext_resource type="Resource" uid="uid://bw873kouonvhs" path="res://data/abilities/Volt_Absorb.tres" id="1_x2q3k"]
+[ext_resource type="Resource" uid="uid://bd4pnsif2xgnu" path="res://data/abilities/Static.tres" id="2_6qwau"]
+[ext_resource type="Resource" uid="uid://c6ey1rioc0kra" path="res://data/abilities/Slush_Rush.tres" id="3_pyn1g"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_susny"]
+[ext_resource type="Resource" uid="uid://cjhxpx28x7q10" path="res://data/types/Electric.tres" id="5_81qv7"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_rw31m"]
+[ext_resource type="Resource" uid="uid://dbeo867ql5r86" path="res://data/types/Ice.tres" id="6_y62g3"]
 
 [resource]
-script = ExtResource("4_qro83")
+script = ExtResource("4_susny")
 pokemon_id = 881
 branch_code = ""
 names = {
-"en": "Arctozolt"
+"en": "Arctozolt",
+"fr": "Arctozolt"
 }
 generation = 8
 height = 2.3
 weight = 150.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_jq600"), ExtResource("6_y1y2c")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_0vuh6"), ExtResource("2_d7fbl"), ExtResource("3_hju32")])
+types = Array[ExtResource("6_rw31m")]([ExtResource("5_81qv7"), ExtResource("6_y62g3")])
+abilities = Array[ExtResource("1_5po6r")]([ExtResource("1_x2q3k"), ExtResource("2_6qwau"), ExtResource("3_pyn1g")])
 color = "Blue"
 gender_ratio = {
 "female": 0.0,
@@ -62,3 +65,366 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 5,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 9,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 49,
+"method": 1,
+"move_id": 21,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 25,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 34,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 56,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 57,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 58,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 77,
+"method": 1,
+"move_id": 59,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 59,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 63,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 67,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 84,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 85,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 86,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 87,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 156,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 157,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 164,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 181,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 182,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 196,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 203,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 214,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 231,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 240,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 21,
+"method": 1,
+"move_id": 246,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 258,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 263,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 7,
+"method": 1,
+"move_id": 268,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 269,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 304,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 317,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 333,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 350,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 28,
+"method": 1,
+"move_id": 365,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 371,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 416,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 35,
+"method": 1,
+"move_id": 419,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 419,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 422,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 423,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 56,
+"method": 1,
+"move_id": 435,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 444,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 486,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 496,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 14,
+"method": 1,
+"move_id": 497,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 523,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 528,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 70,
+"method": 1,
+"move_id": 556,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 42,
+"method": 1,
+"move_id": 573,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 707,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 63,
+"method": 1,
+"move_id": 754,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 800,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 804,
+"tm_id": ""
+}]

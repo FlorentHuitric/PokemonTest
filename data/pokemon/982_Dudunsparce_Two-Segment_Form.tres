@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cybr50di0w8ki"]
+
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_k1mrc"]
+[ext_resource type="Resource" uid="uid://cytj06yupywi2" path="res://data/abilities/Serene_Grace.tres" id="1_ub8ki"]
+[ext_resource type="Resource" uid="uid://2l645fu4gg4a" path="res://data/abilities/Run_Away.tres" id="2_c42ec"]
+[ext_resource type="Resource" uid="uid://c5rfle7g0vjyl" path="res://data/abilities/Rattled.tres" id="3_8qtmg"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_xjbfa"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_4jy1f"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_bf08g"]
+
+[resource]
+script = ExtResource("4_xjbfa")
+pokemon_id = 982
+branch_code = ""
+names = {
+"en": "Dudunsparce Two-Segment Form",
+"fr": "Dudunsparce Two-Segment Form"
+}
+generation = 9
+height = 3.6
+weight = 39.2
+types = Array[ExtResource("6_bf08g")]([ExtResource("5_4jy1f")])
+abilities = Array[ExtResource("1_k1mrc")]([ExtResource("1_ub8ki"), ExtResource("2_c42ec"), ExtResource("3_8qtmg")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Ground")
+catch_rate = 45
+base_experience = 182
+experience_type = "1000000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 100,
+"defense": 80,
+"hp": 125,
+"special_attack": 85,
+"special_defense": 75,
+"speed": 55,
+"total": 520
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/982.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/982.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/982.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/982.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

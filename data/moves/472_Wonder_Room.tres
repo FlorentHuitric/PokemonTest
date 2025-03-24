@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bbhmjhcslurfj"]
 
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_xbuxv"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_8fya0"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="1_3lwbc"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_fg5i0"]
 
 [resource]
-script = ExtResource("2_8fya0")
+script = ExtResource("2_fg5i0")
 move_id = 472
 move_name = {
 "en": "Wonder Room",
-"fr": "Wonder Room"
+"fr": "Zone Étrange"
 }
-move_type = ExtResource("1_xbuxv")
+move_type = ExtResource("1_3lwbc")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 10
+meta_category_desc = {
+"en": "Effect on the whole field"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

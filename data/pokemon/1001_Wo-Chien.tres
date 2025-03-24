@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://0qhrn4t0k8yc"]
 
-[ext_resource type="Resource" path="res://data/abilities/Tablets of Ruin.tres" id="1_ujor6"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_ubcqm"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_b3iog"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_dth1e"]
+[ext_resource type="Resource" uid="uid://dlt51ll5yh1wi" path="res://data/abilities/Tablets_of_Ruin.tres" id="1_1criv"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_syep4"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_rf7up"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="3_temxk"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_h5d4m"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_jhcue"]
 
 [resource]
-script = ExtResource("2_ubcqm")
+script = ExtResource("2_rf7up")
 pokemon_id = 1001
 branch_code = ""
 names = {
-"en": "Wo-Chien"
+"en": "Wo-Chien",
+"fr": "Wo-Chien"
 }
 generation = 9
 height = 1.5
 weight = 74.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_b3iog"), ExtResource("4_dth1e")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ujor6")])
+types = Array[ExtResource("4_jhcue")]([ExtResource("3_temxk"), ExtResource("4_h5d4m")])
+abilities = Array[ExtResource("1_syep4")]([ExtResource("1_1criv")])
 color = "Brown"
 gender_ratio = {
 "female": 0.0,

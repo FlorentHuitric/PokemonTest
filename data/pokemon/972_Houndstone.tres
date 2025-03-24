@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://byissvc802733"]
 
-[ext_resource type="Resource" path="res://data/abilities/Sand Rush.tres" id="1_dj55u"]
-[ext_resource type="Resource" path="res://data/abilities/Fluffy.tres" id="2_jyh0t"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_jyxiv"]
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_fpei6"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ms45n"]
+[ext_resource type="Resource" uid="uid://ceiipgft7n5h8" path="res://data/abilities/Sand_Rush.tres" id="1_sko53"]
+[ext_resource type="Resource" uid="uid://bkr5he6ap2oth" path="res://data/abilities/Fluffy.tres" id="2_nosir"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_4t16i"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="4_oad50"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_6yb2j"]
 
 [resource]
-script = ExtResource("3_jyxiv")
+script = ExtResource("3_4t16i")
 pokemon_id = 972
 branch_code = ""
 names = {
-"en": "Houndstone"
+"en": "Houndstone",
+"fr": "Houndstone"
 }
 generation = 9
 height = 2.0
 weight = 15.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_fpei6")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dj55u"), ExtResource("2_jyh0t")])
+types = Array[ExtResource("5_6yb2j")]([ExtResource("4_oad50")])
+abilities = Array[ExtResource("1_ms45n")]([ExtResource("1_sko53"), ExtResource("2_nosir")])
 color = "White"
 gender_ratio = {
 "female": 50.0,

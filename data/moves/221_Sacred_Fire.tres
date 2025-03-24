@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b6ovuhjtcko1m"]
 
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_k6b6f"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_nca6r"]
+[ext_resource type="Resource" uid="uid://cok4nx56x62l" path="res://data/types/Fire.tres" id="1_sdjps"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_mahni"]
 
 [resource]
-script = ExtResource("2_nca6r")
+script = ExtResource("2_mahni")
 move_id = 221
 move_name = {
 "en": "Sacred Fire",
-"fr": "Sacred Fire"
+"fr": "Feu Sacré"
 }
-move_type = ExtResource("1_k6b6f")
+move_type = ExtResource("1_sdjps")
 category = "Physical"
 contest = "Beautiful"
 power = 100
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 4
+meta_ailment_name = {
+"en": "Burn",
+"fr": "Brûlure"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 50
+flinch_chance = 0
+stat_chance = 0

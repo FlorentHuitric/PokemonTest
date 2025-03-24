@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bepcs517yoqjt"]
 
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="1_cp3ps"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_5mtkm"]
+[ext_resource type="Resource" uid="uid://jfhepwbcm8s8" path="res://data/types/Water.tres" id="1_artcy"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_0rpmv"]
 
 [resource]
-script = ExtResource("2_5mtkm")
+script = ExtResource("2_0rpmv")
 move_id = 110
 move_name = {
 "en": "Withdraw",
-"fr": "Withdraw"
+"fr": "Repli"
 }
-move_type = ExtResource("1_cp3ps")
+move_type = ExtResource("1_artcy")
 category = "Status"
 contest = "Cute"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 2
+meta_category_desc = {
+"en": "No damage; lowers target's stats or raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

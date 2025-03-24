@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://dopxu7b18xxmg"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_70u2x"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_j86rc"]
 
 [resource]
-script = ExtResource("1_70u2x")
+script = ExtResource("1_j86rc")
 ability_name = "Protosynthesis"
 descriptions = {
 "en": "Description not available yet.",

@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://byr5euf1whsd0"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_8b1yy"]
-[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="2_mll08"]
-[ext_resource type="Resource" path="res://data/abilities/Telepathy.tres" id="3_yke2u"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_5mqmd"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_8fs1e"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_fcira"]
+[ext_resource type="Resource" uid="uid://spl2ih0co7ds" path="res://data/abilities/Swarm.tres" id="1_qiclj"]
+[ext_resource type="Resource" uid="uid://b5d8oo7fd7wtg" path="res://data/abilities/Compound_Eyes.tres" id="2_hkof1"]
+[ext_resource type="Resource" uid="uid://dcuv3tce470tl" path="res://data/abilities/Telepathy.tres" id="3_xrf7q"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_tbpgd"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="5_dr6ua"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_aqb1o"]
 
 [resource]
-script = ExtResource("4_5mqmd")
+script = ExtResource("4_tbpgd")
 pokemon_id = 824
 branch_code = ""
 names = {
-"en": "Blipbug"
+"en": "Blipbug",
+"fr": "Blipbug"
 }
 generation = 8
 height = 0.4
 weight = 8.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8fs1e")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_8b1yy"), ExtResource("2_mll08"), ExtResource("3_yke2u")])
+types = Array[ExtResource("6_aqb1o")]([ExtResource("5_dr6ua")])
+abilities = Array[ExtResource("1_fcira")]([ExtResource("1_qiclj"), ExtResource("2_hkof1"), ExtResource("3_xrf7q")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,
@@ -61,3 +64,60 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 48,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 105,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 522,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 564,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 611,
+"tm_id": ""
+}]

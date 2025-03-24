@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bag414ghlkube"]
 
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_evxfb"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_bvcbh"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="1_64p41"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_jlakq"]
 
 [resource]
-script = ExtResource("2_bvcbh")
+script = ExtResource("2_jlakq")
 move_id = 689
 move_name = {
 "en": "Instruct",
-"fr": "Instruct"
+"fr": "Sommation"
 }
-move_type = ExtResource("1_evxfb")
+move_type = ExtResource("1_64p41")
 category = "Status"
 contest = "???"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 13
+meta_category_desc = {
+"en": "Unique effect"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

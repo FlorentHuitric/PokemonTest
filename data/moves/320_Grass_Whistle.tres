@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cpo7j1708refq"]
 
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_tae0w"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_6c44g"]
+[ext_resource type="Resource" uid="uid://b3nhx0mepki2w" path="res://data/types/Grass.tres" id="1_x7052"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_v0bhi"]
 
 [resource]
-script = ExtResource("2_6c44g")
+script = ExtResource("2_v0bhi")
 move_id = 320
 move_name = {
 "en": "Grass Whistle",
-"fr": "Grass Whistle"
+"fr": "Siffl’Herbe"
 }
-move_type = ExtResource("1_tae0w")
+move_type = ExtResource("1_x7052")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 2
+meta_ailment_name = {
+"en": "Sleep",
+"fr": "Sommeil"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 2
+max_turns = 4
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

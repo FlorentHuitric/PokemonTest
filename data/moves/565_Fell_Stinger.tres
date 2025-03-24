@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cmmprxfx6k3jb"]
 
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_nrqpr"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_70fg1"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="1_s13yq"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_qmmqf"]
 
 [resource]
-script = ExtResource("2_70fg1")
+script = ExtResource("2_qmmqf")
 move_id = 565
 move_name = {
 "en": "Fell Stinger",
-"fr": "Fell Stinger"
+"fr": "Dard Mortel"
 }
-move_type = ExtResource("1_nrqpr")
+move_type = ExtResource("1_s13yq")
 category = "Physical"
 contest = "Cool"
 power = 50
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

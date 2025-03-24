@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://dhfyl601py8xt"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_ebtlg"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_4dqfy"]
 
 [resource]
-script = ExtResource("1_ebtlg")
+script = ExtResource("1_4dqfy")
 ability_name = "Corrosion"
 descriptions = {
 "en": "Description not available yet.",

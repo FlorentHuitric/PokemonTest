@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://c1lngog4vp2pu"]
 
-[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="1_bfath"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_3o62x"]
+[ext_resource type="Resource" uid="uid://clnwl63eo0rdw" path="res://data/types/Dragon.tres" id="1_i5i0x"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_dbnr8"]
 
 [resource]
-script = ExtResource("2_3o62x")
+script = ExtResource("2_dbnr8")
 move_id = 691
 move_name = {
 "en": "Clanging Scales",
-"fr": "Clanging Scales"
+"fr": "Vibrécaille"
 }
-move_type = ExtResource("1_bfath")
+move_type = ExtResource("1_i5i0x")
 category = "Special"
 contest = "???"
 power = 110
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 7
+meta_category_desc = {
+"en": "Inflicts damage; raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 100

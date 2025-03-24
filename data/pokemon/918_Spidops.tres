@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://1mu8rmowkpbo"]
 
-[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="1_bs11r"]
-[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="2_4ipue"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_03oq7"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_cxdal"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_88cqd"]
+[ext_resource type="Resource" uid="uid://c423m16xjjbj4" path="res://data/abilities/Insomnia.tres" id="1_qmatj"]
+[ext_resource type="Resource" uid="uid://drm5ntsg85mxy" path="res://data/abilities/Stakeout.tres" id="2_qqh03"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_gj18l"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_08asp"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_mfgr1"]
 
 [resource]
-script = ExtResource("3_03oq7")
+script = ExtResource("3_gj18l")
 pokemon_id = 918
 branch_code = ""
 names = {
-"en": "Spidops"
+"en": "Spidops",
+"fr": "Spidops"
 }
 generation = 9
 height = 1.0
 weight = 16.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_cxdal")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bs11r"), ExtResource("2_4ipue")])
+types = Array[ExtResource("5_mfgr1")]([ExtResource("4_08asp")])
+abilities = Array[ExtResource("1_88cqd")]([ExtResource("1_qmatj"), ExtResource("2_qqh03")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

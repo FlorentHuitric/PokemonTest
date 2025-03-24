@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://7gt1sfmp20bs"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_4xppg"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_83f4q"]
 
 [resource]
-script = ExtResource("1_4xppg")
+script = ExtResource("1_83f4q")
 ability_name = "Multiscale"
 descriptions = {
 "en": "Description not available yet.",

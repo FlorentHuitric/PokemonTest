@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://dcuv3tce470tl"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_r7csg"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_efiky"]
 
 [resource]
-script = ExtResource("1_r7csg")
+script = ExtResource("1_efiky")
 ability_name = "Telepathy"
 descriptions = {
 "en": "Description not available yet.",

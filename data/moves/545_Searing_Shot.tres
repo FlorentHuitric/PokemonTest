@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://x2brctfnxby0"]
 
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="1_qhxhn"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_5jd83"]
+[ext_resource type="Resource" uid="uid://cok4nx56x62l" path="res://data/types/Fire.tres" id="1_of75p"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_6qpiw"]
 
 [resource]
-script = ExtResource("2_5jd83")
+script = ExtResource("2_6qpiw")
 move_id = 545
 move_name = {
 "en": "Searing Shot",
-"fr": "Searing Shot"
+"fr": "Incendie"
 }
-move_type = ExtResource("1_qhxhn")
+move_type = ExtResource("1_of75p")
 category = "Special"
 contest = "Cool"
 power = 100
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 4
+meta_ailment_name = {
+"en": "Burn",
+"fr": "Brûlure"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 30
+flinch_chance = 0
+stat_chance = 0

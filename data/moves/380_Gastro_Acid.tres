@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://b3rt75rtat4gb"]
 
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_gxy3f"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_j5cne"]
+[ext_resource type="Resource" uid="uid://5n6r5mn3o2ge" path="res://data/types/Poison.tres" id="1_atco1"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_gxtvf"]
 
 [resource]
-script = ExtResource("2_j5cne")
+script = ExtResource("2_gxtvf")
 move_id = 380
 move_name = {
 "en": "Gastro Acid",
-"fr": "Gastro Acid"
+"fr": "Suc Digestif"
 }
-move_type = ExtResource("1_gxy3f")
+move_type = ExtResource("1_atco1")
 category = "Status"
 contest = "Tough"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 13
+meta_category_desc = {
+"en": "Unique effect"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

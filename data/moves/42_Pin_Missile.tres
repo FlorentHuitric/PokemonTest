@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://d156g4eay4wux"]
 
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_w8i7o"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_2jqge"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="1_ie725"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_bklsp"]
 
 [resource]
-script = ExtResource("2_2jqge")
+script = ExtResource("2_bklsp")
 move_id = 42
 move_name = {
 "en": "Pin Missile",
-"fr": "Pin Missile"
+"fr": "Dard-Nuée"
 }
-move_type = ExtResource("1_w8i7o")
+move_type = ExtResource("1_ie725")
 category = "Physical"
 contest = "Cool"
 power = 25
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 2
+max_hits = 5
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

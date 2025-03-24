@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://bihvhmogoomrs"]
 
-[ext_resource type="Resource" path="res://data/abilities/Overcoat.tres" id="1_brw6f"]
-[ext_resource type="Resource" path="res://data/abilities/Filter.tres" id="2_qjhid"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2wex7"]
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_kqyqh"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_41jcp"]
+[ext_resource type="Resource" uid="uid://d0a7hbahe0v4e" path="res://data/abilities/Overcoat.tres" id="1_f47qw"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_gqdsk"]
+[ext_resource type="Resource" uid="uid://c8u8angykwwdm" path="res://data/abilities/Filter.tres" id="2_m6oin"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_3jlh8"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_5cpul"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_b1va5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_fj2cb"]
 
 [resource]
-script = ExtResource("3_2wex7")
+script = ExtResource("3_3jlh8")
 pokemon_id = 966
 branch_code = ""
 names = {
-"en": "Revavroom"
+"en": "Revavroom",
+"fr": "Revavroom"
 }
 generation = 9
 height = 1.8
 weight = 120.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_kqyqh"), ExtResource("5_41jcp")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_brw6f"), ExtResource("2_qjhid")])
+types = Array[ExtResource("5_fj2cb")]([ExtResource("4_5cpul"), ExtResource("5_b1va5")])
+abilities = Array[ExtResource("1_gqdsk")]([ExtResource("1_f47qw"), ExtResource("2_m6oin")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

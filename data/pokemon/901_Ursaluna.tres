@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://cty071c7eygbr"]
 
-[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="1_awrqg"]
-[ext_resource type="Resource" path="res://data/abilities/Bulletproof.tres" id="2_0uppo"]
-[ext_resource type="Resource" path="res://data/abilities/Unnerve.tres" id="3_ve8yp"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_gqal2"]
-[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_b7yd0"]
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_p58tb"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_06d81"]
+[ext_resource type="Resource" uid="uid://dfe4q8tj10r3d" path="res://data/abilities/Guts.tres" id="1_vags7"]
+[ext_resource type="Resource" uid="uid://ckjklo858xpx5" path="res://data/abilities/Bulletproof.tres" id="2_o6a61"]
+[ext_resource type="Resource" uid="uid://pyj52hucmluq" path="res://data/abilities/Unnerve.tres" id="3_vq47u"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_facfi"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="5_w17qn"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="6_5enr5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_nfhnl"]
 
 [resource]
-script = ExtResource("4_gqal2")
+script = ExtResource("4_facfi")
 pokemon_id = 901
 branch_code = ""
 names = {
-"en": "Ursaluna"
+"en": "Ursaluna",
+"fr": "Ursaluna"
 }
 generation = 8
 height = 2.4
 weight = 290.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_b7yd0"), ExtResource("6_p58tb")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_awrqg"), ExtResource("2_0uppo"), ExtResource("3_ve8yp")])
+types = Array[ExtResource("6_nfhnl")]([ExtResource("5_w17qn"), ExtResource("6_5enr5")])
+abilities = Array[ExtResource("1_06d81")]([ExtResource("1_vags7"), ExtResource("2_o6a61"), ExtResource("3_vq47u")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

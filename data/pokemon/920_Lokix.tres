@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b3j05p4g4vjsp"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_www5a"]
-[ext_resource type="Resource" path="res://data/abilities/Tinted Lens.tres" id="2_xmram"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_peyfg"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_y67ij"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_suvc7"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_6xexl"]
+[ext_resource type="Resource" uid="uid://spl2ih0co7ds" path="res://data/abilities/Swarm.tres" id="1_jywtp"]
+[ext_resource type="Resource" uid="uid://b2kaeeemhpwu0" path="res://data/abilities/Tinted_Lens.tres" id="2_qu0wm"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_vhjhg"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_sfk2g"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_3uj37"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_jkue3"]
 
 [resource]
-script = ExtResource("3_peyfg")
+script = ExtResource("3_vhjhg")
 pokemon_id = 920
 branch_code = ""
 names = {
-"en": "Lokix"
+"en": "Lokix",
+"fr": "Lokix"
 }
 generation = 9
 height = 1.0
 weight = 17.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_y67ij"), ExtResource("5_suvc7")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_www5a"), ExtResource("2_xmram")])
+types = Array[ExtResource("5_3uj37")]([ExtResource("4_sfk2g"), ExtResource("5_jkue3")])
+abilities = Array[ExtResource("1_6xexl")]([ExtResource("1_jywtp"), ExtResource("2_qu0wm")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

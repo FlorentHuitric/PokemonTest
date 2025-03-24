@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://h6gnoo07wut4"]
 
-[ext_resource type="Resource" path="res://data/types/Flying.tres" id="1_isytq"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ftsnm"]
+[ext_resource type="Resource" uid="uid://c5mj1nxxidngk" path="res://data/types/Flying.tres" id="1_xb4se"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_oky7m"]
 
 [resource]
-script = ExtResource("2_ftsnm")
+script = ExtResource("2_oky7m")
 move_id = 507
 move_name = {
 "en": "Sky Drop",
-"fr": "Sky Drop"
+"fr": "Chute Libre"
 }
-move_type = ExtResource("1_isytq")
+move_type = ExtResource("1_xb4se")
 category = "Physical"
 contest = "Tough"
 power = 60
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://drmfms7147x86"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_iox61"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_txa8w"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_w70g2"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_3ps8r"]
 
 [resource]
-script = ExtResource("2_txa8w")
+script = ExtResource("2_3ps8r")
 move_id = 29
 move_name = {
 "en": "Headbutt",
-"fr": "Headbutt"
+"fr": "Coup d’Boule"
 }
-move_type = ExtResource("1_iox61")
+move_type = ExtResource("1_w70g2")
 category = "Physical"
 contest = "Tough"
 power = 70
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 30
+stat_chance = 0

@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://dbeo867ql5r86"]
 
-[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_qphc1"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="1_2acvj"]
 
 [resource]
-script = ExtResource("1_qphc1")
+script = ExtResource("1_2acvj")
 type_name = "Ice"
 sprite_path = "res://assets/sprites/types/ice.png"

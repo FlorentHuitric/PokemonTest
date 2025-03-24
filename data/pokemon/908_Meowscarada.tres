@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://bqsg6wd5pn5xl"]
 
-[ext_resource type="Resource" path="res://data/abilities/Overgrow.tres" id="1_4phli"]
-[ext_resource type="Resource" path="res://data/abilities/Protean.tres" id="2_desyg"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_45v84"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_6h2f4"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_2oc1q"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_jn7nw"]
+[ext_resource type="Resource" uid="uid://ck3xl48v87xco" path="res://data/abilities/Overgrow.tres" id="1_xhywr"]
+[ext_resource type="Resource" uid="uid://bodyl47jbxw5u" path="res://data/abilities/Protean.tres" id="2_m1qt5"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_chdv3"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_560jd"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_6gyyk"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_fqf4i"]
 
 [resource]
-script = ExtResource("3_45v84")
+script = ExtResource("3_chdv3")
 pokemon_id = 908
 branch_code = ""
 names = {
-"en": "Meowscarada"
+"en": "Meowscarada",
+"fr": "Meowscarada"
 }
 generation = 9
 height = 1.5
 weight = 31.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6h2f4"), ExtResource("5_2oc1q")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4phli"), ExtResource("2_desyg")])
+types = Array[ExtResource("5_6gyyk")]([ExtResource("4_560jd"), ExtResource("5_fqf4i")])
+abilities = Array[ExtResource("1_jn7nw")]([ExtResource("1_xhywr"), ExtResource("2_m1qt5")])
 color = "Green"
 gender_ratio = {
 "female": 12.5,

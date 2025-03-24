@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://bc418ad6xw6cw"]
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://5n6r5mn3o2ge"]
 
-[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_wvp6v"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="1_1d27g"]
 
 [resource]
-script = ExtResource("1_wvp6v")
+script = ExtResource("1_1d27g")
 type_name = "Poison"
 sprite_path = "res://assets/sprites/types/poison.png"

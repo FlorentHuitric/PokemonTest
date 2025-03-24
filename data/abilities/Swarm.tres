@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://spl2ih0co7ds"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_h4ll2"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_kg65q"]
 
 [resource]
-script = ExtResource("1_h4ll2")
+script = ExtResource("1_kg65q")
 ability_name = "Swarm"
 descriptions = {
 "en": "Description not available yet.",

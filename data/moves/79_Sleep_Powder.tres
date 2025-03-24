@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://ftdcj5ev0kw3"]
 
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="1_1knos"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_vjxuh"]
+[ext_resource type="Resource" uid="uid://b3nhx0mepki2w" path="res://data/types/Grass.tres" id="1_p3fc3"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_sn0sp"]
 
 [resource]
-script = ExtResource("2_vjxuh")
+script = ExtResource("2_sn0sp")
 move_id = 79
 move_name = {
 "en": "Sleep Powder",
-"fr": "Sleep Powder"
+"fr": "Poudre Dodo"
 }
-move_type = ExtResource("1_1knos")
+move_type = ExtResource("1_p3fc3")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 2
+meta_ailment_name = {
+"en": "Sleep",
+"fr": "Sommeil"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 2
+max_turns = 4
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

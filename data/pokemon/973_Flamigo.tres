@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://bgdyxress2qii"]
 
-[ext_resource type="Resource" path="res://data/abilities/Scrappy.tres" id="1_2su3q"]
-[ext_resource type="Resource" path="res://data/abilities/Tangled Feet.tres" id="2_j7y3d"]
-[ext_resource type="Resource" path="res://data/abilities/Costar.tres" id="3_abxc3"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_u1pe5"]
-[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_v6kex"]
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="6_qqt4o"]
+[ext_resource type="Resource" uid="uid://bmre1glx5wjc4" path="res://data/abilities/Scrappy.tres" id="1_0jywj"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_hsrl7"]
+[ext_resource type="Resource" uid="uid://h7kbnu6t4bxe" path="res://data/abilities/Tangled_Feet.tres" id="2_02aks"]
+[ext_resource type="Resource" uid="uid://blom3nl21nt0i" path="res://data/abilities/Costar.tres" id="3_jan42"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_8nsis"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_hdj8i"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_6vbkp"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="6_yndgj"]
 
 [resource]
-script = ExtResource("4_u1pe5")
+script = ExtResource("4_8nsis")
 pokemon_id = 973
 branch_code = ""
 names = {
-"en": "Flamigo"
+"en": "Flamigo",
+"fr": "Flamigo"
 }
 generation = 9
 height = 1.6
 weight = 37.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_v6kex"), ExtResource("6_qqt4o")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_2su3q"), ExtResource("2_j7y3d"), ExtResource("3_abxc3")])
+types = Array[ExtResource("6_6vbkp")]([ExtResource("5_hdj8i"), ExtResource("6_yndgj")])
+abilities = Array[ExtResource("1_hsrl7")]([ExtResource("1_0jywj"), ExtResource("2_02aks"), ExtResource("3_jan42")])
 color = "Pink"
 gender_ratio = {
 "female": 50.0,

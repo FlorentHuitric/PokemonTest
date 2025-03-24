@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://04bu7fkix27x"]
 
-[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="1_1xdlg"]
-[ext_resource type="Resource" path="res://data/abilities/Stakeout.tres" id="2_4k82v"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_01doi"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_d4u1y"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_7yvyy"]
+[ext_resource type="Resource" uid="uid://c423m16xjjbj4" path="res://data/abilities/Insomnia.tres" id="1_c272e"]
+[ext_resource type="Resource" uid="uid://drm5ntsg85mxy" path="res://data/abilities/Stakeout.tres" id="2_j4l4h"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_ffsk1"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_l2pst"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_uuws3"]
 
 [resource]
-script = ExtResource("3_01doi")
+script = ExtResource("3_ffsk1")
 pokemon_id = 917
 branch_code = ""
 names = {
-"en": "Tarountula"
+"en": "Tarountula",
+"fr": "Tarountula"
 }
 generation = 9
 height = 0.3
 weight = 4.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_d4u1y")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1xdlg"), ExtResource("2_4k82v")])
+types = Array[ExtResource("5_uuws3")]([ExtResource("4_l2pst")])
+abilities = Array[ExtResource("1_7yvyy")]([ExtResource("1_c272e"), ExtResource("2_j4l4h")])
 color = "White"
 gender_ratio = {
 "female": 50.0,

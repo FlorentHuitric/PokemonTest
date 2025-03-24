@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://c6ay84gvk3odg"]
 
-[ext_resource type="Resource" path="res://data/abilities/Hadron Engine.tres" id="1_ofbwy"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_g3upg"]
-[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_brvbj"]
-[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_ksi5o"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_0xg4p"]
+[ext_resource type="Resource" uid="uid://7amm4p74hvhy" path="res://data/abilities/Hadron_Engine.tres" id="1_2w03w"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_aawdg"]
+[ext_resource type="Resource" path="res://data/types/Electric.tres" id="3_2xpxy"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_k4etq"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_rlx7x"]
 
 [resource]
-script = ExtResource("2_g3upg")
+script = ExtResource("2_aawdg")
 pokemon_id = 1008
 branch_code = ""
 names = {
-"en": "Miraidon"
+"en": "Miraidon",
+"fr": "Miraidon"
 }
 generation = 9
 height = 3.5
 weight = 240.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_brvbj"), ExtResource("4_ksi5o")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ofbwy")])
+types = Array[ExtResource("4_k4etq")]([ExtResource("3_2xpxy"), ExtResource("4_rlx7x")])
+abilities = Array[ExtResource("1_0xg4p")]([ExtResource("1_2w03w")])
 color = "Blue"
 gender_ratio = {
 "female": 0.0,

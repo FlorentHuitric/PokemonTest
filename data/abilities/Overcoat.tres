@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://d0a7hbahe0v4e"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_f8ix2"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_wyqfa"]
 
 [resource]
-script = ExtResource("1_f8ix2")
+script = ExtResource("1_wyqfa")
 ability_name = "Overcoat"
 descriptions = {
 "en": "Description not available yet.",

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dg4ucqmo25uj6"]
 
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="1_fjv5d"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_oxcnw"]
+[ext_resource type="Resource" uid="uid://dkiseqq87m31f" path="res://data/types/Steel.tres" id="1_udut7"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_l6a1a"]
 
 [resource]
-script = ExtResource("2_oxcnw")
+script = ExtResource("2_l6a1a")
 move_id = 713
 move_name = {
 "en": "Sunsteel Strike",
-"fr": "Sunsteel Strike"
+"fr": "Choc Météore"
 }
-move_type = ExtResource("1_fjv5d")
+move_type = ExtResource("1_udut7")
 category = "Physical"
 contest = "???"
 power = 100
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://ca1eb20x8nxl6"]
 
-[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="1_dynak"]
-[ext_resource type="Resource" path="res://data/abilities/Guts.tres" id="2_aqw68"]
-[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="3_6lwgl"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_50s2f"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_45esb"]
+[ext_resource type="Resource" uid="uid://7lrx07qa4axc" path="res://data/abilities/Intimidate.tres" id="1_dynak"]
+[ext_resource type="Resource" uid="uid://dfe4q8tj10r3d" path="res://data/abilities/Guts.tres" id="2_aqw68"]
+[ext_resource type="Resource" uid="uid://dgu03r36h7kiy" path="res://data/abilities/Sheer Force.tres" id="3_6lwgl"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_50s2f"]
 [ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_rfwtc"]
 [ext_resource type="Resource" path="res://data/types/Flying.tres" id="6_y0enh"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_y6dv8"]
 
 [resource]
 script = ExtResource("4_50s2f")
@@ -17,8 +19,8 @@ names = {
 generation = 9
 height = 0.6
 weight = 2.4
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_rfwtc"), ExtResource("6_y0enh")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dynak"), ExtResource("2_aqw68"), ExtResource("3_6lwgl")])
+types = Array[ExtResource("6_y6dv8")]([ExtResource("5_rfwtc"), ExtResource("6_y0enh")])
+abilities = Array[ExtResource("1_45esb")]([ExtResource("1_dynak"), ExtResource("2_aqw68"), ExtResource("3_6lwgl")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

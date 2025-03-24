@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dhrxg0y0t16p4"]
 
-[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="1_mlfxh"]
-[ext_resource type="Resource" path="res://data/abilities/Cheek Pouch.tres" id="2_1woph"]
-[ext_resource type="Resource" path="res://data/abilities/Technician.tres" id="3_isk1l"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_yul4d"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_k8pxp"]
+[ext_resource type="Resource" uid="uid://kyd3uqdevns5" path="res://data/abilities/Friend Guard.tres" id="1_mlfxh"]
+[ext_resource type="Resource" uid="uid://ciksn2dvoajfu" path="res://data/abilities/Cheek Pouch.tres" id="2_1woph"]
+[ext_resource type="Resource" uid="uid://tv1i2p43dxi0" path="res://data/abilities/Technician.tres" id="3_isk1l"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_yul4d"]
 [ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_dqac8"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_4ye3u"]
 
 [resource]
 script = ExtResource("4_yul4d")
@@ -16,8 +18,8 @@ names = {
 generation = 9
 height = 0.3
 weight = 2.8
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_dqac8")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mlfxh"), ExtResource("2_1woph"), ExtResource("3_isk1l")])
+types = Array[ExtResource("6_4ye3u")]([ExtResource("5_dqac8")])
+abilities = Array[ExtResource("1_k8pxp")]([ExtResource("1_mlfxh"), ExtResource("2_1woph"), ExtResource("3_isk1l")])
 color = "White"
 gender_ratio = {
 "female": 0.0,

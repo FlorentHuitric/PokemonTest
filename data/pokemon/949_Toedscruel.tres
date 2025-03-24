@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://bbvtoybdh63fe"]
 
-[ext_resource type="Resource" path="res://data/abilities/Mycelium Might.tres" id="1_u57v3"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_d3eom"]
-[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_8t8rq"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_wml2a"]
+[ext_resource type="Resource" uid="uid://iax1b3xhbggv" path="res://data/abilities/Mycelium_Might.tres" id="1_b6qba"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_j02a6"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_jvutd"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_6ghbc"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="4_nykfp"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_xfrne"]
 
 [resource]
-script = ExtResource("2_d3eom")
+script = ExtResource("2_jvutd")
 pokemon_id = 949
 branch_code = ""
 names = {
-"en": "Toedscruel"
+"en": "Toedscruel",
+"fr": "Toedscruel"
 }
 generation = 9
 height = 1.9
 weight = 58.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_8t8rq"), ExtResource("4_wml2a")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_u57v3")])
+types = Array[ExtResource("4_xfrne")]([ExtResource("3_6ghbc"), ExtResource("4_nykfp")])
+abilities = Array[ExtResource("1_j02a6")]([ExtResource("1_b6qba")])
 color = "Black"
 gender_ratio = {
 "female": 50.0,

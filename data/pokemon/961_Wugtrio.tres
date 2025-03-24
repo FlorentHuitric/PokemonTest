@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dd665ker4klj7"]
 
-[ext_resource type="Resource" path="res://data/abilities/Gooey.tres" id="1_3x5dd"]
-[ext_resource type="Resource" path="res://data/abilities/Rattled.tres" id="2_2xxl4"]
-[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="3_b17r3"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_7qgql"]
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_8bn0f"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_m7j8n"]
+[ext_resource type="Resource" uid="uid://bl1gb2amr0rvi" path="res://data/abilities/Gooey.tres" id="1_suc55"]
+[ext_resource type="Resource" uid="uid://c5rfle7g0vjyl" path="res://data/abilities/Rattled.tres" id="2_aykl6"]
+[ext_resource type="Resource" uid="uid://dpd288g1ypnon" path="res://data/abilities/Sand_Veil.tres" id="3_x711t"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_sk7yk"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_7ojqb"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_xr8nv"]
 
 [resource]
-script = ExtResource("4_7qgql")
+script = ExtResource("4_sk7yk")
 pokemon_id = 961
 branch_code = ""
 names = {
-"en": "Wugtrio"
+"en": "Wugtrio",
+"fr": "Wugtrio"
 }
 generation = 9
 height = 1.2
 weight = 5.4
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_8bn0f")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_3x5dd"), ExtResource("2_2xxl4"), ExtResource("3_b17r3")])
+types = Array[ExtResource("6_xr8nv")]([ExtResource("5_7ojqb")])
+abilities = Array[ExtResource("1_m7j8n")]([ExtResource("1_suc55"), ExtResource("2_aykl6"), ExtResource("3_x711t")])
 color = "Red"
 gender_ratio = {
 "female": 50.0,

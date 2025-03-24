@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://wbr1ukfc5n03"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_qrvfo"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_frlw6"]
 
 [resource]
-script = ExtResource("1_qrvfo")
+script = ExtResource("1_frlw6")
 ability_name = "Drizzle"
 descriptions = {
 "en": "Description not available yet.",

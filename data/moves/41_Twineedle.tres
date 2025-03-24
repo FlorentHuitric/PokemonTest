@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://vuggn757fbe7"]
 
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="1_sp6d5"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_eswne"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="1_n42rd"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_jlel4"]
 
 [resource]
-script = ExtResource("2_eswne")
+script = ExtResource("2_jlel4")
 move_id = 41
 move_name = {
 "en": "Twineedle",
-"fr": "Twineedle"
+"fr": "Double Dard"
 }
-move_type = ExtResource("1_sp6d5")
+move_type = ExtResource("1_n42rd")
 category = "Physical"
 contest = "Cool"
 power = 25
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 4
+meta_category_desc = {
+"en": "Inflicts damage; inflicts status ailment"
+}
+meta_ailment_id = 5
+meta_ailment_name = {
+"en": "Poison",
+"fr": "Empoisonnement"
+}
+min_hits = 2
+max_hits = 2
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 20
+flinch_chance = 0
+stat_chance = 0

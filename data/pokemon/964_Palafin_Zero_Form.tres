@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://cfkihosp8xx82"]
+
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_2xvs0"]
+[ext_resource type="Resource" uid="uid://bjqprkna8myji" path="res://data/abilities/Zero_to_Hero.tres" id="1_lbr5r"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_t31cn"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="3_qe53b"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_8rewx"]
+
+[resource]
+script = ExtResource("2_t31cn")
+pokemon_id = 964
+branch_code = ""
+names = {
+"en": "Palafin Zero Form",
+"fr": "Palafin Zero Form"
+}
+generation = 9
+height = 1.3
+weight = 60.2
+types = Array[ExtResource("4_8rewx")]([ExtResource("3_qe53b")])
+abilities = Array[ExtResource("1_2xvs0")]([ExtResource("1_lbr5r")])
+color = "Blue"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 40
+egg_groups = PackedStringArray("Ground", "Water2")
+catch_rate = 45
+base_experience = 160
+experience_type = "1250000"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 70,
+"defense": 72,
+"hp": 100,
+"special_attack": 53,
+"special_defense": 62,
+"speed": 100,
+"total": 457
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 2,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/964.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/964.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/964.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/964.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -183,7 +183,7 @@ func clean_old_moves():
 	while file_name != "":
 		if not dir.current_is_dir() and file_name.ends_with(".tres"):
 			var base_name = file_name.get_basename()
-			if base_name.size() > 0:
+			if base_name.length() > 0:
 				var first_char = base_name.substr(0, 1)
 				var is_letter = (first_char >= 'A' and first_char <= 'Z') or (first_char >= 'a' and first_char <= 'z')
 				if is_letter:
@@ -413,7 +413,7 @@ func import_pokemon(pokemon_list: Array):
 		pokemon_resource.height = float(pokemon_data.get("Height", "0")) if pokemon_data.get("Height", "").is_valid_float() else 0.0
 		pokemon_resource.weight = float(pokemon_data.get("Weight", "0")) if pokemon_data.get("Weight", "").is_valid_float() else 0.0
 		
-		pokemon_resource.types = []
+		pokemon_resource.types = [] as Array[TypeResource]
 		var type1_name = pokemon_data.get("Type1", "").strip_edges()
 		var type2_name = pokemon_data.get("Type2", "").strip_edges()
 		if type1_name != "" and type_resources.has(type1_name):
@@ -421,7 +421,7 @@ func import_pokemon(pokemon_list: Array):
 		if type2_name != "" and type_resources.has(type2_name):
 			pokemon_resource.types.append(type_resources[type2_name])
 		
-		pokemon_resource.abilities = []
+		pokemon_resource.abilities = [] as Array[AbilityResource]
 		var abilities = [
 			pokemon_data.get("Ability1", "").strip_edges(),
 			pokemon_data.get("Ability2", "").strip_edges(),

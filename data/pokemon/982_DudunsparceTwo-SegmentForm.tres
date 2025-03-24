@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://bh7rbe53ibywg"]
 
-[ext_resource type="Resource" path="res://data/abilities/Serene Grace.tres" id="1_hfa3c"]
-[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="2_pn7kc"]
-[ext_resource type="Resource" path="res://data/abilities/Rattled.tres" id="3_7mb5e"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_smmtu"]
+[ext_resource type="Resource" uid="uid://dqam38pbptoch" path="res://data/abilities/Serene Grace.tres" id="1_hfa3c"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ujvpg"]
+[ext_resource type="Resource" uid="uid://cbluh06gnme5x" path="res://data/abilities/Run Away.tres" id="2_pn7kc"]
+[ext_resource type="Resource" uid="uid://c5rfle7g0vjyl" path="res://data/abilities/Rattled.tres" id="3_7mb5e"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_smmtu"]
 [ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_4ur4b"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_htspt"]
 
 [resource]
 script = ExtResource("4_smmtu")
@@ -16,8 +18,8 @@ names = {
 generation = 9
 height = 3.6
 weight = 39.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_4ur4b")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_hfa3c"), ExtResource("2_pn7kc"), ExtResource("3_7mb5e")])
+types = Array[ExtResource("6_htspt")]([ExtResource("5_4ur4b")])
+abilities = Array[ExtResource("1_ujvpg")]([ExtResource("1_hfa3c"), ExtResource("2_pn7kc"), ExtResource("3_7mb5e")])
 color = "Yellow"
 gender_ratio = {
 "female": 50.0,

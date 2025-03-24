@@ -1,21 +1,24 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://dmk3di8tqo85o"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="1_r4q70"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="2_1gcji"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="3_3etjt"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_fcv85"]
+[ext_resource type="Resource" uid="uid://csl8rr5pki072" path="res://data/abilities/Shed_Skin.tres" id="1_j7hgw"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_smja5"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="3_ox4tv"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_mmm1v"]
 
 [resource]
-script = ExtResource("2_1gcji")
+script = ExtResource("2_smja5")
 pokemon_id = 11
 branch_code = ""
 names = {
-"en": "Metapod"
+"en": "Metapod",
+"fr": "Metapod"
 }
 generation = 1
 height = 0.7
 weight = 9.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("3_3etjt")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_r4q70")])
+types = Array[ExtResource("4_mmm1v")]([ExtResource("3_ox4tv")])
+abilities = Array[ExtResource("1_fcv85")]([ExtResource("1_j7hgw")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,
@@ -59,3 +62,84 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}, {
+"generation": 7,
+"level": 7,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 334,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 527,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 1,
+"move_id": 106,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 334,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 527,
+"tm_id": ""
+}]

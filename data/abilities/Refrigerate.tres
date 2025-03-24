@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://b8fodfut06iic"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_xdple"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_eohhg"]
 
 [resource]
-script = ExtResource("1_xdple")
+script = ExtResource("1_eohhg")
 ability_name = "Refrigerate"
 descriptions = {
 "en": "Description not available yet.",

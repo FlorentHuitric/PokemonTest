@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dovpl2djj6wx6"]
 
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="1_3phax"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_kbrl6"]
+[ext_resource type="Resource" uid="uid://5n6r5mn3o2ge" path="res://data/types/Poison.tres" id="1_16ct0"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_m578j"]
 
 [resource]
-script = ExtResource("2_kbrl6")
+script = ExtResource("2_m578j")
 move_id = 92
 move_name = {
 "en": "Toxic",
-"fr": "Toxic"
+"fr": "Toxik"
 }
-move_type = ExtResource("1_3phax")
+move_type = ExtResource("1_16ct0")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 5
+meta_ailment_name = {
+"en": "Poison",
+"fr": "Empoisonnement"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 15
+max_turns = 15
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

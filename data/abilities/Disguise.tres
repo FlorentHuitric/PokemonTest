@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://cbaf58upvlq4l"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_ykg52"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_yspyp"]
 
 [resource]
-script = ExtResource("1_ykg52")
+script = ExtResource("1_yspyp")
 ability_name = "Disguise"
 descriptions = {
 "en": "Description not available yet.",

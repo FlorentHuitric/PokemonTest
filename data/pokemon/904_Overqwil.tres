@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://do1fxbvtqgjiy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Poison Point.tres" id="1_u70rd"]
-[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="2_4gpp7"]
-[ext_resource type="Resource" path="res://data/abilities/Intimidate.tres" id="3_3vbay"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_i4ikr"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_1gahv"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_el3up"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_88fju"]
+[ext_resource type="Resource" uid="uid://dfkb8dcmwmb7v" path="res://data/abilities/Poison_Point.tres" id="1_sr2a1"]
+[ext_resource type="Resource" uid="uid://cikp5dx0vknpn" path="res://data/abilities/Swift_Swim.tres" id="2_3iwtk"]
+[ext_resource type="Resource" uid="uid://7lrx07qa4axc" path="res://data/abilities/Intimidate.tres" id="3_c8d2t"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_lt53r"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="5_i5q2f"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="6_5bs3f"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_shijh"]
 
 [resource]
-script = ExtResource("4_i4ikr")
+script = ExtResource("4_lt53r")
 pokemon_id = 904
 branch_code = ""
 names = {
-"en": "Overqwil"
+"en": "Overqwil",
+"fr": "Overqwil"
 }
 generation = 8
 height = 2.5
 weight = 60.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_1gahv"), ExtResource("6_el3up")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_u70rd"), ExtResource("2_4gpp7"), ExtResource("3_3vbay")])
+types = Array[ExtResource("6_shijh")]([ExtResource("5_i5q2f"), ExtResource("6_5bs3f")])
+abilities = Array[ExtResource("1_88fju")]([ExtResource("1_sr2a1"), ExtResource("2_3iwtk"), ExtResource("3_c8d2t")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

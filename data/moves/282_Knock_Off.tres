@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dleymv05qhet7"]
 
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="1_y8mb5"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ahxx7"]
+[ext_resource type="Resource" uid="uid://bumob24yo2eru" path="res://data/types/Dark.tres" id="1_4btnj"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_o2wlu"]
 
 [resource]
-script = ExtResource("2_ahxx7")
+script = ExtResource("2_o2wlu")
 move_id = 282
 move_name = {
 "en": "Knock Off",
-"fr": "Knock Off"
+"fr": "Sabotage"
 }
-move_type = ExtResource("1_y8mb5")
+move_type = ExtResource("1_4btnj")
 category = "Physical"
 contest = "Clever"
 power = 65
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

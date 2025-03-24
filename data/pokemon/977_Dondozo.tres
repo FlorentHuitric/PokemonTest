@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dnklnd41wprf7"]
 
-[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="1_mnj2y"]
-[ext_resource type="Resource" path="res://data/abilities/Oblivious.tres" id="2_xag87"]
-[ext_resource type="Resource" path="res://data/abilities/Water Veil.tres" id="3_48eeg"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_bbe45"]
-[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_w8hrr"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_cxva3"]
+[ext_resource type="Resource" uid="uid://b1vr8s8h6ualj" path="res://data/abilities/Unaware.tres" id="1_ujcpw"]
+[ext_resource type="Resource" uid="uid://bkat1ocyiv02m" path="res://data/abilities/Oblivious.tres" id="2_m0pkt"]
+[ext_resource type="Resource" uid="uid://iwa874roxbmc" path="res://data/abilities/Water_Veil.tres" id="3_iodjk"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_jmv1l"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_xoee5"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_pnkkf"]
 
 [resource]
-script = ExtResource("4_bbe45")
+script = ExtResource("4_jmv1l")
 pokemon_id = 977
 branch_code = ""
 names = {
-"en": "Dondozo"
+"en": "Dondozo",
+"fr": "Dondozo"
 }
 generation = 9
 height = 12.0
 weight = 220.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_w8hrr")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mnj2y"), ExtResource("2_xag87"), ExtResource("3_48eeg")])
+types = Array[ExtResource("6_pnkkf")]([ExtResource("5_xoee5")])
+abilities = Array[ExtResource("1_cxva3")]([ExtResource("1_ujcpw"), ExtResource("2_m0pkt"), ExtResource("3_iodjk")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,

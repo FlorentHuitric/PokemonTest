@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://c2uy8prcq4ouq"]
 
-[ext_resource type="Resource" path="res://data/abilities/Earth Eater.tres" id="1_ssgfu"]
-[ext_resource type="Resource" path="res://data/abilities/Sand Veil.tres" id="2_246bm"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_1eh3u"]
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_rc64o"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_18b7l"]
+[ext_resource type="Resource" uid="uid://wnsrhpf7lxvk" path="res://data/abilities/Earth_Eater.tres" id="1_sok6h"]
+[ext_resource type="Resource" uid="uid://dpd288g1ypnon" path="res://data/abilities/Sand_Veil.tres" id="2_2h2k6"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_owlr3"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_mq123"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_ewftv"]
 
 [resource]
-script = ExtResource("3_1eh3u")
+script = ExtResource("3_owlr3")
 pokemon_id = 968
 branch_code = ""
 names = {
-"en": "Orthworm"
+"en": "Orthworm",
+"fr": "Orthworm"
 }
 generation = 9
 height = 2.5
 weight = 310.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_rc64o")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ssgfu"), ExtResource("2_246bm")])
+types = Array[ExtResource("5_ewftv")]([ExtResource("4_mq123")])
+abilities = Array[ExtResource("1_18b7l")]([ExtResource("1_sok6h"), ExtResource("2_2h2k6")])
 color = "Pink"
 gender_ratio = {
 "female": 50.0,

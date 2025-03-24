@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://cekon6nihixlr"]
 
-[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_0i4mo"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="1_ea458"]
 
 [resource]
-script = ExtResource("1_0i4mo")
+script = ExtResource("1_ea458")
 type_name = "Ground"
 sprite_path = "res://assets/sprites/types/ground.png"

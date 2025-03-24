@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cjg2q3jawkos6"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_fut8n"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_jgwnl"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_rsqwr"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_wm78i"]
 
 [resource]
-script = ExtResource("2_jgwnl")
+script = ExtResource("2_wm78i")
 move_id = 6
 move_name = {
 "en": "Pay Day",
-"fr": "Pay Day"
+"fr": "Jackpot"
 }
-move_type = ExtResource("1_fut8n")
+move_type = ExtResource("1_rsqwr")
 category = "Physical"
 contest = "Clever"
 power = 40
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dehf2n2pelwpi"]
 
-[ext_resource type="Resource" path="res://data/abilities/Flash Fire.tres" id="1_7fahw"]
-[ext_resource type="Resource" path="res://data/abilities/Weak Armor.tres" id="2_0l5bq"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_2m6hw"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_ywdmg"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_dnq1t"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_numoh"]
+[ext_resource type="Resource" uid="uid://01eufdv5xjx" path="res://data/abilities/Flash_Fire.tres" id="1_yvqq7"]
+[ext_resource type="Resource" uid="uid://cww58i1lqqxsb" path="res://data/abilities/Weak_Armor.tres" id="2_1ev20"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_bwofk"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_fu8hh"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_55iw4"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_qttxe"]
 
 [resource]
-script = ExtResource("3_2m6hw")
+script = ExtResource("3_bwofk")
 pokemon_id = 936
 branch_code = ""
 names = {
-"en": "Armarouge"
+"en": "Armarouge",
+"fr": "Armarouge"
 }
 generation = 9
 height = 1.5
 weight = 85.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ywdmg"), ExtResource("5_dnq1t")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7fahw"), ExtResource("2_0l5bq")])
+types = Array[ExtResource("5_qttxe")]([ExtResource("4_fu8hh"), ExtResource("5_55iw4")])
+abilities = Array[ExtResource("1_numoh")]([ExtResource("1_yvqq7"), ExtResource("2_1ev20")])
 color = "Red"
 gender_ratio = {
 "female": 50.0,

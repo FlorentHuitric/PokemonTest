@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://bi2ptarrhyxjt"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="1_fii8i"]
-[ext_resource type="Resource" path="res://data/abilities/Regenerator.tres" id="2_1ui5x"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_sa4q0"]
-[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_e4ci4"]
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_ys8ku"]
+[ext_resource type="Resource" uid="uid://csl8rr5pki072" path="res://data/abilities/Shed_Skin.tres" id="1_5b1v0"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_d6jcb"]
+[ext_resource type="Resource" uid="uid://26oplol2sba0" path="res://data/abilities/Regenerator.tres" id="2_2h71v"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_oekea"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_e4drt"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_ovbk8"]
+[ext_resource type="Resource" path="res://data/types/Normal.tres" id="5_uo82v"]
 
 [resource]
-script = ExtResource("3_sa4q0")
+script = ExtResource("3_oekea")
 pokemon_id = 967
 branch_code = ""
 names = {
-"en": "Cyclizar"
+"en": "Cyclizar",
+"fr": "Cyclizar"
 }
 generation = 9
 height = 1.6
 weight = 63.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_e4ci4"), ExtResource("5_ys8ku")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_fii8i"), ExtResource("2_1ui5x")])
+types = Array[ExtResource("5_ovbk8")]([ExtResource("4_e4drt"), ExtResource("5_uo82v")])
+abilities = Array[ExtResource("1_d6jcb")]([ExtResource("1_5b1v0"), ExtResource("2_2h71v")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

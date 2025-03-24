@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cu0wq7gveiaqn"]
 
-[ext_resource type="Resource" path="res://data/abilities/Clear Body.tres" id="1_pcn3e"]
-[ext_resource type="Resource" path="res://data/abilities/Light Metal.tres" id="2_7wvbv"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_yewas"]
-[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_fgi4r"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_p4m5i"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_0l8xg"]
+[ext_resource type="Resource" uid="uid://b1ev3v0qnvbsq" path="res://data/abilities/Clear_Body.tres" id="1_4bs6d"]
+[ext_resource type="Resource" uid="uid://d3273or7monhc" path="res://data/abilities/Light_Metal.tres" id="2_dfyru"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_knlio"]
+[ext_resource type="Resource" uid="uid://dkiseqq87m31f" path="res://data/types/Steel.tres" id="4_s4foq"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="5_qhla0"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_wwvkc"]
 
 [resource]
-script = ExtResource("3_yewas")
+script = ExtResource("3_knlio")
 pokemon_id = 374
 branch_code = ""
 names = {
-"en": "Beldum"
+"en": "Beldum",
+"fr": "Beldum"
 }
 generation = 3
 height = 0.6
 weight = 95.2
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_fgi4r"), ExtResource("5_p4m5i")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_pcn3e"), ExtResource("2_7wvbv")])
+types = Array[ExtResource("5_wwvkc")]([ExtResource("4_s4foq"), ExtResource("5_qhla0")])
+abilities = Array[ExtResource("1_0l8xg")]([ExtResource("1_4bs6d"), ExtResource("2_dfyru")])
 color = "Blue"
 gender_ratio = {
 "female": 0.0,
@@ -61,3 +64,90 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 36,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 334,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 428,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 442,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 29,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 33,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 334,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 428,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 442,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 796,
+"tm_id": ""
+}]

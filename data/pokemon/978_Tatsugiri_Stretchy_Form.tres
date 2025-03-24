@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://d2mxg4o8q2o1q"]
+
+[ext_resource type="Resource" uid="uid://ixbujmqy6i74" path="res://data/abilities/Commander.tres" id="1_61jk1"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_n5wmn"]
+[ext_resource type="Resource" uid="uid://cyo6n7c3di4s4" path="res://data/abilities/Storm_Drain.tres" id="2_747fy"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_lakcc"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_r2t16"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_kwsfq"]
+[ext_resource type="Resource" path="res://data/types/Water.tres" id="5_s4p0l"]
+
+[resource]
+script = ExtResource("3_lakcc")
+pokemon_id = 978
+branch_code = ""
+names = {
+"en": "Tatsugiri Stretchy Form",
+"fr": "Tatsugiri Stretchy Form"
+}
+generation = 9
+height = 0.3
+weight = 8.0
+types = Array[ExtResource("5_kwsfq")]([ExtResource("4_r2t16"), ExtResource("5_s4p0l")])
+abilities = Array[ExtResource("1_n5wmn")]([ExtResource("1_61jk1"), ExtResource("2_747fy")])
+color = "Yellow"
+gender_ratio = {
+"female": 50.0,
+"male": 50.0,
+"unknown": 0.0
+}
+egg_steps = 35
+egg_groups = PackedStringArray("Water2")
+catch_rate = 100
+base_experience = 166
+experience_type = "1059860"
+category = "Ordinary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 50,
+"defense": 60,
+"hp": 68,
+"special_attack": 120,
+"special_defense": 95,
+"speed": 82,
+"total": 475
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 2,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/978.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/978.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/978.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/978.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bfhrsetf4nx1m"]
 
-[ext_resource type="Resource" path="res://data/types/Ground.tres" id="1_wjgdm"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_hh1we"]
+[ext_resource type="Resource" uid="uid://cekon6nihixlr" path="res://data/types/Ground.tres" id="1_6b1ac"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_6ee4y"]
 
 [resource]
-script = ExtResource("2_hh1we")
+script = ExtResource("2_6ee4y")
 move_id = 614
 move_name = {
 "en": "Thousand Arrows",
-"fr": "Thousand Arrows"
+"fr": "Myria-Flèches"
 }
-move_type = ExtResource("1_wjgdm")
+move_type = ExtResource("1_6b1ac")
 category = "Physical"
 contest = "Beautiful"
 power = 90
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = -1
+meta_ailment_name = {
+"en": "????",
+"fr": "????"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 100
+flinch_chance = 0
+stat_chance = 0

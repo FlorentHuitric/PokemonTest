@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bs8vtpb30tl61"]
 
-[ext_resource type="Resource" path="res://data/types/Normal.tres" id="1_rpqih"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_n4sul"]
+[ext_resource type="Resource" uid="uid://bbgo667kdy2j0" path="res://data/types/Normal.tres" id="1_btjid"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_fs743"]
 
 [resource]
-script = ExtResource("2_n4sul")
+script = ExtResource("2_fs743")
 move_id = 255
 move_name = {
 "en": "Spit Up",
-"fr": "Spit Up"
+"fr": "Relâche"
 }
-move_type = ExtResource("1_rpqih")
+move_type = ExtResource("1_btjid")
 category = "Special"
 contest = "Tough"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 0
+meta_category_desc = {
+"en": "Inflicts damage"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

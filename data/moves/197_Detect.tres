@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://cn8jhp3wpfjri"]
 
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_n7dj3"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_4omhc"]
+[ext_resource type="Resource" uid="uid://bc1ql3ehfu005" path="res://data/types/Fighting.tres" id="1_bx2so"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_fc3et"]
 
 [resource]
-script = ExtResource("2_4omhc")
+script = ExtResource("2_fc3et")
 move_id = 197
 move_name = {
 "en": "Detect",
-"fr": "Detect"
+"fr": "Détection"
 }
-move_type = ExtResource("1_n7dj3")
+move_type = ExtResource("1_bx2so")
 category = "Status"
 contest = "Cool"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 13
+meta_category_desc = {
+"en": "Unique effect"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

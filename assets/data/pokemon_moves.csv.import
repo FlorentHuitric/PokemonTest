@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b7gm8ft8gq1t6"
+
+[deps]
+
+files=["res://assets/data/pokemon_moves.version.translation", "res://assets/data/pokemon_moves.move.translation", "res://assets/data/pokemon_moves.pokemon.translation", "res://assets/data/pokemon_moves.level.translation", "res://assets/data/pokemon_moves.order.translation"]
+
+source_file="res://assets/data/pokemon_moves.csv"
+dest_files=["res://assets/data/pokemon_moves.version.translation", "res://assets/data/pokemon_moves.move.translation", "res://assets/data/pokemon_moves.pokemon.translation", "res://assets/data/pokemon_moves.level.translation", "res://assets/data/pokemon_moves.order.translation"]
+
+[params]
+
+compress=true
+delimiter=0

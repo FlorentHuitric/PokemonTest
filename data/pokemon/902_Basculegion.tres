@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://dovyixehx6swy"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swift Swim.tres" id="1_mwil3"]
-[ext_resource type="Resource" path="res://data/abilities/Adaptability.tres" id="2_0w76l"]
-[ext_resource type="Resource" path="res://data/abilities/Mold Breaker.tres" id="3_cry2h"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_xe5g4"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_3afov"]
+[ext_resource type="Resource" uid="uid://b0git1dhy70co" path="res://data/abilities/Swift Swim.tres" id="1_mwil3"]
+[ext_resource type="Resource" uid="uid://drlqpi2xh4gwt" path="res://data/abilities/Adaptability.tres" id="2_0w76l"]
+[ext_resource type="Resource" uid="uid://cyvd7doegotuu" path="res://data/abilities/Mold Breaker.tres" id="3_cry2h"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_xe5g4"]
 [ext_resource type="Resource" path="res://data/types/Water.tres" id="5_cagpg"]
 [ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_lvu48"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_qhjlt"]
 
 [resource]
 script = ExtResource("4_xe5g4")
@@ -18,8 +20,8 @@ names = {
 generation = 8
 height = 3.0
 weight = 110.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_cagpg"), ExtResource("6_lvu48")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_mwil3"), ExtResource("2_0w76l"), ExtResource("3_cry2h")])
+types = Array[ExtResource("6_qhjlt")]([ExtResource("5_cagpg"), ExtResource("6_lvu48")])
+abilities = Array[ExtResource("1_3afov")]([ExtResource("1_mwil3"), ExtResource("2_0w76l"), ExtResource("3_cry2h")])
 color = "Green"
 gender_ratio = {
 "female": 100.0,

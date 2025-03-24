@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://qqmdogfrrtv4"]
 
-[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="1_1te5e"]
-[ext_resource type="Resource" path="res://data/abilities/Shed Skin.tres" id="2_h2850"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_o6kqn"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_nk8lo"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_mal7t"]
+[ext_resource type="Resource" uid="uid://b5d8oo7fd7wtg" path="res://data/abilities/Compound_Eyes.tres" id="1_wi1pp"]
+[ext_resource type="Resource" uid="uid://csl8rr5pki072" path="res://data/abilities/Shed_Skin.tres" id="2_rqw5o"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_7jt1r"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_d0ob8"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_d48cf"]
 
 [resource]
-script = ExtResource("3_o6kqn")
+script = ExtResource("3_7jt1r")
 pokemon_id = 953
 branch_code = ""
 names = {
-"en": "Rellor"
+"en": "Rellor",
+"fr": "Rellor"
 }
 generation = 9
 height = 0.2
 weight = 1.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_nk8lo")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1te5e"), ExtResource("2_h2850")])
+types = Array[ExtResource("5_d48cf")]([ExtResource("4_d0ob8")])
+abilities = Array[ExtResource("1_mal7t")]([ExtResource("1_wi1pp"), ExtResource("2_rqw5o")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

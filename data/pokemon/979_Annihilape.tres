@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://bt8i5uaw1gvis"]
 
-[ext_resource type="Resource" path="res://data/abilities/Vital Spirit.tres" id="1_dlp2k"]
-[ext_resource type="Resource" path="res://data/abilities/Inner Focus.tres" id="2_4y4mm"]
-[ext_resource type="Resource" path="res://data/abilities/Defiant.tres" id="3_20snt"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_1qx5e"]
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_k8q5y"]
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_68bb7"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_81di5"]
+[ext_resource type="Resource" uid="uid://bon6jvs74s8m4" path="res://data/abilities/Vital_Spirit.tres" id="1_p1vsa"]
+[ext_resource type="Resource" uid="uid://cdc7tpqfep4rx" path="res://data/abilities/Inner_Focus.tres" id="2_8dxlf"]
+[ext_resource type="Resource" uid="uid://ct7ubsi44akw8" path="res://data/abilities/Defiant.tres" id="3_5ognh"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_bjrcg"]
+[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="5_cftlj"]
+[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="6_0tmsx"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_ifkaw"]
 
 [resource]
-script = ExtResource("4_1qx5e")
+script = ExtResource("4_bjrcg")
 pokemon_id = 979
 branch_code = ""
 names = {
-"en": "Annihilape"
+"en": "Annihilape",
+"fr": "Annihilape"
 }
 generation = 9
 height = 1.2
 weight = 56.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_k8q5y"), ExtResource("6_68bb7")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dlp2k"), ExtResource("2_4y4mm"), ExtResource("3_20snt")])
+types = Array[ExtResource("6_ifkaw")]([ExtResource("5_cftlj"), ExtResource("6_0tmsx")])
+abilities = Array[ExtResource("1_81di5")]([ExtResource("1_p1vsa"), ExtResource("2_8dxlf"), ExtResource("3_5ognh")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

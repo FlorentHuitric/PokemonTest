@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://cyhkx7rjhknip"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_bu3lh"]
-[ext_resource type="Resource" path="res://data/abilities/Run Away.tres" id="2_38046"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_jxfm2"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_yu6ab"]
+[ext_resource type="Resource" uid="uid://rlwmu1qa0ml4" path="res://data/abilities/Shield_Dust.tres" id="1_38mtn"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_xgpd3"]
+[ext_resource type="Resource" uid="uid://2l645fu4gg4a" path="res://data/abilities/Run_Away.tres" id="2_u1jpn"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_326yf"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="4_wsfpu"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_qdx06"]
 
 [resource]
-script = ExtResource("3_jxfm2")
+script = ExtResource("3_326yf")
 pokemon_id = 10
 branch_code = ""
 names = {
-"en": "Caterpie"
+"en": "Caterpie",
+"fr": "Caterpie"
 }
 generation = 1
 height = 0.3
 weight = 2.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_yu6ab")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_bu3lh"), ExtResource("2_38046")])
+types = Array[ExtResource("5_qdx06")]([ExtResource("4_wsfpu")])
+abilities = Array[ExtResource("1_xgpd3")]([ExtResource("1_38mtn"), ExtResource("2_u1jpn")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,
@@ -60,3 +63,84 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 33,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 7,
+"level": 15,
+"method": 1,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 4,
+"level": 0,
+"method": 3,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 527,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 9,
+"method": 1,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 527,
+"tm_id": ""
+}]

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://ciimnm3dwr1pm"]
 
-[ext_resource type="Resource" path="res://data/types/Fighting.tres" id="1_a74sn"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_k6fqj"]
+[ext_resource type="Resource" uid="uid://bc1ql3ehfu005" path="res://data/types/Fighting.tres" id="1_k8wbo"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_y6bcl"]
 
 [resource]
-script = ExtResource("2_k6fqj")
+script = ExtResource("2_y6bcl")
 move_id = 339
 move_name = {
 "en": "Bulk Up",
-"fr": "Bulk Up"
+"fr": "Gonflette"
 }
-move_type = ExtResource("1_a74sn")
+move_type = ExtResource("1_k8wbo")
 category = "Status"
 contest = "Cool"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 2
+meta_category_desc = {
+"en": "No damage; lowers target's stats or raises user's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

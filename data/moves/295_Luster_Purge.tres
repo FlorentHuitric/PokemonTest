@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dg3f2mwgs7jbs"]
 
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_wvxlt"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_cfhsp"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="1_s64xc"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_6bihk"]
 
 [resource]
-script = ExtResource("2_cfhsp")
+script = ExtResource("2_6bihk")
 move_id = 295
 move_name = {
 "en": "Luster Purge",
-"fr": "Luster Purge"
+"fr": "Lumi-Éclat"
 }
-move_type = ExtResource("1_wvxlt")
+move_type = ExtResource("1_s64xc")
 category = "Special"
 contest = "Clever"
 power = 70
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 6
+meta_category_desc = {
+"en": "Inflicts damage; lowers target's stats"
+}
+meta_ailment_id = 0
+meta_ailment_name = {
+"en": "none",
+"fr": "Aucun"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 50

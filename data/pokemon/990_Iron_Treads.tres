@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://bg2o5loxch276"]
+
+[ext_resource type="Resource" uid="uid://bdsy1dkfynq4o" path="res://data/abilities/Quark_Drive.tres" id="1_unns8"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_wou7r"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="2_xdpr2"]
+[ext_resource type="Resource" path="res://data/types/Ground.tres" id="3_erswa"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="4_ae444"]
+[ext_resource type="Resource" path="res://data/types/Steel.tres" id="4_ufdqb"]
+
+[resource]
+script = ExtResource("2_xdpr2")
+pokemon_id = 990
+branch_code = ""
+names = {
+"en": "Iron Treads",
+"fr": "Iron Treads"
+}
+generation = 9
+height = 0.9
+weight = 240.0
+types = Array[ExtResource("4_ae444")]([ExtResource("3_erswa"), ExtResource("4_ufdqb")])
+abilities = Array[ExtResource("1_wou7r")]([ExtResource("1_unns8")])
+color = "Gray"
+gender_ratio = {
+"female": 0.0,
+"male": 0.0,
+"unknown": 100.0
+}
+egg_steps = 50
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 30
+base_experience = 285
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 112,
+"defense": 120,
+"hp": 90,
+"special_attack": 72,
+"special_defense": 70,
+"speed": 106,
+"total": 570
+}
+effort_points = {
+"attack": 0,
+"defense": 3,
+"hp": 0,
+"special_attack": 0,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/990.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/990.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/990.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/990.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

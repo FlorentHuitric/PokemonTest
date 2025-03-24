@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://dnkomwlph21uu"]
 
-[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_l66gg"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="1_ncdj8"]
 
 [resource]
-script = ExtResource("1_l66gg")
+script = ExtResource("1_ncdj8")
 type_name = "Rock"
 sprite_path = "res://assets/sprites/types/rock.png"

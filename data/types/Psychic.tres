@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="TypeResource" load_steps=2 format=3 uid="uid://bya12uxt7wufw"]
 
-[ext_resource type="Script" path="res://scripts/resources/TypeResource.gd" id="1_t53g1"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="1_pdhgd"]
 
 [resource]
-script = ExtResource("1_t53g1")
+script = ExtResource("1_pdhgd")
 type_name = "Psychic"
 sprite_path = "res://assets/sprites/types/psychic.png"

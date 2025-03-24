@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://q8edmnyhclr8"]
 
-[ext_resource type="Resource" path="res://data/abilities/Toxic Debris.tres" id="1_4iqf4"]
-[ext_resource type="Resource" path="res://data/abilities/Corrosion.tres" id="2_ukk5g"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_apk6y"]
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_5t55k"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_jncx7"]
+[ext_resource type="Resource" uid="uid://dp4vwjmueb0lo" path="res://data/abilities/Toxic_Debris.tres" id="1_144yc"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_pvo0m"]
+[ext_resource type="Resource" uid="uid://dhfyl601py8xt" path="res://data/abilities/Corrosion.tres" id="2_i55g4"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_u5jwc"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_40ux4"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_1eqq4"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_sksd7"]
 
 [resource]
-script = ExtResource("3_apk6y")
+script = ExtResource("3_u5jwc")
 pokemon_id = 969
 branch_code = ""
 names = {
-"en": "Glimmet"
+"en": "Glimmet",
+"fr": "Glimmet"
 }
 generation = 9
 height = 0.7
 weight = 8.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_5t55k"), ExtResource("5_jncx7")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_4iqf4"), ExtResource("2_ukk5g")])
+types = Array[ExtResource("5_sksd7")]([ExtResource("4_40ux4"), ExtResource("5_1eqq4")])
+abilities = Array[ExtResource("1_pvo0m")]([ExtResource("1_144yc"), ExtResource("2_i55g4")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,

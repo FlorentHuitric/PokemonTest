@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://cbrlrlbgbq4in"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_ksg7u"]
-[ext_resource type="Resource" path="res://data/abilities/Tinted Lens.tres" id="2_hpnme"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_i7q2s"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_rjxiu"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_jgjyr"]
+[ext_resource type="Resource" uid="uid://spl2ih0co7ds" path="res://data/abilities/Swarm.tres" id="1_usq4c"]
+[ext_resource type="Resource" uid="uid://b2kaeeemhpwu0" path="res://data/abilities/Tinted_Lens.tres" id="2_kwvs0"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_hm1qb"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="4_2em0a"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_6v5rg"]
 
 [resource]
-script = ExtResource("3_i7q2s")
+script = ExtResource("3_hm1qb")
 pokemon_id = 919
 branch_code = ""
 names = {
-"en": "Nymble"
+"en": "Nymble",
+"fr": "Nymble"
 }
 generation = 9
 height = 0.2
 weight = 1.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_rjxiu")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ksg7u"), ExtResource("2_hpnme")])
+types = Array[ExtResource("5_6v5rg")]([ExtResource("4_2em0a")])
+abilities = Array[ExtResource("1_jgjyr")]([ExtResource("1_usq4c"), ExtResource("2_kwvs0")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

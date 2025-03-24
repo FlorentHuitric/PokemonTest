@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://smlwr4dgj8ct"]
 
-[ext_resource type="Resource" path="res://data/abilities/Big Pecks.tres" id="1_5ck3v"]
-[ext_resource type="Resource" path="res://data/abilities/Keen Eye.tres" id="2_dokr2"]
-[ext_resource type="Resource" path="res://data/abilities/Rocky Payload.tres" id="3_mphwp"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_g2vay"]
-[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_teegc"]
-[ext_resource type="Resource" path="res://data/types/Dark.tres" id="6_smc72"]
+[ext_resource type="Resource" uid="uid://bd2b1gx6g3vi1" path="res://data/abilities/Big_Pecks.tres" id="1_nn5w5"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_ymwxh"]
+[ext_resource type="Resource" uid="uid://b6r0cp1okq0al" path="res://data/abilities/Keen_Eye.tres" id="2_wu8md"]
+[ext_resource type="Resource" uid="uid://j1tjqc5gqlfk" path="res://data/abilities/Rocky_Payload.tres" id="3_r7qiq"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_alp74"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_f6pr1"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_gdddu"]
+[ext_resource type="Resource" path="res://data/types/Dark.tres" id="6_mr4qu"]
 
 [resource]
-script = ExtResource("4_g2vay")
+script = ExtResource("4_alp74")
 pokemon_id = 962
 branch_code = ""
 names = {
-"en": "Bombirdier"
+"en": "Bombirdier",
+"fr": "Bombirdier"
 }
 generation = 9
 height = 1.5
 weight = 42.9
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_teegc"), ExtResource("6_smc72")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_5ck3v"), ExtResource("2_dokr2"), ExtResource("3_mphwp")])
+types = Array[ExtResource("6_gdddu")]([ExtResource("5_f6pr1"), ExtResource("6_mr4qu")])
+abilities = Array[ExtResource("1_ymwxh")]([ExtResource("1_nn5w5"), ExtResource("2_wu8md"), ExtResource("3_r7qiq")])
 color = "White"
 gender_ratio = {
 "female": 50.0,

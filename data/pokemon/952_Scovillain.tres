@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://c7hj4in43mkru"]
 
-[ext_resource type="Resource" path="res://data/abilities/Chlorophyll.tres" id="1_ofbkw"]
-[ext_resource type="Resource" path="res://data/abilities/Insomnia.tres" id="2_itkid"]
-[ext_resource type="Resource" path="res://data/abilities/Moody.tres" id="3_q6xvx"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_61bjd"]
-[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_xx0hl"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="6_o0m6l"]
+[ext_resource type="Resource" uid="uid://dvhsyaol8uc1n" path="res://data/abilities/Chlorophyll.tres" id="1_8fq7p"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_nrucq"]
+[ext_resource type="Resource" uid="uid://c423m16xjjbj4" path="res://data/abilities/Insomnia.tres" id="2_pr22p"]
+[ext_resource type="Resource" uid="uid://c4mlt1h2tm08t" path="res://data/abilities/Moody.tres" id="3_er2o5"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_svmqi"]
+[ext_resource type="Resource" path="res://data/types/Grass.tres" id="5_kqfw8"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_2eom4"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="6_7d5hf"]
 
 [resource]
-script = ExtResource("4_61bjd")
+script = ExtResource("4_svmqi")
 pokemon_id = 952
 branch_code = ""
 names = {
-"en": "Scovillain"
+"en": "Scovillain",
+"fr": "Scovillain"
 }
 generation = 9
 height = 0.9
 weight = 15.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_xx0hl"), ExtResource("6_o0m6l")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ofbkw"), ExtResource("2_itkid"), ExtResource("3_q6xvx")])
+types = Array[ExtResource("6_2eom4")]([ExtResource("5_kqfw8"), ExtResource("6_7d5hf")])
+abilities = Array[ExtResource("1_nrucq")]([ExtResource("1_8fq7p"), ExtResource("2_pr22p"), ExtResource("3_er2o5")])
 color = "Green"
 gender_ratio = {
 "female": 50.0,

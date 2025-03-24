@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b1drqc3nype8s"]
+
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_i1wl3"]
+[ext_resource type="Resource" uid="uid://dcmjgfbqr2xuq" path="res://data/abilities/Cute_Charm.tres" id="1_mmui6"]
+[ext_resource type="Resource" uid="uid://bcg1ntk5wef34" path="res://data/abilities/Contrary.tres" id="2_ykqph"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_ewa56"]
+[ext_resource type="Resource" path="res://data/types/Fairy.tres" id="4_6bpfo"]
+[ext_resource type="Resource" path="res://data/types/Flying.tres" id="5_1ckhn"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_dawap"]
+
+[resource]
+script = ExtResource("3_ewa56")
+pokemon_id = 905
+branch_code = ""
+names = {
+"en": "Enamorus Incarnate Style",
+"fr": "Enamorus Incarnate Style"
+}
+generation = 8
+height = 1.6
+weight = 48.0
+types = Array[ExtResource("5_dawap")]([ExtResource("4_6bpfo"), ExtResource("5_1ckhn")])
+abilities = Array[ExtResource("1_i1wl3")]([ExtResource("1_mmui6"), ExtResource("2_ykqph")])
+color = "Pink"
+gender_ratio = {
+"female": 100.0,
+"male": 0.0,
+"unknown": 0.0
+}
+egg_steps = 20
+egg_groups = PackedStringArray("Undiscovered")
+catch_rate = 3
+base_experience = 116
+experience_type = "1250000"
+category = "Semi-Legendary"
+mega_evolution_flag = false
+region_form = ""
+base_stats = {
+"attack": 115,
+"defense": 70,
+"hp": 74,
+"special_attack": 135,
+"special_defense": 80,
+"speed": 106,
+"total": 580
+}
+effort_points = {
+"attack": 0,
+"defense": 0,
+"hp": 0,
+"special_attack": 3,
+"special_defense": 0,
+"speed": 0
+}
+sprite_normal_front = "res://assets/sprites/pokemon/905.png"
+sprite_normal_back = "res://assets/sprites/pokemon/back/905.png"
+sprite_shiny_front = "res://assets/sprites/pokemon/shiny/905.png"
+sprite_shiny_back = "res://assets/sprites/pokemon/shiny/back/905.png"
+sprite_female_front = ""
+sprite_female_back = ""
+sprite_shiny_female_front = ""
+sprite_shiny_female_back = ""
+description = {
+"en": "",
+"fr": ""
+}

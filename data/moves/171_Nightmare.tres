@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://coivtslsedlnr"]
 
-[ext_resource type="Resource" path="res://data/types/Ghost.tres" id="1_5chdo"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_ie86e"]
+[ext_resource type="Resource" uid="uid://cge2pri12f8y2" path="res://data/types/Ghost.tres" id="1_j5ix4"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_5l72p"]
 
 [resource]
-script = ExtResource("2_ie86e")
+script = ExtResource("2_5l72p")
 move_id = 171
 move_name = {
 "en": "Nightmare",
-"fr": "Nightmare"
+"fr": "Cauchemar"
 }
-move_type = ExtResource("1_5chdo")
+move_type = ExtResource("1_j5ix4")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = 9
+meta_ailment_name = {
+"en": "Nightmare",
+"fr": "Cauchemar"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 0
+max_turns = 0
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0

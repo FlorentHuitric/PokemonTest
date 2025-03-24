@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://c7bl2xtj2ue7i"]
 
-[ext_resource type="Resource" path="res://data/abilities/Anticipation.tres" id="1_6b0pu"]
-[ext_resource type="Resource" path="res://data/abilities/Frisk.tres" id="2_xqtcb"]
-[ext_resource type="Resource" path="res://data/abilities/Speed Boost.tres" id="3_6aw45"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_652us"]
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_r4q23"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_e4e56"]
+[ext_resource type="Resource" uid="uid://dttpci1pce6e2" path="res://data/abilities/Anticipation.tres" id="1_q7obw"]
+[ext_resource type="Resource" uid="uid://0ciu1lqdw8s5" path="res://data/abilities/Frisk.tres" id="2_gqrcr"]
+[ext_resource type="Resource" uid="uid://ddx2n4gls7rxd" path="res://data/abilities/Speed_Boost.tres" id="3_0buf3"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_u2kge"]
+[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="5_hk3yn"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_fphfb"]
 
 [resource]
-script = ExtResource("4_652us")
+script = ExtResource("4_u2kge")
 pokemon_id = 955
 branch_code = ""
 names = {
-"en": "Flittle"
+"en": "Flittle",
+"fr": "Flittle"
 }
 generation = 9
 height = 0.2
 weight = 1.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_r4q23")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_6b0pu"), ExtResource("2_xqtcb"), ExtResource("3_6aw45")])
+types = Array[ExtResource("6_fphfb")]([ExtResource("5_hk3yn")])
+abilities = Array[ExtResource("1_e4e56")]([ExtResource("1_q7obw"), ExtResource("2_gqrcr"), ExtResource("3_0buf3")])
 color = "Yellow"
 gender_ratio = {
 "female": 50.0,

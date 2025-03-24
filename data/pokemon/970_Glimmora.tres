@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://dkeevhwasjbcr"]
 
-[ext_resource type="Resource" path="res://data/abilities/Toxic Debris.tres" id="1_dw2jm"]
-[ext_resource type="Resource" path="res://data/abilities/Corrosion.tres" id="2_boa2y"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_xndu4"]
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_ch70n"]
-[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_qoovm"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_1wknf"]
+[ext_resource type="Resource" uid="uid://dp4vwjmueb0lo" path="res://data/abilities/Toxic_Debris.tres" id="1_7ns3v"]
+[ext_resource type="Resource" uid="uid://dhfyl601py8xt" path="res://data/abilities/Corrosion.tres" id="2_q0wlw"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_rerjj"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="4_7irjr"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_dh8qu"]
+[ext_resource type="Resource" path="res://data/types/Poison.tres" id="5_vs4l8"]
 
 [resource]
-script = ExtResource("3_xndu4")
+script = ExtResource("3_rerjj")
 pokemon_id = 970
 branch_code = ""
 names = {
-"en": "Glimmora"
+"en": "Glimmora",
+"fr": "Glimmora"
 }
 generation = 9
 height = 1.5
 weight = 45.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_ch70n"), ExtResource("5_qoovm")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_dw2jm"), ExtResource("2_boa2y")])
+types = Array[ExtResource("5_dh8qu")]([ExtResource("4_7irjr"), ExtResource("5_vs4l8")])
+abilities = Array[ExtResource("1_1wknf")]([ExtResource("1_7ns3v"), ExtResource("2_q0wlw")])
 color = "Blue"
 gender_ratio = {
 "female": 50.0,

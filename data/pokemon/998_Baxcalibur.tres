@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://cotibm7ybi84q"]
 
-[ext_resource type="Resource" path="res://data/abilities/Thermal Exchange.tres" id="1_7yjft"]
-[ext_resource type="Resource" path="res://data/abilities/Ice Body.tres" id="2_dgi7u"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_psp8u"]
-[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_wml4t"]
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_gw7o7"]
+[ext_resource type="Resource" uid="uid://bvf3buwanq0pi" path="res://data/abilities/Thermal_Exchange.tres" id="1_0rt6q"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_euy02"]
+[ext_resource type="Resource" uid="uid://t07jpoisy6yv" path="res://data/abilities/Ice_Body.tres" id="2_4no4o"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_qacl0"]
+[ext_resource type="Resource" path="res://data/types/Dragon.tres" id="4_yi5m3"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_0m1d1"]
+[ext_resource type="Resource" path="res://data/types/Ice.tres" id="5_thtl3"]
 
 [resource]
-script = ExtResource("3_psp8u")
+script = ExtResource("3_qacl0")
 pokemon_id = 998
 branch_code = ""
 names = {
-"en": "Baxcalibur"
+"en": "Baxcalibur",
+"fr": "Baxcalibur"
 }
 generation = 9
 height = 2.1
 weight = 210.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_wml4t"), ExtResource("5_gw7o7")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_7yjft"), ExtResource("2_dgi7u")])
+types = Array[ExtResource("5_0m1d1")]([ExtResource("4_yi5m3"), ExtResource("5_thtl3")])
+abilities = Array[ExtResource("1_euy02")]([ExtResource("1_0rt6q"), ExtResource("2_4no4o")])
 color = "Gray"
 gender_ratio = {
 "female": 50.0,

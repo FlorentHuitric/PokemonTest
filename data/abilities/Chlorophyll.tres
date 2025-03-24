@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://b57u64sd8ctr8"]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://dvhsyaol8uc1n"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_pn2qk"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_8ih5h"]
 
 [resource]
-script = ExtResource("1_pn2qk")
+script = ExtResource("1_8ih5h")
 ability_name = "Chlorophyll"
 descriptions = {
 "en": "Description not available yet.",

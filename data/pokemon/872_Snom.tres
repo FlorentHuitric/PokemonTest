@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://b384jdhcpveic"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_uidhs"]
-[ext_resource type="Resource" path="res://data/abilities/Ice Scales.tres" id="2_5lijg"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_gvog3"]
-[ext_resource type="Resource" path="res://data/types/Ice.tres" id="4_6itw8"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_xsisy"]
+[ext_resource type="Resource" uid="uid://rlwmu1qa0ml4" path="res://data/abilities/Shield_Dust.tres" id="1_bj3c8"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_m6a5g"]
+[ext_resource type="Resource" uid="uid://dxcp6og5ofp38" path="res://data/abilities/Ice_Scales.tres" id="2_eqsfn"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_1fruk"]
+[ext_resource type="Resource" uid="uid://dbeo867ql5r86" path="res://data/types/Ice.tres" id="4_edk1e"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="5_gpbvu"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_q7scg"]
 
 [resource]
-script = ExtResource("3_gvog3")
+script = ExtResource("3_1fruk")
 pokemon_id = 872
 branch_code = ""
 names = {
-"en": "Snom"
+"en": "Snom",
+"fr": "Snom"
 }
 generation = 8
 height = 0.3
 weight = 3.8
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_6itw8"), ExtResource("5_xsisy")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_uidhs"), ExtResource("2_5lijg")])
+types = Array[ExtResource("5_q7scg")]([ExtResource("4_edk1e"), ExtResource("5_gpbvu")])
+abilities = Array[ExtResource("1_m6a5g")]([ExtResource("1_bj3c8"), ExtResource("2_eqsfn")])
 color = "White"
 gender_ratio = {
 "female": 50.0,
@@ -61,3 +64,138 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 156,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 164,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 173,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 181,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 182,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 196,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 203,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 213,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 214,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 243,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 263,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 333,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 405,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 4,
+"move_id": 496,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 522,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 584,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 806,
+"tm_id": ""
+}]

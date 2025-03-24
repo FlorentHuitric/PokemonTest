@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="AbilityResource" load_steps=2 format=3 uid="uid://bycdmog0x8xgs"]
 
-[ext_resource type="Script" path="res://scripts/resources/AbilityResource.gd" id="1_r0fjn"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_xullj"]
 
 [resource]
-script = ExtResource("1_r0fjn")
+script = ExtResource("1_xullj")
 ability_name = "Soul-Heart"
 descriptions = {
 "en": "Description not available yet.",

@@ -1,24 +1,27 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=9 format=3 uid="uid://1in24tt50s5s"]
 
-[ext_resource type="Resource" path="res://data/abilities/Swarm.tres" id="1_xp2bl"]
-[ext_resource type="Resource" path="res://data/abilities/Sheer Force.tres" id="2_u5n4p"]
-[ext_resource type="Resource" path="res://data/abilities/Sharpness.tres" id="3_rb2it"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_25ini"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_gtk3d"]
-[ext_resource type="Resource" path="res://data/types/Rock.tres" id="6_t76vl"]
+[ext_resource type="Resource" uid="uid://spl2ih0co7ds" path="res://data/abilities/Swarm.tres" id="1_3c0eu"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_kvnhc"]
+[ext_resource type="Resource" uid="uid://b8olch54wyatf" path="res://data/abilities/Sheer_Force.tres" id="2_kuo7x"]
+[ext_resource type="Resource" uid="uid://byj4s8xo5wreg" path="res://data/abilities/Sharpness.tres" id="3_gq86k"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_tbev7"]
+[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_c8rav"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_d44hn"]
+[ext_resource type="Resource" path="res://data/types/Rock.tres" id="6_kg8qs"]
 
 [resource]
-script = ExtResource("4_25ini")
+script = ExtResource("4_tbev7")
 pokemon_id = 900
 branch_code = ""
 names = {
-"en": "Kleavor"
+"en": "Kleavor",
+"fr": "Kleavor"
 }
 generation = 8
 height = 1.8
 weight = 89.0
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_gtk3d"), ExtResource("6_t76vl")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_xp2bl"), ExtResource("2_u5n4p"), ExtResource("3_rb2it")])
+types = Array[ExtResource("6_d44hn")]([ExtResource("5_c8rav"), ExtResource("6_kg8qs")])
+abilities = Array[ExtResource("1_kvnhc")]([ExtResource("1_3c0eu"), ExtResource("2_kuo7x"), ExtResource("3_gq86k")])
 color = "Brown"
 gender_ratio = {
 "female": 50.0,

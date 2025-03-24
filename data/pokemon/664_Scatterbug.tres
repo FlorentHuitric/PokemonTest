@@ -1,23 +1,26 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=8 format=3 uid="uid://chssmc821g4hq"]
 
-[ext_resource type="Resource" path="res://data/abilities/Shield Dust.tres" id="1_1sng2"]
-[ext_resource type="Resource" path="res://data/abilities/Compound Eyes.tres" id="2_m5v4m"]
-[ext_resource type="Resource" path="res://data/abilities/Friend Guard.tres" id="3_803ox"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="4_ptm0q"]
-[ext_resource type="Resource" path="res://data/types/Bug.tres" id="5_6d8gq"]
+[ext_resource type="Resource" uid="uid://rlwmu1qa0ml4" path="res://data/abilities/Shield_Dust.tres" id="1_1sjs3"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_n3kdk"]
+[ext_resource type="Resource" uid="uid://b5d8oo7fd7wtg" path="res://data/abilities/Compound_Eyes.tres" id="2_0a80f"]
+[ext_resource type="Resource" uid="uid://cweokd8u2el2q" path="res://data/abilities/Friend_Guard.tres" id="3_8xkna"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="4_p864u"]
+[ext_resource type="Resource" uid="uid://bjlms82hgxulm" path="res://data/types/Bug.tres" id="5_li5mi"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="6_qe3f1"]
 
 [resource]
-script = ExtResource("4_ptm0q")
+script = ExtResource("4_p864u")
 pokemon_id = 664
 branch_code = ""
 names = {
-"en": "Scatterbug"
+"en": "Scatterbug",
+"fr": "Scatterbug"
 }
 generation = 6
 height = 0.3
 weight = 2.5
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("5_6d8gq")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_1sng2"), ExtResource("2_m5v4m"), ExtResource("3_803ox")])
+types = Array[ExtResource("6_qe3f1")]([ExtResource("5_li5mi")])
+abilities = Array[ExtResource("1_n3kdk")]([ExtResource("1_1sjs3"), ExtResource("2_0a80f"), ExtResource("3_8xkna")])
 color = "Black"
 gender_ratio = {
 "female": 50.0,
@@ -61,3 +64,78 @@ description = {
 "en": "",
 "fr": ""
 }
+iv_ranges = {
+"attack": {
+"max": 31,
+"min": 0
+},
+"defense": {
+"max": 31,
+"min": 0
+},
+"hp": {
+"max": 31,
+"min": 0
+},
+"special_attack": {
+"max": 31,
+"min": 0
+},
+"special_defense": {
+"max": 31,
+"min": 0
+},
+"speed": {
+"max": 31,
+"min": 0
+}
+}
+learnable_moves = [{
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 33,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 77,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 6,
+"method": 1,
+"move_id": 78,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 78,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 1,
+"method": 1,
+"move_id": 81,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 15,
+"method": 1,
+"move_id": 450,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 2,
+"move_id": 476,
+"tm_id": ""
+}, {
+"generation": 8,
+"level": 0,
+"method": 3,
+"move_id": 450,
+"tm_id": ""
+}]

@@ -1,22 +1,25 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=5 format=3]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=7 format=3 uid="uid://b6oqg56nkb1vf"]
 
-[ext_resource type="Resource" path="res://data/abilities/Blaze.tres" id="1_ghj46"]
-[ext_resource type="Resource" path="res://data/abilities/Unaware.tres" id="2_qvkxu"]
-[ext_resource type="Script" path="res://scripts/resources/PokemonResource.gd" id="3_rpeot"]
-[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_prh6m"]
+[ext_resource type="Script" uid="uid://biqt553ktkokb" path="res://scripts/resources/AbilityResource.gd" id="1_wryy8"]
+[ext_resource type="Resource" uid="uid://b1kh5d4xpm84n" path="res://data/abilities/Blaze.tres" id="1_x43df"]
+[ext_resource type="Resource" uid="uid://b1vr8s8h6ualj" path="res://data/abilities/Unaware.tres" id="2_sacpi"]
+[ext_resource type="Script" uid="uid://dte8ueajo7rn6" path="res://scripts/resources/PokemonResource.gd" id="3_0pyba"]
+[ext_resource type="Resource" path="res://data/types/Fire.tres" id="4_jl3e8"]
+[ext_resource type="Script" uid="uid://6hmhid8wj6ha" path="res://scripts/resources/TypeResource.gd" id="5_s4x3s"]
 
 [resource]
-script = ExtResource("3_rpeot")
+script = ExtResource("3_0pyba")
 pokemon_id = 909
 branch_code = ""
 names = {
-"en": "Fuecoco"
+"en": "Fuecoco",
+"fr": "Fuecoco"
 }
 generation = 9
 height = 0.4
 weight = 9.8
-types = Array[Resource("res://scripts/resources/TypeResource.gd")]([ExtResource("4_prh6m")])
-abilities = Array[Resource("res://scripts/resources/AbilityResource.gd")]([ExtResource("1_ghj46"), ExtResource("2_qvkxu")])
+types = Array[ExtResource("5_s4x3s")]([ExtResource("4_jl3e8")])
+abilities = Array[ExtResource("1_wryy8")]([ExtResource("1_x43df"), ExtResource("2_sacpi")])
 color = "Red"
 gender_ratio = {
 "female": 12.5,

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://bs4cqjbgf3ag8"]
 
-[ext_resource type="Resource" path="res://data/types/Psychic.tres" id="1_bjni5"]
-[ext_resource type="Script" path="res://scripts/resources/MoveResource.gd" id="2_li4ds"]
+[ext_resource type="Resource" uid="uid://bya12uxt7wufw" path="res://data/types/Psychic.tres" id="1_2bfcr"]
+[ext_resource type="Script" uid="uid://b6h3t5rse8fnq" path="res://scripts/resources/MoveResource.gd" id="2_f0xbn"]
 
 [resource]
-script = ExtResource("2_li4ds")
+script = ExtResource("2_f0xbn")
 move_id = 477
 move_name = {
 "en": "Telekinesis",
-"fr": "Telekinesis"
+"fr": "Lévikinésie"
 }
-move_type = ExtResource("1_bjni5")
+move_type = ExtResource("1_2bfcr")
 category = "Status"
 contest = "Clever"
 power = 0
@@ -22,3 +22,22 @@ descriptions = {
 "fr": "Description non disponible pour le moment."
 }
 tm_id = ""
+meta_category_id = 1
+meta_category_desc = {
+"en": "No damage; inflicts status ailment"
+}
+meta_ailment_id = -1
+meta_ailment_name = {
+"en": "????",
+"fr": "????"
+}
+min_hits = 0
+max_hits = 0
+min_turns = 3
+max_turns = 3
+drain = 0
+healing = 0
+crit_rate = 0
+ailment_chance = 0
+flinch_chance = 0
+stat_chance = 0
