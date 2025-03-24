@@ -15,7 +15,7 @@ pokemon_id = 686
 branch_code = ""
 names = {
 "en": "Inkay",
-"fr": "Inkay"
+"fr": "Sepiatop"
 }
 generation = 6
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Revolving Pokémon",
+"fr": "Pokémon Rotation"
+}
 base_stats = {
 "attack": 54,
 "defense": 53,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 687,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -697,4 +712,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

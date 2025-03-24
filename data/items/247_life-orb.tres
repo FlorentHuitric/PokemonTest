@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6al2h"]
+
+[resource]
+script = ExtResource("1_6al2h")
+item_id = 247
+identifier = "life-orb"
+names = {
+"en": "Life Orb",
+"fr": "Orbe Vie"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Holder's moves inflict 30% extra damage"
+}
+effect = {
+"en": " but cost 10% max HP.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It boosts the",
+"fr": "\"Objet à tenir. Augmente la puissance des capacités"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 270
+sprite_path = "res://assets/Items/LIFEORB.png"

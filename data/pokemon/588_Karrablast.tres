@@ -14,7 +14,7 @@ pokemon_id = 588
 branch_code = ""
 names = {
 "en": "Karrablast",
-"fr": "Karrablast"
+"fr": "Carabing"
 }
 generation = 5
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Clamping Pokémon",
+"fr": "Pokémon Carabe"
+}
 base_stats = {
 "attack": 75,
 "defense": 45,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokémon targets Shelmet.",
+"fr": "Quand il sent un danger, il se défend en crachant un liquide acide. Il chasse les Escargaume."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 589,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 52,
 "method": 1,
@@ -570,4 +585,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 529,
 "tm_id": ""
-}]
+}])

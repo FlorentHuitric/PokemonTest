@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ys8au"]
+
+[resource]
+script = ExtResource("1_ys8au")
+item_id = 749
+identifier = "tm100"
+names = {
+"en": "TM100",
+"fr": "CT100"
+}
+cost = 5000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches a Pokémon TM100."
+}
+effect = {
+"en": "Teaches a Pokémon TM100."
+}
+flavor_text = {
+"en": "\"The user tells the target a secret",
+"fr": "\"Dévoile des secrets à l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 694
+sprite_path = "res://assets/Items/TM100.png"

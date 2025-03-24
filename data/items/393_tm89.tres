@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ekctu"]
+
+[resource]
+script = ExtResource("1_ekctu")
+item_id = 393
+identifier = "tm89"
+names = {
+"en": "TM89",
+"fr": "CT89"
+}
+cost = 20000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches U-turn to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches U-Turn to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"This protects Pokémon on the ground from status",
+"fr": "\"Pendant cinq tours"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 416
+sprite_path = "res://assets/Items/TM89.png"

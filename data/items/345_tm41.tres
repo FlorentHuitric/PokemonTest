@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3s2ip"]
+
+[resource]
+script = ExtResource("1_3s2ip")
+item_id = 345
+identifier = "tm41"
+names = {
+"en": "TM41",
+"fr": "CT41"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Torment to a compatible Pokémon. (Gen II: ThunderPunch Gen I: Softboiled)"
+}
+effect = {
+"en": "Teaches Torment to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user assists an ally by boosting the power of",
+"fr": "\"Une capacité qui augmente la puissance d’attaque"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 329
+sprite_path = "res://assets/Items/TM41.png"

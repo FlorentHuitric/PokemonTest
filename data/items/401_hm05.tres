@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_22q21"]
+
+[resource]
+script = ExtResource("1_22q21")
+item_id = 401
+identifier = "hm05"
+names = {
+"en": "HM05",
+"fr": "CS05"
+}
+cost = 0
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Waterfall to a compatible Pokémon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)"
+}
+effect = {
+"en": "Teaches Defog to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"-",
+"fr": "\"-"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 343
+sprite_path = "res://assets/Items/HM05.png"

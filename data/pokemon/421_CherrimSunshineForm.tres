@@ -11,7 +11,8 @@ script = ExtResource("2_dhbv0")
 pokemon_id = 421
 branch_code = ""
 names = {
-"en": "Cherrim Sunshine Form"
+"en": "Cherrim",
+"fr": "Ceriflor"
 }
 generation = 4
 height = 0.5
@@ -32,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Blossom Pokémon",
+"fr": "Pokémon Floraison"
+}
 base_stats = {
 "attack": 60,
 "defense": 70,
@@ -58,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If it senses strong sunlight, it opens its folded petals to absorb the sun’s rays with its whole body.",
+"fr": "Sous un grand soleil, il ouvre ses pétales pour en absorber les rayons."
 }
 iv_ranges = {
 "attack": {
@@ -87,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -567,4 +573,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

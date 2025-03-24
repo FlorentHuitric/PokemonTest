@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Diving Pokémon",
+"fr": "Pokémon Plongeon"
+}
 base_stats = {
 "attack": 90,
 "defense": 130,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+"fr": "Il dort dans une faille des grands fonds. Ses battements d’ailes génèrent une tempête de 40 jours."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 22,
 "method": 1,
@@ -1188,4 +1193,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

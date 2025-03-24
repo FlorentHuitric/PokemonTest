@@ -13,7 +13,7 @@ pokemon_id = 4
 branch_code = ""
 names = {
 "en": "Charmander",
-"fr": "Charmander"
+"fr": "Salamèche"
 }
 generation = 1
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lizard Pokémon",
+"fr": "Pokémon Lézard"
+}
 base_stats = {
 "attack": 52,
 "defense": 43,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+"fr": "La flamme de sa queue symbolise sa vitalité. Elle est intense quand il est en bonne santé."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 16",
+"condition_fr": "Niveau 16",
+"evolved_pokemon_id": 5,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1151,4 +1166,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 525,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mp0c5"]
+
+[resource]
+script = ExtResource("1_mp0c5")
+item_id = 666
+identifier = "gram-3"
+names = {
+"en": "Gram 3",
+"fr": "Courrier 3"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Part of a sidequest to obtain []{item:tm89}."
+}
+effect = {
+"en": "\"Give to the []{pokemon:wingull} on []{location:unova-route-13}"
+}
+flavor_text = {
+"en": "An important letter that Wingull delivers.",
+"fr": "Un courrier important transporté par un Goélise."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 625
+sprite_path = "res://assets/Items/GRAM3.png"

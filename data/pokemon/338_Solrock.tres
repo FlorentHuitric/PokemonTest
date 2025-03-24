@@ -13,7 +13,7 @@ pokemon_id = 338
 branch_code = ""
 names = {
 "en": "Solrock",
-"fr": "Solrock"
+"fr": "Solaroc"
 }
 generation = 3
 height = 1.2
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Meteorite Pokémon",
+"fr": "Pokémon Météorite"
+}
 base_stats = {
 "attack": 95,
 "defense": 85,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
+"fr": "Le bruit court que cette nouvelle espèce vient du soleil. Il produit de la lumière en tournoyant."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1133,4 +1138,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

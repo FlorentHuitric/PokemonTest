@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_c2bvm"]
+
+[resource]
+script = ExtResource("1_c2bvm")
+item_id = 1143
+identifier = "rotom-bike"
+names = {
+"en": "Rotom Bike",
+"fr": "Moticyclette"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"This bike can be combined with the Pokémon Rotom to",
+"fr": "\"Motisma est entré dans le moteur de cette bicyclette"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1081
+sprite_path = "res://assets/Items/ROTOMBIKE.png"

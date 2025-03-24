@@ -13,7 +13,7 @@ pokemon_id = 294
 branch_code = ""
 names = {
 "en": "Loudred",
-"fr": "Loudred"
+"fr": "Ramboum"
 }
 generation = 3
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Big Voice Pokémon",
+"fr": "Pokémon Grosse Voix"
+}
 base_stats = {
 "attack": 71,
 "defense": 43,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+"fr": "L’onde de choc provoquée par son cri peut renverser un camion. Il trépigne pour augmenter sa force."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 295,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -881,4 +896,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

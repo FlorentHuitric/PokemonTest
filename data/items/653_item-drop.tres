@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xjxsr"]
+
+[resource]
+script = ExtResource("1_xjxsr")
+item_id = 653
+identifier = "item-drop"
+names = {
+"en": "Item Drop",
+"fr": "Jette Objet"
+}
+cost = 0
+category_id = 43
+category_name = {
+"en": "Miracle Shooter"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Forces a friendly Pokémon to drop its held item."
+}
+effect = {
+"en": "\"Used on a party Pokémon in battle"
+}
+flavor_text = {
+"en": "\"When used",
+"fr": "Retire tout objet tenu par un Pokémon de l’équipe."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 612
+sprite_path = "res://assets/Items/ITEMDROP.png"

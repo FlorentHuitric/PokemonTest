@@ -18,8 +18,8 @@ accuracy = 100
 pp = 15
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+"fr": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 199
+move_effect_short = {
+"en": "User receives 1/3 the damage inflicted in recoil."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 199
+metadata/effect_chance = 0

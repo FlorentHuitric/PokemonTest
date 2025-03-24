@@ -13,7 +13,7 @@ pokemon_id = 515
 branch_code = ""
 names = {
 "en": "Panpour",
-"fr": "Panpour"
+"fr": "Flotajou"
 }
 generation = 5
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Spray Pokémon",
+"fr": "Pokémon Jet d’Eau"
+}
 base_stats = {
 "attack": 53,
 "defense": 48,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+"fr": "Il supporte mal les environnements secs. Il s’humidifie avec sa queue en aspirant l’eau stockée dans la mèche sur sa tête."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 84",
+"condition_fr": "Objet 84",
+"evolved_pokemon_id": 516,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -593,4 +608,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 518,
 "tm_id": ""
-}]
+}])

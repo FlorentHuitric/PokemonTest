@@ -12,7 +12,8 @@ script = ExtResource("2_r2w0p")
 pokemon_id = 479
 branch_code = ""
 names = {
-"en": "Mow Rotom"
+"en": "Rotom",
+"fr": "Motisma"
 }
 generation = 4
 height = 0.3
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Plasma Pokémon",
+"fr": "Pokémon Plasma"
+}
 base_stats = {
 "attack": 65,
 "defense": 107,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+"fr": "Son corps parcouru d’électricité lui permet de prendre le contrôle de certains appareils ménagers."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -694,4 +700,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

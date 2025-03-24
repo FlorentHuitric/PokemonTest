@@ -11,7 +11,8 @@ script = ExtResource("2_bx04f")
 pokemon_id = 362
 branch_code = ""
 names = {
-"en": "Mega Glalie"
+"en": "Glalie",
+"fr": "Oniglali"
 }
 generation = 3
 height = 2.1
@@ -32,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Face Pokémon",
+"fr": "Pokémon Face"
+}
 base_stats = {
 "attack": 120,
 "defense": 80,
@@ -58,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+"fr": "Il empêche ses proies de prendre la fuite en gelant instantanément l’humidité de l’air."
 }
 iv_ranges = {
 "attack": {
@@ -87,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 19,
 "method": 1,
@@ -837,4 +843,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

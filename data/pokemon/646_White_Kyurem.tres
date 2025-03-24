@@ -12,8 +12,8 @@ script = ExtResource("2_2nc2k")
 pokemon_id = 646
 branch_code = ""
 names = {
-"en": "White Kyurem",
-"fr": "White Kyurem"
+"en": "Kyurem",
+"fr": "Kyurem"
 }
 generation = 5
 height = 3.6
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Boundary Pokémon",
+"fr": "Pokémon Frontière"
+}
 base_stats = {
 "attack": 120,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can produce ultracold air. Its body is frozen.",
+"fr": "Il a le pouvoir de générer un souffle d’un froid inimaginable, mais a fini par se geler lui-même."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -743,4 +748,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

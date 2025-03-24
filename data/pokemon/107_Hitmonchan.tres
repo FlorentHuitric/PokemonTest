@@ -14,7 +14,7 @@ pokemon_id = 107
 branch_code = ""
 names = {
 "en": "Hitmonchan",
-"fr": "Hitmonchan"
+"fr": "Tygnon"
 }
 generation = 1
 height = 1.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Punching Pokémon",
+"fr": "Pokémon Puncheur"
+}
 base_stats = {
 "attack": 105,
 "defense": 79,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+"fr": "Même le béton cède sous ses poings dévastateurs. Au combat, il s’essouffle au bout de 3 minutes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1200,4 +1205,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_rmohk"]
+
+[resource]
+script = ExtResource("1_rmohk")
+item_id = 884
+identifier = "zygarde-cube"
+names = {
+"en": "Zygarde Cube",
+"fr": "Boîte Zygarde"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Contains collected Zygarde cells/cores.  Can teach Zygarde moves."
+}
+effect = {
+"en": "Contains collected Zygarde cells/cores.  Can teach Zygarde moves."
+}
+flavor_text = {
+"en": "\"An item in which Zygarde Cores and Cells are gathered.",
+"fr": "\"Un artefact dans lequel les Cellules et Cœurs"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 847
+sprite_path = "res://assets/Items/ZYGARDECUBE.png"

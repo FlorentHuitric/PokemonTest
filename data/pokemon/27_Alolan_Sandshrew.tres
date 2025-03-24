@@ -13,8 +13,8 @@ script = ExtResource("3_du6c7")
 pokemon_id = 27
 branch_code = ""
 names = {
-"en": "Alolan Sandshrew",
-"fr": "Alolan Sandshrew"
+"en": "Sandshrew",
+"fr": "Sabelette"
 }
 generation = 7
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 75,
 "defense": 90,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+"fr": "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 22",
+"condition_fr": "Niveau 22",
+"evolved_pokemon_id": 28,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Item 885",
+"condition_fr": "Objet 885",
+"evolved_pokemon_id": 28,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1206,4 +1231,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

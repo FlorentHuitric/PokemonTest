@@ -13,7 +13,7 @@ pokemon_id = 640
 branch_code = ""
 names = {
 "en": "Virizion",
-"fr": "Virizion"
+"fr": "Viridium"
 }
 generation = 5
 height = 2.0
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Grassland Pokémon",
+"fr": "Pokémon Plaine Verte"
+}
 base_stats = {
 "attack": 90,
 "defense": 72,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
+"fr": "Ses cornes sont des lames effilées. Il lacère ses ennemis dans un mouvement tourbillonnant."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 49,
 "method": 1,
@@ -779,4 +784,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_oa883"]
+
+[resource]
+script = ExtResource("1_oa883")
+item_id = 726
+identifier = "discount-coupon"
+names = {
+"en": "Discount Coupon",
+"fr": "Bon Réduction"
+}
+cost = 20
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Can be used at a boutique for a 50% discount.  Consumed once used."
+}
+effect = {
+"en": "Can be used at a boutique for a 50% discount.  Consumed once used."
+}
+flavor_text = {
+"en": "\"This special coupon allows you to buy items at a",
+"fr": "\"Un ticket donnant droit à une réduction dans"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 699
+sprite_path = "res://assets/Items/DISCOUNTCOUPON.png"

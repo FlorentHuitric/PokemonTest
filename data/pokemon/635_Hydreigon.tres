@@ -13,7 +13,7 @@ pokemon_id = 635
 branch_code = ""
 names = {
 "en": "Hydreigon",
-"fr": "Hydreigon"
+"fr": "Trioxhydre"
 }
 generation = 5
 height = 1.8
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Brutal Pokémon",
+"fr": "Pokémon Brutal"
+}
 base_stats = {
 "attack": 105,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+"fr": "Les têtes sur ses bras n’ont pas de cerveau. Avec ses trois têtes, il dévore et détruit tout."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -929,4 +934,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

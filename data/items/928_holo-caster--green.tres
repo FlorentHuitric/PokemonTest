@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q8sdy"]
+
+[resource]
+script = ExtResource("1_q8sdy")
+item_id = 928
+identifier = "holo-caster--green"
+names = {
+"en": "Holo Caster",
+"fr": "Holokit"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for holo-caster--green"
+}
+effect = {
+"en": "XXX new effect for holo-caster--green"
+}
+flavor_text = {
+"en": "\"A device that allows users to receive and view",
+"fr": "\"Un appareil portable permettant de recevoir et de"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 641
+sprite_path = "res://assets/Items/HOLOCASTERGREEN.png"

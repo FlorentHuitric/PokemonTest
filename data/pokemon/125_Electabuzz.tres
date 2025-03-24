@@ -13,7 +13,7 @@ pokemon_id = 125
 branch_code = ""
 names = {
 "en": "Electabuzz",
-"fr": "Electabuzz"
+"fr": "Élektek"
 }
 generation = 1
 height = 1.1
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Electric Pokémon",
+"fr": "Pokémon Électrique"
+}
 base_stats = {
 "attack": 83,
 "defense": 57,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It windmills its arms to slightly boost its punches. Foes have been known to escape in the meantime.",
+"fr": "Il fait tournoyer ses bras pour donner de la force à ses coups. Profitez-en pour filer!"
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 126,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1115,4 +1130,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

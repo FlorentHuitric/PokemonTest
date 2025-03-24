@@ -13,8 +13,8 @@ script = ExtResource("4_41ypb")
 pokemon_id = 550
 branch_code = ""
 names = {
-"en": "Hisuian Basculin",
-"fr": "Hisuian Basculin"
+"en": "Basculin",
+"fr": "Bargantua"
 }
 generation = 8
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Hisuian"
+genus = {
+"en": "Hostile Pokémon",
+"fr": "Pokémon Violent"
+}
 base_stats = {
 "attack": 92,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other’s school.",
+"fr": "Les rouges et les bleus se détestent, mais il y en a toujours un ou deux dans un groupe de l’autre couleur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -798,4 +803,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3h8mf"]
+
+[resource]
+script = ExtResource("1_3h8mf")
+item_id = 1027
+identifier = "lone-earring"
+names = {
+"en": "Lone Earring",
+"fr": "Boucle d’Oreille"
+}
+cost = 600
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "A single earring that somebody dropped.",
+"fr": "Une boucle d’oreille perdue par quelqu’un."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 888
+sprite_path = "res://assets/Items/LONEEARRING.png"

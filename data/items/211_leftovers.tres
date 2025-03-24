@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_uktu7"]
+
+[resource]
+script = ExtResource("1_uktu7")
+item_id = 211
+identifier = "leftovers"
+names = {
+"en": "Leftovers",
+"fr": "Restes"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Restores 1/16 (6.25%) holder's max HP at the end of each turn."
+}
+effect = {
+"en": "Held: Heals the holder by 1/16 its max HP at the end of each turn."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. The holder’s HP",
+"fr": "\"Objet à tenir. Permet de restaurer graduellement"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 200
+sprite_path = "res://assets/Items/LEFTOVERS.png"

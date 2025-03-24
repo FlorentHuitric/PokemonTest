@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_82tig"]
+
+[resource]
+script = ExtResource("1_82tig")
+item_id = 418
+identifier = "red-chain"
+names = {
+"en": "Red Chain",
+"fr": "Chaîne Rouge"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to bind Palkia and Dialga."
+}
+effect = {
+"en": "Unused."
+}
+flavor_text = {
+"en": "\"A mythical chain that is said to link the",
+"fr": "\"Une chaîne mystique qui serait reliée au Pokémon"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 441
+sprite_path = "res://assets/Items/REDCHAIN.png"

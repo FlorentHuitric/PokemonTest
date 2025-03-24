@@ -18,8 +18,8 @@ accuracy = 90
 pp = 10
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+"fr": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,20 @@ crit_rate = 0
 ailment_chance = 10
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 5
+move_effect_short = {
+"en": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
+"fr": "A $effect_chance% de chances de [brûler]{mechanic:burn} la cible."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 5
+metadata/effect_chance = 10

@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Seafaring Pokémon",
+"fr": "Pokémon Voyagenmer"
+}
 base_stats = {
 "attack": 100,
 "defense": 100,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+"fr": "Il est né avec le pouvoir incroyable de créer des liens avec n’importe quel Pokémon."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -532,4 +537,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

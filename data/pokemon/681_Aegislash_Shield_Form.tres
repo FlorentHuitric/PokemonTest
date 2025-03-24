@@ -12,8 +12,8 @@ script = ExtResource("2_sgrlx")
 pokemon_id = 681
 branch_code = ""
 names = {
-"en": "Aegislash Shield Form",
-"fr": "Aegislash Shield Form"
+"en": "Aegislash",
+"fr": "Exagide"
 }
 generation = 6
 height = 1.7
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Royal Sword Pokémon",
+"fr": "Pokémon Noble Lame"
+}
 base_stats = {
 "attack": 50,
 "defense": 140,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -515,4 +520,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

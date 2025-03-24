@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jwwt2"]
+
+[resource]
+script = ExtResource("1_jwwt2")
+item_id = 635
+identifier = "x-sp-atk-2"
+names = {
+"en": "X Sp. Atk 2",
+"fr": "Atq. Spé. 2"
+}
+cost = 0
+category_id = 43
+category_name = {
+"en": "Miracle Shooter"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage} in battle.  Wonder Launcher only."
+}
+effect = {
+"en": "\"Used on a party Pokémon in battle"
+}
+flavor_text = {
+"en": "\"It sharply raises the Sp. Atk stat of a Pokémon in",
+"fr": "\"Augmente un peu l’Attaque Spéciale pendant"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 594
+sprite_path = "res://assets/Items/XSPATK2.png"

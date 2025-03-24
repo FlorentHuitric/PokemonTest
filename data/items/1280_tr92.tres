@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xfppi"]
+
+[resource]
+script = ExtResource("1_xfppi")
+item_id = 1280
+identifier = "tr92"
+names = {
+"en": "TR92",
+"fr": "DT92"
+}
+cost = 6000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user damages opposing Pokémon by emitting a",
+"fr": "\"Libère une puissante décharge lumineuse"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1222
+sprite_path = "res://assets/Items/TR92.png"

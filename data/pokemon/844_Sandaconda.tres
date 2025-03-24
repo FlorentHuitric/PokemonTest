@@ -14,7 +14,7 @@ pokemon_id = 844
 branch_code = ""
 names = {
 "en": "Sandaconda",
-"fr": "Sandaconda"
+"fr": "Dunaconda"
 }
 generation = 8
 height = 3.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sand Snake Pokémon",
+"fr": "Pokémon Serpensable"
+}
 base_stats = {
 "attack": 107,
 "defense": 125,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 42,
 "method": 1,
@@ -390,4 +395,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

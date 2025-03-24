@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gknw4"]
+
+[resource]
+script = ExtResource("1_gknw4")
+item_id = 564
+identifier = "shock-drive"
+names = {
+"en": "Shock Drive",
+"fr": "Module Choc"
+}
+cost = 0
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 70
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Grants Genesect a yellow"
+}
+effect = {
+"en": " Electric-type Techno Blast.\""
+}
+flavor_text = {
+"en": "\"A cassette to be held by Genesect. It changes",
+"fr": "\"Tenu par Genesect"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 117
+sprite_path = "res://assets/Items/SHOCKDRIVE.png"

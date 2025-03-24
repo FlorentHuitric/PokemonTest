@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cobra Pokémon",
+"fr": "Pokémon Cobra"
+}
 base_stats = {
 "attack": 95,
 "defense": 69,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+"fr": "Il utilise la marque sur son ventre pour intimider l’ennemi. Il étouffe l’ennemi pétrifié par la peur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 25,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -912,4 +927,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 398,
 "tm_id": ""
-}]
+}])

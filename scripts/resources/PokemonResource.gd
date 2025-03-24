@@ -23,6 +23,9 @@ class_name PokemonResource
 @export var mega_evolution_flag: bool = false
 @export var region_form: String = ""
 
+# Nouvelle propriété pour le sous-titre du Pokémon (genus)
+@export var genus: Dictionary = {"en": "", "fr": ""}
+
 # Statistiques de base
 @export var base_stats: Dictionary = {
 	"hp": 0,
@@ -57,7 +60,6 @@ class_name PokemonResource
 # Description du Pokémon
 @export var description: Dictionary = {"en": "", "fr": ""}
 
-# Nouvelles propriétés
 # Valeurs individuelles (IVs)
 @export var iv_ranges: Dictionary = {
 	"hp": {"min": 0, "max": 31},
@@ -67,6 +69,20 @@ class_name PokemonResource
 	"special_defense": {"min": 0, "max": 31},
 	"speed": {"min": 0, "max": 31}
 }
+
+# Données d'évolution du Pokémon
+@export var evolutions: Array[Dictionary] = []
+# Structure d'une évolution:
+# {
+#    "evolved_pokemon_id": 0,     # ID du Pokémon évolué
+#    "trigger_type": "",          # Type de déclencheur (level-up, trade, item, etc.)
+#    "trigger_name": {            # Noms traduits du déclencheur
+#        "en": "",                # Nom en anglais
+#        "fr": ""                 # Nom en français
+#    }
+#    "condition_en": "",          # Description textuelle de la condition d'évolution en anglais
+#    "condition_fr": ""           # Description textuelle de la condition d'évolution en français
+# }
 
 # Moves que le Pokémon peut apprendre
 @export var learnable_moves: Array[Dictionary] = []
@@ -78,6 +94,20 @@ class_name PokemonResource
 #    "tm_id": "",          # ID de la TM/HM si applicable
 #    "generation": 1       # Génération où ce move est appris
 # }
+
+# Dictionnaire des méthodes d'apprentissage de moves (pour référence)
+const MOVE_METHODS = {
+	1: "Level-up",
+	2: "Egg",
+	3: "Tutor", 
+	4: "TM/HM",
+	5: "Stadium-surfing-pikachu",
+	6: "Light-ball-egg",
+	7: "Colosseum-purification",
+	8: "XD-shadow",
+	9: "XD-purification",
+	10: "Form-change"
+}
 
 # Fonction pour ajouter un move apprenable
 func add_learnable_move(move_id: int, method: int, level: int = 0, tm_id: String = "", generation: int = 1) -> void:
@@ -95,3 +125,17 @@ func can_learn_move(move_id: int) -> bool:
 		if move.move_id == move_id:
 			return true
 	return false
+
+# Fonction pour obtenir le nom lisible d'une méthode d'apprentissage
+func get_move_method_name(method_id: int) -> String:
+	return MOVE_METHODS.get(method_id, "Unknown")
+
+# Fonction pour ajouter une évolution
+func add_evolution(evolved_pokemon_id: int, trigger_type: String, trigger_name: Dictionary, condition_en: String = "", condition_fr: String = "") -> void:
+	evolutions.append({
+		"evolved_pokemon_id": evolved_pokemon_id,
+		"trigger_type": trigger_type,
+		"trigger_name": trigger_name,
+		"condition_en": condition_en,
+		"condition_fr": condition_fr
+	})

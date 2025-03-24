@@ -13,7 +13,7 @@ pokemon_id = 9
 branch_code = ""
 names = {
 "en": "Blastoise",
-"fr": "Blastoise"
+"fr": "Tortank"
 }
 generation = 1
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Shellfish Pokémon",
+"fr": "Pokémon Carapace"
+}
 base_stats = {
 "attack": 83,
 "defense": 100,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+"fr": "Les trombes d’eau projetées par les canons de sa carapace peuvent percer le métal le plus résistant."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1241,4 +1246,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

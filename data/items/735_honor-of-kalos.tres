@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_p4vqy"]
+
+[resource]
+script = ExtResource("1_p4vqy")
+item_id = 735
+identifier = "honor-of-kalos"
+names = {
+"en": "Honor of Kalos",
+"fr": "Insigne de Kalos"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Does nothing"
+}
+effect = {
+"en": " but signifies becoming Champion.\""
+}
+flavor_text = {
+"en": "\"A precious symbol that is awarded only to an",
+"fr": "\"Une récompense symbolique offerte à ceux qui"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 702
+sprite_path = "res://assets/Items/HONOROFKALOS.png"

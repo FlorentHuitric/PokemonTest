@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_08s0r"]
+
+[resource]
+script = ExtResource("1_08s0r")
+item_id = 383
+identifier = "tm79"
+names = {
+"en": "TM79",
+"fr": "CT79"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Frost Breath to a compatible Pokémon. (Gen IV: Dark Pulse)"
+}
+effect = {
+"en": "Teaches Dark Pulse to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user gets revenge for a fainted ally. If an ally",
+"fr": "\"Venge un Pokémon de l’équipe mis K.O."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 406
+sprite_path = "res://assets/Items/TM79.png"

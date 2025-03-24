@@ -13,7 +13,7 @@ pokemon_id = 129
 branch_code = ""
 names = {
 "en": "Magikarp",
-"fr": "Magikarp"
+"fr": "Magicarpe"
 }
 generation = 1
 height = 0.9
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Fish Pokémon",
+"fr": "Pokémon Poisson"
+}
 base_stats = {
 "attack": 10,
 "defense": 55,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/129.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/129.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/129.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+"fr": "Un vénérable Magicarpe peut franchir une montagne en utilisant Trempette. Mais c’est tout..."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 130,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 15,
 "method": 1,
@@ -131,4 +146,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 340,
 "tm_id": ""
-}]
+}])

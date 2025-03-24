@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_47e4l"]
+
+[resource]
+script = ExtResource("1_47e4l")
+item_id = 545
+identifier = "bike-voucher"
+names = {
+"en": "Bike Voucher",
+"fr": "Bon Commande"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Trade in Cerulean bike shop for a Bicycle."
+}
+effect = {
+"en": "May be traded for a []{item:bicycle}."
+}
+flavor_text = {
+"en": "\"Take this voucher to the BIKE SHOP"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 352
+sprite_path = "res://assets/Items/BIKEVOUCHER.png"

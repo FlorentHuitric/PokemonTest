@@ -11,8 +11,8 @@ script = ExtResource("2_mgwqd")
 pokemon_id = 115
 branch_code = ""
 names = {
-"en": "Mega Kangaskhan",
-"fr": "Mega Kangaskhan"
+"en": "Kangaskhan",
+"fr": "Kangourex"
 }
 generation = 1
 height = 2.2
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Parent Pokémon",
+"fr": "Pokémon Maternel"
+}
 base_stats = {
 "attack": 125,
 "defense": 100,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
+"fr": "Il élève ses petits dans sa poche ventrale. Il attend d’être en lieu sûr pour les laisser jouer dehors."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1360,4 +1365,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

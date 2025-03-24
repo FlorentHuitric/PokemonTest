@@ -34,6 +34,13 @@ class_name MoveResource
 @export var flinch_chance: int = 0  # % de chance de flinch
 @export var stat_chance: int = 0  # % de chance de modifier les stats
 
+# Nouvelles propriétés pour les cibles et les effets
+@export var move_target_id: int = 0
+@export var move_target_name: Dictionary = {"en": "", "fr": ""}
+@export var move_target_description: Dictionary = {"en": "", "fr": ""}
+@export var move_effect_id: int = 0
+@export var move_effect_short: Dictionary = {"en": "", "fr": ""}
+
 # Méthode pour mettre à jour les données du move à partir des CSV
 func update_from_meta(meta_data: Dictionary) -> void:
 	if meta_data.has("meta_category_id"):

@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xbfrg"]
+
+[resource]
+script = ExtResource("1_xbfrg")
+item_id = 304
+identifier = "razor-fang"
+names = {
+"en": "Razor Fang",
+"fr": "Croc Rasoir"
+}
+cost = 5000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 7
+fling_effect = {
+"en": "Target will flinch if it has not yet gone this turn.",
+"fr": "La cible va tressaillir si elle n'a pas encore agi ce tour."
+}
+short_effect = {
+"en": "Held: Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor."
+}
+effect = {
+"en": "\"Held: When the holder attacks with most damaging moves"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. When the holder",
+"fr": "\"Objet à tenir. Peut apeurer l’ennemi quand le porteur"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 327
+sprite_path = "res://assets/Items/RAZORFANG.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6m1wn"]
+
+[resource]
+script = ExtResource("1_6m1wn")
+item_id = 483
+identifier = "mystery-egg"
+names = {
+"en": "Mystery Egg",
+"fr": "Œuf Mystère"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Deliver to Professor Elm."
+}
+effect = {
+"en": "\"Must be obtained to trigger the break-in at Professor Elm's lab"
+}
+flavor_text = {
+"en": "\"A mysterious Egg obtained from Mr. Pokémon.",
+"fr": "\"Un Œuf étrange confié par M. Pokémon."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 484
+sprite_path = "res://assets/Items/MYSTERYEGG.png"

@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Spot Panda Pokémon",
+"fr": "Pokémon Panda Tache"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+"fr": "Les motifs sur leur fourrure sont propres à chaque Spinda. Son pas chancelant le rend difficile à viser."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -930,4 +935,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

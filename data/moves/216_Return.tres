@@ -18,8 +18,8 @@ accuracy = 100
 pp = 20
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "This full-power attack grows more powerful the more the user likes its Trainer.",
+"fr": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 122
+move_effect_short = {
+"en": "Power increases with happiness, up to a maximum of 102."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 122
+metadata/effect_chance = 0

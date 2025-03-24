@@ -13,7 +13,8 @@ script = ExtResource("4_fb35q")
 pokemon_id = 53
 branch_code = ""
 names = {
-"en": "Alolan Persian"
+"en": "Persian",
+"fr": "Persian"
 }
 generation = 7
 height = 1.1
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Classy Cat Pokémon",
+"fr": "Pokémon Chadeville"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -60,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
+"fr": "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 17,
 "method": 1,
@@ -1181,4 +1187,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

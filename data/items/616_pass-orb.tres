@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ym5m3"]
+
+[resource]
+script = ExtResource("1_ym5m3")
+item_id = 616
+identifier = "pass-orb"
+names = {
+"en": "Pass Orb",
+"fr": "Offrisphère"
+}
+cost = 200
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Activates Pass Powers."
+}
+effect = {
+"en": "Acts as currency to activate Pass Powers in the Entralink."
+}
+flavor_text = {
+"en": "\"A mysterious orb containing the power of the",
+"fr": "\"Une sphère mystérieuse contenant l’Aura d’Unys"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 575
+sprite_path = "res://assets/Items/PASSORB.png"

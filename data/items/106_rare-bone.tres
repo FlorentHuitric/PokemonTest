@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_lx1ac"]
+
+[resource]
+script = ExtResource("1_lx1ac")
+item_id = 106
+identifier = "rare-bone"
+names = {
+"en": "Rare Bone",
+"fr": "Os Rare"
+}
+cost = 5000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 100
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Sell for 5000 Pokédollars"
+}
+effect = {
+"en": " or to Bone Man for 10000 Pokédollars.\""
+}
+flavor_text = {
+"en": "\"A rare bone that is extremely valuable for the",
+"fr": "\"Un os d’une grande valeur pour l’archéologie Pokémon."
+}
+flags = Array[String](["underground"])
+generation_id = 4
+game_index = 106
+sprite_path = "res://assets/Items/RAREBONE.png"

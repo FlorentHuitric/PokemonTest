@@ -14,7 +14,7 @@ pokemon_id = 12
 branch_code = ""
 names = {
 "en": "Butterfree",
-"fr": "Butterfree"
+"fr": "Papilusion"
 }
 generation = 1
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Butterfly Pokémon",
+"fr": "Pokémon Papillon"
+}
 base_stats = {
 "attack": 45,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/12.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/12.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/12.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+"fr": "Il raffole du nectar des fleurs. Il est capable de repérer la plus petite quantité de pollen."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1038,4 +1043,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

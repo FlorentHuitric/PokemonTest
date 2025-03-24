@@ -14,7 +14,7 @@ pokemon_id = 744
 branch_code = ""
 names = {
 "en": "Rockruff",
-"fr": "Rockruff"
+"fr": "Rocabot"
 }
 generation = 7
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Puppy Pokémon",
+"fr": "Pokémon Chiot"
+}
 base_stats = {
 "attack": 65,
 "defense": 40,
@@ -90,7 +94,38 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25 + Time: day",
+"condition_fr": "Niveau 25 + Moment: jour",
+"evolved_pokemon_id": 745,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Level 25 + Time: night",
+"condition_fr": "Niveau 25 + Moment: nuit",
+"evolved_pokemon_id": 745,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Level 25 + Time: dusk",
+"condition_fr": "Niveau 25 + Moment: crépuscule",
+"evolved_pokemon_id": 745,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 4,
 "method": 1,
@@ -582,4 +617,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

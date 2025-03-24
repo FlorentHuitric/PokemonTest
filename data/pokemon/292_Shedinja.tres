@@ -13,7 +13,7 @@ pokemon_id = 292
 branch_code = ""
 names = {
 "en": "Shedinja",
-"fr": "Shedinja"
+"fr": "Munja"
 }
 generation = 3
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Shed Pokémon",
+"fr": "Pokémon Exuvie"
+}
 base_stats = {
 "attack": 90,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one’s spirit.",
+"fr": "Une carapace d’insecte laissée à l’abandon. On dit qu’il vole l’âme de celui qui regarde à l’intérieur."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -731,4 +736,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

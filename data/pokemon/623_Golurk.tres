@@ -15,7 +15,7 @@ pokemon_id = 623
 branch_code = ""
 names = {
 "en": "Golurk",
-"fr": "Golurk"
+"fr": "Golemastoc"
 }
 generation = 5
 height = 2.8
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Automaton Pokémon",
+"fr": "Pokémon Golem Ancien"
+}
 base_stats = {
 "attack": 124,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+"fr": "Ses créateurs d’une lointaine époque lui auraient ordonné de protéger les humains et les Pokémon."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -949,4 +954,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

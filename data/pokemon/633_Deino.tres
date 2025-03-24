@@ -13,7 +13,7 @@ pokemon_id = 633
 branch_code = ""
 names = {
 "en": "Deino",
-"fr": "Deino"
+"fr": "Solochi"
 }
 generation = 5
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Irate Pokémon",
+"fr": "Pokémon Rude"
+}
 base_stats = {
 "attack": 65,
 "defense": 50,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+"fr": "Comme il ne voit rien, il perçoit son environnement en mordant et en fonçant à tout va. Il est couvert de plaies."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 50",
+"condition_fr": "Niveau 50",
+"evolved_pokemon_id": 634,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 28,
 "method": 1,
@@ -719,4 +734,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 526,
 "tm_id": ""
-}]
+}])

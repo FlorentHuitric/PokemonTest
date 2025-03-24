@@ -13,7 +13,7 @@ pokemon_id = 795
 branch_code = ""
 names = {
 "en": "Pheromosa",
-"fr": "Pheromosa"
+"fr": "Cancrelove"
 }
 generation = 7
 height = 1.8
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lissome Pokémon",
+"fr": "Pokémon Gracile"
+}
 base_stats = {
 "attack": 137,
 "defense": 37,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 13,
 "method": 1,
@@ -665,4 +670,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

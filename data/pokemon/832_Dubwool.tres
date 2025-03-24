@@ -14,7 +14,7 @@ pokemon_id = 832
 branch_code = ""
 names = {
 "en": "Dubwool",
-"fr": "Dubwool"
+"fr": "Moumouflon"
 }
 generation = 8
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sheep Pokémon",
+"fr": "Pokémon Mouton"
+}
 base_stats = {
 "attack": 80,
 "defense": 100,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -330,4 +335,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

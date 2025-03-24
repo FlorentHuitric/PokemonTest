@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jwyf7"]
+
+[resource]
+script = ExtResource("1_jwyf7")
+item_id = 347
+identifier = "tm43"
+names = {
+"en": "TM43",
+"fr": "CT43"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Flame Charge to a compatible Pokémon. (Gen IV & III: Secret Power Gen II: Detect Gen I: Sky Attack)"
+}
+effect = {
+"en": "Teaches Secret Power to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user attacks with a swift chop. It can also break",
+"fr": "\"Le lanceur attaque avec le tranchant de la main."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 331
+sprite_path = "res://assets/Items/TM43.png"

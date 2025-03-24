@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ag47o"]
+
+[resource]
+script = ExtResource("1_ag47o")
+item_id = 612
+identifier = "pretty-wing"
+names = {
+"en": "Pretty Feather",
+"fr": "Jolie Plume"
+}
+cost = 1000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 20
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Sell for 100 Pokédollars."
+}
+effect = {
+"en": "Vendor trash."
+}
+flavor_text = {
+"en": "\"Though this feather is beautiful",
+"fr": "\"Une plume très jolie"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 571
+sprite_path = "res://assets/Items/PRETTYWING.png"

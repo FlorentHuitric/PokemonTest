@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Shellfish Pokémon",
+"fr": "Pokémon Carapace"
+}
 base_stats = {
 "attack": 80,
 "defense": 90,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
+"fr": "On pense qu’il peuplait les plages il y a 300 millions d’années. Il est protégé par une coquille robuste."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 141,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -973,4 +988,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

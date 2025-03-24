@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_r4arh"]
+
+[resource]
+script = ExtResource("1_r4arh")
+item_id = 625
+identifier = "relic-copper"
+names = {
+"en": "Relic Copper",
+"fr": "Vieux Sou"
+}
+cost = 0
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Sell to Villa Owner for 1000 Pokédollars."
+}
+effect = {
+"en": "Cult vendor trash."
+}
+flavor_text = {
+"en": "\"A copper coin used by an ancient civilization about",
+"fr": "\"Une pièce de cuivre d’une civilisation vieille de plus"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 584
+sprite_path = "res://assets/Items/RELICCOPPER.png"

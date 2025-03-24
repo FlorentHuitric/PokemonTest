@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ad54k"]
+
+[resource]
+script = ExtResource("1_ad54k")
+item_id = 481
+identifier = "silver-wing"
+names = {
+"en": "Silver Wing",
+"fr": "Argent’Aile"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Summons Lugia to the Whirl Islands."
+}
+effect = {
+"en": "Causes []{pokemon:lugia} to appear in the []{location:whirl-islands}."
+}
+flavor_text = {
+"en": "\"A strange",
+"fr": "Une étrange plume qui brille d’un éclat argenté."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 482
+sprite_path = "res://assets/Items/SILVERWING.png"

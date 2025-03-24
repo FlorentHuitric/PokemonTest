@@ -13,7 +13,7 @@ pokemon_id = 8
 branch_code = ""
 names = {
 "en": "Wartortle",
-"fr": "Wartortle"
+"fr": "Carabaffe"
 }
 generation = 1
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Turtle Pokémon",
+"fr": "Pokémon Tortue"
+}
 base_stats = {
 "attack": 63,
 "defense": 80,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+"fr": "On prétend qu’il vit 10 000 ans. Sa queue duveteuse est un symbole de longévité populaire."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 36",
+"condition_fr": "Niveau 36",
+"evolved_pokemon_id": 9,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1085,4 +1100,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

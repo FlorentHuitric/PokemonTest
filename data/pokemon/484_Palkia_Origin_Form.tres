@@ -13,8 +13,8 @@ script = ExtResource("3_7vp1h")
 pokemon_id = 484
 branch_code = ""
 names = {
-"en": "Palkia Origin Form",
-"fr": "Palkia Origin Form"
+"en": "Palkia",
+"fr": "Palkia"
 }
 generation = 4
 height = 6.3
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Spatial Pokémon",
+"fr": "Pokémon Espace"
+}
 base_stats = {
 "attack": 100,
 "defense": 100,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A legendary Pokémon of Sinnoh. It is said that space becomes more stable with Palkia’s every breath.",
+"fr": "On dit que la stabilité de l’espace est maintenue par le souffle de ce Pokémon légendaire de Sinnoh."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -900,4 +905,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

@@ -18,8 +18,8 @@ accuracy = 0
 pp = 40
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+"fr": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive."
 }
 tm_id = ""
 meta_category_id = 1
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 217
+move_effect_short = {
+"en": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 217
+metadata/effect_chance = 0

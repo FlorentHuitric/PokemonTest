@@ -18,8 +18,8 @@ accuracy = 0
 pp = 1
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. Critical hits land more easily.",
+"fr": "Le Pikachu à casquette utilise la Force Z pour augmenter sa puissance électrique avant de la déchaîner sur la cible. Taux de critique élevé."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,20 @@ crit_rate = 2
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 1
+move_effect_short = {
+"en": "Inflicts regular damage with no additional effect.",
+"fr": "Inflige des dégâts normaux sans effet supplémentaire."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 1
+metadata/effect_chance = 0

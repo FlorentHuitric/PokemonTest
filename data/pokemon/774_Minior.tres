@@ -13,7 +13,7 @@ pokemon_id = 774
 branch_code = "774_7"
 names = {
 "en": "Minior",
-"fr": "Minior Purple Core"
+"fr": "Météno"
 }
 generation = 7
 height = 0.3
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Meteor Pokémon",
+"fr": "Pokémon Météore"
+}
 base_stats = {
 "attack": 100,
 "defense": 60,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -449,4 +454,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 477,
 "tm_id": ""
-}]
+}])

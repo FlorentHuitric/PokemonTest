@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_tad5l"]
+
+[resource]
+script = ExtResource("1_tad5l")
+item_id = 395
+identifier = "tm91"
+names = {
+"en": "TM91",
+"fr": "CT91"
+}
+cost = 20000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Flash Cannon to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Flash Cannon to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"This protects Pokémon on the ground from priority",
+"fr": "\"Pendant cinq tours"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 418
+sprite_path = "res://assets/Items/TM91.png"

@@ -13,7 +13,7 @@ pokemon_id = 855
 branch_code = ""
 names = {
 "en": "Polteageist",
-"fr": "Polteageist"
+"fr": "Polthégeist"
 }
 generation = 8
 height = 0.2
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Black Tea Pokémon",
+"fr": "Pokémon Thé Noir"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -377,4 +382,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

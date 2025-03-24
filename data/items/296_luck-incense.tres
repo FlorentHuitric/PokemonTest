@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2saub"]
+
+[resource]
+script = ExtResource("1_2saub")
+item_id = 296
+identifier = "luck-incense"
+names = {
+"en": "Luck Incense",
+"fr": "Encens Veine"
+}
+cost = 11000
+category_id = 16
+category_name = {
+"en": "Training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Doubles the money earned from a battle. Does not stack with Amulet Coin. Breeding: Chansey and Blissey beget a Happiny Egg."
+}
+effect = {
+"en": "Held: Doubles the money the trainer receives after an in-game trainer battle.  This effect cannot apply more than once to the same battle."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It doubles any",
+"fr": "\"Objet à tenir. Double l’argent gagné si le porteur"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 319
+sprite_path = "res://assets/Items/LUCKINCENSE.png"

@@ -14,7 +14,7 @@ pokemon_id = 61
 branch_code = ""
 names = {
 "en": "Poliwhirl",
-"fr": "Poliwhirl"
+"fr": "Têtarte"
 }
 generation = 1
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tadpole Pokémon",
+"fr": "Pokémon Têtard"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness.",
+"fr": "La spirale qui orne son ventre ondule doucement. Celui qui la fixe est saisi d’une étrange torpeur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 84",
+"condition_fr": "Objet 84",
+"evolved_pokemon_id": 62,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 26,
 "method": 1,
@@ -924,4 +939,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 414,
 "tm_id": ""
-}]
+}])

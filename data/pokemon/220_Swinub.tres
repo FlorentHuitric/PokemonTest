@@ -15,7 +15,7 @@ pokemon_id = 220
 branch_code = ""
 names = {
 "en": "Swinub",
-"fr": "Swinub"
+"fr": "Marcacrin"
 }
 generation = 2
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Pig Pokémon",
+"fr": "Pokémon Cochon"
+}
 base_stats = {
 "attack": 50,
 "defense": 40,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+"fr": "Son nez très sensible détecte champignons, Baies et sources chaudes enfouis sous la glace."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 33",
+"condition_fr": "Niveau 33",
+"evolved_pokemon_id": 221,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -829,4 +844,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 420,
 "tm_id": ""
-}]
+}])

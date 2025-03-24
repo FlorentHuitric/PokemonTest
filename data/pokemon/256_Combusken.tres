@@ -14,7 +14,7 @@ pokemon_id = 256
 branch_code = ""
 names = {
 "en": "Combusken",
-"fr": "Combusken"
+"fr": "Galifeu"
 }
 generation = 3
 height = 0.9
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Young Fowl Pokémon",
+"fr": "Pokémon Poulet"
+}
 base_stats = {
 "attack": 85,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/256.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/256.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/256.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+"fr": "Ce maître du coup de pied peut donner 10 coups par seconde. Ses cris aigus intimident l’ennemi."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 36",
+"condition_fr": "Niveau 36",
+"evolved_pokemon_id": 257,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -930,4 +945,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

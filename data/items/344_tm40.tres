@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q5jji"]
+
+[resource]
+script = ExtResource("1_q5jji")
+item_id = 344
+identifier = "tm40"
+names = {
+"en": "TM40",
+"fr": "CT40"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Aerial Ace to a compatible Pokémon. (Gen II: Defense Curl Gen I: Skull Bash)"
+}
+effect = {
+"en": "Teaches Aerial Ace to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"Star-shaped rays are shot at opposing Pokémon.",
+"fr": "\"Le lanceur envoie des rayons d’étoiles."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 328
+sprite_path = "res://assets/Items/TM40.png"

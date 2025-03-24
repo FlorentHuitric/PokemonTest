@@ -12,7 +12,7 @@ pokemon_id = 772
 branch_code = ""
 names = {
 "en": "Type: Null",
-"fr": "Type: Null"
+"fr": "Type:0"
 }
 generation = 7
 height = 1.9
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Synthetic Pokémon",
+"fr": "Pokémon Multigénome"
+}
 base_stats = {
 "attack": 95,
 "defense": 95,
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 773,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 70,
 "method": 1,
@@ -556,4 +571,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

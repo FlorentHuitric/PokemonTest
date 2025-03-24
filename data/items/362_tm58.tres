@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_l1v13"]
+
+[resource]
+script = ExtResource("1_l1v13")
+item_id = 362
+identifier = "tm58"
+names = {
+"en": "TM58",
+"fr": "CT58"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Sky Drop to a compatible Pokémon. (Gen IV: Endure)"
+}
+effect = {
+"en": "Teaches Endure to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"If the target has already taken some damage in the",
+"fr": "\"Cette attaque est deux fois plus efficace si l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 385
+sprite_path = "res://assets/Items/TM58.png"

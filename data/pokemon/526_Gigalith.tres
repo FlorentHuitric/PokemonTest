@@ -14,7 +14,7 @@ pokemon_id = 526
 branch_code = ""
 names = {
 "en": "Gigalith",
-"fr": "Gigalith"
+"fr": "Gigalithe"
 }
 generation = 5
 height = 1.7
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Compressed Pokémon",
+"fr": "Pokémon Surpression"
+}
 base_stats = {
 "attack": 135,
 "defense": 130,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The solar energy absorbed by its body’s orange crystals is magnified internally and fired from its mouth.",
+"fr": "Il amplifie dans son corps l’énergie du soleil absorbée par ses cristaux orangés et la projette par la bouche."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -594,4 +599,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

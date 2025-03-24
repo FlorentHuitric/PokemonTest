@@ -15,7 +15,7 @@ pokemon_id = 826
 branch_code = ""
 names = {
 "en": "Orbeetle",
-"fr": "Orbeetle"
+"fr": "Astronelle"
 }
 generation = 8
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Seven Spot Pokémon",
+"fr": "Pokémon Sept Points"
+}
 base_stats = {
 "attack": 45,
 "defense": 110,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -457,4 +462,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

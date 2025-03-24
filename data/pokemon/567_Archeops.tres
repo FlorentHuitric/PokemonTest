@@ -13,7 +13,7 @@ pokemon_id = 567
 branch_code = ""
 names = {
 "en": "Archeops",
-"fr": "Archeops"
+"fr": "Aéroptéryx"
 }
 generation = 5
 height = 1.4
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "First Bird Pokémon",
+"fr": "Pokémon Oisancien"
+}
 base_stats = {
 "attack": 140,
 "defense": 65,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.",
+"fr": "Il est plus doué pour courir que pour voler. Il fonce sur ses proies aussi vite qu’une voiture pour les attraper."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -791,4 +796,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

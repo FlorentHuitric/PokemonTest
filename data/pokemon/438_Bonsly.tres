@@ -14,7 +14,7 @@ pokemon_id = 438
 branch_code = ""
 names = {
 "en": "Bonsly",
-"fr": "Bonsly"
+"fr": "Manzaï"
 }
 generation = 4
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bonsai Pokémon",
+"fr": "Pokémon Bonsaï"
+}
 base_stats = {
 "attack": 80,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+"fr": "Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 38,
 "method": 1,
@@ -756,4 +761,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 715,
 "tm_id": ""
-}]
+}])

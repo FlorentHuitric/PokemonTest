@@ -13,7 +13,7 @@ pokemon_id = 180
 branch_code = ""
 names = {
 "en": "Flaaffy",
-"fr": "Flaaffy"
+"fr": "Lainergie"
 }
 generation = 2
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wool Pokémon",
+"fr": "Pokémon Laine"
+}
 base_stats = {
 "attack": 55,
 "defense": 55,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+"fr": "Sa queue s’allume lorsque sa laine se charge d’électricité. Il projette des poils électrifiés."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 181,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -761,4 +776,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 527,
 "tm_id": ""
-}]
+}])

@@ -12,7 +12,8 @@ script = ExtResource("2_qorjs")
 pokemon_id = 229
 branch_code = ""
 names = {
-"en": "Mega Houndoom"
+"en": "Houndoom",
+"fr": "Démolosse"
 }
 generation = 2
 height = 1.9
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Dark Pokémon",
+"fr": "Pokémon Sombre"
+}
 base_stats = {
 "attack": 90,
 "defense": 90,
@@ -59,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/229-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/229-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/229-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+"fr": "En colère, il crache des flammes contenant une toxine qui peut causer des dégâts irréversibles."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 212",
+"condition_fr": "Objet 212",
+"evolved_pokemon_id": 230,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -826,4 +842,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

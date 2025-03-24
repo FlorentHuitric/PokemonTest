@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1xpja"]
+
+[resource]
+script = ExtResource("1_1xpja")
+item_id = 1038
+identifier = "max-lure"
+names = {
+"en": "Max Lure",
+"fr": "Parfum Max"
+}
+cost = 900
+category_id = 11
+category_name = {
+"en": "Spelunking"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A glass bottle of perfume that makes rare Pokémon",
+"fr": "\"Une substance qui fait apparaître les Pokémon rares"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 902
+sprite_path = "res://assets/Items/MAXLURE.png"

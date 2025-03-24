@@ -14,7 +14,7 @@ pokemon_id = 538
 branch_code = ""
 names = {
 "en": "Throh",
-"fr": "Throh"
+"fr": "Judokrak"
 }
 generation = 5
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Judo Pokémon",
+"fr": "Pokémon Judo"
+}
 base_stats = {
 "attack": 100,
 "defense": 85,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
+"fr": "Ils aiment projeter ceux qui sont plus grands qu’eux. On les trouve toujours par groupes de cinq."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -762,4 +767,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ogre Darner Pokémon",
+"fr": "Pokémon Libellogre"
+}
 base_stats = {
 "attack": 76,
 "defense": 86,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+"fr": "Doté de mandibules à la force colossale, il excelle pour mordre ses ennemis en plein vol."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,58 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 470,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 470,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 470,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 470,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Item 85",
+"condition_fr": "Objet 85",
+"evolved_pokemon_id": 470,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -577,4 +632,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

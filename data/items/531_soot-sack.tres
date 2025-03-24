@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_oauik"]
+
+[resource]
+script = ExtResource("1_oauik")
+item_id = 531
+identifier = "soot-sack"
+names = {
+"en": "Soot Sack",
+"fr": "Sac à Suie"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Stores volcanic ash from Route 113."
+}
+effect = {
+"en": "Collects soot when walking through tall grass on []{location:hoenn-route-113}."
+}
+flavor_text = {
+"en": "A sack used to gather and hold volcanic ash.",
+"fr": "\"Un sac utilisé pour ramasser les cendres volcaniques"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 270
+sprite_path = "res://assets/Items/SOOTSACK.png"

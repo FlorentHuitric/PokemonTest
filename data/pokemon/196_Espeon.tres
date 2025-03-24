@@ -13,7 +13,7 @@ pokemon_id = 196
 branch_code = ""
 names = {
 "en": "Espeon",
-"fr": "Espeon"
+"fr": "Mentali"
 }
 generation = 2
 height = 0.9
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sun Pokémon",
+"fr": "Pokémon Soleil"
+}
 base_stats = {
 "attack": 65,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+"fr": "Sa fourrure est si sensible qu’il peut détecter les vibrations de l’air et prédire le temps qu’il fera."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160 + Time: night",
+"condition_fr": "Bonheur 160 + Moment: nuit",
+"evolved_pokemon_id": 197,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -989,4 +1004,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

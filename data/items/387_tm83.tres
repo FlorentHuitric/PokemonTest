@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kgypq"]
+
+[resource]
+script = ExtResource("1_kgypq")
+item_id = 387
+identifier = "tm83"
+names = {
+"en": "TM83",
+"fr": "CT83"
+}
+cost = 100000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Work Up to a compatible Pokémon. (Gen IV: Natural Gift)"
+}
+effect = {
+"en": "Teaches Natural Gift to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user cuts its target with sharp shells. This may",
+"fr": "\"Un coquillage aiguisé lacère l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 410
+sprite_path = "res://assets/Items/TM83.png"

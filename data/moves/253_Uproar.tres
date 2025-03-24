@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+"fr": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 8
+move_target_name = {
+"en": "Random opponent",
+"fr": "Adversaire aléatoire"
+}
+move_target_description = {
+"en": "One opposing Pokémon, selected at random.",
+"fr": "Un Pokémon adverse, sélectionné au hasard."
+}
+move_effect_id = 160
+move_effect_short = {
+"en": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
+}
+metadata/move_target_id = 8
+metadata/move_effect_id = 160
+metadata/effect_chance = 0

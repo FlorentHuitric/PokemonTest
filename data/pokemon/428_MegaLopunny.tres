@@ -12,7 +12,8 @@ script = ExtResource("2_dgfpn")
 pokemon_id = 428
 branch_code = ""
 names = {
-"en": "Mega Lopunny"
+"en": "Lopunny",
+"fr": "Lockpin"
 }
 generation = 4
 height = 1.3
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Rabbit Pokémon",
+"fr": "Pokémon Lapin"
+}
 base_stats = {
 "attack": 136,
 "defense": 94,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+"fr": "Il est capable de décocher de puissants coups de pied si on touche à ses délicates oreilles."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 108",
+"condition_fr": "Objet 108",
+"evolved_pokemon_id": 429,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -928,4 +944,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

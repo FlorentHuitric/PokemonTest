@@ -14,7 +14,7 @@ pokemon_id = 236
 branch_code = ""
 names = {
 "en": "Tyrogue",
-"fr": "Tyrogue"
+"fr": "Debugant"
 }
 generation = 2
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Scuffle Pokémon",
+"fr": "Pokémon Bagarreur"
+}
 base_stats = {
 "attack": 35,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+"fr": "Il est réputé pour sa combativité. Il se blesse toujours en défiant des ennemis plus grands."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 237,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -588,4 +603,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 270,
 "tm_id": ""
-}]
+}])

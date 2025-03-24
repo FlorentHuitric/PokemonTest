@@ -14,7 +14,7 @@ pokemon_id = 440
 branch_code = ""
 names = {
 "en": "Happiny",
-"fr": "Happiny"
+"fr": "Ptiravi"
 }
 generation = 4
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Playhouse Pokémon",
+"fr": "Pokémon Maisonjouet"
+}
 base_stats = {
 "attack": 5,
 "defense": 5,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+"fr": "Ce Pokémon ne se sépare jamais de son petit caillou et a tendance à traîner dans les pieds des gens."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -654,4 +659,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 574,
 "tm_id": ""
-}]
+}])

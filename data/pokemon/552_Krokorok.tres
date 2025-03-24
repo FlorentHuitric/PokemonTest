@@ -15,7 +15,7 @@ pokemon_id = 552
 branch_code = ""
 names = {
 "en": "Krokorok",
-"fr": "Krokorok"
+"fr": "Escroco"
 }
 generation = 5
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Desert Croc Pokémon",
+"fr": "Pokémon Croco Sable"
+}
 base_stats = {
 "attack": 82,
 "defense": 45,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+"fr": "La membrane spéciale qui recouvre ses yeux détecte la chaleur et lui permet de voir dans le noir."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 553,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -769,4 +784,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -15,7 +15,7 @@ pokemon_id = 565
 branch_code = ""
 names = {
 "en": "Carracosta",
-"fr": "Carracosta"
+"fr": "Mégapagos"
 }
 generation = 5
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Prototurtle Pokémon",
+"fr": "Pokémon Tortantique"
+}
 base_stats = {
 "attack": 108,
 "defense": 133,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.",
+"fr": "Ses mâchoires sont très puissantes. Il dévore sans distinction ses proies, l’acier et les rochers."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 8,
 "method": 1,
@@ -745,4 +750,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

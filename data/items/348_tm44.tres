@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ryxwd"]
+
+[resource]
+script = ExtResource("1_ryxwd")
+item_id = 348
+identifier = "tm44"
+names = {
+"en": "TM44",
+"fr": "CT44"
+}
+cost = 100000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Rest to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Rest to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"If opposing Pokémon know any move also known by",
+"fr": "\"Si l’ennemi et le lanceur ont des capacités en commun"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 332
+sprite_path = "res://assets/Items/TM44.png"

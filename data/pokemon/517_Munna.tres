@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dream Eater Pokémon",
+"fr": "Pokémon Mangerêve"
+}
 base_stats = {
 "attack": 25,
 "defense": 45,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+"fr": "Il se nourrit des rêves des gens et des Pokémon. Quand le rêve est agréable, il crache une fumée rose."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 81",
+"condition_fr": "Objet 81",
+"evolved_pokemon_id": 518,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -750,4 +765,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

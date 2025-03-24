@@ -14,7 +14,7 @@ pokemon_id = 108
 branch_code = ""
 names = {
 "en": "Lickitung",
-"fr": "Lickitung"
+"fr": "Excelangue"
 }
 generation = 1
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Licking Pokémon",
+"fr": "Pokémon Lécheur"
+}
 base_stats = {
 "attack": 55,
 "defense": 75,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When it extends its over-six-foot- long tongue, its tail quivers. There is a possibility they are connected.",
+"fr": "Quand il déploie sa langue de près de deux mètres, sa queue s’agite. Elles seraient reliées entre elles."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1344,4 +1349,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

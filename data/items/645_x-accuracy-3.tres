@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qrve6"]
+
+[resource]
+script = ExtResource("1_qrve6")
+item_id = 645
+identifier = "x-accuracy-3"
+names = {
+"en": "X Accuracy 3",
+"fr": "Précision 3"
+}
+cost = 0
+category_id = 43
+category_name = {
+"en": "Miracle Shooter"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises [accuracy]{mechanic:accuracy} by three [stages]{mechanic:stage} in battle.  Wonder Launcher only."
+}
+effect = {
+"en": "\"Used on a party Pokémon in battle"
+}
+flavor_text = {
+"en": "\"It drastically raises the accuracy of a Pokémon in",
+"fr": "\"Augmente sensiblement la Précision pendant un combat."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 604
+sprite_path = "res://assets/Items/XACCURACY3.png"

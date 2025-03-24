@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_27sr3"]
+
+[resource]
+script = ExtResource("1_27sr3")
+item_id = 741
+identifier = "profs-letter"
+names = {
+"en": "Prof’s Letter",
+"fr": "Lettre du Prof"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded to the player's mom for the Town Map and a Potion."
+}
+effect = {
+"en": "Traded to the player's mom for the Town Map and a Potion."
+}
+flavor_text = {
+"en": "\"A letter that Professor Sycamore wrote to your",
+"fr": "\"Une lettre du Professeur Platane à Maman."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 642
+sprite_path = "res://assets/Items/PROFSLETTER.png"

@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Clear Wing Pokémon",
+"fr": "Pokémon Translaile"
+}
 base_stats = {
 "attack": 65,
 "defense": 45,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+"fr": "La vitesse de ses ailes lui permet un vol stationnaire. Il surveille ainsi tout son territoire."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -703,4 +708,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

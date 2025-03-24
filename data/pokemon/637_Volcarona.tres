@@ -14,7 +14,7 @@ pokemon_id = 637
 branch_code = ""
 names = {
 "en": "Volcarona",
-"fr": "Volcarona"
+"fr": "Pyrax"
 }
 generation = 5
 height = 1.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sun Pokémon",
+"fr": "Pokémon Soleil"
+}
 base_stats = {
 "attack": 60,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+"fr": "Quand il se bat, il fait pleuvoir des écailles enflammées de ses six ailes et transforme les alentours en mer de feu."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -732,4 +737,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

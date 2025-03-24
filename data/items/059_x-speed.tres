@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gsvah"]
+
+[resource]
+script = ExtResource("1_gsvah")
+item_id = 59
+identifier = "x-speed"
+names = {
+"en": "X Speed",
+"fr": "Vitesse +"
+}
+cost = 1000
+category_id = 1
+category_name = {
+"en": "Stat boosts",
+"fr": "Boost de stats"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises Speed by one stage in battle.  Raises happiness."
+}
+effect = {
+"en": "\"Used on a party Pokémon in battle"
+}
+flavor_text = {
+"en": "\"An item that sharply boosts the Speed stat of a",
+"fr": "\"Augmente beaucoup la Vitesse pendant un combat."
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 77
+sprite_path = "res://assets/Items/XSPEED.png"

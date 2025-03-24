@@ -15,7 +15,7 @@ pokemon_id = 709
 branch_code = ""
 names = {
 "en": "Trevenant",
-"fr": "Trevenant"
+"fr": "Desséliande"
 }
 generation = 6
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Elder Tree Pokémon",
+"fr": "Pokémon Vieillarbre"
+}
 base_stats = {
 "attack": 110,
 "defense": 76,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -769,4 +774,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

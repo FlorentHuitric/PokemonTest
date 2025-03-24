@@ -12,7 +12,7 @@ pokemon_id = 287
 branch_code = ""
 names = {
 "en": "Slakoth",
-"fr": "Slakoth"
+"fr": "Parecool"
 }
 generation = 3
 height = 0.8
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Slacker Pokémon",
+"fr": "Pokémon Flâneur"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+"fr": "Il passe le plus clair de son temps affalé. Rien qu’à le voir, on a envie de bâiller."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 18",
+"condition_fr": "Niveau 18",
+"evolved_pokemon_id": 288,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -724,4 +739,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 583,
 "tm_id": ""
-}]
+}])

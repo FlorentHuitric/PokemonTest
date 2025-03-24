@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_hsvm2"]
+
+[resource]
+script = ExtResource("1_hsvm2")
+item_id = 270
+identifier = "power-anklet"
+names = {
+"en": "Power Anklet",
+"fr": "Chaîne Pouvoir"
+}
+cost = 3000
+category_id = 14
+category_name = {
+"en": "Effort training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 70
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Holder gains 4 Speed effort values"
+}
+effect = {
+"en": " but has halved Speed in battle.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It reduces Speed",
+"fr": "\"Objet à tenir. Permet à la Vitesse de progresser"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 293
+sprite_path = "res://assets/Items/POWERANKLET.png"

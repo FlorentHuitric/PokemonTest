@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xhmki"]
+
+[resource]
+script = ExtResource("1_xhmki")
+item_id = 739
+identifier = "mega-ring"
+names = {
+"en": "Mega Ring",
+"fr": "Méga-Anneau"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows the player's Pokémon to Mega Evolve."
+}
+effect = {
+"en": "Allows the player's Pokémon to Mega Evolve."
+}
+flavor_text = {
+"en": "\"This ring contains an untold power that somehow",
+"fr": "\"Un anneau aux pouvoirs mystérieux permettant"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 696
+sprite_path = "res://assets/Items/MEGARING.png"

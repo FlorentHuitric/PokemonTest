@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Time Travel Pokémon",
+"fr": "Pokémon Temporel"
+}
 base_stats = {
 "attack": 100,
 "defense": 100,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has the power to travel across time, but it is said to appear only in peaceful times.",
+"fr": "Il a le pouvoir de voyager dans le temps. Cependant, on dit qu’il n’apparaît qu’en temps de paix."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1001,4 +1006,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

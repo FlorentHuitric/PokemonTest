@@ -18,8 +18,8 @@ accuracy = 90
 pp = 20
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+"fr": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 118
+move_effect_short = {
+"en": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 118
+metadata/effect_chance = 0

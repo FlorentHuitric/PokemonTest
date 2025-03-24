@@ -12,7 +12,8 @@ script = ExtResource("2_ct2im")
 pokemon_id = 718
 branch_code = ""
 names = {
-"en": "Zygarde 10% Form"
+"en": "Zygarde",
+"fr": "Zygarde"
 }
 generation = 6
 height = 1.2
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Order Pokémon",
+"fr": "Pokémon Équilibre"
+}
 base_stats = {
 "attack": 100,
 "defense": 71,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 18,
 "method": 1,
@@ -730,4 +736,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

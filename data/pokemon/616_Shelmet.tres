@@ -14,7 +14,7 @@ pokemon_id = 616
 branch_code = ""
 names = {
 "en": "Shelmet",
-"fr": "Shelmet"
+"fr": "Escargaume"
 }
 generation = 5
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Snail Pokémon",
+"fr": "Pokémon Escargot"
+}
 base_stats = {
 "attack": 40,
 "defense": 85,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+"fr": "Il évolue quand il baigne dans une énergie électrique avec un Carabing. La cause en est inconnue."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 617,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 40,
 "method": 1,
@@ -558,4 +573,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Virtual Pokémon",
+"fr": "Pokémon Virtuel"
+}
 base_stats = {
 "attack": 60,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace.",
+"fr": "Ce Pokémon créé par des scientifiques peut arpenter librement le cyberespace."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -972,4 +977,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 683,
 "tm_id": ""
-}]
+}])

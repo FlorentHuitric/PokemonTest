@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bt8u6thhyglwk"
+
+[deps]
+
+files=["res://imports/item_pockets.identifier.translation"]
+
+source_file="res://imports/item_pockets.csv"
+dest_files=["res://imports/item_pockets.identifier.translation"]
+
+[params]
+
+compress=true
+delimiter=0

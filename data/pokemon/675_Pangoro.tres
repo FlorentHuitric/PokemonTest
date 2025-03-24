@@ -15,7 +15,7 @@ pokemon_id = 675
 branch_code = ""
 names = {
 "en": "Pangoro",
-"fr": "Pangoro"
+"fr": "Pandarbare"
 }
 generation = 6
 height = 2.1
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Daunting Pokémon",
+"fr": "Pokémon Patibulaire"
+}
 base_stats = {
 "attack": 124,
 "defense": 78,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 12,
 "method": 1,
@@ -1015,4 +1020,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

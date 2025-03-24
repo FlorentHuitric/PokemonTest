@@ -15,7 +15,7 @@ pokemon_id = 742
 branch_code = ""
 names = {
 "en": "Cutiefly",
-"fr": "Cutiefly"
+"fr": "Bombydou"
 }
 generation = 7
 height = 0.1
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bee Fly Pokémon",
+"fr": "Pokémon Bombyle"
+}
 base_stats = {
 "attack": 45,
 "defense": 40,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 743,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -649,4 +664,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

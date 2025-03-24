@@ -14,7 +14,7 @@ pokemon_id = 613
 branch_code = ""
 names = {
 "en": "Cubchoo",
-"fr": "Cubchoo"
+"fr": "Polarhume"
 }
 generation = 5
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Chill Pokémon",
+"fr": "Pokémon Gelé"
+}
 base_stats = {
 "attack": 70,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+"fr": "Il a toujours la goutte au nez. Il l’aspire pour déclencher ses capacités. La morve en est la matière première."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 614,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -678,4 +693,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 589,
 "tm_id": ""
-}]
+}])

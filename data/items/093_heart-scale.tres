@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vvtpm"]
+
+[resource]
+script = ExtResource("1_vvtpm")
+item_id = 93
+identifier = "heart-scale"
+names = {
+"en": "Heart Scale",
+"fr": "Écaille Cœur"
+}
+cost = 100
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "No effect. Can be traded for prior Level-up moves."
+}
+effect = {
+"en": "Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move."
+}
+flavor_text = {
+"en": "\"A pretty",
+"fr": "\"Une écaille très rare et jolie en forme de cœur."
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 111
+sprite_path = "res://assets/Items/HEARTSCALE.png"

@@ -13,7 +13,7 @@ pokemon_id = 597
 branch_code = ""
 names = {
 "en": "Ferroseed",
-"fr": "Ferroseed"
+"fr": "Grindur"
 }
 generation = 5
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Thorn Seed Pokémon",
+"fr": "Pokémon Graine Épine"
+}
 base_stats = {
 "attack": 50,
 "defense": 91,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They stick their spikes into cave walls and absorb the minerals they find in the rock.",
+"fr": "Il s’accroche aux parois des grottes à l’aide de ses épines et absorbe les minéraux contenus dans la roche."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 598,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -647,4 +662,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

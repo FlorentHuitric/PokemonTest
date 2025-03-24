@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kkgtw"]
+
+[resource]
+script = ExtResource("1_kkgtw")
+item_id = 679
+identifier = "dropped-item"
+names = {
+"en": "Dropped Item",
+"fr": "Objet Trouvé"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Returned to Curtis or Yancy as part of a sidequest."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"The Xtransceiver found at the Nimbasa City",
+"fr": "\"Un Vokit trouvé au parc d’attractions de Méanville."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 636
+sprite_path = "res://assets/Items/DROPPEDITEM.png"

@@ -14,7 +14,7 @@ pokemon_id = 576
 branch_code = ""
 names = {
 "en": "Gothitelle",
-"fr": "Gothitelle"
+"fr": "Sidérella"
 }
 generation = 5
 height = 1.5
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Astral Body Pokémon",
+"fr": "Pokémon Cosmique"
+}
 base_stats = {
 "attack": 55,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They can predict the future from the placement and movement of the stars. They can see Trainers’ life spans.",
+"fr": "Prédit l’avenir à partir de la position et du mouvement des étoiles. Perçoit aussi l’espérance de vie des Dresseurs."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -792,4 +797,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

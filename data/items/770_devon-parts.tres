@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_s7bw4"]
+
+[resource]
+script = ExtResource("1_s7bw4")
+item_id = 770
+identifier = "devon-parts"
+names = {
+"en": "Devon Parts",
+"fr": "Pack Devon"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows Captain Stern to set out on his expedition."
+}
+effect = {
+"en": "Allows Captain Stern to set out on his expedition."
+}
+flavor_text = {
+"en": "\"A case that contains mechanical parts of some sort",
+"fr": "\"Une valise qui contient des pièces mécaniques"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 721
+sprite_path = "res://assets/Items/DEVONPARTS.png"

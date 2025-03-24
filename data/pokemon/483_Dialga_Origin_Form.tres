@@ -13,8 +13,8 @@ script = ExtResource("3_mma0k")
 pokemon_id = 483
 branch_code = ""
 names = {
-"en": "Dialga Origin Form",
-"fr": "Dialga Origin Form"
+"en": "Dialga",
+"fr": "Dialga"
 }
 generation = 4
 height = 7.0
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Temporal Pokémon",
+"fr": "Pokémon Temps"
+}
 base_stats = {
 "attack": 100,
 "defense": 120,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+"fr": "On dit que le temps s’écoule au rythme des battements de cœur de ce Pokémon légendaire de Sinnoh."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -864,4 +869,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

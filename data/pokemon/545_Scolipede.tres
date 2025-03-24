@@ -15,7 +15,7 @@ pokemon_id = 545
 branch_code = ""
 names = {
 "en": "Scolipede",
-"fr": "Scolipede"
+"fr": "Brutapode"
 }
 generation = 5
 height = 2.5
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Megapede Pokémon",
+"fr": "Pokémon Mégaplopode"
+}
 base_stats = {
 "attack": 100,
 "defense": 89,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
+"fr": "Il inocule du poison à ses ennemis par les griffes de son cou. Il est extrêmement agressif."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -709,4 +714,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

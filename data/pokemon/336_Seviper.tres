@@ -13,7 +13,7 @@ pokemon_id = 336
 branch_code = ""
 names = {
 "en": "Seviper",
-"fr": "Seviper"
+"fr": "Séviper"
 }
 generation = 3
 height = 2.7
@@ -34,6 +34,10 @@ experience_type = "1640000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Fang Snake Pokémon",
+"fr": "Pokémon Serpacroc"
+}
 base_stats = {
 "attack": 100,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.",
+"fr": "Le rival historique de Mangriff. Il affûte la lame de sa queue sur les rochers avant le combat."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -953,4 +958,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

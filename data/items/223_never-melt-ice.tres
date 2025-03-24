@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8gk4h"]
+
+[resource]
+script = ExtResource("1_8gk4h")
+item_id = 223
+identifier = "never-melt-ice"
+names = {
+"en": "Never-Melt Ice",
+"fr": "Glace Éternelle"
+}
+cost = 1000
+category_id = 19
+category_name = {
+"en": "Type enhancement"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Ice-Type moves from holder do 20% more damage."
+}
+effect = {
+"en": "Held: Increases the power of the holder's Ice moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a heat-",
+"fr": "\"Objet à tenir. Un morceau de glace qui réfléchit"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 212
+sprite_path = "res://assets/Items/NEVERMELTICE.png"

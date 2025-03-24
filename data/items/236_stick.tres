@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4pqm6"]
+
+[resource]
+script = ExtResource("1_4pqm6")
+item_id = 236
+identifier = "stick"
+names = {
+"en": "Leek",
+"fr": "Poireau"
+}
+cost = 1000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 60
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises Farfetch'd's critical hit ratio by two stages."
+}
+effect = {
+"en": "Held by Farfetch'd: Raises the holder's critical hit counter by 2."
+}
+flavor_text = {
+"en": "\"An item to be held by Farfetch’d. This very long",
+"fr": "\"Objet à faire tenir à Canarticho."
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 225
+sprite_path = "res://assets/Items/STICK.png"

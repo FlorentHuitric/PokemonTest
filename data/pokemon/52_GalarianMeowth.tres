@@ -13,7 +13,8 @@ script = ExtResource("4_f6hdc")
 pokemon_id = 52
 branch_code = ""
 names = {
-"en": "Galarian Meowth"
+"en": "Meowth",
+"fr": "Miaouss"
 }
 generation = 8
 height = 0.4
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Scratch Cat Pokémon",
+"fr": "Pokémon Chadégout"
+}
 base_stats = {
 "attack": 65,
 "defense": 55,
@@ -60,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+"fr": "Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +94,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 28",
+"condition_fr": "Niveau 28",
+"evolved_pokemon_id": 53,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 53,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 17,
 "method": 1,
@@ -1181,4 +1207,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

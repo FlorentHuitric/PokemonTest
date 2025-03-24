@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_06gqf"]
+
+[resource]
+script = ExtResource("1_06gqf")
+item_id = 610
+identifier = "clever-wing"
+names = {
+"en": "Clever Feather",
+"fr": "Plume Mental"
+}
+cost = 300
+category_id = 26
+category_name = {
+"en": "Vitamins"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 20
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Increases [Special Defense]{mechanic:special-defense} [effort]{mechanic:effort} by 1."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"An item for use on a Pokémon. It slightly increases",
+"fr": "\"Objet à utiliser sur un Pokémon pour un peu augmenter"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 569
+sprite_path = "res://assets/Items/CLEVERWING.png"

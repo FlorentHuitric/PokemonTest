@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3d0hq"]
+
+[resource]
+script = ExtResource("1_3d0hq")
+item_id = 453
+identifier = "fast-ball"
+names = {
+"en": "Fast Ball",
+"fr": "Speed Ball"
+}
+cost = 0
+category_id = 39
+category_name = {
+"en": "Apricorn balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "4× effectiveness on Pokémon with 100 or greater base speed. (Gen II: Roaming or Fleeing Pokémon). Made from Wht Apricorn."
+}
+effect = {
+"en": "\"Used by a trainer in battle"
+}
+flavor_text = {
+"en": "\"A Poké Ball that makes it easier to catch Pokémon",
+"fr": "\"Une Poké Ball un peu spéciale qui fonctionne"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 492
+sprite_path = "res://assets/Items/FASTBALL.png"

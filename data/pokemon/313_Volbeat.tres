@@ -14,7 +14,7 @@ pokemon_id = 313
 branch_code = ""
 names = {
 "en": "Volbeat",
-"fr": "Volbeat"
+"fr": "Muciole"
 }
 generation = 3
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Firefly Pokémon",
+"fr": "Pokémon Luciole"
+}
 base_stats = {
 "attack": 73,
 "defense": 75,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It communicates with others by lighting up its rear at night. It loves Illumise’s sweet aroma.",
+"fr": "Il communique avec ses pairs en allumant son postérieur la nuit. Il adore le doux parfum de Lumivole."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -786,4 +791,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 679,
 "tm_id": ""
-}]
+}])

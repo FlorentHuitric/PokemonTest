@@ -12,7 +12,7 @@ pokemon_id = 602
 branch_code = ""
 names = {
 "en": "Tynamo",
-"fr": "Tynamo"
+"fr": "Anchwatt"
 }
 generation = 5
 height = 0.2
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "EleFish Pokémon",
+"fr": "Pokémon Électrophore"
+}
 base_stats = {
 "attack": 55,
 "defense": 40,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+"fr": "Ils agissent en groupes. Ils possèdent un organe produisant de l’électricité et lancent des décharges en cas de danger."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 39",
+"condition_fr": "Niveau 39",
+"evolved_pokemon_id": 603,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -130,4 +145,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 451,
 "tm_id": ""
-}]
+}])

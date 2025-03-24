@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kwhf7"]
+
+[resource]
+script = ExtResource("1_kwhf7")
+item_id = 258
+identifier = "black-sludge"
+names = {
+"en": "Black Sludge",
+"fr": "Boue Noire"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage."
+}
+effect = {
+"en": "\"Held: If the holder is Poison-type"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It gradually",
+"fr": "\"Objet à tenir. Restaure peu à peu les PV des Pokémon"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 281
+sprite_path = "res://assets/Items/BLACKSLUDGE.png"

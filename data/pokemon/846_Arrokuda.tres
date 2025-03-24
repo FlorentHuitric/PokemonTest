@@ -13,7 +13,7 @@ pokemon_id = 846
 branch_code = ""
 names = {
 "en": "Arrokuda",
-"fr": "Arrokuda"
+"fr": "Embrochet"
 }
 generation = 8
 height = 0.5
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rush Pokémon",
+"fr": "Pokémon Fonceur"
+}
 base_stats = {
 "attack": 63,
 "defense": 40,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 26",
+"condition_fr": "Niveau 26",
+"evolved_pokemon_id": 847,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 6,
 "method": 1,
@@ -347,4 +362,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

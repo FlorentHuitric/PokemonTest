@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jx75c"]
+
+[resource]
+script = ExtResource("1_jx75c")
+item_id = 263
+identifier = "grip-claw"
+names = {
+"en": "Grip Claw",
+"fr": "Accro Griffe"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder's multi-turn trapping moves last 5 turns."
+}
+effect = {
+"en": "Held: Increases the duration of the holder's multiturn (2-5 turn) moves by three turns."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It extends the",
+"fr": "\"Objet à tenir. Prolonge la durée des attaques à tours"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 286
+sprite_path = "res://assets/Items/GRIPCLAW.png"

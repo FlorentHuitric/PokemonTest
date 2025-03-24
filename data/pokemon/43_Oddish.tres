@@ -14,7 +14,7 @@ pokemon_id = 43
 branch_code = ""
 names = {
 "en": "Oddish",
-"fr": "Oddish"
+"fr": "Mystherbe"
 }
 generation = 1
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Weed Pokémon",
+"fr": "Pokémon Racine"
+}
 base_stats = {
 "attack": 50,
 "defense": 55,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+"fr": "En journée, il plante ses pieds-racines dans le sol. La nuit, il se promène en semant des graines."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 21",
+"condition_fr": "Niveau 21",
+"evolved_pokemon_id": 44,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -870,4 +885,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

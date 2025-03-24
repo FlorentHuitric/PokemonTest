@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_o1532"]
+
+[resource]
+script = ExtResource("1_o1532")
+item_id = 333
+identifier = "tm29"
+names = {
+"en": "TM29",
+"fr": "CT29"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Psychic to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Psychic to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user gazes at the target rather charmingly",
+"fr": "\"Le lanceur fait les yeux doux pour berner l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 317
+sprite_path = "res://assets/Items/TM29.png"

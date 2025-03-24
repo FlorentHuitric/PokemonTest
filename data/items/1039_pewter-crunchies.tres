@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ysd7s"]
+
+[resource]
+script = ExtResource("1_ysd7s")
+item_id = 1039
+identifier = "pewter-crunchies"
+names = {
+"en": "Pewter Crunchies",
+"fr": "Crok’Argenta"
+}
+cost = 250
+category_id = 30
+category_name = {
+"en": "Status cures"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Pewter City’s famous crunchy snack. They can be used",
+"fr": "\"Une spécialité d’Argenta."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 903
+sprite_path = "res://assets/Items/PEWTERCRUNCHIES.png"

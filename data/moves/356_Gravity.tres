@@ -18,8 +18,8 @@ accuracy = 0
 pp = 5
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "Enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Flying moves can’t be used.",
+"fr": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables."
 }
 tm_id = ""
 meta_category_id = 10
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 12
+move_target_name = {
+"en": "Entire field",
+"fr": "Terrain entier"
+}
+move_target_description = {
+"en": "The entire field.  Affects all Pokémon.",
+"fr": "Le terrain entier. Affecte tous les Pokémon."
+}
+move_effect_id = 216
+move_effect_short = {
+"en": "Disables moves and immunities that involve flying or levitating for five turns."
+}
+metadata/move_target_id = 12
+metadata/move_effect_id = 216
+metadata/effect_chance = 0

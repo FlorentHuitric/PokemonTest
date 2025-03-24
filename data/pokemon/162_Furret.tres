@@ -14,7 +14,7 @@ pokemon_id = 162
 branch_code = ""
 names = {
 "en": "Furret",
-"fr": "Furret"
+"fr": "Fouinar"
 }
 generation = 2
 height = 1.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Long Body Pokémon",
+"fr": "Pokémon Allongé"
+}
 base_stats = {
 "attack": 76,
 "defense": 64,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+"fr": "La femelle s’enroule autour des petits pour les bercer. Il accule l’ennemi grâce à sa vitesse."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -852,4 +857,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 693,
 "tm_id": ""
-}]
+}])

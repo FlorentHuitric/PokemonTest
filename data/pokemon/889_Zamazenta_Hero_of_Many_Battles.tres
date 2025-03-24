@@ -11,8 +11,8 @@ script = ExtResource("2_rynxm")
 pokemon_id = 889
 branch_code = ""
 names = {
-"en": "Zamazenta Hero of Many Battles",
-"fr": "Zamazenta Hero of Many Battles"
+"en": "Zamazenta",
+"fr": "Zamazenta"
 }
 generation = 8
 height = 2.9
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Warrior Pokémon",
+"fr": "Pokémon Valeureux"
+}
 base_stats = {
 "attack": 120,
 "defense": 115,
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -454,4 +459,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

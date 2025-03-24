@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_u7v5d"]
+
+[resource]
+script = ExtResource("1_u7v5d")
+item_id = 536
+identifier = "go-goggles"
+names = {
+"en": "Go-Goggles",
+"fr": "Lunettes Sable"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows passage through windy deserts."
+}
+effect = {
+"en": "Allows the trainer to enter the desert on []{location:hoenn-route-111}."
+}
+flavor_text = {
+"en": "\"Nifty goggles to protect eyes from",
+"fr": "\"Une paire de lunettes bien pratique qui protège"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 279
+sprite_path = "res://assets/Items/GOGOGGLES.png"

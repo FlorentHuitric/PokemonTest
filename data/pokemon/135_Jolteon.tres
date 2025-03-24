@@ -13,7 +13,7 @@ pokemon_id = 135
 branch_code = ""
 names = {
 "en": "Jolteon",
-"fr": "Jolteon"
+"fr": "Voltali"
 }
 generation = 1
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lightning Pokémon",
+"fr": "Pokémon Orage"
+}
 base_stats = {
 "attack": 65,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+"fr": "Face au danger, il fait appel à l’électricité pour dresser ses poils et lancer des décharges."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 82",
+"condition_fr": "Objet 82",
+"evolved_pokemon_id": 136,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 42,
 "method": 1,
@@ -1085,4 +1100,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kbly8"]
+
+[resource]
+script = ExtResource("1_kbly8")
+item_id = 509
+identifier = "data-card-24"
+names = {
+"en": "Data Card 24",
+"fr": "Carte Mémo24"
+}
+cost = 0
+category_id = 41
+category_name = {
+"en": "Data Cards"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Records the number of times the trainer has come in first in the Pokéathlon Goal Roll."
+}
+effect = {
+"en": "Records the number of times the trainer has come in first in the Pokéathlon Goal Roll."
+}
+flavor_text = {
+"en": "\"It holds Pokéathlon records. It is a card that shows",
+"fr": "\"Contient vos données du Pokéathlon."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 528
+sprite_path = "res://assets/Items/DATACARD24.png"

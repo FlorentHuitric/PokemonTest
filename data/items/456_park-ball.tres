@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_a4l2x"]
+
+[resource]
+script = ExtResource("1_a4l2x")
+item_id = 456
+identifier = "park-ball"
+names = {
+"en": "Park Ball",
+"fr": "Parc Ball"
+}
+cost = 0
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Catches Pokémon in the Pal Park every time."
+}
+effect = {
+"en": "\"Used by a trainer in battle"
+}
+flavor_text = {
+"en": "A special Poké Ball for the Pal Park.",
+"fr": "Une Poké Ball spéciale utilisée au Parc des Amis."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 500
+sprite_path = "res://assets/Items/PARKBALL.png"

@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Drifter Pokémon",
+"fr": "Pokémon Dérivenmer"
+}
 base_stats = {
 "attack": 80,
 "defense": 80,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+"fr": "Ce Pokémon des mers chaudes revient toujours à son lieu de naissance, peu importe la distance."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -454,4 +459,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

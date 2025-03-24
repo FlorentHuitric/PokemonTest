@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8iake"]
+
+[resource]
+script = ExtResource("1_8iake")
+item_id = 1277
+identifier = "tr89"
+names = {
+"en": "TR89",
+"fr": "DT89"
+}
+cost = 16000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 110
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user attacks by wrapping its opponent in a",
+"fr": "\"Le lanceur déclenche une tempête de vents violents"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1219
+sprite_path = "res://assets/Items/TR89.png"

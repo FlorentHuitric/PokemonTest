@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_7bv42"]
+
+[resource]
+script = ExtResource("1_7bv42")
+item_id = 1142
+identifier = "fishing-rod--galar"
+names = {
+"en": "Fishing Rod",
+"fr": "Canne à Pêche"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "Use it by the water to fish up various kinds of Pokémon.",
+"fr": "\"Une canne qui permet de pêcher divers Pokémon"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1080
+sprite_path = "res://assets/Items/FISHINGRODGALAR.png"

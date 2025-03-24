@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://pvp148puprrr"
+
+[deps]
+
+files=["res://imports/item_categories.pocket.translation", "res://imports/item_categories.identifier.translation"]
+
+source_file="res://imports/item_categories.csv"
+dest_files=["res://imports/item_categories.pocket.translation", "res://imports/item_categories.identifier.translation"]
+
+[params]
+
+compress=true
+delimiter=0

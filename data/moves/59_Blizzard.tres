@@ -18,8 +18,8 @@ accuracy = 0
 pp = 5
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+"fr": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 10
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 261
+move_effect_short = {
+"en": "Has a $effect_chance% chance to freeze the target."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 261
+metadata/effect_chance = 10

@@ -15,7 +15,7 @@ pokemon_id = 458
 branch_code = ""
 names = {
 "en": "Mantyke",
-"fr": "Mantyke"
+"fr": "Babimanta"
 }
 generation = 4
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Kite Pokémon",
+"fr": "Pokémon Cervolant"
+}
 base_stats = {
 "attack": 20,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "People organize tours to see this Pokémon frolic and skim the tops of waves with Remoraid.",
+"fr": "On organise des excursions pour le voir surfer sur les vagues au côté des Rémoraid."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 22,
 "method": 1,
@@ -721,4 +726,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 469,
 "tm_id": ""
-}]
+}])

@@ -12,8 +12,8 @@ script = ExtResource("2_2i0bu")
 pokemon_id = 282
 branch_code = ""
 names = {
-"en": "Mega Gardevoir",
-"fr": "Mega Gardevoir"
+"en": "Gardevoir",
+"fr": "Gardevoir"
 }
 generation = 3
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Embrace Pokémon",
+"fr": "Pokémon Étreinte"
+}
 base_stats = {
 "attack": 85,
 "defense": 65,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+"fr": "Prêt à tout pour protéger son Dresseur, il peut créer un mini trou noir par sa seule force mentale."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1223,4 +1228,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

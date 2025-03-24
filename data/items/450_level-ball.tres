@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bgkic"]
+
+[resource]
+script = ExtResource("1_bgkic")
+item_id = 450
+identifier = "level-ball"
+names = {
+"en": "Level Ball",
+"fr": "Niveau Ball"
+}
+cost = 0
+category_id = 39
+category_name = {
+"en": "Apricorn balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Success rate based off of fraction target Pokémon is of user's Pokémon. Made from Red Apricorn."
+}
+effect = {
+"en": "\"Used by trainer in battle"
+}
+flavor_text = {
+"en": "\"A Poké Ball that makes it easier to catch Pokémon",
+"fr": "\"Une Poké Ball un peu spéciale qui fonctionne"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 493
+sprite_path = "res://assets/Items/LEVELBALL.png"

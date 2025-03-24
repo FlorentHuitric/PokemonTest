@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_k66lv"]
+
+[resource]
+script = ExtResource("1_k66lv")
+item_id = 235
+identifier = "thick-club"
+names = {
+"en": "Thick Club",
+"fr": "Masse Os"
+}
+cost = 1000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Doubles Cubone or Marowak's Attack."
+}
+effect = {
+"en": "Held by Cubone or Marowak: Doubles the holder's Attack."
+}
+flavor_text = {
+"en": "\"An item to be held by Cubone or Marowak. It’s a",
+"fr": "\"Objet à faire tenir à Osselait ou Ossatueur."
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 224
+sprite_path = "res://assets/Items/THICKCLUB.png"

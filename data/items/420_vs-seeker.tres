@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_llif6"]
+
+[resource]
+script = ExtResource("1_llif6")
+item_id = 420
+identifier = "vs-seeker"
+names = {
+"en": "Vs. Seeker",
+"fr": "Cherch’Combat"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows rebattling of on-screen trainers. 100 steps to recharge."
+}
+effect = {
+"en": "\"Reveals trainers who want a rematch"
+}
+flavor_text = {
+"en": "\"A device that indicates Trainers who want to",
+"fr": "\"Un appareil indiquant les Dresseurs prêts à se battre."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 362
+sprite_path = "res://assets/Items/VSSEEKER.png"

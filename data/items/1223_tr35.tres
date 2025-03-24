@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_s41n2"]
+
+[resource]
+script = ExtResource("1_s41n2")
+item_id = 1223
+identifier = "tr35"
+names = {
+"en": "TR35",
+"fr": "DT35"
+}
+cost = 6000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user attacks in an uproar for three turns.",
+"fr": "\"Le lanceur attaque en rugissant durant trois tours."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1165
+sprite_path = "res://assets/Items/TR35.png"

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gh067"]
+
+[resource]
+script = ExtResource("1_gh067")
+item_id = 1318
+identifier = "packaged-curry"
+names = {
+"en": "Packaged Curry",
+"fr": "Curry Instantané"
+}
+cost = 950
+category_id = 51
+category_name = {
+"en": "Curry ingredients"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"One of the many ingredients that can be used for",
+"fr": "\"Un ingrédient de cuisine pour le camping."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1260
+sprite_path = "res://assets/Items/PACKAGEDCURRY.png"

@@ -14,7 +14,7 @@ pokemon_id = 872
 branch_code = ""
 names = {
 "en": "Snom",
-"fr": "Snom"
+"fr": "Frissonille"
 }
 generation = 8
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Worm Pokémon",
+"fr": "Pokémon Ver"
+}
 base_stats = {
 "attack": 25,
 "defense": 35,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160 + Time: night",
+"condition_fr": "Bonheur 160 + Moment: nuit",
+"evolved_pokemon_id": 873,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -198,4 +213,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

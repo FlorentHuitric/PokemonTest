@@ -14,7 +14,8 @@ script = ExtResource("4_f1rc2")
 pokemon_id = 110
 branch_code = ""
 names = {
-"en": "Galarian Weezing"
+"en": "Weezing",
+"fr": "Smogogo"
 }
 generation = 8
 height = 3.0
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Poison Gas Pokémon",
+"fr": "Pokémon Gaz Mortel"
+}
 base_stats = {
 "attack": 90,
 "defense": 120,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+"fr": "Il grandit en absorbant les gaz des détritus. Des triplés existent, bien qu’ils soient fort rares."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -978,4 +984,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

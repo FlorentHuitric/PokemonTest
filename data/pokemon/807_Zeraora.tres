@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Thunderclap Pokémon",
+"fr": "Pokémon Vif Éclair"
+}
 base_stats = {
 "attack": 112,
 "defense": 75,
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 3,
@@ -772,4 +777,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

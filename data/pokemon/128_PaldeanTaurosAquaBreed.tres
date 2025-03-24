@@ -14,7 +14,8 @@ script = ExtResource("4_l3ho4")
 pokemon_id = 128
 branch_code = ""
 names = {
-"en": "Paldean Tauros Aqua Breed"
+"en": "Tauros",
+"fr": "Tauros"
 }
 generation = 9
 height = 1.4
@@ -35,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Paldean"
+genus = {
+"en": "Wild Bull Pokémon",
+"fr": "Pokémon Buffle"
+}
 base_stats = {
 "attack": 110,
 "defense": 105,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+"fr": "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 21,
 "method": 1,
@@ -1074,4 +1080,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

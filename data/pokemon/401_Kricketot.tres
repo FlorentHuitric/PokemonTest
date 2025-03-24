@@ -13,7 +13,7 @@ pokemon_id = 401
 branch_code = ""
 names = {
 "en": "Kricketot",
-"fr": "Kricketot"
+"fr": "Crikzik"
 }
 generation = 4
 height = 0.3
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cricket Pokémon",
+"fr": "Pokémon Criquet"
+}
 base_stats = {
 "attack": 25,
 "defense": 41,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/401.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/401.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/401.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+"fr": "Quand il tombe du haut de ses petites pattes, ses antennes font un bruit de xylophone."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 10",
+"condition_fr": "Niveau 10",
+"evolved_pokemon_id": 402,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -155,4 +170,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 522,
 "tm_id": ""
-}]
+}])

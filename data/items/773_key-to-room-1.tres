@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vokmx"]
+
+[resource]
+script = ExtResource("1_vokmx")
+item_id = 773
+identifier = "key-to-room-1"
+names = {
+"en": "Key to Room 1",
+"fr": "Clé Salle 1"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unlocks the door to Room 1 in Sea Mauville."
+}
+effect = {
+"en": "Unlocks the door to Room 1 in Sea Mauville."
+}
+flavor_text = {
+"en": "A key that opens a door inside Sea Mauville.",
+"fr": "La clé d’une salle de Lavandia Sea."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 730
+sprite_path = "res://assets/Items/KEYTOROOM1.png"

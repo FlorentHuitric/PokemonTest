@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bl4q4"]
+
+[resource]
+script = ExtResource("1_bl4q4")
+item_id = 623
+identifier = "pearl-string"
+names = {
+"en": "Pearl String",
+"fr": "Perle Triple"
+}
+cost = 20000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Sell to Ore Collector for 25000 Pokédollars."
+}
+effect = {
+"en": "Cult vendor trash."
+}
+flavor_text = {
+"en": "\"Very large pearls that sparkle in a pretty silver",
+"fr": "\"Une grappe de perles brillant d’une jolie couleur argent."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 582
+sprite_path = "res://assets/Items/PEARLSTRING.png"

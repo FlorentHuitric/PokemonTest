@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bfred"]
+
+[resource]
+script = ExtResource("1_bfred")
+item_id = 925
+identifier = "dna-splicers--split"
+names = {
+"en": "DNA Splicers",
+"fr": "Pointeau ADN"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for dna-splicers--split"
+}
+effect = {
+"en": "XXX new effect for dna-splicers--split"
+}
+flavor_text = {
+"en": "\"A splicer that separates Kyurem and a certain",
+"fr": "\"Un outil qui permet de séparer Kyurem et le Pokémon"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 629
+sprite_path = "res://assets/Items/DNASPLICERSSPLIT.png"

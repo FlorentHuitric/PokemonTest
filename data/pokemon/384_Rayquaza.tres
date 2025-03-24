@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sky High Pokémon",
+"fr": "Pokémon Cieux"
+}
 base_stats = {
 "attack": 150,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+"fr": "Il vit dans la couche d’ozone, au dessus des nuages. Il est invisible depuis le sol."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 45,
 "method": 1,
@@ -1067,4 +1072,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

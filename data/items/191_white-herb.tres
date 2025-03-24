@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6npu3"]
+
+[resource]
+script = ExtResource("1_6npu3")
+item_id = 191
+identifier = "white-herb"
+names = {
+"en": "White Herb",
+"fr": "Herbe Blanche"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 4
+fling_effect = {
+"en": "Immediately activates the herb's effect on the target.",
+"fr": "Active immédiatement l'effet de l'herbe sur la cible."
+}
+short_effect = {
+"en": "Held: Resets all lowered stats to normal at end of turn. Consumed after use."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It will restore any",
+"fr": "\"Objet à tenir. Restaure les stats qui ont subi une baisse."
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 180
+sprite_path = "res://assets/Items/WHITEHERB.png"

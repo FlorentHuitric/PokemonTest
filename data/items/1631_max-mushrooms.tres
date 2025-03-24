@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_72xsr"]
+
+[resource]
+script = ExtResource("1_72xsr")
+item_id = 1631
+identifier = "max-mushrooms"
+names = {
+"en": "Max Mushrooms",
+"fr": "Maxi Champi"
+}
+cost = 6000
+category_id = 1
+category_name = {
+"en": "Stat boosts",
+"fr": "Boost de stats"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Mushrooms that have the power of changing Dynamax",
+"fr": "\"Un champignon pouvant modifier l’apparence"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1580
+sprite_path = "res://assets/Items/MAXMUSHROOMS.png"

@@ -13,7 +13,7 @@ pokemon_id = 768
 branch_code = ""
 names = {
 "en": "Golisopod",
-"fr": "Golisopod"
+"fr": "Sarmuraï"
 }
 generation = 7
 height = 2.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hard Scale Pokémon",
+"fr": "Pokémon Blindé"
+}
 base_stats = {
 "attack": 125,
 "defense": 140,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -749,4 +754,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

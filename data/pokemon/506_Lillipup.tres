@@ -14,7 +14,7 @@ pokemon_id = 506
 branch_code = ""
 names = {
 "en": "Lillipup",
-"fr": "Lillipup"
+"fr": "Ponchiot"
 }
 generation = 5
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Puppy Pokémon",
+"fr": "Pokémon Chiot"
+}
 base_stats = {
 "attack": 60,
 "defense": 45,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+"fr": "Les longs poils de son museau font un excellent radar qui analyse les alentours avec une grande acuité."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 16",
+"condition_fr": "Niveau 16",
+"evolved_pokemon_id": 507,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -648,4 +663,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 706,
 "tm_id": ""
-}]
+}])

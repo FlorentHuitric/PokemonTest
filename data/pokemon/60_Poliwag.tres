@@ -14,7 +14,7 @@ pokemon_id = 60
 branch_code = ""
 names = {
 "en": "Poliwag",
-"fr": "Poliwag"
+"fr": "Ptitard"
 }
 generation = 1
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tadpole Pokémon",
+"fr": "Pokémon Têtard"
+}
 base_stats = {
 "attack": 50,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its skin is so thin, its internal organs are visible. It has trouble walking on its newly grown feet.",
+"fr": "Sa peau est si mince qu’on voit ses organes internes. Il tient à peine sur ses nouveaux pieds."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 61,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 25,
 "method": 1,
@@ -852,4 +867,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 523,
 "tm_id": ""
-}]
+}])

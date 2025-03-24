@@ -14,7 +14,7 @@ pokemon_id = 86
 branch_code = ""
 names = {
 "en": "Seel",
-"fr": "Seel"
+"fr": "Otaria"
 }
 generation = 1
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Lion Pokémon",
+"fr": "Pokémon Otarie"
+}
 base_stats = {
 "attack": 45,
 "defense": 55,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
+"fr": "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34",
+"condition_fr": "Niveau 34",
+"evolved_pokemon_id": 87,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -876,4 +891,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 529,
 "tm_id": ""
-}]
+}])

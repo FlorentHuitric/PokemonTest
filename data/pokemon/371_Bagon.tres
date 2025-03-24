@@ -13,7 +13,7 @@ pokemon_id = 371
 branch_code = ""
 names = {
 "en": "Bagon",
-"fr": "Bagon"
+"fr": "Draby"
 }
 generation = 3
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rock Head Pokémon",
+"fr": "Pokémon Tête de Roc"
+}
 base_stats = {
 "attack": 75,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+"fr": "Il rêve de pouvoir voler un jour. Pour l’heure, il s’entraîne en sautant du haut des falaises."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 372,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -779,4 +794,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 428,
 "tm_id": ""
-}]
+}])

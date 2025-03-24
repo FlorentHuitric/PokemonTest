@@ -36,6 +36,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Aqua Rabbit Pokémon",
+"fr": "Pokémon Aqualapin"
+}
 base_stats = {
 "attack": 50,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can spend all day in water, since it can inhale and store a large volume of air.",
+"fr": "Ses poumons peuvent contenir assez d’air pour lui permettre de passer une journée sous l’eau."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Known move 102",
+"condition_fr": "Capacité connue 102",
+"evolved_pokemon_id": 185,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1063,4 +1078,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 802,
 "tm_id": ""
-}]
+}])

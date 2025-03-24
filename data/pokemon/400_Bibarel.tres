@@ -15,7 +15,7 @@ pokemon_id = 400
 branch_code = ""
 names = {
 "en": "Bibarel",
-"fr": "Bibarel"
+"fr": "Castorno"
 }
 generation = 4
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Beaver Pokémon",
+"fr": "Pokémon Castor"
+}
 base_stats = {
 "attack": 85,
 "defense": 60,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/400.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/400.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/400.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby.",
+"fr": "Les digues insubmersibles qu’il construit font le bonheur des habitants proches."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -721,4 +726,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

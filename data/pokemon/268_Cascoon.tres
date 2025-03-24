@@ -12,7 +12,7 @@ pokemon_id = 268
 branch_code = ""
 names = {
 "en": "Cascoon",
-"fr": "Cascoon"
+"fr": "Blindalys"
 }
 generation = 3
 height = 0.7
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cocoon Pokémon",
+"fr": "Pokémon Cocon"
+}
 base_stats = {
 "attack": 35,
 "defense": 55,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+"fr": "Rancunier, il n’oublie aucune des attaques subies dans le cocon et se venge une fois qu’il a évolué."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 10",
+"condition_fr": "Niveau 10",
+"evolved_pokemon_id": 269,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -130,4 +145,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 106,
 "tm_id": ""
-}]
+}])

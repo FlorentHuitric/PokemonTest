@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_k8031"]
+
+[resource]
+script = ExtResource("1_k8031")
+item_id = 769
+identifier = "mega-glove"
+names = {
+"en": "Mega Glove",
+"fr": "Méga-Gant"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unused NPC Key Stone."
+}
+effect = {
+"en": "\"Unused.  This is Korrina's Key Stone in X and Y"
+}
+flavor_text = {
+"en": "\"This glove contains an untold power that somehow",
+"fr": "\"Un gant aux pouvoirs mystérieux permettant"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 717
+sprite_path = "res://assets/Items/MEGAGLOVE.png"

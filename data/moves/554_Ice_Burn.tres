@@ -18,8 +18,8 @@ accuracy = 90
 pp = 5
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+"fr": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 30
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 333
+move_effect_short = {
+"en": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 333
+metadata/effect_chance = 30

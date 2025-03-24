@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Little Bear Pokémon",
+"fr": "Pokémon Mini Ours"
+}
 base_stats = {
 "attack": 80,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+"fr": "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 217,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -888,4 +903,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 264,
 "tm_id": ""
-}]
+}])

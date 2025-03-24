@@ -12,8 +12,8 @@ script = ExtResource("2_iynde")
 pokemon_id = 150
 branch_code = ""
 names = {
-"en": "Mega Mewtwo X",
-"fr": "Mega Mewtwo X"
+"en": "Mewtwo",
+"fr": "Mewtwo"
 }
 generation = 1
 height = 2.3
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Genetic Pokémon",
+"fr": "Pokémon Génétique"
+}
 base_stats = {
 "attack": 190,
 "defense": 100,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon created by recombining Mew’s genes. It’s said to have the most savage heart among Pokémon.",
+"fr": "Un Pokémon conçu en réorganisant les gènes de Mew. On raconte qu’il s’agit du Pokémon le plus féroce."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1709,4 +1714,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

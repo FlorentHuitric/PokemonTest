@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2qjrf"]
+
+[resource]
+script = ExtResource("1_2qjrf")
+item_id = 245
+identifier = "expert-belt"
+names = {
+"en": "Expert Belt",
+"fr": "Ceinture Pro"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder's Super Effective moves do 20% extra damage."
+}
+effect = {
+"en": "\"Held: When the holder hits with a super-effective move"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a well-worn",
+"fr": "\"Objet à tenir. Une ceinture usée qui augmente"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 268
+sprite_path = "res://assets/Items/EXPERTBELT.png"

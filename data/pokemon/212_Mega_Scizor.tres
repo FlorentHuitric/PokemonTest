@@ -12,8 +12,8 @@ script = ExtResource("2_a1lvx")
 pokemon_id = 212
 branch_code = ""
 names = {
-"en": "Mega Scizor",
-"fr": "Mega Scizor"
+"en": "Scizor",
+"fr": "Cizayox"
 }
 generation = 2
 height = 2.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Pincer Pokémon",
+"fr": "Pokémon Pince"
+}
 base_stats = {
 "attack": 150,
 "defense": 140,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/212-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/212-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/212-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+"fr": "Les yeux sur ses pinces servent à intimider l’ennemi avant de passer à l’attaque."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 42,
 "method": 1,
@@ -935,4 +940,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

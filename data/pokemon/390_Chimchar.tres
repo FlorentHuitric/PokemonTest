@@ -13,7 +13,7 @@ pokemon_id = 390
 branch_code = ""
 names = {
 "en": "Chimchar",
-"fr": "Chimchar"
+"fr": "Ouisticram"
 }
 generation = 4
 height = 0.5
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Chimp Pokémon",
+"fr": "Pokémon Chimpanzé"
+}
 base_stats = {
 "attack": 58,
 "defense": 44,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+"fr": "Il est très agile. Il fait toujours attention d’éteindre la flamme de sa queue avant de se coucher."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 14",
+"condition_fr": "Niveau 14",
+"evolved_pokemon_id": 391,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -683,4 +698,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 612,
 "tm_id": ""
-}]
+}])

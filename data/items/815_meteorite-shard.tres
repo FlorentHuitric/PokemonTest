@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gvlww"]
+
+[resource]
+script = ExtResource("1_gvlww")
+item_id = 815
+identifier = "meteorite-shard"
+names = {
+"en": "Meteorite Shard",
+"fr": "Éclat Météorite"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Causes the Meteorite to transform to its final form"
+}
+effect = {
+"en": " allowing Rayquaza to Mega Evolve.\""
+}
+flavor_text = {
+"en": "\"One of the fragments of a Meteorite from",
+"fr": "\"L’un des fragments de météorite tombés dans"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 774
+sprite_path = "res://assets/Items/METEORITESHARD.png"

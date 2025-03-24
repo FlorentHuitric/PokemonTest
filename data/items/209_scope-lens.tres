@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1gh6e"]
+
+[resource]
+script = ExtResource("1_1gh6e")
+item_id = 209
+identifier = "scope-lens"
+names = {
+"en": "Scope Lens",
+"fr": "Lentilscope"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Raises the holder's critical hit ratio by one stage."
+}
+effect = {
+"en": "Held: Raises the holder's critical hit counter by 1."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a lens for",
+"fr": "\"Objet à tenir. Une lentille qui augmente le taux"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 198
+sprite_path = "res://assets/Items/SCOPELENS.png"

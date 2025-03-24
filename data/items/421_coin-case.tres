@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_uyity"]
+
+[resource]
+script = ExtResource("1_uyity")
+item_id = 421
+identifier = "coin-case"
+names = {
+"en": "Coin Case",
+"fr": "Boîte Jetons"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Holds coins for the Game Corner."
+}
+effect = {
+"en": "\"Contains the Coins used by the Game Corner"
+}
+flavor_text = {
+"en": "\"A case for holding coins obtained at the",
+"fr": "\"Une boîte pour conserver les Jetons obtenus"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 260
+sprite_path = "res://assets/Items/COINCASE.png"

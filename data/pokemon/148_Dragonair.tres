@@ -13,7 +13,7 @@ pokemon_id = 148
 branch_code = ""
 names = {
 "en": "Dragonair",
-"fr": "Dragonair"
+"fr": "Draco"
 }
 generation = 1
 height = 4.0
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 84,
 "defense": 65,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+"fr": "La météo change brusquement quand il est entouré d’une aura. On dit qu’il peuple les mers et les lacs."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 55",
+"condition_fr": "Niveau 55",
+"evolved_pokemon_id": 149,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 35,
 "method": 1,
@@ -935,4 +950,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

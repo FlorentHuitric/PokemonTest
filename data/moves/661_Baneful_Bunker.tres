@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+"fr": "Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 384
+move_effect_short = {
+"en": "Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 384
+metadata/effect_chance = 0

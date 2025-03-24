@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Carefree Pokémon",
+"fr": "Pokémon Insouciant"
+}
 base_stats = {
 "attack": 70,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/272.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/272.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/272.png"
 description = {
-"en": "",
-"fr": ""
+"en": "If it hears festive music, all its muscles fill with energy. It can’t help breaking out into a dance.",
+"fr": "Ses muscles se tonifient au son d’une musique entraînante. Il ne peut pas s’empêcher de danser."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -823,4 +828,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

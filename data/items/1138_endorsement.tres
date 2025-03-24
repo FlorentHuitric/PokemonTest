@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ojy0d"]
+
+[resource]
+script = ExtResource("1_ojy0d")
+item_id = 1138
+identifier = "endorsement"
+names = {
+"en": "Endorsement",
+"fr": "Recommandation"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A letter of recommendation that you’ll need in order to",
+"fr": "Une lettre qui permet de participer au Défi des Arènes."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1074
+sprite_path = "res://assets/Items/ENDORSEMENT.png"

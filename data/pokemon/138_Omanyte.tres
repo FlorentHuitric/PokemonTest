@@ -15,7 +15,7 @@ pokemon_id = 138
 branch_code = ""
 names = {
 "en": "Omanyte",
-"fr": "Omanyte"
+"fr": "Amonita"
 }
 generation = 1
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Spiral Pokémon",
+"fr": "Pokémon Spirale"
+}
 base_stats = {
 "attack": 40,
 "defense": 100,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+"fr": "Un Pokémon ramené à la vie par la science à partir d’un fossile. Il peuplait autrefois les mers."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 139,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 34,
 "method": 1,
@@ -961,4 +976,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

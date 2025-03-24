@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4uy3l"]
+
+[resource]
+script = ExtResource("1_4uy3l")
+item_id = 268
+identifier = "power-lens"
+names = {
+"en": "Power Lens",
+"fr": "Lentille Pouvoir"
+}
+cost = 3000
+category_id = 14
+category_name = {
+"en": "Effort training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 70
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Holder gains 4 Special Attack effort values"
+}
+effect = {
+"en": " but has halved Speed in battle.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It reduces Speed",
+"fr": "\"Objet à tenir. Permet à l’Attaque Spéciale de progresser"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 291
+sprite_path = "res://assets/Items/POWERLENS.png"

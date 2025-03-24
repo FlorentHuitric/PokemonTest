@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_84qeg"]
+
+[resource]
+script = ExtResource("1_84qeg")
+item_id = 260
+identifier = "smooth-rock"
+names = {
+"en": "Smooth Rock",
+"fr": "Roche Lisse"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Sandstorm by the holder lasts 8 rounds instead of 5."
+}
+effect = {
+"en": "\"Held: The holder's Sandstorm will create a sandstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It extends the",
+"fr": "\"Objet à tenir. Prolonge la durée de la capacité"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 4
+game_index = 283
+sprite_path = "res://assets/Items/SMOOTHROCK.png"

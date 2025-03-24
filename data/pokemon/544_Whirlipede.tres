@@ -15,7 +15,7 @@ pokemon_id = 544
 branch_code = ""
 names = {
 "en": "Whirlipede",
-"fr": "Whirlipede"
+"fr": "Scobolide"
 }
 generation = 5
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Curlipede Pokémon",
+"fr": "Pokémon Coconplopode"
+}
 base_stats = {
 "attack": 55,
 "defense": 99,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+"fr": "En général, il reste immobile. Mais quand on l’attaque, il se met à tourbillonner à toute vitesse et fonce sur l’ennemi."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 545,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 50,
 "method": 1,
@@ -529,4 +544,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

@@ -15,7 +15,7 @@ pokemon_id = 825
 branch_code = ""
 names = {
 "en": "Dottler",
-"fr": "Dottler"
+"fr": "Coléodôme"
 }
 generation = 8
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Radome Pokémon",
+"fr": "Pokémon Radôme"
+}
 base_stats = {
 "attack": 35,
 "defense": 80,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 826,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -361,4 +376,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

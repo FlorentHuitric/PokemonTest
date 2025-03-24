@@ -12,7 +12,7 @@ pokemon_id = 289
 branch_code = ""
 names = {
 "en": "Slaking",
-"fr": "Slaking"
+"fr": "Monaflèmit"
 }
 generation = 3
 height = 2.0
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lazy Pokémon",
+"fr": "Pokémon Fainéant"
+}
 base_stats = {
 "attack": 160,
 "defense": 100,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The world’s laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+"fr": "Le Pokémon le plus fainéant du monde. Il s’allonge pour économiser ses forces et contre-attaquer."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -832,4 +837,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

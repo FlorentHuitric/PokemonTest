@@ -15,7 +15,7 @@ pokemon_id = 451
 branch_code = ""
 names = {
 "en": "Skorupi",
-"fr": "Skorupi"
+"fr": "Rapion"
 }
 generation = 4
 height = 0.8
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Scorpion Pokémon",
+"fr": "Pokémon Scorpion"
+}
 base_stats = {
 "attack": 50,
 "defense": 90,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "As soon as the tail claws close, its needle tips secrete poison. It can survive a year without food.",
+"fr": "Il saisit sa proie avec les pinces de sa queue et lui injecte un poison. Il peut survivre un an sans manger."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 452,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -847,4 +862,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

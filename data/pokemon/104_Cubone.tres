@@ -14,7 +14,7 @@ pokemon_id = 104
 branch_code = ""
 names = {
 "en": "Cubone",
-"fr": "Cubone"
+"fr": "Osselait"
 }
 generation = 1
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lonely Pokémon",
+"fr": "Pokémon Solitaire"
+}
 base_stats = {
 "attack": 50,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+"fr": "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 28",
+"condition_fr": "Niveau 28",
+"evolved_pokemon_id": 105,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Level 28 + Time: night",
+"condition_fr": "Niveau 28 + Moment: nuit",
+"evolved_pokemon_id": 105,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1212,4 +1237,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

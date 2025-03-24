@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A move that works differently for the Ghost type than for all other types.",
+"fr": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 1
+move_target_name = {
+"en": "Specific move",
+"fr": "Capacité spécifique"
+}
+move_target_description = {
+"en": "One specific move.  How this move is chosen depends upon on the move being used.",
+"fr": "Une capacité spécifique. La façon dont cette capacité est choisie dépend de la capacité utilisée."
+}
+move_effect_id = 110
+move_effect_short = {
+"en": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
+}
+metadata/move_target_id = 1
+metadata/move_effect_id = 110
+metadata/effect_chance = 0

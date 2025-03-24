@@ -12,7 +12,8 @@ script = ExtResource("2_4xnku")
 pokemon_id = 719
 branch_code = ""
 names = {
-"en": "Mega Diancie"
+"en": "Diancie",
+"fr": "Diancie"
 }
 generation = 6
 height = 1.1
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Jewel Pokémon",
+"fr": "Pokémon Joyau"
+}
 base_stats = {
 "attack": 160,
 "defense": 110,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -796,4 +802,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

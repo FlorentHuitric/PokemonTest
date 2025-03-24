@@ -18,8 +18,8 @@ accuracy = 0
 pp = 30
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+"fr": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours."
 }
 tm_id = ""
 meta_category_id = 11
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 4
+move_target_name = {
+"en": "User's field",
+"fr": "Terrain de l'utilisateur"
+}
+move_target_description = {
+"en": "The user's side of the field.  Affects the user and its ally (if any).",
+"fr": "Le côté du terrain de l'utilisateur. Affecte l'utilisateur et son allié (s'il y en a un)."
+}
+move_effect_id = 47
+move_effect_short = {
+"en": "Protects the user's stats from being changed by enemy moves."
+}
+metadata/move_target_id = 4
+metadata/move_effect_id = 47
+metadata/effect_chance = 0

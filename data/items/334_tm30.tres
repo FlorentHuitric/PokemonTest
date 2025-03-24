@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ww8l5"]
+
+[resource]
+script = ExtResource("1_ww8l5")
+item_id = 334
+identifier = "tm30"
+names = {
+"en": "TM30",
+"fr": "CT30"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Shadow Ball to a compatible Pokémon. (Gen I: Teleport)"
+}
+effect = {
+"en": "Teaches Shadow Ball to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The target is hit with wings of steel. This may also",
+"fr": "\"Le lanceur frappe l’ennemi avec des ailes d’acier."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 318
+sprite_path = "res://assets/Items/TM30.png"

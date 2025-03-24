@@ -15,7 +15,7 @@ pokemon_id = 364
 branch_code = ""
 names = {
 "en": "Sealeo",
-"fr": "Sealeo"
+"fr": "Phogleur"
 }
 generation = 3
 height = 1.1
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ball Roll Pokémon",
+"fr": "Pokémon Roule Boule"
+}
 base_stats = {
 "attack": 60,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+"fr": "Il fait souvent tourner des objets sur son museau pour connaître leur odeur et leur texture."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 44",
+"condition_fr": "Niveau 44",
+"evolved_pokemon_id": 365,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 19,
 "method": 1,
@@ -709,4 +724,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

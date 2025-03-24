@@ -14,7 +14,7 @@ pokemon_id = 529
 branch_code = ""
 names = {
 "en": "Drilbur",
-"fr": "Drilbur"
+"fr": "Rototaupe"
 }
 generation = 5
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mole Pokémon",
+"fr": "Pokémon Taupe"
+}
 base_stats = {
 "attack": 85,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+"fr": "Il se propulse à grande vitesse sous la terre en joignant ses griffes et en tourbillonnant sur lui-même."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 31",
+"condition_fr": "Niveau 31",
+"evolved_pokemon_id": 530,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -600,4 +615,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

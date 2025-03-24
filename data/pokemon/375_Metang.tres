@@ -14,7 +14,7 @@ pokemon_id = 375
 branch_code = ""
 names = {
 "en": "Metang",
-"fr": "Metang"
+"fr": "Métang"
 }
 generation = 3
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Claw Pokémon",
+"fr": "Pokémon Pincefer"
+}
 base_stats = {
 "attack": 75,
 "defense": 100,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is formed by two Beldum joining together. Its steel body won’t be scratched if it collides with a jet.",
+"fr": "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 45",
+"condition_fr": "Niveau 45",
+"evolved_pokemon_id": 376,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -966,4 +981,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

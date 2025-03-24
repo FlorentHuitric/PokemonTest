@@ -13,7 +13,7 @@ pokemon_id = 10
 branch_code = ""
 names = {
 "en": "Caterpie",
-"fr": "Caterpie"
+"fr": "Chenipan"
 }
 generation = 1
 height = 0.3
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Worm Pokémon",
+"fr": "Pokémon Ver"
+}
 base_stats = {
 "attack": 30,
 "defense": 35,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+"fr": "Ses antennes rouges libèrent une puanteur qui repousse l’ennemi. Il grandit par mues régulières."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 7",
+"condition_fr": "Niveau 7",
+"evolved_pokemon_id": 11,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -143,4 +158,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 527,
 "tm_id": ""
-}]
+}])

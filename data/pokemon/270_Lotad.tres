@@ -15,7 +15,7 @@ pokemon_id = 270
 branch_code = ""
 names = {
 "en": "Lotad",
-"fr": "Lotad"
+"fr": "Nénupiot"
 }
 generation = 3
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Water Weed Pokémon",
+"fr": "Pokémon Aquaplante"
+}
 base_stats = {
 "attack": 30,
 "defense": 30,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It looks like an aquatic plant and serves as a ferry to Pokémon that can’t swim.",
+"fr": "Il ressemble à une plante aquatique et fait la navette pour les Pokémon qui ne savent pas nager."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 14",
+"condition_fr": "Niveau 14",
+"evolved_pokemon_id": 271,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 3,
 "method": 1,
@@ -757,4 +772,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

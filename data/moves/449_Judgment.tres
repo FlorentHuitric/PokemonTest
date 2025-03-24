@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+"fr": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 269
+move_effect_short = {
+"en": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 269
+metadata/effect_chance = 0

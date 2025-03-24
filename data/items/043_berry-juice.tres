@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_a44yg"]
+
+[resource]
+script = ExtResource("1_a44yg")
+item_id = 43
+identifier = "berry-juice"
+names = {
+"en": "Berry Juice",
+"fr": "Jus de Baie"
+}
+cost = 200
+category_id = 27
+category_name = {
+"en": "Healing"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Restores 20 HP."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A 100 percent pure juice made of Berries.",
+"fr": "\"Une boisson 100 % pur Jus de Baie."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 44
+sprite_path = "res://assets/Items/BERRYJUICE.png"

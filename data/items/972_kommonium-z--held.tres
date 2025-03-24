@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jgd6u"]
+
+[resource]
+script = ExtResource("1_jgd6u")
+item_id = 972
+identifier = "kommonium-z--held"
+names = {
+"en": "Kommonium Z",
+"fr": "Ékaïzélite"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for kommonium-z--held"
+}
+effect = {
+"en": "XXX new effect for kommonium-z--held"
+}
+flavor_text = {
+"en": "\"This is a crystallized form of Z-Power.",
+"fr": "\"Une cristallisation de la Force Z"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 926
+sprite_path = "res://assets/Items/KOMMONIUMZHELD.png"

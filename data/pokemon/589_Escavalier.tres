@@ -15,7 +15,7 @@ pokemon_id = 589
 branch_code = ""
 names = {
 "en": "Escavalier",
-"fr": "Escavalier"
+"fr": "Lançargot"
 }
 generation = 5
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cavalry Pokémon",
+"fr": "Pokémon Chevalier"
+}
 base_stats = {
 "attack": 135,
 "defense": 105,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+"fr": "Un Pokémon qui a évolué en portant la carapace d’un Escargaume. Une armure de fer protège tout son corps."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 52,
 "method": 1,
@@ -661,4 +666,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

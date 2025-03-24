@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3m1ta"]
+
+[resource]
+script = ExtResource("1_3m1ta")
+item_id = 382
+identifier = "tm78"
+names = {
+"en": "TM78",
+"fr": "CT78"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Bulldoze to a compatible Pokémon. (Gen IV: Captivate)"
+}
+effect = {
+"en": "Teaches Captivate to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user nimbly strikes the target. If the user is not",
+"fr": "\"Attaque agile. Si le lanceur ne tient pas d’objet"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 405
+sprite_path = "res://assets/Items/TM78.png"

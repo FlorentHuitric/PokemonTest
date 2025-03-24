@@ -13,7 +13,7 @@ pokemon_id = 147
 branch_code = ""
 names = {
 "en": "Dratini",
-"fr": "Dratini"
+"fr": "Minidraco"
 }
 generation = 1
 height = 1.8
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 64,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found.",
+"fr": "On l’appelle “Pokémon mirage” en raison de sa rareté. On a découvert sa mue."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 148,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 30,
 "method": 1,
@@ -995,4 +1010,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

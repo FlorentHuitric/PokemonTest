@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_l6dvv"]
+
+[resource]
+script = ExtResource("1_l6dvv")
+item_id = 809
+identifier = "lopunnite"
+names = {
+"en": "Lopunnite",
+"fr": "Lockpinite"
+}
+cost = 0
+category_id = 44
+category_name = {
+"en": "Mega Stones"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Lopunny to Mega Evolve into Mega Lopunny."
+}
+effect = {
+"en": "Held: Allows Lopunny to Mega Evolve into Mega Lopunny."
+}
+flavor_text = {
+"en": "\"One of a variety of mysterious Mega Stones.",
+"fr": "\"Une variété de Méga-Gemme."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 768
+sprite_path = "res://assets/Items/LOPUNNITE.png"

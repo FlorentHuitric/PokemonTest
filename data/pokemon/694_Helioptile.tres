@@ -15,7 +15,7 @@ pokemon_id = 694
 branch_code = ""
 names = {
 "en": "Helioptile",
-"fr": "Helioptile"
+"fr": "Galvaran"
 }
 generation = 6
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Generator Pokémon",
+"fr": "Pokémon Générateur"
+}
 base_stats = {
 "attack": 38,
 "defense": 33,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 80",
+"condition_fr": "Objet 80",
+"evolved_pokemon_id": 695,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -607,4 +622,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

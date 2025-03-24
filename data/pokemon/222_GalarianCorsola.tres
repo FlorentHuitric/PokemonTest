@@ -12,7 +12,8 @@ script = ExtResource("3_l5a2b")
 pokemon_id = 222
 branch_code = ""
 names = {
-"en": "Galarian Corsola"
+"en": "Corsola",
+"fr": "Corayon"
 }
 generation = 8
 height = 0.6
@@ -33,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Coral Pokémon",
+"fr": "Pokémon Corail"
+}
 base_stats = {
 "attack": 55,
 "defense": 100,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Many live in the clean seas of the south. They apparently can’t live in polluted waters.",
+"fr": "On en trouve beaucoup dans les mers claires du sud. On dirait qu’il ne peut pas vivre en eau polluée."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -1126,4 +1132,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

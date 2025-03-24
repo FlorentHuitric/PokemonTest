@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3ckg4"]
+
+[resource]
+script = ExtResource("1_3ckg4")
+item_id = 1207
+identifier = "tr19"
+names = {
+"en": "TR19",
+"fr": "DT19"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user strikes with a simultaneous three-beam attack.",
+"fr": "\"Le lanceur envoie trois boules d’énergie simultanément."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1149
+sprite_path = "res://assets/Items/TR19.png"

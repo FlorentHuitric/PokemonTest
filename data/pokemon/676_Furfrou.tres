@@ -12,7 +12,7 @@ pokemon_id = 676
 branch_code = ""
 names = {
 "en": "Furfrou",
-"fr": "Furfrou"
+"fr": "Couafarel"
 }
 generation = 6
 height = 1.2
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Poodle Pokémon",
+"fr": "Pokémon Caniche"
+}
 base_stats = {
 "attack": 80,
 "defense": 60,
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 5,
 "method": 1,
@@ -448,4 +453,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 526,
 "tm_id": ""
-}]
+}])

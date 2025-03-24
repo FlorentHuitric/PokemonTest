@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mushroom Pokémon",
+"fr": "Pokémon Champignon"
+}
 base_stats = {
 "attack": 70,
 "defense": 55,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+"fr": "Des champignons appelés “tochukaso” poussent sur son dos. Ils évoluent avec le Paras hôte."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 24",
+"condition_fr": "Niveau 24",
+"evolved_pokemon_id": 47,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -889,4 +904,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 404,
 "tm_id": ""
-}]
+}])

@@ -14,8 +14,8 @@ script = ExtResource("4_pog8p")
 pokemon_id = 80
 branch_code = ""
 names = {
-"en": "Galarian Slowbro",
-"fr": "Galarian Slowbro"
+"en": "Slowbro",
+"fr": "Flagadoss"
 }
 generation = 8
 height = 1.6
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Hermit Crab Pokémon",
+"fr": "Pokémon Symbiose"
+}
 base_stats = {
 "attack": 100,
 "defense": 95,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+"fr": "Ce grand benêt connaît des éclairs de lucidité lorsque le Kokiyas de sa queue se met à mordre."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1471,4 +1476,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

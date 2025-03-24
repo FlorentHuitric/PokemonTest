@@ -13,7 +13,7 @@ pokemon_id = 466
 branch_code = ""
 names = {
 "en": "Electivire",
-"fr": "Electivire"
+"fr": "Élekable"
 }
 generation = 4
 height = 1.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Thunderbolt Pokémon",
+"fr": "Pokémon Foudrélec"
+}
 base_stats = {
 "attack": 123,
 "defense": 67,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.",
+"fr": "Encaissant les attaques, il vient toucher l’ennemi de ses queues et lui inflige une forte décharge."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 300",
+"condition_fr": "Objet 300",
+"evolved_pokemon_id": 467,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -923,4 +938,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

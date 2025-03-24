@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qi0xi"]
+
+[resource]
+script = ExtResource("1_qi0xi")
+item_id = 181
+identifier = "petaya-berry"
+names = {
+"en": "Petaya Berry",
+"fr": "Baie Pitaye"
+}
+cost = 80
+category_id = 5
+category_name = {
+"en": "In a pinch",
+"fr": "En cas de besoin"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "Held: Consumed at 1/4 max HP to boost Special Attack."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 171
+sprite_path = "res://assets/Items/PETAYABERRY.png"

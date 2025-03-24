@@ -14,7 +14,7 @@ pokemon_id = 218
 branch_code = ""
 names = {
 "en": "Slugma",
-"fr": "Slugma"
+"fr": "Limagma"
 }
 generation = 2
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lava Pokémon",
+"fr": "Pokémon Lave"
+}
 base_stats = {
 "attack": 40,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+"fr": "Son corps est fait de magma. S’il cesse de bouger, il refroidit et durcit."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 219,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 50,
 "method": 1,
@@ -762,4 +777,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 510,
 "tm_id": ""
-}]
+}])

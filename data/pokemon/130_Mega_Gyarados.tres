@@ -12,8 +12,8 @@ script = ExtResource("2_i74ro")
 pokemon_id = 130
 branch_code = ""
 names = {
-"en": "Mega Gyarados",
-"fr": "Mega Gyarados"
+"en": "Gyarados",
+"fr": "Léviator"
 }
 generation = 1
 height = 6.5
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Atrocious Pokémon",
+"fr": "Pokémon Terrifiant"
+}
 base_stats = {
 "attack": 155,
 "defense": 109,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/130-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/130-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/130-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+"fr": "Quand il se laisse emporter par la rage, il ne se calme qu’après avoir détruit tout ce qui l’entoure."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1151,4 +1156,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

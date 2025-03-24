@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gs43c"]
+
+[resource]
+script = ExtResource("1_gs43c")
+item_id = 72
+identifier = "red-shard"
+names = {
+"en": "Red Shard",
+"fr": "Tesson Rouge"
+}
+cost = 1000
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "No effect. Can be traded for items or moves."
+}
+effect = {
+"en": "\"No effect."
+}
+flavor_text = {
+"en": "\"A small red shard. It appears to be a fragment of",
+"fr": "\"Un petit tesson rouge."
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 48
+sprite_path = "res://assets/Items/REDSHARD.png"

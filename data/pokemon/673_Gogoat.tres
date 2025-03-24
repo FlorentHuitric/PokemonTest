@@ -13,7 +13,7 @@ pokemon_id = 673
 branch_code = ""
 names = {
 "en": "Gogoat",
-"fr": "Gogoat"
+"fr": "Chevroum"
 }
 generation = 6
 height = 1.7
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mount Pokémon",
+"fr": "Pokémon Monture"
+}
 base_stats = {
 "attack": 100,
 "defense": 62,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 7,
 "method": 1,
@@ -515,4 +520,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

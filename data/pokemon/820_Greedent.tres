@@ -13,7 +13,7 @@ pokemon_id = 820
 branch_code = ""
 names = {
 "en": "Greedent",
-"fr": "Greedent"
+"fr": "Rongrigou"
 }
 generation = 8
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Greedy Pokémon",
+"fr": "Pokémon Goulu"
+}
 base_stats = {
 "attack": 95,
 "defense": 95,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -407,4 +412,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 776,
 "tm_id": ""
-}]
+}])

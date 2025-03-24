@@ -15,7 +15,7 @@ pokemon_id = 858
 branch_code = ""
 names = {
 "en": "Hatterene",
-"fr": "Hatterene"
+"fr": "Sorcilence"
 }
 generation = 8
 height = 2.1
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Silent Pokémon",
+"fr": "Pokémon Silencieux"
+}
 base_stats = {
 "attack": 90,
 "defense": 95,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -445,4 +450,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 802,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_k33m3"]
+
+[resource]
+script = ExtResource("1_k33m3")
+item_id = 1161
+identifier = "rusted-sword"
+names = {
+"en": "Rusted Sword",
+"fr": "Épée Rouillée"
+}
+cost = 0
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"It is said that a hero used this sword to halt a terrible",
+"fr": "\"On raconte que cette épée fut jadis utilisée"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1103
+sprite_path = "res://assets/Items/RUSTEDSWORD.png"

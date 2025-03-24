@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bdaph"]
+
+[resource]
+script = ExtResource("1_bdaph")
+item_id = 404
+identifier = "hm08"
+names = {
+"en": "HM08",
+"fr": "CS08"
+}
+cost = 0
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches a move to a compatible Pokémon. (Gen IV: Rock Climb Gen III: Dive)"
+}
+effect = {
+"en": "Teaches Rock Climb to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"A charging attack that may also leave"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 346
+sprite_path = "res://assets/Items/HM08.png"

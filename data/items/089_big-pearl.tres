@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_etdhr"]
+
+[resource]
+script = ExtResource("1_etdhr")
+item_id = 89
+identifier = "big-pearl"
+names = {
+"en": "Big Pearl",
+"fr": "Grande Perle"
+}
+cost = 8000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Sell for 3750 Pokédollars"
+}
+effect = {
+"en": " or to Ore Collector for 7500 Pokédollars.\""
+}
+flavor_text = {
+"en": "\"A rather large pearl that has a very nice silvery sheen.",
+"fr": "\"Une grosse perle qui brille d’une jolie couleur argent."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 107
+sprite_path = "res://assets/Items/BIGPEARL.png"

@@ -14,7 +14,7 @@ pokemon_id = 583
 branch_code = ""
 names = {
 "en": "Vanillish",
-"fr": "Vanillish"
+"fr": "Sorboul"
 }
 generation = 5
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Icy Snow Pokémon",
+"fr": "Pokémon Grêle"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+"fr": "Il se cache de ses ennemis en émettant une myriade de petites particules de glace."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 47",
+"condition_fr": "Niveau 47",
+"evolved_pokemon_id": 584,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -540,4 +555,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 502,
 "tm_id": ""
-}]
+}])

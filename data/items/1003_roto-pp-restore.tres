@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_p8yap"]
+
+[resource]
+script = ExtResource("1_p8yap")
+item_id = 1003
+identifier = "roto-pp-restore"
+names = {
+"en": "Roto PP Restore",
+"fr": "Moti-Récup’ PP"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for roto-pp-restore"
+}
+effect = {
+"en": "XXX new effect for roto-pp-restore"
+}
+flavor_text = {
+"en": "\"One of the Rotom Powers.",
+"fr": "\"Une des Motism’Auras. Elle permet à vos Pokémon"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 957
+sprite_path = "res://assets/Items/ROTOPPRESTORE.png"

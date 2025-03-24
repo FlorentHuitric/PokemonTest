@@ -14,7 +14,7 @@ pokemon_id = 510
 branch_code = ""
 names = {
 "en": "Liepard",
-"fr": "Liepard"
+"fr": "Léopardus"
 }
 generation = 5
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cruel Pokémon",
+"fr": "Pokémon Implacable"
+}
 base_stats = {
 "attack": 88,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
+"fr": "Il s’approche sans un bruit de sa proie et l’abat d’un coup par derrière sans jamais être repéré."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -720,4 +725,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

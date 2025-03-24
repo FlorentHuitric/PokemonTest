@@ -15,7 +15,7 @@ pokemon_id = 687
 branch_code = ""
 names = {
 "en": "Malamar",
-"fr": "Malamar"
+"fr": "Sepiatroce"
 }
 generation = 6
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Overturning Pokémon",
+"fr": "Pokémon Révolution"
+}
 base_stats = {
 "attack": 92,
 "defense": 88,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -727,4 +732,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

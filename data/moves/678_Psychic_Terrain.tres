@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+"fr": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente."
 }
 tm_id = ""
 meta_category_id = 10
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 12
+move_target_name = {
+"en": "Entire field",
+"fr": "Terrain entier"
+}
+move_target_description = {
+"en": "The entire field.  Affects all Pokémon.",
+"fr": "Le terrain entier. Affecte tous les Pokémon."
+}
+move_effect_id = 395
+move_effect_short = {
+"en": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+}
+metadata/move_target_id = 12
+metadata/move_effect_id = 395
+metadata/effect_chance = 0

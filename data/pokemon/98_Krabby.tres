@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "River Crab Pokémon",
+"fr": "Pokémon Doux Crabe"
+}
 base_stats = {
 "attack": 105,
 "defense": 90,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.",
+"fr": "Il creuse son terrier sur des plages sablonneuses. Ses pinces repoussent si on les brise."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 28",
+"condition_fr": "Niveau 28",
+"evolved_pokemon_id": 99,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 20,
 "method": 1,
@@ -1014,4 +1029,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

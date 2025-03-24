@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mcm1e"]
+
+[resource]
+script = ExtResource("1_mcm1e")
+item_id = 95
+identifier = "growth-mulch"
+names = {
+"en": "Growth Mulch",
+"fr": "Fertipousse"
+}
+cost = 200
+category_id = 32
+category_name = {
+"en": "Mulch"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Growing time of berries is reduced"
+}
+effect = {
+"en": " but the soil dries out faster.\""
+}
+flavor_text = {
+"en": "\"A fertilizer for growing Berries. However",
+"fr": "\"Un engrais à utiliser sur un sol meuble."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 95
+sprite_path = "res://assets/Items/GROWTHMULCH.png"

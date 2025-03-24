@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3i2gg"]
+
+[resource]
+script = ExtResource("1_3i2gg")
+item_id = 467
+identifier = "red-orb"
+names = {
+"en": "Red Orb",
+"fr": "Gemme Rouge"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Summons Groudon to the Embedded Tower."
+}
+effect = {
+"en": "Causes []{pokemon:groudon} to appear in the []{location:embedded-tower}."
+}
+flavor_text = {
+"en": "\"A shiny red orb that is said to have a legend tied",
+"fr": "\"Une gemme incarnate dont on dit qu’elle a un lien"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 276
+sprite_path = "res://assets/Items/REDORB.png"

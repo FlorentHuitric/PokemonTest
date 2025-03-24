@@ -12,7 +12,8 @@ script = ExtResource("2_obsdr")
 pokemon_id = 720
 branch_code = ""
 names = {
-"en": "Confined Hoopa"
+"en": "Hoopa",
+"fr": "Hoopa"
 }
 generation = 6
 height = 0.5
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mischief Pokémon",
+"fr": "Pokémon Chenapan"
+}
 base_stats = {
 "attack": 110,
 "defense": 60,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 15,
 "method": 1,
@@ -688,4 +694,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

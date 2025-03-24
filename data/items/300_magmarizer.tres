@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qdcn8"]
+
+[resource]
+script = ExtResource("1_qdcn8")
+item_id = 300
+identifier = "magmarizer"
+names = {
+"en": "Magmarizer",
+"fr": "Magmariseur"
+}
+cost = 2000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded on a Magmar: Holder evolves into Magmortar."
+}
+effect = {
+"en": "Held by Magmar: Evolves the holder into Magmortar when traded."
+}
+flavor_text = {
+"en": "\"A box packed with a tremendous amount of magma",
+"fr": "\"Une boîte remplie d’une énorme quantité d’énergie"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 323
+sprite_path = "res://assets/Items/MAGMARIZER.png"

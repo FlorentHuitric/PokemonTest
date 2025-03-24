@@ -13,7 +13,7 @@ pokemon_id = 408
 branch_code = ""
 names = {
 "en": "Cranidos",
-"fr": "Cranidos"
+"fr": "Kranidos"
 }
 generation = 4
 height = 0.9
@@ -34,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Head Butt Pokémon",
+"fr": "Pokémon Coud’Boule"
+}
 base_stats = {
 "attack": 125,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts.",
+"fr": "Il vivait dans la jungle il y a 100 millions d’années. Il abat un arbre d’un coup de tête."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 409,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -653,4 +668,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 351,
 "tm_id": ""
-}]
+}])

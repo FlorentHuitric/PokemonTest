@@ -14,7 +14,7 @@ pokemon_id = 614
 branch_code = ""
 names = {
 "en": "Beartic",
-"fr": "Beartic"
+"fr": "Polagriffe"
 }
 generation = 5
 height = 2.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Freezing Pokémon",
+"fr": "Pokémon Congelé"
+}
 base_stats = {
 "attack": 130,
 "defense": 80,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+"fr": "Il gèle son haleine et en fait des crocs et des griffes de glace pour combattre. Il vit dans les terres gelées du nord."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -810,4 +815,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 776,
 "tm_id": ""
-}]
+}])

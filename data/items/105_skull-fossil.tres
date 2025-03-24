@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1rawn"]
+
+[resource]
+script = ExtResource("1_1rawn")
+item_id = 105
+identifier = "skull-fossil"
+names = {
+"en": "Skull Fossil",
+"fr": "Fossile Crâne"
+}
+cost = 7000
+category_id = 35
+category_name = {
+"en": "Dex completion"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 100
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Can be revived into a Cranidos."
+}
+effect = {
+"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:cranidos}."
+}
+flavor_text = {
+"en": "\"A fossil from a prehistoric Pokémon that once lived",
+"fr": "\"Le fossile d’un Pokémon préhistorique terrestre."
+}
+flags = Array[String](["underground"])
+generation_id = 4
+game_index = 105
+sprite_path = "res://assets/Items/SKULLFOSSIL.png"

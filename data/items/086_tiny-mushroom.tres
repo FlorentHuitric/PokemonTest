@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3qw2n"]
+
+[resource]
+script = ExtResource("1_3qw2n")
+item_id = 86
+identifier = "tiny-mushroom"
+names = {
+"en": "Tiny Mushroom",
+"fr": "Petit Champi"
+}
+cost = 500
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pokédollars"
+}
+effect = {
+"en": " or to Hungry Maid for 500 Pokédollars.\""
+}
+flavor_text = {
+"en": "\"A very small and rare mushroom. It’s popular with",
+"fr": "\"Un petit champignon assez rare."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 103
+sprite_path = "res://assets/Items/TINYMUSHROOM.png"

@@ -11,7 +11,8 @@ script = ExtResource("2_n8rd7")
 pokemon_id = 875
 branch_code = ""
 names = {
-"en": "Eiscue Ice Face"
+"en": "Eiscue",
+"fr": "Bekaglaçon"
 }
 generation = 8
 height = 1.4
@@ -32,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Penguin Pokémon",
+"fr": "Pokémon Pingouin"
+}
 base_stats = {
 "attack": 80,
 "defense": 110,
@@ -87,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -381,4 +387,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

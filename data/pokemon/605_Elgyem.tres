@@ -14,7 +14,7 @@ pokemon_id = 605
 branch_code = ""
 names = {
 "en": "Elgyem",
-"fr": "Elgyem"
+"fr": "Lewsor"
 }
 generation = 5
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cerebral Pokémon",
+"fr": "Pokémon Cerveau"
+}
 base_stats = {
 "attack": 55,
 "defense": 55,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
+"fr": "Il est apparu soudainement des confins d’un désert il y a 50 ans. Personne ne l’avait jamais vu auparavant."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 42",
+"condition_fr": "Niveau 42",
+"evolved_pokemon_id": 606,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 18,
 "method": 1,
@@ -798,4 +813,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_r31cj"]
+
+[resource]
+script = ExtResource("1_r31cj")
+item_id = 251
+identifier = "quick-powder"
+names = {
+"en": "Quick Powder",
+"fr": "Poudre Vite"
+}
+cost = 1000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Doubles Ditto's Speed when held. The boost is lost after transforming."
+}
+effect = {
+"en": "Held by Ditto: Doubles the holder's initial Speed."
+}
+flavor_text = {
+"en": "\"An item to be held by Ditto. Extremely fine yet",
+"fr": "\"Objet à faire tenir à Métamorph."
+}
+flags = Array[String](["holdable"])
+generation_id = 4
+game_index = 274
+sprite_path = "res://assets/Items/QUICKPOWDER.png"

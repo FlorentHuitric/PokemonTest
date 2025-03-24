@@ -1,0 +1,15 @@
+move_target_id,local_language_id,name,description
+1,5,Capacité spécifique,Une capacité spécifique. La façon dont cette capacité est choisie dépend de la capacité utilisée.
+2,5,Pokémon sélectionné,Un autre Pokémon sur le terrain, sélectionné par le dresseur. Les capacités volées réutilisent la même cible.
+3,5,Allié,L'allié de l'utilisateur (s'il y en a un).
+4,5,Terrain de l'utilisateur,Le côté du terrain de l'utilisateur. Affecte l'utilisateur et son allié (s'il y en a un).
+5,5,Utilisateur ou allié,"Soit l'utilisateur, soit son allié, sélectionné par le dresseur."
+6,5,Terrain adverse,Le côté adverse du terrain. Affecte les Pokémon adverses.
+7,5,Utilisateur,L'utilisateur.
+8,5,Adversaire aléatoire,"Un Pokémon adverse, sélectionné au hasard."
+9,5,Tous les autres Pokémon,Tous les autres Pokémon sur le terrain.
+10,5,Pokémon sélectionné,"Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+11,5,Tous les adversaires,Tous les Pokémon adverses.
+12,5,Terrain entier,Le terrain entier. Affecte tous les Pokémon.
+13,5,Utilisateur et alliés,L'utilisateur et ses alliés.
+14,5,Tous les Pokémon,Tous les Pokémon sur le terrain.

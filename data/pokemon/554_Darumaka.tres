@@ -13,7 +13,7 @@ pokemon_id = 554
 branch_code = ""
 names = {
 "en": "Darumaka",
-"fr": "Darumaka"
+"fr": "Darumarond"
 }
 generation = 5
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Zen Charm Pokémon",
+"fr": "Pokémon Daruma"
+}
 base_stats = {
 "attack": 90,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+"fr": "Les gens d’autrefois avaient l’habitude de mettre ses crottes brûlantes sous leurs vêtements pour se réchauffer."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 35",
+"condition_fr": "Niveau 35",
+"evolved_pokemon_id": 555,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Item 885",
+"condition_fr": "Objet 885",
+"evolved_pokemon_id": 555,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 22,
 "method": 1,
@@ -701,4 +726,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 526,
 "tm_id": ""
-}]
+}])

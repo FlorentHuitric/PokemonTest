@@ -12,7 +12,7 @@ pokemon_id = 358
 branch_code = ""
 names = {
 "en": "Chimecho",
-"fr": "Chimecho"
+"fr": "Éoko"
 }
 generation = 3
 height = 0.6
@@ -33,6 +33,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wind Chime Pokémon",
+"fr": "Pokémon Carillon"
+}
 base_stats = {
 "attack": 50,
 "defense": 80,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+"fr": "Ses cris se répercutent dans son corps creux avant d’exploser en notes mélodieuses et saisissantes."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -844,4 +849,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

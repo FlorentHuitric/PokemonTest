@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ur0ol"]
+
+[resource]
+script = ExtResource("1_ur0ol")
+item_id = 816
+identifier = "eon-flute"
+names = {
+"en": "Eon Flute",
+"fr": "Flûte Éon"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Summons Latias or Latios for a ride."
+}
+effect = {
+"en": "Summons Latias or Latios for a ride."
+}
+flavor_text = {
+"en": "\"A flute that can be used to summon Latios or Latias",
+"fr": "\"Une flûte capable d’appeler Latios ou Latias"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 775
+sprite_path = "res://assets/Items/EONFLUTE.png"

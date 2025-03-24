@@ -12,7 +12,8 @@ script = ExtResource("3_ao6g8")
 pokemon_id = 37
 branch_code = ""
 names = {
-"en": "Alolan Vulpix"
+"en": "Vulpix",
+"fr": "Goupix"
 }
 generation = 7
 height = 0.6
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Fox Pokémon",
+"fr": "Pokémon Renard"
+}
 base_stats = {
 "attack": 41,
 "defense": 40,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+"fr": "Il envoie des boules de feu. Avec l’âge, ses six queues en forment de nouvelles."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 82",
+"condition_fr": "Objet 82",
+"evolved_pokemon_id": 38,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}, {
+"condition": {},
+"condition_en": "Item 885",
+"condition_fr": "Objet 885",
+"evolved_pokemon_id": 38,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1258,4 +1284,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 807,
 "tm_id": ""
-}]
+}])

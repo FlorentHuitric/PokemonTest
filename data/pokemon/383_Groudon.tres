@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Continent Pokémon",
+"fr": "Pokémon Continent"
+}
 base_stats = {
 "attack": 150,
 "defense": 140,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago.",
+"fr": "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il y a longtemps de cela."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1012,4 +1017,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

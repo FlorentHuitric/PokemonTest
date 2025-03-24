@@ -15,7 +15,7 @@ pokemon_id = 286
 branch_code = ""
 names = {
 "en": "Breloom",
-"fr": "Breloom"
+"fr": "Chapignon"
 }
 generation = 3
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1640000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mushroom Pokémon",
+"fr": "Pokémon Champignon"
+}
 base_stats = {
 "attack": 130,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+"fr": "Ses petits bras s’étendent quand il donne un coup de poing. Son talent égale celui d’un boxeur pro."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -799,4 +804,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 424
 branch_code = ""
 names = {
 "en": "Ambipom",
-"fr": "Ambipom"
+"fr": "Capidextre"
 }
 generation = 4
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Long Tail Pokémon",
+"fr": "Pokémon Longqueue"
+}
 base_stats = {
 "attack": 100,
 "defense": 66,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/424.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/424.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/424.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
+"fr": "Ses queues jumelles sont si agiles et efficaces qu’il ne se sert que très rarement de ses bras."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -660,4 +665,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bogjs"]
+
+[resource]
+script = ExtResource("1_bogjs")
+item_id = 1210
+identifier = "tr22"
+names = {
+"en": "TR22",
+"fr": "DT22"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Unsanitary sludge is hurled at the target. This may",
+"fr": "\"Des détritus toxiques sont projetés sur l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1152
+sprite_path = "res://assets/Items/TR22.png"

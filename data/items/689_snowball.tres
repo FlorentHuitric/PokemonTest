@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_rf2xf"]
+
+[resource]
+script = ExtResource("1_rf2xf")
+item_id = 689
+identifier = "snowball"
+names = {
+"en": "Snowball",
+"fr": "Boule de Neige"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: If the holder is hit by a damaging Ice move"
+}
+effect = {
+"en": " raises its Attack by one stage.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It boosts Attack",
+"fr": "\"Objet à tenir. Une boule de neige à usage unique"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 649
+sprite_path = "res://assets/Items/SNOWBALL.png"

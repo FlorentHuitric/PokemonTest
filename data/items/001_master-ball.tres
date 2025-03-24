@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pmqx6"]
+
+[resource]
+script = ExtResource("1_pmqx6")
+item_id = 1
+identifier = "master-ball"
+names = {
+"en": "Master Ball",
+"fr": "Master Ball"
+}
+cost = 0
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Catches a wild Pokémon every time."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"The best Poké Ball with the ultimate level of",
+"fr": "\"Assurément la Poké Ball la plus performante."
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 1
+sprite_path = "res://assets/Items/MASTERBALL.png"

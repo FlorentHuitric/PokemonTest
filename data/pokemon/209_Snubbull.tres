@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Fairy Pokémon",
+"fr": "Pokémon Fée"
+}
 base_stats = {
 "attack": 80,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
+"fr": "Son visage horrible fait fuir les petits Pokémon. Par contre, les femmes le trouvent mignon."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 23",
+"condition_fr": "Niveau 23",
+"evolved_pokemon_id": 210,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -918,4 +933,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 352,
 "tm_id": ""
-}]
+}])

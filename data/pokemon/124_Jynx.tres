@@ -15,7 +15,7 @@ pokemon_id = 124
 branch_code = ""
 names = {
 "en": "Jynx",
-"fr": "Jynx"
+"fr": "Lippoutou"
 }
 generation = 1
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Human Shape Pokémon",
+"fr": "Pokémon Humanoïde"
+}
 base_stats = {
 "attack": 50,
 "defense": 35,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its cries sound like human speech. However, it is impossible to tell what it is trying to say.",
+"fr": "Son cri ressemble à des paroles humaines. Mais nul n’est jamais parvenu à les comprendre."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 125,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1315,4 +1330,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

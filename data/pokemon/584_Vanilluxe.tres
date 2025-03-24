@@ -14,7 +14,7 @@ pokemon_id = 584
 branch_code = ""
 names = {
 "en": "Vanilluxe",
-"fr": "Vanilluxe"
+"fr": "Sorbouboul"
 }
 generation = 5
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Snowstorm Pokémon",
+"fr": "Pokémon Congère"
+}
 base_stats = {
 "attack": 95,
 "defense": 85,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
+"fr": "Quand ses deux têtes se fâchent en même temps, il émet un blizzard de ses cornes et enfouit les alentours sous la neige."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -588,4 +593,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 556,
 "tm_id": ""
-}]
+}])

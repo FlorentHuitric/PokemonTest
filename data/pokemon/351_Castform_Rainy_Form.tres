@@ -11,8 +11,8 @@ script = ExtResource("2_wcv61")
 pokemon_id = 351
 branch_code = ""
 names = {
-"en": "Castform Rainy Form",
-"fr": "Castform Rainy Form"
+"en": "Castform",
+"fr": "Morphéo"
 }
 generation = 3
 height = 0.3
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Weather Pokémon",
+"fr": "Pokémon Climat"
+}
 base_stats = {
 "attack": 70,
 "defense": 70,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+"fr": "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l’eau."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -670,4 +675,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

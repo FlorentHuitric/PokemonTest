@@ -15,7 +15,7 @@ pokemon_id = 779
 branch_code = ""
 names = {
 "en": "Bruxish",
-"fr": "Bruxish"
+"fr": "Denticrisse"
 }
 generation = 7
 height = 0.9
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gnash Teeth Pokémon",
+"fr": "Pokémon Grincedent"
+}
 base_stats = {
 "attack": 105,
 "defense": 70,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -505,4 +510,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

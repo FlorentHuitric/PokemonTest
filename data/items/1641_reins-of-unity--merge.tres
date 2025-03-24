@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3yqnh"]
+
+[resource]
+script = ExtResource("1_3yqnh")
+item_id = 1641
+identifier = "reins-of-unity--merge"
+names = {
+"en": "Reins of Unity",
+"fr": "Rênes de l’Unité"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Reins that people presented to the king. They enhance",
+"fr": "\"Une offrande des humains au roi. Ces rênes permettent"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1590
+sprite_path = "res://assets/Items/REINSOFUNITYMERGE.png"

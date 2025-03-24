@@ -14,7 +14,8 @@ script = ExtResource("4_lv6y1")
 pokemon_id = 199
 branch_code = ""
 names = {
-"en": "Galarian Slowking"
+"en": "Slowking",
+"fr": "Roigada"
 }
 generation = 8
 height = 1.8
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Royal Pokémon",
+"fr": "Pokémon Royal"
+}
 base_stats = {
 "attack": 65,
 "defense": 80,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
+"fr": "La morsure de Kokiyas a fait de lui un génie dont l’intelligence rivalise avec celle d’un prix Nobel."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1314,4 +1320,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

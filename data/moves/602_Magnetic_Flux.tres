@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+"fr": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 13
+move_target_name = {
+"en": "User and allies",
+"fr": "Utilisateur et alliés"
+}
+move_target_description = {
+"en": "The user and its allies.",
+"fr": "L'utilisateur et ses alliés."
+}
+move_effect_id = 367
+move_effect_short = {
+"en": "Raises the Defense and Special Defense of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage."
+}
+metadata/move_target_id = 13
+metadata/move_effect_id = 367
+metadata/effect_chance = 0

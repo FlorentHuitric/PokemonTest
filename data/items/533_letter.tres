@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_01mhr"]
+
+[resource]
+script = ExtResource("1_01mhr")
+item_id = 533
+identifier = "letter"
+names = {
+"en": "Letter",
+"fr": "Lettre à Pierre"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "A letter to Steven from the Devon Corp president."
+}
+effect = {
+"en": "Contains a letter to be delivered to Steven."
+}
+flavor_text = {
+"en": "\"An extremely important letter to Steven from",
+"fr": "Une lettre confiée par le directeur de Devon."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 274
+sprite_path = "res://assets/Items/LETTER.png"

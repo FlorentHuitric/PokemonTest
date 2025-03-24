@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sqxye"]
+
+[resource]
+script = ExtResource("1_sqxye")
+item_id = 892
+identifier = "purple-nectar"
+names = {
+"en": "Purple Nectar",
+"fr": "Nectar Mauve"
+}
+cost = 300
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Changes Oricorio to Sensu Style."
+}
+effect = {
+"en": "Changes Oricorio to Sensu Style.  Single-use and cannot be used in battle."
+}
+flavor_text = {
+"en": "\"A flower nectar obtained at Poni Meadow.",
+"fr": "\"Un nectar obtenu au Jardin de Poni."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 856
+sprite_path = "res://assets/Items/PURPLENECTAR.png"

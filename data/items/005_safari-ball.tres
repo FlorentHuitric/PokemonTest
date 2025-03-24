@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_edu6d"]
+
+[resource]
+script = ExtResource("1_edu6d")
+item_id = 5
+identifier = "safari-ball"
+names = {
+"en": "Safari Ball",
+"fr": "Safari Ball"
+}
+cost = 0
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A special Poké Ball that was used in the Safari Zone",
+"fr": "\"Une Poké Ball spéciale anciennement utilisée"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 5
+sprite_path = "res://assets/Items/SAFARIBALL.png"

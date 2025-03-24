@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mfsi5"]
+
+[resource]
+script = ExtResource("1_mfsi5")
+item_id = 887
+identifier = "beast-ball"
+names = {
+"en": "Beast Ball",
+"fr": "Ultra Ball"
+}
+cost = 0
+category_id = 33
+category_name = {
+"en": "Special balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon.  Success rate is 5× for Ultra Beasts and 0.1× for all other Pokémon."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A somewhat different Poké Ball that has a low success",
+"fr": "\"Une Poké Ball un peu spéciale avec laquelle"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 851
+sprite_path = "res://assets/Items/BEASTBALL.png"

@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mushroom Pokémon",
+"fr": "Pokémon Champignon"
+}
 base_stats = {
 "attack": 95,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+"fr": "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -871,4 +876,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 404,
 "tm_id": ""
-}]
+}])

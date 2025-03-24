@@ -15,7 +15,7 @@ pokemon_id = 593
 branch_code = ""
 names = {
 "en": "Jellicent",
-"fr": "Jellicent"
+"fr": "Moyade"
 }
 generation = 5
 height = 2.2
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Floating Pokémon",
+"fr": "Pokémon Flottaison"
+}
 base_stats = {
 "attack": 60,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/593.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/593.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/593.png"
 description = {
-"en": "",
-"fr": ""
+"en": "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
+"fr": "Il se déplace en projetant l’eau de mer qu’il accumule dans son corps. Son plat préféré est l’énergie vitale."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 53,
 "method": 1,
@@ -655,4 +660,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

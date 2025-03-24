@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sgneh"]
+
+[resource]
+script = ExtResource("1_sgneh")
+item_id = 661
+identifier = "tm95"
+names = {
+"en": "TM95",
+"fr": "CT95"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Snarl to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches []{move:snarl} to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user attacks with a blade of air that slices even",
+"fr": "\"Le lanceur attaque avec une lame d’air qui fend tout."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 620
+sprite_path = "res://assets/Items/TM95.png"

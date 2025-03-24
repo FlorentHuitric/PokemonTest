@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vuh5u"]
+
+[resource]
+script = ExtResource("1_vuh5u")
+item_id = 1251
+identifier = "tr63"
+names = {
+"en": "TR63",
+"fr": "DT63"
+}
+cost = 6000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user attacks with a ray of light that sparkles as",
+"fr": "\"Le lanceur attaque avec un rayon de lumière"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1193
+sprite_path = "res://assets/Items/TR63.png"

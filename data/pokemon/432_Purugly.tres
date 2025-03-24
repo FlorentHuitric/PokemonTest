@@ -14,7 +14,7 @@ pokemon_id = 432
 branch_code = ""
 names = {
 "en": "Purugly",
-"fr": "Purugly"
+"fr": "Chaffreux"
 }
 generation = 4
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiger Cat Pokémon",
+"fr": "Pokémon Chatigre"
+}
 base_stats = {
 "attack": 82,
 "defense": 64,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+"fr": "Il plaque ses queues contre son dos pour paraître plus grand. Il soutient un regard des heures."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -606,4 +611,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

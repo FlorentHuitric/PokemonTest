@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bounce Pokémon",
+"fr": "Pokémon Rebond"
+}
 base_stats = {
 "attack": 25,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+"fr": "Il utilise sa queue comme un ressort et bondit partout. Chaque nouveau choc fait battre son cœur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 32",
+"condition_fr": "Niveau 32",
+"evolved_pokemon_id": 326,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 16,
 "method": 1,
@@ -792,4 +807,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 502,
 "tm_id": ""
-}]
+}])

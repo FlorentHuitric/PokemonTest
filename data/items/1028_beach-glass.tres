@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2xwv8"]
+
+[resource]
+script = ExtResource("1_2xwv8")
+item_id = 1028
+identifier = "beach-glass"
+names = {
+"en": "Beach Glass",
+"fr": "Galet de Verre"
+}
+cost = 800
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A piece of colored glass. Waves have rounded its edges.",
+"fr": "\"Un morceau de verre coloré arrondi par les vagues."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 889
+sprite_path = "res://assets/Items/BEACHGLASS.png"

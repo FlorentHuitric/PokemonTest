@@ -13,7 +13,7 @@ pokemon_id = 684
 branch_code = ""
 names = {
 "en": "Swirlix",
-"fr": "Swirlix"
+"fr": "Sucroquin"
 }
 generation = 6
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cotton Candy Pokémon",
+"fr": "Pokémon Confiserie"
+}
 base_stats = {
 "attack": 48,
 "defense": 66,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 686",
+"condition_fr": "Objet 686",
+"evolved_pokemon_id": 685,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -575,4 +590,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 802,
 "tm_id": ""
-}]
+}])

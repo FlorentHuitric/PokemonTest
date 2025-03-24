@@ -12,8 +12,8 @@ script = ExtResource("2_25v63")
 pokemon_id = 15
 branch_code = ""
 names = {
-"en": "Mega Beedrill",
-"fr": "Mega Beedrill"
+"en": "Beedrill",
+"fr": "Dardargnan"
 }
 generation = 1
 height = 1.4
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Poison Bee Pokémon",
+"fr": "Pokémon Guêpoison"
+}
 base_stats = {
 "attack": 150,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+"fr": "Il virevolte rapidement autour de l’ennemi et frappe de son dard empoisonné avant de décamper."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -863,4 +868,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 529,
 "tm_id": ""
-}]
+}])

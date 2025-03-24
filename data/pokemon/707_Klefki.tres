@@ -14,7 +14,7 @@ pokemon_id = 707
 branch_code = ""
 names = {
 "en": "Klefki",
-"fr": "Klefki"
+"fr": "Trousselin"
 }
 generation = 6
 height = 0.2
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Key Ring Pokémon",
+"fr": "Pokémon Trousseau"
+}
 base_stats = {
 "attack": 80,
 "defense": 91,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -618,4 +623,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

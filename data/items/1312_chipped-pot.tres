@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_m56ga"]
+
+[resource]
+script = ExtResource("1_m56ga")
+item_id = 1312
+identifier = "chipped-pot"
+names = {
+"en": "Chipped Pot",
+"fr": "Théière Ébréchée"
+}
+cost = 38000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A peculiar teapot that can make a certain species of",
+"fr": "\"Un récipient mystérieux pouvant faire évoluer un certain"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1254
+sprite_path = "res://assets/Items/CHIPPEDPOT.png"

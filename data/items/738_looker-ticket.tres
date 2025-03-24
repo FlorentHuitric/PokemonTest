@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6rfsh"]
+
+[resource]
+script = ExtResource("1_6rfsh")
+item_id = 738
+identifier = "looker-ticket"
+names = {
+"en": "Looker Ticket",
+"fr": "Ticket Beladonis"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Advances the Looker postgame plot."
+}
+effect = {
+"en": "Advances the Looker postgame plot."
+}
+flavor_text = {
+"en": "\"A ticket that was handmade by Looker. It’s",
+"fr": "\"Un ticket brillant de mille feux"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 712
+sprite_path = "res://assets/Items/LOOKERTICKET.png"

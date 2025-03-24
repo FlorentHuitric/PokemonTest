@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1bia2"]
+
+[resource]
+script = ExtResource("1_1bia2")
+item_id = 985
+identifier = "yellow-petal"
+names = {
+"en": "Yellow Petal",
+"fr": "Pétale Jaune"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for yellow-petal"
+}
+effect = {
+"en": "XXX new effect for yellow-petal"
+}
+flavor_text = {
+"en": "\"A pressed flower petal you receive from Sophocles",
+"fr": "\"Un pétale pressé que Chrys vous a remis lors"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 939
+sprite_path = "res://assets/Items/YELLOWPETAL.png"

@@ -14,7 +14,7 @@ pokemon_id = 398
 branch_code = ""
 names = {
 "en": "Staraptor",
-"fr": "Staraptor"
+"fr": "Étouraptor"
 }
 generation = 4
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Predator Pokémon",
+"fr": "Pokémon Rapace"
+}
 base_stats = {
 "attack": 120,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/398.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/398.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/398.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+"fr": "Il combattra sans relâche, même blessé. Il prend grand soin de sa mèche."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -480,4 +485,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

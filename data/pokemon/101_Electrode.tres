@@ -14,7 +14,7 @@ pokemon_id = 101
 branch_code = ""
 names = {
 "en": "Electrode",
-"fr": "Electrode"
+"fr": "Électrode"
 }
 generation = 1
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ball Pokémon",
+"fr": "Pokémon Balle"
+}
 base_stats = {
 "attack": 50,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+"fr": "Il se laisse porter par les vents lorsque son corps est gonflé d’électricité à en éclater."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -942,4 +947,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 492,
 "tm_id": ""
-}]
+}])

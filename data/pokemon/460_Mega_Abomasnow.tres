@@ -12,8 +12,8 @@ script = ExtResource("2_wng2x")
 pokemon_id = 460
 branch_code = ""
 names = {
-"en": "Mega Abomasnow",
-"fr": "Mega Abomasnow"
+"en": "Abomasnow",
+"fr": "Blizzaroi"
 }
 generation = 4
 height = 2.7
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Frost Tree Pokémon",
+"fr": "Pokémon Arbregelé"
+}
 base_stats = {
 "attack": 132,
 "defense": 105,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/460-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/460-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/460-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+"fr": "Il apparaît quand les fleurs des terres enneigées fleurissent et se retire quand elles se fanent."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 303 + Time: night",
+"condition_fr": "Objet 303 + Moment: nuit",
+"evolved_pokemon_id": 461,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -731,4 +746,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

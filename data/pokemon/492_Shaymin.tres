@@ -13,7 +13,7 @@ pokemon_id = 492
 branch_code = "492_1"
 names = {
 "en": "Shaymin",
-"fr": "Shaymin Sky Form"
+"fr": "Shaymin"
 }
 generation = 4
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gratitude Pokémon",
+"fr": "Pokémon Gratitude"
+}
 base_stats = {
 "attack": 103,
 "defense": 75,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.",
+"fr": "Les fleurs qui couvrent son corps s’ouvrent quand il est câliné avec amour et perçoit de la gratitude."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -455,4 +460,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

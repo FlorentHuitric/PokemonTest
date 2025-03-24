@@ -18,8 +18,8 @@ accuracy = 0
 pp = 25
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+"fr": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik."
 }
 tm_id = ""
 meta_category_id = 10
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 12
+move_target_name = {
+"en": "Entire field",
+"fr": "Terrain entier"
+}
+move_target_description = {
+"en": "The entire field.  Affects all Pokémon.",
+"fr": "Le terrain entier. Affecte tous les Pokémon."
+}
+move_effect_id = 345
+move_effect_short = {
+"en": "Changes all []{type:normal} moves to []{type:electric} moves for the rest of the turn."
+}
+metadata/move_target_id = 12
+metadata/move_effect_id = 345
+metadata/effect_chance = 0

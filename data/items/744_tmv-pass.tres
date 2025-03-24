@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ipr03"]
+
+[resource]
+script = ExtResource("1_ipr03")
+item_id = 744
+identifier = "tmv-pass"
+names = {
+"en": "TMV Pass",
+"fr": "Passe TMV"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Permits access to Kiloude City."
+}
+effect = {
+"en": "Permits access to Kiloude City."
+}
+flavor_text = {
+"en": "\"A commuter pass that allows the holder to ride the",
+"fr": "\"Un abonnement à vie à la ligne de TMV qui relie"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 701
+sprite_path = "res://assets/Items/TMVPASS.png"

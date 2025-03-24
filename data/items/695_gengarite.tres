@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_aqpvg"]
+
+[resource]
+script = ExtResource("1_aqpvg")
+item_id = 695
+identifier = "gengarite"
+names = {
+"en": "Gengarite",
+"fr": "Ectoplasmite"
+}
+cost = 0
+category_id = 44
+category_name = {
+"en": "Mega Stones"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Gengar to Mega Evolve into Mega Gengar."
+}
+effect = {
+"en": "Held: Allows Gengar to Mega Evolve into Mega Gengar."
+}
+flavor_text = {
+"en": "\"One of a variety of mysterious Mega Stones.",
+"fr": "\"Une variété de Méga-Gemme."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 656
+sprite_path = "res://assets/Items/GENGARITE.png"

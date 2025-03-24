@@ -35,6 +35,10 @@ experience_type = "1640000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ball Whale Pokémon",
+"fr": "Pokémon Baleinboule"
+}
 base_stats = {
 "attack": 70,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
+"fr": "Par beau temps, il se pose sur les plages pour jouer et rebondir. Il expulse de l’eau par son évent."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 321,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -912,4 +927,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

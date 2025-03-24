@@ -14,7 +14,7 @@ pokemon_id = 578
 branch_code = ""
 names = {
 "en": "Duosion",
-"fr": "Duosion"
+"fr": "Méios"
 }
 generation = 5
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mitosis Pokémon",
+"fr": "Pokémon Divisé"
+}
 base_stats = {
 "attack": 40,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.",
+"fr": "Il dégage sa puissance maximale quand ses cerveaux réfléchissent à la même chose."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 41",
+"condition_fr": "Niveau 41",
+"evolved_pokemon_id": 579,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -750,4 +765,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

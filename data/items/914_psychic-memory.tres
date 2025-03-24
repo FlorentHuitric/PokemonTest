@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_blopl"]
+
+[resource]
+script = ExtResource("1_blopl")
+item_id = 914
+identifier = "psychic-memory"
+names = {
+"en": "Psychic Memory",
+"fr": "ROM Psy"
+}
+cost = 1000
+category_id = 45
+category_name = {
+"en": "Memories"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 50
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Changes Silvally to its Psychic form.  Changes Multi-Attack's type to Psychic."
+}
+effect = {
+"en": "Held: Changes Silvally to its Psychic form.  Changes Multi-Attack's type to Psychic."
+}
+flavor_text = {
+"en": "\"A memory disc that contains Psychic-type data.",
+"fr": "\"Une carte mémoire contenant des données sur"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 916
+sprite_path = "res://assets/Items/PSYCHICMEMORY.png"

@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_5aq7n"]
+
+[resource]
+script = ExtResource("1_5aq7n")
+item_id = 561
+identifier = "magma-emblem"
+names = {
+"en": "Magma Emblem",
+"fr": "Sceau Magma"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Provides access to the Team Magma Hideout in the Jagged Pass."
+}
+effect = {
+"en": "Provides access to the []{location:magma-hideout} in the []{location:jagged-pass}."
+}
+flavor_text = {
+"en": "\"A medal-like item in"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 375
+sprite_path = "res://assets/Items/MAGMAEMBLEM.png"

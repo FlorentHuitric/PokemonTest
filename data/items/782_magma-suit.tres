@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qut8d"]
+
+[resource]
+script = ExtResource("1_qut8d")
+item_id = 782
+identifier = "magma-suit"
+names = {
+"en": "Magma Suit",
+"fr": "Scaph. Magma"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows the player to ride Groudon in the Cave of Origin."
+}
+effect = {
+"en": "Allows the player to ride Groudon in the Cave of Origin."
+}
+flavor_text = {
+"en": "\"A suit made with the collective technological",
+"fr": "\"Une combinaison créée à partir des méthodes"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 741
+sprite_path = "res://assets/Items/MAGMASUIT.png"

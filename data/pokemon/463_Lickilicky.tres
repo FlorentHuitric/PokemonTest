@@ -14,7 +14,7 @@ pokemon_id = 463
 branch_code = ""
 names = {
 "en": "Lickilicky",
-"fr": "Lickilicky"
+"fr": "Coudlangue"
 }
 generation = 4
 height = 1.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Licking Pokémon",
+"fr": "Pokémon Lécheur"
+}
 base_stats = {
 "attack": 85,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
+"fr": "Sa longue langue est couverte en permanence d’une épaisse couche de bave anesthésiante."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 298",
+"condition_fr": "Objet 298",
+"evolved_pokemon_id": 464,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -900,4 +915,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

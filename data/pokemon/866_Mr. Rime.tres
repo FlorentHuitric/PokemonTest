@@ -15,7 +15,7 @@ pokemon_id = 866
 branch_code = "866_0"
 names = {
 "en": "Mr. Rime",
-"fr": "Mr. Rime"
+"fr": "M. Glaquette"
 }
 generation = 8
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Comedian Pokémon",
+"fr": "Pokémon Comédien"
+}
 base_stats = {
 "attack": 85,
 "defense": 75,
@@ -91,7 +95,17 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 867,
+"trigger_name": {
+"en": "Go somewhere after taking damage"
+},
+"trigger_type": "take-damage"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -697,4 +711,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

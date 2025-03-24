@@ -12,8 +12,8 @@ script = ExtResource("2_4tltp")
 pokemon_id = 647
 branch_code = ""
 names = {
-"en": "Keldeo Ordinary Form",
-"fr": "Keldeo Ordinary Form"
+"en": "Keldeo",
+"fr": "Keldeo"
 }
 generation = 5
 height = 1.4
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Colt Pokémon",
+"fr": "Pokémon Poulain"
+}
 base_stats = {
 "attack": 72,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+"fr": "Il parcourt le monde en courant à la surface des mers et des cours d’eau. Il apparaît là où l’eau est très pure."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 49,
 "method": 1,
@@ -707,4 +712,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

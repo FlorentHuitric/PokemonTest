@@ -14,7 +14,7 @@ pokemon_id = 97
 branch_code = ""
 names = {
 "en": "Hypno",
-"fr": "Hypno"
+"fr": "Hypnomade"
 }
 generation = 1
 height = 1.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hypnosis Pokémon",
+"fr": "Pokémon Hypnose"
+}
 base_stats = {
 "attack": 73,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/97.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/97.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/97.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+"fr": "La vue de son pendule oscillant endort en trois secondes, même quand on vient de se réveiller."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1140,4 +1145,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 492,
 "tm_id": ""
-}]
+}])

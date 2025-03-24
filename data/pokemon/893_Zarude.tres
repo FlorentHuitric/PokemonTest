@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rogue Monkey Pokémon",
+"fr": "Pokémon Vilain Singe"
+}
 base_stats = {
 "attack": 120,
 "defense": 105,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -533,4 +538,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 816,
 "tm_id": ""
-}]
+}])

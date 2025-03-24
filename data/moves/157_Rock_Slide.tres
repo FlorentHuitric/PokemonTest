@@ -18,8 +18,8 @@ accuracy = 90
 pp = 10
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+"fr": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 30
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 32
+move_effect_short = {
+"en": "Has a $effect_chance% chance to make the target flinch."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 32
+metadata/effect_chance = 30

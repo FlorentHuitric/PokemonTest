@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_n7nxt"]
+
+[resource]
+script = ExtResource("1_n7nxt")
+item_id = 433
+identifier = "ss-ticket"
+names = {
+"en": "S.S. Ticket",
+"fr": "Passe Bateau"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Ticket for a ship. (RSE: S.S. Tidal LF: S.S. Anne HG: S.S. Aqua)"
+}
+effect = {
+"en": "\"Allows passage on a ferry."
+}
+flavor_text = {
+"en": "\"A ticket required for sailing on the ferry S.S. Aqua.",
+"fr": "\"Un ticket nécessaire pour embarquer sur le ferry"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 265
+sprite_path = "res://assets/Items/SSTICKET.png"

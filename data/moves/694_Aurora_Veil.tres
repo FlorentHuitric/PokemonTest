@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+"fr": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle."
 }
 tm_id = ""
 meta_category_id = 11
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 4
+move_target_name = {
+"en": "User's field",
+"fr": "Terrain de l'utilisateur"
+}
+move_target_description = {
+"en": "The user's side of the field.  Affects the user and its ally (if any).",
+"fr": "Le côté du terrain de l'utilisateur. Affecte l'utilisateur et son allié (s'il y en a un)."
+}
+move_effect_id = 407
+move_effect_short = {
+"en": "Reduces damage five turns, but must be used during hail."
+}
+metadata/move_target_id = 4
+metadata/move_effect_id = 407
+metadata/effect_chance = 0

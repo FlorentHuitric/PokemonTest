@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Jolly Pokémon",
+"fr": "Pokémon Jovial"
+}
 base_stats = {
 "attack": 50,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+"fr": "C’est un mauvais plaisantin. Quand il repère un pêcheur, il tire sur sa ligne pour le déranger."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 84",
+"condition_fr": "Objet 84",
+"evolved_pokemon_id": 272,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 3,
 "method": 1,
@@ -919,4 +934,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

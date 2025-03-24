@@ -15,7 +15,7 @@ pokemon_id = 111
 branch_code = ""
 names = {
 "en": "Rhyhorn",
-"fr": "Rhyhorn"
+"fr": "Rhinocorne"
 }
 generation = 1
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Spikes Pokémon",
+"fr": "Pokémon Piquant"
+}
 base_stats = {
 "attack": 85,
 "defense": 95,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/111.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/111.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/111.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+"fr": "Ses puissantes charges pourraient démolir n’importe quel bâtiment. Dommage qu’il soit stupide."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 42",
+"condition_fr": "Niveau 42",
+"evolved_pokemon_id": 112,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 30,
 "method": 1,
@@ -1351,4 +1366,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

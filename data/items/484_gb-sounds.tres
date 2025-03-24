@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bnclm"]
+
+[resource]
+script = ExtResource("1_bnclm")
+item_id = 484
+identifier = "gb-sounds"
+names = {
+"en": "GB Sounds",
+"fr": "Lecteur GB"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Use to listen to GameBoy era audio."
+}
+effect = {
+"en": "\"Used by trainer outside of battle"
+}
+flavor_text = {
+"en": "\"A music player that allows you to listen to nostalgic",
+"fr": "\"Un lecteur de musique qui permet de se plonger"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 502
+sprite_path = "res://assets/Items/GBSOUNDS.png"

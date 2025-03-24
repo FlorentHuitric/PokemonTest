@@ -14,7 +14,7 @@ pokemon_id = 525
 branch_code = ""
 names = {
 "en": "Boldore",
-"fr": "Boldore"
+"fr": "Géolithe"
 }
 generation = 5
 height = 0.9
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ore Pokémon",
+"fr": "Pokémon Minerai"
+}
 base_stats = {
 "attack": 105,
 "defense": 105,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+"fr": "L’énergie de son corps qu’il ne parvient pas à retenir s’écoule à l’extérieur et forme des cristaux orangés."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 526,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -528,4 +543,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

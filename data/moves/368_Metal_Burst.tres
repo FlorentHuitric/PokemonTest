@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+"fr": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 1
+move_target_name = {
+"en": "Specific move",
+"fr": "Capacité spécifique"
+}
+move_target_description = {
+"en": "One specific move.  How this move is chosen depends upon on the move being used.",
+"fr": "Une capacité spécifique. La façon dont cette capacité est choisie dépend de la capacité utilisée."
+}
+move_effect_id = 228
+move_effect_short = {
+"en": "Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage."
+}
+metadata/move_target_id = 1
+metadata/move_effect_id = 228
+metadata/effect_chance = 0

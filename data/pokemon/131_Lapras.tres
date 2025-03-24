@@ -15,7 +15,7 @@ pokemon_id = 131
 branch_code = ""
 names = {
 "en": "Lapras",
-"fr": "Lapras"
+"fr": "Lokhlass"
 }
 generation = 1
 height = 2.5
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Transport Pokémon",
+"fr": "Pokémon Transport"
+}
 base_stats = {
 "attack": 85,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+"fr": "Il aime naviguer en portant des humains et des Pokémon sur son dos. Il comprend le langage humain."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1213,4 +1218,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 791,
 "tm_id": ""
-}]
+}])

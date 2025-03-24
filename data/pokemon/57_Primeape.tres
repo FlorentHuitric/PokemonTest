@@ -14,7 +14,7 @@ pokemon_id = 57
 branch_code = ""
 names = {
 "en": "Primeape",
-"fr": "Primeape"
+"fr": "Colossinge"
 }
 generation = 1
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Pig Monkey Pokémon",
+"fr": "Pokémon Porsinge"
+}
 base_stats = {
 "attack": 105,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+"fr": "Il grogne quand on le toise, rugit quand on s’enfuit et devient fou de rage quand on le frappe."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 1,
 "method": 1,
@@ -1218,4 +1223,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 369,
 "tm_id": ""
-}]
+}])

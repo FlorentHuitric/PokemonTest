@@ -15,7 +15,7 @@ pokemon_id = 274
 branch_code = ""
 names = {
 "en": "Nuzleaf",
-"fr": "Nuzleaf"
+"fr": "Pifeuil"
 }
 generation = 3
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wily Pokémon",
+"fr": "Pokémon Malin"
+}
 base_stats = {
 "attack": 70,
 "defense": 40,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/274.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/274.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/274.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+"fr": "Le son de sa flûte d’herbe déstabilise l’auditeur. Il vit au plus profond des forêts."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 85",
+"condition_fr": "Objet 85",
+"evolved_pokemon_id": 275,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -919,4 +934,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

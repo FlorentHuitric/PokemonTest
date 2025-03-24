@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_7wtwl"]
+
+[resource]
+script = ExtResource("1_7wtwl")
+item_id = 475
+identifier = "card-key"
+names = {
+"en": "Card Key",
+"fr": "Carte Magnétique"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "HS: Opens doors in the Radio Tower. Gen III: Unlocks Silph Co Doors."
+}
+effect = {
+"en": "\"Used by trainer outside of battle"
+}
+flavor_text = {
+"en": "\"A card key that opens a shutter in the",
+"fr": "\"Une clé en forme de carte permettant d’ouvrir"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 355
+sprite_path = "res://assets/Items/CARDKEY.png"

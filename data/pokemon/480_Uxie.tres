@@ -12,7 +12,7 @@ pokemon_id = 480
 branch_code = ""
 names = {
 "en": "Uxie",
-"fr": "Uxie"
+"fr": "Créhelf"
 }
 generation = 4
 height = 0.3
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Knowledge Pokémon",
+"fr": "Pokémon Savoir"
+}
 base_stats = {
 "attack": 75,
 "defense": 130,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge.",
+"fr": "Quand il prit son envol, les hommes apprirent à résoudre les problèmes. Le savoir était né."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -898,4 +903,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

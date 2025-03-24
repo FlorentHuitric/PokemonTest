@@ -14,7 +14,7 @@ pokemon_id = 591
 branch_code = ""
 names = {
 "en": "Amoonguss",
-"fr": "Amoonguss"
+"fr": "Gaulet"
 }
 generation = 5
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mushroom Pokémon",
+"fr": "Pokémon Champignon"
+}
 base_stats = {
 "attack": 85,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+"fr": "Il se sert de ses coupoles en forme de Poké Ball pour attirer ses proies, mais peu de Pokémon se laissent avoir."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -534,4 +539,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 534
 branch_code = ""
 names = {
 "en": "Conkeldurr",
-"fr": "Conkeldurr"
+"fr": "Bétochef"
 }
 generation = 5
 height = 1.4
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Muscular Pokémon",
+"fr": "Pokémon Costaud"
+}
 base_stats = {
 "attack": 140,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.",
+"fr": "Il peut manier sans effort apparent les piliers de béton dont il se sert comme de cannes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -714,4 +719,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

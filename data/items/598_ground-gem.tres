@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2mh3a"]
+
+[resource]
+script = ExtResource("1_2mh3a")
+item_id = 598
+identifier = "ground-gem"
+names = {
+"en": "Ground Gem",
+"fr": "Joyau Sol"
+}
+cost = 200
+category_id = 42
+category_name = {
+"en": "Jewels"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: When the holder uses a damaging []{type:ground}-type move"
+}
+effect = {
+"en": " the move has 1.5× power and this item is consumed.\""
+}
+flavor_text = {
+"en": "\"A gem with an essence of land. When held",
+"fr": "\"Objet à tenir. Un joyau augmentant une fois"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 555
+sprite_path = "res://assets/Items/GROUNDGEM.png"

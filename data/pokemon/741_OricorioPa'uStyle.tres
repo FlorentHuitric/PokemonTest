@@ -12,7 +12,8 @@ script = ExtResource("2_coycl")
 pokemon_id = 741
 branch_code = ""
 names = {
-"en": "Oricorio Pa'u Style"
+"en": "Oricorio",
+"fr": "Plumeline"
 }
 generation = 7
 height = 0.6
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dancing Pokémon",
+"fr": "Pokémon Danse"
+}
 base_stats = {
 "attack": 70,
 "defense": 70,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -424,4 +430,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

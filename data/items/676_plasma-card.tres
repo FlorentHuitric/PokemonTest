@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ftci6"]
+
+[resource]
+script = ExtResource("1_ftci6")
+item_id = 676
+identifier = "plasma-card"
+names = {
+"en": "Plasma Card",
+"fr": "Carte Plasma"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Required to progress in the Plasma Frigate."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"A card key needed to enter the password inside",
+"fr": "\"Une clé magnétique indispensable pour entrer"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 633
+sprite_path = "res://assets/Items/PLASMACARD.png"

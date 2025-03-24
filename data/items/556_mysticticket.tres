@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_il8n0"]
+
+[resource]
+script = ExtResource("1_il8n0")
+item_id = 556
+identifier = "mysticticket"
+names = {
+"en": "MysticTicket",
+"fr": "Ticketmystik"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows access to Navel Rock and Lugia or Ho-oh."
+}
+effect = {
+"en": "\"Provides access to Navel Rock"
+}
+flavor_text = {
+"en": "\"A ticket required to board the ship"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 370
+sprite_path = "res://assets/Items/MYSTICTICKET.png"

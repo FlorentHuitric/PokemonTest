@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1mxux"]
+
+[resource]
+script = ExtResource("1_1mxux")
+item_id = 246
+identifier = "light-clay"
+names = {
+"en": "Light Clay",
+"fr": "Lumargile"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Light Screen and Reflect used by the holder last 8 rounds instead of 5."
+}
+effect = {
+"en": "\"Held: The holder's Reflect and Light Screen will create effects lasting for eight turns rather than five.  As this item affects the move rather than the barrier itself"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. Protective moves",
+"fr": "\"Objet à tenir. Prolonge la durée des capacités"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 4
+game_index = 269
+sprite_path = "res://assets/Items/LIGHTCLAY.png"

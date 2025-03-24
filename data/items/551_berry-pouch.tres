@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_snxty"]
+
+[resource]
+script = ExtResource("1_snxty")
+item_id = 551
+identifier = "berry-pouch"
+names = {
+"en": "Berry Pouch",
+"fr": "Sac à Baies"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Holds berries."
+}
+effect = {
+"en": "Stores Berries."
+}
+flavor_text = {
+"en": "\"A pouch for carrying BERRIES."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 365
+sprite_path = "res://assets/Items/BERRYPOUCH.png"

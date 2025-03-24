@@ -18,8 +18,8 @@ accuracy = 100
 pp = 30
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.",
+"fr": "Le lanceur remue son adorable queue pour tromper la vigilance de l’ennemi et baisser sa Défense."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 20
+move_effect_short = {
+"en": "Lowers the target's Defense by one stage."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 20
+metadata/effect_chance = 0

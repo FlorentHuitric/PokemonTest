@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gleam Eyes Pokémon",
+"fr": "Pokémon Brillœil"
+}
 base_stats = {
 "attack": 120,
 "defense": 79,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/405.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/405.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/405.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It can see clearly through walls to track down its prey and seek its lost young.",
+"fr": "Il est capable de voir à travers les murs pour chasser des proies ou retrouver ses petits égarés."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -672,4 +677,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

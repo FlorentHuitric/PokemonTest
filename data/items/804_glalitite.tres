@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_m053g"]
+
+[resource]
+script = ExtResource("1_m053g")
+item_id = 804
+identifier = "glalitite"
+names = {
+"en": "Glalitite",
+"fr": "Oniglalite"
+}
+cost = 0
+category_id = 44
+category_name = {
+"en": "Mega Stones"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Glalie to Mega Evolve into Mega Glalie."
+}
+effect = {
+"en": "Held: Allows Glalie to Mega Evolve into Mega Glalie."
+}
+flavor_text = {
+"en": "\"One of a variety of mysterious Mega Stones.",
+"fr": "\"Une variété de Méga-Gemme."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 763
+sprite_path = "res://assets/Items/GLALITITE.png"

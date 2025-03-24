@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2j8x8"]
+
+[resource]
+script = ExtResource("1_2j8x8")
+item_id = 534
+identifier = "eon-ticket"
+names = {
+"en": "Eon Ticket",
+"fr": "Passe Éon"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Provides access to Southern Island and Latias or Latios."
+}
+effect = {
+"en": "\"Provides access to []{location:southern-island} and either []{pokemon:latias} or []{pokemon:latios}"
+}
+flavor_text = {
+"en": "\"The ticket required for sailing on a ferry to the",
+"fr": "\"Un billet de ferry pour l’Île du Sud."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 275
+sprite_path = "res://assets/Items/EONTICKET.png"

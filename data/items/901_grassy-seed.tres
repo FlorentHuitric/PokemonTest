@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_31wdw"]
+
+[resource]
+script = ExtResource("1_31wdw")
+item_id = 901
+identifier = "grassy-seed"
+names = {
+"en": "Grassy Seed",
+"fr": "Graine Herbe"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consumed on Grassy Terrain and raises the holder's Defense by one stage."
+}
+effect = {
+"en": "\"Held: If the holder enters battle during Grassy Terrain"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It boosts Defense",
+"fr": "\"Objet à tenir. Augmente la Défense lorsque le terrain"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 884
+sprite_path = "res://assets/Items/GRASSYSEED.png"

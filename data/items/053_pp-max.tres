@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_a8s82"]
+
+[resource]
+script = ExtResource("1_a8s82")
+item_id = 53
+identifier = "pp-max"
+names = {
+"en": "PP Max",
+"fr": "PP Max"
+}
+cost = 10000
+category_id = 26
+category_name = {
+"en": "Vitamins"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises a move's max PP by 60%."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A medicine that optimally raises the max PP of a single",
+"fr": "\"Augmente sensiblement les PP max d’une capacité"
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 71
+sprite_path = "res://assets/Items/PPMAX.png"

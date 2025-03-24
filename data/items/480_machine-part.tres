@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fbawr"]
+
+[resource]
+script = ExtResource("1_fbawr")
+item_id = 480
+identifier = "machine-part"
+names = {
+"en": "Machine Part",
+"fr": "Partie Machine"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Must be replaced in the Power Plant to power the Magnet Train."
+}
+effect = {
+"en": "Must be replaced in the []{location:power-plant} to power the Magnet Train."
+}
+flavor_text = {
+"en": "\"An important part of a machine that was stolen",
+"fr": "Une pièce essentielle du générateur de la Centrale."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 481
+sprite_path = "res://assets/Items/MACHINEPART.png"

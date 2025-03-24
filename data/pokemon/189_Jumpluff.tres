@@ -15,7 +15,7 @@ pokemon_id = 189
 branch_code = ""
 names = {
 "en": "Jumpluff",
-"fr": "Jumpluff"
+"fr": "Cotovol"
 }
 generation = 2
 height = 0.8
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cottonweed Pokémon",
+"fr": "Pokémon Pissenlit"
+}
 base_stats = {
 "attack": 55,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Blown by seasonal winds, it circles the globe, scattering cotton spores as it goes.",
+"fr": "Poussé par les vents saisonniers, il fait le tour du globe en semant des spores de coton."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -673,4 +678,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 71,
 "tm_id": ""
-}]
+}])

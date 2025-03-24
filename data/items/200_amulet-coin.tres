@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fadt6"]
+
+[resource]
+script = ExtResource("1_fadt6")
+item_id = 200
+identifier = "amulet-coin"
+names = {
+"en": "Amulet Coin",
+"fr": "Pièce Rune"
+}
+cost = 10000
+category_id = 16
+category_name = {
+"en": "Training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense."
+}
+effect = {
+"en": "\"Held"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It doubles any",
+"fr": "\"Objet à tenir. Double l’argent gagné si le porteur"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 189
+sprite_path = "res://assets/Items/AMULETCOIN.png"

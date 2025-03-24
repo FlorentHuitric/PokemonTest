@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ha2wp"]
+
+[resource]
+script = ExtResource("1_ha2wp")
+item_id = 1648
+identifier = "crown-pass"
+names = {
+"en": "Crown Pass",
+"fr": "Pass Couronneige"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A pass to go to the Crown Tundra. Show it to the rail",
+"fr": "\"Un pass pour se rendre à Couronneige."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1597
+sprite_path = "res://assets/Items/CROWNPASS.png"

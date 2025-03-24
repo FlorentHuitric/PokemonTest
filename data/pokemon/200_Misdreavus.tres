@@ -12,7 +12,7 @@ pokemon_id = 200
 branch_code = ""
 names = {
 "en": "Misdreavus",
-"fr": "Misdreavus"
+"fr": "Feuforêve"
 }
 generation = 2
 height = 0.7
@@ -33,6 +33,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Screech Pokémon",
+"fr": "Pokémon Strident"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
+"fr": "Il fait peur aux aventuriers en pleine nuit et se nourrit de leur frayeur."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -880,4 +885,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 502,
 "tm_id": ""
-}]
+}])

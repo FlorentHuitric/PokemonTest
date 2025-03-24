@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user and the target become friends, and the target loses its will to fight. This lowers the target’s Attack stat.",
+"fr": "L’ennemi se lie d’amitié avec le lanceur et perd sa combativité, diminuant son Attaque."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 357
+move_effect_short = {
+"en": "Lowers the target's Attack by one stage."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 357
+metadata/effect_chance = 100

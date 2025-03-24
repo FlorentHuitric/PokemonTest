@@ -18,8 +18,8 @@ accuracy = 95
 pp = 15
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+"fr": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse."
 }
 tm_id = ""
 meta_category_id = 6
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 71
+move_effect_short = {
+"en": "Has a $effect_chance% chance to lower the target's Speed by one stage."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 71
+metadata/effect_chance = 100

@@ -14,7 +14,7 @@ pokemon_id = 21
 branch_code = ""
 names = {
 "en": "Spearow",
-"fr": "Spearow"
+"fr": "Piafabec"
 }
 generation = 1
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiny Bird Pokémon",
+"fr": "Pokémon Minoiseau"
+}
 base_stats = {
 "attack": 60,
 "defense": 30,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+"fr": "Il fait battre vigoureusement ses petites ailes pour voler et cherche à manger dans l’herbe avec le bec."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 22,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -798,4 +813,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 529,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 391
 branch_code = ""
 names = {
 "en": "Monferno",
-"fr": "Monferno"
+"fr": "Chimpenfeu"
 }
 generation = 4
 height = 0.9
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Playful Pokémon",
+"fr": "Pokémon Garnement"
+}
 base_stats = {
 "attack": 78,
 "defense": 52,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+"fr": "Il contrôle habilement l’intensité de la flamme de sa queue pour tenir ses adversaires à distance."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 36",
+"condition_fr": "Niveau 36",
+"evolved_pokemon_id": 392,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -648,4 +663,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 183,
 "tm_id": ""
-}]
+}])

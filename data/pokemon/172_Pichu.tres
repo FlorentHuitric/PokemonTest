@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiny Mouse Pokémon",
+"fr": "Pokémon Minisouris"
+}
 base_stats = {
 "attack": 40,
 "defense": 15,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+"fr": "Les poches électriques de ses joues sont encore petites, mais risquent de l’électrocuter."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -809,4 +814,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 609,
 "tm_id": ""
-}]
+}])

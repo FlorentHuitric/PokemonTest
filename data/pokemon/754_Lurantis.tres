@@ -13,7 +13,7 @@ pokemon_id = 754
 branch_code = ""
 names = {
 "en": "Lurantis",
-"fr": "Lurantis"
+"fr": "Floramantis"
 }
 generation = 7
 height = 0.9
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bloom Sickle Pokémon",
+"fr": "Pokémon Fauch’Fleur"
+}
 base_stats = {
 "attack": 105,
 "defense": 90,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -617,4 +622,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

@@ -15,7 +15,7 @@ pokemon_id = 540
 branch_code = ""
 names = {
 "en": "Sewaddle",
-"fr": "Sewaddle"
+"fr": "Larveyette"
 }
 generation = 5
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sewing Pokémon",
+"fr": "Pokémon Couture"
+}
 base_stats = {
 "attack": 53,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+"fr": "Il fait des vêtements en découpant des feuilles et en les cousant avec le fil adhésif qu’il sécrète par la bouche."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 541,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -439,4 +454,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 580,
 "tm_id": ""
-}]
+}])

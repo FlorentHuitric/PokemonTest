@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_duftd"]
+
+[resource]
+script = ExtResource("1_duftd")
+item_id = 1215
+identifier = "tr27"
+names = {
+"en": "TR27",
+"fr": "DT27"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"While it is asleep",
+"fr": "\"Le lanceur utilise une de ses capacités au hasard"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1157
+sprite_path = "res://assets/Items/TR27.png"

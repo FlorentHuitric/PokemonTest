@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Nebula Pokémon",
+"fr": "Pokémon Nébuleuse"
+}
 base_stats = {
 "attack": 29,
 "defense": 31,
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 43",
+"condition_fr": "Niveau 43",
+"evolved_pokemon_id": 790,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 23,
 "method": 1,
@@ -106,4 +121,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 100,
 "tm_id": ""
-}]
+}])

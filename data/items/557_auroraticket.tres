@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_7xshr"]
+
+[resource]
+script = ExtResource("1_7xshr")
+item_id = 557
+identifier = "auroraticket"
+names = {
+"en": "AuroraTicket",
+"fr": "Ticketaurora"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows access to Birth Island and Deoxys."
+}
+effect = {
+"en": "Provides access to Birth Island and []{pokemon:deoxys}."
+}
+flavor_text = {
+"en": "\"A ticket required to board the ship"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 371
+sprite_path = "res://assets/Items/AURORATICKET.png"

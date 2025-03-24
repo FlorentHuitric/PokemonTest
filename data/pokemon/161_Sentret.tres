@@ -14,7 +14,7 @@ pokemon_id = 161
 branch_code = ""
 names = {
 "en": "Sentret",
-"fr": "Sentret"
+"fr": "Fouinette"
 }
 generation = 2
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Scout Pokémon",
+"fr": "Pokémon Espion"
+}
 base_stats = {
 "attack": 46,
 "defense": 34,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+"fr": "Ce Pokémon très nerveux prend appui sur sa queue pour observer ses alentours."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 15",
+"condition_fr": "Niveau 15",
+"evolved_pokemon_id": 162,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -882,4 +897,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 608,
 "tm_id": ""
-}]
+}])

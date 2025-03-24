@@ -13,7 +13,7 @@ pokemon_id = 132
 branch_code = ""
 names = {
 "en": "Ditto",
-"fr": "Ditto"
+"fr": "Métamorph"
 }
 generation = 1
 height = 0.3
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Transform Pokémon",
+"fr": "Pokémon Morphing"
+}
 base_stats = {
 "attack": 48,
 "defense": 48,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
+"fr": "Il a la capacité de modifier sa structure cellulaire pour prendre l’apparence de ce qu’il voit."
 }
 iv_ranges = {
 "attack": {
@@ -89,10 +93,11 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
 "move_id": 144,
 "tm_id": ""
-}]
+}])

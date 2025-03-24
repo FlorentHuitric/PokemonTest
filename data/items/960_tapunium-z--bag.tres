@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mtlw3"]
+
+[resource]
+script = ExtResource("1_mtlw3")
+item_id = 960
+identifier = "tapunium-z--bag"
+names = {
+"en": "Tapunium Z",
+"fr": "Tokozélite"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for tapunium-z--bag"
+}
+effect = {
+"en": "XXX new effect for tapunium-z--bag"
+}
+flavor_text = {
+"en": "\"It converts Z-Power into crystals that upgrade the",
+"fr": "\"Permet de concentrer la Force Z en un cristal"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 829
+sprite_path = "res://assets/Items/TAPUNIUMZBAG.png"

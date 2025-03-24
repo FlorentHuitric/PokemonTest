@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_60t8j"]
+
+[resource]
+script = ExtResource("1_60t8j")
+item_id = 1155
+identifier = "pack-of-potatoes"
+names = {
+"en": "Pack of Potatoes",
+"fr": "Pommes de Terre"
+}
+cost = 400
+category_id = 51
+category_name = {
+"en": "Curry ingredients"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"One of the many ingredients that can be used for",
+"fr": "\"Un ingrédient de cuisine pour le camping."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1095
+sprite_path = "res://assets/Items/PACKOFPOTATOES.png"

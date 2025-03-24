@@ -13,8 +13,8 @@ script = ExtResource("4_8acdt")
 pokemon_id = 79
 branch_code = ""
 names = {
-"en": "Galarian Slowpoke",
-"fr": "Galarian Slowpoke"
+"en": "Slowpoke",
+"fr": "Ramoloss"
 }
 generation = 8
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Dopey Pokémon",
+"fr": "Pokémon Crétin"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+"fr": "Bien que lent, c’est un pêcheur adroit qui utilise sa queue. Elle est insensible aux morsures."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 80,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Item 1633",
+"condition_fr": "Objet 1633",
+"evolved_pokemon_id": 80,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1284,4 +1309,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_tey3r"]
+
+[resource]
+script = ExtResource("1_tey3r")
+item_id = 298
+identifier = "protector"
+names = {
+"en": "Protector",
+"fr": "Protecteur"
+}
+cost = 2000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded on a Rhydon: Holder evolves into Rhyperior."
+}
+effect = {
+"en": "Held by Rhydon: Evolves the holder into Rhyperior when traded."
+}
+flavor_text = {
+"en": "\"A protective item of some sort. It is extremely stiff",
+"fr": "\"Un objet protecteur très dur et très lourd"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 321
+sprite_path = "res://assets/Items/PROTECTOR.png"

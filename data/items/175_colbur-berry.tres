@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ir2ej"]
+
+[resource]
+script = ExtResource("1_ir2ej")
+item_id = 175
+identifier = "colbur-berry"
+names = {
+"en": "Colbur Berry",
+"fr": "Baie Lampou"
+}
+cost = 80
+category_id = 7
+category_name = {
+"en": "Type protection",
+"fr": "Protection de type"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consumed when struck by a super-effective Dark-type attack to halve the damage."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"If held by a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 4
+game_index = 198
+sprite_path = "res://assets/Items/COLBURBERRY.png"

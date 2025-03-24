@@ -14,7 +14,7 @@ pokemon_id = 612
 branch_code = ""
 names = {
 "en": "Haxorus",
-"fr": "Haxorus"
+"fr": "Tranchodon"
 }
 generation = 5
 height = 1.8
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Axe Jaw Pokémon",
+"fr": "Pokémon Hachomenton"
+}
 base_stats = {
 "attack": 147,
 "defense": 90,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+"fr": "Ses crocs sont tellement puissants qu’ils peuvent découper l’acier sans s’émousser. Son armure est très solide."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -786,4 +791,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

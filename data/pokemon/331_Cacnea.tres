@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cactus Pokémon",
+"fr": "Pokémon Cactus"
+}
 base_stats = {
 "attack": 85,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "By storing water in its body, this desert dweller can survive for 30 days without water.",
+"fr": "En stockant l’eau dans son corps, cet habitant du désert peut survivre 30 jours sans boire."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 32",
+"condition_fr": "Niveau 32",
+"evolved_pokemon_id": 332,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -809,4 +824,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 612,
 "tm_id": ""
-}]
+}])

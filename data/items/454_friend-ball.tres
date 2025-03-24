@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vc0yb"]
+
+[resource]
+script = ExtResource("1_vc0yb")
+item_id = 454
+identifier = "friend-ball"
+names = {
+"en": "Friend Ball",
+"fr": "Copain Ball"
+}
+cost = 0
+category_id = 39
+category_name = {
+"en": "Apricorn balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Caught Pokémon start with 200 happiness. Made from Grn Apricorn."
+}
+effect = {
+"en": "\"Used by a trainer in battle"
+}
+flavor_text = {
+"en": "\"A strange Poké Ball that will make the wild",
+"fr": "\"Une Poké Ball un peu spéciale qui permet de rendre"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 497
+sprite_path = "res://assets/Items/FRIENDBALL.png"

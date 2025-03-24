@@ -14,8 +14,8 @@ script = ExtResource("4_rbohl")
 pokemon_id = 549
 branch_code = ""
 names = {
-"en": "Hisuian Lilligant",
-"fr": "Hisuian Lilligant"
+"en": "Lilligant",
+"fr": "Fragilady"
 }
 generation = 8
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Hisuian"
+genus = {
+"en": "Flowering Pokémon",
+"fr": "Pokémon Chef-Fleur"
+}
 base_stats = {
 "attack": 105,
 "defense": 75,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+"fr": "La fleur sur sa tête a des propriétés relaxantes. Elle se fane si on ne s’en occupe pas avec attention."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -565,4 +570,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

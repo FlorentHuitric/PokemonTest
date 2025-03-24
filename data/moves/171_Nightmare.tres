@@ -18,8 +18,8 @@ accuracy = 100
 pp = 15
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+"fr": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi."
 }
 tm_id = ""
 meta_category_id = 1
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 108
+move_effect_short = {
+"en": "Target loses 1/4 its max HP every turn as long as it's asleep."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 108
+metadata/effect_chance = 0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://22k0e475ndng"
+
+[deps]
+
+files=["res://imports/pokemon_species_flavor_text.version.translation", "res://imports/pokemon_species_flavor_text.language.translation", "res://imports/pokemon_species_flavor_text.flavor.translation"]
+
+source_file="res://imports/pokemon_species_flavor_text.csv"
+dest_files=["res://imports/pokemon_species_flavor_text.version.translation", "res://imports/pokemon_species_flavor_text.language.translation", "res://imports/pokemon_species_flavor_text.flavor.translation"]
+
+[params]
+
+compress=true
+delimiter=0

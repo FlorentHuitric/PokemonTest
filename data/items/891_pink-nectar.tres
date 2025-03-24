@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sgtvb"]
+
+[resource]
+script = ExtResource("1_sgtvb")
+item_id = 891
+identifier = "pink-nectar"
+names = {
+"en": "Pink Nectar",
+"fr": "Nectar Rose"
+}
+cost = 300
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Changes Oricorio to Pa’u Style."
+}
+effect = {
+"en": "Changes Oricorio to Pa’u Style.  Single-use and cannot be used in battle."
+}
+flavor_text = {
+"en": "\"A flower nectar obtained from the flowering shrubs",
+"fr": "\"Un nectar obtenu à partir des fleurs de la Rue"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 855
+sprite_path = "res://assets/Items/PINKNECTAR.png"

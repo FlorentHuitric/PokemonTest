@@ -14,8 +14,8 @@ script = ExtResource("4_fwaqf")
 pokemon_id = 89
 branch_code = ""
 names = {
-"en": "Alolan Muk",
-"fr": "Alolan Muk"
+"en": "Muk",
+"fr": "Grotadmorv"
 }
 generation = 7
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Sludge Pokémon",
+"fr": "Pokémon Dégueu"
+}
 base_stats = {
 "attack": 105,
 "defense": 75,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+"fr": "Son corps exsude un fluide toxique qui tue instantanément les plantes et les arbres au contact."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1075,4 +1080,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 585,
 "tm_id": ""
-}]
+}])

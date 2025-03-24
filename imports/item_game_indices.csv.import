@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b1lhngmram7bo"
+
+[deps]
+
+files=["res://imports/item_game_indices.generation.translation", "res://imports/item_game_indices.game.translation"]
+
+source_file="res://imports/item_game_indices.csv"
+dest_files=["res://imports/item_game_indices.generation.translation", "res://imports/item_game_indices.game.translation"]
+
+[params]
+
+compress=true
+delimiter=0

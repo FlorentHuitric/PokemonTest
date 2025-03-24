@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_0767h"]
+
+[resource]
+script = ExtResource("1_0767h")
+item_id = 1633
+identifier = "galarica-cuff"
+names = {
+"en": "Galarica Cuff",
+"fr": "Bracelet Galanoa"
+}
+cost = 3000
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A cuff made from woven-together Galarica Twigs.",
+"fr": "\"Un bracelet confectionné à partir de Branches Galanoa."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1582
+sprite_path = "res://assets/Items/GALARICACUFF.png"

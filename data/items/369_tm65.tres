@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3ecad"]
+
+[resource]
+script = ExtResource("1_3ecad")
+item_id = 369
+identifier = "tm65"
+names = {
+"en": "TM65",
+"fr": "CT65"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Shadow Claw to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Shadow Claw to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user slashes with a sharp claw made from",
+"fr": "\"Attaque avec une griffe puissante faite d’ombres."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 392
+sprite_path = "res://assets/Items/TM65.png"

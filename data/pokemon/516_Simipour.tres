@@ -13,7 +13,7 @@ pokemon_id = 516
 branch_code = ""
 names = {
 "en": "Simipour",
-"fr": "Simipour"
+"fr": "Flotoutan"
 }
 generation = 5
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Geyser Pokémon",
+"fr": "Pokémon Drainage"
+}
 base_stats = {
 "attack": 98,
 "defense": 63,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+"fr": "Le jet d’eau à haute pression qu’il propulse par la queue est assez puissant pour traverser un mur de béton."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -503,4 +508,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2qi5t"]
+
+[resource]
+script = ExtResource("1_2qi5t")
+item_id = 748
+identifier = "tm99"
+names = {
+"en": "TM99",
+"fr": "CT99"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches a Pokémon TM99."
+}
+effect = {
+"en": "Teaches a Pokémon TM99."
+}
+flavor_text = {
+"en": "\"The user swings its tough tail wildly and attacks",
+"fr": "\"Le lanceur balaie violemment le camp adverse"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 693
+sprite_path = "res://assets/Items/TM99.png"

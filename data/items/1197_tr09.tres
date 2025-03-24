@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dyioe"]
+
+[resource]
+script = ExtResource("1_dyioe")
+item_id = 1197
+identifier = "tr09"
+names = {
+"en": "TR09",
+"fr": "DT09"
+}
+cost = 16000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 110
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A wicked thunderbolt is dropped on the target to",
+"fr": "\"La foudre tombe sur l’ennemi pour lui infliger des dégâts."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1139
+sprite_path = "res://assets/Items/TR09.png"

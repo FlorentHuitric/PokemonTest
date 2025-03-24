@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_5ttop"]
+
+[resource]
+script = ExtResource("1_5ttop")
+item_id = 763
+identifier = "makeup-bag"
+names = {
+"en": "Makeup Bag",
+"fr": "Trousse Beauté"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows the player to change their lipstick color."
+}
+effect = {
+"en": "Allows the player to change their lipstick color."
+}
+flavor_text = {
+"en": "A rather chic-looking case for carrying lipsticks.",
+"fr": "Un étui très chic destiné aux rouges à lèvres."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 706
+sprite_path = "res://assets/Items/MAKEUPBAG.png"

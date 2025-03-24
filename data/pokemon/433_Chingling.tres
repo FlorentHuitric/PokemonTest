@@ -12,7 +12,7 @@ pokemon_id = 433
 branch_code = ""
 names = {
 "en": "Chingling",
-"fr": "Chingling"
+"fr": "Korillon"
 }
 generation = 4
 height = 0.2
@@ -33,6 +33,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bell Pokémon",
+"fr": "Pokémon Clochette"
+}
 base_stats = {
 "attack": 30,
 "defense": 50,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
+"fr": "Quand il sautille, l’orbe qu’il a dans la bouche s’agite et tinte comme une cloche."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -628,4 +633,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 502,
 "tm_id": ""
-}]
+}])

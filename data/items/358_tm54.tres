@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1uiel"]
+
+[resource]
+script = ExtResource("1_1uiel")
+item_id = 358
+identifier = "tm54"
+names = {
+"en": "TM54",
+"fr": "CT54"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches False Swipe to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches False Swipe to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user hurls hard rocks at the target. Two to five",
+"fr": "\"Le lanceur projette un rocher sur l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 381
+sprite_path = "res://assets/Items/TM54.png"

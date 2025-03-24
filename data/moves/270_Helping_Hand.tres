@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user assists an ally by boosting the power of that ally’s attack.",
+"fr": "Une capacité qui augmente la puissance d’attaque d’un allié."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 3
+move_target_name = {
+"en": "Ally",
+"fr": "Allié"
+}
+move_target_description = {
+"en": "The user's ally (if any).",
+"fr": "L'allié de l'utilisateur (s'il y en a un)."
+}
+move_effect_id = 177
+move_effect_short = {
+"en": "Ally's next move inflicts half more damage."
+}
+metadata/move_target_id = 3
+metadata/move_effect_id = 177
+metadata/effect_chance = 0

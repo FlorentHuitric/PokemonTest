@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q5jhp"]
+
+[resource]
+script = ExtResource("1_q5jhp")
+item_id = 103
+identifier = "old-amber"
+names = {
+"en": "Old Amber",
+"fr": "Vieil Ambre"
+}
+cost = 10000
+category_id = 35
+category_name = {
+"en": "Dex completion"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 100
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Can be revived into an Aerodactyl."
+}
+effect = {
+"en": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:aerodactyl}."
+}
+flavor_text = {
+"en": "\"A piece of amber that still contains the genetic",
+"fr": "\"Un morceau d’ambre contenant l’ADN d’un ancien"
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 354
+sprite_path = "res://assets/Items/OLDAMBER.png"

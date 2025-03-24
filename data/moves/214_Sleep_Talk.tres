@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "While it is asleep, the user randomly uses one of the moves it knows.",
+"fr": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 98
+move_effect_short = {
+"en": "Randomly uses one of the user's other three moves.  Only works if the user is sleeping."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 98
+metadata/effect_chance = 0

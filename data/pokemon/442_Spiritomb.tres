@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Forbidden Pokémon",
+"fr": "Pokémon Interdit"
+}
 base_stats = {
 "attack": 92,
 "defense": 108,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+"fr": "Son mauvais comportement lui a valu d’être enchaîné à une Clé de Voûte par un mystérieux sortilège."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -762,4 +767,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+"fr": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max."
 }
 tm_id = ""
 meta_category_id = 3
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 215
+move_effect_short = {
+"en": "Heals the user by half its max HP."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 215
+metadata/effect_chance = 0

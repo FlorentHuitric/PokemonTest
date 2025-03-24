@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+"fr": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir."
 }
 tm_id = ""
 meta_category_id = 1
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 182
+move_effect_short = {
+"en": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 182
+metadata/effect_chance = 0

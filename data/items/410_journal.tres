@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_wwh2x"]
+
+[resource]
+script = ExtResource("1_wwh2x")
+item_id = 410
+identifier = "journal"
+names = {
+"en": "Journal",
+"fr": "Journal"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Records prior significant activities the player took."
+}
+effect = {
+"en": "Records some of the trainer's activities for the day."
+}
+flavor_text = {
+"en": "\"A notebook that keeps a day-to-day record of your",
+"fr": "\"Un journal de bord qui garde en mémoire vos"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 433
+sprite_path = "res://assets/Items/JOURNAL.png"

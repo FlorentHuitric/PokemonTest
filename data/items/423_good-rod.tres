@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vc2o5"]
+
+[resource]
+script = ExtResource("1_vc2o5")
+item_id = 423
+identifier = "good-rod"
+names = {
+"en": "Good Rod",
+"fr": "Super Canne"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to catch Pokémon in bodies of water."
+}
+effect = {
+"en": "\"Used to find Pokémon on the Good Rod list for an area"
+}
+flavor_text = {
+"en": "\"A new",
+"fr": "\"Une canne neuve et de bonne qualité."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 263
+sprite_path = "res://assets/Items/GOODROD.png"

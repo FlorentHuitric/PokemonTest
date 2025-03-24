@@ -15,7 +15,7 @@ pokemon_id = 851
 branch_code = ""
 names = {
 "en": "Centiskorch",
-"fr": "Centiskorch"
+"fr": "Scolocendre"
 }
 generation = 8
 height = 3.0
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Radiator Pokémon",
+"fr": "Pokémon Calorifère"
+}
 base_stats = {
 "attack": 115,
 "defense": 65,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 32,
 "method": 1,
@@ -379,4 +384,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

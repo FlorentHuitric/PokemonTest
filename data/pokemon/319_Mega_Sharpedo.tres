@@ -12,8 +12,8 @@ script = ExtResource("2_80pks")
 pokemon_id = 319
 branch_code = ""
 names = {
-"en": "Mega Sharpedo",
-"fr": "Mega Sharpedo"
+"en": "Sharpedo",
+"fr": "Sharpedo"
 }
 generation = 3
 height = 2.5
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Brutal Pokémon",
+"fr": "Pokémon Brutal"
+}
 base_stats = {
 "attack": 140,
 "defense": 70,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its fangs rip through sheet iron. It swims at 75 mph and is known as “The Bully of the Sea.”",
+"fr": "Ses crocs lacèrent des feuilles d’acier. Il nage à 120 km/h. On l’appelle “tyran des mers”."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -929,4 +934,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

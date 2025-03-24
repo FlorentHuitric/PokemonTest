@@ -18,8 +18,8 @@ accuracy = 100
 pp = 30
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+"fr": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 344
+move_effect_short = {
+"en": "Lowers the target's Attack and Special Attack by one stage."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 344
+metadata/effect_chance = 100

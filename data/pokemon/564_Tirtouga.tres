@@ -15,7 +15,7 @@ pokemon_id = 564
 branch_code = ""
 names = {
 "en": "Tirtouga",
-"fr": "Tirtouga"
+"fr": "Carapagos"
 }
 generation = 5
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Prototurtle Pokémon",
+"fr": "Pokémon Tortantique"
+}
 base_stats = {
 "attack": 78,
 "defense": 103,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
+"fr": "Il nageait dans les océans il y a 100 millions d’années. Il lui arrive de rallier la terre ferme pour attaquer ses proies."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 565,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -763,4 +778,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

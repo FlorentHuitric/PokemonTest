@@ -12,8 +12,8 @@ script = ExtResource("2_aoll2")
 pokemon_id = 445
 branch_code = ""
 names = {
-"en": "Mega Garchomp",
-"fr": "Mega Garchomp"
+"en": "Garchomp",
+"fr": "Carchacrok"
 }
 generation = 4
 height = 1.9
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Mach Pokémon",
+"fr": "Pokémon Supersonic"
+}
 base_stats = {
 "attack": 170,
 "defense": 115,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/445-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/445-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/445-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+"fr": "On dit que lancé à pleine vitesse, il crée des lames de vent avec ses ailes pouvant trancher un arbre."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -779,4 +784,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,8 @@ script = ExtResource("4_c8juc")
 pokemon_id = 711
 branch_code = ""
 names = {
-"en": "Gourgeist Large"
+"en": "Gourgeist",
+"fr": "Banshitrouye"
 }
 generation = 6
 height = 1.1
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Pumpkin Pokémon",
+"fr": "Pokémon Citrouille"
+}
 base_stats = {
 "attack": 95,
 "defense": 122,
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -774,4 +780,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

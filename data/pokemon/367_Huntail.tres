@@ -13,7 +13,7 @@ pokemon_id = 367
 branch_code = ""
 names = {
 "en": "Huntail",
-"fr": "Huntail"
+"fr": "Serpang"
 }
 generation = 3
 height = 1.7
@@ -34,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Deep Sea Pokémon",
+"fr": "Pokémon Abysse"
+}
 base_stats = {
 "attack": 104,
 "defense": 105,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+"fr": "Il vit loin sous la mer. Il appâte les proies crédules avec sa queue qui rappelle un petit poisson."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 204",
+"condition_fr": "Objet 204",
+"evolved_pokemon_id": 368,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 8,
 "method": 1,
@@ -599,4 +614,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 489,
 "tm_id": ""
-}]
+}])

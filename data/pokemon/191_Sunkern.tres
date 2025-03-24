@@ -14,7 +14,7 @@ pokemon_id = 191
 branch_code = ""
 names = {
 "en": "Sunkern",
-"fr": "Sunkern"
+"fr": "Tournegrin"
 }
 generation = 2
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Seed Pokémon",
+"fr": "Pokémon Graine"
+}
 base_stats = {
 "attack": 30,
 "defense": 30,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+"fr": "Il tombe du ciel sans crier gare en matinée. On en croise énormément l’année suivant un été froid."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 80",
+"condition_fr": "Objet 80",
+"evolved_pokemon_id": 192,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -696,4 +711,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 590,
 "tm_id": ""
-}]
+}])

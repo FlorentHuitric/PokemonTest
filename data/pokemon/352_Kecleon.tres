@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Color Swap Pokémon",
+"fr": "Pokémon Multicolor"
+}
 base_stats = {
 "attack": 90,
 "defense": 70,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+"fr": "Il change de couleur à volonté, mais le motif en zigzag qui orne son ventre reste le même."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1067,4 +1072,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 612,
 "tm_id": ""
-}]
+}])

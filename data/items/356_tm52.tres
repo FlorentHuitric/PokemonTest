@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_neejh"]
+
+[resource]
+script = ExtResource("1_neejh")
+item_id = 356
+identifier = "tm52"
+names = {
+"en": "TM52",
+"fr": "CT52"
+}
+cost = 100000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Focus Blast to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Focus Blast to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user bounces up high",
+"fr": "\"Le lanceur bondit très haut et plonge sur l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 379
+sprite_path = "res://assets/Items/TM52.png"

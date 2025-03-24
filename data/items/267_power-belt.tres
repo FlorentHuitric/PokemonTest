@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_85x2u"]
+
+[resource]
+script = ExtResource("1_85x2u")
+item_id = 267
+identifier = "power-belt"
+names = {
+"en": "Power Belt",
+"fr": "Ceinture Pouvoir"
+}
+cost = 3000
+category_id = 14
+category_name = {
+"en": "Effort training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 70
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Holder gains 4 Defense effort values"
+}
+effect = {
+"en": " but has halved Speed in battle.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It reduces Speed",
+"fr": "\"Objet à tenir. Permet à la Défense de progresser"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 290
+sprite_path = "res://assets/Items/POWERBELT.png"

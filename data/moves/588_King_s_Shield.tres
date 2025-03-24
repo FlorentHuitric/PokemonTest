@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user takes a defensive stance while it protects itself from damage. It also harshly lowers the Attack stat of any attacker who makes direct contact.",
+"fr": "Prend une posture défensive pour bloquer les dégâts. Diminue beaucoup l’Attaque de tout Pokémon qui entre en contact avec le lanceur."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 356
+move_effect_short = {
+"en": "Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 356
+metadata/effect_chance = 0

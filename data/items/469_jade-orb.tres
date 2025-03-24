@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_28hm0"]
+
+[resource]
+script = ExtResource("1_28hm0")
+item_id = 469
+identifier = "jade-orb"
+names = {
+"en": "Jade Orb",
+"fr": "Orbe Vert"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Summons Rayquaza to the Embedded Tower."
+}
+effect = {
+"en": "Causes []{pokemon:rayquaza} to appear in the []{location:embedded-tower}."
+}
+flavor_text = {
+"en": "\"A shiny green orb that is said to have a legend tied",
+"fr": "\"Un orbe viride dont on dit qu’il a un lien très étroit"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 532
+sprite_path = "res://assets/Items/JADEORB.png"

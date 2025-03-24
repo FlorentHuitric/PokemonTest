@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4owng"]
+
+[resource]
+script = ExtResource("1_4owng")
+item_id = 243
+identifier = "muscle-band"
+names = {
+"en": "Muscle Band",
+"fr": "Bandeau Muscle"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Boosts the damage of physical moves used by the holder by 10%."
+}
+effect = {
+"en": "Held: Increases the power of the holder's physical moves by 10%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This headband",
+"fr": "\"Objet à tenir. Un bandeau qui augmente légèrement"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 266
+sprite_path = "res://assets/Items/MUSCLEBAND.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_a05km"]
+
+[resource]
+script = ExtResource("1_a05km")
+item_id = 466
+identifier = "rage-candy-bar"
+names = {
+"en": "Rage Candy Bar",
+"fr": "Bonbon Rage"
+}
+cost = 350
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "HS: Traded for TM64. Gen II & Gen V: Acts as a Potion."
+}
+effect = {
+"en": "May be traded for a []{item:tm64} in the vertical Underground Path."
+}
+flavor_text = {
+"en": "\"Mahogany Town’s famous candy. It can be used",
+"fr": "\"Un bonbon"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 504
+sprite_path = "res://assets/Items/RAGECANDYBAR.png"

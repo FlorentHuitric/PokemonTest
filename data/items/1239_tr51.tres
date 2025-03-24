@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ila4l"]
+
+[resource]
+script = ExtResource("1_ila4l")
+item_id = 1239
+identifier = "tr51"
+names = {
+"en": "TR51",
+"fr": "DT51"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user vigorously performs a mystic",
+"fr": "\"Une danse mystique dont le rythme effréné"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1181
+sprite_path = "res://assets/Items/TR51.png"

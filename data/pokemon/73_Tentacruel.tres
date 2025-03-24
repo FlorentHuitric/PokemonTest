@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Jellyfish Pokémon",
+"fr": "Pokémon Mollusque"
+}
 base_stats = {
 "attack": 70,
 "defense": 65,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It extends its 80 tentacles to form an encircling poisonous net that is difficult to escape.",
+"fr": "Ses 80 tentacules lui permettent d’emprisonner ses adversaires dans un redoutable filet venimeux."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1051,4 +1056,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

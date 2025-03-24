@@ -13,7 +13,7 @@ pokemon_id = 239
 branch_code = ""
 names = {
 "en": "Elekid",
-"fr": "Elekid"
+"fr": "Élekid"
 }
 generation = 2
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Electric Pokémon",
+"fr": "Pokémon Électrique"
+}
 base_stats = {
 "attack": 63,
 "defense": 37,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary.",
+"fr": "Un faible courant électrique circule entre ses cornes. Attention à ne pas y mettre la main!"
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -959,4 +964,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 527,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_cqddc"]
+
+[resource]
+script = ExtResource("1_cqddc")
+item_id = 1002
+identifier = "roto-hp-restore"
+names = {
+"en": "Roto HP Restore",
+"fr": "Moti-Récup’ PV"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for roto-hp-restore"
+}
+effect = {
+"en": "XXX new effect for roto-hp-restore"
+}
+flavor_text = {
+"en": "\"One of the Rotom Powers.",
+"fr": "\"Une des Motism’Auras. Elle permet à vos Pokémon"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 956
+sprite_path = "res://assets/Items/ROTOHPRESTORE.png"

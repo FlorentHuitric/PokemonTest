@@ -13,7 +13,7 @@ pokemon_id = 182
 branch_code = ""
 names = {
 "en": "Bellossom",
-"fr": "Bellossom"
+"fr": "Joliflor"
 }
 generation = 2
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Flower Pokémon",
+"fr": "Pokémon Fleur"
+}
 base_stats = {
 "attack": 80,
 "defense": 95,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+"fr": "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 183,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -695,4 +710,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://brhm3kwdb14ly"
+
+[deps]
+
+files=["res://imports/evolution_trigger_prose.local.translation", "res://imports/evolution_trigger_prose.name.translation"]
+
+source_file="res://imports/evolution_trigger_prose.csv"
+dest_files=["res://imports/evolution_trigger_prose.local.translation", "res://imports/evolution_trigger_prose.name.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -14,7 +14,7 @@ pokemon_id = 324
 branch_code = ""
 names = {
 "en": "Torkoal",
-"fr": "Torkoal"
+"fr": "Chartor"
 }
 generation = 3
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Coal Pokémon",
+"fr": "Pokémon Charbon"
+}
 base_stats = {
 "attack": 85,
 "defense": 140,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+"fr": "Il tire son énergie du charbon qu’il brûle dans sa carapace et crache de la suie noire en cas de danger."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 20,
 "method": 1,
@@ -1014,4 +1019,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

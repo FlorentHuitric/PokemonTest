@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_0a0od"]
+
+[resource]
+script = ExtResource("1_0a0od")
+item_id = 201
+identifier = "cleanse-tag"
+names = {
+"en": "Cleanse Tag",
+"fr": "Rune Purifiante"
+}
+cost = 5000
+category_id = 16
+category_name = {
+"en": "Training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Prevents wild encounters of level lower than your party's lead Pokémon."
+}
+effect = {
+"en": "Held by lead Pokémon: Prevents wild battles with Pokémon that are lower level than the holder."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It helps keep",
+"fr": "\"Objet à tenir. Aide à repousser les Pokémon sauvages"
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 190
+sprite_path = "res://assets/Items/CLEANSETAG.png"

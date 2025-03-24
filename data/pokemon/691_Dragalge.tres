@@ -15,7 +15,7 @@ pokemon_id = 691
 branch_code = ""
 names = {
 "en": "Dragalge",
-"fr": "Dragalge"
+"fr": "Kravarech"
 }
 generation = 6
 height = 1.8
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mock Kelp Pokémon",
+"fr": "Pokémon Simulalgue"
+}
 base_stats = {
 "attack": 75,
 "defense": 90,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -625,4 +630,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

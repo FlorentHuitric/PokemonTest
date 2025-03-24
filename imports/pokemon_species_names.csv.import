@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ck0sg3lbwei8h"
+
+[deps]
+
+files=["res://imports/pokemon_species_names.local.translation", "res://imports/pokemon_species_names.name.translation", "res://imports/pokemon_species_names.genus.translation"]
+
+source_file="res://imports/pokemon_species_names.csv"
+dest_files=["res://imports/pokemon_species_names.local.translation", "res://imports/pokemon_species_names.name.translation", "res://imports/pokemon_species_names.genus.translation"]
+
+[params]
+
+compress=true
+delimiter=0

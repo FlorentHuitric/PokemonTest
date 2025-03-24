@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_b8ybs"]
+
+[resource]
+script = ExtResource("1_b8ybs")
+item_id = 372
+identifier = "tm68"
+names = {
+"en": "TM68",
+"fr": "CT68"
+}
+cost = 30000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Giga Impact to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Giga Impact to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user bites with flame-cloaked fangs. This may",
+"fr": "\"Le lanceur utilise une morsure enflammée."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 395
+sprite_path = "res://assets/Items/TM68.png"

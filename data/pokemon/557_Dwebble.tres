@@ -15,7 +15,7 @@ pokemon_id = 557
 branch_code = ""
 names = {
 "en": "Dwebble",
-"fr": "Dwebble"
+"fr": "Crabicoque"
 }
 generation = 5
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rock Inn Pokémon",
+"fr": "Pokémon Lithicole"
+}
 base_stats = {
 "attack": 65,
 "defense": 85,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+"fr": "Il perce un caillou et s’en sert comme maison. Quand on lui casse, il est anxieux jusqu’à ce qu’il en trouve un autre."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34",
+"condition_fr": "Niveau 34",
+"evolved_pokemon_id": 558,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -631,4 +646,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

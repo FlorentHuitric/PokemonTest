@@ -18,8 +18,8 @@ accuracy = 100
 pp = 20
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+"fr": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 20
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 147
+move_effect_short = {
+"en": "Has a $effect_chance% chance to make the target flinch."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 147
+metadata/effect_chance = 20

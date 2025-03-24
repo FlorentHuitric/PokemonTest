@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_nry5d"]
+
+[resource]
+script = ExtResource("1_nry5d")
+item_id = 229
+identifier = "up-grade"
+names = {
+"en": "Upgrade",
+"fr": "Améliorator"
+}
+cost = 2000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded on a Porygon: Holder evolves into Porygon2."
+}
+effect = {
+"en": "Held by Porygon: Evolves the holder into Porygon2 when traded."
+}
+flavor_text = {
+"en": "\"A transparent device somehow filled with all sorts",
+"fr": "\"Un dispositif transparent rempli de données diverses"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 218
+sprite_path = "res://assets/Items/UPGRADE.png"

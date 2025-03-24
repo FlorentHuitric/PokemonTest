@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Virtual Pokémon",
+"fr": "Pokémon Virtuel"
+}
 base_stats = {
 "attack": 80,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+"fr": "Il a été modifié pour être capable de travailler dans des dimensions parallèles, mais c’est un échec."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 109",
+"condition_fr": "Objet 109",
+"evolved_pokemon_id": 475,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -768,4 +783,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 683,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ueppo"]
+
+[resource]
+script = ExtResource("1_ueppo")
+item_id = 195
+identifier = "soothe-bell"
+names = {
+"en": "Soothe Bell",
+"fr": "Grelot Zen"
+}
+cost = 4000
+category_id = 16
+category_name = {
+"en": "Training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Doubles the happiness earned by the holder."
+}
+effect = {
+"en": "\"Held"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. The comforting",
+"fr": "\"Objet à tenir. Un grelot dont le carillon calme le porteur"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 184
+sprite_path = "res://assets/Items/SOOTHEBELL.png"

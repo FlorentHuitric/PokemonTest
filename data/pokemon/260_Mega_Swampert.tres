@@ -12,8 +12,8 @@ script = ExtResource("2_qv776")
 pokemon_id = 260
 branch_code = ""
 names = {
-"en": "Mega Swampert",
-"fr": "Mega Swampert"
+"en": "Swampert",
+"fr": "Laggron"
 }
 generation = 3
 height = 1.9
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Mud Fish Pokémon",
+"fr": "Pokémon Poissonboue"
+}
 base_stats = {
 "attack": 150,
 "defense": 110,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+"fr": "Il peut traîner un grand bateau en nageant. Il assomme l’ennemi d’un grand coup de ses bras épais."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1013,4 +1018,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

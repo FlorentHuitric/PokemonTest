@@ -15,7 +15,7 @@ pokemon_id = 527
 branch_code = ""
 names = {
 "en": "Woobat",
-"fr": "Woobat"
+"fr": "Chovsourir"
 }
 generation = 5
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bat Pokémon",
+"fr": "Pokémon Chovsouris"
+}
 base_stats = {
 "attack": 45,
 "defense": 43,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
+"fr": "Il s’accroche aux murs des cavernes en se servant de son nez comme ventouse. Il y laisse une trace en forme de cœur."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 528,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 8,
 "method": 1,
@@ -865,4 +880,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

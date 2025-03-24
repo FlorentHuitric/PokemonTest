@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3ef8q"]
+
+[resource]
+script = ExtResource("1_3ef8q")
+item_id = 71
+identifier = "shoal-shell"
+names = {
+"en": "Shoal Shell",
+"fr": "CoquilleTréfonds"
+}
+cost = 20
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "No effect. Gen III: Trade four and four Shoal Salts for a Shell Bell."
+}
+effect = {
+"en": "No effect."
+}
+flavor_text = {
+"en": "A seashell that you found inside Shoal Cave.",
+"fr": "Un coquillage provenant de la Grotte Tréfonds."
+}
+flags = Array[String](["countable"])
+generation_id = 3
+game_index = 47
+sprite_path = "res://assets/Items/SHOALSHELL.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2udfy"]
+
+[resource]
+script = ExtResource("1_2udfy")
+item_id = 285
+identifier = "insect-plate"
+names = {
+"en": "Insect Plate",
+"fr": "Plaque Insecte"
+}
+cost = 1000
+category_id = 17
+category_name = {
+"en": "Plates"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Bug-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Bug."
+}
+effect = {
+"en": "\"Held: Increases the power of the holder's Bug moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a stone tablet",
+"fr": "\"Objet à tenir. Une tablette en pierre augmentant"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 4
+game_index = 308
+sprite_path = "res://assets/Items/INSECTPLATE.png"

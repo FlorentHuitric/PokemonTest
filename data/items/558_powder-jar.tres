@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_d5ntn"]
+
+[resource]
+script = ExtResource("1_d5ntn")
+item_id = 558
+identifier = "powder-jar"
+names = {
+"en": "Powder Jar",
+"fr": "Pot Poudre"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Stores Berry Powder made using a Berry Crusher."
+}
+effect = {
+"en": "Holds Berry Powder from Berry Crushing."
+}
+flavor_text = {
+"en": "\"A jar for storing BERRY POWDER"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 372
+sprite_path = "res://assets/Items/POWDERJAR.png"

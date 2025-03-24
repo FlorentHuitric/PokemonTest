@@ -12,7 +12,8 @@ script = ExtResource("2_p384x")
 pokemon_id = 888
 branch_code = ""
 names = {
-"en": "Zacian Crowned Sword"
+"en": "Zacian",
+"fr": "Zacian"
 }
 generation = 8
 height = 2.8
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Warrior Pokémon",
+"fr": "Pokémon Valeureux"
+}
 base_stats = {
 "attack": 150,
 "defense": 115,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 22,
 "method": 1,
@@ -436,4 +442,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

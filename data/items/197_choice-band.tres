@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_aa84c"]
+
+[resource]
+script = ExtResource("1_aa84c")
+item_id = 197
+identifier = "choice-band"
+names = {
+"en": "Choice Band",
+"fr": "Bandeau Choix"
+}
+cost = 4000
+category_id = 13
+category_name = {
+"en": "Choice"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Increases Attack by 50%"
+}
+effect = {
+"en": " but restricts the holder to only one move.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This curious",
+"fr": "\"Objet à tenir. Ce bandeau augmente l’Attaque"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 186
+sprite_path = "res://assets/Items/CHOICEBAND.png"

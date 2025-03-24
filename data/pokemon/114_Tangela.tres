@@ -14,7 +14,7 @@ pokemon_id = 114
 branch_code = ""
 names = {
 "en": "Tangela",
-"fr": "Tangela"
+"fr": "Saquedeneu"
 }
 generation = 1
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Vine Pokémon",
+"fr": "Pokémon Vigne"
+}
 base_stats = {
 "attack": 55,
 "defense": 115,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
+"fr": "Il se cache derrière des lianes bleues recouvertes d’un fin duvet. Il est chatouilleux."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1134,4 +1139,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

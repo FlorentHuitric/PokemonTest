@@ -18,8 +18,8 @@ accuracy = 100
 pp = 15
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+"fr": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 303
+move_effect_short = {
+"en": "Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 303
+metadata/effect_chance = 0

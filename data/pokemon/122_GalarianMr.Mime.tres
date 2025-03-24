@@ -14,7 +14,8 @@ script = ExtResource("4_fp424")
 pokemon_id = 122
 branch_code = ""
 names = {
-"en": "Galarian Mr. Mime"
+"en": "Mr. Mime",
+"fr": "M. Mime"
 }
 generation = 8
 height = 1.4
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Galarian"
+genus = {
+"en": "Barrier Pokémon",
+"fr": "Pokémon Bloqueur"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+"fr": "En modifiant les molécules de l’air du bout de ses doigts, il parvient à créer un mur invisible devant lui."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 31,
 "method": 1,
@@ -1608,4 +1614,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

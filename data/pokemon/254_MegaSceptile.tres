@@ -12,7 +12,8 @@ script = ExtResource("2_npdo4")
 pokemon_id = 254
 branch_code = ""
 names = {
-"en": "Mega Sceptile"
+"en": "Sceptile",
+"fr": "Jungko"
 }
 generation = 3
 height = 1.9
@@ -33,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Forest Pokémon",
+"fr": "Pokémon Forêt"
+}
 base_stats = {
 "attack": 110,
 "defense": 75,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+"fr": "Les feuilles sur ses bras peuvent trancher des troncs épais. C’est le meilleur combattant des jungles."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1078,4 +1084,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

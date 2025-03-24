@@ -11,8 +11,8 @@ script = ExtResource("2_5f305")
 pokemon_id = 386
 branch_code = ""
 names = {
-"en": "Deoxys Speed Form",
-"fr": "Deoxys Speed Form"
+"en": "Deoxys",
+"fr": "Deoxys"
 }
 generation = 3
 height = 1.7
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "DNA Pokémon",
+"fr": "Pokémon ADN"
+}
 base_stats = {
 "attack": 95,
 "defense": 90,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+"fr": "Il vient d’un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -952,4 +957,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

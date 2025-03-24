@@ -13,7 +13,7 @@ pokemon_id = 642
 branch_code = "642_1"
 names = {
 "en": "Thundurus",
-"fr": "Thundurus Therian Form"
+"fr": "Fulguris"
 }
 generation = 5
 height = 3.0
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bolt Strike Pokémon",
+"fr": "Pokémon Foudroyeur"
+}
 base_stats = {
 "attack": 105,
 "defense": 70,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+"fr": "Sa queue lance des décharges électriques. Il vole dans le ciel d’Unys et fait tomber des éclairs."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -869,4 +874,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

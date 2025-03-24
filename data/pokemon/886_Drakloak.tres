@@ -15,7 +15,7 @@ pokemon_id = 886
 branch_code = ""
 names = {
 "en": "Drakloak",
-"fr": "Drakloak"
+"fr": "Dispareptil"
 }
 generation = 8
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Caretaker Pokémon",
+"fr": "Pokémon Baby-sitter"
+}
 base_stats = {
 "attack": 80,
 "defense": 50,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 60",
+"condition_fr": "Niveau 60",
+"evolved_pokemon_id": 887,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 54,
 "method": 1,
@@ -439,4 +454,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 784,
 "tm_id": ""
-}]
+}])

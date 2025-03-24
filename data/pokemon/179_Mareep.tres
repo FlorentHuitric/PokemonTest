@@ -13,7 +13,7 @@ pokemon_id = 179
 branch_code = ""
 names = {
 "en": "Mareep",
-"fr": "Mareep"
+"fr": "Wattouat"
 }
 generation = 2
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wool Pokémon",
+"fr": "Pokémon Laine"
+}
 base_stats = {
 "attack": 40,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+"fr": "Sa laine fournie enfle lorsqu’il accumule de l’électricité statique. Son contact peut choquer."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 15",
+"condition_fr": "Niveau 15",
+"evolved_pokemon_id": 180,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -731,4 +746,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 527,
 "tm_id": ""
-}]
+}])

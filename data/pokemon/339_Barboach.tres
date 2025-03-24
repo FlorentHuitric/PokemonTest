@@ -15,7 +15,7 @@ pokemon_id = 339
 branch_code = ""
 names = {
 "en": "Barboach",
-"fr": "Barboach"
+"fr": "Barloche"
 }
 generation = 3
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Whiskers Pokémon",
+"fr": "Pokémon Barbillon"
+}
 base_stats = {
 "attack": 48,
 "defense": 43,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud.",
+"fr": "Son corps glissant est difficile à attraper. On dit qu’il a été créé dans de la boue solidifiée."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 340,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -751,4 +766,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 414,
 "tm_id": ""
-}]
+}])

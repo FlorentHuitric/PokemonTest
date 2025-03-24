@@ -15,7 +15,7 @@ pokemon_id = 630
 branch_code = ""
 names = {
 "en": "Mandibuzz",
-"fr": "Mandibuzz"
+"fr": "Vaututrice"
 }
 generation = 5
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bone Vulture Pokémon",
+"fr": "Pokémon Vostour"
+}
 base_stats = {
 "attack": 65,
 "defense": 105,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+"fr": "Il guette le sol depuis les airs et fond sur les proies affaiblies. Il aime s’apprêter avec des ossements."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -709,4 +714,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

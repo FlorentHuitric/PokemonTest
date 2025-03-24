@@ -14,7 +14,7 @@ pokemon_id = 242
 branch_code = ""
 names = {
 "en": "Blissey",
-"fr": "Blissey"
+"fr": "Leuphorie"
 }
 generation = 2
 height = 1.5
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Happiness Pokémon",
+"fr": "Pokémon Bonheur"
+}
 base_stats = {
 "attack": 10,
 "defense": 10,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+"fr": "Les œufs que pond Leuphorie sont un concentré de bonheur dont une bouchée suffit à apporter la joie."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1326,4 +1331,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 791,
 "tm_id": ""
-}]
+}])

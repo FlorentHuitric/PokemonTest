@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_c03sn"]
+
+[resource]
+script = ExtResource("1_c03sn")
+item_id = 193
+identifier = "exp-share"
+names = {
+"en": "Exp. Share",
+"fr": "Multi Exp"
+}
+cost = 0
+category_id = 16
+category_name = {
+"en": "Training"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Half the experience from a battle is split between Pokémon holding this item."
+}
+effect = {
+"en": "\"Held"
+}
+flavor_text = {
+"en": "\"Turning on this special device will allow all the Pokémon",
+"fr": "\"Objet à activer. Permet de faire gagner des Points"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 182
+sprite_path = "res://assets/Items/EXPSHARE.png"

@@ -14,7 +14,7 @@ pokemon_id = 55
 branch_code = ""
 names = {
 "en": "Golduck",
-"fr": "Golduck"
+"fr": "Akwakwak"
 }
 generation = 1
 height = 1.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Duck Pokémon",
+"fr": "Pokémon Canard"
+}
 base_stats = {
 "attack": 82,
 "defense": 78,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+"fr": "Ses membres palmés et son corps parfaitement adapté font de lui un nageur exceptionnel."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1344,4 +1349,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

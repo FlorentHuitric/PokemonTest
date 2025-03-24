@@ -13,7 +13,7 @@ pokemon_id = 776
 branch_code = ""
 names = {
 "en": "Turtonator",
-"fr": "Turtonator"
+"fr": "Boumata"
 }
 generation = 7
 height = 2.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Blast Turtle Pokémon",
+"fr": "Pokémon Tortue Boum"
+}
 base_stats = {
 "attack": 78,
 "defense": 135,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -773,4 +778,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

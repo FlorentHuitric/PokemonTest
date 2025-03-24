@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sop8v"]
+
+[resource]
+script = ExtResource("1_sop8v")
+item_id = 618
+identifier = "poke-toy"
+names = {
+"en": "Poké Toy",
+"fr": "Poké Plumet"
+}
+cost = 100
+category_id = 11
+category_name = {
+"en": "Spelunking"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Ends a wild battle."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A toy that attracts the attention of a Pokémon.",
+"fr": "\"Un objet qui attire les Pokémon."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 577
+sprite_path = "res://assets/Items/POKETOY.png"

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_51yfr"]
+
+[resource]
+script = ExtResource("1_51yfr")
+item_id = 1329
+identifier = "rotom-catalog"
+names = {
+"en": "Rotom Catalog",
+"fr": "Moti-Catalogue"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A catalog of devices that Rotom like. Use the catalog",
+"fr": "\"Un catalogue présentant divers appareils ménagers"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1278
+sprite_path = "res://assets/Items/ROTOMCATALOG.png"

@@ -13,7 +13,7 @@ pokemon_id = 329
 branch_code = ""
 names = {
 "en": "Vibrava",
-"fr": "Vibrava"
+"fr": "Vibraninf"
 }
 generation = 3
 height = 1.1
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Vibration Pokémon",
+"fr": "Pokémon Vibration"
+}
 base_stats = {
 "attack": 70,
 "defense": 50,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+"fr": "Ses violents battements d’ailes génèrent des vagues d’ultrasons qui donnent mal au crâne."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 45",
+"condition_fr": "Niveau 45",
+"evolved_pokemon_id": 330,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -971,4 +986,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

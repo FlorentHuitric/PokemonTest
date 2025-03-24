@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_y5hu8"]
+
+[resource]
+script = ExtResource("1_y5hu8")
+item_id = 301
+identifier = "dubious-disc"
+names = {
+"en": "Dubious Disc",
+"fr": "CD Douteux"
+}
+cost = 2000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 50
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded on a Porygon2: Holder evolves into Porygon-Z."
+}
+effect = {
+"en": "Held by Porygon2: Evolves the holder into Porygon-Z when traded."
+}
+flavor_text = {
+"en": "\"A transparent device overflowing with dubious",
+"fr": "\"Un appareil transparent rempli de données douteuses."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 324
+sprite_path = "res://assets/Items/DUBIOUSDISC.png"

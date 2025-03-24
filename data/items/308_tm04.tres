@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_yj4sm"]
+
+[resource]
+script = ExtResource("1_yj4sm")
+item_id = 308
+identifier = "tm04"
+names = {
+"en": "TM04",
+"fr": "CT04"
+}
+cost = 50000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Calm Mind to a compatible Pokémon. (Gen II: Rollout Gen I: Whirlwind)"
+}
+effect = {
+"en": "Teaches Calm Mind to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The target is punched with an icy fist. This may also",
+"fr": "\"Un coup de poing glacé vient frapper l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 292
+sprite_path = "res://assets/Items/TM04.png"

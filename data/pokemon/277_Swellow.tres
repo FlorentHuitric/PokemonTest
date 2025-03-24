@@ -14,7 +14,7 @@ pokemon_id = 277
 branch_code = ""
 names = {
 "en": "Swellow",
-"fr": "Swellow"
+"fr": "Hélédelle"
 }
 generation = 3
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Swallow Pokémon",
+"fr": "Pokémon Hirondelle"
+}
 base_stats = {
 "attack": 85,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It circles the sky in search of prey. When it spots one, it dives steeply to catch the prey.",
+"fr": "Il vole en cercle en quête d’une proie. Dès qu’il l’a repérée, il fond sur elle en un éclair."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 13,
 "method": 1,
@@ -570,4 +575,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

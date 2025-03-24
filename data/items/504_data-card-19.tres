@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_b5rmh"]
+
+[resource]
+script = ExtResource("1_b5rmh")
+item_id = 504
+identifier = "data-card-19"
+names = {
+"en": "Data Card 19",
+"fr": "Carte Mémo19"
+}
+cost = 0
+category_id = 41
+category_name = {
+"en": "Data Cards"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss."
+}
+effect = {
+"en": "Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss."
+}
+flavor_text = {
+"en": "\"It holds Pokéathlon records. It is a card that shows",
+"fr": "\"Contient vos données du Pokéathlon. Sur cette carte"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 523
+sprite_path = "res://assets/Items/DATACARD19.png"

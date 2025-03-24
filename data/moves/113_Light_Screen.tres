@@ -18,8 +18,8 @@ accuracy = 0
 pp = 30
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+"fr": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales durant cinq tours."
 }
 tm_id = ""
 meta_category_id = 11
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 4
+move_target_name = {
+"en": "User's field",
+"fr": "Terrain de l'utilisateur"
+}
+move_target_description = {
+"en": "The user's side of the field.  Affects the user and its ally (if any).",
+"fr": "Le côté du terrain de l'utilisateur. Affecte l'utilisateur et son allié (s'il y en a un)."
+}
+move_effect_id = 36
+move_effect_short = {
+"en": "Reduces damage from special attacks by 50% for five turns."
+}
+metadata/move_target_id = 4
+metadata/move_effect_id = 36
+metadata/effect_chance = 0

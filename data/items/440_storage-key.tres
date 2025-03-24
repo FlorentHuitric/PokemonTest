@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xqlw7"]
+
+[resource]
+script = ExtResource("1_xqlw7")
+item_id = 440
+identifier = "storage-key"
+names = {
+"en": "Storage Key",
+"fr": "Clé Stockage"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Grants access to the Team Galactic warehouse in Veilstone City."
+}
+effect = {
+"en": "Grants access to the Team Galactic warehouse in Veilstone City."
+}
+flavor_text = {
+"en": "\"The key to Team Galactic’s sinister warehouse",
+"fr": "\"La clé de l’entrepôt de la Team Galaxie situé"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 285
+sprite_path = "res://assets/Items/STORAGEKEY.png"

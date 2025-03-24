@@ -14,7 +14,8 @@ script = ExtResource("4_hv5f3")
 pokemon_id = 705
 branch_code = ""
 names = {
-"en": "Hisuian Sliggoo"
+"en": "Sliggoo",
+"fr": "Colimucus"
 }
 generation = 8
 height = 0.7
@@ -35,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Hisuian"
+genus = {
+"en": "Soft Tissue Pokémon",
+"fr": "Pokémon Mollusque"
+}
 base_stats = {
 "attack": 75,
 "defense": 83,
@@ -90,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 50",
+"condition_fr": "Niveau 50",
+"evolved_pokemon_id": 706,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -474,4 +490,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

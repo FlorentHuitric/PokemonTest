@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_5yybj"]
+
+[resource]
+script = ExtResource("1_5yybj")
+item_id = 663
+identifier = "god-stone"
+names = {
+"en": "god stone"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unknown.  Currently unused."
+}
+effect = {
+"en": "Unknown.  Currently unused."
+}
+flavor_text = {
+"en": "A rare stone.",
+"fr": "Une pierre fantomatique."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 622
+sprite_path = "res://assets/Items/GODSTONE.png"

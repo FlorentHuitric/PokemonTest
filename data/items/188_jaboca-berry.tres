@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_tpdgb"]
+
+[resource]
+script = ExtResource("1_tpdgb")
+item_id = 188
+identifier = "jaboca-berry"
+names = {
+"en": "Jaboca Berry",
+"fr": "Baie Jaboca"
+}
+cost = 80
+category_id = 4
+category_name = {
+"en": "Other",
+"fr": "Autre"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consumed to deal 1/8 attacker's max HP when holder is struck by a physical attack."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a physical",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 4
+game_index = 211
+sprite_path = "res://assets/Items/JABOCABERRY.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_301lq"]
+
+[resource]
+script = ExtResource("1_301lq")
+item_id = 678
+identifier = "colress-machine"
+names = {
+"en": "Colress Machine",
+"fr": "Nikodule"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Wakes up the Crustle blocking the way in Seaside Cave."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"A special device that wrings out the potential of",
+"fr": "\"Un appareil spécial qui permet d’éveiller de force"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 635
+sprite_path = "res://assets/Items/COLRESSMACHINE.png"

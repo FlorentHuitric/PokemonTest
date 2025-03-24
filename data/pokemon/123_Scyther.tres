@@ -15,7 +15,7 @@ pokemon_id = 123
 branch_code = ""
 names = {
 "en": "Scyther",
-"fr": "Scyther"
+"fr": "Insécateur"
 }
 generation = 1
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mantis Pokémon",
+"fr": "Pokémon Mante"
+}
 base_stats = {
 "attack": 110,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/123.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/123.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/123.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+"fr": "À force de trancher des objets solides, les faux de ses bras sont très aiguisées."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 124,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 35,
 "method": 1,
@@ -1039,4 +1054,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

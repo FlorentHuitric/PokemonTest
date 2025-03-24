@@ -12,7 +12,8 @@ script = ExtResource("2_a10f4")
 pokemon_id = 800
 branch_code = ""
 names = {
-"en": "Dawn Wings Necrozma"
+"en": "Necrozma",
+"fr": "Necrozma"
 }
 generation = 7
 height = 4.2
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Prism Pokémon",
+"fr": "Pokémon Prisme"
+}
 base_stats = {
 "attack": 113,
 "defense": 109,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -778,4 +784,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

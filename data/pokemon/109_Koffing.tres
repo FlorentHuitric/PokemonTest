@@ -14,7 +14,7 @@ pokemon_id = 109
 branch_code = ""
 names = {
 "en": "Koffing",
-"fr": "Koffing"
+"fr": "Smogo"
 }
 generation = 1
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Poison Gas Pokémon",
+"fr": "Pokémon Gaz Mortel"
+}
 base_stats = {
 "attack": 65,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+"fr": "Il flotte en retenant des gaz plus légers que l’air. Ceux-ci sont explosifs, en plus d’être fétides."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 35",
+"condition_fr": "Niveau 35",
+"evolved_pokemon_id": 110,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -966,4 +981,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

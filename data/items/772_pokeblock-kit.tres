@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_c34mr"]
+
+[resource]
+script = ExtResource("1_c34mr")
+item_id = 772
+identifier = "pokeblock-kit"
+names = {
+"en": "Pokéblock Kit",
+"fr": "Kit Pokébloc"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Creates and stores Pokéblocks."
+}
+effect = {
+"en": "Creates and stores Pokéblocks."
+}
+flavor_text = {
+"en": "\"A set containing a Berry Blender for making",
+"fr": "Boîte pour ranger le Mixeur à Baies et les Pokéblocs."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 724
+sprite_path = "res://assets/Items/POKEBLOCKKIT.png"

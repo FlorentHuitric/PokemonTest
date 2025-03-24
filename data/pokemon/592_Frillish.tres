@@ -15,7 +15,7 @@ pokemon_id = 592
 branch_code = ""
 names = {
 "en": "Frillish",
-"fr": "Frillish"
+"fr": "Viskuse"
 }
 generation = 5
 height = 1.2
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Floating Pokémon",
+"fr": "Pokémon Flottaison"
+}
 base_stats = {
 "attack": 40,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/592.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/592.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/592.png"
 description = {
-"en": "",
-"fr": ""
+"en": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+"fr": "Il paralyse ses proies avec du poison et les entraîne jusqu’à son antre, qu’on dit situé à 8 000 m de profondeur."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 593,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -667,4 +682,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

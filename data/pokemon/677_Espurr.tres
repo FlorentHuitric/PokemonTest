@@ -14,7 +14,7 @@ pokemon_id = 677
 branch_code = ""
 names = {
 "en": "Espurr",
-"fr": "Espurr"
+"fr": "Psystigri"
 }
 generation = 6
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Restraint Pokémon",
+"fr": "Pokémon Retenue"
+}
 base_stats = {
 "attack": 48,
 "defense": 54,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 678,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -648,4 +663,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

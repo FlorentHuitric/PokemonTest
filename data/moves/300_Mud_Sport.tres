@@ -18,8 +18,8 @@ accuracy = 0
 pp = 15
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns.",
+"fr": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours."
 }
 tm_id = ""
 meta_category_id = 10
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 12
+move_target_name = {
+"en": "Entire field",
+"fr": "Terrain entier"
+}
+move_target_description = {
+"en": "The entire field.  Affects all Pokémon.",
+"fr": "Le terrain entier. Affecte tous les Pokémon."
+}
+move_effect_id = 202
+move_effect_short = {
+"en": "Halves all Electric-type damage."
+}
+metadata/move_target_id = 12
+metadata/move_effect_id = 202
+metadata/effect_chance = 0

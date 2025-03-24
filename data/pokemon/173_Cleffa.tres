@@ -14,7 +14,7 @@ pokemon_id = 173
 branch_code = ""
 names = {
 "en": "Cleffa",
-"fr": "Cleffa"
+"fr": "Mélo"
 }
 generation = 2
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Star Shape Pokémon",
+"fr": "Pokémon Étoile"
+}
 base_stats = {
 "attack": 25,
 "defense": 28,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is often seen when shooting stars fill the night skies. It’s said to arrive riding on a shooting star.",
+"fr": "On dit qu’il se déplace à dos d’étoile filante. Il se montre souvent quand on en voit."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -978,4 +983,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 583,
 "tm_id": ""
-}]
+}])

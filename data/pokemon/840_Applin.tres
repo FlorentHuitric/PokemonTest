@@ -15,7 +15,7 @@ pokemon_id = 840
 branch_code = ""
 names = {
 "en": "Applin",
-"fr": "Applin"
+"fr": "Verpom"
 }
 generation = 8
 height = 0.2
@@ -36,6 +36,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Apple Core Pokémon",
+"fr": "Pokémon Nid Pomme"
+}
 base_stats = {
 "attack": 40,
 "defense": 80,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 1175",
+"condition_fr": "Objet 1175",
+"evolved_pokemon_id": 841,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -145,4 +160,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

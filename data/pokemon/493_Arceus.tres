@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Alpha Pokémon",
+"fr": "Pokémon Alpha"
+}
 base_stats = {
 "attack": 120,
 "defense": 120,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+"fr": "On dit que son œuf a éclos dans le néant et qu’il est à l’origine de la création du monde."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -958,4 +963,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

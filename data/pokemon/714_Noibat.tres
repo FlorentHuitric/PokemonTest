@@ -15,7 +15,7 @@ pokemon_id = 714
 branch_code = ""
 names = {
 "en": "Noibat",
-"fr": "Noibat"
+"fr": "Sonistrelle"
 }
 generation = 6
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sound Wave Pokémon",
+"fr": "Pokémon Ondes"
+}
 base_stats = {
 "attack": 30,
 "defense": 35,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 48",
+"condition_fr": "Niveau 48",
+"evolved_pokemon_id": 715,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 31,
 "method": 1,
@@ -697,4 +712,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

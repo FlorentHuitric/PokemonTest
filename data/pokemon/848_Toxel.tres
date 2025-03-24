@@ -15,7 +15,7 @@ pokemon_id = 848
 branch_code = ""
 names = {
 "en": "Toxel",
-"fr": "Toxel"
+"fr": "Toxizap"
 }
 generation = 8
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Baby Pokémon",
+"fr": "Pokémon Poupon"
+}
 base_stats = {
 "attack": 38,
 "defense": 35,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 849,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -205,4 +220,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 715,
 "tm_id": ""
-}]
+}])

@@ -13,7 +13,7 @@ pokemon_id = 355
 branch_code = ""
 names = {
 "en": "Duskull",
-"fr": "Duskull"
+"fr": "Skelénox"
 }
 generation = 3
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Requiem Pokémon",
+"fr": "Pokémon Requiem"
+}
 base_stats = {
 "attack": 40,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+"fr": "Les cris des enfants l’amusent. Il effraie les moins sages d’entre eux en traversant les murs."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 356,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -917,4 +932,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

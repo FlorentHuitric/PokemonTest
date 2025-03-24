@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_lfihs"]
+
+[resource]
+script = ExtResource("1_lfihs")
+item_id = 55
+identifier = "guard-spec"
+names = {
+"en": "Guard Spec.",
+"fr": "Garde-Stats"
+}
+cost = 1500
+category_id = 1
+category_name = {
+"en": "Stat boosts",
+"fr": "Boost de stats"
+}
+pocket_id = 7
+pocket_name = {
+"en": "Battle Items",
+"fr": "Objets de combat"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Prevents stat changes in battle for five turns in battle.  Raises happiness."
+}
+effect = {
+"en": "\"Used on a party Pokémon in battle"
+}
+flavor_text = {
+"en": "\"An item that prevents stat reduction among the",
+"fr": "\"Empêche la baisse des stats de tous les Pokémon"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 73
+sprite_path = "res://assets/Items/GUARDSPEC.png"

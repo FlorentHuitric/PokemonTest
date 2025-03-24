@@ -15,7 +15,7 @@ pokemon_id = 607
 branch_code = ""
 names = {
 "en": "Litwick",
-"fr": "Litwick"
+"fr": "Funécire"
 }
 generation = 5
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Candle Pokémon",
+"fr": "Pokémon Chandelle"
+}
 base_stats = {
 "attack": 30,
 "defense": 55,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+"fr": "Il fait semblant de guider ses victimes à la lueur de sa flamme, mais c’est pour mieux aspirer leur énergie vitale."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 41",
+"condition_fr": "Niveau 41",
+"evolved_pokemon_id": 608,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -691,4 +706,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 821
 branch_code = ""
 names = {
 "en": "Rookidee",
-"fr": "Rookidee"
+"fr": "Minisange"
 }
 generation = 8
 height = 0.2
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiny Bird Pokémon",
+"fr": "Pokémon Minoiseau"
+}
 base_stats = {
 "attack": 47,
 "defense": 35,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 18",
+"condition_fr": "Niveau 18",
+"evolved_pokemon_id": 822,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -366,4 +381,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

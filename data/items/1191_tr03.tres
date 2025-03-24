@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8x5it"]
+
+[resource]
+script = ExtResource("1_8x5it")
+item_id = 1191
+identifier = "tr03"
+names = {
+"en": "TR03",
+"fr": "DT03"
+}
+cost = 16000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 110
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The target is blasted by a huge volume of water",
+"fr": "Un puissant jet d’eau est dirigé sur l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1133
+sprite_path = "res://assets/Items/TR03.png"

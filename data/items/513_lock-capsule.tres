@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_x2x58"]
+
+[resource]
+script = ExtResource("1_x2x58")
+item_id = 513
+identifier = "lock-capsule"
+names = {
+"en": "Lock Capsule",
+"fr": "Poké Écrin"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Contains TM95 (Snarl)."
+}
+effect = {
+"en": "Does nothing."
+}
+flavor_text = {
+"en": "\"A sturdy Capsule that can only be opened with a",
+"fr": "\"Un écrin résistant qui ne s’ouvre qu’avec une clé"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 533
+sprite_path = "res://assets/Items/LOCKCAPSULE.png"

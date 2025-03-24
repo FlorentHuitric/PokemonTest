@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fs8vi"]
+
+[resource]
+script = ExtResource("1_fs8vi")
+item_id = 1033
+identifier = "leaf-letter--pikachu"
+names = {
+"en": "Leaf Letter",
+"fr": "Lettre Végétale"
+}
+cost = 0
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A letter written on a leaf. Something is written using",
+"fr": "\"Une lettre rédigée sur une feuille d’arbre."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 894
+sprite_path = "res://assets/Items/LEAFLETTERPIKACHU.png"

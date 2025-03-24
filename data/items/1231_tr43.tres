@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_14ew1"]
+
+[resource]
+script = ExtResource("1_14ew1")
+item_id = 1231
+identifier = "tr43"
+names = {
+"en": "TR43",
+"fr": "DT43"
+}
+cost = 16000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 130
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user attacks the target at full power. The attack’s",
+"fr": "\"Attaque l’ennemi à pleine puissance."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1173
+sprite_path = "res://assets/Items/TR43.png"

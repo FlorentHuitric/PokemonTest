@@ -14,7 +14,7 @@ pokemon_id = 696
 branch_code = ""
 names = {
 "en": "Tyrunt",
-"fr": "Tyrunt"
+"fr": "Ptyranidur"
 }
 generation = 6
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Royal Heir Pokémon",
+"fr": "Pokémon Prince"
+}
 base_stats = {
 "attack": 89,
 "defense": 77,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 39 + Time: day",
+"condition_fr": "Niveau 39 + Moment: jour",
+"evolved_pokemon_id": 697,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 10,
 "method": 1,
@@ -744,4 +759,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

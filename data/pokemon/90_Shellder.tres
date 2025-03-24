@@ -14,7 +14,7 @@ pokemon_id = 90
 branch_code = ""
 names = {
 "en": "Shellder",
-"fr": "Shellder"
+"fr": "Kokiyas"
 }
 generation = 1
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bivalve Pokémon",
+"fr": "Pokémon Bivalve"
+}
 base_stats = {
 "attack": 65,
 "defense": 100,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It swims backward by opening and closing its two shells. Its large tongue is always kept hanging out.",
+"fr": "Il nage à reculons en ouvrant et en refermant ses deux coquilles. Il laisse traîner sa large langue."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 84",
+"condition_fr": "Objet 84",
+"evolved_pokemon_id": 91,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -924,4 +939,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 791,
 "tm_id": ""
-}]
+}])

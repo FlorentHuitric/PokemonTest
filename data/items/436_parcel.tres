@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bpcqw"]
+
+[resource]
+script = ExtResource("1_bpcqw")
+item_id = 436
+identifier = "parcel"
+names = {
+"en": "Parcel",
+"fr": "Colis"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Given to the trainer's rival in Jubilife City. Contains Town Maps."
+}
+effect = {
+"en": "\"Given to the trainer's rival in Jubilife City.  Contains two Town Maps"
+}
+flavor_text = {
+"en": "\"A parcel entrusted into your care. You’re supposed",
+"fr": "\"Un paquet qu’on vous a confié."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 459
+sprite_path = "res://assets/Items/PARCEL.png"

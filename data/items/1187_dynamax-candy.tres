@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_i8alc"]
+
+[resource]
+script = ExtResource("1_i8alc")
+item_id = 1187
+identifier = "dynamax-candy"
+names = {
+"en": "Dynamax Candy",
+"fr": "Bonbon Dynamax"
+}
+cost = 0
+category_id = 26
+category_name = {
+"en": "Vitamins"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A candy that is packed with energy. When consumed",
+"fr": "\"Un bonbon plein d’énergie qui fait monter le niveau"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1129
+sprite_path = "res://assets/Items/DYNAMAXCANDY.png"

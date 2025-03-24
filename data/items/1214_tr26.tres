@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1alhl"]
+
+[resource]
+script = ExtResource("1_1alhl")
+item_id = 1214
+identifier = "tr26"
+names = {
+"en": "TR26",
+"fr": "DT26"
+}
+cost = 2000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user endures any attack with at least 1 HP.",
+"fr": "\"Le lanceur résiste aux attaques avec 1 PV."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1156
+sprite_path = "res://assets/Items/TR26.png"

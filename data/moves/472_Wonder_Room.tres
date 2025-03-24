@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+"fr": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées."
 }
 tm_id = ""
 meta_category_id = 10
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 12
+move_target_name = {
+"en": "Entire field",
+"fr": "Terrain entier"
+}
+move_target_description = {
+"en": "The entire field.  Affects all Pokémon.",
+"fr": "Le terrain entier. Affecte tous les Pokémon."
+}
+move_effect_id = 282
+move_effect_short = {
+"en": "All Pokémon's Defense and Special Defense are swapped for 5 turns."
+}
+metadata/move_target_id = 12
+metadata/move_effect_id = 282
+metadata/effect_chance = 0

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_lueco"]
+
+[resource]
+script = ExtResource("1_lueco")
+item_id = 305
+identifier = "tm01"
+names = {
+"en": "TM01",
+"fr": "CT01"
+}
+cost = 40000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Hone Claws to a compatible Pokémon. (Gen IV & III: Focus Punch Gen II: DynamicPunch Gen I: Mega Punch)"
+}
+effect = {
+"en": "Teaches Focus Punch to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The target is attacked by a kick launched with",
+"fr": "Un coup de pied surpuissant qui frappe l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 289
+sprite_path = "res://assets/Items/TM01.png"

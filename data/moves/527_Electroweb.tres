@@ -18,8 +18,8 @@ accuracy = 95
 pp = 15
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+"fr": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi."
 }
 tm_id = ""
 meta_category_id = 6
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 21
+move_effect_short = {
+"en": "Lowers the target's Speed by one stage."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 21
+metadata/effect_chance = 100

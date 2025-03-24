@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_i1uxr"]
+
+[resource]
+script = ExtResource("1_i1uxr")
+item_id = 426
+identifier = "poffin-case"
+names = {
+"en": "Poffin Case",
+"fr": "Boîte Poffin"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Holds Poffins."
+}
+effect = {
+"en": "Contains up to 100 Poffins."
+}
+flavor_text = {
+"en": "A case for storing Poffins cooked from Berries.",
+"fr": "Une boîte pour ranger les Poffins faits à partir de Baies."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 449
+sprite_path = "res://assets/Items/POFFINCASE.png"

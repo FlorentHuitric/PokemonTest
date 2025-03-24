@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_u62ey"]
+
+[resource]
+script = ExtResource("1_u62ey")
+item_id = 1273
+identifier = "tr85"
+names = {
+"en": "TR85",
+"fr": "DT85"
+}
+cost = 2000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user is roused",
+"fr": "\"Le lanceur se rengorge."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1215
+sprite_path = "res://assets/Items/TR85.png"

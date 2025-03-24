@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_cpbg4"]
+
+[resource]
+script = ExtResource("1_cpbg4")
+item_id = 91
+identifier = "star-piece"
+names = {
+"en": "Star Piece",
+"fr": "Morceau d’Étoile"
+}
+cost = 12000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars"
+}
+effect = {
+"en": " or to Ore Collector for 9800 Pokédollars.\""
+}
+flavor_text = {
+"en": "\"A small shard of a beautiful gem that gives off",
+"fr": "\"Un fragment de gemme qui brille d’un éclat rouge."
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 109
+sprite_path = "res://assets/Items/STARPIECE.png"

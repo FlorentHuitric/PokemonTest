@@ -14,7 +14,7 @@ pokemon_id = 374
 branch_code = ""
 names = {
 "en": "Beldum",
-"fr": "Beldum"
+"fr": "Terhal"
 }
 generation = 3
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Ball Pokémon",
+"fr": "Pokémon Boulefer"
+}
 base_stats = {
 "attack": 55,
 "defense": 80,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
+"fr": "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l’unisson."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 375,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -150,4 +165,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

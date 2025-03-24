@@ -12,7 +12,7 @@ pokemon_id = 455
 branch_code = ""
 names = {
 "en": "Carnivine",
-"fr": "Carnivine"
+"fr": "Vortente"
 }
 generation = 4
 height = 1.4
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bug Catcher Pokémon",
+"fr": "Pokémon Chopinsecte"
+}
 base_stats = {
 "attack": 100,
 "defense": 72,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It binds itself to trees in marshes. It attracts prey with its sweet- smelling drool and gulps them down.",
+"fr": "Il s’accroche aux arbres des marais et attire ses proies avec sa salive à l’odeur enivrante."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -580,4 +585,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

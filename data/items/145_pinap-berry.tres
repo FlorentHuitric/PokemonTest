@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_o5e1x"]
+
+[resource]
+script = ExtResource("1_o5e1x")
+item_id = 145
+identifier = "pinap-berry"
+names = {
+"en": "Pinap Berry",
+"fr": "Baie Nanana"
+}
+cost = 200
+category_id = 8
+category_name = {
+"en": "Baking only"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used for creating PokéBlocks and Poffins."
+}
+effect = {
+"en": "No effect; only useful for planting and cooking."
+}
+flavor_text = {
+"en": "\"Used to make Pokéblocks that will enhance your",
+"fr": "\"Une Baie jaune au goût acide"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 152
+sprite_path = "res://assets/Items/PINAPBERRY.png"

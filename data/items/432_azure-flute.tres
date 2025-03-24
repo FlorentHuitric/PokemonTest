@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4no3l"]
+
+[resource]
+script = ExtResource("1_4no3l")
+item_id = 432
+identifier = "azure-flute"
+names = {
+"en": "Azure Flute",
+"fr": "Flûte Azur"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows entry into the Hall of Origin. Unreleased."
+}
+effect = {
+"en": "Supposedly related to t"
+}
+flavor_text = {
+"en": "\"A flute that puts out echoing sounds that do not",
+"fr": "\"Une flûte produisant des sons qui semblent provenir"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 455
+sprite_path = "res://assets/Items/AZUREFLUTE.png"

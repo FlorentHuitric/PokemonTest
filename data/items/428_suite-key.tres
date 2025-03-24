@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1h2ct"]
+
+[resource]
+script = ExtResource("1_1h2ct")
+item_id = 428
+identifier = "suite-key"
+names = {
+"en": "Suite Key",
+"fr": "Clé Chambre"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Opens a locked building in the Lakeside Resort."
+}
+effect = {
+"en": "Opens the locked building in the lakeside resort."
+}
+flavor_text = {
+"en": "\"A key to one of the suites at a certain luxury hotel",
+"fr": "\"La clé de l’une des suites de l’hôtel de luxe se trouvant"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 451
+sprite_path = "res://assets/Items/SUITEKEY.png"

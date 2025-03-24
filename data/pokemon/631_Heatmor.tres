@@ -14,7 +14,7 @@ pokemon_id = 631
 branch_code = ""
 names = {
 "en": "Heatmor",
-"fr": "Heatmor"
+"fr": "Aflamanoir"
 }
 generation = 5
 height = 1.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Anteater Pokémon",
+"fr": "Pokémon Tamanoir"
+}
 base_stats = {
 "attack": 97,
 "defense": 66,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Using their very hot, flame-covered tongues, they burn through Durant’s steel bodies and consume their insides.",
+"fr": "Avec sa langue de feu à haute température, il fait fondre le corps d’acier des Fermite pour les dévorer."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -840,4 +845,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

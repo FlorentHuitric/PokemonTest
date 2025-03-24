@@ -14,7 +14,7 @@ pokemon_id = 41
 branch_code = ""
 names = {
 "en": "Zubat",
-"fr": "Zubat"
+"fr": "Nosferapti"
 }
 generation = 1
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bat Pokémon",
+"fr": "Pokémon Chovsouris"
+}
 base_stats = {
 "attack": 45,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/41.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/41.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/41.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth.",
+"fr": "Il se repère dans l’espace grâce aux ultrasons émis par sa gueule."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 22",
+"condition_fr": "Niveau 22",
+"evolved_pokemon_id": 42,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1086,4 +1101,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

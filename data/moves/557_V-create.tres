@@ -18,8 +18,8 @@ accuracy = 95
 pp = 5
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+"fr": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse."
 }
 tm_id = ""
 meta_category_id = 7
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 335
+move_effect_short = {
+"en": "Lowers the user's Defense, Special Defense, and Speed by one stage each."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 335
+metadata/effect_chance = 100

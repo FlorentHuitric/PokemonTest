@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_m1svu"]
+
+[resource]
+script = ExtResource("1_m1svu")
+item_id = 47
+identifier = "iron"
+names = {
+"en": "Iron",
+"fr": "Fer"
+}
+cost = 10000
+category_id = 26
+category_name = {
+"en": "Vitamins"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises Defense effort and happiness."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A nutritious drink for Pokémon. When consumed",
+"fr": "\"Une boisson très nutritive qui augmente"
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 65
+sprite_path = "res://assets/Items/IRON.png"

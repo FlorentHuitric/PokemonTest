@@ -14,7 +14,7 @@ pokemon_id = 396
 branch_code = ""
 names = {
 "en": "Starly",
-"fr": "Starly"
+"fr": "Étourmi"
 }
 generation = 4
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Starling Pokémon",
+"fr": "Pokémon Étourneau"
+}
 base_stats = {
 "attack": 55,
 "defense": 30,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/396.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/396.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/396.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+"fr": "La faiblesse des Étourmi les force à vivre en groupe, mais ils se chamaillent souvent."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 14",
+"condition_fr": "Niveau 14",
+"evolved_pokemon_id": 397,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 9,
 "method": 1,
@@ -498,4 +513,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

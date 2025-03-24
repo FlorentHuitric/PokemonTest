@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_uuba5"]
+
+[resource]
+script = ExtResource("1_uuba5")
+item_id = 94
+identifier = "honey"
+names = {
+"en": "Honey",
+"fr": "Miel"
+}
+cost = 900
+category_id = 35
+category_name = {
+"en": "Dex completion"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": ""
+}
+effect = {
+"en": "\"Used outside of battle"
+}
+flavor_text = {
+"en": "\"A sweet honey collected by Pokémon. It has a lush",
+"fr": "\"Du miel au parfum riche rassemblé par des Pokémon."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 94
+sprite_path = "res://assets/Items/HONEY.png"

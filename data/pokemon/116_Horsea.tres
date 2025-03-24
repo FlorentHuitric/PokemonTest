@@ -14,7 +14,7 @@ pokemon_id = 116
 branch_code = ""
 names = {
 "en": "Horsea",
-"fr": "Horsea"
+"fr": "Hypotrempe"
 }
 generation = 1
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 40,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+"fr": "Il niche à l’ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d’encre opaque."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 32",
+"condition_fr": "Niveau 32",
+"evolved_pokemon_id": 117,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -918,4 +933,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

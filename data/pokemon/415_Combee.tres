@@ -14,7 +14,7 @@ pokemon_id = 415
 branch_code = ""
 names = {
 "en": "Combee",
-"fr": "Combee"
+"fr": "Apitrini"
 }
 generation = 4
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiny Bee Pokémon",
+"fr": "Pokémon Miniabeille"
+}
 base_stats = {
 "attack": 30,
 "defense": 42,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/415.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/415.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/415.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+"fr": "Ce trio inséparable depuis la naissance récolte du miel pour satisfaire Apireine."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 21",
+"condition_fr": "Niveau 21",
+"evolved_pokemon_id": 416,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -198,4 +213,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

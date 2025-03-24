@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_7q2x1"]
+
+[resource]
+script = ExtResource("1_7q2x1")
+item_id = 671
+identifier = "dna-splicers"
+names = {
+"en": "DNA Splicers",
+"fr": "Pointeau ADN"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Fuses Kyurem with Reshiram or Zekrom"
+}
+effect = {
+"en": " or splits them apart again.\""
+}
+flavor_text = {
+"en": "\"A splicer that fuses Kyurem and a certain Pokémon.",
+"fr": "\"Un outil qui permet la fusiorption de Kyurem"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 628
+sprite_path = "res://assets/Items/DNASPLICERS.png"

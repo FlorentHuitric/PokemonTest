@@ -15,7 +15,7 @@ pokemon_id = 315
 branch_code = ""
 names = {
 "en": "Roselia",
-"fr": "Roselia"
+"fr": "Rosélia"
 }
 generation = 3
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Thorn Pokémon",
+"fr": "Pokémon Épine"
+}
 base_stats = {
 "attack": 60,
 "defense": 45,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/315.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/315.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/315.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The more healthy the Roselia, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+"fr": "Plus le Rosélia est en bonne santé et plus son parfum est agréable et relaxant pour son entourage."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -895,4 +900,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

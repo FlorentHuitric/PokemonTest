@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_baqci"]
+
+[resource]
+script = ExtResource("1_baqci")
+item_id = 254
+identifier = "metronome"
+names = {
+"en": "Metronome",
+"fr": "Métronome"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consectutive uses of the same attack have a cumulative damage boost of 10%. Maximum 100% boost."
+}
+effect = {
+"en": "\"Held: Each time the holder uses the same move consecutively"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It boosts moves",
+"fr": "\"Objet à tenir. Booste une capacité utilisée à répétition."
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 277
+sprite_path = "res://assets/Items/METRONOME.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vqvq8"]
+
+[resource]
+script = ExtResource("1_vqvq8")
+item_id = 376
+identifier = "tm72"
+names = {
+"en": "TM72",
+"fr": "CT72"
+}
+cost = 50000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Volt Switch to a compatible Pokémon. (Gen IV: Avalanche)"
+}
+effect = {
+"en": "Teaches Avalanche to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user creates a bizarre area in which Pokémon’s",
+"fr": "\"Le lanceur crée une zone mystérieuse où les objets"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 399
+sprite_path = "res://assets/Items/TM72.png"

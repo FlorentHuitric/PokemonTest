@@ -15,7 +15,7 @@ pokemon_id = 551
 branch_code = ""
 names = {
 "en": "Sandile",
-"fr": "Sandile"
+"fr": "Mascaïman"
 }
 generation = 5
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Desert Croc Pokémon",
+"fr": "Pokémon Croco Sable"
+}
 base_stats = {
 "attack": 72,
 "defense": 35,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+"fr": "Il se déplace dans le sable en gardant le nez et les yeux à découvert. La membrane noire protège ses yeux."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 29",
+"condition_fr": "Niveau 29",
+"evolved_pokemon_id": 552,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -745,4 +760,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -13,7 +13,7 @@ pokemon_id = 255
 branch_code = ""
 names = {
 "en": "Torchic",
-"fr": "Torchic"
+"fr": "Poussifeu"
 }
 generation = 3
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Chick Pokémon",
+"fr": "Pokémon Poussin"
+}
 base_stats = {
 "attack": 60,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/255.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/255.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/255.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+"fr": "Ses câlins réchauffent car il renferme une fournaise. Il envoie des boules de feu à 1 000 °C."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 16",
+"condition_fr": "Niveau 16",
+"evolved_pokemon_id": 256,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -851,4 +866,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 488,
 "tm_id": ""
-}]
+}])

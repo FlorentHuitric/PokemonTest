@@ -18,8 +18,8 @@ accuracy = 0
 pp = 1
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "This attack is used in desperation only if the user has no PP. It also damages the user a little.",
+"fr": "Une attaque désespérée, utilisée quand le lanceur n’a plus de PP. Le blesse aussi légèrement."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 8
+move_target_name = {
+"en": "Random opponent",
+"fr": "Adversaire aléatoire"
+}
+move_target_description = {
+"en": "One opposing Pokémon, selected at random.",
+"fr": "Un Pokémon adverse, sélectionné au hasard."
+}
+move_effect_id = 255
+move_effect_short = {
+"en": "User takes 1/4 its max HP in recoil."
+}
+metadata/move_target_id = 8
+metadata/move_effect_id = 255
+metadata/effect_chance = 0

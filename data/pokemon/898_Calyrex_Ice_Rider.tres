@@ -12,8 +12,8 @@ script = ExtResource("2_shkg3")
 pokemon_id = 898
 branch_code = ""
 names = {
-"en": "Calyrex Ice Rider",
-"fr": "Calyrex Ice Rider"
+"en": "Calyrex",
+"fr": "Sylveroy"
 }
 generation = 8
 height = 2.4
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "King Pokémon",
+"fr": "Pokémon Roi"
+}
 base_stats = {
 "attack": 165,
 "defense": 150,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -491,4 +496,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

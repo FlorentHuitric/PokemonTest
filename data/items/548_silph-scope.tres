@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6t3aj"]
+
+[resource]
+script = ExtResource("1_6t3aj")
+item_id = 548
+identifier = "silph-scope"
+names = {
+"en": "Silph Scope",
+"fr": "Scope Sylphe"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to identify the true forms of ghosts in Pokémon Tower."
+}
+effect = {
+"en": "Identifies ghosts in []{location:pokemon-tower}."
+}
+flavor_text = {
+"en": "\"A scope that lets you see what cannot usually be seen.",
+"fr": "\"Un appareil permettant de voir les Pokémon invisibles."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 359
+sprite_path = "res://assets/Items/SILPHSCOPE.png"

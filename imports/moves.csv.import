@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cnav4iho2rlbq"
+
+[deps]
+
+files=["res://imports/moves.identifier.translation", "res://imports/moves.generation.translation", "res://imports/moves.type.translation", "res://imports/moves.power.translation", "res://imports/moves.pp.translation", "res://imports/moves.accuracy.translation", "res://imports/moves.priority.translation", "res://imports/moves.target.translation", "res://imports/moves.damage.translation", "res://imports/moves.effect.translation", "res://imports/moves.effect.translation", "res://imports/moves.contest.translation", "res://imports/moves.contest.translation", "res://imports/moves.super.translation"]
+
+source_file="res://imports/moves.csv"
+dest_files=["res://imports/moves.identifier.translation", "res://imports/moves.generation.translation", "res://imports/moves.type.translation", "res://imports/moves.power.translation", "res://imports/moves.pp.translation", "res://imports/moves.accuracy.translation", "res://imports/moves.priority.translation", "res://imports/moves.target.translation", "res://imports/moves.damage.translation", "res://imports/moves.effect.translation", "res://imports/moves.effect.translation", "res://imports/moves.contest.translation", "res://imports/moves.contest.translation", "res://imports/moves.super.translation"]
+
+[params]
+
+compress=true
+delimiter=0

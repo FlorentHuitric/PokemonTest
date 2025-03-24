@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dnivy"]
+
+[resource]
+script = ExtResource("1_dnivy")
+item_id = 691
+identifier = "rich-mulch"
+names = {
+"en": "Rich Mulch",
+"fr": "Fertibondance"
+}
+cost = 200
+category_id = 32
+category_name = {
+"en": "Mulch"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Increases the total number of Berries by 2."
+}
+effect = {
+"en": "Increases the total number of Berries by 2."
+}
+flavor_text = {
+"en": "\"A fertilizer for growing Berries. However",
+"fr": "\"Un engrais à utiliser sur un sol meuble."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 652
+sprite_path = "res://assets/Items/RICHMULCH.png"

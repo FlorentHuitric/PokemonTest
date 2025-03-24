@@ -14,7 +14,7 @@ pokemon_id = 341
 branch_code = ""
 names = {
 "en": "Corphish",
-"fr": "Corphish"
+"fr": "Écrapince"
 }
 generation = 3
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1640000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ruffian Pokémon",
+"fr": "Pokémon Brute"
+}
 base_stats = {
 "attack": 80,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+"fr": "Sa nature robuste lui permet de vivre sur n’importe quel terrain. Ses pinces ne lâchent jamais prise."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 342,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 10,
 "method": 1,
@@ -924,4 +939,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 534,
 "tm_id": ""
-}]
+}])

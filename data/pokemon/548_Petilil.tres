@@ -14,7 +14,7 @@ pokemon_id = 548
 branch_code = ""
 names = {
 "en": "Petilil",
-"fr": "Petilil"
+"fr": "Chlorobule"
 }
 generation = 5
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bulb Pokémon",
+"fr": "Pokémon Racine"
+}
 base_stats = {
 "attack": 35,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+"fr": "Il aime les zones bien irriguées et riches en nutriments. On sait que là où il vit, les cultures sont florissantes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 80",
+"condition_fr": "Objet 80",
+"evolved_pokemon_id": 549,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -612,4 +627,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

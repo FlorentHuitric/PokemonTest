@@ -15,7 +15,7 @@ pokemon_id = 174
 branch_code = ""
 names = {
 "en": "Igglybuff",
-"fr": "Igglybuff"
+"fr": "Toudoudou"
 }
 generation = 2
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Balloon Pokémon",
+"fr": "Pokémon Bouboule"
+}
 base_stats = {
 "attack": 30,
 "defense": 15,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has a soft and bouncy body. Once it starts bouncing, it becomes impossible to stop.",
+"fr": "Son corps est doux et élastique. Quand il commence à rebondir, on ne peut plus l’arrêter."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 9,
 "method": 1,
@@ -895,4 +900,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 583,
 "tm_id": ""
-}]
+}])

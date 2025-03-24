@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mime Pokémon",
+"fr": "Pokémon Mime"
+}
 base_stats = {
 "attack": 25,
 "defense": 45,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+"fr": "Il imite les mouvements et les expressions des autres pour comprendre leurs sentiments."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 15,
 "method": 1,
@@ -955,4 +960,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 678,
 "tm_id": ""
-}]
+}])

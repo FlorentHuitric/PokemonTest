@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_m4jd2"]
+
+[resource]
+script = ExtResource("1_m4jd2")
+item_id = 70
+identifier = "shoal-salt"
+names = {
+"en": "Shoal Salt",
+"fr": "Sel Tréfonds"
+}
+cost = 20
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell."
+}
+effect = {
+"en": "No effect."
+}
+flavor_text = {
+"en": "Salt that you found inside Shoal Cave.",
+"fr": "Du sel provenant de la Grotte Tréfonds."
+}
+flags = Array[String](["countable"])
+generation_id = 3
+game_index = 46
+sprite_path = "res://assets/Items/SHOALSALT.png"

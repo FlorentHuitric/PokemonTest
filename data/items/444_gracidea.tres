@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_py078"]
+
+[resource]
+script = ExtResource("1_py078")
+item_id = 444
+identifier = "gracidea"
+names = {
+"en": "Gracidea",
+"fr": "Gracidée"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Changes an unfrozen Shaymin to Sky Forme in the day."
+}
+effect = {
+"en": "\"Used by trainer on a []{pokemon:shaymin}"
+}
+flavor_text = {
+"en": "\"A flower sometimes bundled in bouquets to convey",
+"fr": "\"Une fleur que l’on offre en gage de reconnaissance"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 466
+sprite_path = "res://assets/Items/GRACIDEA.png"

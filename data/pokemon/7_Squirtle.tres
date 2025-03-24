@@ -13,7 +13,7 @@ pokemon_id = 7
 branch_code = ""
 names = {
 "en": "Squirtle",
-"fr": "Squirtle"
+"fr": "Carapuce"
 }
 generation = 1
 height = 0.5
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tiny Turtle Pokémon",
+"fr": "Pokémon Minitortue"
+}
 base_stats = {
 "attack": 48,
 "defense": 65,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+"fr": "Il se réfugie dans sa carapace et réplique en éclaboussant l’ennemi à la première occasion."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 16",
+"condition_fr": "Niveau 16",
+"evolved_pokemon_id": 8,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1145,4 +1160,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

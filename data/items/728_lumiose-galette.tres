@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gtldq"]
+
+[resource]
+script = ExtResource("1_gtldq")
+item_id = 728
+identifier = "lumiose-galette"
+names = {
+"en": "Lumiose Galette",
+"fr": "Galette Illumis"
+}
+cost = 350
+category_id = 30
+category_name = {
+"en": "Status cures"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Cures all major status ailments and confusion."
+}
+effect = {
+"en": "Cures all major status ailments and confusion."
+}
+flavor_text = {
+"en": "\"A popular treat in Lumiose City. It can be used once",
+"fr": "\"Une spécialité d’Illumis."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 708
+sprite_path = "res://assets/Items/LUMIOSEGALETTE.png"

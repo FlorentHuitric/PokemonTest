@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_t20kp"]
+
+[resource]
+script = ExtResource("1_t20kp")
+item_id = 528
+identifier = "acro-bike"
+names = {
+"en": "Acro Bike",
+"fr": "Vélo Cross"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"More maneuverable than the Mach Bike"
+}
+effect = {
+"en": " and allows hopping along rails.\""
+}
+flavor_text = {
+"en": "\"This folding bike allows you to perform actions",
+"fr": "\"Un vélo pliable qui permet de bondir et de rouler"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 272
+sprite_path = "res://assets/Items/ACROBIKE.png"

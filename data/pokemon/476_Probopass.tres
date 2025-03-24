@@ -15,7 +15,7 @@ pokemon_id = 476
 branch_code = ""
 names = {
 "en": "Probopass",
-"fr": "Probopass"
+"fr": "Tarinorme"
 }
 generation = 4
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Compass Pokémon",
+"fr": "Pokémon Boussole"
+}
 base_stats = {
 "attack": 55,
 "defense": 145,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It freely controls three small units called Mini-Noses using magnetic force.",
+"fr": "Il utilise sa force magnétique pour diriger trois petites unités appelées Mini-nez."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 302",
+"condition_fr": "Objet 302",
+"evolved_pokemon_id": 477,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -817,4 +832,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

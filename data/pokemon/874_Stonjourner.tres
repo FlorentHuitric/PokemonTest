@@ -12,7 +12,7 @@ pokemon_id = 874
 branch_code = ""
 names = {
 "en": "Stonjourner",
-"fr": "Stonjourner"
+"fr": "Dolman"
 }
 generation = 8
 height = 2.5
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Big Rock Pokémon",
+"fr": "Pokémon Mégalithe"
+}
 base_stats = {
 "attack": 125,
 "defense": 135,
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 24,
 "method": 1,
@@ -394,4 +399,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

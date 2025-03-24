@@ -14,7 +14,7 @@ pokemon_id = 234
 branch_code = ""
 names = {
 "en": "Stantler",
-"fr": "Stantler"
+"fr": "Cerfrousse"
 }
 generation = 2
 height = 1.4
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Big Horn Pokémon",
+"fr": "Pokémon Maxi Corne"
+}
 base_stats = {
 "attack": 95,
 "defense": 62,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+"fr": "Quiconque observe ses antennes ressent une sensation étrange, comme si leur centre l’attirait."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 23,
 "method": 1,
@@ -918,4 +923,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

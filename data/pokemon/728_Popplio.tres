@@ -13,7 +13,7 @@ pokemon_id = 728
 branch_code = ""
 names = {
 "en": "Popplio",
-"fr": "Popplio"
+"fr": "Otaquin"
 }
 generation = 7
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Lion Pokémon",
+"fr": "Pokémon Otarie"
+}
 base_stats = {
 "attack": 54,
 "defense": 54,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 17",
+"condition_fr": "Niveau 17",
+"evolved_pokemon_id": 729,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -641,4 +656,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

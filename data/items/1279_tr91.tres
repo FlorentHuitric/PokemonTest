@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_biyun"]
+
+[resource]
+script = ExtResource("1_biyun")
+item_id = 1279
+identifier = "tr91"
+names = {
+"en": "TR91",
+"fr": "DT91"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Opposing Pokémon are drenched in an odd",
+"fr": "\"Sécrète un liquide empoisonné."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1221
+sprite_path = "res://assets/Items/TR91.png"

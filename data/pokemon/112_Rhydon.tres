@@ -15,7 +15,7 @@ pokemon_id = 112
 branch_code = ""
 names = {
 "en": "Rhydon",
-"fr": "Rhydon"
+"fr": "Rhinoféros"
 }
 generation = 1
 height = 1.9
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Drill Pokémon",
+"fr": "Pokémon Perceur"
+}
 base_stats = {
 "attack": 130,
 "defense": 120,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/112.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/112.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/112.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+"fr": "La station debout a libéré ses pattes avant et l’a rendu plus intelligent, mais il est distrait."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 110 + Time: day",
+"condition_fr": "Objet 110 + Moment: jour",
+"evolved_pokemon_id": 113,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1561,4 +1576,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -13,7 +13,7 @@ pokemon_id = 418
 branch_code = ""
 names = {
 "en": "Buizel",
-"fr": "Buizel"
+"fr": "Mustébouée"
 }
 generation = 4
 height = 0.7
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Weasel Pokémon",
+"fr": "Pokémon Aquabelette"
+}
 base_stats = {
 "attack": 65,
 "defense": 35,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/418.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/418.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/418.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+"fr": "Il utilise ses deux queues comme une hélice pour se propulser sous l’eau et trancher les algues."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 26",
+"condition_fr": "Niveau 26",
+"evolved_pokemon_id": 419,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -641,4 +656,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 270,
 "tm_id": ""
-}]
+}])

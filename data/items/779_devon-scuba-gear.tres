@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qvywf"]
+
+[resource]
+script = ExtResource("1_qvywf")
+item_id = 779
+identifier = "devon-scuba-gear"
+names = {
+"en": "Devon Scuba Gear",
+"fr": "Plongeur Devon"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Worn by the player while underwater."
+}
+effect = {
+"en": "Worn by the player while underwater via Dive in Omega Ruby and Alpha Sapphire."
+}
+flavor_text = {
+"en": "\"A device made by Devon Corporation that provides",
+"fr": "\"Un masque à oxygène fabriqué par la société Devon"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 738
+sprite_path = "res://assets/Items/DEVONSCUBAGEAR.png"

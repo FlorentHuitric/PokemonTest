@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3m0n6"]
+
+[resource]
+script = ExtResource("1_3m0n6")
+item_id = 675
+identifier = "shiny-charm"
+names = {
+"en": "Shiny Charm",
+"fr": "Charme Chroma"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises the chance of finding a shiny Pokémon."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"A shiny charm said to increase the chance of",
+"fr": "\"Un mystérieux charme scintillant qui facilite la rencontre"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 632
+sprite_path = "res://assets/Items/SHINYCHARM.png"

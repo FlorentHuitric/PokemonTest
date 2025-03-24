@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qmsat"]
+
+[resource]
+script = ExtResource("1_qmsat")
+item_id = 1290
+identifier = "adamant-mint"
+names = {
+"en": "Adamant Mint",
+"fr": "Aromate Rigide"
+}
+cost = 20
+category_id = 50
+category_name = {
+"en": "Nature mints"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"When a Pokémon smells this mint",
+"fr": "\"Si un Pokémon hume cet aromate"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1232
+sprite_path = "res://assets/Items/ADAMANTMINT.png"

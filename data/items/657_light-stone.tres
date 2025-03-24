@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6r3l4"]
+
+[resource]
+script = ExtResource("1_6r3l4")
+item_id = 657
+identifier = "light-stone"
+names = {
+"en": "Light Stone",
+"fr": "Galet Blanc"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Summons Reshiram for the final battle against N."
+}
+effect = {
+"en": "Summons []{pokemon:reshiram} for the final battle against N."
+}
+flavor_text = {
+"en": "\"Reshiram’s body was destroyed and changed into",
+"fr": "\"Ce sont les derniers restes du corps de Reshiram."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 616
+sprite_path = "res://assets/Items/LIGHTSTONE.png"

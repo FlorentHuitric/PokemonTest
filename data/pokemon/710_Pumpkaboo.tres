@@ -15,7 +15,7 @@ pokemon_id = 710
 branch_code = "710_3"
 names = {
 "en": "Pumpkaboo",
-"fr": "Pumpkaboo Super"
+"fr": "Pitrouille"
 }
 generation = 6
 height = 0.8
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Pumpkin Pokémon",
+"fr": "Pokémon Citrouille"
+}
 base_stats = {
 "attack": 66,
 "defense": 70,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 711,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -703,4 +718,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

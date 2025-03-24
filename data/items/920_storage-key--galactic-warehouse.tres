@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jiuih"]
+
+[resource]
+script = ExtResource("1_jiuih")
+item_id = 920
+identifier = "storage-key--galactic-warehouse"
+names = {
+"en": "Storage Key",
+"fr": "Clé Stockage"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for storage-key--galactic-warehouse"
+}
+effect = {
+"en": "XXX new effect for storage-key--galactic-warehouse"
+}
+flavor_text = {
+"en": "\"The key to Team Galactic’s sinister warehouse",
+"fr": "\"La clé de l’entrepôt de la Team Galaxie situé à"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 463
+sprite_path = "res://assets/Items/STORAGEKEYGALACTICWAREHOUSE.png"

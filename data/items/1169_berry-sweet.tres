@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_58f7m"]
+
+[resource]
+script = ExtResource("1_58f7m")
+item_id = 1169
+identifier = "berry-sweet"
+names = {
+"en": "Berry Sweet",
+"fr": "Baie en Sucre"
+}
+cost = 500
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A berry-shaped sweet. When a Milcery",
+"fr": "\"Un bonbon en forme de Baie."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1111
+sprite_path = "res://assets/Items/BERRYSWEET.png"

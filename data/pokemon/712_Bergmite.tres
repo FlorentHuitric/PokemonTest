@@ -14,7 +14,7 @@ pokemon_id = 712
 branch_code = ""
 names = {
 "en": "Bergmite",
-"fr": "Bergmite"
+"fr": "Grelaçon"
 }
 generation = 6
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ice Chunk Pokémon",
+"fr": "Pokémon Glaçon"
+}
 base_stats = {
 "attack": 69,
 "defense": 85,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 713,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -564,4 +579,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 694,
 "tm_id": ""
-}]
+}])

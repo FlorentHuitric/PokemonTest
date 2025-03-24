@@ -14,7 +14,7 @@ pokemon_id = 373
 branch_code = ""
 names = {
 "en": "Salamence",
-"fr": "Salamence"
+"fr": "Drattak"
 }
 generation = 3
 height = 1.5
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 135,
 "defense": 80,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+"fr": "À force de rêver de pouvoir voler, sa structure cellulaire a évolué et il s’est vu pousser des ailes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -984,4 +989,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

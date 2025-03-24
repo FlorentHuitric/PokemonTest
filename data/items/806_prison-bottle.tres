@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_plxc5"]
+
+[resource]
+script = ExtResource("1_plxc5")
+item_id = 806
+identifier = "prison-bottle"
+names = {
+"en": "Prison Bottle",
+"fr": "Vase Scellé"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Transforms Hoopa into its Unbound form for up to three days."
+}
+effect = {
+"en": "Transforms Hoopa into its Unbound form for up to three days."
+}
+flavor_text = {
+"en": "\"A bottle believed to have been used to seal away",
+"fr": "\"Récipient utilisé il y a fort longtemps pour sceller"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 765
+sprite_path = "res://assets/Items/PRISONBOTTLE.png"

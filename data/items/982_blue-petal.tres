@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_f1mdl"]
+
+[resource]
+script = ExtResource("1_f1mdl")
+item_id = 982
+identifier = "blue-petal"
+names = {
+"en": "Blue Petal",
+"fr": "Pétale Bleu"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for blue-petal"
+}
+effect = {
+"en": "XXX new effect for blue-petal"
+}
+flavor_text = {
+"en": "\"A pressed flower petal you receive from Lana",
+"fr": "\"Un pétale pressé que Néphie vous a remis lors"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 936
+sprite_path = "res://assets/Items/BLUEPETAL.png"

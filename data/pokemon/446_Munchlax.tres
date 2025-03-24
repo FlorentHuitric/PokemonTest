@@ -14,7 +14,7 @@ pokemon_id = 446
 branch_code = ""
 names = {
 "en": "Munchlax",
-"fr": "Munchlax"
+"fr": "Goinfrex"
 }
 generation = 4
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Big Eater Pokémon",
+"fr": "Pokémon Goinfre"
+}
 base_stats = {
 "attack": 85,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "In its desperation to gulp down food, it forgets about the food it has hidden under its fur.",
+"fr": "Obnubilé par sa quête incessante de nourriture, il oublie parfois qu’il en a caché dans sa fourrure."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -1026,4 +1031,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

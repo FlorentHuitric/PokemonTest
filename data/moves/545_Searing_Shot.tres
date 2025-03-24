@@ -18,8 +18,8 @@ accuracy = 100
 pp = 5
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+"fr": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,20 @@ crit_rate = 0
 ailment_chance = 30
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 9
+move_target_name = {
+"en": "All other Pokémon",
+"fr": "Tous les autres Pokémon"
+}
+move_target_description = {
+"en": "Every other Pokémon on the field.",
+"fr": "Tous les autres Pokémon sur le terrain."
+}
+move_effect_id = 5
+move_effect_short = {
+"en": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
+"fr": "A $effect_chance% de chances de [brûler]{mechanic:burn} la cible."
+}
+metadata/move_target_id = 9
+metadata/move_effect_id = 5
+metadata/effect_chance = 30

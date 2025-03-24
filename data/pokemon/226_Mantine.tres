@@ -15,7 +15,7 @@ pokemon_id = 226
 branch_code = ""
 names = {
 "en": "Mantine",
-"fr": "Mantine"
+"fr": "Démanta"
 }
 generation = 2
 height = 2.1
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Kite Pokémon",
+"fr": "Pokémon Cervolant"
+}
 base_stats = {
 "attack": 40,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+"fr": "Il ignore royalement les Rémoraid qui s’accrochent à ses nageoires pour manger les restes qu’il sème."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 40,
 "method": 1,
@@ -1027,4 +1032,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

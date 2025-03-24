@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ufrtv"]
+
+[resource]
+script = ExtResource("1_ufrtv")
+item_id = 701
+identifier = "mewtwonite-x"
+names = {
+"en": "Mewtwonite X",
+"fr": "Mewtwoïte X"
+}
+cost = 0
+category_id = 44
+category_name = {
+"en": "Mega Stones"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Mewtwo to Mega Evolve into Mega Mewtwo X."
+}
+effect = {
+"en": "Held: Allows Mewtwo to Mega Evolve into Mega Mewtwo X."
+}
+flavor_text = {
+"en": "\"One of a variety of mysterious Mega Stones.",
+"fr": "\"Une variété de Méga-Gemme."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 662
+sprite_path = "res://assets/Items/MEWTWONITEX.png"

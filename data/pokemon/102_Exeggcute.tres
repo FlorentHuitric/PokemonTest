@@ -14,7 +14,7 @@ pokemon_id = 102
 branch_code = ""
 names = {
 "en": "Exeggcute",
-"fr": "Exeggcute"
+"fr": "Noeunoeuf"
 }
 generation = 1
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Egg Pokémon",
+"fr": "Pokémon Œuf"
+}
 base_stats = {
 "attack": 40,
 "defense": 80,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+"fr": "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 85",
+"condition_fr": "Objet 85",
+"evolved_pokemon_id": 103,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1008,4 +1023,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

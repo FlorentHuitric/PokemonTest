@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8eq5m"]
+
+[resource]
+script = ExtResource("1_8eq5m")
+item_id = 15
+identifier = "quick-ball"
+names = {
+"en": "Quick Ball",
+"fr": "Rapide Ball"
+}
+cost = 1000
+category_id = 33
+category_name = {
+"en": "Special balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×)"
+}
+effect = {
+"en": " but only on the first turn.\""
+}
+flavor_text = {
+"en": "\"A somewhat different Poké Ball that has a more",
+"fr": "\"Une Poké Ball qui permet d’attraper un Pokémon"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 4
+game_index = 15
+sprite_path = "res://assets/Items/QUICKBALL.png"

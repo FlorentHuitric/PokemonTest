@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3su3e"]
+
+[resource]
+script = ExtResource("1_3su3e")
+item_id = 81
+identifier = "moon-stone"
+names = {
+"en": "Moon Stone",
+"fr": "Pierre Lune"
+}
+cost = 3000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Evolves a Clefairy into Clefable"
+}
+effect = {
+"en": " a Jigglypuff into Wigglytuff"
+}
+flavor_text = {
+"en": "\"A peculiar stone that can make certain species of",
+"fr": "\"Une pierre étrange qui fait évoluer certaines espèces"
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 94
+sprite_path = "res://assets/Items/MOONSTONE.png"

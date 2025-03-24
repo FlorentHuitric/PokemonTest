@@ -13,7 +13,7 @@ pokemon_id = 812
 branch_code = ""
 names = {
 "en": "Rillaboom",
-"fr": "Rillaboom"
+"fr": "Gorythmic"
 }
 generation = 8
 height = 2.1
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Drummer Pokémon",
+"fr": "Pokémon Batteur"
+}
 base_stats = {
 "attack": 125,
 "defense": 90,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -533,4 +538,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

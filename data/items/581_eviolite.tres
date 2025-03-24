@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_drhfd"]
+
+[resource]
+script = ExtResource("1_drhfd")
+item_id = 581
+identifier = "eviolite"
+names = {
+"en": "Eviolite",
+"fr": "Évoluroc"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 40
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Holder has 1.5× Defense and Special Defense"
+}
+effect = {
+"en": " as long as it's not fully evolved.\""
+}
+flavor_text = {
+"en": "\"A mysterious evolutionary lump. When held by a",
+"fr": "\"Objet à tenir. Un étrange concentré d’évolution"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 538
+sprite_path = "res://assets/Items/EVIOLITE.png"

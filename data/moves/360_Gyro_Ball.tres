@@ -18,8 +18,8 @@ accuracy = 100
 pp = 5
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+"fr": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 220
+move_effect_short = {
+"en": "Power raises when the user has lower Speed, up to a maximum of 150."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 220
+metadata/effect_chance = 0

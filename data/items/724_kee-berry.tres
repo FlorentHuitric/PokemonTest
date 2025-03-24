@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_wm5io"]
+
+[resource]
+script = ExtResource("1_wm5io")
+item_id = 724
+identifier = "kee-berry"
+names = {
+"en": "Kee Berry",
+"fr": "Baie Éka"
+}
+cost = 80
+category_id = 4
+category_name = {
+"en": "Other",
+"fr": "Autre"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "\"Held: When the holder is hit by a physical move"
+}
+effect = {
+"en": " increases its Defense by one stage.\""
+}
+flavor_text = {
+"en": "\"If held by a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 687
+sprite_path = "res://assets/Items/KEEBERRY.png"

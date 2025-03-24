@@ -13,7 +13,7 @@ pokemon_id = 419
 branch_code = ""
 names = {
 "en": "Floatzel",
-"fr": "Floatzel"
+"fr": "Mustéflott"
 }
 generation = 4
 height = 1.1
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Weasel Pokémon",
+"fr": "Pokémon Aquabelette"
+}
 base_stats = {
 "attack": 105,
 "defense": 55,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/419.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/419.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/419.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
+"fr": "Il chasse souvent près des ports de pêche où il sauve parfois les gens tombés à la mer."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 50,
 "method": 1,
@@ -629,4 +634,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

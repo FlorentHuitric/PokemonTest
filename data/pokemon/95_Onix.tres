@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rock Snake Pokémon",
+"fr": "Pokémon Serpenroc"
+}
 base_stats = {
 "attack": 45,
 "defense": 160,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It burrows through the ground at a speed of 50 mph while feeding on large boulders.",
+"fr": "Il se nourrit des pierres qu’il rencontre en creusant le sol. Il peut creuser à 80 km/h!"
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 15,
 "method": 1,
@@ -1339,4 +1344,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

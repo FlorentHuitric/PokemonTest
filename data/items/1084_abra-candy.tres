@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gpqy8"]
+
+[resource]
+script = ExtResource("1_gpqy8")
+item_id = 1084
+identifier = "abra-candy"
+names = {
+"en": "Abra Candy",
+"fr": "Bonbon Abra"
+}
+cost = 20
+category_id = 47
+category_name = {
+"en": "Species candies"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A candy that is packed with energy. When given to",
+"fr": "\"Un bonbon plein d’énergie."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 1004
+sprite_path = "res://assets/Items/ABRACANDY.png"

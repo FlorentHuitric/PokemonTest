@@ -12,7 +12,7 @@ pokemon_id = 604
 branch_code = ""
 names = {
 "en": "Eelektross",
-"fr": "Eelektross"
+"fr": "Ohmassacre"
 }
 generation = 5
 height = 2.1
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "EleFish Pokémon",
+"fr": "Pokémon Électrophore"
+}
 base_stats = {
 "attack": 115,
 "defense": 80,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+"fr": "Il s’attache à ses proies avec sa bouche-ventouse et les électrocute avec ses crocs."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -526,4 +531,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

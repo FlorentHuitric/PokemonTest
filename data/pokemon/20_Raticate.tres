@@ -14,7 +14,7 @@ pokemon_id = 20
 branch_code = ""
 names = {
 "en": "Raticate",
-"fr": "Raticate"
+"fr": "Rattatac"
 }
 generation = 1
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 81,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/20.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/20.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/20.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+"fr": "Il grignote sans cesse pour apaiser la poussée de ses crocs. Il peut transpercer un mur de parpaings."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -864,4 +869,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 389,
 "tm_id": ""
-}]
+}])

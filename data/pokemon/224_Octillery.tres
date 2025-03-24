@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Jet Pokémon",
+"fr": "Pokémon Jet"
+}
 base_stats = {
 "attack": 105,
 "defense": 75,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/224.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/224.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/224.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
+"fr": "Il adore se cacher dans les fissures de la roche. Il crache parfois de l’encre sur ses proies."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -900,4 +905,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

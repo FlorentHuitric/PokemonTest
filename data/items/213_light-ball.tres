@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_oylih"]
+
+[resource]
+script = ExtResource("1_oylih")
+item_id = 213
+identifier = "light-ball"
+names = {
+"en": "Light Ball",
+"fr": "Balle Lumière"
+}
+cost = 1000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 5
+fling_effect = {
+"en": "Paralyzes the target.",
+"fr": "Paralyse la cible."
+}
+short_effect = {
+"en": "Doubles Pikachu's Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle."
+}
+effect = {
+"en": "Held by Pikachu: Doubles the holder's initial Attack and Special Attack."
+}
+flavor_text = {
+"en": "\"An item to be held by Pikachu. It’s a puzzling orb",
+"fr": "\"Objet à faire tenir à Pikachu."
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 202
+sprite_path = "res://assets/Items/LIGHTBALL.png"

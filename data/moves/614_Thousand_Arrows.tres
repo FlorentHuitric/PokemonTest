@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+"fr": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 100
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 373
+move_effect_short = {
+"en": "Grounds the target, and hits even Flying-type or levitating Pokémon."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 373
+metadata/effect_chance = 100

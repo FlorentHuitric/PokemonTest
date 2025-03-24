@@ -12,7 +12,8 @@ script = ExtResource("2_avyyj")
 pokemon_id = 448
 branch_code = ""
 names = {
-"en": "Mega Lucario"
+"en": "Lucario",
+"fr": "Lucario"
 }
 generation = 4
 height = 1.3
@@ -33,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Aura Pokémon",
+"fr": "Pokémon Aura"
+}
 base_stats = {
 "attack": 145,
 "defense": 88,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+"fr": "Un spécimen bien entraîné peut sentir et identifier les émotions de quelqu’un à plus d’un kilomètre."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 4,
 "level": 33,
 "method": 1,
@@ -1084,4 +1090,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

@@ -12,7 +12,8 @@ script = ExtResource("2_h81nd")
 pokemon_id = 877
 branch_code = ""
 names = {
-"en": "Morpeko Hangry Mode"
+"en": "Morpeko",
+"fr": "Morpeko"
 }
 generation = 8
 height = 0.3
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Two-Sided Pokémon",
+"fr": "Pokémon Volt Face"
+}
 base_stats = {
 "attack": 95,
 "defense": 58,
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -490,4 +496,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

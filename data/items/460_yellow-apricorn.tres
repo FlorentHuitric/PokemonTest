@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1nera"]
+
+[resource]
+script = ExtResource("1_1nera")
+item_id = 460
+identifier = "yellow-apricorn"
+names = {
+"en": "Yellow Apricorn",
+"fr": "Noigrume Jaune"
+}
+cost = 200
+category_id = 40
+category_name = {
+"en": "Apricorn Box"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to make a Moon Ball."
+}
+effect = {
+"en": "May be given to Kurt in []{location:azalea-town} to produce a []{item:moon-ball}."
+}
+flavor_text = {
+"en": "A yellow Apricorn. It has an invigorating scent.",
+"fr": "\"Un Noigrume de couleur jaune."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 486
+sprite_path = "res://assets/Items/YELLOWAPRICORN.png"

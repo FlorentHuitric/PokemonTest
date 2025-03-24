@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_7bamu"]
+
+[resource]
+script = ExtResource("1_7bamu")
+item_id = 374
+identifier = "tm70"
+names = {
+"en": "TM70",
+"fr": "CT70"
+}
+cost = 50000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Flash to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Flash to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user creates a bizarre area in which slower",
+"fr": "\"Le lanceur crée une zone mystérieuse où les Pokémon"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 397
+sprite_path = "res://assets/Items/TM70.png"

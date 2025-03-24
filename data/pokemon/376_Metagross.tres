@@ -14,7 +14,7 @@ pokemon_id = 376
 branch_code = ""
 names = {
 "en": "Metagross",
-"fr": "Metagross"
+"fr": "Métalosse"
 }
 generation = 3
 height = 1.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Leg Pokémon",
+"fr": "Pokémon Pattefer"
+}
 base_stats = {
 "attack": 135,
 "defense": 130,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+"fr": "Il est né de la fusion de plusieurs Métang. Ses quatre cerveaux en font l’égal d’un superordinateur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1038,4 +1043,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gibcd"]
+
+[resource]
+script = ExtResource("1_gibcd")
+item_id = 1655
+identifier = "dynite-ore"
+names = {
+"en": "Dynite Ore",
+"fr": "Dynamaxium"
+}
+cost = 20
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Mysterious ore that can be obtained in the Max Lair.",
+"fr": "\"Un minerai mystérieux que l’on trouve dans le Grand"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1604
+sprite_path = "res://assets/Items/DYNITEORE.png"

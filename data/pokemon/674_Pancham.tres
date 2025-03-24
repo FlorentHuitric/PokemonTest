@@ -14,7 +14,7 @@ pokemon_id = 674
 branch_code = ""
 names = {
 "en": "Pancham",
-"fr": "Pancham"
+"fr": "Pandespiègle"
 }
 generation = 6
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Playful Pokémon",
+"fr": "Pokémon Garnement"
+}
 base_stats = {
 "attack": 82,
 "defense": 62,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 32",
+"condition_fr": "Niveau 32",
+"evolved_pokemon_id": 675,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 12,
 "method": 1,
@@ -810,4 +825,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

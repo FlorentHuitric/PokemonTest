@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Paleozoic Pokémon",
+"fr": "Pokémon Paléozoïque"
+}
 base_stats = {
 "attack": 120,
 "defense": 95,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+"fr": "Un Pokémon Insecte des temps anciens modifié par la Team Plasma. Le canon dans son dos a été grandement amélioré."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -767,4 +772,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

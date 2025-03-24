@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_126lu"]
+
+[resource]
+script = ExtResource("1_126lu")
+item_id = 1179
+identifier = "blunder-policy"
+names = {
+"en": "Blunder Policy",
+"fr": "Assurance Échec"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Raises Speed sharply when a Pokémon misses with a",
+"fr": "\"Si un Pokémon manque sa cible parce qu’une capacité"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1121
+sprite_path = "res://assets/Items/BLUNDERPOLICY.png"

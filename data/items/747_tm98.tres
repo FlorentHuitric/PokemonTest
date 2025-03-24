@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_d2q03"]
+
+[resource]
+script = ExtResource("1_d2q03")
+item_id = 747
+identifier = "tm98"
+names = {
+"en": "TM98",
+"fr": "CT98"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches a Pokémon TM98."
+}
+effect = {
+"en": "Teaches a Pokémon TM98."
+}
+flavor_text = {
+"en": "\"Driven by frustration",
+"fr": "\"Le lanceur attaque en utilisant sa frustration. S’il a"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 692
+sprite_path = "res://assets/Items/TM98.png"

@@ -15,7 +15,7 @@ pokemon_id = 303
 branch_code = ""
 names = {
 "en": "Mawile",
-"fr": "Mawile"
+"fr": "Mysdibule"
 }
 generation = 3
 height = 0.6
@@ -36,6 +36,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Deceiver Pokémon",
+"fr": "Pokémon Trompeur"
+}
 base_stats = {
 "attack": 85,
 "defense": 85,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+"fr": "Ses cornes forment une grande mâchoire attachée à sa tête. Elle peut broyer des barres de fer."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 21,
 "method": 1,
@@ -1201,4 +1206,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

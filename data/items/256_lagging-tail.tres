@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_lmybs"]
+
+[resource]
+script = ExtResource("1_lmybs")
+item_id = 256
+identifier = "lagging-tail"
+names = {
+"en": "Lagging Tail",
+"fr": "Ralentiqueue"
+}
+cost = 4000
+category_id = 15
+category_name = {
+"en": "Bad held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder moves last in its priority bracket."
+}
+effect = {
+"en": "\"Held: The holder will go last within its move's priority bracket"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It is tremendously",
+"fr": "Objet à tenir extrêmement lourd qui ralentit le porteur."
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 279
+sprite_path = "res://assets/Items/LAGGINGTAIL.png"

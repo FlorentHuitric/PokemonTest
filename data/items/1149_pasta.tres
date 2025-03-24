@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kxljc"]
+
+[resource]
+script = ExtResource("1_kxljc")
+item_id = 1149
+identifier = "pasta"
+names = {
+"en": "Pasta",
+"fr": "Pâtes"
+}
+cost = 150
+category_id = 51
+category_name = {
+"en": "Curry ingredients"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"One of the many ingredients that can be used for",
+"fr": "\"Un ingrédient de cuisine pour le camping."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1089
+sprite_path = "res://assets/Items/PASTA.png"

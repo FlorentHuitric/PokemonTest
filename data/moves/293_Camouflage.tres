@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+"fr": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 214
+move_effect_short = {
+"en": "User's type changes to match the terrain."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 214
+metadata/effect_chance = 0

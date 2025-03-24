@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pk7ge"]
+
+[resource]
+script = ExtResource("1_pk7ge")
+item_id = 178
+identifier = "liechi-berry"
+names = {
+"en": "Liechi Berry",
+"fr": "Baie Lichii"
+}
+cost = 80
+category_id = 5
+category_name = {
+"en": "In a pinch",
+"fr": "En cas de besoin"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "Held: Consumed at 1/4 max HP to boost Attack."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 168
+sprite_path = "res://assets/Items/LIECHIBERRY.png"

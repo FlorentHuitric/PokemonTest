@@ -14,7 +14,7 @@ pokemon_id = 598
 branch_code = ""
 names = {
 "en": "Ferrothorn",
-"fr": "Ferrothorn"
+"fr": "Noacier"
 }
 generation = 5
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Thorn Pod Pokémon",
+"fr": "Pokémon Boule Épine"
+}
 base_stats = {
 "attack": 94,
 "defense": 131,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+"fr": "Il s’accroche aux plafonds des grottes et attaque les proies qui passent en dessous avec ses épines d’acier."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -714,4 +719,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

@@ -15,7 +15,7 @@ pokemon_id = 198
 branch_code = ""
 names = {
 "en": "Murkrow",
-"fr": "Murkrow"
+"fr": "Cornèbre"
 }
 generation = 2
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Darkness Pokémon",
+"fr": "Pokémon Obscurité"
+}
 base_stats = {
 "attack": 85,
 "defense": 42,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/198.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/198.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/198.png"
 description = {
-"en": "",
-"fr": ""
+"en": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+"fr": "Quand il est en danger, il tente de semer ses poursuivants dans les chemins montagneux."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 198",
+"condition_fr": "Objet 198",
+"evolved_pokemon_id": 199,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}, {
+"condition": {},
+"condition_en": "Item 1643",
+"condition_fr": "Objet 1643",
+"evolved_pokemon_id": 199,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -817,4 +842,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

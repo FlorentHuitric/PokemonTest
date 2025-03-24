@@ -12,8 +12,8 @@ script = ExtResource("2_1pvmq")
 pokemon_id = 127
 branch_code = ""
 names = {
-"en": "Mega Pinsir",
-"fr": "Mega Pinsir"
+"en": "Pinsir",
+"fr": "Scarabrute"
 }
 generation = 1
 height = 1.7
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Stag Beetle Pokémon",
+"fr": "Pokémon Scarabée"
+}
 base_stats = {
 "attack": 155,
 "defense": 120,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It grips prey with its pincers until the prey is torn in half. What it can’t tear, it tosses far.",
+"fr": "Il serre les proies dans ses pinces pour les trancher en deux. S’il n’y arrive pas, il les jette au loin."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1133,4 +1138,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dm3kq"]
+
+[resource]
+script = ExtResource("1_dm3kq")
+item_id = 1636
+identifier = "rotom-bike--sparkling-white"
+names = {
+"en": "Rotom Bike",
+"fr": "Moticyclette"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"This bike can do a turbo boost and run on the water",
+"fr": "\"Une bicyclette qui permet de mettre le turbo et de"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1585
+sprite_path = "res://assets/Items/ROTOMBIKESPARKLINGWHITE.png"

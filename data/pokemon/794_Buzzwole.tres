@@ -13,7 +13,7 @@ pokemon_id = 794
 branch_code = ""
 names = {
 "en": "Buzzwole",
-"fr": "Buzzwole"
+"fr": "Mouscoto"
 }
 generation = 7
 height = 2.4
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Swollen Pokémon",
+"fr": "Pokémon Enflé"
+}
 base_stats = {
 "attack": 139,
 "defense": 139,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 7,
 "method": 1,
@@ -683,4 +688,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ahfiw"]
+
+[resource]
+script = ExtResource("1_ahfiw")
+item_id = 687
+identifier = "sachet"
+names = {
+"en": "Sachet",
+"fr": "Sachet Senteur"
+}
+cost = 2000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Traded on a Spritzee: Holder evolves into Aromatisse."
+}
+effect = {
+"en": "Traded on a Spritzee: Holder evolves into Aromatisse."
+}
+flavor_text = {
+"en": "\"A sachet filled with fragrant perfumes that are just",
+"fr": "\"Un sachet d’herbes et d’épices"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 647
+sprite_path = "res://assets/Items/SACHET.png"

@@ -18,8 +18,8 @@ accuracy = 90
 pp = 15
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.",
+"fr": "Le lanceur attaque en offrant un cadeau piégé à la cible. Peut cependant restaurer certains de ses PV."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 123
+move_effect_short = {
+"en": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 123
+metadata/effect_chance = 0

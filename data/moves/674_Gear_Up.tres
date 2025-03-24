@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
+"fr": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Minus."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 13
+move_target_name = {
+"en": "User and allies",
+"fr": "Utilisateur et alliés"
+}
+move_target_description = {
+"en": "The user and its allies.",
+"fr": "L'utilisateur et ses alliés."
+}
+move_effect_id = 392
+move_effect_short = {
+"en": "Raises the Attack and Special Attack of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage."
+}
+metadata/move_target_id = 13
+metadata/move_effect_id = 392
+metadata/effect_chance = 0

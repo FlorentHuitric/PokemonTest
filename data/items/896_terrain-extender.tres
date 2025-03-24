@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2ixbi"]
+
+[resource]
+script = ExtResource("1_2ixbi")
+item_id = 896
+identifier = "terrain-extender"
+names = {
+"en": "Terrain Extender",
+"fr": "Champ’Duit"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 60
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Extends the holder's Terrain effects to 8 turns."
+}
+effect = {
+"en": "\"Held: When the holder changes the Terrain (whether by move or ability)"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It extends the",
+"fr": "\"Objet à tenir. Prolonge la durée des champs"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 879
+sprite_path = "res://assets/Items/TERRAINEXTENDER.png"

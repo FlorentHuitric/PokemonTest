@@ -15,7 +15,7 @@ pokemon_id = 747
 branch_code = ""
 names = {
 "en": "Mareanie",
-"fr": "Mareanie"
+"fr": "Vorastérie"
 }
 generation = 7
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Brutal Star Pokémon",
+"fr": "Pokémon Cruel"
+}
 base_stats = {
 "attack": 53,
 "defense": 62,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 748,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -595,4 +610,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

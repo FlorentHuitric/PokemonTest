@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.",
+"fr": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 402
+move_effect_short = {
+"en": "Nullifies the target's ability if it moves earlier."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 402
+metadata/effect_chance = 0

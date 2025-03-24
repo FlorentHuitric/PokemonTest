@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_enjxc"]
+
+[resource]
+script = ExtResource("1_enjxc")
+item_id = 1019
+identifier = "golden-pinap-berry"
+names = {
+"en": "Golden Pinap Berry",
+"fr": "Baie Nanana dorée"
+}
+cost = 5000
+category_id = 48
+category_name = {
+"en": "Catching bonus"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A Berry that makes you drastically more likely",
+"fr": "\"Une Baie à donner à un Pokémon sauvage pour avoir"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 866
+sprite_path = "res://assets/Items/GOLDENPINAPBERRY.png"

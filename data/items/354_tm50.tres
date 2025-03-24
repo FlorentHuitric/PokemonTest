@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_icsrw"]
+
+[resource]
+script = ExtResource("1_icsrw")
+item_id = 354
+identifier = "tm50"
+names = {
+"en": "TM50",
+"fr": "CT50"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Overheat to a compatible Pokémon. (Gen II: Nightmare Gen I: Substitute)"
+}
+effect = {
+"en": "Teaches Overheat to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user forcefully shoots seeds at the target two",
+"fr": "\"Le lanceur mitraille l’ennemi avec une rafale de graines."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 338
+sprite_path = "res://assets/Items/TM50.png"

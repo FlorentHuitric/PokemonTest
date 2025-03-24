@@ -14,7 +14,7 @@ pokemon_id = 856
 branch_code = ""
 names = {
 "en": "Hatenna",
-"fr": "Hatenna"
+"fr": "Bibichut"
 }
 generation = 8
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Calm Pokémon",
+"fr": "Pokémon Calme"
+}
 base_stats = {
 "attack": 30,
 "defense": 45,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 32",
+"condition_fr": "Niveau 32",
+"evolved_pokemon_id": 857,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 20,
 "method": 1,
@@ -354,4 +369,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

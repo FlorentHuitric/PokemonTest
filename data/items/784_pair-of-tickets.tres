@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gg5vo"]
+
+[resource]
+script = ExtResource("1_gg5vo")
+item_id = 784
+identifier = "pair-of-tickets"
+names = {
+"en": "Pair of Tickets",
+"fr": "Ticket Duo"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows the player and their mother to see the star show in the Mossdeep Space Center."
+}
+effect = {
+"en": "Allows the player and their mother to see the star show in the Mossdeep Space Center."
+}
+flavor_text = {
+"en": "\"Tickets for two to the astronomical show being",
+"fr": "\"Un ticket pour deux personnes pour le spectacle"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 743
+sprite_path = "res://assets/Items/PAIROFTICKETS.png"

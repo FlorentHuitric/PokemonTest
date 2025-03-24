@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fr2ho"]
+
+[resource]
+script = ExtResource("1_fr2ho")
+item_id = 33
+identifier = "moomoo-milk"
+names = {
+"en": "Moomoo Milk",
+"fr": "Lait Meumeu"
+}
+cost = 600
+category_id = 27
+category_name = {
+"en": "Healing"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Restores 100 HP."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A bottle of highly nutritious milk. It can be used to",
+"fr": "\"Un lait très nourrissant."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 29
+sprite_path = "res://assets/Items/MOOMOOMILK.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6hsvg"]
+
+[resource]
+script = ExtResource("1_6hsvg")
+item_id = 746
+identifier = "tm97"
+names = {
+"en": "TM97",
+"fr": "CT97"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches a Pokémon TM97."
+}
+effect = {
+"en": "Teaches a Pokémon TM97."
+}
+flavor_text = {
+"en": "\"The user swings its body around violently to inflict",
+"fr": "\"Le lanceur pivote pour prendre de l’élan et infliger"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 691
+sprite_path = "res://assets/Items/TM97.png"

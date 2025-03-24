@@ -14,7 +14,7 @@ pokemon_id = 659
 branch_code = ""
 names = {
 "en": "Bunnelby",
-"fr": "Bunnelby"
+"fr": "Sapereau"
 }
 generation = 6
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Digging Pokémon",
+"fr": "Pokémon Fouisseur"
+}
 base_stats = {
 "attack": 36,
 "defense": 38,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 660,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 10,
 "method": 1,
@@ -630,4 +645,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

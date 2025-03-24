@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_73pw2"]
+
+[resource]
+script = ExtResource("1_73pw2")
+item_id = 1639
+identifier = "armorite-ore"
+names = {
+"en": "Armorite Ore",
+"fr": "Armurium"
+}
+cost = 20
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Rare ore that can be obtained on the Isle of Armor.",
+"fr": "\"Un minerai rare que l’on trouve à Isolarmure."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1588
+sprite_path = "res://assets/Items/ARMORITEORE.png"

@@ -15,7 +15,7 @@ pokemon_id = 558
 branch_code = ""
 names = {
 "en": "Crustle",
-"fr": "Crustle"
+"fr": "Crabaraque"
 }
 generation = 5
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Stone Home Pokémon",
+"fr": "Pokémon Lapidicole"
+}
 base_stats = {
 "attack": 105,
 "defense": 125,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+"fr": "Il est assez endurant pour voyager des jours durant dans des zones desséchées avec son lourd rocher sur le dos."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -619,4 +624,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

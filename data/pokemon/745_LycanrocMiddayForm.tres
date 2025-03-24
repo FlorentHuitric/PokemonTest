@@ -13,7 +13,8 @@ script = ExtResource("4_hrixi")
 pokemon_id = 745
 branch_code = ""
 names = {
-"en": "Lycanroc Midday Form"
+"en": "Lycanroc",
+"fr": "Lougaroc"
 }
 generation = 7
 height = 0.8
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wolf Pokémon",
+"fr": "Pokémon Loup"
+}
 base_stats = {
 "attack": 115,
 "defense": 65,
@@ -89,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -671,4 +677,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

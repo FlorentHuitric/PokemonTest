@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Long Nose Pokémon",
+"fr": "Pokémon Long-Nez"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+"fr": "Il est fort malgré son aspect ramassé. Il n’a aucun mal à porter un humain adulte sur son dos."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 232,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -671,4 +686,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 667,
 "tm_id": ""
-}]
+}])

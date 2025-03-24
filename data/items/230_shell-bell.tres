@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_0rhcf"]
+
+[resource]
+script = ExtResource("1_0rhcf")
+item_id = 230
+identifier = "shell-bell"
+names = {
+"en": "Shell Bell",
+"fr": "Grelot Coque"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder receives 1/8 of the damage it deals when attacking."
+}
+effect = {
+"en": "Held: Heals the holder by 1/8 of any damage it inflicts."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. The holder",
+"fr": "\"Objet à tenir. Restaure un peu les PV du porteur"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 219
+sprite_path = "res://assets/Items/SHELLBELL.png"

@@ -15,7 +15,7 @@ pokemon_id = 861
 branch_code = ""
 names = {
 "en": "Grimmsnarl",
-"fr": "Grimmsnarl"
+"fr": "Angoliath"
 }
 generation = 8
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bulk Up Pokémon",
+"fr": "Pokémon Gonflette"
+}
 base_stats = {
 "attack": 120,
 "defense": 65,
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 35 + Time: night",
+"condition_fr": "Niveau 35 + Moment: nuit",
+"evolved_pokemon_id": 862,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -541,4 +556,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

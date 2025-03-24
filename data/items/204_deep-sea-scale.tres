@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_5sgeg"]
+
+[resource]
+script = ExtResource("1_5sgeg")
+item_id = 204
+identifier = "deep-sea-scale"
+names = {
+"en": "Deep Sea Scale",
+"fr": "Écaille Océan"
+}
+cost = 2000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Doubles Clamperl's Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss."
+}
+effect = {
+"en": "Held by Clamperl: Doubles the holder's Special Defense.  Evolves the holder into Gorebyss when traded."
+}
+flavor_text = {
+"en": "\"An item to be held by Clamperl. This scale shines",
+"fr": "\"Objet à faire tenir à Coquiperl."
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 193
+sprite_path = "res://assets/Items/DEEPSEASCALE.png"

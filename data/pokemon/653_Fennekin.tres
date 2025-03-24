@@ -13,7 +13,7 @@ pokemon_id = 653
 branch_code = ""
 names = {
 "en": "Fennekin",
-"fr": "Fennekin"
+"fr": "Feunnec"
 }
 generation = 6
 height = 0.4
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Fox Pokémon",
+"fr": "Pokémon Renard"
+}
 base_stats = {
 "attack": 45,
 "defense": 40,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 16",
+"condition_fr": "Niveau 16",
+"evolved_pokemon_id": 654,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -485,4 +500,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 678,
 "tm_id": ""
-}]
+}])

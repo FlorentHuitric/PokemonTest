@@ -14,7 +14,8 @@ script = ExtResource("4_sw5mq")
 pokemon_id = 74
 branch_code = ""
 names = {
-"en": "Alolan Geodude"
+"en": "Geodude",
+"fr": "Racaillou"
 }
 generation = 7
 height = 0.4
@@ -35,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Rock Pokémon",
+"fr": "Pokémon Roche"
+}
 base_stats = {
 "attack": 80,
 "defense": 100,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+"fr": "Au repos, rien ne le distingue d’un vulgaire caillou. Malheur à ceux qui lui marchent dessus par mégarde!"
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 75,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1092,4 +1108,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 446,
 "tm_id": ""
-}]
+}])

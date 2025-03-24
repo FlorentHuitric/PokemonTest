@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3s0ms"]
+
+[resource]
+script = ExtResource("1_3s0ms")
+item_id = 13
+identifier = "dusk-ball"
+names = {
+"en": "Dusk Ball",
+"fr": "Sombre Ball"
+}
+cost = 1000
+category_id = 33
+category_name = {
+"en": "Special balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon.  Success rate is 3.5× at night and in caves."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A somewhat different Poké Ball that makes it",
+"fr": "\"Une Poké Ball efficace de nuit ou dans les endroits"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 4
+game_index = 13
+sprite_path = "res://assets/Items/DUSKBALL.png"

@@ -14,7 +14,8 @@ script = ExtResource("4_nv8la")
 pokemon_id = 423
 branch_code = ""
 names = {
-"en": "Gastrodon East-Sea Form"
+"en": "Gastrodon",
+"fr": "Tritosor"
 }
 generation = 4
 height = 0.9
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Slug Pokémon",
+"fr": "Pokémon Aqualimace"
+}
 base_stats = {
 "attack": 83,
 "defense": 68,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+"fr": "Ses gènes ont démontré qu’il avait jadis une carapace couvrant la totalité de son dos."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Known move 458",
+"condition_fr": "Capacité connue 458",
+"evolved_pokemon_id": 424,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 29,
 "method": 1,
@@ -636,4 +652,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

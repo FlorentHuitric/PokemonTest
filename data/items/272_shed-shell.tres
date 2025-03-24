@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_moj6s"]
+
+[resource]
+script = ExtResource("1_moj6s")
+item_id = 272
+identifier = "shed-shell"
+names = {
+"en": "Shed Shell",
+"fr": "Carapace Mue"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder can bypass all trapping effects and switch out. Multi-turn moves still cannot be switched out of."
+}
+effect = {
+"en": "Held: The holder is unaffected by any moves or abilities that would prevent it from actively leaving battle."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This discarded",
+"fr": "\"Objet à tenir. Une carapace dure qui permet"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 295
+sprite_path = "res://assets/Items/SHEDSHELL.png"

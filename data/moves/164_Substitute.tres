@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+"fr": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 80
+move_effect_short = {
+"en": "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 80
+metadata/effect_chance = 0

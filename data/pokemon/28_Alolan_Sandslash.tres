@@ -13,8 +13,8 @@ script = ExtResource("3_u8gki")
 pokemon_id = 28
 branch_code = ""
 names = {
-"en": "Alolan Sandslash",
-"fr": "Alolan Sandslash"
+"en": "Sandslash",
+"fr": "Sablaireau"
 }
 generation = 7
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 100,
 "defense": 120,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage.",
+"fr": "Il se met en boule pour percuter l’ennemi. Ses épines aiguisées font beaucoup de dégâts."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1218,4 +1223,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

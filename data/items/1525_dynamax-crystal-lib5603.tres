@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2fvjw"]
+
+[resource]
+script = ExtResource("1_2fvjw")
+item_id = 1525
+identifier = "dynamax-crystal-lib5603"
+names = {
+"en": "★Lib5603",
+"fr": "★Lib5603"
+}
+cost = 20
+category_id = 49
+category_name = {
+"en": "Dynamax crystals"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"An item that causes [VAR (0000)] to appear from",
+"fr": "\"Un objet faisant apparaître un [VAR (0000)]"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1474
+sprite_path = "res://assets/Items/DYNAMAXCRYSTALLIB5603.png"

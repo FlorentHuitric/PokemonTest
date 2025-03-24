@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_exbaf"]
+
+[resource]
+script = ExtResource("1_exbaf")
+item_id = 975
+identifier = "ultranecrozium-z--bag"
+names = {
+"en": "Ultranecrozium Z",
+"fr": "Ultranécrozélite"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for ultranecrozium-z--bag"
+}
+effect = {
+"en": "XXX new effect for ultranecrozium-z--bag"
+}
+flavor_text = {
+"en": "\"It’s a crystal that turns Necrozma fused with",
+"fr": "\"Un cristal permettant de donner une nouvelle forme"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 929
+sprite_path = "res://assets/Items/ULTRANECROZIUMZBAG.png"

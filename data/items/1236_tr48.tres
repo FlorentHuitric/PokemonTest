@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sb16d"]
+
+[resource]
+script = ExtResource("1_sb16d")
+item_id = 1236
+identifier = "tr48"
+names = {
+"en": "TR48",
+"fr": "DT48"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user tenses its muscles to bulk up its body",
+"fr": "\"Le lanceur tend ses muscles pour se gonfler"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1178
+sprite_path = "res://assets/Items/TR48.png"

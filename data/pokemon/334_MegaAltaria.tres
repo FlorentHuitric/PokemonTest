@@ -12,7 +12,8 @@ script = ExtResource("2_400nd")
 pokemon_id = 334
 branch_code = ""
 names = {
-"en": "Mega Altaria"
+"en": "Altaria",
+"fr": "Altaria"
 }
 generation = 3
 height = 1.5
@@ -33,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Humming Pokémon",
+"fr": "Pokémon Virevolteur"
+}
 base_stats = {
 "attack": 110,
 "defense": 110,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+"fr": "Il aime enlacer ses amis dans ses ailes cotonneuses et ronronner."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1114,4 +1120,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

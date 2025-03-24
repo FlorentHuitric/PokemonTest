@@ -12,7 +12,7 @@ pokemon_id = 429
 branch_code = ""
 names = {
 "en": "Mismagius",
-"fr": "Mismagius"
+"fr": "Magirêve"
 }
 generation = 4
 height = 0.9
@@ -33,6 +33,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Magical Pokémon",
+"fr": "Pokémon Magique"
+}
 base_stats = {
 "attack": 60,
 "defense": 60,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+"fr": "Pareil à une incantation magique, son cri n’est que très rarement source de joie."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 108",
+"condition_fr": "Objet 108",
+"evolved_pokemon_id": 430,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -574,4 +589,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_upkqi"]
+
+[resource]
+script = ExtResource("1_upkqi")
+item_id = 30
+identifier = "fresh-water"
+names = {
+"en": "Fresh Water",
+"fr": "Eau Fraîche"
+}
+cost = 200
+category_id = 27
+category_name = {
+"en": "Healing"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Restores 50 HP."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"Water with high mineral content. It can be used to",
+"fr": "\"Une eau riche en minéraux."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 26
+sprite_path = "res://assets/Items/FRESHWATER.png"

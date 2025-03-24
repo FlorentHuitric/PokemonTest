@@ -15,7 +15,7 @@ pokemon_id = 473
 branch_code = ""
 names = {
 "en": "Mamoswine",
-"fr": "Mamoswine"
+"fr": "Mammochon"
 }
 generation = 4
 height = 2.5
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Twin Tusk Pokémon",
+"fr": "Pokémon Deudéfenses"
+}
 base_stats = {
 "attack": 130,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/473.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/473.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/473.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A frozen one was dug up from soil dating back 10,000 years. It woke up to much amazement.",
+"fr": "On a libéré un spécimen de sa prison glacée au bout de 10 000 ans. Il n’en revenait pas."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 301",
+"condition_fr": "Objet 301",
+"evolved_pokemon_id": 474,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 32,
 "method": 1,
@@ -799,4 +814,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 776,
 "tm_id": ""
-}]
+}])

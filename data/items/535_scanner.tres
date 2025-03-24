@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kl7xp"]
+
+[resource]
+script = ExtResource("1_kl7xp")
+item_id = 535
+identifier = "scanner"
+names = {
+"en": "Scanner",
+"fr": "Scanner"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale."
+}
+effect = {
+"en": "May be traded to Captain Stern for a []{item:deep-sea-tooth} or a []{item:deep-sea-scale}."
+}
+flavor_text = {
+"en": "A device found inside Sea Mauville.",
+"fr": "Un objet trouvé à Lavandia Sea."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 278
+sprite_path = "res://assets/Items/SCANNER.png"

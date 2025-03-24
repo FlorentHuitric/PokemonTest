@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_hg21n"]
+
+[resource]
+script = ExtResource("1_hg21n")
+item_id = 1266
+identifier = "tr78"
+names = {
+"en": "TR78",
+"fr": "DT78"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 95
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user strikes everything around it by swamping",
+"fr": "\"Une vague de détritus attaque tous les Pokémon"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1208
+sprite_path = "res://assets/Items/TR78.png"

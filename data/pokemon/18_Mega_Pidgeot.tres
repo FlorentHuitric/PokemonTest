@@ -12,8 +12,8 @@ script = ExtResource("2_njrg7")
 pokemon_id = 18
 branch_code = ""
 names = {
-"en": "Mega Pidgeot",
-"fr": "Mega Pidgeot"
+"en": "Pidgeot",
+"fr": "Roucarnage"
 }
 generation = 1
 height = 2.2
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Bird Pokémon",
+"fr": "Pokémon Oiseau"
+}
 base_stats = {
 "attack": 80,
 "defense": 80,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.",
+"fr": "En battant des ailes de toutes ses forces, Roucarnage génère une rafale à en déraciner les arbres."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -749,4 +754,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 403,
 "tm_id": ""
-}]
+}])

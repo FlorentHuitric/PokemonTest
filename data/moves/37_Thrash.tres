@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+"fr": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 8
+move_target_name = {
+"en": "Random opponent",
+"fr": "Adversaire aléatoire"
+}
+move_target_description = {
+"en": "One opposing Pokémon, selected at random.",
+"fr": "Un Pokémon adverse, sélectionné au hasard."
+}
+move_effect_id = 28
+move_effect_short = {
+"en": "Hits every turn for 2-3 turns, then confuses the user."
+}
+metadata/move_target_id = 8
+metadata/move_effect_id = 28
+metadata/effect_chance = 0

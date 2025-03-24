@@ -14,7 +14,7 @@ pokemon_id = 414
 branch_code = ""
 names = {
 "en": "Mothim",
-"fr": "Mothim"
+"fr": "Papilord"
 }
 generation = 4
 height = 0.9
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Moth Pokémon",
+"fr": "Pokémon Phalène"
+}
 base_stats = {
 "attack": 94,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.",
+"fr": "Il adore le nectar des fleurs mais n’en récolte pas lui-même. Il préfère en voler à un Apitrini."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 26,
 "method": 1,
@@ -558,4 +563,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

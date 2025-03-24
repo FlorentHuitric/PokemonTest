@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_a3xfx"]
+
+[resource]
+script = ExtResource("1_a3xfx")
+item_id = 408
+identifier = "poke-radar"
+names = {
+"en": "Poké Radar",
+"fr": "Poké Radar"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Use to track down rare or shiny Pokémon. 50 steps to recharge."
+}
+effect = {
+"en": "\"Designates several nearby patches of grass as containing Pokémon"
+}
+flavor_text = {
+"en": "\"A tool that can search out Pokémon that are hiding",
+"fr": "\"Un objet permettant de trouver les Pokémon"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 431
+sprite_path = "res://assets/Items/POKERADAR.png"

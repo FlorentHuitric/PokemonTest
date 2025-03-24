@@ -14,7 +14,7 @@ pokemon_id = 556
 branch_code = ""
 names = {
 "en": "Maractus",
-"fr": "Maractus"
+"fr": "Maracachi"
 }
 generation = 5
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cactus Pokémon",
+"fr": "Pokémon Cactus"
+}
 base_stats = {
 "attack": 86,
 "defense": 67,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+"fr": "Il vit dans les endroits secs. Quand il bouge son corps en rythme, il fait un bruit de maracas."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 10,
 "method": 1,
@@ -720,4 +725,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

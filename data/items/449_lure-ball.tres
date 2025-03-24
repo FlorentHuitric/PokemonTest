@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_qy524"]
+
+[resource]
+script = ExtResource("1_qy524")
+item_id = 449
+identifier = "lure-ball"
+names = {
+"en": "Lure Ball",
+"fr": "Appât Ball"
+}
+cost = 0
+category_id = 39
+category_name = {
+"en": "Apricorn balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "3× effectiveness while fishing. Made from Blu Apricorn."
+}
+effect = {
+"en": "\"Used by trainer in battle"
+}
+flavor_text = {
+"en": "\"A Poké Ball that is good for catching Pokémon that",
+"fr": "\"Une Poké Ball un peu spéciale qui fonctionne"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 494
+sprite_path = "res://assets/Items/LUREBALL.png"

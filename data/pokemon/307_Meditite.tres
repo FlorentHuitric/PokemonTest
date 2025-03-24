@@ -14,7 +14,7 @@ pokemon_id = 307
 branch_code = ""
 names = {
 "en": "Meditite",
-"fr": "Meditite"
+"fr": "Méditikka"
 }
 generation = 3
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Meditate Pokémon",
+"fr": "Pokémon Méditation"
+}
 base_stats = {
 "attack": 40,
 "defense": 55,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/307.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/307.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/307.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+"fr": "Son entraînement d’ermite lui permet de léviter par le seul pouvoir de la méditation."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 308,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -948,4 +963,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 477,
 "tm_id": ""
-}]
+}])

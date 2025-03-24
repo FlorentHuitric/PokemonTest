@@ -14,7 +14,7 @@ pokemon_id = 13
 branch_code = ""
 names = {
 "en": "Weedle",
-"fr": "Weedle"
+"fr": "Aspicot"
 }
 generation = 1
 height = 0.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hairy Bug Pokémon",
+"fr": "Pokémon Insectopic"
+}
 base_stats = {
 "attack": 35,
 "defense": 30,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+"fr": "Il mange chaque jour son poids en feuilles. Il utilise l’aiguillon sur sa tête pour repousser l’ennemi."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 7",
+"condition_fr": "Niveau 7",
+"evolved_pokemon_id": 14,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -132,4 +147,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 450,
 "tm_id": ""
-}]
+}])

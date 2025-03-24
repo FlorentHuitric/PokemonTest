@@ -18,8 +18,8 @@ accuracy = 85
 pp = 10
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone.",
+"fr": "Le Pokémon transforme la puissance de la terre et attaque la cible avec une lame acérée."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,20 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 1
+move_effect_short = {
+"en": "Inflicts regular damage with no additional effect.",
+"fr": "Inflige des dégâts normaux sans effet supplémentaire."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 1
+metadata/effect_chance = 0

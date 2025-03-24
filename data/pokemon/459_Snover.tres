@@ -14,7 +14,7 @@ pokemon_id = 459
 branch_code = ""
 names = {
 "en": "Snover",
-"fr": "Snover"
+"fr": "Blizzi"
 }
 generation = 4
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Frost Tree Pokémon",
+"fr": "Pokémon Arbregelé"
+}
 base_stats = {
 "attack": 62,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/459.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/459.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/459.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Seemingly curious about people, they gather around footsteps they find on snowy mountains.",
+"fr": "Curieux de rencontrer des gens, ils se rassemblent autour des traces de pas trouvées dans la montagne."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 40",
+"condition_fr": "Niveau 40",
+"evolved_pokemon_id": 460,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -630,4 +645,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

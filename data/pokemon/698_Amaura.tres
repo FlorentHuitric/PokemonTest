@@ -14,7 +14,7 @@ pokemon_id = 698
 branch_code = ""
 names = {
 "en": "Amaura",
-"fr": "Amaura"
+"fr": "Amagara"
 }
 generation = 6
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tundra Pokémon",
+"fr": "Pokémon Toundra"
+}
 base_stats = {
 "attack": 59,
 "defense": 50,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 39 + Time: night",
+"condition_fr": "Niveau 39 + Moment: nuit",
+"evolved_pokemon_id": 699,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 15,
 "method": 1,
@@ -780,4 +795,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

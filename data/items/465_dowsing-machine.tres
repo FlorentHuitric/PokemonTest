@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_136c0"]
+
+[resource]
+script = ExtResource("1_136c0")
+item_id = 465
+identifier = "dowsing-machine"
+names = {
+"en": "Dowsing Machine",
+"fr": "Cherch’Objet"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Use to find hidden items on the field. AKA Itemfinder."
+}
+effect = {
+"en": "\"Used by trainer outside of battle"
+}
+flavor_text = {
+"en": "\"A high-tech machine that shows the location of",
+"fr": "\"Un appareil high-tech qui indique l’emplacement"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 261
+sprite_path = "res://assets/Items/DOWSINGMACHINE.png"

@@ -14,7 +14,7 @@ pokemon_id = 118
 branch_code = ""
 names = {
 "en": "Goldeen",
-"fr": "Goldeen"
+"fr": "Poissirène"
 }
 generation = 1
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Goldfish Pokémon",
+"fr": "Pokémon Poisson"
+}
 base_stats = {
 "attack": 67,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/118.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/118.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/118.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn.",
+"fr": "Malgré son élégance quand il nage, ses coups de corne sont redoutables."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 33",
+"condition_fr": "Niveau 33",
+"evolved_pokemon_id": 119,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 24,
 "method": 1,
@@ -936,4 +951,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

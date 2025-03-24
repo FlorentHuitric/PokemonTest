@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ib1dd"]
+
+[resource]
+script = ExtResource("1_ib1dd")
+item_id = 1309
+identifier = "serious-mint"
+names = {
+"en": "Serious Mint",
+"fr": "Aromate Sérieux"
+}
+cost = 20
+category_id = 50
+category_name = {
+"en": "Nature mints"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"When a Pokémon smells this mint",
+"fr": "\"Si un Pokémon hume cet aromate"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1251
+sprite_path = "res://assets/Items/SERIOUSMINT.png"

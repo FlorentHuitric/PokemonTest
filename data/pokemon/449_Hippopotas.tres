@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hippo Pokémon",
+"fr": "Pokémon Hippo"
+}
 base_stats = {
 "attack": 72,
 "defense": 78,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/449.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/449.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/449.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+"fr": "Il peut obturer ses narines et traverser le sable comme un ver. Il vit en colonies de 10 individus."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34",
+"condition_fr": "Niveau 34",
+"evolved_pokemon_id": 450,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -617,4 +632,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2qdpj"]
+
+[resource]
+script = ExtResource("1_2qdpj")
+item_id = 349
+identifier = "tm45"
+names = {
+"en": "TM45",
+"fr": "CT45"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Attract to a compatible Pokémon. (Gen I: Thunder Wave)"
+}
+effect = {
+"en": "Teaches Attract to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"Diving on the first turn",
+"fr": "\"Le lanceur plonge sous l’eau au premier tour"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 333
+sprite_path = "res://assets/Items/TM45.png"

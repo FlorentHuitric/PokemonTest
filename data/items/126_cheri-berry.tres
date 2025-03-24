@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gvp0r"]
+
+[resource]
+script = ExtResource("1_gvp0r")
+item_id = 126
+identifier = "cheri-berry"
+names = {
+"en": "Cheri Berry",
+"fr": "Baie Ceriz"
+}
+cost = 80
+category_id = 3
+category_name = {
+"en": "Medicine",
+"fr": "Médicament"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "Held: Consumed when paralyzed to cure paralysis."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a Pokémon",
+"fr": "\"Une Baie qui soigne la paralysie lorsqu’elle est tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 133
+sprite_path = "res://assets/Items/CHERIBERRY.png"

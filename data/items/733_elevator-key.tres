@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_aj63e"]
+
+[resource]
+script = ExtResource("1_aj63e")
+item_id = 733
+identifier = "elevator-key"
+names = {
+"en": "Elevator Key",
+"fr": "Clé Ascenseur"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unlocks the elevator in Lysandre Labs."
+}
+effect = {
+"en": "Unlocks the elevator in Lysandre Labs."
+}
+flavor_text = {
+"en": "\"A card key that activates the elevator in Lysandre",
+"fr": "\"Un passe de sécurité permettant d’accéder"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 700
+sprite_path = "res://assets/Items/ELEVATORKEY.png"

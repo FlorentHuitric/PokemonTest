@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_snwek"]
+
+[resource]
+script = ExtResource("1_snwek")
+item_id = 670
+identifier = "medal-box"
+names = {
+"en": "Medal Box",
+"fr": "Boîte Médailles"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Holds medals recieved in the medal rally."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"A box-shaped machine that stores Medals and",
+"fr": "\"Une boîte qui permet de ranger les Médailles"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 627
+sprite_path = "res://assets/Items/MEDALBOX.png"

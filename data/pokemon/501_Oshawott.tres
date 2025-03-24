@@ -13,7 +13,7 @@ pokemon_id = 501
 branch_code = ""
 names = {
 "en": "Oshawott",
-"fr": "Oshawott"
+"fr": "Moustillon"
 }
 generation = 5
 height = 0.5
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Otter Pokémon",
+"fr": "Pokémon Loutre"
+}
 base_stats = {
 "attack": 55,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+"fr": "Le coupillage sur son ventre est fait de la même matière que ses griffes. Il le détache pour l’utiliser comme une dague."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 17",
+"condition_fr": "Niveau 17",
+"evolved_pokemon_id": 502,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 41,
 "method": 1,
@@ -497,4 +512,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 533,
 "tm_id": ""
-}]
+}])

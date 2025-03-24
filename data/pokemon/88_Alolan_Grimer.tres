@@ -14,8 +14,8 @@ script = ExtResource("4_rfh02")
 pokemon_id = 88
 branch_code = ""
 names = {
-"en": "Alolan Grimer",
-"fr": "Alolan Grimer"
+"en": "Grimer",
+"fr": "Tadmorv"
 }
 generation = 7
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Sludge Pokémon",
+"fr": "Pokémon Dégueu"
+}
 base_stats = {
 "attack": 80,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+"fr": "Il est né d’un torrent de boue exposé aux rayons X de la lune. Il vit dans les ordures."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 89,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1039,4 +1054,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 270,
 "tm_id": ""
-}]
+}])

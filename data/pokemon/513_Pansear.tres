@@ -13,7 +13,7 @@ pokemon_id = 513
 branch_code = ""
 names = {
 "en": "Pansear",
-"fr": "Pansear"
+"fr": "Flamajou"
 }
 generation = 5
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "High Temp Pokémon",
+"fr": "Pokémon Brûlant"
+}
 base_stats = {
 "attack": 53,
 "defense": 48,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600° F.",
+"fr": "Il vit dans les cratères des volcans. L’intérieur de la mèche qu’il a sur la tête peut atteindre 300 °C."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 82",
+"condition_fr": "Objet 82",
+"evolved_pokemon_id": 514,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -593,4 +608,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 562,
 "tm_id": ""
-}]
+}])

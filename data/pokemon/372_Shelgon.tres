@@ -13,7 +13,7 @@ pokemon_id = 372
 branch_code = ""
 names = {
 "en": "Shelgon",
-"fr": "Shelgon"
+"fr": "Drackhaus"
 }
 generation = 3
 height = 1.1
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Endurance Pokémon",
+"fr": "Pokémon Endurant"
+}
 base_stats = {
 "attack": 95,
 "defense": 100,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+"fr": "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 50",
+"condition_fr": "Niveau 50",
+"evolved_pokemon_id": 373,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -773,4 +788,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 428,
 "tm_id": ""
-}]
+}])

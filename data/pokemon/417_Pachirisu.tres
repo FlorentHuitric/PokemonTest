@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "EleSquirrel Pokémon",
+"fr": "Pokémon Écurélec"
+}
 base_stats = {
 "attack": 45,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/417.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/417.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/417.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+"fr": "Il arrive que deux Pachirisu se frottent les joues pour partager l’électricité qu’ils ont accumulée."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -606,4 +611,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

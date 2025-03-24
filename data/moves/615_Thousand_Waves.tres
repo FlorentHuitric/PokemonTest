@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+"fr": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 374
+move_effect_short = {
+"en": "Prevents the target from leaving battle."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 374
+metadata/effect_chance = 0

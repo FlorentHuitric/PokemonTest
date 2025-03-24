@@ -14,7 +14,7 @@ pokemon_id = 259
 branch_code = ""
 names = {
 "en": "Marshtomp",
-"fr": "Marshtomp"
+"fr": "Flobio"
 }
 generation = 3
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mud Fish Pokémon",
+"fr": "Pokémon Poissonboue"
+}
 base_stats = {
 "attack": 85,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+"fr": "Ses jambes robustes lui donnent un bon appui, même dans la boue. Il dort enfoui dans la saleté."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 36",
+"condition_fr": "Niveau 36",
+"evolved_pokemon_id": 260,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -900,4 +915,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 419,
 "tm_id": ""
-}]
+}])

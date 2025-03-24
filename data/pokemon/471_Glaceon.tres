@@ -13,7 +13,7 @@ pokemon_id = 471
 branch_code = ""
 names = {
 "en": "Glaceon",
-"fr": "Glaceon"
+"fr": "Givrali"
 }
 generation = 4
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Fresh Snow Pokémon",
+"fr": "Pokémon Poudreuse"
+}
 base_stats = {
 "attack": 60,
 "defense": 110,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+"fr": "Il ajuste la température de son corps pour créer un vent de glace en gelant l’air qui l’entoure."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 304 + Time: night",
+"condition_fr": "Objet 304 + Moment: nuit",
+"evolved_pokemon_id": 472,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 5,
 "level": 8,
 "method": 1,
@@ -791,4 +806,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

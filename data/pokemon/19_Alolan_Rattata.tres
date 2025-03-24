@@ -14,8 +14,8 @@ script = ExtResource("4_cjx6t")
 pokemon_id = 19
 branch_code = ""
 names = {
-"en": "Alolan Rattata",
-"fr": "Alolan Rattata"
+"en": "Rattata",
+"fr": "Rattata"
 }
 generation = 7
 height = 0.3
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 56,
 "defense": 35,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/19-alola.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/19-alola.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/19-alola.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+"fr": "D’une prudence extrême, sa nature robuste lui permet de s’adapter à tous les terrains."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 20,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Level 20 + Time: night",
+"condition_fr": "Niveau 20 + Moment: nuit",
+"evolved_pokemon_id": 20,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -835,4 +860,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 389,
 "tm_id": ""
-}]
+}])

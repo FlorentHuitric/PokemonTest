@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ttikg"]
+
+[resource]
+script = ExtResource("1_ttikg")
+item_id = 137
+identifier = "wiki-berry"
+names = {
+"en": "Wiki Berry",
+"fr": "Baie Wiki"
+}
+cost = 80
+category_id = 6
+category_name = {
+"en": "Picky healing",
+"fr": "Soin difficile"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike dry flavor."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"If held by a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 144
+sprite_path = "res://assets/Items/WIKIBERRY.png"

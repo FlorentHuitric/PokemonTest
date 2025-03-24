@@ -13,7 +13,7 @@ pokemon_id = 93
 branch_code = ""
 names = {
 "en": "Haunter",
-"fr": "Haunter"
+"fr": "Spectrum"
 }
 generation = 1
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gas Pokémon",
+"fr": "Pokémon Gaz"
+}
 base_stats = {
 "attack": 50,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+"fr": "Il adore se tapir dans l’ombre et faire frissonner ses proies en leur touchant l’épaule."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 94,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1073,4 +1088,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

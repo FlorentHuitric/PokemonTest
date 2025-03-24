@@ -13,7 +13,7 @@ pokemon_id = 639
 branch_code = ""
 names = {
 "en": "Terrakion",
-"fr": "Terrakion"
+"fr": "Terrakium"
 }
 generation = 5
 height = 1.9
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cavern Pokémon",
+"fr": "Pokémon Grotte"
+}
 base_stats = {
 "attack": 129,
 "defense": 90,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
+"fr": "Sa puissance d’impact lui permet d’enfoncer d’un seul coup le rempart d’un château. Un Pokémon de légende."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 49,
 "method": 1,
@@ -761,4 +766,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

@@ -13,7 +13,7 @@ pokemon_id = 337
 branch_code = ""
 names = {
 "en": "Lunatone",
-"fr": "Lunatone"
+"fr": "Séléroc"
 }
 generation = 3
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Meteorite Pokémon",
+"fr": "Pokémon Météorite"
+}
 base_stats = {
 "attack": 55,
 "defense": 65,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+"fr": "On suppose qu’il est lié au cycle lunaire, car il ne sort que les soirs de pleine lune."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1109,4 +1114,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

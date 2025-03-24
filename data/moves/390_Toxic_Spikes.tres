@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",
+"fr": "Lance des pics autour de l’ennemi. Ils empoisonnent les ennemis qui entrent au combat."
 }
 tm_id = ""
 meta_category_id = 11
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 6
+move_target_name = {
+"en": "Opponent's field",
+"fr": "Terrain adverse"
+}
+move_target_description = {
+"en": "The opposing side of the field.  Affects opposing Pokémon.",
+"fr": "Le côté adverse du terrain. Affecte les Pokémon adverses."
+}
+move_effect_id = 250
+move_effect_short = {
+"en": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in."
+}
+metadata/move_target_id = 6
+metadata/move_effect_id = 250
+metadata/effect_chance = 0

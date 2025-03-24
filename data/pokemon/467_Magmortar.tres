@@ -13,7 +13,7 @@ pokemon_id = 467
 branch_code = ""
 names = {
 "en": "Magmortar",
-"fr": "Magmortar"
+"fr": "Maganon"
 }
 generation = 4
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Blast Pokémon",
+"fr": "Pokémon Explosion"
+}
 base_stats = {
 "attack": 95,
 "defense": 67,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
+"fr": "Quand il lance des boules de feu à plus de 2 000 °C, son corps est comme chauffé à blanc."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 107",
+"condition_fr": "Objet 107",
+"evolved_pokemon_id": 468,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 28,
 "method": 1,
@@ -863,4 +878,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ynyo4"]
+
+[resource]
+script = ExtResource("1_ynyo4")
+item_id = 736
+identifier = "intriguing-stone"
+names = {
+"en": "Intriguing Stone",
+"fr": "Pierre Insolite"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Trade for a Sun Stone in X and Y"
+}
+effect = {
+"en": " or Pidgeotite in Omega Ruby and Alpha Sapphire.\""
+}
+flavor_text = {
+"en": "\"A rather curious stone that might appear valuable",
+"fr": "\"Une pierre assez étrange qui pourrait avoir de la valeur"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 697
+sprite_path = "res://assets/Items/INTRIGUINGSTONE.png"

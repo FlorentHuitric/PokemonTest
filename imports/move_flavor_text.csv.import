@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://7du83kudbqll"
+
+[deps]
+
+files=["res://imports/move_flavor_text.version.translation", "res://imports/move_flavor_text.language.translation", "res://imports/move_flavor_text.flavor.translation"]
+
+source_file="res://imports/move_flavor_text.csv"
+dest_files=["res://imports/move_flavor_text.version.translation", "res://imports/move_flavor_text.language.translation", "res://imports/move_flavor_text.flavor.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -13,7 +13,8 @@ script = ExtResource("3_2tus0")
 pokemon_id = 38
 branch_code = ""
 names = {
-"en": "Alolan Ninetales"
+"en": "Ninetales",
+"fr": "Feunard"
 }
 generation = 7
 height = 1.1
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Fox Pokémon",
+"fr": "Pokémon Renard"
+}
 base_stats = {
 "attack": 67,
 "defense": 75,
@@ -60,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+"fr": "On raconte que ses neuf queues détiennent un pouvoir mystique. Il peut vivre pendant mille ans."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 39,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -773,4 +789,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

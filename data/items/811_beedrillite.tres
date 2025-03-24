@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mt8gu"]
+
+[resource]
+script = ExtResource("1_mt8gu")
+item_id = 811
+identifier = "beedrillite"
+names = {
+"en": "Beedrillite",
+"fr": "Dardargnite"
+}
+cost = 0
+category_id = 44
+category_name = {
+"en": "Mega Stones"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Beedrill to Mega Evolve into Mega Beedrill."
+}
+effect = {
+"en": "Held: Allows Beedrill to Mega Evolve into Mega Beedrill."
+}
+flavor_text = {
+"en": "\"One of a variety of mysterious Mega Stones.",
+"fr": "\"Une variété de Méga-Gemme."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 770
+sprite_path = "res://assets/Items/BEEDRILLITE.png"

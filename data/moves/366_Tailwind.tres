@@ -18,8 +18,8 @@ accuracy = 0
 pp = 15
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+"fr": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours."
 }
 tm_id = ""
 meta_category_id = 11
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 4
+move_target_name = {
+"en": "User's field",
+"fr": "Terrain de l'utilisateur"
+}
+move_target_description = {
+"en": "The user's side of the field.  Affects the user and its ally (if any).",
+"fr": "Le côté du terrain de l'utilisateur. Affecte l'utilisateur et son allié (s'il y en a un)."
+}
+move_effect_id = 226
+move_effect_short = {
+"en": "For three turns, friendly Pokémon have doubled Speed."
+}
+metadata/move_target_id = 4
+metadata/move_effect_id = 226
+metadata/effect_chance = 0

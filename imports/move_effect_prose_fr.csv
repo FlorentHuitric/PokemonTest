@@ -1,0 +1,10 @@
+move_effect_id,local_language_id,short_effect,effect
+1,5,Inflige des dégâts normaux sans effet supplémentaire.,Inflige des [dégâts normaux]{mechanic:regular-damage}.
+2,5,Endort la cible.,Met la cible en [sommeil]{mechanic:sleep}.
+3,5,A $effect_chance% de chances d'[empoisonner]{mechanic:poison} la cible.,Inflige des [dégâts normaux]{mechanic:regular-damage}. A $effect_chance% de chances d'[empoisonner]{mechanic:poison} la cible.
+4,5,Absorbe la moitié des dégâts infligés pour soigner l'utilisateur.,Inflige des [dégâts normaux]{mechanic:regular-damage}. [Draine]{mechanic:drain} la moitié des dégâts infligés pour soigner l'utilisateur.
+5,5,A $effect_chance% de chances de [brûler]{mechanic:burn} la cible.,Inflige des [dégâts normaux]{mechanic:regular-damage}. A $effect_chance% de chances de [brûler]{mechanic:burn} la cible.
+6,5,A $effect_chance% de chances de [geler]{mechanic:freeze} la cible.,Inflige des [dégâts normaux]{mechanic:regular-damage}. A $effect_chance% de chances de [geler]{mechanic:freeze} la cible.
+7,5,A $effect_chance% de chances de [paralyser]{mechanic:paralysis} la cible.,Inflige des [dégâts normaux]{mechanic:regular-damage}. A $effect_chance% de chances de [paralyser]{mechanic:paralyzer} la cible.
+8,5,L'utilisateur tombe K.O.,"L'utilisateur [tombe K.O.]{mechanic:faint}, même si l'attaque [échoue]{mechanic:fail} ou [rate]{mechanic:miss}. Inflige des [dégâts normaux]{mechanic:regular-damage}."
+9,5,Ne fonctionne que sur les Pokémon endormis. Draine la moitié des dégâts infligés pour soigner l'utilisateur.,[Échoue]{mechanic:fail} si utilisé sur un Pokémon qui n'est pas [endormi]{mechanic:sleep}. Inflige des [dégâts normaux]{mechanic:regular-damage}. [Draine]{mechanic:drain} la moitié des dégâts infligés pour soigner l'utilisateur.

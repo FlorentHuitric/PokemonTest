@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_etgvf"]
+
+[resource]
+script = ExtResource("1_etgvf")
+item_id = 1205
+identifier = "tr17"
+names = {
+"en": "TR17",
+"fr": "DT17"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user temporarily empties its mind to forget its",
+"fr": "\"Le lanceur fait le vide dans son esprit pour oublier"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1147
+sprite_path = "res://assets/Items/TR17.png"

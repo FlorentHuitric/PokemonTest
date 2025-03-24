@@ -13,7 +13,7 @@ pokemon_id = 845
 branch_code = ""
 names = {
 "en": "Cramorant",
-"fr": "Cramorant"
+"fr": "Nigosier"
 }
 generation = 8
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gulp Pokémon",
+"fr": "Pokémon Avaltouron"
+}
 base_stats = {
 "attack": 85,
 "defense": 55,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -413,4 +418,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

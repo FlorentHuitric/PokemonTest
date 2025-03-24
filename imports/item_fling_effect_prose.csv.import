@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d08sfwkletdc2"
+
+[deps]
+
+files=["res://imports/item_fling_effect_prose.local.translation", "res://imports/item_fling_effect_prose.effect.translation"]
+
+source_file="res://imports/item_fling_effect_prose.csv"
+dest_files=["res://imports/item_fling_effect_prose.local.translation", "res://imports/item_fling_effect_prose.effect.translation"]
+
+[params]
+
+compress=true
+delimiter=0

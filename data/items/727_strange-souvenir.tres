@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6pldq"]
+
+[resource]
+script = ExtResource("1_6pldq")
+item_id = 727
+identifier = "strange-souvenir"
+names = {
+"en": "Strange Souvenir",
+"fr": "Bibelot Bizarre"
+}
+cost = 3000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Vendor trash."
+}
+effect = {
+"en": "Vendor trash."
+}
+flavor_text = {
+"en": "\"An ornament depicting a mysterious Pokémon",
+"fr": "\"Un ornement à l’image d’un Pokémon vénéré à Alola"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 704
+sprite_path = "res://assets/Items/STRANGESOUVENIR.png"

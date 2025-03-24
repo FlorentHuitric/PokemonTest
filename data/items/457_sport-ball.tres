@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_d8l13"]
+
+[resource]
+script = ExtResource("1_d8l13")
+item_id = 457
+identifier = "sport-ball"
+names = {
+"en": "Sport Ball",
+"fr": "Compét’Ball"
+}
+cost = 300
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a Pokémon in the Bug-Catching contest in National Park. (Gen II: Park Ball)"
+}
+effect = {
+"en": "\"Used by a trainer in battle"
+}
+flavor_text = {
+"en": "\"A special Poké Ball that was used during the",
+"fr": "\"Une Poké Ball spéciale anciennement utilisée"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 499
+sprite_path = "res://assets/Items/SPORTBALL.png"

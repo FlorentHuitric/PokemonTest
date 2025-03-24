@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ss8p7"]
+
+[resource]
+script = ExtResource("1_ss8p7")
+item_id = 185
+identifier = "enigma-berry"
+names = {
+"en": "Enigma Berry",
+"fr": "Baie Enigma"
+}
+cost = 80
+category_id = 4
+category_name = {
+"en": "Other",
+"fr": "Autre"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consumed when struck by a super-effective attack to restore 1/4 max HP."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 175
+sprite_path = "res://assets/Items/ENIGMABERRY.png"

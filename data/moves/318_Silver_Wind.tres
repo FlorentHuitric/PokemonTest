@@ -18,8 +18,8 @@ accuracy = 100
 pp = 5
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The target is attacked with powdery scales blown by the wind. This may also raise all the user’s stats.",
+"fr": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur."
 }
 tm_id = ""
 meta_category_id = 7
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 10
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 141
+move_effect_short = {
+"en": "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 141
+metadata/effect_chance = 10

@@ -15,7 +15,7 @@ pokemon_id = 365
 branch_code = ""
 names = {
 "en": "Walrein",
-"fr": "Walrein"
+"fr": "Kaimorse"
 }
 generation = 3
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ice Break Pokémon",
+"fr": "Pokémon Brise Glace"
+}
 base_stats = {
 "attack": 80,
 "defense": 90,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+"fr": "Il brise la glace avec ses grosses défenses. Sa graisse le protège du froid, mais aussi des attaques."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 19,
 "method": 1,
@@ -829,4 +834,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

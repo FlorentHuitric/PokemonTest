@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_prpd6"]
+
+[resource]
+script = ExtResource("1_prpd6")
+item_id = 446
+identifier = "apricorn-box"
+names = {
+"en": "Apricorn Box",
+"fr": "Boîte Noigrume"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Holds Apricorns."
+}
+effect = {
+"en": "Stores Apricorns."
+}
+flavor_text = {
+"en": "\"A handy box where you can store up to 99 of each",
+"fr": "\"Une boîte bien pratique qui peut contenir jusqu’à"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 468
+sprite_path = "res://assets/Items/APRICORNBOX.png"

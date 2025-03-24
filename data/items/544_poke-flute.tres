@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_rql8h"]
+
+[resource]
+script = ExtResource("1_rql8h")
+item_id = 544
+identifier = "poke-flute"
+names = {
+"en": "Poké Flute",
+"fr": "Poké Flûte"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Use to awaken sleeping Pokémon"
+}
+effect = {
+"en": " including Snorlax on roads.\""
+}
+flavor_text = {
+"en": "\"A flute that can play with such a beautiful tone that",
+"fr": "\"Une flûte au son si particulier qu’elle permet de"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 350
+sprite_path = "res://assets/Items/POKEFLUTE.png"

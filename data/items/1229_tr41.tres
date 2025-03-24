@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_c20uj"]
+
+[resource]
+script = ExtResource("1_c20uj")
+item_id = 1229
+identifier = "tr41"
+names = {
+"en": "TR41",
+"fr": "DT41"
+}
+cost = 6000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 85
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user launches a kick that lands a critical hit",
+"fr": "\"Le lanceur envoie un coup de pied au taux de critiques"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1171
+sprite_path = "res://assets/Items/TR41.png"

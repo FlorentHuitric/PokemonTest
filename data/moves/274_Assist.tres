@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
+"fr": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 181
+move_effect_short = {
+"en": "Randomly selects and uses one of the trainer's other Pokémon's moves."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 181
+metadata/effect_chance = 0

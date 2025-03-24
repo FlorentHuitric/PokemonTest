@@ -18,8 +18,8 @@ accuracy = 0
 pp = 15
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user sharpens its claws to boost its Attack stat and accuracy.",
+"fr": "Le lanceur s’aiguise les griffes. Augmente l’Attaque et la Précision."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 278
+move_effect_short = {
+"en": "Raises the user's Attack and accuracy by one stage."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 278
+metadata/effect_chance = 0

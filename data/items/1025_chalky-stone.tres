@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jwjc8"]
+
+[resource]
+script = ExtResource("1_jwjc8")
+item_id = 1025
+identifier = "chalky-stone"
+names = {
+"en": "Chalky Stone",
+"fr": "Craie"
+}
+cost = 60
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "A small whitish stone picked up at the edge of the road.",
+"fr": "\"Une petite pierre blanchâtre trouvée sur le bord"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 886
+sprite_path = "res://assets/Items/CHALKYSTONE.png"

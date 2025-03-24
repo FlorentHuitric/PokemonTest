@@ -14,7 +14,7 @@ pokemon_id = 361
 branch_code = ""
 names = {
 "en": "Snorunt",
-"fr": "Snorunt"
+"fr": "Stalgamin"
 }
 generation = 3
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Snow Hat Pokémon",
+"fr": "Pokémon Capuche"
+}
 base_stats = {
 "attack": 50,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+"fr": "On dit que des groupes entiers de Stalgamin vivent en harmonie sous des feuilles gigantesques."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 42",
+"condition_fr": "Niveau 42",
+"evolved_pokemon_id": 362,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 19,
 "method": 1,
@@ -720,4 +735,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 556,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_r3pap"]
+
+[resource]
+script = ExtResource("1_r3pap")
+item_id = 24
+identifier = "max-potion"
+names = {
+"en": "Max Potion",
+"fr": "Potion Max"
+}
+cost = 2500
+category_id = 27
+category_name = {
+"en": "Healing"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Restores HP to full."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A spray-type medicine for treating wounds. It can",
+"fr": "\"Un spray qui soigne les blessures."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 20
+sprite_path = "res://assets/Items/MAXPOTION.png"

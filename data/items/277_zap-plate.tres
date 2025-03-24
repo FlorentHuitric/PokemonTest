@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dq16w"]
+
+[resource]
+script = ExtResource("1_dq16w")
+item_id = 277
+identifier = "zap-plate"
+names = {
+"en": "Zap Plate",
+"fr": "Plaque Volt"
+}
+cost = 1000
+category_id = 17
+category_name = {
+"en": "Plates"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 90
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Electric-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Electric."
+}
+effect = {
+"en": "\"Held: Increases the power of the holder's Electric moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a stone tablet",
+"fr": "\"Objet à tenir. Une tablette en pierre augmentant"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 4
+game_index = 300
+sprite_path = "res://assets/Items/ZAPPLATE.png"

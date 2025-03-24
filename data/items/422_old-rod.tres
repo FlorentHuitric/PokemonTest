@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_0yvp2"]
+
+[resource]
+script = ExtResource("1_0yvp2")
+item_id = 422
+identifier = "old-rod"
+names = {
+"en": "Old Rod",
+"fr": "Canne"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to catch Pokémon in bodies of water."
+}
+effect = {
+"en": "\"Used to find Pokémon on the Old Rod list for an area"
+}
+flavor_text = {
+"en": "\"An old and beat-up fishing rod. Use it at any body",
+"fr": "\"Une vieille canne usée."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 262
+sprite_path = "res://assets/Items/OLDROD.png"

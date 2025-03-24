@@ -13,7 +13,7 @@ pokemon_id = 368
 branch_code = ""
 names = {
 "en": "Gorebyss",
-"fr": "Gorebyss"
+"fr": "Rosabyss"
 }
 generation = 3
 height = 1.8
@@ -34,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "South Sea Pokémon",
+"fr": "Pokémon Mer du Sud"
+}
 base_stats = {
 "attack": 84,
 "defense": 105,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+"fr": "Au printemps, son corps rose se fait plus vif sans que l’on sache pourquoi. Il vit au fond de la mer."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 50,
 "method": 1,
@@ -599,4 +604,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 577,
 "tm_id": ""
-}]
+}])

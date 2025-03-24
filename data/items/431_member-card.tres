@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_yjf5b"]
+
+[resource]
+script = ExtResource("1_yjf5b")
+item_id = 431
+identifier = "member-card"
+names = {
+"en": "Member Card",
+"fr": "Carte Membre"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows access to Newmoon Island and Darkrai."
+}
+effect = {
+"en": "Provides access to Newmoon Island and Darkrai."
+}
+flavor_text = {
+"en": "\"A card needed for entering the inn in Canalave City.",
+"fr": "\"Une carte nécessaire pour entrer à l’auberge"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 454
+sprite_path = "res://assets/Items/MEMBERCARD.png"

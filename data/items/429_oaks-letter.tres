@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1rsii"]
+
+[resource]
+script = ExtResource("1_1rsii")
+item_id = 429
+identifier = "oaks-letter"
+names = {
+"en": "Oak’s Letter",
+"fr": "Lettre Chen"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Allows access to Seabreak path"
+}
+effect = {
+"en": " Flower Paradise"
+}
+flavor_text = {
+"en": "\"A letter from Professor Oak. Written in it is a",
+"fr": "\"Une lettre du Professeur Chen vous demandant"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 452
+sprite_path = "res://assets/Items/OAKSLETTER.png"

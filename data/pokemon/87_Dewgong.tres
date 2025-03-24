@@ -15,7 +15,7 @@ pokemon_id = 87
 branch_code = ""
 names = {
 "en": "Dewgong",
-"fr": "Dewgong"
+"fr": "Lamantine"
 }
 generation = 1
 height = 1.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Lion Pokémon",
+"fr": "Pokémon Otarie"
+}
 base_stats = {
 "attack": 70,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "In snow, the pure white coat covering its body obscures it from predators.",
+"fr": "Son corps est couvert d’un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -895,4 +900,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 529,
 "tm_id": ""
-}]
+}])

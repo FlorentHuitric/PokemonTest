@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_f76l0"]
+
+[resource]
+script = ExtResource("1_f76l0")
+item_id = 838
+identifier = "z-ring"
+names = {
+"en": "Z-Ring",
+"fr": "Bracelet Z"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows the player's Pokémon to use Z-moves."
+}
+effect = {
+"en": "Allows the player's Pokémon to use Z-moves."
+}
+flavor_text = {
+"en": "\"A mysterious ring that enables Pokémon to use",
+"fr": "\"Un bracelet mystérieux utilisant la force vitale"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 797
+sprite_path = "res://assets/Items/ZRING.png"

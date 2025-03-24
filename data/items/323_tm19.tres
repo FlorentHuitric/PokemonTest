@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_n4xrv"]
+
+[resource]
+script = ExtResource("1_n4xrv")
+item_id = 323
+identifier = "tm19"
+names = {
+"en": "TM19",
+"fr": "CT19"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Telekinesis to a compatible Pokémon. (Gen IV & III & II: Giga Drain Gen I: Seismic Toss)"
+}
+effect = {
+"en": "Teaches Giga Drain to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user creates a protective field that prevents",
+"fr": "\"Crée un champ protecteur qui empêche toutes"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 307
+sprite_path = "res://assets/Items/TM19.png"

@@ -18,8 +18,8 @@ accuracy = 0
 pp = 30
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+"fr": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 5
+move_target_name = {
+"en": "User or ally",
+"fr": "Utilisateur ou allié"
+}
+move_target_description = {
+"en": "Either the user or its ally, selected by the trainer.",
+"fr": "Soit l'utilisateur, soit son allié, sélectionné par le dresseur."
+}
+move_effect_id = 227
+move_effect_short = {
+"en": "Raises one of a friendly Pokémon's stats at random by two stages."
+}
+metadata/move_target_id = 5
+metadata/move_effect_id = 227
+metadata/effect_chance = 0

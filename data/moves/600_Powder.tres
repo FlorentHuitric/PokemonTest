@@ -18,8 +18,8 @@ accuracy = 100
 pp = 20
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+"fr": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 378
+move_effect_short = {
+"en": "Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 378
+metadata/effect_chance = 0

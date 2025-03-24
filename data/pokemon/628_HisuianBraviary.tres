@@ -14,7 +14,8 @@ script = ExtResource("4_e6hdv")
 pokemon_id = 628
 branch_code = ""
 names = {
-"en": "Hisuian Braviary"
+"en": "Braviary",
+"fr": "Gueriaigle"
 }
 generation = 8
 height = 1.7
@@ -35,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Hisuian"
+genus = {
+"en": "Valiant Pokémon",
+"fr": "Pokémon Vaillant"
+}
 base_stats = {
 "attack": 83,
 "defense": 70,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+"fr": "Un chevalier du ciel brave et intrépide. Plus son corps porte de cicatrices, plus il est respecté de ses congénères."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -672,4 +678,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2v5b7"]
+
+[resource]
+script = ExtResource("1_2v5b7")
+item_id = 165
+identifier = "yache-berry"
+names = {
+"en": "Yache Berry",
+"fr": "Baie Nanone"
+}
+cost = 80
+category_id = 7
+category_name = {
+"en": "Type protection",
+"fr": "Protection de type"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Consumed when struck by a super-effective Ice-type attack to halve the damage."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"If held by a Pokémon",
+"fr": "\"Tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 4
+game_index = 188
+sprite_path = "res://assets/Items/YACHEBERRY.png"

@@ -12,8 +12,8 @@ script = ExtResource("3_pma24")
 pokemon_id = 669
 branch_code = ""
 names = {
-"en": "Flabebe",
-"fr": "Flabebe"
+"en": "Flabébé",
+"fr": "Flabébé"
 }
 generation = 6
 height = 0.1
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Single Bloom Pokémon",
+"fr": "Pokémon Uniflore"
+}
 base_stats = {
 "attack": 38,
 "defense": 39,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 19",
+"condition_fr": "Niveau 19",
+"evolved_pokemon_id": 670,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -431,4 +446,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 715,
 "tm_id": ""
-}]
+}])

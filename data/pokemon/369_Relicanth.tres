@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Longevity Pokémon",
+"fr": "Pokémon Longévité"
+}
 base_stats = {
 "attack": 90,
 "defense": 130,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/369.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/369.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/369.png"
 description = {
-"en": "",
-"fr": ""
+"en": "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
+"fr": "Un Pokémon rare aperçu lors d’une exploration sous-marine. Il n’a pas évolué depuis 100 millions d’années."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -913,4 +918,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

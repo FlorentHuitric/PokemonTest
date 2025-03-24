@@ -14,7 +14,7 @@ pokemon_id = 23
 branch_code = ""
 names = {
 "en": "Ekans",
-"fr": "Ekans"
+"fr": "Abo"
 }
 generation = 1
 height = 2.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Snake Pokémon",
+"fr": "Pokémon Serpent"
+}
 base_stats = {
 "attack": 60,
 "defense": 44,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+"fr": "Il se faufile dans l’herbe sans un bruit et frappe dans le dos quand sa proie s’y attend le moins."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 22",
+"condition_fr": "Niveau 22",
+"evolved_pokemon_id": 24,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -894,4 +909,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 398,
 "tm_id": ""
-}]
+}])

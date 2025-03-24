@@ -13,7 +13,7 @@ pokemon_id = 409
 branch_code = ""
 names = {
 "en": "Rampardos",
-"fr": "Rampardos"
+"fr": "Charkos"
 }
 generation = 4
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Head Butt Pokémon",
+"fr": "Pokémon Coud’Boule"
+}
 base_stats = {
 "attack": 165,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If two were to smash their heads together, their foot-thick skulls would keep them from fainting.",
+"fr": "Quand deux Charkos se rentrent dedans, leur crâne extrêmement épais les empêche de s’assommer."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -707,4 +712,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

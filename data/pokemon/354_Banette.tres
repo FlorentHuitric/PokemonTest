@@ -14,7 +14,7 @@ pokemon_id = 354
 branch_code = ""
 names = {
 "en": "Banette",
-"fr": "Banette"
+"fr": "Branette"
 }
 generation = 3
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Marionette Pokémon",
+"fr": "Pokémon Marionnette"
+}
 base_stats = {
 "attack": 115,
 "defense": 65,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it.",
+"fr": "Une poupée mue par la tristesse qui la ronge depuis qu’on l’a délaissée. Elle recherche son propriétaire."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -930,4 +935,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

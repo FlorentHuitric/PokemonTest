@@ -14,7 +14,7 @@ pokemon_id = 569
 branch_code = ""
 names = {
 "en": "Garbodor",
-"fr": "Garbodor"
+"fr": "Miasmax"
 }
 generation = 5
 height = 1.9
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Trash Heap Pokémon",
+"fr": "Pokémon Dépotoir"
+}
 base_stats = {
 "attack": 95,
 "defense": 82,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They absorb garbage and make it part of their bodies. They shoot a poisonous liquid from their right-hand fingertips.",
+"fr": "Il aspire les déchets et les intègre à son corps. Les doigts de sa main droite exsudent un fluide empoisonné."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -672,4 +677,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

@@ -13,7 +13,8 @@ script = ExtResource("4_02xq0")
 pokemon_id = 422
 branch_code = ""
 names = {
-"en": "Shellos West-Sea Form"
+"en": "Shellos",
+"fr": "Sancoki"
 }
 generation = 4
 height = 0.3
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sea Slug Pokémon",
+"fr": "Pokémon Aqualimace"
+}
 base_stats = {
 "attack": 48,
 "defense": 48,
@@ -60,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
+"fr": "Un étrange liquide mauve s’échappe de son corps, ne lui appuyez pas dessus."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 423,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 29,
 "method": 1,
@@ -599,4 +615,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Live Coal Pokémon",
+"fr": "Pokémon Charbon"
+}
 base_stats = {
 "attack": 75,
 "defense": 37,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its magma-like blood circulates throughout its body. Its body’s heat can top 1,100 degrees F.",
+"fr": "Son sang est chaud comme du magma et la température de son corps peut atteindre 600 °C."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -929,4 +934,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 499,
 "tm_id": ""
-}]
+}])

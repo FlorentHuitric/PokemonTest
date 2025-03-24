@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_simj4"]
+
+[resource]
+script = ExtResource("1_simj4")
+item_id = 21
+identifier = "awakening"
+names = {
+"en": "Awakening",
+"fr": "Réveil"
+}
+cost = 200
+category_id = 30
+category_name = {
+"en": "Status cures"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Cures sleep."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A spray-type medicine to wake the sleeping. It can be used",
+"fr": "\"Un médicament sous forme de spray."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 17
+sprite_path = "res://assets/Items/AWAKENING.png"

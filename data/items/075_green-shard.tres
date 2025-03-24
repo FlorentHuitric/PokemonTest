@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kic5q"]
+
+[resource]
+script = ExtResource("1_kic5q")
+item_id = 75
+identifier = "green-shard"
+names = {
+"en": "Green Shard",
+"fr": "Tesson Vert"
+}
+cost = 1000
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "No effect. Can be traded for items or moves."
+}
+effect = {
+"en": "\"No effect."
+}
+flavor_text = {
+"en": "\"A small green shard. It appears to be a fragment of",
+"fr": "\"Un petit tesson vert."
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 51
+sprite_path = "res://assets/Items/GREENSHARD.png"

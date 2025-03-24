@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gj10f"]
+
+[resource]
+script = ExtResource("1_gj10f")
+item_id = 1630
+identifier = "max-honey"
+names = {
+"en": "Max Honey",
+"fr": "Maxi Miel"
+}
+cost = 4000
+category_id = 29
+category_name = {
+"en": "Revival"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Honey that Dynamax Vespiquen produces. Adding this",
+"fr": "\"Un miel crémeux produit par un Apireine Dynamax"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1579
+sprite_path = "res://assets/Items/MAXHONEY.png"

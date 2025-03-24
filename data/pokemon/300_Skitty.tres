@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Kitten Pokémon",
+"fr": "Pokémon Chaton"
+}
 base_stats = {
 "attack": 45,
 "defense": 45,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+"fr": "Il poursuit tout ce qui bouge. On le voit parfois courir en cercle, chassant sa propre queue."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 81",
+"condition_fr": "Objet 81",
+"evolved_pokemon_id": 301,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 15,
 "method": 1,
@@ -900,4 +915,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 583,
 "tm_id": ""
-}]
+}])

@@ -18,8 +18,8 @@ accuracy = 100
 pp = 15
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+"fr": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés."
 }
 tm_id = ""
 meta_category_id = 8
@@ -41,3 +41,20 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 9
+move_effect_short = {
+"en": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.",
+"fr": "Ne fonctionne que sur les Pokémon endormis. Draine la moitié des dégâts infligés pour soigner l'utilisateur."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 9
+metadata/effect_chance = 0

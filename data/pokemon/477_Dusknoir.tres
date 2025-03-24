@@ -13,7 +13,7 @@ pokemon_id = 477
 branch_code = ""
 names = {
 "en": "Dusknoir",
-"fr": "Dusknoir"
+"fr": "Noctunoir"
 }
 generation = 4
 height = 2.2
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Gripper Pokémon",
+"fr": "Pokémon Mainpince"
+}
 base_stats = {
 "attack": 100,
 "defense": 135,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said to take lost spirits into its pliant body and guide them home.",
+"fr": "Son corps se replie sur lui-même pour emprisonner les esprits perdus et les ramener chez eux."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 109",
+"condition_fr": "Objet 109",
+"evolved_pokemon_id": 478,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -965,4 +980,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

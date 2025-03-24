@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_t7idi"]
+
+[resource]
+script = ExtResource("1_t7idi")
+item_id = 380
+identifier = "tm76"
+names = {
+"en": "TM76",
+"fr": "CT76"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Struggle Bug to a compatible Pokémon. (Gen IV: Stealth Rock)"
+}
+effect = {
+"en": "Teaches Stealth Rock to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user attacks the target with a song. Others can",
+"fr": "\"Le lanceur attaque l’ennemi en chantant."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 403
+sprite_path = "res://assets/Items/TM76.png"

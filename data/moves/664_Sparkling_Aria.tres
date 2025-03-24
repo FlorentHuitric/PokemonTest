@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+"fr": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 9
+move_target_name = {
+"en": "All other Pokémon",
+"fr": "Tous les autres Pokémon"
+}
+move_target_description = {
+"en": "Every other Pokémon on the field.",
+"fr": "Tous les autres Pokémon sur le terrain."
+}
+move_effect_id = 386
+move_effect_short = {
+"en": "Cures the target of burns."
+}
+metadata/move_target_id = 9
+metadata/move_effect_id = 386
+metadata/effect_chance = 0

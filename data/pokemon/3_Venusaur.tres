@@ -14,7 +14,7 @@ pokemon_id = 3
 branch_code = ""
 names = {
 "en": "Venusaur",
-"fr": "Venusaur"
+"fr": "Florizarre"
 }
 generation = 1
 height = 2.0
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Seed Pokémon",
+"fr": "Pokémon Graine"
+}
 base_stats = {
 "attack": 82,
 "defense": 83,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/3.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/3.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/3.png"
 description = {
-"en": "",
-"fr": ""
+"en": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+"fr": "Le parfum de sa fleur se fait plus pénétrant les lendemains de pluie. Cela appâte les autres Pokémon."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1014,4 +1019,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 805,
 "tm_id": ""
-}]
+}])

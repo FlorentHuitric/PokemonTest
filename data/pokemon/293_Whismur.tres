@@ -13,7 +13,7 @@ pokemon_id = 293
 branch_code = ""
 names = {
 "en": "Whismur",
-"fr": "Whismur"
+"fr": "Chuchmur"
 }
 generation = 3
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Whisper Pokémon",
+"fr": "Pokémon Chuchoteur"
+}
 base_stats = {
 "attack": 51,
 "defense": 23,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.",
+"fr": "En temps normal, son cri est pareil à un murmure. Effrayé, il atteint le volume d’un avion à réaction."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 294,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -839,4 +854,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 497,
 "tm_id": ""
-}]
+}])

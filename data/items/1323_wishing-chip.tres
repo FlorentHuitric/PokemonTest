@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_eiws4"]
+
+[resource]
+script = ExtResource("1_eiws4")
+item_id = 1323
+identifier = "wishing-chip"
+names = {
+"en": "Wishing Chip",
+"fr": "Fragment Vœu"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Toss a number of them into a Pokémon Den for the",
+"fr": "\"En lancer plusieurs dans l’antre d’un Pokémon augmente"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1265
+sprite_path = "res://assets/Items/WISHINGCHIP.png"

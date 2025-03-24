@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jr6le"]
+
+[resource]
+script = ExtResource("1_jr6le")
+item_id = 470
+identifier = "enigma-stone"
+names = {
+"en": "Enigma Stone",
+"fr": "Mystécristal"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "S: Summons Latias H: Summons Latios."
+}
+effect = {
+"en": "\"When taken to the []{location:pewter-city} museum"
+}
+flavor_text = {
+"en": "\"A crystal ball that was excavated from the ground.",
+"fr": "\"Un orbe cristallin fraîchement déterré."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 536
+sprite_path = "res://assets/Items/ENIGMASTONE.png"

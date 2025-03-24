@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_c42su"]
+
+[resource]
+script = ExtResource("1_c42su")
+item_id = 541
+identifier = "rm-6-key"
+names = {
+"en": "Rm. 6 Key",
+"fr": "Clé Salle 6"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unlocks room 6 on the Abandoned Ship."
+}
+effect = {
+"en": "Unlocks room 6 on the []{location:abandoned-ship}."
+}
+flavor_text = {
+"en": "\"A key that opens the door to Room"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 284
+sprite_path = "res://assets/Items/RM6KEY.png"

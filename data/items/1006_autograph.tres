@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ndvmg"]
+
+[resource]
+script = ExtResource("1_ndvmg")
+item_id = 1006
+identifier = "autograph"
+names = {
+"en": "Autograph",
+"fr": "Dédicace de Bob"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The autograph you got from the Vermilion City Gym",
+"fr": "\"C’est un autographe de Major Bob"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 115
+sprite_path = "res://assets/Items/AUTOGRAPH.png"

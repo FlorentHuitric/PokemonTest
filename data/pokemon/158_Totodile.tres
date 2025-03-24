@@ -13,7 +13,7 @@ pokemon_id = 158
 branch_code = ""
 names = {
 "en": "Totodile",
-"fr": "Totodile"
+"fr": "Kaiminus"
 }
 generation = 2
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Big Jaw Pokémon",
+"fr": "Pokémon Mâchoire"
+}
 base_stats = {
 "attack": 65,
 "defense": 64,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+"fr": "Il broie tout ce qu’il trouve avec ses mâchoires puissantes. Même son Dresseur doit s’en méfier."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 18",
+"condition_fr": "Niveau 18",
+"evolved_pokemon_id": 159,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -887,4 +902,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 526,
 "tm_id": ""
-}]
+}])

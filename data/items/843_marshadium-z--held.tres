@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2npvs"]
+
+[resource]
+script = ExtResource("1_2npvs")
+item_id = 843
+identifier = "marshadium-z--held"
+names = {
+"en": "Marshadium Z",
+"fr": "Marshadozélite"
+}
+cost = 0
+category_id = 46
+category_name = {
+"en": "Z-Crystals"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows Marshadow to upgrade Spectral Thief into Soul-Stealing 7 Star Strike."
+}
+effect = {
+"en": "Held: Allows []{pokemon:marshadow} to upgrade []{move:spectral-thief} into []{move:soul-stealing-7-star-strike}."
+}
+flavor_text = {
+"en": "\"This is a crystallized form of Z-Power.",
+"fr": "\"Une cristallisation de la Force Z"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 802
+sprite_path = "res://assets/Items/MARSHADIUMZHELD.png"

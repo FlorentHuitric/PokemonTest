@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_du28w"]
+
+[resource]
+script = ExtResource("1_du28w")
+item_id = 1177
+identifier = "eject-pack"
+names = {
+"en": "Eject Pack",
+"fr": "Sac Fuite"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 50
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. When the holder’s",
+"fr": "\"Objet à tenir. Si le porteur subit une baisse de stats"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1119
+sprite_path = "res://assets/Items/EJECTPACK.png"

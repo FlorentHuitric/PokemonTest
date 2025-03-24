@@ -15,7 +15,7 @@ pokemon_id = 121
 branch_code = ""
 names = {
 "en": "Starmie",
-"fr": "Starmie"
+"fr": "Staross"
 }
 generation = 1
 height = 1.1
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mysterious Pokémon",
+"fr": "Pokémon Mystérieux"
+}
 base_stats = {
 "attack": 75,
 "defense": 85,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+"fr": "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Known move 102",
+"condition_fr": "Capacité connue 102",
+"evolved_pokemon_id": 122,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -877,4 +892,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

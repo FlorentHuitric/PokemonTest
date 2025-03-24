@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 55,
 "defense": 40,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/25.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/25.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/25.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+"fr": "Il lui arrive de remettre d’aplomb un Pikachu allié en lui envoyant une décharge électrique."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 83",
+"condition_fr": "Objet 83",
+"evolved_pokemon_id": 26,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1229,4 +1244,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

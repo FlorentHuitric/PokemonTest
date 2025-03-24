@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8167p"]
+
+[resource]
+script = ExtResource("1_8167p")
+item_id = 1213
+identifier = "tr25"
+names = {
+"en": "TR25",
+"fr": "DT25"
+}
+cost = 6000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user materializes an odd psychic wave to attack",
+"fr": "\"Le lanceur matérialise des ondes mystérieuses"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1155
+sprite_path = "res://assets/Items/TR25.png"

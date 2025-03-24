@@ -15,7 +15,7 @@ pokemon_id = 230
 branch_code = ""
 names = {
 "en": "Kingdra",
-"fr": "Kingdra"
+"fr": "Hyporoi"
 }
 generation = 2
 height = 1.8
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 95,
 "defense": 95,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+"fr": "Chacun de ses déplacements provoque des tourbillons. Il vit dans les grottes sous-marines."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -829,4 +834,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

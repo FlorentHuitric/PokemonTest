@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Victory Pokémon",
+"fr": "Pokémon Victoire"
+}
 base_stats = {
 "attack": 100,
 "defense": 100,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+"fr": "Son corps produit une énergie sans limites qu’il peut partager avec ceux qu’il touche."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 17,
 "method": 1,
@@ -863,4 +868,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

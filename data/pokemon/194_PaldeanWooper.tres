@@ -14,7 +14,8 @@ script = ExtResource("4_oiqww")
 pokemon_id = 194
 branch_code = ""
 names = {
-"en": "Paldean Wooper"
+"en": "Wooper",
+"fr": "Axoloto"
 }
 generation = 9
 height = 0.4
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Paldean"
+genus = {
+"en": "Water Fish Pokémon",
+"fr": "Pokémon Poisson"
+}
 base_stats = {
 "attack": 45,
 "defense": 45,
@@ -61,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/194-paldea.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/194-paldea.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/194-paldea.png"
 description = {
-"en": "",
-"fr": ""
+"en": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+"fr": "Sur la terre ferme, il couvre son corps d’un fluide toxique qui le protège de la déshydratation."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 195,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -888,4 +904,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

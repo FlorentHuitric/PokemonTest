@@ -14,7 +14,7 @@ pokemon_id = 863
 branch_code = ""
 names = {
 "en": "Perrserker",
-"fr": "Perrserker"
+"fr": "Berserkatt"
 }
 generation = 8
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Viking Pokémon",
+"fr": "Pokémon Viking"
+}
 base_stats = {
 "attack": 110,
 "defense": 100,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 864,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 12,
 "method": 1,
@@ -492,4 +507,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

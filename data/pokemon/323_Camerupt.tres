@@ -15,7 +15,7 @@ pokemon_id = 323
 branch_code = ""
 names = {
 "en": "Camerupt",
-"fr": "Camerupt"
+"fr": "Camérupt"
 }
 generation = 3
 height = 1.9
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Eruption Pokémon",
+"fr": "Pokémon Éruption"
+}
 base_stats = {
 "attack": 100,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/323.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/323.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/323.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+"fr": "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -787,4 +792,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

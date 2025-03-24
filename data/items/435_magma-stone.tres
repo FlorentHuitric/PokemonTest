@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_nql8t"]
+
+[resource]
+script = ExtResource("1_nql8t")
+item_id = 435
+identifier = "magma-stone"
+names = {
+"en": "Magma Stone",
+"fr": "Pierre Magma"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Magma is sealed inside."
+}
+effect = {
+"en": "\"Causes Heatran to appear at Reversal Mountain."
+}
+flavor_text = {
+"en": "\"A stone formed by boulders melting in intensely hot",
+"fr": "\"Une pierre formée à partir de roche en fusion solidifiée."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 458
+sprite_path = "res://assets/Items/MAGMASTONE.png"

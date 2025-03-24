@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_wgoue"]
+
+[resource]
+script = ExtResource("1_wgoue")
+item_id = 248
+identifier = "power-herb"
+names = {
+"en": "Power Herb",
+"fr": "Herbe Pouvoir"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Both turns of a two-turn charge move happen at once. Consumed upon use."
+}
+effect = {
+"en": "\"Held: Whenever the holder uses a move that requires a turn to charge first (Bounce"
+}
+flavor_text = {
+"en": "\"A single-use item to be held by a Pokémon. It",
+"fr": "\"Objet à tenir et à usage unique. Permet d’utiliser"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 271
+sprite_path = "res://assets/Items/POWERHERB.png"

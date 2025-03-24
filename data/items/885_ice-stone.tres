@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_5xgy8"]
+
+[resource]
+script = ExtResource("1_5xgy8")
+item_id = 885
+identifier = "ice-stone"
+names = {
+"en": "Ice Stone",
+"fr": "Pierre Glace"
+}
+cost = 3000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Evolves an Alola Sandshrew into Alola Sandslash or an Alola Vulpix into Alola Ninetales."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"A peculiar stone that can make certain species of",
+"fr": "\"Une pierre étrange qui fait évoluer certaines espèces"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 849
+sprite_path = "res://assets/Items/ICESTONE.png"

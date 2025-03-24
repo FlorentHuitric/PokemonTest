@@ -14,7 +14,7 @@ pokemon_id = 456
 branch_code = ""
 names = {
 "en": "Finneon",
-"fr": "Finneon"
+"fr": "Écayon"
 }
 generation = 4
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "600000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wing Fish Pokémon",
+"fr": "Pokémon Poisson Ailé"
+}
 base_stats = {
 "attack": 49,
 "defense": 56,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/456.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/456.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/456.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The line running down its side can store sunlight. It shines vividly at night.",
+"fr": "La ligne qui fait le tour de son corps stocke l’énergie solaire et brille dans la nuit."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 31",
+"condition_fr": "Niveau 31",
+"evolved_pokemon_id": 457,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -552,4 +567,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 432,
 "tm_id": ""
-}]
+}])

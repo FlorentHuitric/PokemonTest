@@ -13,7 +13,7 @@ pokemon_id = 356
 branch_code = ""
 names = {
 "en": "Dusclops",
-"fr": "Dusclops"
+"fr": "Téraclope"
 }
 generation = 3
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Beckon Pokémon",
+"fr": "Pokémon Appel"
+}
 base_stats = {
 "attack": 70,
 "defense": 130,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+"fr": "Il cherche des feux follets pour les avaler. Ce qui se passe alors dans son corps est un mystère."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1097,4 +1102,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dscy6"]
+
+[resource]
+script = ExtResource("1_dscy6")
+item_id = 237
+identifier = "red-scarf"
+names = {
+"en": "Red Scarf",
+"fr": "Foulard Rouge"
+}
+cost = 100
+category_id = 36
+category_name = {
+"en": "Scarves"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises the holder's Coolness while in a contest."
+}
+effect = {
+"en": "Held: Increases the holder's Coolness during a Super Contest's Visual Competition."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. During a contest",
+"fr": "\"Objet à tenir. Augmente le Sang-froid d’un Pokémon"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 254
+sprite_path = "res://assets/Items/REDSCARF.png"

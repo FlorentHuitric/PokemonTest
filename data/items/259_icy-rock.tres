@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4oo7m"]
+
+[resource]
+script = ExtResource("1_4oo7m")
+item_id = 259
+identifier = "icy-rock"
+names = {
+"en": "Icy Rock",
+"fr": "Roche Glace"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 40
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Hail by the holder lasts 8 rounds instead of 5."
+}
+effect = {
+"en": "\"Held: The holder's Hail will create a hailstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It extends the",
+"fr": "\"Objet à tenir. Prolonge la durée de la capacité Grêle"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 4
+game_index = 282
+sprite_path = "res://assets/Items/ICYROCK.png"

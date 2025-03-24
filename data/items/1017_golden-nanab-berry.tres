@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4t05o"]
+
+[resource]
+script = ExtResource("1_4t05o")
+item_id = 1017
+identifier = "golden-nanab-berry"
+names = {
+"en": "Golden Nanab Berry",
+"fr": "Baie Nanab dorée"
+}
+cost = 5000
+category_id = 48
+category_name = {
+"en": "Catching bonus"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A Berry that calms wild Pokémon you’re trying to catch",
+"fr": "\"Une Baie à donner à un Pokémon sauvage au moment"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 864
+sprite_path = "res://assets/Items/GOLDENNANABBERRY.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sx2cc"]
+
+[resource]
+script = ExtResource("1_sx2cc")
+item_id = 336
+identifier = "tm32"
+names = {
+"en": "TM32",
+"fr": "CT32"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Double Team to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Double Team to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"A five-turn sandstorm is summoned to hurt all",
+"fr": "\"Une tempête de sable blesse tous les Pokémon pendant"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 320
+sprite_path = "res://assets/Items/TM32.png"

@@ -14,7 +14,7 @@ pokemon_id = 531
 branch_code = ""
 names = {
 "en": "Audino",
-"fr": "Audino"
+"fr": "Nanméouïe"
 }
 generation = 5
 height = 1.1
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hearing Pokémon",
+"fr": "Pokémon Audition"
+}
 base_stats = {
 "attack": 60,
 "defense": 86,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its auditory sense is astounding. It has a radarlike ability to understand its surroundings through slight sounds.",
+"fr": "Sa capacité auditive est exceptionnelle. Il émet des sons imperceptibles pour sonder les alentours, comme un sonar."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1074,4 +1079,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 791,
 "tm_id": ""
-}]
+}])

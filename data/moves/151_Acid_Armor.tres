@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",
+"fr": "Le lanceur modifie sa structure moléculaire pour se liquéfier et beaucoup augmenter sa Défense."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 52
+move_effect_short = {
+"en": "Raises the user's Defense by two stages."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 52
+metadata/effect_chance = 0

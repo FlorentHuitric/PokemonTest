@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fd1n5"]
+
+[resource]
+script = ExtResource("1_fd1n5")
+item_id = 622
+identifier = "big-nugget"
+names = {
+"en": "Big Nugget",
+"fr": "Maxi Pépite"
+}
+cost = 40000
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 130
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Sell to Ore Collector for 30000 Pokédollars."
+}
+effect = {
+"en": "Cult vendor trash."
+}
+flavor_text = {
+"en": "\"A big nugget of pure gold that gives off a lustrous",
+"fr": "\"Une pépite d’or pur qui brille d’un éclat magnifique."
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 581
+sprite_path = "res://assets/Items/BIGNUGGET.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_vo2dw"]
+
+[resource]
+script = ExtResource("1_vo2dw")
+item_id = 353
+identifier = "tm49"
+names = {
+"en": "TM49",
+"fr": "CT49"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Echoed Voice to a compatible Pokémon. (Gen IV & III: Snatch Gen II: Fury Cutter Gen I: Tri Attack)"
+}
+effect = {
+"en": "Teaches Snatch to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user traps the target inside a harshly raging",
+"fr": "\"Le lanceur emprisonne l’ennemi dans une tempête"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 337
+sprite_path = "res://assets/Items/TM49.png"

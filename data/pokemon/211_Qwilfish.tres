@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Balloon Pokémon",
+"fr": "Pokémon Bouboule"
+}
 base_stats = {
 "attack": 95,
 "defense": 85,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+"fr": "Il envoie ses piquants empoisonnés à la ronde. Sa forme sphérique en fait un piètre nageur."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 210",
+"condition_fr": "Objet 210",
+"evolved_pokemon_id": 212,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 0,
 "method": 4,
@@ -1003,4 +1018,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

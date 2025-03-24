@@ -18,8 +18,8 @@ accuracy = 0
 pp = 30
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+"fr": "Le lanceur change de type pour prendre celui de la première capacité de sa liste."
 }
 tm_id = ""
 meta_category_id = 13
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 31
+move_effect_short = {
+"en": "User's type changes to the type of one of its moves at random."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 31
+metadata/effect_chance = 0

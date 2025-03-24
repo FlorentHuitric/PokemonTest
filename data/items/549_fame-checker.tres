@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ds677"]
+
+[resource]
+script = ExtResource("1_ds677")
+item_id = 549
+identifier = "fame-checker"
+names = {
+"en": "Fame Checker",
+"fr": "Memorydex"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Records information about NPCs."
+}
+effect = {
+"en": "Records information on various famous people."
+}
+flavor_text = {
+"en": "\"A device that enables you to"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 363
+sprite_path = "res://assets/Items/FAMECHECKER.png"

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://biqc8gyb8mecr"
+
+[deps]
+
+files=["res://imports/pokemon_evolution.evolved.translation", "res://imports/pokemon_evolution.evolution.translation", "res://imports/pokemon_evolution.trigger.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.gender.translation", "res://imports/pokemon_evolution.location.translation", "res://imports/pokemon_evolution.held.translation", "res://imports/pokemon_evolution.time.translation", "res://imports/pokemon_evolution.known.translation", "res://imports/pokemon_evolution.known.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.relative.translation", "res://imports/pokemon_evolution.party.translation", "res://imports/pokemon_evolution.party.translation", "res://imports/pokemon_evolution.trade.translation", "res://imports/pokemon_evolution.needs.translation", "res://imports/pokemon_evolution.turn.translation"]
+
+source_file="res://imports/pokemon_evolution.csv"
+dest_files=["res://imports/pokemon_evolution.evolved.translation", "res://imports/pokemon_evolution.evolution.translation", "res://imports/pokemon_evolution.trigger.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.gender.translation", "res://imports/pokemon_evolution.location.translation", "res://imports/pokemon_evolution.held.translation", "res://imports/pokemon_evolution.time.translation", "res://imports/pokemon_evolution.known.translation", "res://imports/pokemon_evolution.known.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.minimum.translation", "res://imports/pokemon_evolution.relative.translation", "res://imports/pokemon_evolution.party.translation", "res://imports/pokemon_evolution.party.translation", "res://imports/pokemon_evolution.trade.translation", "res://imports/pokemon_evolution.needs.translation", "res://imports/pokemon_evolution.turn.translation"]
+
+[params]
+
+compress=true
+delimiter=0

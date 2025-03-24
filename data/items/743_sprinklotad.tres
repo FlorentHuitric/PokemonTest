@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ohf4p"]
+
+[resource]
+script = ExtResource("1_ohf4p")
+item_id = 743
+identifier = "sprinklotad"
+names = {
+"en": "Sprinklotad",
+"fr": "Nénurrosoir"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Waters Berry plants."
+}
+effect = {
+"en": "Waters Berry plants."
+}
+flavor_text = {
+"en": "\"A watering can shaped like a Lotad. It helps",
+"fr": "\"Un arrosoir en forme de Nénupiot qui aide"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 689
+sprite_path = "res://assets/Items/SPRINKLOTAD.png"

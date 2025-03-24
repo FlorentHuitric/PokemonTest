@@ -12,8 +12,8 @@ script = ExtResource("2_qdaws")
 pokemon_id = 571
 branch_code = ""
 names = {
-"en": "Hisuian Zoroark",
-"fr": "Hisuian Zoroark"
+"en": "Zoroark",
+"fr": "Zoroark"
 }
 generation = 8
 height = 1.6
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Hisuian"
+genus = {
+"en": "Illusion Fox Pokémon",
+"fr": "Pokémon Polymorfox"
+}
 base_stats = {
 "attack": 105,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+"fr": "Il peut mystifier instantanément des foules d’humains. Il protège son habitat en créant des illusions de paysages."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -809,4 +814,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

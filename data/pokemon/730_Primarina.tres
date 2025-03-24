@@ -14,7 +14,7 @@ pokemon_id = 730
 branch_code = ""
 names = {
 "en": "Primarina",
-"fr": "Primarina"
+"fr": "Oratoria"
 }
 generation = 7
 height = 1.8
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Soloist Pokémon",
+"fr": "Pokémon Soliste"
+}
 base_stats = {
 "attack": 74,
 "defense": 74,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -708,4 +713,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

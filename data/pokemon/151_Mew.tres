@@ -33,6 +33,10 @@ experience_type = "1059860"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "New Species Pokémon",
+"fr": "Pokémon Nouveau"
+}
 base_stats = {
 "attack": 100,
 "defense": 100,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+"fr": "Nombre de scientifiques voient en lui l’ancêtre des Pokémon car il maîtrise toutes leurs capacités."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -2794,4 +2799,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

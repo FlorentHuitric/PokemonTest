@@ -12,7 +12,7 @@ pokemon_id = 201
 branch_code = ""
 names = {
 "en": "Unown",
-"fr": "Unown"
+"fr": "Zarbi"
 }
 generation = 2
 height = 0.5
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Symbol Pokémon",
+"fr": "Pokémon Symbolique"
+}
 base_stats = {
 "attack": 72,
 "defense": 48,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When alone, nothing happens. However, if there are two or more, an odd power is said to emerge.",
+"fr": "Quand il est seul, il ne se passe rien... Mais en groupe, il semble habité par un mystérieux pouvoir."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 15",
+"condition_fr": "Niveau 15",
+"evolved_pokemon_id": 202,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -100,4 +115,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 237,
 "tm_id": ""
-}]
+}])

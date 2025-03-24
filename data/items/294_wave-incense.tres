@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_boyxf"]
+
+[resource]
+script = ExtResource("1_boyxf")
+item_id = 294
+identifier = "wave-incense"
+names = {
+"en": "Wave Incense",
+"fr": "Encens Vague"
+}
+cost = 2000
+category_id = 19
+category_name = {
+"en": "Type enhancement"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Water-Type moves from holder do 20% more damage. Breeding: Mantine begets a Mantyke Egg."
+}
+effect = {
+"en": "Held: Increases the power of the holder's Water moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This incense has",
+"fr": "\"Objet à tenir. Un encens au parfum curieux augmentant"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 317
+sprite_path = "res://assets/Items/WAVEINCENSE.png"

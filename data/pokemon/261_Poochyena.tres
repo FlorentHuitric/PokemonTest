@@ -14,7 +14,7 @@ pokemon_id = 261
 branch_code = ""
 names = {
 "en": "Poochyena",
-"fr": "Poochyena"
+"fr": "Medhyèna"
 }
 generation = 3
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bite Pokémon",
+"fr": "Pokémon Morsure"
+}
 base_stats = {
 "attack": 55,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+"fr": "Un Pokémon très obstiné qui poursuit sa proie jusqu’à ce qu’elle soit épuisée."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 18",
+"condition_fr": "Niveau 18",
+"evolved_pokemon_id": 262,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 9,
 "method": 1,
@@ -726,4 +741,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 583,
 "tm_id": ""
-}]
+}])

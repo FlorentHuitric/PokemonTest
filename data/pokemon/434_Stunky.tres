@@ -15,7 +15,7 @@ pokemon_id = 434
 branch_code = ""
 names = {
 "en": "Stunky",
-"fr": "Stunky"
+"fr": "Moufouette"
 }
 generation = 4
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Skunk Pokémon",
+"fr": "Pokémon Moufette"
+}
 base_stats = {
 "attack": 63,
 "defense": 47,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+"fr": "Son derrière propulse un fluide nauséabond qui peut faire fuir les Pokémon dans un rayon de 2 km."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34",
+"condition_fr": "Niveau 34",
+"evolved_pokemon_id": 435,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -883,4 +898,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

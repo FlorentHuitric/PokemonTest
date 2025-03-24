@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Mystic Pokémon",
+"fr": "Pokémon Mystique"
+}
 base_stats = {
 "attack": 75,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/178.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/178.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/178.png"
 description = {
-"en": "",
-"fr": ""
+"en": "This odd Pokémon can see both the past and the future. It eyes the sun’s movement all day.",
+"fr": "Cet étrange Pokémon peut voir l’avenir et le passé. Il guette sans cesse la course du soleil."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1009,4 +1014,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

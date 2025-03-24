@@ -13,7 +13,7 @@ pokemon_id = 370
 branch_code = ""
 names = {
 "en": "Luvdisc",
-"fr": "Luvdisc"
+"fr": "Lovdisc"
 }
 generation = 3
 height = 0.6
@@ -34,6 +34,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rendezvous Pokémon",
+"fr": "Pokémon Rendezvous"
+}
 base_stats = {
 "attack": 30,
 "defense": 55,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love.",
+"fr": "Un habitant des mers chaudes. On dit que le couple qui tombe sur ce Pokémon connaîtra l’amour éternel."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -719,4 +724,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

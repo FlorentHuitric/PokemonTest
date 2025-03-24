@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2uk7l"]
+
+[resource]
+script = ExtResource("1_2uk7l")
+item_id = 1310
+identifier = "wishing-piece"
+names = {
+"en": "Wishing Piece",
+"fr": "Morceau Vœu"
+}
+cost = 20
+category_id = 9
+category_name = {
+"en": "Collectibles"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 50
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"Throw one into a Pokémon Den to attract",
+"fr": "\"Un objet à lancer dans l’antre d’un Pokémon"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1252
+sprite_path = "res://assets/Items/WISHINGPIECE.png"

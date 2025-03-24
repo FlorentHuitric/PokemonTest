@@ -14,8 +14,8 @@ script = ExtResource("4_34kqq")
 pokemon_id = 50
 branch_code = ""
 names = {
-"en": "Alolan Diglett",
-"fr": "Alolan Diglett"
+"en": "Diglett",
+"fr": "Taupiqueur"
 }
 generation = 7
 height = 0.2
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Mole Pokémon",
+"fr": "Pokémon Taupe"
+}
 base_stats = {
 "attack": 55,
 "defense": 30,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+"fr": "Un Pokémon qui vit sous terre. Habitué aux souterrains, il fuit la lumière du jour."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 26",
+"condition_fr": "Niveau 26",
+"evolved_pokemon_id": 51,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -967,4 +982,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

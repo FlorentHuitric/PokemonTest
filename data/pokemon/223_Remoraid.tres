@@ -14,7 +14,7 @@ pokemon_id = 223
 branch_code = ""
 names = {
 "en": "Remoraid",
-"fr": "Remoraid"
+"fr": "Rémoraid"
 }
 generation = 2
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Jet Pokémon",
+"fr": "Pokémon Jet"
+}
 base_stats = {
 "attack": 65,
 "defense": 35,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It forcefully squirts water. The water jet never misses prey even if the Remoraid is deep in the sea.",
+"fr": "Son puissant jet d’eau ne manque jamais sa cible, même quand il est au fond de l’eau."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 25",
+"condition_fr": "Niveau 25",
+"evolved_pokemon_id": 224,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -876,4 +891,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 487,
 "tm_id": ""
-}]
+}])

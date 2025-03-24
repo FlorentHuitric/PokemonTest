@@ -14,7 +14,7 @@ pokemon_id = 770
 branch_code = ""
 names = {
 "en": "Palossand",
-"fr": "Palossand"
+"fr": "Trépassable"
 }
 generation = 7
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sand Castle Pokémon",
+"fr": "Pokémon Châtod’Sable"
+}
 base_stats = {
 "attack": 75,
 "defense": 110,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -606,4 +611,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

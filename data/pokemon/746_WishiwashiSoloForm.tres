@@ -11,7 +11,8 @@ script = ExtResource("2_ujosy")
 pokemon_id = 746
 branch_code = ""
 names = {
-"en": "Wishiwashi Solo Form"
+"en": "Wishiwashi",
+"fr": "Froussardine"
 }
 generation = 7
 height = 0.2
@@ -32,6 +33,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Small Fry Pokémon",
+"fr": "Pokémon Minipoisson"
+}
 base_stats = {
 "attack": 20,
 "defense": 20,
@@ -87,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 25,
 "method": 1,
@@ -555,4 +561,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 812,
 "tm_id": ""
-}]
+}])

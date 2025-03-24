@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_b2udl"]
+
+[resource]
+script = ExtResource("1_b2udl")
+item_id = 84
+identifier = "water-stone"
+names = {
+"en": "Water Stone",
+"fr": "Pierre Eau"
+}
+cost = 3000
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Evolves an Eevee into Vaporeon"
+}
+effect = {
+"en": " a Lombre into Ludicolo"
+}
+flavor_text = {
+"en": "\"A peculiar stone that can make certain species of",
+"fr": "\"Une pierre étrange qui fait évoluer certaines espèces"
+}
+flags = Array[String](["underground"])
+generation_id = 3
+game_index = 97
+sprite_path = "res://assets/Items/WATERSTONE.png"

@@ -14,7 +14,7 @@ pokemon_id = 533
 branch_code = ""
 names = {
 "en": "Gurdurr",
-"fr": "Gurdurr"
+"fr": "Ouvrifier"
 }
 generation = 5
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Muscular Pokémon",
+"fr": "Pokémon Costaud"
+}
 base_stats = {
 "attack": 105,
 "defense": 85,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+"fr": "Il entretient sa forme en transportant une poutre en acier et fait des concours de culturisme avec ses camarades."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 534,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -672,4 +687,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

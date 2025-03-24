@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_53mc4"]
+
+[resource]
+script = ExtResource("1_53mc4")
+item_id = 135
+identifier = "sitrus-berry"
+names = {
+"en": "Sitrus Berry",
+"fr": "Baie Sitrus"
+}
+cost = 80
+category_id = 3
+category_name = {
+"en": "Medicine",
+"fr": "Médicament"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 3
+fling_effect = {
+"en": "Immediately activates the berry's effect on the target.",
+"fr": "Active immédiatement l'effet de la baie sur la cible."
+}
+short_effect = {
+"en": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+}
+effect = {
+"en": "\"Held in battle"
+}
+flavor_text = {
+"en": "\"A Berry to be consumed by Pokémon. If a Pokémon",
+"fr": "\"Une Baie qui restaure quelques PV lorsqu’elle est tenue"
+}
+flags = Array[String](["holdable-active"])
+generation_id = 3
+game_index = 142
+sprite_path = "res://assets/Items/SITRUSBERRY.png"

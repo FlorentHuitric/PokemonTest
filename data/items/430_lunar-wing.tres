@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_g6vi4"]
+
+[resource]
+script = ExtResource("1_g6vi4")
+item_id = 430
+identifier = "lunar-wing"
+names = {
+"en": "Lunar Wing",
+"fr": "Lun’Aile"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Cures sailor's son of nightmares in Canalave City."
+}
+effect = {
+"en": "\"Cures the sailor's son of his nightmares; no reward"
+}
+flavor_text = {
+"en": "\"A feather that glows like the moon. It’s said to",
+"fr": "\"Une plume qui brille comme la lune."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 453
+sprite_path = "res://assets/Items/LUNARWING.png"

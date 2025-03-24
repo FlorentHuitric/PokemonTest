@@ -14,7 +14,7 @@ pokemon_id = 873
 branch_code = ""
 names = {
 "en": "Frosmoth",
-"fr": "Frosmoth"
+"fr": "Beldeneige"
 }
 generation = 8
 height = 1.3
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Frost Moth Pokémon",
+"fr": "Pokémon Mite Givre"
+}
 base_stats = {
 "attack": 65,
 "defense": 60,
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 12,
 "method": 1,
@@ -420,4 +425,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

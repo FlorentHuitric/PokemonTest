@@ -11,8 +11,8 @@ script = ExtResource("2_f6skn")
 pokemon_id = 306
 branch_code = ""
 names = {
-"en": "Mega Aggron",
-"fr": "Mega Aggron"
+"en": "Aggron",
+"fr": "Galeking"
 }
 generation = 3
 height = 2.2
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Iron Armor Pokémon",
+"fr": "Pokémon Armurfer"
+}
 base_stats = {
 "attack": 140,
 "defense": 230,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+"fr": "Il creuse des galeries à travers la pierre avec ses cornes d’acier pour trouver le fer qu’il apprécie."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1378,4 +1383,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

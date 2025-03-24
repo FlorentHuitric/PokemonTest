@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_tf5og"]
+
+[resource]
+script = ExtResource("1_tf5og")
+item_id = 2
+identifier = "ultra-ball"
+names = {
+"en": "Ultra Ball",
+"fr": "Hyper Ball"
+}
+cost = 800
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon.  Success rate is 2×."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"An ultra-high-performance Poké Ball that provides",
+"fr": "\"Une Poké Ball très performante dont le taux de réussite"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 2
+sprite_path = "res://assets/Items/ULTRABALL.png"

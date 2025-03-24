@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xvnxq"]
+
+[resource]
+script = ExtResource("1_xvnxq")
+item_id = 1181
+identifier = "utility-umbrella"
+names = {
+"en": "Utility Umbrella",
+"fr": "Parapluie Solide"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 60
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This sturdy umbrella",
+"fr": "\"Objet à tenir. Protège le porteur des effets de la pluie"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1123
+sprite_path = "res://assets/Items/UTILITYUMBRELLA.png"

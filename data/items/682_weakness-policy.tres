@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bc7lb"]
+
+[resource]
+script = ExtResource("1_bc7lb")
+item_id = 682
+identifier = "weakness-policy"
+names = {
+"en": "Weakness Policy",
+"fr": "Vulné-Assurance"
+}
+cost = 1000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: When the holder is hit by a super effective move"
+}
+effect = {
+"en": " its Attack and Special Attack raise by two stages.\""
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. Attack and",
+"fr": "\"Objet à tenir. Augmente beaucoup l’Attaque"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 639
+sprite_path = "res://assets/Items/WEAKNESSPOLICY.png"

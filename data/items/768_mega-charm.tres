@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gsygh"]
+
+[resource]
+script = ExtResource("1_gsygh")
+item_id = 768
+identifier = "mega-charm"
+names = {
+"en": "Mega Charm",
+"fr": "Méga-Charme"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unused Key Stone."
+}
+effect = {
+"en": "\"Unused.  This appears as the girlplayer's Mega Bracelet in Pokémon Contests"
+}
+flavor_text = {
+"en": "\"This charm contains an untold power that somehow",
+"fr": "\"Un charme aux pouvoirs mystérieux permettant"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 716
+sprite_path = "res://assets/Items/MEGACHARM.png"

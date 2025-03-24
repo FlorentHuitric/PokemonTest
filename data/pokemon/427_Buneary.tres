@@ -14,7 +14,7 @@ pokemon_id = 427
 branch_code = ""
 names = {
 "en": "Buneary",
-"fr": "Buneary"
+"fr": "Laporeille"
 }
 generation = 4
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rabbit Pokémon",
+"fr": "Pokémon Lapin"
+}
 base_stats = {
 "attack": 66,
 "defense": 44,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+"fr": "Ses oreilles repliées se déroulent avec une force capable de briser un gros rocher."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 428,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -936,4 +951,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

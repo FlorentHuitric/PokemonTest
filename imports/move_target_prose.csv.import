@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cr4nhww81ncoh"
+
+[deps]
+
+files=["res://imports/move_target_prose.local.translation", "res://imports/move_target_prose.name.translation", "res://imports/move_target_prose.description.translation"]
+
+source_file="res://imports/move_target_prose.csv"
+dest_files=["res://imports/move_target_prose.local.translation", "res://imports/move_target_prose.name.translation", "res://imports/move_target_prose.description.translation"]
+
+[params]
+
+compress=true
+delimiter=0

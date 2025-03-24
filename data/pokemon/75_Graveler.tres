@@ -15,7 +15,7 @@ pokemon_id = 75
 branch_code = ""
 names = {
 "en": "Graveler",
-"fr": "Graveler"
+"fr": "Gravalanch"
 }
 generation = 1
 height = 1.0
@@ -36,6 +36,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Rock Pokémon",
+"fr": "Pokémon Roche"
+}
 base_stats = {
 "attack": 95,
 "defense": 115,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+"fr": "Il dévale les montagnes pour se déplacer. Une fois qu’il a pris tout son élan, dur dur de l’arrêter!"
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 76,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1087,4 +1102,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 446,
 "tm_id": ""
-}]
+}])

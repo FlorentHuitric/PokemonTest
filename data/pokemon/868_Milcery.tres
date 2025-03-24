@@ -13,7 +13,7 @@ pokemon_id = 868
 branch_code = ""
 names = {
 "en": "Milcery",
-"fr": "Milcery"
+"fr": "Crèmy"
 }
 generation = 8
 height = 0.2
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cream Pokémon",
+"fr": "Pokémon Crème"
+}
 base_stats = {
 "attack": 40,
 "defense": 40,
@@ -89,7 +93,17 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 869,
+"trigger_name": {
+"en": "Spin"
+},
+"trigger_type": "spin"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -269,4 +283,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 608,
 "tm_id": ""
-}]
+}])

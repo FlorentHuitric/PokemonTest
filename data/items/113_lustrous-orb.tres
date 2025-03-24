@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_m2115"]
+
+[resource]
+script = ExtResource("1_m2115")
+item_id = 113
+identifier = "lustrous-orb"
+names = {
+"en": "Lustrous Orb",
+"fr": "Orbe Perlé"
+}
+cost = 0
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 60
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Boosts the damage from Palkia's Dragon-type and Water-type moves by 20%."
+}
+effect = {
+"en": "\"Held by []{pokemon:palkia}"
+}
+flavor_text = {
+"en": "\"A beautifully glowing orb to be held by Palkia.",
+"fr": "\"Un bel orbe luisant destiné à Palkia."
+}
+flags = Array[String](["holdable"])
+generation_id = 4
+game_index = 136
+sprite_path = "res://assets/Items/LUSTROUSORB.png"

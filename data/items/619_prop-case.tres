@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_gcxl0"]
+
+[resource]
+script = ExtResource("1_gcxl0")
+item_id = 619
+identifier = "prop-case"
+names = {
+"en": "Prop Case",
+"fr": "Boîte Parure"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Stores props for the Pokémon Musical."
+}
+effect = {
+"en": "Stores props for the Pokémon Musical."
+}
+flavor_text = {
+"en": "\"A lovely case to store colorful Props for your",
+"fr": "\"Une boîte permettant de ranger les Parures"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 578
+sprite_path = "res://assets/Items/PROPCASE.png"

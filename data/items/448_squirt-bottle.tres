@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_sfc2v"]
+
+[resource]
+script = ExtResource("1_sfc2v")
+item_id = 448
+identifier = "squirt-bottle"
+names = {
+"en": "Squirt Bottle",
+"fr": "Carapuce à O"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Use on Sudowoodo blocking the path on Route 36. Also waters berries."
+}
+effect = {
+"en": "\"Required to water berries within the []{item:berry-pots}."
+}
+flavor_text = {
+"en": "A bottle used for watering plants in the Berry Pots.",
+"fr": "\"Un arrosoir qui permet de faire croître rapidement"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 477
+sprite_path = "res://assets/Items/SQUIRTBOTTLE.png"

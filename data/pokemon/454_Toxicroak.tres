@@ -15,7 +15,7 @@ pokemon_id = 454
 branch_code = ""
 names = {
 "en": "Toxicroak",
-"fr": "Toxicroak"
+"fr": "Coatox"
 }
 generation = 4
 height = 1.3
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Toxic Mouth Pokémon",
+"fr": "Pokémon Toxique"
+}
 base_stats = {
 "attack": 106,
 "defense": 65,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/454.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/454.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/454.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+"fr": "Quand il coasse, le poison stocké sous sa gorge est secoué, le rendant ainsi plus efficace."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -913,4 +918,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

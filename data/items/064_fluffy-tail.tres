@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_nm60w"]
+
+[resource]
+script = ExtResource("1_nm60w")
+item_id = 64
+identifier = "fluffy-tail"
+names = {
+"en": "Fluffy Tail",
+"fr": "Queue Skitty"
+}
+cost = 100
+category_id = 11
+category_name = {
+"en": "Spelunking"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Ends a wild battle."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A toy that attracts the attention of a Pokémon.",
+"fr": "\"Un objet qui attire les Pokémon."
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 81
+sprite_path = "res://assets/Items/FLUFFYTAIL.png"

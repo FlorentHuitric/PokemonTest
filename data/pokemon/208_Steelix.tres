@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Snake Pokémon",
+"fr": "Pokémon Serpenfer"
+}
 base_stats = {
 "attack": 85,
 "defense": 200,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/208.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/208.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/208.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+"fr": "On pense que son corps s’est transformé à cause du fer contenu dans la terre dont il se nourrit."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1309,4 +1314,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

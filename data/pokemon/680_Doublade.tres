@@ -13,7 +13,7 @@ pokemon_id = 680
 branch_code = ""
 names = {
 "en": "Doublade",
-"fr": "Doublade"
+"fr": "Dimoclès"
 }
 generation = 6
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sword Pokémon",
+"fr": "Pokémon Glaive"
+}
 base_stats = {
 "attack": 110,
 "defense": 150,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 108",
+"condition_fr": "Objet 108",
+"evolved_pokemon_id": 681,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -533,4 +548,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 796,
 "tm_id": ""
-}]
+}])

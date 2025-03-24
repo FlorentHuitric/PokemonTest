@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Psi Pokémon",
+"fr": "Pokémon Psy"
+}
 base_stats = {
 "attack": 35,
 "defense": 30,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/64.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/64.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/64.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.",
+"fr": "Il fixe sa cuillère d’argent afin de concentrer son esprit et d’émettre un maximum d’ondes alpha."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Trading",
+"condition_fr": "Échange",
+"evolved_pokemon_id": 65,
+"trigger_name": {
+"en": "Trade",
+"fr": "Échange"
+},
+"trigger_type": "trade"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1290,4 +1305,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

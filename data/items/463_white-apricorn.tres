@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_fv7rm"]
+
+[resource]
+script = ExtResource("1_fv7rm")
+item_id = 463
+identifier = "white-apricorn"
+names = {
+"en": "White Apricorn",
+"fr": "Noigrume Blanc"
+}
+cost = 200
+category_id = 40
+category_name = {
+"en": "Apricorn Box"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Used to make a Fast Ball."
+}
+effect = {
+"en": "May be given to Kurt in []{location:azalea-town} to produce a []{item:fast-ball}."
+}
+flavor_text = {
+"en": "A white Apricorn. It doesn’t smell like anything.",
+"fr": "\"Un Noigrume de couleur blanche."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 490
+sprite_path = "res://assets/Items/WHITEAPRICORN.png"

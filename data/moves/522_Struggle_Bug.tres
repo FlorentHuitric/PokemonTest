@@ -18,8 +18,8 @@ accuracy = 100
 pp = 20
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+"fr": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi."
 }
 tm_id = ""
 meta_category_id = 6
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 72
+move_effect_short = {
+"en": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 72
+metadata/effect_chance = 100

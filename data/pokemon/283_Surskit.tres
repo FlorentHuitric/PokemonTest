@@ -14,7 +14,7 @@ pokemon_id = 283
 branch_code = ""
 names = {
 "en": "Surskit",
-"fr": "Surskit"
+"fr": "Arakdo"
 }
 generation = 3
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Pond Skater Pokémon",
+"fr": "Pokémon Maresurfeur"
+}
 base_stats = {
 "attack": 30,
 "defense": 32,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+"fr": "Il semble patiner sur l’eau. Le parfum diffusé par le sommet de sa tête sert à attirer ses proies."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 22",
+"condition_fr": "Niveau 22",
+"evolved_pokemon_id": 284,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 37,
 "method": 1,
@@ -576,4 +591,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

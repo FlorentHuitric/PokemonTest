@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_lqk7w"]
+
+[resource]
+script = ExtResource("1_lqk7w")
+item_id = 842
+identifier = "tapunium-z--held"
+names = {
+"en": "Tapunium Z",
+"fr": "Tokozélite"
+}
+cost = 0
+category_id = 46
+category_name = {
+"en": "Z-Crystals"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Allows the Tapus to upgrade Nature's Madness into Guardian of Alola."
+}
+effect = {
+"en": "\"Held: Allows []{pokemon:tapu-koko}"
+}
+flavor_text = {
+"en": "\"This is a crystallized form of Z-Power. It upgrades",
+"fr": "\"Une cristallisation de la Force Z"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 801
+sprite_path = "res://assets/Items/TAPUNIUMZHELD.png"

@@ -14,7 +14,7 @@ pokemon_id = 241
 branch_code = ""
 names = {
 "en": "Miltank",
-"fr": "Miltank"
+"fr": "Écrémeuh"
 }
 generation = 2
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Milk Cow Pokémon",
+"fr": "Pokémon Vachalait"
+}
 base_stats = {
 "attack": 80,
 "defense": 105,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said that kids who drink Miltank’s milk grow up to become hearty, healthy adults.",
+"fr": "On raconte que les enfants élevés au lait d’Écrémeuh deviennent des adultes braves et robustes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 242,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1104,4 +1119,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

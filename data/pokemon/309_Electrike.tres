@@ -14,7 +14,7 @@ pokemon_id = 309
 branch_code = ""
 names = {
 "en": "Electrike",
-"fr": "Electrike"
+"fr": "Dynavolt"
 }
 generation = 3
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lightning Pokémon",
+"fr": "Pokémon Orage"
+}
 base_stats = {
 "attack": 45,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+"fr": "Il améliore ses réflexes en stimulant ses muscles grâce à l’électricité dans sa fourrure."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 26",
+"condition_fr": "Niveau 26",
+"evolved_pokemon_id": 310,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -798,4 +813,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

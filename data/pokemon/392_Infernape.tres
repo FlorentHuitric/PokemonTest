@@ -14,7 +14,7 @@ pokemon_id = 392
 branch_code = ""
 names = {
 "en": "Infernape",
-"fr": "Infernape"
+"fr": "Simiabraz"
 }
 generation = 4
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Flame Pokémon",
+"fr": "Pokémon Flamme"
+}
 base_stats = {
 "attack": 104,
 "defense": 71,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+"fr": "Ses techniques de combat inédites à base de pieds et poings enflammés sont redoutables."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -762,4 +767,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

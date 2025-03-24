@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3m7tj"]
+
+[resource]
+script = ExtResource("1_3m7tj")
+item_id = 547
+identifier = "lift-key"
+names = {
+"en": "Lift Key",
+"fr": "Clé Ascenseur"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Operates the elevator in Team Rocket's Celadon Hideout."
+}
+effect = {
+"en": "Operates the elevator in the Celadon Rocket Hideout."
+}
+flavor_text = {
+"en": "\"A key that operates the elevator in the Team Rocket",
+"fr": "\"Une clé activant l’ascenseur du Repaire de la Team"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 356
+sprite_path = "res://assets/Items/LIFTKEY.png"

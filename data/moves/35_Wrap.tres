@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 1
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+"fr": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 100
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 43
+move_effect_short = {
+"en": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 43
+metadata/effect_chance = 100

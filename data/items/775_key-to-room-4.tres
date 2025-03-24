@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_iklf8"]
+
+[resource]
+script = ExtResource("1_iklf8")
+item_id = 775
+identifier = "key-to-room-4"
+names = {
+"en": "Key to Room 4",
+"fr": "Clé Salle 4"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Unlocks the door to Room 4 in Sea Mauville."
+}
+effect = {
+"en": "Unlocks the door to Room 4 in Sea Mauville."
+}
+flavor_text = {
+"en": "A key that opens a door inside Sea Mauville.",
+"fr": "La clé d’une salle de Lavandia Sea."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 732
+sprite_path = "res://assets/Items/KEYTOROOM4.png"

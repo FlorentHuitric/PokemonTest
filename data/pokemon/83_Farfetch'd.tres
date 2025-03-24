@@ -14,7 +14,8 @@ script = ExtResource("4_7qqjw")
 pokemon_id = 83
 branch_code = ""
 names = {
-"en": "Farfetch'd"
+"en": "Farfetch’d",
+"fr": "Canarticho"
 }
 generation = 1
 height = 0.8
@@ -35,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wild Duck Pokémon",
+"fr": "Pokémon Canard Fou"
+}
 base_stats = {
 "attack": 90,
 "defense": 55,
@@ -61,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+"fr": "Il ne peut pas vivre sans son légume, c’est pourquoi il le protégera au péril de sa vie."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1188,4 +1194,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

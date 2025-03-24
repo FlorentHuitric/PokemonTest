@@ -18,8 +18,8 @@ accuracy = 0
 pp = 20
 generation = 6
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+"fr": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié."
 }
 tm_id = ""
 meta_category_id = 2
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 3
+move_target_name = {
+"en": "Ally",
+"fr": "Allié"
+}
+move_target_description = {
+"en": "The user's ally (if any).",
+"fr": "L'allié de l'utilisateur (s'il y en a un)."
+}
+move_effect_id = 363
+move_effect_short = {
+"en": "Raises a selected ally's Special Defense by one stage."
+}
+metadata/move_target_id = 3
+metadata/move_effect_id = 363
+metadata/effect_chance = 0

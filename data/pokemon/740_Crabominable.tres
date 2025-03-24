@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Woolly Crab Pokémon",
+"fr": "Pokémon Crabe Velu"
+}
 base_stats = {
 "attack": 132,
 "defense": 77,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 1,
@@ -487,4 +492,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 530,
 "tm_id": ""
-}]
+}])

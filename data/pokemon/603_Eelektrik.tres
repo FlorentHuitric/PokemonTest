@@ -12,7 +12,7 @@ pokemon_id = 603
 branch_code = ""
 names = {
 "en": "Eelektrik",
-"fr": "Eelektrik"
+"fr": "Lampéroie"
 }
 generation = 5
 height = 1.2
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "EleFish Pokémon",
+"fr": "Pokémon Électrophore"
+}
 base_stats = {
 "attack": 85,
 "defense": 70,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+"fr": "Un Pokémon doté d’un gros appétit. Il paralyse ses proies avec des décharges électriques avant de les manger."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Item 83",
+"condition_fr": "Objet 83",
+"evolved_pokemon_id": 604,
+"trigger_name": {
+"en": "Use item",
+"fr": "Utilisation d'un objet"
+},
+"trigger_type": "use-item"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 9,
 "method": 1,
@@ -436,4 +451,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

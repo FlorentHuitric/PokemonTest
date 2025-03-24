@@ -14,7 +14,7 @@ pokemon_id = 522
 branch_code = ""
 names = {
 "en": "Blitzle",
-"fr": "Blitzle"
+"fr": "Zébibron"
 }
 generation = 5
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Electrified Pokémon",
+"fr": "Pokémon Étincélec"
+}
 base_stats = {
 "attack": 60,
 "defense": 32,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+"fr": "Il apparaît quand le ciel est à l’orage. Il capte les éclairs avec sa crinière et accumule de l’électricité."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 27",
+"condition_fr": "Niveau 27",
+"evolved_pokemon_id": 523,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 29,
 "method": 1,
@@ -432,4 +447,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 364,
 "tm_id": ""
-}]
+}])

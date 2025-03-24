@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Triple Bird Pokémon",
+"fr": "Pokémon Trioiseau"
+}
 base_stats = {
 "attack": 110,
 "defense": 70,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/85.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/85.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/85.png"
 description = {
-"en": "",
-"fr": ""
+"en": "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+"fr": "Quand Doduo connaît cette étrange évolution, l’une de ses têtes se dédouble. Il atteint les 60 km/h."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -865,4 +870,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 119,
 "tm_id": ""
-}]
+}])

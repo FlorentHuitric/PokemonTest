@@ -14,7 +14,7 @@ pokemon_id = 824
 branch_code = ""
 names = {
 "en": "Blipbug",
-"fr": "Blipbug"
+"fr": "Larvadar"
 }
 generation = 8
 height = 0.4
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Larva Pokémon",
+"fr": "Pokémon Larve"
+}
 base_stats = {
 "attack": 20,
 "defense": 20,
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 10",
+"condition_fr": "Niveau 10",
+"evolved_pokemon_id": 825,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -120,4 +135,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 611,
 "tm_id": ""
-}]
+}])

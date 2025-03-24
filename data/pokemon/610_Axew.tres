@@ -14,7 +14,7 @@ pokemon_id = 610
 branch_code = ""
 names = {
 "en": "Axew",
-"fr": "Axew"
+"fr": "Coupenotte"
 }
 generation = 5
 height = 0.6
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tusk Pokémon",
+"fr": "Pokémon Crocs"
+}
 base_stats = {
 "attack": 87,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+"fr": "Il laisse la marque de ses crocs dans les arbres pour marquer son territoire. Ses crocs repoussent dès qu’ils tombent."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 611,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -726,4 +741,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 799,
 "tm_id": ""
-}]
+}])

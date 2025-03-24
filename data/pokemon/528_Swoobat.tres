@@ -15,7 +15,7 @@ pokemon_id = 528
 branch_code = ""
 names = {
 "en": "Swoobat",
-"fr": "Swoobat"
+"fr": "Rhinolove"
 }
 generation = 5
 height = 0.9
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Courting Pokémon",
+"fr": "Pokémon Cupidon"
+}
 base_stats = {
 "attack": 57,
 "defense": 55,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+"fr": "Le mâle courtise la femelle à l’aide d’ultrasons. Les écouter met de très bonne humeur."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -829,4 +834,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 149
 branch_code = ""
 names = {
 "en": "Dragonite",
-"fr": "Dragonite"
+"fr": "Dracolosse"
 }
 generation = 1
 height = 2.2
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Dragon Pokémon",
+"fr": "Pokémon Dragon"
+}
 base_stats = {
 "attack": 134,
 "defense": 95,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+"fr": "On raconte qu’il vit quelque part en mer. Il guide les équipages naufragés jusqu’à la terre ferme."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -1356,4 +1361,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

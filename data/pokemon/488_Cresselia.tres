@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Lunar Pokémon",
+"fr": "Pokémon Lunaire"
+}
 base_stats = {
 "attack": 70,
 "defense": 110,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
+"fr": "Les nuits où le premier croissant de lune est visible, l’arc de sa queue se déploie de façon superbe."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 20,
 "method": 1,
@@ -706,4 +711,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

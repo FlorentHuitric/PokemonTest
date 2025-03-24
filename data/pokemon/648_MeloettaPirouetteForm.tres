@@ -12,7 +12,8 @@ script = ExtResource("2_lklo4")
 pokemon_id = 648
 branch_code = ""
 names = {
-"en": "Meloetta Pirouette Form"
+"en": "Meloetta",
+"fr": "Meloetta"
 }
 generation = 5
 height = 0.6
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Mythical"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Melody Pokémon",
+"fr": "Pokémon Mélodie"
+}
 base_stats = {
 "attack": 128,
 "defense": 90,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Many famous songs have been inspired by the melodies that Meloetta plays.",
+"fr": "De nombreux succès musicaux ont été composés en s’inspirant des mélodies chantées par Meloetta."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 16,
 "method": 1,
@@ -706,4 +712,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 673,
 "tm_id": ""
-}]
+}])

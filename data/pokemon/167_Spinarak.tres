@@ -15,7 +15,7 @@ pokemon_id = 167
 branch_code = ""
 names = {
 "en": "Spinarak",
-"fr": "Spinarak"
+"fr": "Mimigal"
 }
 generation = 2
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "String Spit Pokémon",
+"fr": "Pokémon Crache Fil"
+}
 base_stats = {
 "attack": 60,
 "defense": 40,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It sets a trap by spinning a web with thin but strong silk. It waits motionlessly for prey to arrive.",
+"fr": "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l’attente d’une proie."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 22",
+"condition_fr": "Niveau 22",
+"evolved_pokemon_id": 168,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -661,4 +676,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 679,
 "tm_id": ""
-}]
+}])

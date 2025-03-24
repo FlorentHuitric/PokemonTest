@@ -13,7 +13,7 @@ pokemon_id = 514
 branch_code = ""
 names = {
 "en": "Simisear",
-"fr": "Simisear"
+"fr": "Flamoutan"
 }
 generation = 5
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ember Pokémon",
+"fr": "Pokémon Braise"
+}
 base_stats = {
 "attack": 98,
 "defense": 63,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+"fr": "Son corps est en combustion. Il projette des flammèches par la tête et la queue pour carboniser ses ennemis."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -491,4 +496,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

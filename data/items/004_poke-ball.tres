@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_1m1cm"]
+
+[resource]
+script = ExtResource("1_1m1cm")
+item_id = 4
+identifier = "poke-ball"
+names = {
+"en": "Poké Ball",
+"fr": "Poké Ball"
+}
+cost = 200
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A device for catching wild Pokémon. It’s thrown like",
+"fr": "\"Un objet semblable à une capsule"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 4
+sprite_path = "res://assets/Items/POKEBALL.png"

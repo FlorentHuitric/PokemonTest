@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pafar"]
+
+[resource]
+script = ExtResource("1_pafar")
+item_id = 562
+identifier = "old-sea-map"
+names = {
+"en": "Old Sea Map",
+"fr": "Vieillecarte"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows access to Faraway Island and Mew. Unreleased outside of Japan."
+}
+effect = {
+"en": "Provides access to Faraway Island and []{pokemon:mew}."
+}
+flavor_text = {
+"en": "\"A faded sea chart"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 376
+sprite_path = "res://assets/Items/OLDSEAMAP.png"

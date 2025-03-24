@@ -15,7 +15,7 @@ pokemon_id = 238
 branch_code = ""
 names = {
 "en": "Smoochum",
-"fr": "Smoochum"
+"fr": "Lippouti"
 }
 generation = 2
 height = 0.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Kiss Pokémon",
+"fr": "Pokémon Bisou"
+}
 base_stats = {
 "attack": 30,
 "defense": 15,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It tests everything by touching with its lips, which remember what it likes and dislikes.",
+"fr": "Il goûte à tout du bout des lèvres. Elles gardent en mémoire ses goûts et ses dégoûts."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1045,4 +1050,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 577,
 "tm_id": ""
-}]
+}])

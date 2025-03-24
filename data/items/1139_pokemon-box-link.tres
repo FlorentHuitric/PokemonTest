@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_bxqxs"]
+
+[resource]
+script = ExtResource("1_bxqxs")
+item_id = 1139
+identifier = "pokemon-box-link"
+names = {
+"en": "Pokémon Box Link",
+"fr": "Boîte Pokémon"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A device that allows you to access the Pokémon storage",
+"fr": "\"Permet d’accéder aux Boîtes PC du Centre Pokémon"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1075
+sprite_path = "res://assets/Items/POKEMONBOXLINK.png"

@@ -12,7 +12,7 @@ pokemon_id = 736
 branch_code = ""
 names = {
 "en": "Grubbin",
-"fr": "Grubbin"
+"fr": "Larvibule"
 }
 generation = 7
 height = 0.4
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Larva Pokémon",
+"fr": "Pokémon Larve"
+}
 base_stats = {
 "attack": 62,
 "defense": 45,
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 20",
+"condition_fr": "Niveau 20",
+"evolved_pokemon_id": 737,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -460,4 +475,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

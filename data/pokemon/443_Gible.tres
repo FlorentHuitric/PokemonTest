@@ -14,7 +14,7 @@ pokemon_id = 443
 branch_code = ""
 names = {
 "en": "Gible",
-"fr": "Gible"
+"fr": "Griknot"
 }
 generation = 4
 height = 0.7
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Land Shark Pokémon",
+"fr": "Pokémon Terrequin"
+}
 base_stats = {
 "attack": 70,
 "defense": 45,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/443.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/443.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/443.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+"fr": "Malgré sa maladresse, son énorme gueule lui permet de lancer des attaques puissantes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 24",
+"condition_fr": "Niveau 24",
+"evolved_pokemon_id": 444,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -696,4 +711,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

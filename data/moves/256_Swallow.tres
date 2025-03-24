@@ -18,8 +18,8 @@ accuracy = 0
 pp = 10
 generation = 3
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+"fr": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV."
 }
 tm_id = ""
 meta_category_id = 3
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 7
+move_target_name = {
+"en": "User",
+"fr": "Utilisateur"
+}
+move_target_description = {
+"en": "The user.",
+"fr": "L'utilisateur."
+}
+move_effect_id = 163
+move_effect_short = {
+"en": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
+}
+metadata/move_target_id = 7
+metadata/move_effect_id = 163
+metadata/effect_chance = 0

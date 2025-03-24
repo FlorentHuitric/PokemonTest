@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_hs6q6"]
+
+[resource]
+script = ExtResource("1_hs6q6")
+item_id = 232
+identifier = "lax-incense"
+names = {
+"en": "Lax Incense",
+"fr": "Encens Doux"
+}
+cost = 5000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder's evasion is increased by 5%. Breeding: Wobbuffet begets a Wynaut Egg."
+}
+effect = {
+"en": "Held: Increases the holder's Evasion by 5%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. The beguiling",
+"fr": "\"Objet à tenir. Le parfum trompeur de cet encens"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 221
+sprite_path = "res://assets/Items/LAXINCENSE.png"

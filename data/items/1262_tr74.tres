@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_f8f8d"]
+
+[resource]
+script = ExtResource("1_f8f8d")
+item_id = 1262
+identifier = "tr74"
+names = {
+"en": "TR74",
+"fr": "DT74"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 80
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user slams the target with its steel-hard head.",
+"fr": "\"Le lanceur heurte l’ennemi avec sa tête dure"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1204
+sprite_path = "res://assets/Items/TR74.png"

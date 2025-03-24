@@ -12,8 +12,8 @@ script = ExtResource("2_pttnf")
 pokemon_id = 26
 branch_code = ""
 names = {
-"en": "Alolan Raichu",
-"fr": "Alolan Raichu"
+"en": "Raichu",
+"fr": "Raichu"
 }
 generation = 7
 height = 0.7
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = "Alolan"
+genus = {
+"en": "Mouse Pokémon",
+"fr": "Pokémon Souris"
+}
 base_stats = {
 "attack": 85,
 "defense": 50,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/26-alola.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/26-alola.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/26-alola.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+"fr": "Il se protège des décharges grâce à sa queue qui dissipe l’électricité dans le sol."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -923,4 +928,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 804,
 "tm_id": ""
-}]
+}])

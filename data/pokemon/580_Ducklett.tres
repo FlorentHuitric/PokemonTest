@@ -15,7 +15,7 @@ pokemon_id = 580
 branch_code = ""
 names = {
 "en": "Ducklett",
-"fr": "Ducklett"
+"fr": "Couaneton"
 }
 generation = 5
 height = 0.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Water Bird Pokémon",
+"fr": "Pokémon Oiseaudo"
+}
 base_stats = {
 "attack": 44,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+"fr": "Quand on l’attaque, il s’ébroue et fait jaillir de la vapeur d’eau de tout son corps. Il se cache dedans pour s’enfuir."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 35",
+"condition_fr": "Niveau 35",
+"evolved_pokemon_id": 581,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -451,4 +466,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

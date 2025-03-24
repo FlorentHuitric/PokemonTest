@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_r5jvo"]
+
+[resource]
+script = ExtResource("1_r5jvo")
+item_id = 12
+identifier = "premier-ball"
+names = {
+"en": "Premier Ball",
+"fr": "Honor Ball"
+}
+cost = 20
+category_id = 33
+category_name = {
+"en": "Special balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A somewhat rare Poké Ball that was made as a",
+"fr": "\"Une Poké Ball assez rare qui fut créée"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 12
+sprite_path = "res://assets/Items/PREMIERBALL.png"

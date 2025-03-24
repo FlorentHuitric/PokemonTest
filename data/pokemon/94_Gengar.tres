@@ -13,7 +13,7 @@ pokemon_id = 94
 branch_code = ""
 names = {
 "en": "Gengar",
-"fr": "Gengar"
+"fr": "Ectoplasma"
 }
 generation = 1
 height = 1.5
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Shadow Pokémon",
+"fr": "Pokémon Ombre"
+}
 base_stats = {
 "attack": 65,
 "defense": 60,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
+"fr": "Si vous croisez un regard inquiétant qui perce la nuit, c’est sûrement un Ectoplasma."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -1313,4 +1318,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 810,
 "tm_id": ""
-}]
+}])

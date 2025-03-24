@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_mpf0o"]
+
+[resource]
+script = ExtResource("1_mpf0o")
+item_id = 414
+identifier = "pal-pad"
+names = {
+"en": "Pal Pad",
+"fr": "Registre Ami"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Use to record Friend Codes and check your own."
+}
+effect = {
+"en": "\"Contains friend codes for up to 32 other players"
+}
+flavor_text = {
+"en": "\"A convenient notepad that is used to register your",
+"fr": "\"Un carnet bien pratique pour enregistrer vos amis"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 437
+sprite_path = "res://assets/Items/PALPAD.png"

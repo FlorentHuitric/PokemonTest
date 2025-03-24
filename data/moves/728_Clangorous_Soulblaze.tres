@@ -18,8 +18,8 @@ accuracy = 0
 pp = 1
 generation = 7
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user’s stats.",
+"fr": "Ékaïser utilise la Force Z pour frapper l’ennemi de toutes ses forces. Augmente aussi ses stats."
 }
 tm_id = ""
 meta_category_id = 7
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 100
+move_target_id = 11
+move_target_name = {
+"en": "All opponents",
+"fr": "Tous les adversaires"
+}
+move_target_description = {
+"en": "All opposing Pokémon.",
+"fr": "Tous les Pokémon adverses."
+}
+move_effect_id = 419
+move_effect_short = {
+"en": "XXX new effect for clangorous-soulblaze"
+}
+metadata/move_target_id = 11
+metadata/move_effect_id = 419
+metadata/effect_chance = 100

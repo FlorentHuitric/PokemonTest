@@ -13,7 +13,7 @@ pokemon_id = 638
 branch_code = ""
 names = {
 "en": "Cobalion",
-"fr": "Cobalion"
+"fr": "Cobaltium"
 }
 generation = 5
 height = 2.1
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Semi-Legendary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Will Pokémon",
+"fr": "Pokémon Cœur de Fer"
+}
 base_stats = {
 "attack": 90,
 "defense": 129,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+"fr": "Il possède un corps et un cœur de fer. Il peut mater les Pokémon les plus agressifs d’un simple regard."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 49,
 "method": 1,
@@ -767,4 +772,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

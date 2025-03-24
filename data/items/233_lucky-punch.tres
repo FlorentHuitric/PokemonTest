@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_wsycs"]
+
+[resource]
+script = ExtResource("1_wsycs")
+item_id = 233
+identifier = "lucky-punch"
+names = {
+"en": "Lucky Punch",
+"fr": "Poing Chance"
+}
+cost = 1000
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 40
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Raises Chansey's critical hit ratio by two stages."
+}
+effect = {
+"en": "Held by Chansey: Raises the holder's critical hit counter by 2."
+}
+flavor_text = {
+"en": "\"An item to be held by Chansey. This pair of lucky",
+"fr": "\"Objet à faire tenir à Leveinard."
+}
+flags = Array[String](["holdable"])
+generation_id = 3
+game_index = 222
+sprite_path = "res://assets/Items/LUCKYPUNCH.png"

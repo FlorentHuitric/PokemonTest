@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://sushd7pvoi1l"
+
+[deps]
+
+files=["res://imports/items.identifier.translation", "res://imports/items.category.translation", "res://imports/items.cost.translation", "res://imports/items.fling.translation", "res://imports/items.fling.translation"]
+
+source_file="res://imports/items.csv"
+dest_files=["res://imports/items.identifier.translation", "res://imports/items.category.translation", "res://imports/items.cost.translation", "res://imports/items.fling.translation", "res://imports/items.fling.translation"]
+
+[params]
+
+compress=true
+delimiter=0

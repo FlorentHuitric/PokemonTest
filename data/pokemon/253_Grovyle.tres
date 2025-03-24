@@ -13,7 +13,7 @@ pokemon_id = 253
 branch_code = ""
 names = {
 "en": "Grovyle",
-"fr": "Grovyle"
+"fr": "Massko"
 }
 generation = 3
 height = 0.9
@@ -34,6 +34,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wood Gecko Pokémon",
+"fr": "Pokémon Bois Gecko"
+}
 base_stats = {
 "attack": 65,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+"fr": "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 36",
+"condition_fr": "Niveau 36",
+"evolved_pokemon_id": 254,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -917,4 +932,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

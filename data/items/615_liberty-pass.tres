@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pxjeh"]
+
+[resource]
+script = ExtResource("1_pxjeh")
+item_id = 615
+identifier = "liberty-pass"
+names = {
+"en": "Liberty Pass",
+"fr": "Passe Liberté"
+}
+cost = 0
+category_id = 20
+category_name = {
+"en": "Event items"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows access to Liberty Garden and Victini."
+}
+effect = {
+"en": "\"Allows passage on the []{location:castelia-city} ship"
+}
+flavor_text = {
+"en": "\"A special pass to go to Liberty Garden.",
+"fr": "\"Un ticket spécial permettant de se rendre"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 574
+sprite_path = "res://assets/Items/LIBERTYPASS.png"

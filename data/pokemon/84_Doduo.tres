@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Twin Bird Pokémon",
+"fr": "Pokémon Duoiseau"
+}
 base_stats = {
 "attack": 85,
 "defense": 45,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/84.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/84.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/84.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+"fr": "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 31",
+"condition_fr": "Niveau 31",
+"evolved_pokemon_id": 85,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -835,4 +850,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 97,
 "tm_id": ""
-}]
+}])

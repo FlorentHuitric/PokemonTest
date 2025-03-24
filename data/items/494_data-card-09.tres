@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jtawl"]
+
+[resource]
+script = ExtResource("1_jtawl")
+item_id = 494
+identifier = "data-card-09"
+names = {
+"en": "Data Card 09",
+"fr": "Carte Mémo09"
+}
+cost = 0
+category_id = 41
+category_name = {
+"en": "Data Cards"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Records the number of times the trainer has come in first in the Pokéathlon Disc Catch."
+}
+effect = {
+"en": "Records the number of times the trainer has come in first in the Pokéathlon Disc Catch."
+}
+flavor_text = {
+"en": "\"It holds Pokéathlon records. It is a card that shows",
+"fr": "\"Contient vos données du Pokéathlon."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 513
+sprite_path = "res://assets/Items/DATACARD09.png"

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2r37l"]
+
+[resource]
+script = ExtResource("1_2r37l")
+item_id = 1646
+identifier = "legendary-clue-3"
+names = {
+"en": "Legendary Clue 3",
+"fr": "Note Légende 3"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A clue about the legend of bird Pokémon. It’s written",
+"fr": "\"Les notes de Dhilan sur les oiseaux de légende."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1595
+sprite_path = "res://assets/Items/LEGENDARYCLUE3.png"

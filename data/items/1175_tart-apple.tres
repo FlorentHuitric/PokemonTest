@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_4x7qi"]
+
+[resource]
+script = ExtResource("1_4x7qi")
+item_id = 1175
+identifier = "tart-apple"
+names = {
+"en": "Tart Apple",
+"fr": "Pomme Acidulée"
+}
+cost = 2200
+category_id = 10
+category_name = {
+"en": "Evolution"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A peculiar apple that can make a certain species of",
+"fr": "\"Une pomme mystérieuse très acide qui permet"
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1117
+sprite_path = "res://assets/Items/TARTAPPLE.png"

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q6vrv"]
+
+[resource]
+script = ExtResource("1_q6vrv")
+item_id = 660
+identifier = "tm94"
+names = {
+"en": "TM94",
+"fr": "CT94"
+}
+cost = 10000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Rock Smash to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches []{move:rock-smash} to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"A restrained attack that prevents the target from",
+"fr": "\"Le lanceur retient ses coups pour que l’ennemi"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 619
+sprite_path = "res://assets/Items/TM94.png"

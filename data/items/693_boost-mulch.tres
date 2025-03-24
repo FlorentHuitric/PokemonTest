@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ryexs"]
+
+[resource]
+script = ExtResource("1_ryexs")
+item_id = 693
+identifier = "boost-mulch"
+names = {
+"en": "Boost Mulch",
+"fr": "Fertibérance"
+}
+cost = 200
+category_id = 32
+category_name = {
+"en": "Mulch"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Causes soil to dry out in 4 hours."
+}
+effect = {
+"en": "Causes soil to dry out in 4 hours."
+}
+flavor_text = {
+"en": "\"A fertilizer for growing Berries. However",
+"fr": "\"Un engrais à utiliser sur un sol meuble."
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 654
+sprite_path = "res://assets/Items/BOOSTMULCH.png"

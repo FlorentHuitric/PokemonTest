@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_2tktu"]
+
+[resource]
+script = ExtResource("1_2tktu")
+item_id = 3
+identifier = "great-ball"
+names = {
+"en": "Great Ball",
+"fr": "Super Ball"
+}
+cost = 600
+category_id = 34
+category_name = {
+"en": "Standard balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Tries to catch a wild Pokémon.  Success rate is 1.5×."
+}
+effect = {
+"en": "\"Used in battle"
+}
+flavor_text = {
+"en": "\"A good",
+"fr": "\"Une Poké Ball très performante dont le taux de réussite"
+}
+flags = Array[String](["countable", "consumable", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 3
+sprite_path = "res://assets/Items/GREATBALL.png"

@@ -15,7 +15,7 @@ pokemon_id = 305
 branch_code = ""
 names = {
 "en": "Lairon",
-"fr": "Lairon"
+"fr": "Galegon"
 }
 generation = 3
 height = 0.9
@@ -36,6 +36,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Iron Armor Pokémon",
+"fr": "Pokémon Armurfer"
+}
 base_stats = {
 "attack": 90,
 "defense": 140,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+"fr": "Il se nourrit du minerai de fer qu’il fore. Il défend son territoire en chargeant avec son corps d’acier."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 42",
+"condition_fr": "Niveau 42",
+"evolved_pokemon_id": 306,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1027,4 +1042,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 798,
 "tm_id": ""
-}]
+}])

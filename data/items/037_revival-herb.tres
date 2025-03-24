@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_k2gvf"]
+
+[resource]
+script = ExtResource("1_k2gvf")
+item_id = 37
+identifier = "revival-herb"
+names = {
+"en": "Revival Herb",
+"fr": "Herbe Rappel"
+}
+cost = 2800
+category_id = 29
+category_name = {
+"en": "Revival"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Revives with full HP"
+}
+effect = {
+"en": " but lowers happiness.\""
+}
+flavor_text = {
+"en": "\"A terribly bitter medicinal herb. It revives a fainted",
+"fr": "\"Une herbe médicinale très amère."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 33
+sprite_path = "res://assets/Items/REVIVALHERB.png"

@@ -14,7 +14,7 @@ pokemon_id = 617
 branch_code = ""
 names = {
 "en": "Accelgor",
-"fr": "Accelgor"
+"fr": "Limaspeed"
 }
 generation = 5
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Shell Out Pokémon",
+"fr": "Pokémon Exuviateur"
+}
 base_stats = {
 "attack": 70,
 "defense": 40,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+"fr": "Il s’est bien allégé en se débarrassant de sa lourde carapace. Il se bat avec l’agilité d’un ninja."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -630,4 +635,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 806,
 "tm_id": ""
-}]
+}])

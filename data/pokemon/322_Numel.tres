@@ -15,7 +15,7 @@ pokemon_id = 322
 branch_code = ""
 names = {
 "en": "Numel",
-"fr": "Numel"
+"fr": "Chamallot"
 }
 generation = 3
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Numb Pokémon",
+"fr": "Pokémon Engourdi"
+}
 base_stats = {
 "attack": 60,
 "defense": 40,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/322.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/322.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/322.png"
 description = {
-"en": "",
-"fr": ""
+"en": "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+"fr": "Son dos bossu renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 33",
+"condition_fr": "Niveau 33",
+"evolved_pokemon_id": 323,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -763,4 +778,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 484,
 "tm_id": ""
-}]
+}])

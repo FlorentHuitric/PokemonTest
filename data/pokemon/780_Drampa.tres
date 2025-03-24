@@ -15,7 +15,7 @@ pokemon_id = 780
 branch_code = ""
 names = {
 "en": "Drampa",
-"fr": "Drampa"
+"fr": "Draïeul"
 }
 generation = 7
 height = 3.0
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Placid Pokémon",
+"fr": "Pokémon Nonchalant"
+}
 base_stats = {
 "attack": 60,
 "defense": 85,
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 2,
@@ -793,4 +798,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

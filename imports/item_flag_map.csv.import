@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b1nl7ci673prv"
+
+[deps]
+
+files=["res://imports/item_flag_map.item.translation"]
+
+source_file="res://imports/item_flag_map.csv"
+dest_files=["res://imports/item_flag_map.item.translation"]
+
+[params]
+
+compress=true
+delimiter=0

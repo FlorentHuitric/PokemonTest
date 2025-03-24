@@ -12,7 +12,8 @@ script = ExtResource("2_pw7mi")
 pokemon_id = 208
 branch_code = ""
 names = {
-"en": "Mega Steelix"
+"en": "Steelix",
+"fr": "Steelix"
 }
 generation = 2
 height = 10.5
@@ -33,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Iron Snake Pokémon",
+"fr": "Pokémon Serpenfer"
+}
 base_stats = {
 "attack": 125,
 "defense": 230,
@@ -59,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/208-mega.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/208-mega.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/208-mega.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+"fr": "On pense que son corps s’est transformé à cause du fer contenu dans la terre dont il se nourrit."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -1306,4 +1312,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

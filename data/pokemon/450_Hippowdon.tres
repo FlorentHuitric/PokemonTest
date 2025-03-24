@@ -13,7 +13,7 @@ pokemon_id = 450
 branch_code = ""
 names = {
 "en": "Hippowdon",
-"fr": "Hippowdon"
+"fr": "Hippodocus"
 }
 generation = 4
 height = 2.0
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Heavyweight Pokémon",
+"fr": "Pokémon Poids Lourd"
+}
 base_stats = {
 "attack": 112,
 "defense": 118,
@@ -60,8 +64,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/450.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/450.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/450.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+"fr": "Facilement irritable, il ouvre ses mâchoires au maximum pour intimider ses adversaires."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -635,4 +640,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 815,
 "tm_id": ""
-}]
+}])

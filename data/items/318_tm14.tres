@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_oheme"]
+
+[resource]
+script = ExtResource("1_oheme")
+item_id = 318
+identifier = "tm14"
+names = {
+"en": "TM14",
+"fr": "CT14"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Blizzard to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches Blizzard to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"The user launches a weak jolt of electricity that",
+"fr": "\"Un faible choc électrique frappe l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 302
+sprite_path = "res://assets/Items/TM14.png"

@@ -14,7 +14,7 @@ pokemon_id = 594
 branch_code = ""
 names = {
 "en": "Alomomola",
-"fr": "Alomomola"
+"fr": "Mamanbo"
 }
 generation = 5
 height = 1.2
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Caring Pokémon",
+"fr": "Pokémon Soigneur"
+}
 base_stats = {
 "attack": 75,
 "defense": 80,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+"fr": "Il vit en dérivant dans les grands océans. Quand il trouve des Pokémon blessés, il les ramène jusqu’à la côte."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -516,4 +521,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

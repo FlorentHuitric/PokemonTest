@@ -14,7 +14,7 @@ pokemon_id = 395
 branch_code = ""
 names = {
 "en": "Empoleon",
-"fr": "Empoleon"
+"fr": "Pingoléon"
 }
 generation = 4
 height = 1.7
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Emperor Pokémon",
+"fr": "Pokémon Empereur"
+}
 base_stats = {
 "attack": 86,
 "defense": 88,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+"fr": "S’il voit son honneur bafoué, il est capable de faire des ravages avec ses ailes tranchantes."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 11,
 "method": 1,
@@ -678,4 +683,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

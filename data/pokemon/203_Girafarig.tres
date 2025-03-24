@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Long Neck Pokémon",
+"fr": "Pokémon Long-Cou"
+}
 base_stats = {
 "attack": 80,
 "defense": 65,
@@ -62,8 +66,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/203.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/203.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/203.png"
 description = {
-"en": "",
-"fr": ""
+"en": "The head on its tail contains a small brain. It can instinctively fight even while facing backward.",
+"fr": "La tête qu’il a sur la queue dispose de son propre cerveau et lui permet de couvrir ses arrières."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 2,
 "level": 1,
 "method": 1,
@@ -961,4 +966,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

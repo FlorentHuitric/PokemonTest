@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_3bno6"]
+
+[resource]
+script = ExtResource("1_3bno6")
+item_id = 542
+identifier = "devon-scope"
+names = {
+"en": "Devon Scope",
+"fr": "Devon Scope"
+}
+cost = 0
+category_id = 21
+category_name = {
+"en": "Gameplay"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Allows spotting of invisible Kecleon."
+}
+effect = {
+"en": "Reveals invisble []{pokemon:kecleon} on the overworld."
+}
+flavor_text = {
+"en": "\"A special device made by Devon Corporation that",
+"fr": "\"Ce produit en série limitée de Devon émet un signal"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 288
+sprite_path = "res://assets/Items/DEVONSCOPE.png"

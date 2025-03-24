@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_kk5kd"]
+
+[resource]
+script = ExtResource("1_kk5kd")
+item_id = 215
+identifier = "hard-stone"
+names = {
+"en": "Hard Stone",
+"fr": "Pierre Dure"
+}
+cost = 1000
+category_id = 19
+category_name = {
+"en": "Type enhancement"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 100
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Rock-Type moves from holder do 20% more damage."
+}
+effect = {
+"en": "Held: Increases the power of the holder's Rock moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a durable",
+"fr": "\"Objet à tenir. Une pierre incassable qui augmente"
+}
+flags = Array[String](["holdable", "holdable-active", "underground"])
+generation_id = 3
+game_index = 204
+sprite_path = "res://assets/Items/HARDSTONE.png"

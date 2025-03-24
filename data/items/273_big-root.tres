@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_hi4ix"]
+
+[resource]
+script = ExtResource("1_hi4ix")
+item_id = 273
+identifier = "big-root"
+names = {
+"en": "Big Root",
+"fr": "Grosse Racine"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"Held: Increases HP recovered from draining moves"
+}
+effect = {
+"en": " Ingrain"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It boosts the",
+"fr": "\"Objet à tenir. Augmente la puissance des capacités"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 4
+game_index = 296
+sprite_path = "res://assets/Items/BIGROOT.png"

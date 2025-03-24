@@ -14,7 +14,7 @@ pokemon_id = 100
 branch_code = ""
 names = {
 "en": "Voltorb",
-"fr": "Voltorb"
+"fr": "Voltorbe"
 }
 generation = 1
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Ball Pokémon",
+"fr": "Pokémon Balle"
+}
 base_stats = {
 "attack": 30,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+"fr": "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s’électrifier au toucher."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 30",
+"condition_fr": "Niveau 30",
+"evolved_pokemon_id": 101,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -882,4 +897,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 492,
 "tm_id": ""
-}]
+}])

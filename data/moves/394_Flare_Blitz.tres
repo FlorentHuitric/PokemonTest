@@ -18,8 +18,8 @@ accuracy = 100
 pp = 15
 generation = 4
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+"fr": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 10
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 10
+move_target_name = {
+"en": "Selected Pokémon",
+"fr": "Pokémon sélectionné"
+}
+move_target_description = {
+"en": "One other Pokémon on the field, selected by the trainer.",
+"fr": "Un autre Pokémon sur le terrain, sélectionné par le dresseur."
+}
+move_effect_id = 254
+move_effect_short = {
+"en": "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target."
+}
+metadata/move_target_id = 10
+metadata/move_effect_id = 254
+metadata/effect_chance = 10

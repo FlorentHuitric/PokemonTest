@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jbblw"]
+
+[resource]
+script = ExtResource("1_jbblw")
+item_id = 685
+identifier = "ability-capsule"
+names = {
+"en": "Ability Capsule",
+"fr": "Pilule Talent"
+}
+cost = 10000
+category_id = 26
+category_name = {
+"en": "Vitamins"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Switches a Pokémon between its two possible (non-Hidden) Abilities."
+}
+effect = {
+"en": "Switches a Pokémon between its two possible (non-Hidden) Abilities."
+}
+flavor_text = {
+"en": "\"A capsule that allows a Pokémon with two Abilities",
+"fr": "\"Une capsule permettant à un Pokémon pouvant"
+}
+flags = Array[String]([])
+generation_id = 6
+game_index = 645
+sprite_path = "res://assets/Items/ABILITYCAPSULE.png"

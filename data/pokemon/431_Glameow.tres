@@ -14,7 +14,7 @@ pokemon_id = 431
 branch_code = ""
 names = {
 "en": "Glameow",
-"fr": "Glameow"
+"fr": "Chaglam"
 }
 generation = 4
 height = 0.5
@@ -35,6 +35,10 @@ experience_type = "800000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Catty Pokémon",
+"fr": "Pokémon Chafouin"
+}
 base_stats = {
 "attack": 55,
 "defense": 42,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+"fr": "Il a tendance à planter ses griffes dans le nez de son Dresseur s’il n’a pas été nourri à temps."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 38",
+"condition_fr": "Niveau 38",
+"evolved_pokemon_id": 432,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 5,
 "method": 1,
@@ -600,4 +615,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 352,
 "tm_id": ""
-}]
+}])

@@ -14,8 +14,8 @@ script = ExtResource("4_8pnhr")
 pokemon_id = 585
 branch_code = ""
 names = {
-"en": "Deerling Summer Form",
-"fr": "Deerling Summer Form"
+"en": "Deerling",
+"fr": "Vivaldaim"
 }
 generation = 5
 height = 0.6
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Season Pokémon",
+"fr": "Pokémon Saison"
+}
 base_stats = {
 "attack": 60,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The turning of the seasons changes the color and scent of this Pokémon’s fur. People use it to mark the seasons.",
+"fr": "Quand la saison change, il change de pelage et d’odeur. Un Pokémon qui annonce le passage des saisons."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34",
+"condition_fr": "Niveau 34",
+"evolved_pokemon_id": 586,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 10,
 "method": 1,
@@ -469,4 +484,4 @@ learnable_moves = [{
 "method": 2,
 "move_id": 29,
 "tm_id": ""
-}]
+}])

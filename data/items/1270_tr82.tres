@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_jlb7a"]
+
+[resource]
+script = ExtResource("1_jlb7a")
+item_id = 1270
+identifier = "tr82"
+names = {
+"en": "TR82",
+"fr": "DT82"
+}
+cost = 4000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 20
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"The user attacks the target with stored power.",
+"fr": "\"Le lanceur attaque l’ennemi avec une force accumulée."
+}
+flags = Array[String]([])
+generation_id = 8
+game_index = 1212
+sprite_path = "res://assets/Items/TR82.png"

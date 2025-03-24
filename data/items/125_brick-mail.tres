@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pem3l"]
+
+[resource]
+script = ExtResource("1_pem3l")
+item_id = 125
+identifier = "brick-mail"
+names = {
+"en": "Brick Mail",
+"fr": "Lettre Brik"
+}
+cost = 50
+category_id = 25
+category_name = {
+"en": "All mail"
+}
+pocket_id = 6
+pocket_name = {
+"en": "Mail",
+"fr": "Lettres"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Lets a Trainer write a message and send it via Pokémon trade."
+}
+effect = {
+"en": "\"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read"
+}
+flavor_text = {
+"en": "\"Stationery featuring a print of a"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 148
+sprite_path = "res://assets/Items/BRICKMAIL.png"

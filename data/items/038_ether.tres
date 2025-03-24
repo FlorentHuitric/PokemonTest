@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_u70qj"]
+
+[resource]
+script = ExtResource("1_u70qj")
+item_id = 38
+identifier = "ether"
+names = {
+"en": "Ether",
+"fr": "Huile"
+}
+cost = 1200
+category_id = 28
+category_name = {
+"en": "PP recovery"
+}
+pocket_id = 2
+pocket_name = {
+"en": "Medicine",
+"fr": "Médicaments"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Restores 10 PP for one move."
+}
+effect = {
+"en": "\"Used on a party Pokémon"
+}
+flavor_text = {
+"en": "\"This medicine can be used to restore 10 PP to a single",
+"fr": "Restaure 10 PP d’une capacité sélectionnée."
+}
+flags = Array[String](["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"])
+generation_id = 3
+game_index = 34
+sprite_path = "res://assets/Items/ETHER.png"

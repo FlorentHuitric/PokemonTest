@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ohbcf"]
+
+[resource]
+script = ExtResource("1_ohbcf")
+item_id = 1026
+identifier = "marble"
+names = {
+"en": "Marble",
+"fr": "Bille"
+}
+cost = 300
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A round glass marble. You can see colored glass",
+"fr": "\"Une bille de verre transparente avec un motif coloré"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 887
+sprite_path = "res://assets/Items/MARBLE.png"

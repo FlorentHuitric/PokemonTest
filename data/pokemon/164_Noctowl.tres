@@ -15,7 +15,7 @@ pokemon_id = 164
 branch_code = ""
 names = {
 "en": "Noctowl",
-"fr": "Noctowl"
+"fr": "Noarfang"
 }
 generation = 2
 height = 1.6
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Owl Pokémon",
+"fr": "Pokémon Hibou"
+}
 base_stats = {
 "attack": 50,
 "defense": 50,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+"fr": "Ses yeux sont capables de voir distinctement même quand il fait très sombre."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -973,4 +978,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

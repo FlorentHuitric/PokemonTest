@@ -14,7 +14,7 @@ pokemon_id = 127
 branch_code = ""
 names = {
 "en": "Pinsir",
-"fr": "Pinsir"
+"fr": "Scarabrute"
 }
 generation = 1
 height = 1.5
@@ -35,6 +35,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Stag Beetle Pokémon",
+"fr": "Pokémon Scarabée"
+}
 base_stats = {
 "attack": 125,
 "defense": 100,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It grips prey with its pincers until the prey is torn in half. What it can’t tear, it tosses far.",
+"fr": "Il serre les proies dans ses pinces pour les trancher en deux. S’il n’y arrive pas, il les jette au loin."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -1134,4 +1139,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

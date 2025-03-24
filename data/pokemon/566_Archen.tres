@@ -13,7 +13,7 @@ pokemon_id = 566
 branch_code = ""
 names = {
 "en": "Archen",
-"fr": "Archen"
+"fr": "Arkéapti"
 }
 generation = 5
 height = 0.5
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "First Bird Pokémon",
+"fr": "Pokémon Oisancien"
+}
 base_stats = {
 "attack": 112,
 "defense": 45,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon.",
+"fr": "Un Pokémon recréé à partir d’un fossile. On pense qu’il est l’ancêtre de tous les Pokémon Oiseaux."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 37",
+"condition_fr": "Niveau 37",
+"evolved_pokemon_id": 567,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -809,4 +824,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

@@ -14,7 +14,7 @@ pokemon_id = 262
 branch_code = ""
 names = {
 "en": "Mightyena",
-"fr": "Mightyena"
+"fr": "Grahyèna"
 }
 generation = 3
 height = 1.0
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Bite Pokémon",
+"fr": "Pokémon Morsure"
+}
 base_stats = {
 "attack": 90,
 "defense": 70,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+"fr": "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d’un bon Dresseur."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -750,4 +755,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 675,
 "tm_id": ""
-}]
+}])

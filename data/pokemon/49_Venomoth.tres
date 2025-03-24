@@ -15,7 +15,7 @@ pokemon_id = 49
 branch_code = ""
 names = {
 "en": "Venomoth",
-"fr": "Venomoth"
+"fr": "Aéromite"
 }
 generation = 1
 height = 1.5
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Poison Moth Pokémon",
+"fr": "Pokémon Papipoison"
+}
 base_stats = {
 "attack": 65,
 "defense": 60,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+"fr": "Il répand ses écailles poudreuses en battant des ailes. Elles sont toxiques au toucher."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 0,
 "method": 4,
@@ -889,4 +894,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 483,
 "tm_id": ""
-}]
+}])

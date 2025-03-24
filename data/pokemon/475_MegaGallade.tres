@@ -12,7 +12,8 @@ script = ExtResource("2_sl4a2")
 pokemon_id = 475
 branch_code = ""
 names = {
-"en": "Mega Gallade"
+"en": "Gallade",
+"fr": "Gallame"
 }
 generation = 4
 height = 1.6
@@ -33,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = true
 region_form = ""
+genus = {
+"en": "Blade Pokémon",
+"fr": "Pokémon Lame"
+}
 base_stats = {
 "attack": 165,
 "defense": 95,
@@ -59,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+"fr": "Toujours prêt à protéger son prochain, il se bat férocement avec ses coudes en forme d’épées."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +93,48 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 476,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 476,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 476,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 476,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 4,
 "level": 25,
 "method": 1,
@@ -1360,4 +1406,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 813,
 "tm_id": ""
-}]
+}])

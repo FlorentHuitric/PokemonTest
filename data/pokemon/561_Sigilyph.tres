@@ -15,7 +15,7 @@ pokemon_id = 561
 branch_code = ""
 names = {
 "en": "Sigilyph",
-"fr": "Sigilyph"
+"fr": "Cryptéro"
 }
 generation = 5
 height = 1.4
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Avianoid Pokémon",
+"fr": "Pokémon Similoiseau"
+}
 base_stats = {
 "attack": 58,
 "defense": 80,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+"fr": "Il était le dieu protecteur d’une ville antique. Il repoussait les envahisseurs à coups de pouvoir psychique."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -817,4 +822,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

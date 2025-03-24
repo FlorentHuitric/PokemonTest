@@ -18,8 +18,8 @@ accuracy = 100
 pp = 10
 generation = 5
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+"fr": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner."
 }
 tm_id = ""
 meta_category_id = 4
@@ -41,3 +41,20 @@ crit_rate = 0
 ailment_chance = 10
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 9
+move_target_name = {
+"en": "All other Pokémon",
+"fr": "Tous les autres Pokémon"
+}
+move_target_description = {
+"en": "Every other Pokémon on the field.",
+"fr": "Tous les autres Pokémon sur le terrain."
+}
+move_effect_id = 3
+move_effect_short = {
+"en": "Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
+"fr": "A $effect_chance% de chances d'[empoisonner]{mechanic:poison} la cible."
+}
+metadata/move_target_id = 9
+metadata/move_effect_id = 3
+metadata/effect_chance = 10

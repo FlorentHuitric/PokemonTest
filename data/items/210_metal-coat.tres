@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_8aan7"]
+
+[resource]
+script = ExtResource("1_8aan7")
+item_id = 210
+identifier = "metal-coat"
+names = {
+"en": "Metal Coat",
+"fr": "Peau Métal"
+}
+cost = 2000
+category_id = 19
+category_name = {
+"en": "Type enhancement"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Steel-Type moves from holder do 20% more damage."
+}
+effect = {
+"en": "\"Held: Increases the power of the holder's Steel moves by 20%."
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. It’s a special",
+"fr": "\"Objet à tenir. Une pellicule métallique spéciale"
+}
+flags = Array[String](["holdable", "holdable-active"])
+generation_id = 3
+game_index = 199
+sprite_path = "res://assets/Items/METALCOAT.png"

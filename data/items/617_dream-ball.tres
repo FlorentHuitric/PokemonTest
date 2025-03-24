@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_45g5k"]
+
+[resource]
+script = ExtResource("1_45g5k")
+item_id = 617
+identifier = "dream-ball"
+names = {
+"en": "Dream Ball",
+"fr": "Rêve Ball"
+}
+cost = 0
+category_id = 33
+category_name = {
+"en": "Special balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Catches Pokémon found in the Dream World."
+}
+effect = {
+"en": "\"Can only be used in Entree Forest"
+}
+flavor_text = {
+"en": "\"A somewhat different Poké Ball that makes it easier to",
+"fr": "\"Une Poké Ball un peu spéciale qui fonctionne"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 576
+sprite_path = "res://assets/Items/DREAMBALL.png"

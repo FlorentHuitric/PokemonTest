@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_dihgx"]
+
+[resource]
+script = ExtResource("1_dihgx")
+item_id = 326
+identifier = "tm22"
+names = {
+"en": "TM22",
+"fr": "CT22"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches SolarBeam to a compatible Pokémon."
+}
+effect = {
+"en": "Teaches SolarBeam to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"Large boulders are hurled at opposing Pokémon to",
+"fr": "\"Envoie de gros rochers sur l’ennemi pour infliger"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 310
+sprite_path = "res://assets/Items/TM22.png"

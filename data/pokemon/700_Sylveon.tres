@@ -13,7 +13,7 @@ pokemon_id = 700
 branch_code = ""
 names = {
 "en": "Sylveon",
-"fr": "Sylveon"
+"fr": "Nymphali"
 }
 generation = 6
 height = 1.0
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Intertwining Pokémon",
+"fr": "Pokémon Attachant"
+}
 base_stats = {
 "attack": 65,
 "defense": 65,
@@ -89,7 +93,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 7,
 "level": 0,
 "method": 4,
@@ -695,4 +700,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 802,
 "tm_id": ""
-}]
+}])

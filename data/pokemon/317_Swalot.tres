@@ -14,7 +14,7 @@ pokemon_id = 317
 branch_code = ""
 names = {
 "en": "Swalot",
-"fr": "Swalot"
+"fr": "Avaltout"
 }
 generation = 3
 height = 1.7
@@ -35,6 +35,10 @@ experience_type = "1640000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Poison Bag Pokémon",
+"fr": "Pokémon Sac Poison"
+}
 base_stats = {
 "attack": 73,
 "defense": 83,
@@ -61,8 +65,8 @@ sprite_female_back = "res://assets/sprites/pokemon/female/back/317.png"
 sprite_shiny_female_front = "res://assets/sprites/pokemon/shiny/female/317.png"
 sprite_shiny_female_back = "res://assets/sprites/pokemon/shiny/female/back/317.png"
 description = {
-"en": "",
-"fr": ""
+"en": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+"fr": "Il avale tout en une bouchée. Ses follicules sécrètent des fluides toxiques qui endorment l’ennemi."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -828,4 +833,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 599,
 "tm_id": ""
-}]
+}])

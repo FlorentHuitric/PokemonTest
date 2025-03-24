@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_6c8ld"]
+
+[resource]
+script = ExtResource("1_6c8ld")
+item_id = 677
+identifier = "grubby-hanky"
+names = {
+"en": "Grubby Hanky",
+"fr": "Mouchoir Sale"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Appears in the Café Warehouse on Sunday; return to the customer with a Patrat on Thursday."
+}
+effect = {
+"en": ""
+}
+flavor_text = {
+"en": "\"A handkerchief dropped by a regular at",
+"fr": "\"Un mouchoir égaré par un habitué du Café"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 634
+sprite_path = "res://assets/Items/GRUBBYHANKY.png"

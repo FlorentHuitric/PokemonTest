@@ -12,7 +12,7 @@ pokemon_id = 563
 branch_code = ""
 names = {
 "en": "Cofagrigus",
-"fr": "Cofagrigus"
+"fr": "Tutankafer"
 }
 generation = 5
 height = 1.7
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Coffin Pokémon",
+"fr": "Pokémon Cercueil"
+}
 base_stats = {
 "attack": 50,
 "defense": 145,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
+"fr": "Il prend l’apparence d’un beau cercueil pour punir les pilleurs de tombes. Son corps est recouvert d’or pur."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -748,4 +753,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 809,
 "tm_id": ""
-}]
+}])

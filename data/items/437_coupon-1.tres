@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q4f3v"]
+
+[resource]
+script = ExtResource("1_q4f3v")
+item_id = 437
+identifier = "coupon-1"
+names = {
+"en": "Coupon 1",
+"fr": "Bon 1"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "The first of three tickets used to obtain a Pokétch."
+}
+effect = {
+"en": "One of three coupons needed to receive a Pokétch."
+}
+flavor_text = {
+"en": "\"A coupon to be exchanged for a Pokémon Watch—",
+"fr": "Un des trois bons à échanger contre une Pokémontre."
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 460
+sprite_path = "res://assets/Items/COUPON1.png"

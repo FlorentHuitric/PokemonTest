@@ -12,7 +12,7 @@ pokemon_id = 775
 branch_code = ""
 names = {
 "en": "Komala",
-"fr": "Komala"
+"fr": "Dodoala"
 }
 generation = 7
 height = 0.4
@@ -33,6 +33,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Drowsing Pokémon",
+"fr": "Pokémon Rêveur"
+}
 base_stats = {
 "attack": 115,
 "defense": 65,
@@ -88,7 +92,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -412,4 +417,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 707,
 "tm_id": ""
-}]
+}])

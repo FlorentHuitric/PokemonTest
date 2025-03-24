@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_n7foj"]
+
+[resource]
+script = ExtResource("1_n7foj")
+item_id = 1015
+identifier = "golden-razz-berry"
+names = {
+"en": "Golden Razz Berry",
+"fr": "Baie Framby dorée"
+}
+cost = 5000
+category_id = 48
+category_name = {
+"en": "Catching bonus"
+}
+pocket_id = 5
+pocket_name = {
+"en": "Berries",
+"fr": "Baies"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"A Berry that makes it drastically easier to catch",
+"fr": "\"Une Baie à donner à un Pokémon sauvage pour pouvoir"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 862
+sprite_path = "res://assets/Items/GOLDENRAZZBERRY.png"

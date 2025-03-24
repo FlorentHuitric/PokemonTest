@@ -14,7 +14,7 @@ pokemon_id = 620
 branch_code = ""
 names = {
 "en": "Mienshao",
-"fr": "Mienshao"
+"fr": "Shaofouine"
 }
 generation = 5
 height = 1.4
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Martial Arts Pokémon",
+"fr": "Pokémon Art Martial"
+}
 base_stats = {
 "attack": 125,
 "defense": 60,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "They use the long fur on their arms as a whip to strike their opponents.",
+"fr": "Il combat à l’aide des longs poils de ses pattes antérieures. Ils font aussi mal qu’un fouet."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -744,4 +749,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])

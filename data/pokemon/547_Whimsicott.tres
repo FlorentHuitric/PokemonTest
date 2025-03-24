@@ -15,7 +15,7 @@ pokemon_id = 547
 branch_code = ""
 names = {
 "en": "Whimsicott",
-"fr": "Whimsicott"
+"fr": "Farfaduvet"
 }
 generation = 5
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Windveiled Pokémon",
+"fr": "Pokémon Vole Vent"
+}
 base_stats = {
 "attack": 67,
 "defense": 85,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
+"fr": "Il apparaît dans un tourbillon de vent, s’introduit dans les maisons par les interstices et y joue de mauvais tours."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 10,
 "method": 1,
@@ -607,4 +612,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

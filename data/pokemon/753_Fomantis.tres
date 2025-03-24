@@ -13,7 +13,7 @@ pokemon_id = 753
 branch_code = ""
 names = {
 "en": "Fomantis",
-"fr": "Fomantis"
+"fr": "Mimantis"
 }
 generation = 7
 height = 0.3
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Sickle Grass Pokémon",
+"fr": "Pokémon Fauch’Herbe"
+}
 base_stats = {
 "attack": 55,
 "defense": 35,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 34 + Time: day",
+"condition_fr": "Niveau 34 + Moment: jour",
+"evolved_pokemon_id": 754,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -533,4 +548,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 803,
 "tm_id": ""
-}]
+}])

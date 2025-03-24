@@ -13,7 +13,7 @@ pokemon_id = 634
 branch_code = ""
 names = {
 "en": "Zweilous",
-"fr": "Zweilous"
+"fr": "Diamat"
 }
 generation = 5
 height = 1.4
@@ -34,6 +34,10 @@ experience_type = "1250000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Hostile Pokémon",
+"fr": "Pokémon Violent"
+}
 base_stats = {
 "attack": 85,
 "defense": 70,
@@ -60,8 +64,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+"fr": "Ses deux têtes s’entendent mal. Même en mangeant, elles se cherchent des noises et dévorent à qui mieux mieux."
 }
 iv_ranges = {
 "attack": {
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 64",
+"condition_fr": "Niveau 64",
+"evolved_pokemon_id": 635,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 28,
 "method": 1,
@@ -665,4 +680,4 @@ learnable_moves = [{
 "method": 1,
 "move_id": 526,
 "tm_id": ""
-}]
+}])

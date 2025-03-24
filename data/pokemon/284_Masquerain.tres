@@ -14,7 +14,7 @@ pokemon_id = 284
 branch_code = ""
 names = {
 "en": "Masquerain",
-"fr": "Masquerain"
+"fr": "Maskadra"
 }
 generation = 3
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Eyeball Pokémon",
+"fr": "Pokémon Boule Œil"
+}
 base_stats = {
 "attack": 60,
 "defense": 62,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+"fr": "Des motifs en forme d’yeux ornent ses antennes. Ses 4 ailes l’aident à voler dans toutes les directions."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 6,
 "level": 26,
 "method": 1,
@@ -690,4 +695,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 710,
 "tm_id": ""
-}]
+}])

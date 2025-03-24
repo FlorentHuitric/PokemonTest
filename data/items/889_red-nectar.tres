@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xdqs2"]
+
+[resource]
+script = ExtResource("1_xdqs2")
+item_id = 889
+identifier = "red-nectar"
+names = {
+"en": "Red Nectar",
+"fr": "Nectar Rouge"
+}
+cost = 300
+category_id = 18
+category_name = {
+"en": "Species-specific"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 10
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Changes Oricorio to Baile Style."
+}
+effect = {
+"en": "Changes Oricorio to Baile Style.  Single-use and cannot be used in battle."
+}
+flavor_text = {
+"en": "\"A flower nectar obtained at Ula’ula Meadow.",
+"fr": "\"Un nectar obtenu au Jardin d’Ula-Ula."
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 853
+sprite_path = "res://assets/Items/REDNECTAR.png"

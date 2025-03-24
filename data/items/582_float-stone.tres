@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_q8p7o"]
+
+[resource]
+script = ExtResource("1_q8p7o")
+item_id = 582
+identifier = "float-stone"
+names = {
+"en": "Float Stone",
+"fr": "Pierrallégée"
+}
+cost = 4000
+category_id = 12
+category_name = {
+"en": "Held items"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Held: Holder has 0.5× weight."
+}
+effect = {
+"en": "\"Held"
+}
+flavor_text = {
+"en": "\"An item to be held by a Pokémon. This very light",
+"fr": "\"Objet à tenir. Une pierre très légère qui réduit le poids"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 539
+sprite_path = "res://assets/Items/FLOATSTONE.png"

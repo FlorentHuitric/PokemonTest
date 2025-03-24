@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_slpen"]
+
+[resource]
+script = ExtResource("1_slpen")
+item_id = 1012
+identifier = "catching-pocket"
+names = {
+"en": "Catching Pocket",
+"fr": "Poche de Capture"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {}
+effect = {}
+flavor_text = {
+"en": "\"-",
+"fr": "\"-"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 127
+sprite_path = "res://assets/Items/CATCHINGPOCKET.png"

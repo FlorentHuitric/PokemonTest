@@ -18,8 +18,8 @@ accuracy = 100
 pp = 20
 generation = 2
 descriptions = {
-"en": "Description not available yet.",
-"fr": "Description non disponible pour le moment."
+"en": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+"fr": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis."
 }
 tm_id = ""
 meta_category_id = 0
@@ -41,3 +41,19 @@ crit_rate = 0
 ailment_chance = 0
 flinch_chance = 0
 stat_chance = 0
+move_target_id = 1
+move_target_name = {
+"en": "Specific move",
+"fr": "Capacité spécifique"
+}
+move_target_description = {
+"en": "One specific move.  How this move is chosen depends upon on the move being used.",
+"fr": "Une capacité spécifique. La façon dont cette capacité est choisie dépend de la capacité utilisée."
+}
+move_effect_id = 145
+move_effect_short = {
+"en": "Inflicts twice the damage the user received from the last special hit it took."
+}
+metadata/move_target_id = 1
+metadata/move_effect_id = 145
+metadata/effect_chance = 0

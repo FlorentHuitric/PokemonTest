@@ -12,7 +12,7 @@ pokemon_id = 11
 branch_code = ""
 names = {
 "en": "Metapod",
-"fr": "Metapod"
+"fr": "Chrysacier"
 }
 generation = 1
 height = 0.7
@@ -33,6 +33,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Cocoon Pokémon",
+"fr": "Pokémon Cocon"
+}
 base_stats = {
 "attack": 20,
 "defense": 55,
@@ -59,8 +63,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+"fr": "Son corps frêle est protégé par sa carapace d’acier. Il encaisse les coups durs en attendant d’évoluer."
 }
 iv_ranges = {
 "attack": {
@@ -88,7 +92,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 10",
+"condition_fr": "Niveau 10",
+"evolved_pokemon_id": 12,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -142,4 +157,4 @@ learnable_moves = [{
 "method": 4,
 "move_id": 527,
 "tm_id": ""
-}]
+}])

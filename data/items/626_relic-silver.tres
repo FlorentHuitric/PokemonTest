@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_xcfld"]
+
+[resource]
+script = ExtResource("1_xcfld")
+item_id = 626
+identifier = "relic-silver"
+names = {
+"en": "Relic Silver",
+"fr": "Vieil Écu"
+}
+cost = 0
+category_id = 24
+category_name = {
+"en": "Loot"
+}
+pocket_id = 1
+pocket_name = {
+"en": "Items",
+"fr": "Objets"
+}
+fling_power = 30
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Sell to Villa Owner 5000 Pokédollars."
+}
+effect = {
+"en": "Cult vendor trash."
+}
+flavor_text = {
+"en": "\"A silver coin used by an ancient civilization about",
+"fr": "\"Une pièce d’argent d’une civilisation vieille de plus"
+}
+flags = Array[String]([])
+generation_id = 5
+game_index = 585
+sprite_path = "res://assets/Items/RELICSILVER.png"

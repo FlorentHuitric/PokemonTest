@@ -15,7 +15,7 @@ pokemon_id = 618
 branch_code = ""
 names = {
 "en": "Stunfisk",
-"fr": "Stunfisk"
+"fr": "Limonde"
 }
 generation = 5
 height = 0.7
@@ -36,6 +36,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Trap Pokémon",
+"fr": "Pokémon Piège"
+}
 base_stats = {
 "attack": 66,
 "defense": 84,
@@ -62,8 +66,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+"fr": "Tapi dans la boue ou les sédiments, il attend sa proie patiemment et la paralyse avec une décharge électrique."
 }
 iv_ranges = {
 "attack": {
@@ -91,7 +95,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 0,
 "method": 4,
@@ -721,4 +726,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 808,
 "tm_id": ""
-}]
+}])

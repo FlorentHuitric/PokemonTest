@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_pr806"]
+
+[resource]
+script = ExtResource("1_pr806")
+item_id = 999
+identifier = "roto-friendship"
+names = {
+"en": "Roto Friendship",
+"fr": "Moti-Cœur"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for roto-friendship"
+}
+effect = {
+"en": "XXX new effect for roto-friendship"
+}
+flavor_text = {
+"en": "\"One of the Rotom Powers.",
+"fr": "\"Une des Motism’Auras. Elle permet d’augmenter"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 953
+sprite_path = "res://assets/Items/ROTOFRIENDSHIP.png"

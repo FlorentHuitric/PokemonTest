@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cxn21ny2fy0cf"
+
+[deps]
+
+files=["res://imports/evolution_triggers.identifier.translation"]
+
+source_file="res://imports/evolution_triggers.csv"
+dest_files=["res://imports/evolution_triggers.identifier.translation"]
+
+[params]
+
+compress=true
+delimiter=0

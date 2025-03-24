@@ -12,8 +12,8 @@ script = ExtResource("3_bul6j")
 pokemon_id = 865
 branch_code = ""
 names = {
-"en": "Sirfetch'd",
-"fr": "Sirfetch'd"
+"en": "Sirfetch’d",
+"fr": "Palarticho"
 }
 generation = 8
 height = 0.8
@@ -34,6 +34,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Wild Duck Pokémon",
+"fr": "Pokémon Canard Fou"
+}
 base_stats = {
 "attack": 135,
 "defense": 95,
@@ -89,7 +93,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 42",
+"condition_fr": "Niveau 42",
+"evolved_pokemon_id": 866,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 45,
 "method": 1,
@@ -395,4 +410,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 814,
 "tm_id": ""
-}]
+}])

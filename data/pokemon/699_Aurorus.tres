@@ -14,7 +14,7 @@ pokemon_id = 699
 branch_code = ""
 names = {
 "en": "Aurorus",
-"fr": "Aurorus"
+"fr": "Dragmara"
 }
 generation = 6
 height = 2.7
@@ -35,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Tundra Pokémon",
+"fr": "Pokémon Toundra"
+}
 base_stats = {
 "attack": 77,
 "defense": 72,
@@ -90,7 +94,28 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Special condition",
+"condition_fr": "Condition spéciale",
+"evolved_pokemon_id": 700,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}, {
+"condition": {},
+"condition_en": "Happiness 160",
+"condition_fr": "Bonheur 160",
+"evolved_pokemon_id": 700,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 15,
 "method": 1,
@@ -792,4 +817,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 800,
 "tm_id": ""
-}]
+}])

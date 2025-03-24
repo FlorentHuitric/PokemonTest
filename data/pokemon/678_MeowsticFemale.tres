@@ -13,7 +13,8 @@ script = ExtResource("4_u6cv8")
 pokemon_id = 678
 branch_code = ""
 names = {
-"en": "Meowstic Female"
+"en": "Meowstic",
+"fr": "Mistigrix"
 }
 generation = 6
 height = 0.6
@@ -34,6 +35,10 @@ experience_type = "1000000"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Constraint Pokémon",
+"fr": "Pokémon SelfContrôle"
+}
 base_stats = {
 "attack": 48,
 "defense": 76,
@@ -89,7 +94,8 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = Array[Dictionary]([])
+learnable_moves = Array[Dictionary]([{
 "generation": 8,
 "level": 1,
 "method": 1,
@@ -809,4 +815,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 797,
 "tm_id": ""
-}]
+}])

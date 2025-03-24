@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_v7d8v"]
+
+[resource]
+script = ExtResource("1_v7d8v")
+item_id = 990
+identifier = "n-lunarizer--merge"
+names = {
+"en": "N-Lunarizer",
+"fr": "Necroluna"
+}
+cost = 0
+category_id = 23
+category_name = {
+"en": "Unused"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "XXX new effect for n-lunarizer--merge"
+}
+effect = {
+"en": "XXX new effect for n-lunarizer--merge"
+}
+flavor_text = {
+"en": "\"A machine to fuse Necrozma",
+"fr": "\"Un appareil permettant à un Necrozma assoiffé"
+}
+flags = Array[String]([])
+generation_id = 7
+game_index = 944
+sprite_path = "res://assets/Items/NLUNARIZERMERGE.png"

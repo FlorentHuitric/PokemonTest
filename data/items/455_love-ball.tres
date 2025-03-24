@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_h0ncw"]
+
+[resource]
+script = ExtResource("1_h0ncw")
+item_id = 455
+identifier = "love-ball"
+names = {
+"en": "Love Ball",
+"fr": "Love Ball"
+}
+cost = 0
+category_id = 39
+category_name = {
+"en": "Apricorn balls"
+}
+pocket_id = 3
+pocket_name = {
+"en": "Poké Balls",
+"fr": "Balls"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "\"8× effectiveness on opposite sex"
+}
+effect = {
+"en": " same species targets of the Active Pokémon. Made from Pnk Apricorn.\""
+}
+flavor_text = {
+"en": "\"A Poké Ball that works best when catching a",
+"fr": "\"Une Poké Ball un peu spéciale qui fonctionne"
+}
+flags = Array[String]([])
+generation_id = 4
+game_index = 496
+sprite_path = "res://assets/Items/LOVEBALL.png"

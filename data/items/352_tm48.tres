@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_ixcdj"]
+
+[resource]
+script = ExtResource("1_ixcdj")
+item_id = 352
+identifier = "tm48"
+names = {
+"en": "TM48",
+"fr": "CT48"
+}
+cost = 1000
+category_id = 37
+category_name = {
+"en": "All machines"
+}
+pocket_id = 4
+pocket_name = {
+"en": "TMs and HMs",
+"fr": "CT & CS"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Teaches Round to a compatible Pokémon. (Gen IV & III: Skill Swap Gen II: Fire Punch Gen I: Rock Slide)"
+}
+effect = {
+"en": "Teaches Skill Swap to a compatible Pokémon."
+}
+flavor_text = {
+"en": "\"Boulders are hurled at the target. This also lowers",
+"fr": "\"Des rochers frappent l’ennemi."
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 336
+sprite_path = "res://assets/Items/TM48.png"

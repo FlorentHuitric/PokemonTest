@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ItemResource.gd" id="1_0i0cs"]
+
+[resource]
+script = ExtResource("1_0i0cs")
+item_id = 553
+identifier = "tri-pass"
+names = {
+"en": "Tri-Pass",
+"fr": "Tri-Passe"
+}
+cost = 0
+category_id = 22
+category_name = {
+"en": "Plot advancement"
+}
+pocket_id = 8
+pocket_name = {
+"en": "Key Items",
+"fr": "Object rares"
+}
+fling_power = 0
+fling_effect_id = 0
+fling_effect = {}
+short_effect = {
+"en": "Grants access to the first three Sevii Islands."
+}
+effect = {
+"en": "Provides access to the first three Sevii Islands."
+}
+flavor_text = {
+"en": "\"A pass for ferries between ONE"
+}
+flags = Array[String]([])
+generation_id = 3
+game_index = 367
+sprite_path = "res://assets/Items/TRIPASS.png"

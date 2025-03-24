@@ -14,7 +14,7 @@ pokemon_id = 66
 branch_code = ""
 names = {
 "en": "Machop",
-"fr": "Machop"
+"fr": "Machoc"
 }
 generation = 1
 height = 0.8
@@ -35,6 +35,10 @@ experience_type = "1059860"
 category = "Ordinary"
 mega_evolution_flag = false
 region_form = ""
+genus = {
+"en": "Superpower Pokémon",
+"fr": "Pokémon Colosse"
+}
 base_stats = {
 "attack": 80,
 "defense": 50,
@@ -61,8 +65,8 @@ sprite_female_back = ""
 sprite_shiny_female_front = ""
 sprite_shiny_female_back = ""
 description = {
-"en": "",
-"fr": ""
+"en": "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+"fr": "Malgré sa petite taille, sa force lui permet de soulever plusieurs Racaillou à la fois."
 }
 iv_ranges = {
 "attack": {
@@ -90,7 +94,18 @@ iv_ranges = {
 "min": 0
 }
 }
-learnable_moves = [{
+evolutions = [{
+"condition": {},
+"condition_en": "Level 28",
+"condition_fr": "Niveau 28",
+"evolved_pokemon_id": 67,
+"trigger_name": {
+"en": "Level up",
+"fr": "Montée de niveau"
+},
+"trigger_type": "level-up"
+}]
+learnable_moves = Array[Dictionary]([{
 "generation": 1,
 "level": 1,
 "method": 1,
@@ -1248,4 +1263,4 @@ learnable_moves = [{
 "method": 3,
 "move_id": 811,
 "tm_id": ""
-}]
+}])
